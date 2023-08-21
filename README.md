@@ -231,3 +231,83 @@
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
 * [easy-query](https://github.com/xuejmnet/easy-query)：Java/Kotlin高性能轻量级JDBC查询解决方案，支持分表，数据库支持主从。
 * [Nutz](https://github.com/nutzam/nutz)：包含全功能的ORM、Web框架。
+
+## 任务调度
+
+* [xxl-job](https://github.com/xuxueli/xxl-job)：分布式任务调度平台。
+* [Quartz](https://github.com/quartz-scheduler/quartz)：老牌任务调度框架。
+* [elasticjob](https://github.com/apache/shardingsphere-elasticjob)：当当网开源的分布式任务调度框架，基于Quartz二次开发。
+* [PowerJob](https://github.com/PowerJob/PowerJob)：具有分布式计算能力的企业作业调度中间件。
+* [Spring Task](https://docs.spring.io/spring-framework/reference/integration/scheduling.html#scheduling-task-scheduler)：Spring提供的任务调度集成。
+* [jobrunr](https://github.com/jobrunr/jobrunr)：一种在Java中执行后台处理的极其简单的方法，由持久存储支持。
+* [schedulerx](https://www.aliyun.com/aliware/schedulerx)：阿里开发的基于Akka架构的分布式任务调度平台。
+* [ShedLock](https://github.com/lukas-krecan/ShedLock)：调度任务的分布式锁。
+* [disjob](https://gitee.com/dromara/disjob)：dromara开源的分布式任务调度框架。
+* [light-job](light-task-scheduler)：国产分布式调度任务框架。
+* [Saturn](https://github.com/vipshop/Saturn)：唯品会开源的分布式作业调度平台。
+* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Apache Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [aurora](https://github.com/apache/aurora)：用于长时间运行的服务、cron作业和临时作业的Mesos框架，该项目在Apache基金会下已经退役。
+* [db-scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
+* [openjob](https://github.com/open-job/openjob)：分布式高性能任务调度框架。
+* [Sundial](https://github.com/knowm/Sundial)：轻量级的作业调度框架。
+* [android-job](https://github.com/evernote/android-job)：用于在后台处理任务的Android库，该项目不再维护。
+* [jobx](https://github.com/datavane/jobx)：轻量级的任务调度库。
+* [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：古老的Java平台调度程序。
+
+## 业务流 & 规则引擎
+
+* [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和业务流程管理(BPM)平台，面向业务人员、开发人员和系统管理员。
+* [Drools](https://github.com/kiegroup/drools)：Drools是Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
+* [Camunda](https://github.com/camunda/camunda-bpm-platform)：使用BPMN和DMN实现工作流程和决策自动化的灵活框架。与Spring、Spring Boot、CDI集成。
+* [Flowable](https://github.com/flowable/flowable-engine)：为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和业务流程管理(BPM)平台。
+* [dolphinscheduler](https://github.com/apache/dolphinscheduler)：Apache DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程。
+* [jbpm](https://github.com/kiegroup/jbpm)：业务流程管理(BPM)套件。
+* [liteflow](https://github.com/dromara/liteflow)：dromara开源的轻量级、快速、稳定、可编程的基于组件的规则引擎/流程引擎。
+* [piper](https://github.com/runabol/piper)：分布式工作流引擎。
+* [zeebe](https://github.com/camunda/zeebe)：用于微服务编排的分布式工作流引擎。
+* [compileflow](https://github.com/alibaba/compileflow)：阿里开源的高性能流程编排引擎。
+* [bulbasaur](https://github.com/alibaba/bulbasaur)：阿里开源的可插拔的精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
+* [SmartEngine](https://github.com/alibaba/SmartEngine)：阿里开源的一个轻量级的业务编排引擎。
+* [kestra](https://github.com/kestra-io/kestra)：Kestra是一个无限可扩展的编排和调度平台，可创建、运行、调度和监控数百万个复杂的管道。
+* [azkaban](https://github.com/azkaban/azkaban)：工作流程管理器。
+* [imixs-workflow](https://github.com/imixs/imixs-workflow)：用于业务流程管理的开源框架。
+* [easy-rules](https://github.com/j-easy/easy-rules)：简单的Java规则引擎。
+* [digdag](https://github.com/treasure-data/digdag)：工作负载自动化系统。
+* [cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
+* [openl-tablets](https://github.com/openl-tablets/openl-tablets)：业务规则管理系统。
+* [agile-bpm](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
+* [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
+
+## 构建工具
+
+* [Apache Maven](https://github.com/apache/maven)：使用最广泛的Java构建工具。
+* [mvnd](https://github.com/apache/maven-mvnd)：提供更快的Maven构建。
+* [Gradle](https://github.com/gradle/gradle)：灵活，快速的Java、Android构建工具。
+* [Apache Ant](https://github.com/apache/ant)：古老的构建工具。
+* [Bazel](https://github.com/bazelbuild/bazel)：快速、多语言且可扩展的构建系统，由Google开发。
+* [buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
+* [sbt](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
+
+## 开源JDK
+
+* [Open JDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
+* [AWS Corretto](https://github.com/corretto/corretto-8)：亚马逊开源的JDK版本。
+* [Eclipse Temurin](https://github.com/adoptium/temurin-build)：Eclipse基金会下的JDK版本。
+* [Bellsoft Liberica](https://github.com/bell-sw/Liberica)：BellSoft开源的JDK版本。
+* [GraalVM](https://github.com/oracle/graal)：Oracle开源的一个高性能JDK发行版，旨在加速用Java和其他JVM语言编写的应用程序的执行，并支持JavaScript、Ruby、Python和许多其他流行语言。
+* [Microsoft JDK](https://github.com/microsoft/openjdk)：微软开源的JDK构建版本。
+* [Azul Zulu](https://www.azul.com/zh-hans/core/)：Azul开源的JDK版本。
+* [IBM Semeru](https://www.ibm.com/support/pages/java-sdk-downloads)：IBM开源的JDK版本。
+* [Eclipse OpenJ9](https://github.com/eclipse-openj9/openj9)：适用于OpenJDK的Java虚拟机，针对占用空间小、启动快和高吞吐量进行了优化。
+* [Redhat JDK](https://developers.redhat.com/products/openjdk/download)：Redhat开源的JDK版本。
+* [JetBrains JDK](https://github.com/JetBrains/JetBrainsRuntime)：JetBrains开发的基于OpenJDK的运行时环境。
+* [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里开源的JDK版本。
+* [Tencent Kona](https://github.com/Tencent/TencentKona-17)：腾讯开源的JDK版本。
+* [Huawei bisheng](https://www.openeuler.org/zh/other/projects/bishengjdk/)：华为开源的JDK版本，代号毕昇。
+* [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Openlogic开源的JDK版本。
+* [SapMachine](https://github.com/SAP/SapMachine)：由SAP维护和支持的OpenJDK版本。
+* [leJOS](https://lejos.sourceforge.io/)：乐高开发的JVM，基于leJOS开发的机器人曾经在国际空间站上运行，该VM很早就已经停止维护。
+* [JamJVM](https://jamvm.sourceforge.net/)：一个比较小众的JVM。
+* [Maxine VM](https://github.com/beehive-lab/Maxine-VM)：Java中的元循环VM。
+* [Jikes RVM](https://github.com/JikesRVM/JikesRVM)：一个由Java开发的虚拟机，曾经为虚拟机技术前沿研究超过180篇出版物和36篇论文。
+* [duppio](https://github.com/plasma-umass/doppio)：一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM。
