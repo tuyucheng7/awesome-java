@@ -28,6 +28,7 @@
 * [JavaLite](https://github.com/javalite/javalite)：一系列工具的集合框架。
 * [Vraptor4](https://github.com/caelum/vraptor4)：一个基于Action的Web MVC框架，构建于CDI之上，用于快速且可维护的Java开发。
 * [Takes](https://github.com/yegor256/takes)：面向对象的Java Web框架，没有NULL、静态方法、注解和可变对象。
+* [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
 
 ## Rest框架
 
@@ -232,6 +233,17 @@
 * [jwebunit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [scalacheck](https://github.com/typelevel/scalacheck)：Scala基于属性的测试。
 
+## Java IDE
+
+* [IntelliJ IDEA](https://github.com/JetBrains/intellij-community)：Jetbrains开发的Java、Kotlin IDE。
+* [Eclipse](https://github.com/eclipse-platform)：Eclipse下开源免费的Java IDE。
+* [Visual Studio Code](https://code.visualstudio.com/)：微软开源的文本编辑器，也支持作为IDE开发Java。
+* [Android Studio](https://developer.android.com/studio)：Google开发的Android开发IDE，基于Intellij引擎。
+* [Apache NetBeans](https://github.com/apache/netbeans)：Apache下开源免费的Java IDE，最初由Oracle开发。
+* [JDeveloper](https://www.oracle.com/application-development/technologies/jdeveloper.html)：Oracle开发的Java IDE。
+* [BlueJ](https://github.com/k-pet-group/BlueJ-Greenfoot)：专为初学者设计的免费Java开发环境。
+* [JBuilder](https://borland-jbuilder.software.informer.com/)：Borland软件公司出品的Java集成编程环境，有不同功能程度的多个版本。
+
 ## 构建工具
 
 * [Apache Maven](https://github.com/apache/maven)：使用最广泛的Java构建工具。
@@ -306,6 +318,7 @@
 * [xLog](https://github.com/elvishew/xLog)：Android日志记录器，强大，灵活。
 * [TLog](https://gitee.com/dromara/TLog)：dromara社区开源的轻量级分布式日志标记追踪框架。
 * [JLog](https://gitee.com/jd-platform-opensource/jlog)：京东开源的海量日志搜集、传输、存储解决方案。
+* [jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
 
 ## 任务调度
 
@@ -498,6 +511,24 @@
 * [para](https://github.com/Erudika/para)：用于快速构建Web和移动应用程序的多租户后端服务器。
 * [methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
 
+## Jakarta EE实现
+
+* [Payara](https://github.com/payara/Payara)：Payara Server是一个开源中间件平台，支持在本地、云端或混合环境中可靠、安全地部署Java EE(Jakarta EE)和MicroProfile应用程序。
+* [Apache TomEE](https://github.com/apache/tomee)：一个轻量级但功能强大的Java EE应用服务器，具有功能丰富的工具。
+* [Piranha](https://github.com/piranhacloud/piranha)：现代云运行时。
+* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，由IBM提供。
+* [KumuluzEE](https://github.com/kumuluz/kumuluzee)：轻量级开源框架，用于使用标准Jakarta EE技术开发微服务并将Jakarta EE迁移到云原生架构。
+* [Cricket](https://github.com/gskorupa/cricket)：Java微服务框架。
+* [FlyingServer](http://www.antdb.net/flyingserver)：满足Jakarta EE 8规范的通用应用服务器中间件产品。
+* [Apusic](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
+* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：Eclipse GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现。
+* [FUJITSU](https://www.fujitsu.com/jp/software/interstage/apserver)：由富士通提供的兼容Jakarta EE规范的应用服务器。
+* [IBM WebSphere](https://www.ibm.com/support/pages/node/6250961#asset/runtimes-wlp-javaee8)：由IBM提供的兼容Jakarta EE规范的应用服务器。
+* [InforSuite AS](https://www.inforbus.com/as.html)：国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，由中创开发。
+* [RedHat JBoss](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat提供的兼容Jakarta EE的企业应用平台。
+* [Primeton AppServer](https://www.primeton.com/products/pas/)：支持Jakarta EE Platform 8国际标准规范支持Web容器所有特性，由普元提供。
+* [WildFly](https://www.wildfly.org/downloads/)：WildFly是一款功能强大、模块化且轻量级的应用程序服务器。
+
 ## RPC框架
 
 * [Dubbo](https://github.com/apache/dubbo)：阿里开源的RPC和微服务框架。
@@ -517,8 +548,8 @@
 * [Jprotobuf-rpc-socket](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [storm](https://github.com/nathanmarz/storm)：分布式和容错实时计算：流处理、连续计算、分布式RPC等。
 * [NettyRpc](https://github.com/luxiaoxun/NettyRpc)：一个基于Netty、ZooKeeper和Spring的简单RPC框架。
-* [xxl-rpc](https://github.com/xuxueli/xxl-rpc)：国产高性能、分布式RPC框架。
 * [koalas-rpc](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用可拓展的RPC框架。
+* [xxl-rpc](https://github.com/xuxueli/xxl-rpc)：国产高性能、分布式RPC框架。
 
 ## 消息中间件
 
@@ -591,3 +622,130 @@
 * [OpenLineage](https://github.com/OpenLineage/openlineage)：谱系元数据收集的开放标准。
 * [QuestDB](https://github.com/questdb/questdb)：用于快速摄取和SQL查询的开源时间序列数据库。
 * [CrateDB](https://github.com/crate/crate)：CrateDB是一个分布式且可扩展的SQL数据库，用于近乎实时地存储和分析大量数据，甚至可以进行复杂的查询。它与PostgreSQL兼容，并且基于Lucene。
+
+## 数据库连接池
+
+* [Druid](https://github.com/alibaba/druid)：阿里云计算平台DataWorks团队出品，为监控而生的数据库连接池。
+* [HikariCP](https://github.com/brettwooldridge/HikariCP)：可靠、高性能的JDBC连接池。
+* [Apache commons-dbcp](https://github.com/apache/commons-dbcp)：Apache下开源的数据库连接池。
+* [c3p0](https://github.com/swaldman/c3p0)：一个成熟的、高度并发的JDBC连接池库，支持缓存和重用PreparedStatements。
+* [bonecp](https://github.com/wwadge/bonecp)：BoneCP是一种JDBC连接池实现，它通过最大限度地减少锁争用来实现高性能，从而为应用程序提供更大的吞吐量。
+* [flexy-pool](https://github.com/vladmihalcea/flexy-pool)：可以向给定的连接池添加指标和故障转移策略，使其能够按需调整大小。
+* [Agroal](https://github.com/agroal/agroal)：一个小巧的数据库连接池。
+* [vibur-dbcp](https://github.com/vibur/vibur-dbcp)：并发和动态JDBC连接池。
+* [jdbc-pool](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)：Tomcat JDBC连接池。
+
+## 人工智能
+
+这里包含了Java里面人工智能领域相关的库。
+
+#### 机器学习
+
+* [Angel](https://github.com/Angel-ML/angel)：用于大规模机器学习的灵活且强大的参数服务器，由腾讯联合北京大学开源。
+* [Spark-MLlib](https://github.com/apache/spark/tree/master/mllib)：MLlib是Apache Spark的可扩展机器学习库。
+* [Alluxio](https://github.com/Alluxio/alluxio)：用于云中分析和机器学习的数据编排。
+* [Smile](https://github.com/haifengl/smile)：Smile是一个使用Java和Scala编写的快速且全面的机器学习、NLP、线性代数、图形、插值和可视化系统。
+* [Flink-ML](https://github.com/apache/flink-ml)：Apache Flink机器学习库。
+* [Apache Mahout](https://github.com/apache/mahout)：Apache Mahout项目的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
+* [Weka](https://git.cms.waikato.ac.nz/weka/weka)：Weka是用于数据挖掘任务的机器学习算法的集合。它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。
+* [Apache Samoa](https://github.com/apache/incubator-samoa)：Apache SAMOA是一个用于挖掘大数据流的平台。它是一个分布式流式机器学习(ML)框架，包含分布式流式机器学习算法的编程抽象。
+* [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台PAI团队开发。
+* [SynapseML](https://github.com/microsoft/SynapseML)：SynapseML是一个开源库，可简化大规模可扩展机器学习(ML)管道的创建，由微软开源。
+* [PredictionIO](https://github.com/apache/predictionio)：面向开发人员和ML工程师的机器学习服务器。
+* [H2O](https://github.com/h2oai/h2o-2)：H2O是用于智能应用的机器学习API，它在大数据上对统计学、机器学习和数学进行了规模化。
+* [Apache Submarine](https://github.com/apache/submarine)：Submarine是云原生机器学习平台。
+* [grobid](https://github.com/kermitt2/grobid)：用于从学术文档中提取信息的机器学习软件。
+* [EasyML](https://github.com/ICT-BDA/EasyML)：EasyML是一种基于数据流的通用系统，可简化将机器学习算法应用于现实世界任务的过程。
+* [DeepDive](https://github.com/HazyResearch/deepdive)：斯坦福大学开发的信息抽取系统。
+* [Oryx](https://github.com/OryxProject/oryx)：Apache Spark、Apache Kafka上的Lambda架构，用于实时大规模机器学习。
+* [Seldon](https://github.com/SeldonIO/seldon-server)：基于Kubernetes构建的机器学习平台和推荐引擎。
+* [Tribuo](https://github.com/oracle/tribuo)：Oracle开源的Java机器学习库。
+* [aerosolve](https://github.com/airbnb/aerosolve)：一个从头开始设计的人性化机器学习库。
+* [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Apache Spark上构建模块化、可重用、强类型的机器学习工作流程，只需最少的手动调整。
+* [QuickML](https://github.com/sanity/quickml)：Java中快速且易于使用的决策树学习器。
+* [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
+* [Dagli](https://github.com/linkedin/dagli)：用于定义机器学习模型的框架，包括特征生成和转换，如有向无环图(DAG)。
+* [Meka](https://github.com/Waikato/meka)：使用Weka机器学习框架的多标签分类器和评估程序。
+* [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
+* [ojAlgo](https://github.com/optimatika/ojAlgo)：与数学、线性代数和优化有关的开源Java代码。
+* [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
+* [Moa](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具。
+* [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是2008年创建的一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
+* [Neuroph](https://github.com/neuroph/neuroph)：Java神经网络框架。
+* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件。
+* [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
+* [JSAT](https://github.com/EdwardRaff/JSAT)：Java统计分析工具，用于机器学习的Java库。
+* [Java-ML](https://github.com/charliermarsh/java-ml)：多种机器学习分类算法的Java实现。
+* [htm.java](https://github.com/numenta/htm.java)：Java中的分层临时内存实现-Numenta智能计算平台(NuPIC)的官方社区驱动Java端口。
+
+#### 自然语言处理
+
+* [CoreNLP](https://github.com/stanfordnlp/CoreNLP)：一套Java核心NLP工具，用于标记化、句子分段、NER、解析、共指、情感分析等，由斯坦福开源。
+* [OpenNLP](https://github.com/apache/opennlp)：Apache OpenNLP库是一个基于机器学习的工具包，用于处理自然语言文本。
+* [CogCompNLP](https://github.com/CogComp/cogcomp-nlp)：CogComp的自然语言处理库。
+* [FudanNLP](https://github.com/FudanNLP/fnlp)：中文自然语言处理工具包。
+* [Lingua](https://github.com/pemistahl/lingua)：适用于Java和JVM的最准确的自然语言检测库，适用于长文本和短文本。
+* [DKPro-Core](https://github.com/dkpro/dkpro-core)：基于Apache UIMA框架的自然语言处理(NLP)软件组件集合。
+* [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
+* [Jcseg](https://github.com/lionsoul2014/jcseg)：Jcseg是一个用Java开发的轻量级NLP框架。
+* [nlp-lang](https://github.com/NLPchina/nlp-lang)：这个项目是一个基本包，封装了大多数NLP项目中常用工具。
+* [Mynlp](https://github.com/mayabot/mynlp)：一个生产级、高性能、模块化、可扩展的中文NLP工具包。
+* [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA应用程序是分析大量非结构化信息以发现与最终用户相关的知识的软件系统。
+* [ctakes](https://github.com/apache/ctakes)：Apache cTAKES 是一个用于临床文本的自然语言处理(NLP)平台。
+* [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft)：将自然语言转换为操作的API。
+
+#### 深度学习
+
+* [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j)：Eclipse Deeplearning4J(DL4J)生态系统是一组旨在支持基于JVM的深度学习应用程序的所有需求的项目。
+* [djl](https://github.com/deepjavalibrary/djl)：Java中与引擎无关的深度学习框架，由亚马逊开源。
+* [KotlinDL](https://github.com/Kotlin/kotlindl)：用Kotlin编写的高级深度学习API，受到Keras的启发。
+* [neuralnetworks](https://github.com/ivan-vasilev/neuralnetworks)：Java深度学习算法和带有GPU加速的深度神经网络。
+* [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Apache Hadoop上本地运行深度学习作业的框架。
+* [Porcupine](https://github.com/Picovoice/porcupine)：由深度学习提供支持的设备上唤醒词检测。
+* [dl-on-flink](https://github.com/flink-extended/dl-on-flink)：旨在集成Flink和深度学习框架(例如TensorFlow、PyTorch等)，以在Flink集群上实现分布式深度学习训练和推理。
+* [onyx](https://github.com/hanuor/onyx)：一个Android库，使用人工智能、机器学习和深度学习等技术来让开发人员理解他们在应用程序中显示的内容。
+* [OpenDL](https://github.com/guoding83128/OpenDL)：Spark上的深度学习训练框架。
+* [TensorDash](https://github.com/CleanPegasus/TensorDash)：TensorDash是一款应用程序，可让你远程监控深度学习模型的指标，并在模型训练完成或崩溃时通知你。
+* [Omega-AI](https://gitee.com/iangellove/omega-ai)：基于Java打造的深度学习框架，帮助你快速搭建神经网络，实现训练或测试模型，引擎支持自动求导，多线程与GPU运算。
+* [DLSF](https://github.com/Cloudslab/DLSF)：用于随机雾云计算环境的基于深度学习的调度程序。
+
+#### 遗传算法
+
+* [Jenetics](https://github.com/jenetics/jenetics)：Jenetics是一种用Java编写的高级遗传算法，它提供了遗传算法概念的清晰分离。
+* [Watchmaker](https://github.com/dwdyer/watchmaker)：Watchmaker Framework是一个用Java实现遗传算法的框架。
+* [ECJ 23](https://cs.gmu.edu/~eclab/projects/ecj/)：ECJ 23是一个基于Java的研究框架，为遗传算法提供强大的算法支持。
+* [JGAP](https://sourceforge.net/projects/jgap/)：JGAP是作为Java框架提供的遗传编程组件。
+* [Eva](https://github.com/decorators-squad/eva)：Eva是一个简单的Java OOP进化算法框架。
+
+#### 专家系统
+
+* [Apache Jena](https://github.com/apache/jena)：Apache Jena是一个开源Java框架，用于从RDF数据构建语义Web和链接数据应用程序。它提供了一个API来从RDF图中提取数据并写入RDF图中。
+* [PowerLoom](https://www.isi.edu/isd/LOOM/PowerLoom/)：PowerLoom是一个用于创建智能、基于知识的应用程序的平台。
+* [d3web](https://github.com/denkbares)：d3web是一个开源推理引擎，用于开发、测试问题解决知识并将其应用于给定的问题情况，其中已经包含许多算法。
+* [Eye](https://github.com/eyereasoner/eye)：Eye是一个用于执行半逆向推理的开源推理引擎。
+* [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
+* [OptaPlanner](https://github.com/kiegroup/optaplanner)：OptaPlanner是一个基于Java的约束求解器。
+
+## 并发编程
+
+* [Disruptor](https://github.com/LMAX-Exchange/disruptor)：高性能线程间消息传递库。
+* [Quasar](https://github.com/puniverse/quasar)：JVM上的Fiber、Channel和Actor实现。
+* [JCTools](https://github.com/JCTools/JCTools)：用于JVM的Java并发工具，该项目旨在提供JDK目前缺少的一些并发数据结构。
+* [asyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：京东开源的多线程编排一站式解决方案。
+* [thread-weaver](https://github.com/google/thread-weaver)：用于测试多线程代码的Java框架。
+* [Kilim](https://github.com/kilim/kilim)：Java的轻量级线程，具有消息传递、NIO、HTTP和调度支持。
+* [EA-Async](https://github.com/electronicarts/ea-async)：EA-Async在JVM中实现Async-Await方法，它允许程序员以顺序方式编写异步代码。
+* [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：提供了一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
+* [concurrentlinkedhashmap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap。
+* [trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotity开源。
+* [jcstress](https://github.com/openjdk/jcstress)：jcstress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性。
+* [jcommon](https://github.com/facebookarchive/jcommon)：并发、集合、统计/分析、配置、测试等，由Facebook开发。
+* [Coroutines](https://github.com/esoco/coroutines)：协作并发的纯Java实现，又名协程。
+* [Menagerie](https://github.com/sfines/menagerie)：基于ZooKeeper的Java并发库。
+* [tascalate-concurrent](https://github.com/vsilaev/tascalate-concurrent)：阻塞可取消java.util.concurrent.CompletionStage的实现以及java.util.concurrent.ExecutorService的相关扩展。
+* [Coroutines](https://github.com/offbynull/coroutines)：允许编写协程的Java工具包。
+* [completable-futures](https://github.com/spotify/completable-futures)：Java 8中处理Future的实用程序，由Spotify开源。
+* [DynamicTp](https://github.com/dromara/dynamic-tp)：基于配置中心的轻量级动态线程池，内置监控告警功能，集成常用中间件线程池管理，可通过SPI自定义扩展实现，由dromara社区开源。
+* [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
+* [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
+* [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
