@@ -17,7 +17,7 @@
     - [BDD框架](#bdd)
     - [自动化工具](#automation)
     - [负载测试](#load)
-    - [测试库](test-lib)
+    - [测试库](#test-lib)
 - [Java IDE](#ide)
 - [构建工具](#build)
 - [开源JDK](#jdk)
