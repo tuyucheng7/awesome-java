@@ -54,6 +54,7 @@
 - [模板引擎](#template-engine)
 - [JSON库](#json)
 - [Bean映射](#mapper)
+- [CLI工具](#cli)
 
 <h2 id="web-framework">Web框架</h2>
 
