@@ -318,6 +318,7 @@
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里开源的JDK版本。
 * [Tencent Kona](https://github.com/Tencent/TencentKona-17)：腾讯开源的JDK版本。
 * [Huawei bisheng](https://www.openeuler.org/zh/other/projects/bishengjdk/)：华为开源的JDK版本，代号毕昇。
+* [Loongson JDK](https://github.com/loongson/jdk)：龙芯中科基于OpenJDK研制并发布的龙芯平台Java环境。
 * [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Openlogic开源的JDK版本。
 * [SapMachine](https://github.com/SAP/SapMachine)：由SAP维护和支持的OpenJDK版本。
 * [leJOS](https://lejos.sourceforge.io/)：乐高开发的JVM，基于leJOS开发的机器人曾经在国际空间站上运行，该VM很早就已经停止维护。
@@ -496,6 +497,11 @@
 * [Scio](https://github.com/spotify/scio)：适用于Apache Beam和Google Cloud Dataflow的Scala API，由Spotify开源。
 * [Presto](https://github.com/prestodb/presto)：用于大数据的分布式SQL查询引擎，由Facebook开源。
 * [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆。
+* [HiBench](https://github.com/Intel-bigdata/HiBench)：HiBench是一个大数据基准测试套件，由Intel开源。
+* [ChunJun](https://github.com/DTStack/chunjun)：基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
+* [DataHub](https://github.com/datahub-project/datahub)：由LinkedIn的数据团队开源的一款提供元数据搜索与发现的工具。
+* [KnowStreaming](https://github.com/didi/KnowStreaming)：滴滴开源的Kafka运维管控平台。
+* [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
 
 <h2 id="file-parse">文件解析</h2>
 
@@ -666,6 +672,7 @@
 * [JeroMQ](https://github.com/zeromq/jeromq)：ZeroMQ的Java版本。
 * [HiveMQ](https://github.com/hivemq/hivemq-community-edition)：HiveMQ是一个基于Java的开源MQTT代理，完全支持MQTT 3.x和MQTT 5。
 * [JGroups](https://github.com/belaban/JGroups)：JGroups是一个集群库，允许成员交换消息。
+* [Apache Camel](https://github.com/apache/camel)：能够快速轻松地集成使用或生成数据的各种系统的开源框架。
 
 <h2 id="db">数据库</h2>
 
@@ -692,6 +699,7 @@
 * [Stardog](https://www.stardog.com/)：一款商业图数据库。
 * [BlazeGraph](https://github.com/blazegraph/database)：一款开源的高性能图数据库。
 * [TypeDB](https://github.com/vaticle/typedb)：TypeDB是一个强类型数据库，具有丰富且逻辑的类型系统。
+* [Gaffer](https://github.com/gchq/Gaffer)：支持属性聚合的大规模实体和关系数据库，由英国政府通讯总部开源。
 * [HyperGraphDB](https://github.com/hypergraphdb/hypergraphdb)：专为人工智能和语义Web项目设计的图数据库，也可以用作各种规模项目的嵌入式面向对象数据库。
 
 <h4 id="embedded-db">嵌入式数据库</h4>
