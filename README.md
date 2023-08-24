@@ -49,6 +49,10 @@
     - [遗传算法](#genetic)
     - [专家系统](#expert-system)
 - [并发编程](#concurrency)
+- [安全](#security)
+- [事务](#transaction)
+- [模板引擎](#template-engine)
+- [JSON库](#json)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -414,6 +418,7 @@
 * [openl-tablets](https://github.com/openl-tablets/openl-tablets)：业务规则管理系统。
 * [agile-bpm](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
 * [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
+* [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎。
 
 <h2 id="reactive">响应式库</h2>
 
@@ -861,3 +866,116 @@
 * [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
 * [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
+
+<h2 id="security">安全</h2>
+
+* [Spring Security](https://github.com/spring-projects/spring-security)：Spring生态提供的安全框架。
+* [Apache Shiro](https://github.com/apache/shiro)：Apache下开源的功能强大且易于使用的Java安全框架，可以执行身份验证、授权、加密和会话管理。
+* [Tink](https://github.com/google/tink)：Tink是一个多语言、跨平台、开源库，提供安全、易于正确使用且难以误用的加密API，由Google开源。
+* [Keycloak](https://github.com/keycloak/keycloak)：Keycloak是适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat基金会开源。
+* [Pac4j](https://github.com/pac4j/pac4j)：简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
+* [Sa-Token](https://github.com/dromara/sa-token)：由dromara社区开源的轻量级Java权限认证框架。
+* [Sureness](https://github.com/dromara/sureness)：由dromara社区开源的一个简单高效的安全框架。
+* [java-jwt](https://github.com/auth0/java-jwt)：JWT的Java实现。
+* [ZAP](https://github.com/zaproxy/zaproxy)：可以在在开发和测试应用程序时自动查找Web应用程序中的安全漏洞，由专门的国际志愿者团队积极维护。
+* [jjwt](https://github.com/jwtk/jjwt)：适用于Java和Android的JWT库。
+* [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
+* [nimbus-jose-jwt](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
+* [fusionauth-jwt](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库。
+* [MaxKey](https://github.com/dromara/MaxKey)：业界领先的IAM-IDaas身份管理和认证产品,支持OAuth2.x、OIDC、SAML2.0、JWT、CAS、SCIM等SSO标准协议，由dromara社区开源。
+* [JustAuth](https://github.com/justauth/JustAuth)：第三方授权登录的工具类库。
+* [UAA](https://github.com/cloudfoundry/uaa)：CloudFoundry用户帐户和身份验证(UAA)服务器。
+* [Athenz](https://github.com/AthenZ/athenz)：Athenz是一个开源平台，用于动态基础设施中基于X.509证书的服务身份验证和细粒度访问控制。
+* [Apereo CAS](https://github.com/apereo/cas)：集中认证服务平台，可用于企业内部单点登录系统。
+* [JOAuth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库。
+* [Passay](https://github.com/vt-middleware/passay)：Java的密码策略实现。
+* [bc-java](https://github.com/bcgit/bc-java)：Bouncy Castle Java发行版。
+* [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个允许开发人员以最小的努力向项目添加基本加密功能的Java库。
+* [Cryptomator](https://github.com/cryptomator/cryptomator)：对云中文件进行多平台透明客户端加密。
+* [PicketLink](https://github.com/picketlink/picketlink)：PicketLink是一个用于保护Java EE应用程序的安全框架。
+* [DependencyCheck](https://github.com/jeremylong/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
+* [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
+* [okta](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
+* [auth0-java](https://github.com/auth0/auth0-java)：Auth0平台的Java客户端库。
+* [AppAuth](https://github.com/openid/AppAuth-Android)：用于与OAuth 2.0和OIDC提供商进行通信的Android客户端SDK。
+* [jCasbin](https://github.com/casbin/jcasbin)：Java中支持ACL、RBAC、ABAC等访问控制模型的授权库。
+* [Keywhiz](https://github.com/square/keywhiz)：Keywhiz是一个用于分发和管理密钥的系统。
+* [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz)：密码强度估计器。
+* [OACC](https://github.com/acciente/oacc-core)：是一个功能齐全的API，可强制执行和管理应用程序的身份验证和授权需求。
+* [XXL-SSO](https://github.com/xuxueli/xxl-sso)：分布式单点登录框架。
+* [smart-sso](https://github.com/a466350665/smart-sso)：SpringBoot SSO单点登录，OAuth2实现，支持App登录、分布式。
+* [oxAuth](https://github.com/GluuFederation/oxAuth)：OAuth 2.0服务器和客户端；OIDC提供商(OP)和UMA授权服务器(AS)。
+* [Janssen](https://github.com/JanssenProject/jans)：数字身份基础设施软件协作中心。
+* [Vertx-Auth](https://github.com/eclipse-vertx/vertx-auth)：包含Vert.x和常见身份验证接口的身份验证实现。
+* [jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件(JWS、JWE和JWK)的开源实现。
+
+<h2 id="transaction">事务</h2>
+
+* [Seata](https://github.com/seata/seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
+* [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是一个基于TCC(Try/Confirm/Cancel)机制的分布式事务管理器，它与JTA规范兼容。
+* [Atomikos](https://github.com/atomikos/transactions-essentials)：Java的分布式事务管理库。
+* [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持。
+* [Bitronix](https://github.com/bitronix/btm)：Bitronix事务管理器(BTM)是JTA 1.1 API的简单但完整的实现。
+* [AtlasDB](https://github.com/palantir/atlasdb)：事务分布式数据库层。
+* [hmily](https://github.com/dromara/hmily)：分布式事务解决方案，由dromara社区开源。
+* [TCC-Transaction](https://github.com/changmingxie/tcc-transaction)：开源的微服务架构下的TCC型分布式事务解决方案。
+* [Multiverse](https://github.com/pveentjer/Multiverse)：JVM的软件事务内存实现。
+* [tx-lcn](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库。
+* [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等。
+* [Servicecomb-pack](https://github.com/apache/servicecomb-pack)：提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，在Apache基金会下开源。
+* [Raincat](https://github.com/dromara/raincat)：强一致分布式事务框架。
+* [Scalardb](https://github.com/scalar-labs/scalardb)：通用事务管理器。
+* [ByteJTA](https://github.com/liuyangming/ByteJTA)：ByteJTA是一个基于XA/2PC机制的分布式事务管理器，它与JTA规范兼容。
+* [Myth](https://gitee.com/dromara/myth)：采用消息队列解决分布式事务的开源框架。
+
+<h2 id="template-engine">模板引擎</h2>
+
+* [Thymeleaf](https://github.com/thymeleaf/thymeleaf)：Thymeleaf是一个现代服务器端Java模板引擎，适用于Web和独立环境。
+* [JSP](https://www.oracle.com/java/technologies/jspt.html)：JSP是Java应用程序最流行的视图技术之一，也是内置的模板引擎。
+* [Apache FreeMarker](https://github.com/apache/freemarker)：FreeMarker是一个基于模板生成文本输出(从HTML到自动生成源代码的任何内容)的通用工具。
+* [Pebble](https://github.com/PebbleTemplates/pebble)：Pebble是一个受Twig启发的Java模板引擎。
+* [Groovy](http://groovy-lang.org/templating.html#_the_markuptemplateengine)：Groovy提供Markup模板引擎，该引擎基于构建器语法，可用于生成任何文本格式。
+* [Apache Velocity](https://github.com/apache/velocity-engine)：Apache Velocity是一个用Java编写的通用模板引擎。
+* [Mustache](https://github.com/spullara/mustache.java)：Mustache是一个支持许多其他编程语言的模板引擎。
+* [Apache Tiles](https://github.com/apache/tiles)：适用于现代Java应用程序的免费开源模板框架。
+* [Jade4j](https://github.com/neuland/jade4j)：用Java编写的jade实现，现在改成pug4j。
+* [Handlebars.java](https://github.com/jknack/handlebars.java)：使用Java的无逻辑和语义Mustache模板。
+* [Beetl](https://github.com/javamonkey/beetl2.0)：新一代的模板引擎，更简单易用。
+* [Rocker](https://github.com/fizzed/rocker)：Java 8优化、内存高效、快速模板引擎生成静态类型、纯Java对象。
+* [jinjava](https://github.com/HubSpot/jinjava)：基于Django模板语法的基于Java的模板引擎，适用于渲染Jinja模板。
+* [HTTL](https://github.com/httl/httl)：HTTL是一个高性能的开源Java模板引擎，适用于动态HTML页面输出，可替代JSP页面，指令和Velocity相似。
+* [HtmlFlow](https://github.com/xmlet/HtmlFlow/)：HtmlFlow是一种Java DSL，可以以流式的方式编写类型安全的HTML文档。
+* [Chunk](https://github.com/tomj74/chunk-templates)：Chunk是一个Java模板引擎，适用于服务HTML或XML的应用程序。
+* [Trimou](https://github.com/trimou/trimou)：Java中的Mustache/Handlebars模板引擎。
+* [Rythm](https://github.com/rythmengine/rythmengine)：类似Razor、功能丰富、高性能且易于使用的Java模板引擎。
+* [Liqp](https://github.com/bkiers/Liqp)：基于ANTLR的“Liquid模板”解析器和渲染引擎。
+
+<h2 id="json">JSON库</h2>
+
+* [Jackson](https://github.com/FasterXML/jackson-databind)：Java中使用最广泛的JSON库，也是Spring默认的JSON处理器。
+* [Gson](https://github.com/google/gson)：由Google开源的一个JSON序列化/反序列化库。
+* [Fastjson](https://github.com/alibaba/fastjson)：由阿里开源的一个JSON处理库，性能较好。
+* [Moshi](https://github.com/square/moshi)：适用于Kotlin和Java的现代JSON库。
+* [JsonPath](https://github.com/json-path/JsonPath)：JsonPath的实现版本。
+* [LoganSquare](https://github.com/bluelinelabs/LoganSquare)：适用于Android的快速JSON解析和序列化库。
+* [JSON-P](https://github.com/jakartaee/jsonp-api)：JSON-P是一个用于解析、构建、转换和查询JSON消息的属于Jakarta EE规范下的API。
+* [Kryo](https://github.com/EsotericSoftware/kryo)：快速、高效、自动化的Java对象序列化和克隆库。
+* [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)：由Eclipse开源的一个JSON处理库，也是JSR-367的官方参考实现。
+* [HikariJSON](https://github.com/brettwooldridge/HikariJSON)：高性能JSON解析器。
+* [JsonLube](https://github.com/alibaba/JsonLube)：JsonLube可以在编译期自动生成JSON解析代码，用户使用方式更简单，同时能收获原生解析的性能，由阿里开发。
+* [json-simple](https://github.com/fangyidong/json-simple)：非常简单的JSON库，可以用于编码和解码JSON文本。
+* [JSON-Java](https://github.com/stleary/JSON-java)：Java中JSON包的参考实现。
+* [json-io](https://github.com/jdereg/json-io)：小巧、轻量级的JSON和Java对象转换库。
+* [Jsoniter](https://github.com/json-iterator/java)：Jsoniter(json-iterator)是Java和Go中可用的快速且灵活的JSON解析器。
+* [Genson](https://github.com/owlike/genson)：Genson是一个完整的JSON转换库，提供完整的数据绑定、流媒体等等。
+* [jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)：从JSON或JSON Schema生成Java类型，并标注这些类型以与Jackson、Gson等进行数据绑定。
+* [DSL-JSON](https://github.com/ngs-doo/dsl-json)：高性能JVM JSON库，具有高级编译时数据绑定支持。
+* [Ason](https://github.com/afollestad/ason)：提供JSON序列化功能的Java库，已经停止维护。
+* [jsonld-java](https://github.com/jsonld-java/jsonld-java)：JSON-LD 1.0规范和JSON-LD-API 1.0规范的Java实现。
+* [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库。
+* [ig-json-parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
+* [minimal-json](https://github.com/ralfstx/minimal-json)：一个快速、小型的Java JSON解析器和写入器。
+* [Jfire-codejson](https://gitee.com/eric_ds/jfire-codejson)：性能非常高的JSON序列化和反序列化库。
+* [Snack3](https://gitee.com/noear/snack3)：一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
+* [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
+* [OkJson](https://gitee.com/calvinwilliams/okjson)：Java编写的小巧、高效、灵活的JSON处理器。
