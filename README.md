@@ -53,6 +53,7 @@
 - [事务](#transaction)
 - [模板引擎](#template-engine)
 - [JSON库](#json)
+- [Bean映射](#mapper)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -211,6 +212,7 @@
 * [JMock](https://github.com/jmock-developers/jmock-library)：用于测试驱动开发的富有表现力的对象Mock库。
 * [burst](https://github.com/square/burst)：用于不同测试数据的单元测试库。
 * [EasyModeling](https://github.com/easymodeling/easy-modeling)：EasyModeling是一个Java注解处理器，可生成随机填充的对象以供测试使用。
+* [beanmother](https://github.com/keepcosmos/beanmother)：用于将Java对象设置为测试数据的库。
 
 <h4 id="bdd">BDD框架</h4>
 
@@ -908,6 +910,8 @@
 * [Janssen](https://github.com/JanssenProject/jans)：数字身份基础设施软件协作中心。
 * [Vertx-Auth](https://github.com/eclipse-vertx/vertx-auth)：包含Vert.x和常见身份验证接口的身份验证实现。
 * [jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件(JWS、JWE和JWK)的开源实现。
+* [java-cas-client](https://github.com/apereo/java-cas-client)：Apereo Java CAS客户端库。
+* [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
 
 <h2 id="transaction">事务</h2>
 
@@ -979,3 +983,44 @@
 * [Snack3](https://gitee.com/noear/snack3)：一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
 * [OkJson](https://gitee.com/calvinwilliams/okjson)：Java编写的小巧、高效、灵活的JSON处理器。
+
+<h2 id="mapper">Bean映射</h2>
+
+* [MapStruct](https://github.com/mapstruct/mapstruct)：用于生成类型安全Bean映射器的注解处理器。
+* [Dozer](https://github.com/DozerMapper/dozer)：一个强大的，通用的，灵活的，可重用的和可配置的开源映射框架。
+* [ModelMapper](https://github.com/modelmapper/modelmapper)：智能对象映射库。
+* [Orika](https://github.com/orika-mapper/orika)：更简单、更好、更快的Java Bean映射框架。
+* [JMapper](https://github.com/jmapper-framework/jmapper-core)：集优雅、高性能和稳健性于一体的Java Bean映射器。
+* [Selma](https://github.com/xebia-france/selma)：可以在编译时生成Java代码处理字段到字段映射的注解处理器。
+* [BeanMapper](https://github.com/42BV/beanmapper)：用于根据Bean约定从一个Java类转换为名称相似的不同Java类的库。
+* [Tamper](https://github.com/alibaba/tamper)：Tamper是一款处理Bean/Map进行属性复制映射的工具，支持递归、集合等深度映射。
+* [ReMap](https://github.com/remondis-it/remap)：用于简化可测试对象映射的声明式映射库。
+* [Bull](https://github.com/ExpediaGroup/bull)：Bull是一种Java Bean到Java Bean转换器，通用、灵活、可重用、可配置，并且速度非常快。
+* [Datus](https://github.com/roookeee/datus)：Datus使你能够在流式的函数式API中定义两个数据结构之间的转换过程。
+
+<h2 id="cli">CLI</h2>
+
+* [Picocli](https://github.com/remkop/picocli)：Picocli是一个现代框架，用于轻松构建功能强大、用户友好、支持GraalVM的命令行应用程序。
+* [SDKMAN](https://github.com/sdkman/sdkman-cli)：SDKMAN是一个用于在任何基于Unix的系统上管理多个软件开发套件的并行版本的工具。
+* [JBang](https://github.com/jbangdev/jbang)：JBang是一个将脚本引入Java领域的框架。
+* [JCommander](https://github.com/cbeust/jcommander)：基于Java 8注解的参数解析框架。
+* [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
+* [Spring Shell](https://github.com/spring-projects/spring-shell)：Spring Shell可帮助你创建基于Spring的、针对CLI空间的生产级应用程序。
+* [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面。
+* [Just](https://github.com/maciejwalkowiak/just)：用于开发Spring Boot应用程序的命令行工具包。
+* [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
+* [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
+* [asciitable](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
+* [Crash](https://github.com/crashub/crash)：Crash是一个为扩展Java程序和Java虚拟机而设计的Shell。
+* [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
+* [java-ascii-render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
+* [mcs](https://github.com/mthmulders/mcs)：可以从命令行搜索Maven中央仓库。
+* [JD-Core](https://github.com/java-decompiler/jd-core)：JD-Core是一个用Java编写的Java反编译器。
+* [jd-cli](https://github.com/intoolswetrust/jd-cli)：jd-cli是JD-Core项目的简单命令行包装器。
+* [Airline](https://github.com/rvesse/airline)：基于Java注解的框架，用于解析类似Git的命令行结构，具有深度可扩展性。
+* [jbock](https://github.com/jbock-java/jbock)：无反射命令行解析器。
+* [Args4j](https://github.com/kohsuke/args4j)：Args4j是一个小型Java类库，可以轻松解析CUI应用程序中的命令行选项/参数。
+* [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
+* [JeeSh](https://github.com/jeeshell/je2sh)：JVM可扩展和可嵌入Shell。
+* [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
+* [progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
