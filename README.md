@@ -19,9 +19,11 @@
 - [测试库](#test-lib)
 - [Java IDE](#ide)
 - [构建工具](#build)
+- [GUI程序](#gui)
 - [开源JDK](#jdk)
 - [性能分析](#profiler)
 - [APM监控工具](#apm)
+- [工具库](#utils)
 - [依赖注入](#di)
 - [日志库](#log)
 - [任务调度](#job)
@@ -56,6 +58,8 @@
 - [集合库](#collection)
 - [函数式编程](#functional)
 - [字节码操作](#bytecode)
+- [图像处理](#image)
+- [爬虫](#crawler)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -311,6 +315,40 @@
 * [buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
 * [sbt](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
 
+<h2 id="gui">GUI程序</h2>
+
+* [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
+* [JD-GUI](https://github.com/java-decompiler/jd-gui)：Java反编译器GUI。
+* [FinalShell](https://www.hostbuf.com/)：国内开源的SSH客户端工具。
+* [SoapUI](https://github.com/SmartBear/soapui)：SoapUI是一个免费、开源的跨平台API和Web Service功能测试解决方案。
+* [ArgoUML](https://github.com/argouml-tigris-org/argouml)：一个用于绘制UML图的应用软件。
+* [PlantUML](https://github.com/plantuml/plantuml)：可以通过纯文本的方式来生成UML图。
+* [Luyten](https://github.com/deathmarine/Luyten)：Procyon的开源Java反编译器GUI。
+* [Matlab](https://www.mathworks.com/products/matlab.html)：Matlab是一种用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境，其GUI部分由Java开发。
+* [Protege](https://github.com/protegeproject/protege)：Protege是一个免费的开源本体编辑器，支持最新的OWL 2.0标准。
+* [AKHQ](https://github.com/tchiotludo/akhq)：用于Apache Kafka的Kafka GUI，用于管理主题、主题数据、消费者组、模式注册表、连接等等。
+* [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
+* [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：Zookeeper GUI，支持Win/Mac/Linux平台。
+* [RedisClient](https://github.com/caoxinyu/RedisClient)：基于Java SWT和Jedis编写的Redis客户端GUI工具。
+* [Jailer](https://github.com/Wisser/Jailer)：数据库子集和关系数据浏览工具。
+* [blobsaver](https://github.com/airsquared/blobsaver)：用于自动保存SHSH blob的跨平台GUI和CLI应用程序。
+* [Sonarqube](https://github.com/SonarSource/sonarqube)：SonarQube是一个开源的代码分析平台，可以用来持续分析和评测项目源代码的质量。
+* [LibreOffice](https://github.com/LibreOffice/core)：一款开源的办公套件，包括文档处理、电子表格、演示文稿等功能。
+* [Teambition](https://www.teambition.com/)：阿里旗下的项目协作工具。
+* [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件。
+* [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)：STM32CubeMX是ST公司推出的一种自动创建单片机工程及初始化代码的工具。
+* [GeoGebra](https://www.geogebra.org/)：GeoGebra是一款动态数学(几何)软件，于2001年由Markus Hohenwarter在奥地利萨尔茨堡大学制作。
+* [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)：数字逻辑设计工具和模拟器。
+* [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas)：位图和表情符号字体创建和转换工具。
+* [ImageJ](https://imagej.net/ij/index.html)：生物医学领域的图像处理软件。
+* [Vivado](https://www.xilinx.com/products/design-tools/vivado.html)：Xilinx开发的用于HDL设计的合成和分析的软件套件，具有用于片上系统开发和高级综合的附加功能。
+* [Citespace](https://citespace.podia.com/)：基于Java语言编写的可视化文献分析软件。
+* [ArcTime](https://arctime.org/)：ArcTime是使用Java编写的免费跨平台字幕软件。
+* [FreeMind](https://github.com/jiangxin/freemind-mmx)：FreeMind是一款免费开源的思维导图软件。
+* [Xmind](https://xmind.app/)：Xmind是一款全功能的思维导图和头脑风暴软件。
+* [DSTE](https://ai-solutions.com/dste/)：DSTE被约翰逊航天中心用作设计工具，为地月系统轨道上的载人栖息地任务进行轨道设计。
+* [CuratOR](https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/)：CuratorOR由德国EIZO GmbH开发，是一款用在医院手术室的应用程序。
+
 <h2 id="jdk">开源JDK</h2>
 
 * [Open JDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
@@ -382,6 +420,24 @@
 * [BeeAPM](https://gitee.com/beetle082/bee-apm)：分布式跟踪和应用性能监控系统，基于Java Agent。
 * [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
+
+<h2 id="utils">工具库</h2>
+
+* [Guava](https://github.com/google/guava)：Google开源的Java工具库。
+* [Apache Commons](https://github.com/apache/commons-lang)：Apache下的Java工具库。
+* [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
+* [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
+* [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
+* [jcommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
+* [immutables](https://github.com/immutables/immutables)：用于创建不可变对象和构建器的注解处理器。
+* [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
+* [record-builder](https://github.com/Randgalt/record-builder)：Java记录的记录构建器。
+* [ph-commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量实用程序类。
+* [commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
+* [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
+* [simple-binary-encoding](https://github.com/real-logic/simple-binary-encoding)：高性能消息编解码器。
+* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions 是一个Java库，可帮助构建困难的正则表达式。
+* [JGit](https://eclipse.dev/jgit/)：可以用于操作Git存储库的纯Java实现。
 
 <h2 id="di">依赖注入</h2>
 
@@ -742,6 +798,8 @@
 * [Solr](https://github.com/apache/solr)：Solr是一款流行、速度极快的开源搜索平台，基于Apache Lucene构建。
 * [OpenSearch](https://github.com/opensearch-project/OpenSearch)：开源分布式RESTful搜索引擎。
 * [yacy](https://github.com/yacy/yacy_search_server)：分布式点对点Web搜索引擎和Intranet搜索设备。
+* [Fess](https://github.com/codelibs/fess)：Fess是非常强大且易于部署的企业搜索服务器。
+* [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：开源企业级搜索引擎软件。
 
 <h4 id="graph-db">图数据库</h4>
 
@@ -861,6 +919,7 @@
 * [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA应用程序是分析大量非结构化信息以发现与最终用户相关的知识的软件系统。
 * [ctakes](https://github.com/apache/ctakes)：Apache cTAKES 是一个用于临床文本的自然语言处理(NLP)平台。
 * [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft)：将自然语言转换为操作的API。
+* [EasyAI](https://gitee.com/ldp_dpsmax/easyAi)：通过简单的API调用就可以实现常用的图像内物体的识别，定位等图像AI服务，及自然语言分类处理服务。
 
 <h4 id="dl">深度学习</h4>
 
@@ -962,6 +1021,7 @@
 * [jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件(JWS、JWE和JWK)的开源实现。
 * [java-cas-client](https://github.com/apereo/java-cas-client)：Apereo Java CAS客户端库。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
+* [joauth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库。
 
 <h2 id="transaction">事务</h2>
 
@@ -1134,3 +1194,67 @@
 * [Caesium](https://github.com/sim0n/Caesium)：Java字节码混淆器。
 * [proguard-core](https://github.com/Guardsquare/proguard-core)：用于读取、写入、分析和处理Java字节码的库。
 * [DroidAssist](https://github.com/didi/DroidAssist)：一个基于Javassist的轻量级Android Studio Gradle插件，用于在Android中编辑字节码，由滴滴开源。
+
+<h2 id="image">图像处理</h2>
+
+* [Thumbnailator](https://github.com/coobird/thumbnailator)：Java的缩略图生成库。
+* [Pngtastic](https://github.com/depsypher/pngtastic/)：一个纯Java PNG图像优化和操作库。
+* [ImageJ](https://github.com/imagej/ImageJ)：用于处理和分析科学图像的公共领域软件。
+* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。 
+* [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：Java ImageIO的附加插件和扩展。
+* [OpenCV](https://github.com/openpnp/opencv)：OpenCV(开源计算机视觉)是一个用于实时计算机视觉和图像处理的库。
+* [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
+* [imgscalr](https://github.com/rkalla/imgscalr)：简单的Java图像缩放库，实现Chris Campbell的增量缩放算法以及Java 2D的“最佳实践”图像缩放技术。
+* [Marvin](https://github.com/gabrielarchanjo/marvin-framework)：Marvin图像处理框架提供实时处理图像和视频的功能。
+* [JavaCV](https://github.com/bytedeco/javacv)： OpenCV、FFmpeg等的Java接口。
+* [webcam-capture](https://github.com/sarxos/webcam-capture)：该库允许你直接从Java使用内置或外部网络摄像头，它旨在抽象常用的相机功能并支持各种捕获框架。
+* [Picasso](https://github.com/square/picasso)：一个强大的Android图像下载和缓存库。
+* [ZXing](https://github.com/zxing/zxing)：适用于Java、Android的ZXing条码扫描库。
+* [image-comparison](https://github.com/romankh3/image-comparison)：可以比较2个相同大小的图像，并通过绘制矩形直观地显示差异。
+* [xmlgraphics-batik](https://github.com/apache/xmlgraphics-batik)：Batik是一个基于Java的工具包，适用于处理可缩放矢量图形(SVG)格式的图像各种目的，例如观看、生成或操纵。
+* [Luban](https://github.com/Curzibn/Luban)：Android图片压缩工具，仿微信朋友圈压缩策略。
+* [PixelFlow](https://github.com/diwi/PixelFlow)：用于高性能GPU计算(GLSL)处理的Java库。
+* [ImageJ2](https://github.com/imagej/imagej2)：Image的重写版本，用于多维图像数据，重点是科学成像。
+* [BoofCV](https://github.com/lessthanoptimal/BoofCV)：用于SFM、校准、基准、跟踪、图像处理等的快速计算机视觉库。
+* [Scrimage](https://github.com/sksamuel/scrimage)：Java、Scala和Kotlin图像处理库。
+* [cv4j](https://github.com/imageprocessor/cv4j)：一个用纯Java实现的高质量、实时的图像处理和机器学习库。
+* [ImgLib2](https://github.com/imglib/imglib2)：用于图像处理的通用下一代Java库。
+* [Imglib](https://github.com/nackily/imglib)：一个轻量级的Java图像处理库，致力于简化对图像的常见处理。
+* [AndroidLibyuvImageUtils](https://github.com/myrao/AndroidLibyuvImageUtils)：Android上的图像处理库，基于libyuv。
+* [ImageCombiner](https://gitee.com/dromara/image-combiner)：ImageCombiner是一个专门用于Java服务端图片合成的工具。
+* [image-plugin](https://gitee.com/hellokaton/image-plugin)：非常简单的图片处理插件，可快速集成在Web应用中。
+* [imagetool](https://gitee.com/xshuai/imagetool)：一个简单的图片处理工具，支持图片压缩、图片水印、图片裁剪、图片旋转、图片格式转换等功能。
+
+<h2 id="crawler">爬虫</h2>
+
+* [crawler4j](https://github.com/yasserg/crawler4j)：Java开源网络爬虫库。
+* [Apache Nutch](https://github.com/apache/nutch)：Apache Nutch是一个可扩展且可伸缩的网络爬虫库。
+* [WebMagic](https://github.com/code4craft/webmagic)：用于Java的可扩展网络爬虫框架。
+* [Jsoup](https://github.com/jhy/jsoup/)：Java HTML解析器，专为HTML编辑、清理、抓取和XSS安全而构建。
+* [StormCrawler](https://github.com/DigitalPebble/storm-crawler)：基于Apache Storm的可扩展、成熟且多功能的网络爬虫库。
+* [Sparkler](https://github.com/USCDataScience/sparkler)：在Apache Spark上运行的类似Apache Nutch的爬虫库。
+* [Spider-Flow](https://github.com/ssssssss-team/spider-flow)：新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
+* [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，提供了一些简单的网络爬虫接口。
+* [Heritrix](https://github.com/internetarchive/heritrix3)：Heritrix是互联网档案馆的开源、可扩展、网络规模、档案质量的网络爬虫项目。
+* [Gecco](https://github.com/xtuhcy/gecco)：易用的轻量化网络爬虫库。
+* [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：一个简单、敏捷、分布式的支持Spring Boot的Java爬虫框架。
+* [SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler)：免费的数据库模式发现和理解工具。
+* [FS-Crawler](https://github.com/dadoonet/fscrawler)：Elasticsearch文件系统爬虫。
+* [zhihu-crawler](https://github.com/wycm/zhihu-crawler)：zhihu-crawler是一个基于Java的高性能、支持免费HTTP代理池、横向扩展、分布式爬虫项目。
+* [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：Java分布式爬虫框架。
+* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：适用于Java的无头Chrome。
+* [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
+* [Spiderman](https://gitee.com/l-weiwei/spiderman)：Java开源Web数据抽取工具。
+* [XueQiuSuperSpider](https://github.com/decaywood/XueQiuSuperSpider)：雪球超级爬虫是基于雪球网、东方财富和同花顺实现的股票数据爬虫程序。
+* [Crawljax](https://github.com/crawljax/crawljax)：Crawljax是一个自动爬取和测试现代Web应用程序的工具。
+* [ACHE](https://github.com/VIDA-NYU/ache)：ACHE是一个用于特定域搜索的网络爬虫。
+* [Spiderman2](https://gitee.com/l-weiwei/Spiderman2)：Spiderman的升级版，在性能、架构、易用性上有提升，支持分布式。
+* [YayCrawler](https://gitee.com/shentong_012/YayCrawler)：分布式爬虫系统，简单使用，高级配置。
+* [wind-bell](https://gitee.com/zhiyubujian/wind-bell)：轻量级的高效爬虫工具，配置简单，方便二次开发。
+* [Crawler-Commons](https://github.com/crawler-commons/crawler-commons)：一组可重用的Java组件，实现任何网络爬虫通用的功能。
+* [zongtui-webcrawler](https://gitee.com/zongtui/zongtui-webcrawler)：基于Hadoop思维的分布式网络爬虫。
+* [vscrawler](https://gitee.com/virjar/vscrawler)：适合抓取封堵的爬虫框架。
+* [Elves](https://github.com/hellokaton/elves)：轻量级爬虫框架的设计与实现。
+* [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
+* [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
+* [ispider](https://github.com/xpleaf/ispider)：Java设计的分布式爬虫系统。
