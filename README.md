@@ -8,19 +8,20 @@
 - [Rest框架](#rest-framework)
 - [微服务框架](#microservice-framework)
 - [ORM框架](#orm-framework)
-- [测试](#test)
-    - [单元测试](#unit-test)
-    - [断言库](#assertions)
-    - [Mock框架](#mocks)
-    - [Mock工具](#mocks-lib)
-    - [数据Mock](#mocks-data)
-    - [BDD框架](#bdd)
-    - [自动化工具](#automation)
-    - [负载测试](#load)
-    - [测试库](#test-lib)
+- [单元测试](#unit-test)
+- [断言库](#assertions)
+- [Mock框架](#mocks)
+- [Mock工具](#mocks-lib)
+- [数据Mock](#mocks-data)
+- [BDD框架](#bdd)
+- [自动化工具](#automation)
+- [负载测试](#load)
+- [测试库](#test-lib)
 - [Java IDE](#ide)
 - [构建工具](#build)
 - [开源JDK](#jdk)
+- [性能分析](#profiler)
+- [APM监控工具](#apm)
 - [依赖注入](#di)
 - [日志库](#log)
 - [任务调度](#job)
@@ -28,26 +29,23 @@
 - [响应式库](#reactive)
 - [缓存库](#cache)
 - [大数据框架](#bigdata)
-- [文件解析](#file-parse)
-    - [PDF库](#pdf)
-    - [Excel库](#excel)
-    - [CSV库](#csv) 
+- [PDF库](#pdf)
+- [Excel库](#excel)
+- [CSV库](#csv) 
 - [HTTP客户端库](#httpclient)
 - [WebServer](#webserver)
 - [Jakarta EE实现](#jakartaee)
 - [RPC框架](#rpc)
 - [消息中间件](#message)
-- [数据库](#db)
-    - [图数据库](#graph-db)
-    - [嵌入式数据库](#embedded-db)
-    - [NoSQL数据库 & 其他](#nosql-db)
+- [图数据库](#graph-db)
+- [嵌入式数据库](#embedded-db)
+- [NoSQL数据库 & 其他](#nosql-db)
 - [数据库连接池](#db-conn)
-- [人工智能](#ai)
-    - [机器学习](#ml)
-    - [自然语言处理](#nlp)
-    - [深度学习](#dl)
-    - [遗传算法](#genetic)
-    - [专家系统](#expert-system)
+- [机器学习](#ml)
+- [自然语言处理](#nlp)
+- [深度学习](#dl)
+- [遗传算法](#genetic)
+- [专家系统](#expert-system)
 - [并发编程](#concurrency)
 - [安全](#security)
 - [事务](#transaction)
@@ -55,6 +53,9 @@
 - [JSON库](#json)
 - [Bean映射](#mapper)
 - [CLI工具](#cli)
+- [集合库](#collection)
+- [函数式编程](#functional)
+- [字节码操作](#bytecode)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -287,6 +288,7 @@
 * [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
 * [jwebunit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [scalacheck](https://github.com/typelevel/scalacheck)：Scala基于属性的测试。
+* [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
 
 <h2 id="ide">Java IDE</h2>
 
@@ -333,6 +335,53 @@
 * [Maxine VM](https://github.com/beehive-lab/Maxine-VM)：Java中的元循环VM。
 * [Jikes RVM](https://github.com/JikesRVM/JikesRVM)：一个由Java开发的虚拟机，曾经为虚拟机技术前沿研究超过180篇出版物和36篇论文。
 * [duppio](https://github.com/plasma-umass/doppio)：一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM。
+
+<h2 id="profiler">性能分析</h2>
+
+* [VisualVM](https://github.com/oracle/visualvm)：VisualVM是一款一体化Java故障排除工具。
+* [Arthas](https://arthas.aliyun.com/)：阿里巴巴开源的Java诊断工具。
+* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：商业分析器。
+* [YourKit](https://www.yourkit.com/features/)：商业分析器。
+* [AppDynamics](https://www.appdynamics.com/)：服务性能监控/管理工具。
+* [async-profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
+* [JVM-Profiler](https://github.com/uber-common/jvm-profiler)：可以将指标发送到Kafka、控制台输出或自定义报告器的JVM Profiler，由Uber开源。
+* [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
+* [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：Apache NetBeans的内置分析器。
+* [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿网开源的Java应用生产问题诊断工具，提供了一站式的问题诊断方案。
+* [JMC](https://github.com/openjdk/jmc)：Oracle开源的一个生产时间分析和诊断工具套件。
+* [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java垃圾回收(GC)日志文件的库，由微软开源。
+* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器，。
+* [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录。
+* [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的实用程序。
+* [JOL](https://github.com/openjdk/jol)：JOL(Java对象布局)是用于分析JVM中对象布局的微型工具箱。
+* [Sematext](https://github.com/sematext/sematext-agent-java)：全栈基础设施监控工具。
+* [JMX-Exporter](https://github.com/prometheus/jmx_exporter)：通过HTTP公开JMX Bean供Prometheus使用的工具。
+* [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler)：没有安全点样本偏差的JVM采样分析器。
+* [statsd-jvm-profiler](https://github.com/etsy/statsd-jvm-profiler)：使用StatsD和其他指标后端的简单JVM分析器。
+* [SJK](https://github.com/aragozin/jvm-tools)：SJK是一个用于JVM诊断、故障排除和分析的命令行工具。
+* [MyPerf4J](https://github.com/LinShunKang/MyPerf4J)：一个针对高并发、低延迟应用设计的高性能Java性能监控和统计工具。
+* [jvmtop](https://github.com/patric-r/jvmtop)：Java命令行监控工具，包括分析器。
+* [GCeasy](https://gceasy.io/)：非常好用的在线分析GC日志的工具。
+* [aprof](https://github.com/devexperts/aprof)：Java内存分配分析器。
+* [Sniffy](https://github.com/sniffy/sniffy)：Java的交互式分析器、测试和混沌工程工具。
+* [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
+* [FastThread](https://fastthread.io/)：Java线程转储分析器。
+
+<h2 id="apm">APM监控工具</h2>
+
+* [Apache SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源。
+* [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：采用Java语言编写的链路分析和应用性能监控系统，由韩国Naver 研发团队开源。
+* [Cat](https://github.com/dianping/cat)：服务端项目基础组件，可以提供系统丰富的性能指标、健康状况、实时告警等，由美团点评开源。
+* [Matrix](https://github.com/Tencent/matrix)：Matrix是微信开发的插件式、非侵入式APM系统。
+* [Hertzbeat](https://github.com/dromara/hertzbeat)：开源实时监控系统，具有自定义监控、高性能集群和无代理功能，由dromara社区开源。
+* [ArgusAPM](https://github.com/Qihoo360/ArgusAPM)：360开源的线上移动性能检测平台。
+* [Scouter](https://github.com/scouter-project/scouter)：开源APM工具。
+* [Femas](https://github.com/TencentFemas/femas)：基于Java Agent的微服务治理平台，由腾讯开源。
+* [Stagemonitor](https://github.com/stagemonitor/stagemonitor)：用于Java服务器应用程序性能监控的开源解决方案。
+* [Glowroot](https://github.com/glowroot/glowroot)：易于使用，开销极低的Java APM。
+* [BeeAPM](https://gitee.com/beetle082/bee-apm)：分布式跟踪和应用性能监控系统，基于Java Agent。
+* [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件。
+* [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
 
 <h2 id="di">依赖注入</h2>
 
@@ -1025,3 +1074,63 @@
 * [JeeSh](https://github.com/jeeshell/je2sh)：JVM可扩展和可嵌入Shell。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
 * [progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
+
+<h2 id="collection">集合库</h2>
+
+* [Apache Commons Collections](https://github.com/apache/commons-collections)：Apache基金会下的开源Java集合工具库。
+* [Eclipse Collections](https://github.com/eclipse/eclipse-collections)：Eclipse Collections是一个Java集合框架，具有优化的数据结构和丰富、实用且流式的API。
+* [Fastutil](https://github.com/vigna/fastutil)：Fastutil通过提供特定于类型的Map、Set、List和Queue来扩展Java集合框架。
+* [HPPC](https://github.com/carrotsearch/hppc)：Java的高性能原始类型集合。
+* [PCollections](https://github.com/hrldcpr/pcollections)：PCollections充当Java集合框架的持久且不可变的类似物。
+* [CQEngine](https://github.com/npgall/cqengine)：集合查询引擎–是一个高性能Java集合，可以使用类似SQL的查询进行搜索，并且延迟极低。
+* [Agrona](https://github.com/real-logic/agrona)：Java的高性能数据结构和实用方法。
+* [Koloboke](https://github.com/leventov/Koloboke)：精心设计的Java集合框架扩展，具有原始类型特化等功能。
+* [high-scale-lib](https://github.com/stephenc/high-scale-lib)：并发且高度可扩展的实用程序的集合。
+* [Javolution](https://github.com/javolution/javolution)：用于实时和嵌入式系统的Java核心库。
+* [Trove](https://bitbucket.org/trove4j/trove/src/master/)：为Java提供高速对象和原始集合。
+* [Primitive-Collections](https://github.com/Speiger/Primitive-Collections)：一个原始集合库，可减少内存使用并提高性能。
+* [Capsule](https://github.com/usethesource/capsule)：Capsule旨在成为Java 11+的成熟(不可变)集合库，完全围绕持久尝试构建。
+* [LMAXCollections](https://github.com/LMAX-Exchange/LMAXCollections)：高性能集合库。
+* [Paguro](https://github.com/GlenKPeterson/Paguro)：JVM的泛型、空安全、不可变集合和函数式转换。
+* [pcj](https://github.com/pmem/pcj)：Java的持久集合库。
+
+<h2 id="functional">函数式编程</h2>
+
+* [Vavr](https://github.com/vavr-io/vavr)：Vavr是Java 8的对象函数语言扩展，旨在减少代码行数并提高代码质量。
+* [StreamEx](https://github.com/amaembo/streamex)：对Java Stream API的增强库。
+* [jOOL](https://github.com/jOOQ/jOOL)：为Java 8 Lambda提供了一些有用的扩展，
+* [javatuples](https://github.com/javatuples/javatuples)：Java中元组的类型安全表示。
+* [throwing-function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
+* [FunctionalJava](https://github.com/functionaljava/functionaljava)：Functional Java是一个开源库，促进Java中的函数式编程。
+* [Cyclops](https://github.com/aol/cyclops)：一个先进且易于使用的平台，用于在Java 8中编写函数式应用程序。
+* [Linq4j](https://github.com/julianhyde/linq4j)：LINQ的Java实现库。
+* [Functional](https://github.com/io-fairy/functional)：提供更简单更好用的Java函数式编程接口。
+* [Parallel-Collector](https://github.com/pivovarit/parallel-collectors)：可使用Stream API简化Java中的并行收集处理的工具包。
+* [NoException](https://github.com/robertvazan/noexception)：用于以简洁、统一且架构干净的方式处理异常的Java库。
+* [protonpack](https://github.com/poetix/protonpack)：Java Stream API的实用工具库。
+* [Fugue](https://bitbucket.org/atlassian/fugue/src/master/)：Guava的函数式编程扩展。
+* [Derive4j](https://github.com/derive4j/derive4j)：Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
+* [lambda](https://github.com/palatable/lambda)：Java的函数式模式。
+* [underscore-java](https://github.com/javadev/underscore-java)：Underscore.js的Java版本。
+* [Faux-Pas](https://github.com/zalando/faux-pas)：一个简化Java函数式编程错误处理的库。
+* [Lightweight-Stream-API](https://github.com/aNNiMON/Lightweight-Stream-API)：Java Stream API的扩展库。
+* [linq](https://github.com/timandy/linq)：LINQ到对象转换的Java库。
+* [Formulog](https://github.com/HarvardPL/formulog)：支持SMT查询和一阶函数编程的数据记录。
+* [Purefun](https://github.com/tonivade/purefun)：Java函数式编程库。
+
+<h2 id="bytecode">字节码操作</h2>
+
+* [ASM](https://gitlab.ow2.org/asm/asm)：通用底层字节码操作和分析开发库。
+* [Byte Buddy](https://github.com/raphw/byte-buddy)：Byte Buddy是一个代码生成和操作库，用于在Java应用程序运行时创建和修改Java类，而无需编译器的帮助。
+* [Byteman](https://github.com/bytemanproject/byteman)：Byteman支持将副作用注入到Java程序中用于跟踪和测试应用程序行为的目的。
+* [Javassist](https://github.com/jboss-javassist/javassist)：Java字节码工程工具包。
+* [cglib](https://github.com/cglib/cglib)：用于生成和转换Java字节码的高级API。
+* [ByteX](https://github.com/bytedance/ByteX)：字节开源的字节码插件开发平台。
+* [allocation-instrumenter](https://github.com/google/allocation-instrumenter)：将字节码重写为工具分配站点的Java代理，由Google开源。
+* [Soot](https://github.com/soot-oss/soot)：Soot是一个Java优化框架，提供了多种用于分析和转换Java字节码的中间表示形式。
+* [Mixin](https://github.com/SpongePowered/Mixin)：Mixin是一个使用ASM的Java特征/混合和字节码编织框架。
+* [RoboVM](https://github.com/MobiVM/robovm)：针对IOS、Mac OSX和Linux的JVM字节码AOT。
+* [ByteKit](https://github.com/alibaba/bytekit)：Java字节码工具包，由阿里开发。
+* [Caesium](https://github.com/sim0n/Caesium)：Java字节码混淆器。
+* [proguard-core](https://github.com/Guardsquare/proguard-core)：用于读取、写入、分析和处理Java字节码的库。
+* [DroidAssist](https://github.com/didi/DroidAssist)：一个基于Javassist的轻量级Android Studio Gradle插件，用于在Android中编辑字节码，由滴滴开源。
