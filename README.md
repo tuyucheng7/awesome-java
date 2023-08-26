@@ -8,6 +8,7 @@
 - [Rest框架](#rest-framework)
 - [微服务框架](#microservice-framework)
 - [ORM框架](#orm-framework)
+- [脚手架](#scaffold)
 - [单元测试](#unit-test)
 - [断言库](#assertions)
 - [Mock框架](#mocks)
@@ -25,6 +26,7 @@
 - [APM监控工具](#apm)
 - [工具库](#utils)
 - [依赖注入](#di)
+- [AOP](#aop)
 - [日志库](#log)
 - [任务调度](#job)
 - [业务流 & 规则引擎](#bpm)
@@ -60,6 +62,16 @@
 - [字节码操作](#bytecode)
 - [图像处理](#image)
 - [爬虫](#crawler)
+- [数据处理](#data)
+- [注解处理器](#annotation-processor)
+- [事件总线](#event-bus)
+- [Swagger](#swagger)
+- [集群管理](#cluster-management)
+- [代码分析](#code-analysis)
+- [Maven插件](#maven)
+- [注册中心](#registry)
+- [限流库](#rate-limiting)
+- [网关](#gateway)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -101,6 +113,7 @@
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：没有注解/DI/响应式的Java REST框架。
 * [Resty](https://github.com/Dreampie/Resty)：极简的REST框架。
 * [RestExpress](https://github.com/RestExpress/RestExpress)：用于快速创建可扩展、Containerless、RESTful微服务的极简Java框架。
+* [Apache-CXF](https://github.com/apache/cxf)： Apache CXF是一个开源框架，提供了用于方便地构建和开发Web Service的可靠基础架构。
 
 <h2 id="microservice-framework">微服务框架</h2>
 
@@ -152,6 +165,24 @@
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
 * [easy-query](https://github.com/xuejmnet/easy-query)：Java/Kotlin高性能轻量级JDBC查询解决方案，支持分表，数据库支持主从。
 * [Nutz](https://github.com/nutzam/nutz)：包含全功能的ORM、Web框架。
+
+<h2 id="scaffold">脚手架</h2>
+
+* [hope-boot](https://github.com/java-aodeng/hope-boot)：一款现代化的脚手架项目。
+* [spring-boot-plus](https://github.com/geekidea/spring-boot-plus)：Spring Boot Plus是一个简单易用、高速、高效、功能丰富的开源Spring Boot脚手架。
+* [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：X-SpringBoot是一个轻量级的Java快速开发平台。
+* [springcloud-thoth](https://github.com/SpringForAll/springcloud-thoth)：Spring Cloud脚手架。
+* [lenosp](https://gitee.com/zzdevelop/lenosp)：lenosp是一个基于Spring Boot的脚手架。
+* [SpringCloud](https://github.com/zhoutaoo/SpringCloud)：基于Spring Cloud 2.1的微服务开发脚手架。
+* [liugh-parent](https://github.com/qq53182347/liugh-parent)：实现RESTful快速开发的后端脚手架。
+* [es](https://github.com/zhangkaitao/es)：Java EE项目开发脚手架。
+* [ballcat](https://github.com/ballcat-projects/ballcat)：一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷starter进行功能扩展。
+* [mall-tiny](https://github.com/macrozheng/mall-tiny)：一款基于Spring Boot + MyBatisPlus的快速开发脚手架。
+* [AgileBoot-Back-End](https://github.com/valarchie/AgileBoot-Back-End)：规范易于二开的全栈基础快速开发脚手架。
+* [Vole](https://github.com/gavenwangcn/vole)：Spring Cloud微服务商业脚手架。
+* [SpringBoot_v2](https://gitee.com/bdj/SpringBoot_v2)：Spring Boot项目开发脚手架。
+* [Slife](https://gitee.com/jamen/slife)：Spring Boot搭建的一个企业级快速开发脚手架。
+* [vhr](https://gitee.com/lenve/vhr)：Spring Boot + Vue前后端分离的人力资源管理项目，可做常规企业级应用脚手架。
 
 <h2 id="test">测试</h2>
 
@@ -308,12 +339,13 @@
 <h2 id="build">构建工具</h2>
 
 * [Apache Maven](https://github.com/apache/maven)：使用最广泛的Java构建工具。
-* [mvnd](https://github.com/apache/maven-mvnd)：提供更快的Maven构建。
+* [Mvnd](https://github.com/apache/maven-mvnd)：提供更快的Maven构建。
 * [Gradle](https://github.com/gradle/gradle)：灵活，快速的Java、Android构建工具。
 * [Apache Ant](https://github.com/apache/ant)：古老的构建工具。
 * [Bazel](https://github.com/bazelbuild/bazel)：快速、多语言且可扩展的构建系统，由Google开发。
-* [buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
-* [sbt](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
+* [Buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
+* [Sbt](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
+* [Bnd](https://github.com/bndtools/bnd)：用于构建OSGi包的工具，包括Eclipse、Maven和Gradle插件。
 
 <h2 id="gui">GUI程序</h2>
 
@@ -404,6 +436,7 @@
 * [Sniffy](https://github.com/sniffy/sniffy)：Java的交互式分析器、测试和混沌工程工具。
 * [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
 * [FastThread](https://fastthread.io/)：Java线程转储分析器。
+* [Automon](https://github.com/stevensouza/automon)：Automon将AOP(AspectJ)的强大功能与已使用的监视或日志记录工具相结合，以声明方式监视Java代码、JDK和第三方库。
 
 <h2 id="apm">APM监控工具</h2>
 
@@ -425,6 +458,7 @@
 
 * [Guava](https://github.com/google/guava)：Google开源的Java工具库。
 * [Apache Commons](https://github.com/apache/commons-lang)：Apache下的Java工具库。
+* [Lombok](https://github.com/projectlombok/lombok)：对Java语法非常有用的补充，消除样板代码。
 * [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
 * [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
@@ -455,6 +489,18 @@
 * [weld](https://github.com/weld/core)：Weld是CDI的参考实现。
 * [scaldi](https://github.com/scaldi/scaldi)：轻量级Scala依赖注入库。
 * [Kodein](https://github.com/kosi-libs/Kodein)：Kotlin依赖注入。
+* [Transfuse](https://github.com/johncarl81/transfuse)：Google Android的依赖注入和集成框架。
+
+<h2 id="aop">AOP</h2>
+
+* [AspectJ](https://eclipse.dev/aspectj/)：一个易用的功能强大的AOP框架。
+* [jvm-sandbox](https://github.com/alibaba/jvm-sandbox)：基于JVM的实时非侵入式AOP框架容器。
+* [JBossAop](https://jbossaop.jboss.org/)：JBoss AOP是一个100%纯Java面向切面的框架，可在任何编程环境中使用或与我们的应用程序服务器紧密集成。
+* [FastAop](https://github.com/fast-light/fastaop)：基于Java注解处理的轻量级高性能AOP框架，类似于Lombok。
+* [Alliance](https://aopalliance.sourceforge.net/)：Alliance项目是几个对AOP和Java感兴趣的软件工程人员联合发起的开源项目。
+* [VirtualXposed](https://github.com/android-hacker/VirtualXposed)：无需Root即可使用Xpose，解锁引导加载程序或修改系统镜像等。
+* [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架。
+* [jcabi-aspects](https://github.com/jcabi/jcabi-aspects)：AspectJ Java切面的集合，促进面向切面的编程模式：日志记录、缓存、验证等。
 
 <h2 id="log">日志库</h2>
 
@@ -494,7 +540,6 @@
 * [disjob](https://gitee.com/dromara/disjob)：dromara开源的分布式任务调度框架。
 * [light-job](light-task-scheduler)：国产分布式调度任务框架。
 * [Saturn](https://github.com/vipshop/Saturn)：唯品会开源的分布式作业调度平台。
-* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Apache Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
 * [aurora](https://github.com/apache/aurora)：用于长时间运行的服务、cron作业和临时作业的Mesos框架，该项目在Apache基金会下已经退役。
 * [db-scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
 * [openjob](https://github.com/open-job/openjob)：分布式高性能任务调度框架。
@@ -502,6 +547,7 @@
 * [android-job](https://github.com/evernote/android-job)：用于在后台处理任务的Android库，该项目不再维护。
 * [jobx](https://github.com/datavane/jobx)：轻量级的任务调度库。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：古老的Java平台调度程序。
+* [job-dispatcher](https://gitee.com/daye_daye/job-dispatcher)：国产的基于事件的流程编排和调度引擎。
 
 <h2 id="bpm">业务流 & 规则引擎</h2>
 
@@ -634,6 +680,7 @@
 * [PDFLayoutTextStripper](https://github.com/JonathanLink/PDFLayoutTextStripper)：将PDF文件转换为文本文件，同时保留原始PDF的布局。
 * [Apache FOP](https://xmlgraphics.apache.org/fop/)：从XSL-FO创建PDF的库。
 * [pdfcompare](https://github.com/red6/pdfcompare)：一个比较两个PDF文件的简单Java库。
+* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：一个复杂的报表引擎。
 
 <h4 id="excel">Excel库</h4>
 
@@ -786,6 +833,8 @@
 * [HiveMQ](https://github.com/hivemq/hivemq-community-edition)：HiveMQ是一个基于Java的开源MQTT代理，完全支持MQTT 3.x和MQTT 5。
 * [JGroups](https://github.com/belaban/JGroups)：JGroups是一个集群库，允许成员交换消息。
 * [Apache Camel](https://github.com/apache/camel)：能够快速轻松地集成使用或生成数据的各种系统的开源框架。
+* [Chronicle-Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架。
+* [HornetQ](https://github.com/hornetq/hornetq)：HornetQ是一个开源项目，用于构建多协议、可嵌入、高性能、集群、异步消息传递系统。
 
 <h2 id="db">数据库</h2>
 
@@ -954,6 +1003,10 @@
 * [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
 * [OptaPlanner](https://github.com/kiegroup/optaplanner)：OptaPlanner是一个基于Java的约束求解器。
 
+<h4 id="math">数学库</h4>
+
+* [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
+
 <h2 id="concurrency">并发编程</h2>
 
 * [Disruptor](https://github.com/LMAX-Exchange/disruptor)：高性能线程间消息传递库。
@@ -977,6 +1030,7 @@
 * [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
 * [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
+* [fact-async](https://gitee.com/china2010pan/fact-async)：fact-async是一个基于Spring的异步并行框架。
 
 <h2 id="security">安全</h2>
 
@@ -1169,7 +1223,6 @@
 * [NoException](https://github.com/robertvazan/noexception)：用于以简洁、统一且架构干净的方式处理异常的Java库。
 * [protonpack](https://github.com/poetix/protonpack)：Java Stream API的实用工具库。
 * [Fugue](https://bitbucket.org/atlassian/fugue/src/master/)：Guava的函数式编程扩展。
-* [Derive4j](https://github.com/derive4j/derive4j)：Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
 * [lambda](https://github.com/palatable/lambda)：Java的函数式模式。
 * [underscore-java](https://github.com/javadev/underscore-java)：Underscore.js的Java版本。
 * [Faux-Pas](https://github.com/zalando/faux-pas)：一个简化Java函数式编程错误处理的库。
@@ -1258,3 +1311,171 @@
 * [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
 * [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
 * [ispider](https://github.com/xpleaf/ispider)：Java设计的分布式爬虫系统。
+
+<h2 id="data">数据处理</h2>
+
+* [JaVers](https://github.com/javers/javers)： Java的对象审计和差异框架。
+* [java-LSH](https://github.com/tdebatty/java-LSH)：局部敏感哈希(LSH)的Java实现。
+* [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
+
+<h2 id="annotation-processor">注解处理器</h2>
+
+* [Immutables](https://github.com/immutables/immutables)：用于创建不可变对象和构建器的注解处理器。
+* [Derive4j](https://github.com/derive4j/derive4j)：Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
+* [AndroidAnnotations](https://github.com/androidannotations/androidannotations)：快速的Android开发，维护方便。
+* [DeepLinkDispatch](https://github.com/airbnb/DeepLinkDispatch)：一个简单、基于注解的库，用于在Android上更好地处理深度链接。
+* [jackson-annotations](https://github.com/FasterXML/jackson-annotations)：Jackson数据处理器的核心注解。
+* [compile-testing](https://github.com/google/compile-testing)：javac和注解处理器的测试工具。
+* [PaperParcel](https://github.com/grandstaish/paperparcel)：自动生成Java和Kotlin的Parcelable实现。
+* [RAVE](https://github.com/uber-archive/rave)：使用Java注解处理的数据模型验证框架。
+* [PojoBuilder](https://github.com/mkarneim/pojobuilder)：POJO构建器的Java代码生成器。
+* [Moxy](https://github.com/moxy-community/Moxy)：Moxy是适用于Android的MVP库，具有增量注解处理器和ktx功能。
+* [Jackdaw](https://github.com/vbauer/jackdaw)：可以简化开发的Java注解处理器。
+* [ParcelablePlease](https://github.com/sockeqwe/ParcelablePlease)：用于生成Parcelable代码的注解处理器。
+* [beanknife](https://github.com/vipcxj/beanknife)：用于自动生成数据传输对象(DTO)的注解处理器库。
+* [Rest.Vertx](https://github.com/zandero/rest.vertx)：类似JAX-RS的注解处理器，适用于Vert.x Vertical。
+* [FreeBuilder](https://github.com/inferred/FreeBuilder)：自动生成Java的Builder模式。
+
+<h2 id="event-bus">事件总线</h2>
+
+* [EventBus](https://github.com/greenrobot/EventBus)：适用于Android和Java的事件总线，简化了Activity、Fragments、Threads、Services等之间的通信。代码更少，质量更好。
+* [MBassador](https://github.com/bennidi/mbassador)：MBassador是一个利用发布-订阅语义的高性能事件总线。
+* [Otto](https://github.com/square/otto)：增强的基于Guava的事件总线，重点是Android支持。
+* [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud事件总线。
+* [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
+* [ZBUS](https://gitee.com/openforce/zbus)：轻量级服务总线，面向高性能、低时延、高可用特性调优，支持RPC，消息队列服务。
+* [RxBus](https://github.com/AndroidKnife/RxBus)：RxJava的事件总线。
+* [HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)：用于在进程之间使用EventBus的库，在IPC或插件开发中很有用。
+* [AndroidEventBus](https://github.com/hehonghui/AndroidEventBus)：适用于Android的轻量级事件总线库，简化了Activity、Fragments、Threads、Services等之间的通信。
+* [Nakadi](https://github.com/zalando/nakadi)：分布式事件总线，在类似Kafka的队列之上实现RESTful API抽象。
+* [DeFiBus](https://gitee.com/WeBank/DeFiBus)：基于开源消息中间件打造的安全可控的分布式金融级消息总线。
+* [Low-Level-Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计，包括事件总线。
+
+<h2 id="swagger">Swagger</h2>
+
+* [swagger-core](https://github.com/swagger-api/swagger-core)：Swagger Core是OpenAPI规范的Java实现。
+* [knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和OpenAPI 3为一体的增强解决方案。
+* [Springfox](https://github.com/springfox/springfox)：使用Spring构建的API的自动化JSON API文档。
+* [swagger-parser](https://github.com/swagger-api/swagger-parser)：Swagger Parser是Swagger工具之一，可以帮助我们解析OpenAPI文档并提取其各个组件。
+* [springdoc-openapi](https://github.com/springdoc/springdoc-openapi)：Springdoc-openapi是一个用于Spring Boot项目的OpenAPI 3实现。
+* [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
+* [spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot集成Swagger的Starter。
+* [swagger2word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
+* [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。 
+* [OpenAPI-diff](https://github.com/OpenAPITools/openapi-diff)：用于比较两个OpenAPI规范的实用程序。
+* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：基于WebSocket的REST。
+* [Swagger-Play](https://github.com/swagger-api/swagger-play)：这是一个在Play框架控制器中支持Swagger注解的模块。
+* [validator-badge](https://github.com/swagger-api/validator-badge)：该项目在网站上显示“valid swagger”徽章，支持Swagger/OpenAPI 2.0和OpenAPI 3.x规范。
+* [openapi-style-validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
+
+<h2 id="cluster-management">集群管理</h2>
+
+* [Aurora](https://github.com/apache/aurora)：Apache Aurora是一个Mesos框架，用于长时间运行服务和定时任务。
+* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Apache Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+
+<h2 id="code-analysis">代码分析</h2>
+
+* [Checkstyle](https://github.com/checkstyle/checkstyle)：Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。
+* [Infer](https://github.com/facebook/infer)：适用于Java、C、C++和Objective-C的静态分析器。
+* [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：免费开源交互式源浏览器。
+* [ErrorProne](https://github.com/google/error-prone)：将常见的Java错误捕获为编译时错误。
+* [PMD](https://github.com/pmd/pmd)：可扩展的多语言静态代码分析器。
+* [SpotBugs](https://github.com/spotbugs/spotbugs)：一种静态分析工具，用于查找Java代码中的错误。
+* [SonarJava](https://github.com/SonarSource/sonar-java)：用于Java代码质量和安全性的SonarSource静态分析器。
+* [Spoon](https://github.com/INRIA/spoon)：Spoon是一个用于分析和转换Java源代码的元编程库。
+* [FindBugs](https://github.com/findbugsproject/findbugs)：Findbugs是一款开源的Java源码静态分析工具。
+* [jQAssistant](https://github.com/jQAssistant/jqassistant)：一个基于Neo4j数据库的依赖分析工具，支持分析Java、XML、JSON等格式的数据，并提供可视化界面和查询语言。
+* [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：Dependency-Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险。
+* [find-sec-bugs](https://github.com/find-sec-bugs/find-sec-bugs)：用于Java Web应用程序和Android应用程序安全审核的SpotBugs插件。
+* [bytecode-viewer](https://github.com/Konloch/bytecode-viewer)： Java 8+ Jar和Android APK逆向工程套件。
+* [Tai-e](https://github.com/pascal-lab/Tai-e)：一个易于学习/使用的Java静态分析框架。
+* [Steady](https://github.com/eclipse/steady)：分析你的Java应用程序是否存在已知漏洞的开源依赖项，同时使用静态分析和测试来确定代码上下文和使用情况，以提高准确性。
+* [mobsfscan](https://github.com/MobSF/mobsfscan)：mobsfscan是一个静态分析工具，可以在Android和IOS源代码中查找不安全的代码模式。
+* [CK](https://github.com/mauricioaniche/ck)：通过静态分析获得Java代码的代码度量。
+* [jspecify](https://github.com/jspecify/jspecify)：完全指定注解的工件，用于支持静态分析检查，从无效分析开始。
+* [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst)：识别并优先考虑Java代码库中你应该首先重构的上帝类和高度耦合类。
+* [Qulice](https://github.com/yegor256/qulice)：Java项目的质量警察：Checkstyle、PMD和SpotBugs的聚合器。
+* [jpeek](https://github.com/cqfn/jpeek)：Java代码内聚度指标的托管和命令行计算器。
+
+<h2 id="Maven">Maven插件</h2>
+
+* [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
+* [docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)：Docker的Maven插件，Spotify开源，该项目不再活跃。
+* [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)：用于运行和创建Docker镜像的Maven插件。
+* [jkube](https://github.com/eclipse/jkube)：在Kubernetes上构建和部署Java应用程序。
+* [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
+* [android-maven-plugin](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
+* [javafx-maven-plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
+* [swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)：该插件使你的Swagger注解项目能够在Maven构建阶段生成Swagger规范和可定制的模板化静态文档。
+* [sonar-scanner-maven](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
+* [scala-maven-plugin](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
+* [depgraph-maven-plugin](https://github.com/ferstl/depgraph-maven-plugin)：可生成各种格式(DOT、GML、PlantUML、JSON和Text)依赖关系图的Maven插件。
+* [jmeter-maven-plugin](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
+* [jaxb-tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
+* [modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
+* [javafx-maven-plugin](https://github.com/openjfx/javafx-maven-plugin)：用于运行JavaFX 11+应用程序的Maven插件。
+* [versions-maven-plugin](https://github.com/mojohaus/versions)：用于管理项目POM中的工件版本。
+* [asciidoctor-maven-plugin](https://github.com/asciidoctor/asciidoctor-maven-plugin)：通过JRuby使用Asciidoctor来处理项目内的AsciiDoc源文件。
+* [fmt-maven-plugin](https://github.com/spotify/fmt-maven-plugin)：格式化Java代码的固定Maven插件。
+* [os-maven-plugin](https://github.com/trustin/os-maven-plugin)：用于设置从${os.name}和${os.arch}属性检测到的各种有用属性。
+* [native-build-tools](https://github.com/graalvm/native-build-tools)：适用于各种构建工具的本机镜像插件。
+* [azure-maven-plugins](https://github.com/microsoft/azure-maven-plugins)：适用于Azure的Maven插件。
+* [protoc-jar-maven-plugin](https://github.com/os72/protoc-jar-maven-plugin)：使用protoc-jar多平台可执行protoc JAR执行protobuf代码生成。
+* [license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)：用于管理源文件中的许可证标头。
+* [appbundle-maven-plugin](https://github.com/federkasten/appbundle-maven-plugin)：可为OS X创建包含所有项目依赖项和必要元数据的应用程序包。
+* [duplicate-finder-maven-plugin](https://github.com/basepom/duplicate-finder-maven-plugin)：用于查找重复类或资源的Maven插件。
+* [gluonfx-maven-plugin](https://github.com/gluonhq/gluonfx-maven-plugin)：简化为Java/JavaFX Maven项目创建本机镜像的插件。
+* [tomcat-maven-plugin](https://github.com/apache/tomcat-maven-plugin)：Apache Tomcat Maven插件。
+* [exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)：可以执行Java程序的Maven插件。
+* [gwt-maven-plugin](https://github.com/tbroyer/gwt-maven-plugin)：使Maven构建GWT项目更加容易。
+* [jshell-maven-plugin](https://github.com/johnpoth/jshell-maven-plugin)：Java Shell工具(JShell)的Maven插件。
+* [mybatis-generator-yml-maven-plugin](https://github.com/javthon/mybatis-generator-yml-maven-plugin)：MyBatis Generator YML配置、Lombok插件、Swagger插件支持。
+* [springdoc-openapi-maven-plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
+* [cucable-plugin](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
+* [graphql-maven-plugin](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：可以生成Java代码来加速客户端和服务器的开发。
+* [web3j-maven-plugin](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
+* [aspectj-maven-plugin](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
+* [app-maven-plugin](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
+* [mosec-maven-plugin](https://github.com/momosecurity/mosec-maven-plugin)：用于检测Maven项目的第三方依赖组件是否存在安全漏洞。
+* [rewrite-maven-plugin](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件。
+* [allure-maven](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
+* [heroku-maven-plugin](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
+
+<h2 id="registry">注册中心</h2>
+
+* [Nacos](https://github.com/alibaba/nacos)：一个易于使用的动态服务发现、配置和服务管理平台，用于构建云原生应用程序，由阿里开源。
+* [Apollo](https://github.com/apolloconfig/apollo)：可靠的配置管理系统，适用于微服务配置管理场景，由携程开源。
+* [Eureka](https://github.com/Netflix/eureka)：用于弹性中间层负载均衡和故障转移的AWS服务注册中心，Netflix开源。
+* [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：分布式微服务注册中心。
+* [Nomulus](https://github.com/google/nomulus)：Google App Engine上的顶级域名注册服务。
+* [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是由蚂蚁金服提供支持的生产级、低延迟、高可用性服务注册中心。
+* [flair-registry](https://github.com/viz-centric/flair-registry)：Flair BI的服务发现。
+
+<h2 id="rate-limiting">限流库</h2>
+
+* [Sentinel](https://github.com/alibaba/Sentinel)：面向云原生微服务的高可用流控防护组件，由阿里开源。
+* [Hystrix](https://github.com/Netflix/Hystrix)：Hystrix是一个延迟和容错库，可以防止级联故障，由Netflix开源。
+* [Resilience4j](https://github.com/resilience4j/resilience4j)：Resilience4j是一个专为Java 8和函数式编程设计的容错库。
+* [Bucket4j](https://github.com/bucket4j/bucket4j)：Bucket4j是一个基于令牌桶算法的Java限流库。
+* [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：Java限流库/框架。
+* [concurrency-limits](https://github.com/Netflix/concurrency-limits)：实现并集成了从TCP拥塞控制到自动检测服务并发限制的概念，以便以最佳延迟实现最佳吞吐量。
+* [RateLimitJ](https://github.com/mokies/ratelimitj)：用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器，该项目不再活跃。
+* [token-bucket](https://github.com/bbeck/token-bucket)：令牌桶限速算法。
+* [RedisRateLimiter](https://github.com/tangaiyun/RedisRateLimiter)：基于Redis的API访问速率限制器。
+* [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
+* [Discovery](https://gitee.com/nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
+
+<h2 id="gateway">网关</h2>
+
+* [Zuul](https://github.com/Netflix/zuul)：Zuul是一种网关服务，提供动态路由、监控、弹性、安全性等。
+* [Apache ShenYu](https://github.com/apache/shenyu)：Apache ShenYu是一个Java原生API网关，用于服务代理、协议转换和API治理，由dromara社区创始人开源。
+* [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)：基于Spring Boot构建的网关，提供路由等功能。
+* [SMSSync](https://github.com/ushahidi/SMSSync)：适用于Android的SMS网关。
+* [FizzGate](https://github.com/fizzgate/fizz-gateway-node)：FizzGate是一个基于Java开发的微服务聚合网关。
+* [VX-API-Gateway](https://gitee.com/mirren/VX-API-Gateway)：VX-API-Gateway是基于Vert.x开发的API网关，是一个全异步、高性能、可扩展、轻量级的API网关。
+* [Haafiz](https://github.com/ProgrammerAnthony/Haafiz)：基于Netty、Disruptor、etcd等技术实现的开源网关。
+* [SIA-Gateway](https://github.com/siaorg/sia-gateway)：基于Spring Cloud微服务生态体系下开发的一个分布式微服务网关系统。
+* [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关。
+* [Eclipse Kura](https://github.com/eclipse/kura)：基于OSGi的M2M服务网关应用程序框架。
+* [service-proxy](https://github.com/membrane/service-proxy)：用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关。
+* [Artio](https://github.com/real-logic/artio)：弹性高性能FIX和FIXP网关。
