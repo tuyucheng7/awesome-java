@@ -82,6 +82,10 @@
 - [Raft算法](#raft)
 - [Paxos算法](#paxos)
 - [分布式锁](#distributed-lock)
+- [CQRS框架](#cqrs)
+- [DDD框架](#ddd)
+- [JSF框架](#jsf)
+- [机器人](#bot)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -664,6 +668,7 @@
 * [reactive-audit](https://github.com/octo-online/reactive-audit)：旨在为项目实施中使用响应式架构提供帮助的审计工具。
 * [Twitch4j](https://github.com/twitch4j/twitch4j)：模块化异步/同步/响应式Twitch API客户端/IRC客户端。
 * [xoom-actors](https://github.com/vlingo/xoom-actors)：用于类型安全Actor模型的VLINGO XOOM平台SDK，使用Java和其他JVM语言提供响应式并发、高可扩展性、高吞吐量和弹性。
+* [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 
 <h2 id="cache">缓存库</h2>
 
@@ -1758,3 +1763,75 @@
 * [coody-elock](https://gitee.com/coodyer/coody-elock)：一款基于Redis订阅实现的分布式锁插件。
 * [redis-shared-lock](https://gitee.com/lsongiu/redis-shared-lock)：基于Redis的分布式共享锁，使用注解的方式对方法加锁。
 * [DistributedLock](https://github.com/wyzssw/DistributedLock)：Redis分布式锁实现。
+
+<h2 id="cqrs">CQRS框架</h2>
+
+* [JDON](https://github.com/banq/jdonframework)：领域驱动设计Pub/Sub领域事件框架。
+* [Reveno](https://github.com/dmart28/reveno)：高性能和低延迟事件源/CQRS框架。
+* [Zilla](https://github.com/aklivity/zilla)：多协议、事件本机边缘/服务代理。
+* [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，计划以最小的学习曲线和易于适应的方式进行CQRS转换的团队可以从中受益。
+* [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
+* [Sourcerer](https://github.com/elder-oss/sourcerer)：一个功能性且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构。
+* [Apache Polygene](https://github.com/apache/polygene-java)：探索面向领域的应用程序开发的面向复合编程。
+* [Dewdrop](https://github.com/matsientst/dewdrop)：Dewdrop是一个简单、快速且功能强大的基于Java的事件源框架。
+
+<h2 id="ddd">DDD框架</h2>
+
+* [library](https://github.com/ddd-by-examples/library)：全面的领域驱动设计示例，包含问题空间战略分析和各种战术模式。
+* [cp-ddd-framework](https://github.com/funkygao/cp-ddd-framework)：轻量级DDD正向/逆向业务建模框架。
+* [Apache Causeway](https://github.com/apache/causeway)：Apache Causeway软件是一个用于使用Java快速开发领域驱动应用程序的框架。
+* [DDDLib](https://github.com/dayatang/dddlib)：DDDLib是一个领域驱动设计类库。
+* [Dante-Cloud](https://github.com/dromara/dante-cloud)：Dante Cloud是一款企业级微服务架构和服务能力开发平台，是采用领域驱动模型(DDD)设计思想的、全面拥抱Spring Authorization Server、基于OAuth 2.1协议、支持智能电视、IoT等物联网设备认证的多租户微服务解决方案。
+* [DDDplus](https://github.com/dddplus/dddplus)：轻量级DDD增强框架。
+* [ddd-base](https://github.com/linux-china/ddd-base)：DDD Java基础包。
+* [context-mapper-dsl](https://github.com/ContextMapper/context-mapper-dsl)：用于上下文映射和服务分解的领域特定语言。
+* [ddd-framework](https://github.com/lml200701158/ddd-framework)：个人开发的DDD框架。
+* [Spine-Event-Engine](https://github.com/SpineEventEngine/core-java)：DDD框架核心的Java实现。
+
+<h2 id="jsf">JSF框架</h2>
+
+* [PrimeFaces](https://github.com/primefaces/primefaces)：JavaServer Faces的终极组件套件。
+* [JoinFaces](https://github.com/joinfaces/joinfaces)：旨在解决JSF和Spring Boot集成功能。
+* [PrimeFaces-Extensions](https://github.com/primefaces-extensions/primefaces-extensions)：PrimeFaces扩展。
+* [Omnifaces](https://github.com/omnifaces/omnifaces)：让JSF开发更轻松。
+* [Adminfaces](https://github.com/adminfaces/admin-template)：AdminFaces是一个开源项目，它集成了Primefaces、Bootstrap和Admin LTE，以创建完全响应且适合移动设备的JSF应用程序。
+* [Mojarra](https://github.com/eclipse-ee4j/mojarra)：Eclipse基金会下的Jakarta Faces实现。
+* [MyFaces](https://github.com/apache/myfaces)：Apache基金会下的Jakarta Faces实现。
+* [ButterFaces](https://github.com/butterfaces/butterfaces)：一个轻量级、响应式的JSF框架，结合了Bootstrap、jQuery和HTML 5的优点，使用JSF 2开发快速、简单和现代的Web应用程序。
+* [RichFaces](https://github.com/richfaces/richfaces)：RedHat JBoss的JSF组件框架。
+* [ChartistJSF](https://github.com/hatemalimam/ChartistJSF)：JavaServer Faces的高度可定制响应式图表。
+* [Springfaces](https://github.com/philwebb/springfaces)：Spring JSF集成。
+
+<h2 id="bot">机器人</h2>
+
+* [MusicBot](https://github.com/jagrosh/MusicBot)：一个可以轻松设置和运行的Discord音乐机器人。
+* [TelegramBots](https://github.com/rubenlagus/TelegramBots)：使用Telegram Bots API创建机器人的Java库。
+* [JDA](https://github.com/discord-jda/JDA)：流行的聊天和VOIP服务的Java包装器。
+* [Discord4J](https://github.com/Discord4J/Discord4J)：Discord4J是一个快速、强大、无偏见的响应式库，可使用官方Discord Bot API快速轻松地开发适用于Java、Kotlin和其他JVM语言的Discord机器人。
+* [java-telegram-bot-api](https://github.com/pengrad/java-telegram-bot-api)：用于Java的Telegram Bot API。
+* [JBot](https://github.com/rampatra/jbot)：JBot是一个Java框架(受Botkit启发)，可在几分钟内创建Slack和Facebook机器人。
+* [R-Bot](https://github.com/semicons/java_oci_manage)：应用于甲骨文云/Azure云的一些快捷操作。
+* [Javacord](https://github.com/Javacord/Javacord)：一个易于使用的多线程库，用于在Java中创建Discord机器人。
+* [GiveawayBot](https://github.com/jagrosh/GiveawayBot)：在Discord服务器上快速轻松地保存赠品。
+* [Line-Message-SDK](https://github.com/line/line-bot-sdk-java)：适用于Java的LINE Messaging API SDK可以轻松使用LINE Messaging API开发机器人，并且可以在几分钟内创建示例机器人。
+* [BotLibre](https://github.com/BotLibre/BotLibre)：适用于人工智能、聊天机器人、虚拟代理、社交媒体自动化和实时聊天自动化的开放平台。
+* [Vortex](https://github.com/jagrosh/Vortex)：Discord审核机器人。
+* [TrashEmail](https://github.com/rosehgal/TrashEmail)：托管的一次性电子邮件电报机器人，对隐私极其友好；
+* [jeeves](https://github.com/kanjielu/jeeves)：一个智能微信机器人。
+* [Repairnator](https://github.com/eclipse/repairnator)：Github上的软件机器人开源平台。
+* [MantaroBot](https://github.com/Mantaro/MantaroBot)：使用JDA用Java制作的多用途Discord机器人。
+* [TradeBot](https://github.com/markusaksli/TradeBot)：使用Binance API的加密货币交易机器人。
+* [wechat-robot](https://gitee.com/hellokaton/wechat-robot)：Java版微信普通号机器人。
+* [dwBot](https://gitee.com/dullwolf/dwBot)：一款可以实现指令读取的QQ机器人。
+* [binance-trader](https://github.com/unterstein/binance-trader)：Binance.com上的实验性加密货币交易机器人。
+* [Sokobot](https://github.com/PolyMarsDev/Sokobot)：一个可以玩推箱子的Discord机器人。
+* [AIODE](https://github.com/robinfriedli/aiode)：可播放Spotify曲目和YouTube视频或任何URL(包括Soundcloud链接和Twitch流)的Discord机器人。
+* [JDA-Utilities](https://github.com/JDA-Applications/JDA-Utilities)：JDA协助创建机器人的一系列工具和实用程序。
+* [messenger4j](https://github.com/messenger4j/messenger4j)：用于在Facebook Messenger平台上构建聊天机器人的Java库。
+* [tdlight-java](https://github.com/tdlight-team/tdlight-java)：基于TDLib的完整Bot和Userbot Telegram库。
+* [botbuilder-java](https://github.com/microsoft/botbuilder-java)：Microsoft Bot Framework提供了构建和连接智能机器人所需的功能，无论用户在哪里交谈，这些机器人都可以自然地交互，从文本/短信到Skype、Slack、Office 365邮件和其他流行服务。
+* [Chuu](https://github.com/ishwi/Chuu)：Chuu是一个Discord机器人，将Last.fm与Discord集成。
+* [Mutters](https://github.com/rabidgremlin/Mutters)：构建机器人大脑的框架。
+* [WeChatBotEngine](https://github.com/moontide/WeChatBotEngine)：基于微信网页版HTTP协议的机器人引擎。
+* [FeishuBot](https://github.com/rawchen/FeishuBot)：飞书群聊/私聊ChatGPT机器人。
+* [PokuBot](https://github.com/norecha/pokubot)：部落冲突机器人。
