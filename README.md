@@ -22,6 +22,8 @@
 - [Java IDE](#ide)
 - [构建工具](#build)
 - [GUI程序](#gui)
+- [字节码工具](#classtool)
+- [字节码工具](#obfuscator)
 - [开源JDK](#jdk)
 - [性能分析](#profiler)
 - [APM监控工具](#apm)
@@ -86,6 +88,7 @@
 - [DDD框架](#ddd)
 - [JSF框架](#jsf)
 - [机器人](#bot)
+- [Swing库](#swing)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -381,12 +384,10 @@
 <h2 id="gui">GUI程序</h2>
 
 * [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
-* [JD-GUI](https://github.com/java-decompiler/jd-gui)：Java反编译器GUI。
 * [FinalShell](https://www.hostbuf.com/)：国内开源的SSH客户端工具。
 * [SoapUI](https://github.com/SmartBear/soapui)：SoapUI是一个免费、开源的跨平台API和Web Service功能测试解决方案。
 * [ArgoUML](https://github.com/argouml-tigris-org/argouml)：一个用于绘制UML图的应用软件。
 * [PlantUML](https://github.com/plantuml/plantuml)：可以通过纯文本的方式来生成UML图。
-* [Luyten](https://github.com/deathmarine/Luyten)：Procyon的开源Java反编译器GUI。
 * [Matlab](https://www.mathworks.com/products/matlab.html)：Matlab是一种用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境，其GUI部分由Java开发。
 * [Protege](https://github.com/protegeproject/protege)：Protege是一个免费的开源本体编辑器，支持最新的OWL 2.0标准。
 * [AKHQ](https://github.com/tchiotludo/akhq)：用于Apache Kafka的Kafka GUI，用于管理主题、主题数据、消费者组、模式注册表、连接等等。
@@ -411,6 +412,63 @@
 * [Xmind](https://xmind.app/)：Xmind是一款全功能的思维导图和头脑风暴软件。
 * [DSTE](https://ai-solutions.com/dste/)：DSTE被约翰逊航天中心用作设计工具，为地月系统轨道上的载人栖息地任务进行轨道设计。
 * [CuratOR](https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/)：CuratorOR由德国EIZO GmbH开发，是一款用在医院手术室的应用程序。
+* [mybatis-generator-gui](https://github.com/zouzg/mybatis-generator-gui)：Mybatis-Generator界面工具，可以更加直观的生成代码。
+* [ThinkPHPGUI](https://github.com/Lotus6/ThinkphpGUI)：Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。
+* [Super-Xray](https://github.com/4ra1n/super-xray)：Web漏洞扫描工具XRAY的GUI启动器。
+* [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)：基于GUI的虚拟SMTP服务器，可轻松测试应用程序中的电子邮件。
+* [poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
+* [Particle-Life](https://github.com/tom-mohr/particle-life-app)：Particle Life的GUI，这是一个显示逼真行为的粒子系统。
+* [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，Gui基于JavaFX。
+* [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI)：FutureRestore的现代GUI，添加了使过程更容易的功能。
+* [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMap的高级图形用户界面。
+* [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)：jExifToolGUI是Phil Harvey的一个多平台Java/Swing图形前端，用于优秀的命令行ExifTool应用程序。
+* [WePush](https://github.com/rememberber/WePush)：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息等。
+* [WeSync](https://github.com/rememberber/WeSync)：用Java Swing写的数据库同步软件。
+* [remote-desktop-control](https://github.com/Cool-Coding/remote-desktop-control)：远程桌面控制软件。
+* [CXTouch](https://github.com/cxplan/CXTouch)：基于Java Swing的PC客户端查看和管理Android设备，支持Windows、Linux和MacOS。
+* [JavaANPR](https://github.com/oskopek/javaanpr)：Java的自动车牌识别系统。
+* [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
+* [Perceptron](https://github.com/Jasonnor/Perceptron)：使用Java Swing实现单层感知器神经网络。
+
+<h2 id="classtool">字节码工具</h2>
+
+* [JD-GUI](https://github.com/java-decompiler/jd-gui)：Java反编译器GUI。
+* [ClassyShark](https://github.com/google/android-classyshark)：Android和Java字节码查看器。
+* [jclasslib](https://github.com/ingokegel/jclasslib)：jclasslib字节码编辑器是一个工具，可以可视化已编译的Java类文件和所包含的字节码的各个方面。
+* [GDA](https://github.com/charles2gan/GDA-android-reversing-Tool)：最快、最强大的Android反编译器，适用于APK、DEX、ODEX、OAT、JAR、AAR和CLASS文件。
+* [Luyten](https://github.com/deathmarine/Luyten)：Procyon的开源Java反编译器GUI。
+* [Classpy](https://github.com/zxh0/classpy)：Classpy是一个GUI工具，用于研究Java类文件、Lua二进制块、Wasm二进制代码和其他二进制文件格式。
+* [Jar-Analyzer](https://github.com/4ra1n/jar-analyzer-gui)：一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自动构建方法调用关系，支持分析Spring框架。
+* [ClassViewer](https://github.com/ClassViewer/ClassViewer)：ClassViewer是一个轻量级的Java字节码文件查看器，仅依赖于JDK和JavaFX。
+* [JADXecute](https://github.com/LaurieWired/JADXecute)：用于动态反编译器操作的JADX-GUI脚本插件。
+* [Decompiler](https://github.com/sotasan/decompiler)：小巧的Java反编译器GUI。
+* [Bytecoder](https://github.com/mirkosertic/Bytecoder)：用于将JVM字节码解释和转换为JavaScript、OpenCL或WebAssembly的框架。
+* [Vineflower](https://github.com/Vineflower/vineflower)：Vineflower是一种现代通用JVM语言反编译器，专注于提供最佳的质量、速度和可用性。
+* [jd-core-java](https://github.com/nviennot/jd-core-java)：Java反编译器JD-Core库。
+* [friday](https://github.com/zifeihan/friday)：Java实时反编译工具。
+* [CFR](https://github.com/leibnitz27/cfr)：可以很好地将class文件从其他JVM语言转回Java。
+* [jd-eclipse](https://github.com/java-decompiler/jd-eclipse)：Java反编译器Eclipse插件。
+
+<h2 id="obfuscator">字节码混淆工具</h2>
+
+* [ProGuard](https://github.com/Guardsquare/proguard)：ProGuard是一个免费的Java字节码收缩器、优化器、混淆器和预验证器。
+* [AabResGuard](https://github.com/bytedance/AabResGuard)：Android App bundle资源混淆工具。
+* [BlackObfuscator](https://github.com/CodingGay/BlackObfuscator)：Black Obfuscator是一款针对Android APK DexFile的混淆器，它可以帮助开发者通过控制流扁平化来保护源代码，并使分析实际程序控制流变得困难。
+* [Skidfuscator](https://github.com/skidfuscatordev/skidfuscator-java-obfuscator)：使用cts和bibl设计的MapleIR框架的公共概念验证混淆器。
+* [native-obfuscator](https://github.com/radioegor146/native-obfuscator)：用于JNI的Java class到cpp转换器。
+* [Radon](https://github.com/ItzSomebody/radon)：磨损的java字节码混淆器。
+* [yGuard](https://github.com/yWorks/yGuard)：yWorks推出的与Ant和Gradle配合使用的开源Java混淆工具-图表专家。
+* [Caesium](https://github.com/sim0n/Caesium)：Java字节码混淆器。
+* [dProtect](https://github.com/open-obfuscator/dProtect)：dProtect是一个基于Proguard的Java和Kotlin混淆器。
+* [Bozar](https://github.com/vimasig/Bozar)：使用GUI的Java字节码混淆器。
+* [AndroidLibrary](https://github.com/StringCare/AndroidLibrary)：用于在运行时显示或混淆字符串和资源的Android库。
+* [MCPMappingViewer](https://github.com/bspkrs/MCPMappingViewer)：一个小型GUI，用于查看从Minecraft混淆代码名称到MCP代码名称的映射。
+* [SpecialSource](https://github.com/md-5/SpecialSource)：jar混淆映射的自动生成器和重命名器。
+* [masxinlingvonta](https://github.com/superblaubeere27/masxinlingvonta)：将Java字节码编译为LLVM IR(用于混淆目的)。
+* [string-obfuscator](https://github.com/shamanland/simple-string-obfuscator)：Java的简单字符串混淆器。
+* [Enigma](https://github.com/christopherney/Enigma)：混淆器字符串加密(Android/Java)。
+* [CAFED00D](https://github.com/Col-E/CAFED00D)：混淆弹性Java class读取器/写入器。
+* [Obfuscator](https://github.com/superblaubeere27/obfuscator)：Java混淆器。
 
 <h2 id="jdk">开源JDK</h2>
 
@@ -1329,7 +1387,6 @@
 * [Mixin](https://github.com/SpongePowered/Mixin)：Mixin是一个使用ASM的Java特征/混合和字节码编织框架。
 * [RoboVM](https://github.com/MobiVM/robovm)：针对IOS、Mac OSX和Linux的JVM字节码AOT。
 * [ByteKit](https://github.com/alibaba/bytekit)：Java字节码工具包，由阿里开发。
-* [Caesium](https://github.com/sim0n/Caesium)：Java字节码混淆器。
 * [proguard-core](https://github.com/Guardsquare/proguard-core)：用于读取、写入、分析和处理Java字节码的库。
 * [DroidAssist](https://github.com/didi/DroidAssist)：一个基于Javassist的轻量级Android Studio Gradle插件，用于在Android中编辑字节码，由滴滴开源。
 
@@ -1835,3 +1892,39 @@
 * [WeChatBotEngine](https://github.com/moontide/WeChatBotEngine)：基于微信网页版HTTP协议的机器人引擎。
 * [FeishuBot](https://github.com/rawchen/FeishuBot)：飞书群聊/私聊ChatGPT机器人。
 * [PokuBot](https://github.com/norecha/pokubot)：部落冲突机器人。
+
+<h2 id="swing">Swing库</h2>
+
+* [FlatLaf](https://github.com/JFormDesigner/FlatLaf)：FlatLaf是Java Swing桌面应用程序的现代开源跨平台外观。
+* [BeautyEye](https://github.com/JackJiang2011/beautyeye)：BeautyEye是一种Java Swing跨平台外观。
+* [WebLaf](https://github.com/mgarin/weblaf)：WebLaF是一个完全开源的外观和感觉以及用纯Java编写的组件库，用于跨平台桌面Swing应用程序。
+* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序(JavaFX、Swing或服务器端)的2D图表库。
+* [Orson-Charts](https://github.com/jfree/orson-charts)：用于Java应用程序(JavaFX、Swing或服务器端)的3D图表库。
+* [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)：用于Java Swing应用程序的语法突出显示、代码折叠文本编辑器。
+* [Radiance](https://github.com/kirill-grouchnikov/radiance)：Radiance是一个库集合，用于基于Ephemeral设计系统编写现代、优雅且快速的Swing应用程序。
+* [Material-UI-Swing](https://github.com/atarw/material-ui-swing)：适用于Java Swing的现代Material Design UI。
+* [Darklaf](https://github.com/weisJ/darklaf)：该项目基于Swing的Darcula外观和感觉。
+* [SystemTray](https://github.com/dorkbox/SystemTray)：Java 8+上对Swing/AWT、MacOS、GtkStatusIcon和AppIndicator的跨平台SystemTray支持。
+* [MiGLayout](https://github.com/mikaelgrev/miglayout)：Swing、SWT和JavaFX的官方MiG布局。
+* [material-ui-swing](https://github.com/vincenzopalazzo/material-ui-swing)：Java Swing的现代Material Design UI。
+* [TableLayout](https://github.com/EsotericSoftware/tablelayout)：Java UI工具包基于表格的布局：Libgdx、Swing、Android、TWL。
+* [LGoodDatePicker](https://github.com/LGoodDatePicker/LGoodDatePicker)：Java Swing日期选择器，易于使用、美观、功能强大且本地化。
+* [Swing9patch](https://github.com/JackJiang2011/Swing9patch)：一组很酷的Java Swing可重用组件或UI效果。
+* [DJ-Native-Swing](https://github.com/Chrriis/DJ-Native-Swing)：用于Swing的Web浏览器、Flash播放器、HTML编辑器、媒体播放器。
+* [SwingBits](https://github.com/eugener/oxbow)：Swing UI增强。
+* [AutoComplete](https://github.com/bobbylight/AutoComplete)：Swing文本组件的代码完成库，特别支持RSyntaxTextArea。
+* [Chromium](https://github.com/equodev/chromium)：在Java、SWT、Swing和Eclipse RCP应用程序中创建和呈现Web UI。
+* [jSystemThemeDetector](https://github.com/Dansoftowner/jSystemThemeDetector)：用于检测(桌面)操作系统是否使用深色UI主题的Java库。
+* [JDatePicker](https://github.com/JDatePicker/JDatePicker)：Java Swing日期选择器。
+* [SlidingLayout](https://github.com/AurelienRibon/sliding-layout)：功能强大的Java Swing面板/布局，具有涉及滑动子面板的炫酷过渡。
+* [SwingLibrary](https://github.com/robotframework/SwingLibrary)：Robot Framework的Swing UI测试库。
+* [assertj-swing](https://github.com/assertj/assertj-swing)：用于Swing应用程序的流式断言。
+* [RxSwing](https://github.com/ReactiveX/RxSwing)：Swing的RxJava绑定。
+* [KControls](https://github.com/k33ptoo/KControls)：Java Swing自定义控件。
+* [UiBooster](https://github.com/Milchreis/UiBooster)：创建快速、简单对话框的实用工具。
+* [Sierra](https://github.com/HTTP-RPC/Sierra)：Java的声明式UI。
+* [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
+* [InventoryGui](https://github.com/Phoenix616/InventoryGui)：用于Bukkit插件的库，用于创建带有清单的GUI。
+* [InvUI](https://github.com/NichtStudioCode/InvUI)：用于创建基于库存的自定义GUI的插头库。
+* [Lemur](https://github.com/jMonkeyEngine-Contributions/Lemur)：Lemur是一个基于jMonkeyEngine的UI工具包。
+* [Limelight](https://github.com/slagyr/limelight)：用于Ruby/Clojure/Java的GUI库。
