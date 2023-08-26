@@ -23,7 +23,7 @@
 - [构建工具](#build)
 - [GUI程序](#gui)
 - [字节码工具](#classtool)
-- [字节码工具](#obfuscator)
+- [字节码混淆工具](#obfuscator)
 - [开源JDK](#jdk)
 - [性能分析](#profiler)
 - [APM监控工具](#apm)
