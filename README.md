@@ -151,6 +151,7 @@
 * [Msf4j](https://github.com/wso2/msf4j)：适用于Java的WSO2微服务框架。
 * [NutzBoot](https://github.com/nutzam/nutzboot)：可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、hystrix、RPC等解决方案。
 * [piggymetrics](https://github.com/sqshq/piggymetrics)：使用Spring Boot、Spring Cloud和Docker的微服务架构。
+* [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 
 <h2 id="microservice-tool">微服务工具</h2>
 
@@ -895,8 +896,8 @@
 * [koalas-rpc](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用可拓展的RPC框架。
 * [xxl-rpc](https://github.com/xuxueli/xxl-rpc)：国产高性能、分布式RPC框架。
 * [Turbo](https://github.com/hank-whu/turbo-rpc)：Turbo是一个超快速响应式RPC框架。
-* []()：
-* []()：
+* [rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)：一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
+* [NettyRPC](https://github.com/tang-jie/NettyRPC)：NettyRPC是基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
 
 <h2 id="message">消息中间件</h2>
 
