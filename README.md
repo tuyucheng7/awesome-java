@@ -35,7 +35,7 @@
 - [大数据框架](#bigdata)
 - [PDF库](#pdf)
 - [Excel库](#excel)
-- [CSV库](#csv) 
+- [CSV库](#csv)
 - [HTTP客户端库](#httpclient)
 - [WebServer](#webserver)
 - [Jakarta EE实现](#jakartaee)
@@ -72,6 +72,10 @@
 - [注册中心](#registry)
 - [限流库](#rate-limiting)
 - [网关](#gateway)
+- [SDK](#sdk)
+- [区块链](#blockchain)
+- [以太坊](#ethereum)
+- [比特币](#bitcoin)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -122,11 +126,13 @@
 * [Micronaut](https://github.com/micronaut-projects/micronaut-core)：JVM平台上的微服务框架。
 * [Quarkus](https://github.com/quarkusio/quarkus)：云原生时代的Java微服务框架。
 * [Helidon](https://github.com/helidon-io/helidon)：用于编写微服务的Java库。
+* [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix是Spring Cloud的子项目，提供了Netflix开源项目的整合。
 * [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：阿里开源的Spring Cloud框架，提供一站式的微服务应用开发解决方案。
 * [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp)：集成了Google云功能的Spring Cloud框架，由Google提供。
 * [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent)：Spring Cloud Tencent是腾讯提供的基于Spring Cloud的服务治理框架。
 * [Spring Cloud Azure](https://github.com/microsoft/spring-cloud-azure)：Spring Cloud Azure是微软开发的Spring Cloud框架，提供Spring与 Azure服务的无缝集成。
 * [Spring Cloud AWS](https://github.com/awspring/spring-cloud-aws)：亚马逊提供的Spring Cloud框架。
+* [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei)：华为开源的使Spring Cloud开发微服务变得更加简单和高效的框架。
 * [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Ktor](https://github.com/ktorio/ktor)：Ktor是一个Kotlin编写的用于创建微服务、Web应用程序等的异步框架。
 * [MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展。
@@ -332,9 +338,14 @@
 * [Visual Studio Code](https://code.visualstudio.com/)：微软开源的文本编辑器，也支持作为IDE开发Java。
 * [Android Studio](https://developer.android.com/studio)：Google开发的Android开发IDE，基于Intellij引擎。
 * [Apache NetBeans](https://github.com/apache/netbeans)：Apache下开源免费的Java IDE，最初由Oracle开发。
+* [MyEclipse](https://www.genuitec.com/products/myeclipse/)：MyEclipse是一个基于Eclipse的商业Java IDE。
+* [STS](https://github.com/spring-projects/sts4)：Spring官方出品的基于Eclipse的Java IDE。
 * [JDeveloper](https://www.oracle.com/application-development/technologies/jdeveloper.html)：Oracle开发的Java IDE。
 * [BlueJ](https://github.com/k-pet-group/BlueJ-Greenfoot)：专为初学者设计的免费Java开发环境。
 * [JBuilder](https://borland-jbuilder.software.informer.com/)：Borland软件公司出品的Java集成编程环境，有不同功能程度的多个版本。
+* [Consulo](https://github.com/consulo/consulo)：开源的可用于Java的IDE，基于Intellij引擎。
+* [Greenfoot](https://www.greenfoot.org/home)：免费的Java集成开发环境。
+* [DrJava](http://www.drjava.org/)：DrJava是一个简单、轻量级、交互式Java IDE。
 
 <h2 id="build">构建工具</h2>
 
@@ -1253,7 +1264,7 @@
 * [Thumbnailator](https://github.com/coobird/thumbnailator)：Java的缩略图生成库。
 * [Pngtastic](https://github.com/depsypher/pngtastic/)：一个纯Java PNG图像优化和操作库。
 * [ImageJ](https://github.com/imagej/ImageJ)：用于处理和分析科学图像的公共领域软件。
-* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。 
+* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。
 * [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：Java ImageIO的附加插件和扩展。
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV(开源计算机视觉)是一个用于实时计算机视觉和图像处理的库。
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
@@ -1361,7 +1372,7 @@
 * [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
 * [spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot集成Swagger的Starter。
 * [swagger2word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
-* [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。 
+* [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。
 * [OpenAPI-diff](https://github.com/OpenAPITools/openapi-diff)：用于比较两个OpenAPI规范的实用程序。
 * [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：基于WebSocket的REST。
 * [Swagger-Play](https://github.com/swagger-api/swagger-play)：这是一个在Play框架控制器中支持Swagger注解的模块。
@@ -1479,3 +1490,107 @@
 * [Eclipse Kura](https://github.com/eclipse/kura)：基于OSGi的M2M服务网关应用程序框架。
 * [service-proxy](https://github.com/membrane/service-proxy)：用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关。
 * [Artio](https://github.com/real-logic/artio)：弹性高性能FIX和FIXP网关。
+
+<h2 id="sdk">SDK</h2>
+
+* [Aliyun](https://github.com/aliyun/aliyun-openapi-java-sdk)：阿里云Java SDK。
+* [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云即时消息服务。
+* [Azure](https://github.com/Azure/azure-sdk-for-java)：Azure Java SDK。
+* [Azure IoT](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
+* [Alipay](https://github.com/alipay/alipay-easysdk)：支付宝开放平台服务端SDK。
+* [Tencent](https://github.com/TencentCloud/tencentcloud-sdk-java)：腾讯云API 3.0 Java SDK。
+* [Kubernetes Operator](https://github.com/operator-framework/java-operator-sdk)：用于构建Kubernetes Operator的Java SDK。
+* [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS的Java SDK。
+* [Aliyun OSS Android](https://github.com/aliyun/aliyun-oss-android-sdk)：阿里云对象存储服务Android SDK。
+* [Aliyun log](https://github.com/aliyun/aliyun-log-java-sdk)：可以调用所有日志服务API的Java SDK。
+* [aliyun-odps-java-sdk](https://github.com/aliyun/aliyun-odps-java-sdk)：面向Java开发者的ODPS SDK。
+* [Volcengine](https://github.com/volcengine/volcengine-java-sdk)：火山引擎Java SDK。
+* [WxJava](https://github.com/Wechat-Group/WxJava)：微信开发Java SDK，支持包括微信支付、开放平台、小程序、企业微信、公众号等的后端开发。
+* [AWS](https://github.com/aws/aws-sdk-java-v2)：AWS官方的Java SDK。
+* [AWS Encryption](https://github.com/aws/aws-encryption-sdk-java)：AWS加密SDK。
+* [AWS IoT](https://github.com/aws/aws-iot-device-sdk-java)：用于从设备连接到AWS IoT的Java SDK。
+* [AWS X-Ray](https://github.com/aws/aws-xray-sdk-java)：适用于Java的官方AWS X-Ray记录器SDK。
+* [AWS C3R](https://github.com/aws/c3r)：C3R加密客户端和SDK。
+* [Huawei](https://github.com/huaweicloud/huaweicloud-sdk-java-v3)：华为云Java SDK。
+* [Huawei OBS](https://github.com/huaweicloud/huaweicloud-sdk-java-obs)：用于访问对象存储服务的OBS Java SDK。
+* [Google App Engine](https://github.com/GoogleCloudPlatform/appengine-java-standard)：Google App Engine标准Java运行时：Prod运行时、本地devappserver、Cloud SDK Java组件、GAE API和GAE API模拟器。
+* [DataflowTemplates](https://github.com/GoogleCloudPlatform/DataflowTemplates)：Google提供的Cloud Dataflow模板管道用于解决简单的云内数据任务。
+* [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
+* [Google Map](https://github.com/googlemaps/android-maps-utils)：Android地图SDK实用程序库。
+* [React-Native](https://github.com/facebookarchive/react-native-fbsdk)：针对Android和iOS的Facebook SDK的React Native包装器。
+* [best-pay-sdk](https://github.com/Pay-Group/best-pay-sdk)：支付宝、微信支付SDK。
+* [weixin-java-tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
+* [weixin-popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、 商户平台、 服务商平台)。
+* [Firebase Android](https://github.com/firebase/firebase-android-sdk)：Firebase安卓SDK。
+* [lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架。
+* [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
+* [PayPal](https://github.com/paypal/PayPal-Android-SDK)：接入PayPal支付的Android SDK。
+
+<h2 id="blockchain">区块链</h2>
+
+* [web3j](https://github.com/web3j/web3j)：用于与以太坊客户端集成的轻量级Java和Android库。
+* [ta4j](https://github.com/ta4j/ta4j)：用于技术分析的Java库。
+* [token-core-android](https://github.com/consenlabs/token-core-android)：Android上的区块链私钥管理库。
+* [md_blockchain](https://gitee.com/tianyalei/md_blockchain)：开源Java区块链平台，可做联盟链、私链使用，不适用于公链。
+* [Keycard](https://github.com/status-im/status-keycard)：Keycard是在Javacard 3.0.4+上运行的BIP-32 HD钱包的实现。
+* [Arbitrader](https://github.com/agonyforge/arbitrader)：市场中立的加密货币交易机器人。
+* [Apache Tuweni](https://github.com/apache/incubator-tuweni)：Apache Tuweni是一组库和其他工具，可帮助使用Java和其他JVM语言开发区块链和其他去中心化软件。
+* [FundRequest](https://github.com/FundRequest/platform)：FundRequest平台代码。
+* [blockj](https://gitee.com/blackfox/blockj)：Java实现的一个简易区块链(联盟链)项目，包括加密工具、钱包、P2P传输、区块同步、网络共识等基础实现。
+* [jdchain](https://gitee.com/jdchain/jdchain)：京东区块链是一个企业级的区块链框架系统，具有简洁、易用、可扩展和高性能的特点。
+* [J2Chain](https://gitee.com/ld/J2Chain)：Java开发区块链的开源项目。
+* [fex-wallet-app](https://gitee.com/koch/fex-wallet-app)：加密货币钱包，数字货币交易所，区块链数字资产管理工具。
+* [fabric-sdk-java](https://github.com/hyperledger/fabric-sdk-java)：该项目提供了一个用于与Hyperledger Fabric区块链网络交互的低级API。
+* [WeIdentity](https://github.com/WeBankBlockchain/WeIdentity)：基于区块链的符合W3C DID和Verifiable Credential规范的分布式身份解决方案。
+* [WeEvent](https://github.com/WeBankBlockchain/WeEvent)：基于区块链的事件驱动架构。
+* [WeBASE](https://github.com/WeBankBlockchain/WeBASE)：微众银行区块链应用软件扩展。
+* [WeCross](https://github.com/WeBankBlockchain/WeCross)：WeCross跨链路由。
+* [tokencore](https://github.com/GalaxySciTech/tokencore)：区块链钱包后端核心组件，支持多种区块链地址生成和离线签名。
+* [nuls-v1](https://github.com/nuls-io/nuls-v1)：Nuls是一个全球区块链开源项目，是一个高度可定制的模块化区块链基础设施。
+* [nuls-v2](https://github.com/nuls-io/nuls-v2)：NULS协议的官方Java实现。
+* [Aion](https://github.com/aionnetwork/aion)：Aion网络-Java实现。
+* [Blockchain](https://github.com/Will1229/Blockchain)：区块链的Java简单实现。
+* [quilt](https://github.com/hyperledger-archives/quilt)：Interledger协议的实现。
+* [simblock](https://github.com/dsg-titech/simblock)：开源区块链网络模拟器。
+* [blockchain-java](https://github.com/wangweiX/blockchain-java)：Java中的简化区块链实现。
+* [neow3j](https://github.com/neow3j/neow3j)：Neo区块链的Java/Kotlin/Android开发工具包。
+* [coti-node](https://github.com/coti-io/coti-node)：COTI是第一个基于DAG的链协议，针对企业和稳定币进行了优化。
+* [eosio](https://github.com/EOSIO/eosio-java)：用于与基于EOSIO的区块链集成的API。
+* [Cardano](https://github.com/bloxbean/cardano-client-lib)：Java中的Cardano客户端库。
+* [thunder](https://github.com/blockchain/thunder)：使用智能合约进行链下比特币支付。
+* [Web3signer](https://github.com/Consensys/web3signer)：Web3Signer是一种开源签名服务，能够使用存储在外部保管库中或加密在磁盘上的私钥在多个平台(Ethereum1和2、Filecoin)上进行签名。
+* [hedera-services](https://github.com/hashgraph/hedera-services)：Hedera公共账本的加密货币、代币、共识、文件和智能合约服务。
+* [SmartJ](https://github.com/signum-network/signum-smartj)：Signum的Java智能合约。
+
+<h2 id="ethereum">以太坊</h2>
+
+* [ethereumj](https://github.com/ethereum/ethereumj)：以太坊黄皮书的Java实现。
+* [besu](https://github.com/hyperledger/besu)：基于Java的企业级以太坊客户端。
+* [teku](https://github.com/Consensys/teku)：以太坊2.0信标链的Java实现。
+* [AlphaWallet](https://github.com/AlphaWallet/alpha-wallet-android)：先进的以太坊手机钱包。
+* [Eventeum](https://github.com/eventeum/eventeum)：弹性以太坊事件监听器，可连接你的智能合约事件和后端微服务。
+* [presto-ethereum](https://github.com/xiaoyao1991/presto-ethereum)：Presto以太坊连接器-以太坊上的SQL。
+* [Trust](https://github.com/trustwallet/trust-wallet-android-source)：Android版以太坊钱包。
+* [ETHWallet](https://github.com/DwyaneQ/ETHWallet)：像imToken这样的以太坊钱包。
+* [securify](https://github.com/eth-sri/securify)：以太坊智能合约安全扫描器。
+* [BitcoinWallet](https://github.com/terryjiao/BitcoinWallet)：比特币和以太坊钱包。
+* [wuhanchain](https://github.com/BSN-DDC/wuhanchain)：BSN官方DDC智能合约和SDK基于开放许可的区块链-武汉链(以太坊)。
+
+<h2 id="bitcoin">比特币</h2>
+
+* [bitcoinj](https://github.com/bitcoinj/bitcoinj)：使用比特币的库。
+* [bisq](https://github.com/bisq-network/bisq)：去中心化的比特币交易网络。
+* [XChange](https://github.com/knowm/XChange)：XChange是一个Java库，提供简化的API，用于与60多个比特币和山寨币交易所进行交互，为交易和访问市场数据提供一致的接口。
+* [bitcoin-wallet](https://github.com/bitcoin-wallet/bitcoin-wallet)：适用于Android设备的比特币钱包应用程序。
+* [exchange-core](https://github.com/exchange-core/exchange-core)：使用Java编写的超快速匹配引擎，基于LMAX Disruptor、Eclipse Collections、Agrona、OpenHFT、LZ4 Java和Adaptive Radix Trees。
+* [Crypto-Exchange](https://github.com/jammy928/CoinExchange_CryptoExchange_Java)：基于Spring Cloud微服务开发，可用于数字货币交易所的搭建和二次开发。
+* [OBAndroid](https://github.com/omnilaboratory/OBAndroid)：OBAndroid是一款适用于Android设备的自我托管OmniBOLT闪电钱包。
+* [Sparrow](https://github.com/sparrowwallet/sparrow)：Sparrow是一款现代桌面比特币钱包应用程序，支持大多数硬件钱包，并基于PSBT等通用标准构建，强调透明度和可用性。
+* [Drongo](https://github.com/sparrowwallet/drongo)：一个Java比特币库。
+* [BX-bot](https://github.com/gazbert/bxbot)：用Java编写的简单比特币交易机器人。
+* [wallet-android](https://github.com/mycelium-com/wallet-android)：Android版Mycelium比特币钱包。
+* [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner)：比特币OpenCL矿工。
+* [bither-android](https://github.com/bither/bither-android)：简单安全的比特币钱包。
+* [warpexchange](https://github.com/michaelliao/warpexchange)：简单、超快的7x24交换。
+* [Boilr](https://github.com/drpout/boilr)：比特币、加密货币、加密资产、期货和期权的价格警报。
+* [CoinExchange](https://gitee.com/cexchange/CoinExchange)：开源数字货币合约交易所，基于Java开发的比特币交易所、BTC交易所、ETH交易所、数字货币交易所、交易平台、撮合交易引擎。
