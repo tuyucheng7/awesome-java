@@ -26,6 +26,7 @@
 - [字节码混淆工具](#obfuscator)
 - [开源JDK](#jdk)
 - [性能分析](#profiler)
+- [Kafka管理工具](#kafka-tool)
 - [APM监控工具](#apm)
 - [云原生](#cloud-native)
 - [工具库](#utils)
@@ -184,6 +185,9 @@
 * [SwimOS](https://github.com/swimos/swim)：用于构建有状态微服务、流API和实时UI的全栈应用程序平台。
 * [Conjure](https://github.com/palantir/conjure)：适用于浏览器和微服务的强类型HTTP/JSON API。
 * [GreenLightning](https://github.com/oci-pronghorn/GreenLightning)：高性能微服务运行时。
+* [Ribbon](https://github.com/Netflix/ribbon)：Ribbon是一个进程间通信(远程过程调用)库，具有内置的软件负载均衡器。
+* [Mantis](https://github.com/Netflix/mantis)：该平台使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序。
+* [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问。
 
 <h2 id="orm-framework">ORM框架</h2>
 
@@ -418,7 +422,6 @@
 * [PlantUML](https://github.com/plantuml/plantuml)：可以通过纯文本的方式来生成UML图。
 * [Matlab](https://www.mathworks.com/products/matlab.html)：Matlab是一种用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境，其GUI部分由Java开发。
 * [Protege](https://github.com/protegeproject/protege)：Protege是一个免费的开源本体编辑器，支持最新的OWL 2.0标准。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Apache Kafka的Kafka GUI，用于管理主题、主题数据、消费者组、模式注册表、连接等等。
 * [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
 * [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：Zookeeper GUI，支持Win/Mac/Linux平台。
 * [RedisClient](https://github.com/caoxinyu/RedisClient)：基于Java SWT和Jedis编写的Redis客户端GUI工具。
@@ -557,6 +560,19 @@
 * [spring-boot-user-beans](https://github.com/jabrena/spring-boot-user-beans)：一种直观的方式来提高开发人员减少内存中Bean数量的意识。
 * [spring-startup-analyzer](https://github.com/linyimin0812/spring-startup-analyzer)：Spring Startup Analyzer生成交互式Spring应用程序启动报告，让你了解影响应用程序启动时间的因素并帮助优化它。
 
+<h2 id="kafka-tool">Kafka管理工具</h2>
+
+* [AKHQ](https://github.com/tchiotludo/akhq)：用于Apache Kafka的Kafka GUI，用于管理主题、主题数据、消费者组、模式注册表、连接等等。
+* [KnowStreaming](https://github.com/didi/KnowStreaming)：滴滴开源的Kafka运维管控平台。
+* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于Apache Kafka管理的开源Web UI。
+* [EFAK](https://github.com/smartloli/EFAK)：一个简单且高性能的监控系统，用于对kafka集群进行全面的监控和管理。
+* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise-control是同类中第一个完全自动化Kafka集群动态工作负载重新平衡和自我修复的工具，它通过简化Kafka集群的操作为Kafka用户提供了巨大的价值。
+* [KCenter](https://github.com/xaecbd/KCenter)：KKafka中心是kafka集群管理维护、生产者/消费者监控、生态组件使用的统一平台。
+* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：用于Kafka集群管理的Web GUI。
+* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor通过使用端到端管道生成合成工作负载来监控Kafka集群的可用性。
+* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Apache Kafka集群的UI工具。
+* [Mirus](https://github.com/salesforce/mirus)：一种基于Kafka Connect的Apache Kafka集群之间分布式、大容量复制的工具。
+* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
 
 <h2 id="apm">APM监控工具</h2>
 
@@ -605,6 +621,7 @@
 * [KalDB](https://github.com/slackhq/kaldb)：KalDB是一个用于日志、跟踪和审计数据的云原生搜索和分析引擎。
 * [XAP](https://github.com/xap/xap)：分布式、高度可扩展的内存数据网格。
 * [Spring Boot Istio](https://github.com/piomin/spring-boot-istio)：用于与Kubernetes上的Istio集成的Spring Boot库。
+* [SimianArmy](https://github.com/Netflix/SimianArmy)：SimianArmy是一套工具，可让云保持最佳状态运行。
 
 <h2 id="utils">工具库</h2>
 
@@ -826,9 +843,9 @@
 * [HiBench](https://github.com/Intel-bigdata/HiBench)：HiBench是一个大数据基准测试套件，由Intel开源。
 * [ChunJun](https://github.com/DTStack/chunjun)：基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
 * [DataHub](https://github.com/datahub-project/datahub)：由LinkedIn的数据团队开源的一款提供元数据搜索与发现的工具。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：滴滴开源的Kafka运维管控平台。
 * [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
 * [Genie](https://github.com/Netflix/genie)：分布式大数据编排服务，由Netflix开源。
+* [Venice](https://github.com/linkedin/venice)：Venice是一个衍生的数据存储平台。
 
 <h2 id="file-parse">文件解析</h2>
 
@@ -1052,6 +1069,7 @@
 * [Nitrite](https://github.com/nitrite/nitrite-java)：Java嵌入式NoSQL文档存储。
 * [JDBM3](https://github.com/jankotek/JDBM3)：嵌入式键值Java数据库。
 * [HerdDB](https://github.com/diennea/herddb)：可嵌入JVM的分布式数据库。
+* [PalDB](https://github.com/linkedin/PalDB)：用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
 
 <h4 id="nosql-db">NoSQL数据库 & 其他</h4>
 
@@ -1204,6 +1222,7 @@
 * [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
 * [fact-async](https://gitee.com/china2010pan/fact-async)：fact-async是一个基于Spring的异步并行框架。
+* [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个框架，可以更轻松地用Java编写异步代码。
 
 <h2 id="security">安全</h2>
 
@@ -1546,12 +1565,7 @@
 * [Aurora](https://github.com/apache/aurora)：Apache Aurora是一个Mesos框架，用于长时间运行服务和定时任务。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Apache Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
 * [CacheCloud](https://github.com/sohutv/cachecloud)：搜狐视频Redis私有云平台：支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率。
-* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于Apache Kafka管理的开源Web UI。
-* [EFAK](https://github.com/smartloli/EFAK)：一个简单且高性能的监控系统，用于对kafka集群进行全面的监控和管理。
 * [MSEC](https://github.com/Tencent/MSEC)：集群海量服务引擎。
-* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise-control是同类中第一个完全自动化Kafka集群动态工作负载重新平衡和自我修复的工具，它通过简化Kafka集群的操作为Kafka用户提供了巨大的价值。
-* [KCenter](https://github.com/xaecbd/KCenter)：KKafka中心是kafka集群管理维护、生产者/消费者监控、生态组件使用的统一平台。
-* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：用于Kafka集群管理的Web GUI。
 
 <h2 id="code-analysis">代码分析</h2>
 
