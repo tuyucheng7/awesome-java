@@ -93,6 +93,7 @@
 - [JavaFX UI库](#javafx-ui)
 - [JavaFX图表库](#javafx-chart)
 - [JavaFX小工具](#javafx-tool)
+- [游戏引擎](#game-engine)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -2036,3 +2037,34 @@
 * [DSTE](https://ai-solutions.com/dste/)：深空轨迹探测器，被约翰逊航天中心用作设计工具。
 * [JMetro](https://pixelduke.com/java-javafx-theme-jmetro/)：JavaFX应用程序的现代主题，具有浅色和深色风格。
 * [Object-Graph-Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：对象图可视化工具。
+
+<h4 id="game-engine">游戏引擎</h4>
+
+* [libGDX](https://github.com/libgdx/libgdx)：桌面/Android/HTML5/IOS Java游戏开发框架。
+* [LWJGL](https://github.com/LWJGL/lwjgl3)：LWJGL是一个Java库，支持跨平台访问流行的本机API，可用于图形(OpenGL、Vulkan、bgfx)、音频(OpenAL、Opus)、并行计算(OpenCL、CUDA)和XR(OpenVR、LibOVR、OpenXR)应用程序。
+* [Grasscutter](https://github.com/Grasscutters/Grasscutter)：某动漫游戏的服务器软件重新实现。
+* [FXGL](https://github.com/AlmasB/FXGL)：Java/JavaFX/Kotlin游戏引擎库。
+* [KTX](https://github.com/libktx/ktx)：libGDX游戏框架的Kotlin扩展。
+* [Terasology](https://github.com/MovingBlocks/Terasology)：开源体素世界。
+* [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine)：用Java编写的完整3D游戏开发套件。
+* [KorGE](https://github.com/korlibs/korge)：多平台Kotlin游戏引擎。
+* [jbox2d](https://github.com/jbox2d/jbox2d)：2D Java 物理引擎，C++物理引擎Box2D和LiquidFun的本机Java端口。
+* [AndEngine](https://github.com/nicolasgramlich/AndEngine)：免费Android 2D OpenGL游戏引擎。
+* [XMage](https://github.com/magefree/mage)：XMage允许你与一名或多名在线玩家或电脑对手玩万智牌。
+* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：使用Netty 4.X实现的手机游戏分布式服务器,支持TCP、UDP、HTTP、WebSocket链接。
+* [OpenRTS](https://github.com/methusalah/OpenRTS)：纯Java编码的即时战略游戏3D引擎。
+* [jforgame](https://github.com/kingston-csj/jforgame)：jforgame是一个一站式游戏服务器开发框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
+* [FriceEngine](https://github.com/icela/FriceEngine)：基于Swing/JavaFX的JVM游戏引擎。
+* [TripleA](https://github.com/triplea-game/triplea)：TripleA是一款回合制策略游戏和棋盘游戏引擎，类似于Axis & Allies或Risk。
+* [Delver](https://github.com/Interrupt/delverengine)：Delver游戏引擎和编辑器。
+* [LITIENGINE](https://github.com/gurkenlabs/litiengine)：纯2D Java游戏引擎。
+* [Oreon](https://github.com/fynnfluegge/oreon-engine)：OpenGL/Vulkan Java 3D引擎。
+* [Bladecoder-Adventure](https://github.com/bladecoder/bladecoder-adventure-engine)：经典的点击式冒险游戏引擎和编辑器。
+* [mini2Dx](https://github.com/mini2Dx/mini2Dx)：高级跨平台2D游戏开发API。
+* [LGame](https://github.com/cping/LGame)：一个跨平台的Java游戏引擎，支持JavaFX/Android/IOS/HTML5/Linux/MAC/Windows。
+* [Spout](https://github.com/spoutdev/Spout)：开源、多线程、体素游戏引擎和平台。
+* [Forge](https://github.com/Card-Forge/forge)：世界上最伟大的纸牌游戏的非官方规则引擎。
+* [ModernUI](https://github.com/BloCamLimb/ModernUI)：从低级3D图形API到高级视图模型的现代桌面框架，用于开发2D/3D渲染软件或游戏引擎，具有国际化支持和许多新技术。
+* [LionEngine](https://github.com/b3dgs/lionengine)：Java 2D游戏引擎。
+* [SilenceEngine](https://github.com/sriharshachilakapati/SilenceEngine)：跨平台2D/3D Java游戏引擎(桌面/Html5/Android)。
+* [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和IOS设备。
