@@ -21,6 +21,7 @@
 - [测试库](#test-lib)
 - [Java IDE](#ide)
 - [构建工具](#build)
+- [持续集成](#ci)
 - [GUI程序](#gui)
 - [字节码工具](#classtool)
 - [字节码混淆工具](#obfuscator)
@@ -125,6 +126,7 @@
 * [Vraptor4](https://github.com/caelum/vraptor4)：一个基于Action的Web MVC框架，构建于CDI之上，用于快速且可维护的Java开发。
 * [Takes](https://github.com/yegor256/takes)：面向对象的Java Web框架，没有NULL、静态方法、注解和可变对象。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
+* [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 
 <h2 id="rest-framework">Rest框架</h2>
 
@@ -411,11 +413,22 @@
 * [Apache Maven](https://github.com/apache/maven)：使用最广泛的Java构建工具。
 * [Mvnd](https://github.com/apache/maven-mvnd)：提供更快的Maven构建。
 * [Gradle](https://github.com/gradle/gradle)：灵活，快速的Java、Android构建工具。
-* [Apache Ant](https://github.com/apache/ant)：古老的构建工具。
+* [Apache Ant](https://github.com/apache/ant)：一个基于Java的古老构建工具。
 * [Bazel](https://github.com/bazelbuild/bazel)：快速、多语言且可扩展的构建系统，由Google开发。
 * [Buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
 * [Sbt](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
 * [Bnd](https://github.com/bndtools/bnd)：用于构建OSGi包的工具，包括Eclipse、Maven和Gradle插件。
+* [Freeline](https://github.com/alibaba/freeline)：Android超快速构建工具，Instant Run的替代品。
+
+<h2 id="ci">持续集成</h2>
+
+* [Jenkins](https://github.com/jenkinsci/jenkins)：Jenkins是领先的开源自动化服务器，使用Java构建，提供超过2000个插件来支持几乎所有事情的自动化。
+* [TeamCity](https://www.jetbrains.com/teamcity/)：JetBrain的持续集成解决方案，提供免费版本。
+* [Bamboo](https://www.atlassian.com/software/bamboo)：Bamboo是一款持续集成构建服务器软件，Atlassian提供的商业软件，也有免费版本。
+* [Go](https://github.com/gocd/gocd)：持续交付服务器，由ThoughtWork开源。
+* [OneDev](https://github.com/theonedev/onedev)：具有CI/CD和看板的自托管Git服务器。
+* [FlowCI](https://github.com/FlowCI/flow-core-x)：功能强大且用户友好的CI/CD服务器，具有高可用性、并行构建、代理扩展特点。
+* [Hudson](https://github.com/hudson/hudson-2.x)：持续集成服务器，Jenkins的前身。
 
 <h2 id="gui">GUI程序</h2>
 
