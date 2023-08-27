@@ -89,6 +89,10 @@
 - [JSF框架](#jsf)
 - [机器人](#bot)
 - [Swing库](#swing)
+- [JavaFx库](#javafx-lib)
+- [JavaFX UI库](#javafx-ui)
+- [JavaFX图表库](#javafx-chart)
+- [JavaFX小工具](#javafx-tool)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -193,6 +197,7 @@
 * [Nutz](https://github.com/nutzam/nutz)：包含全功能的ORM、Web框架。
 * [database-all](https://github.com/gaarason/database-all)：Java 的Eloquent ORM。
 * [bean-searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
+* [Speedment](https://github.com/speedment/speedment)：Speedment是一个Stream ORM Java工具包和运行时。
 
 <h2 id="scaffold">脚手架</h2>
 
@@ -410,7 +415,6 @@
 * [ArcTime](https://arctime.org/)：ArcTime是使用Java编写的免费跨平台字幕软件。
 * [FreeMind](https://github.com/jiangxin/freemind-mmx)：FreeMind是一款免费开源的思维导图软件。
 * [Xmind](https://xmind.app/)：Xmind是一款全功能的思维导图和头脑风暴软件。
-* [DSTE](https://ai-solutions.com/dste/)：DSTE被约翰逊航天中心用作设计工具，为地月系统轨道上的载人栖息地任务进行轨道设计。
 * [CuratOR](https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/)：CuratorOR由德国EIZO GmbH开发，是一款用在医院手术室的应用程序。
 * [mybatis-generator-gui](https://github.com/zouzg/mybatis-generator-gui)：Mybatis-Generator界面工具，可以更加直观的生成代码。
 * [ThinkPHPGUI](https://github.com/Lotus6/ThinkphpGUI)：Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。
@@ -418,7 +422,6 @@
 * [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)：基于GUI的虚拟SMTP服务器，可轻松测试应用程序中的电子邮件。
 * [poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
 * [Particle-Life](https://github.com/tom-mohr/particle-life-app)：Particle Life的GUI，这是一个显示逼真行为的粒子系统。
-* [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，Gui基于JavaFX。
 * [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI)：FutureRestore的现代GUI，添加了使过程更容易的功能。
 * [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMap的高级图形用户界面。
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)：jExifToolGUI是Phil Harvey的一个多平台Java/Swing图形前端，用于优秀的命令行ExifTool应用程序。
@@ -433,6 +436,7 @@
 <h2 id="classtool">字节码工具</h2>
 
 * [JD-GUI](https://github.com/java-decompiler/jd-gui)：Java反编译器GUI。
+* [Recaf](https://github.com/Col-E/Recaf)：现代Java字节码编辑器。
 * [ClassyShark](https://github.com/google/android-classyshark)：Android和Java字节码查看器。
 * [jclasslib](https://github.com/ingokegel/jclasslib)：jclasslib字节码编辑器是一个工具，可以可视化已编译的Java类文件和所包含的字节码的各个方面。
 * [GDA](https://github.com/charles2gan/GDA-android-reversing-Tool)：最快、最强大的Android反编译器，适用于APK、DEX、ODEX、OAT、JAR、AAR和CLASS文件。
@@ -456,7 +460,7 @@
 * [BlackObfuscator](https://github.com/CodingGay/BlackObfuscator)：Black Obfuscator是一款针对Android APK DexFile的混淆器，它可以帮助开发者通过控制流扁平化来保护源代码，并使分析实际程序控制流变得困难。
 * [Skidfuscator](https://github.com/skidfuscatordev/skidfuscator-java-obfuscator)：使用cts和bibl设计的MapleIR框架的公共概念验证混淆器。
 * [native-obfuscator](https://github.com/radioegor146/native-obfuscator)：用于JNI的Java class到cpp转换器。
-* [Radon](https://github.com/ItzSomebody/radon)：磨损的java字节码混淆器。
+* [Radon](https://github.com/ItzSomebody/radon)：磨损的Java字节码混淆器。
 * [yGuard](https://github.com/yWorks/yGuard)：yWorks推出的与Ant和Gradle配合使用的开源Java混淆工具-图表专家。
 * [Caesium](https://github.com/sim0n/Caesium)：Java字节码混淆器。
 * [dProtect](https://github.com/open-obfuscator/dProtect)：dProtect是一个基于Proguard的Java和Kotlin混淆器。
@@ -509,7 +513,7 @@
 * [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿网开源的Java应用生产问题诊断工具，提供了一站式的问题诊断方案。
 * [JMC](https://github.com/openjdk/jmc)：Oracle开源的一个生产时间分析和诊断工具套件。
 * [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java垃圾回收(GC)日志文件的库，由微软开源。
-* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器，。
+* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器。
 * [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录。
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的实用程序。
 * [JOL](https://github.com/openjdk/jol)：JOL(Java对象布局)是用于分析JVM中对象布局的微型工具箱。
@@ -1419,6 +1423,7 @@
 * [ImageCombiner](https://gitee.com/dromara/image-combiner)：ImageCombiner是一个专门用于Java服务端图片合成的工具。
 * [image-plugin](https://gitee.com/hellokaton/image-plugin)：非常简单的图片处理插件，可快速集成在Web应用中。
 * [imagetool](https://gitee.com/xshuai/imagetool)：一个简单的图片处理工具，支持图片压缩、图片水印、图片裁剪、图片旋转、图片格式转换等功能。
+* [JFreeSVG](https://github.com/jfree/jfreesvg)：一个快速、轻量级的Java库，用于创建可扩展矢量图形(SVG)输出。
 
 <h2 id="crawler">爬虫</h2>
 
@@ -1893,7 +1898,11 @@
 * [FeishuBot](https://github.com/rawchen/FeishuBot)：飞书群聊/私聊ChatGPT机器人。
 * [PokuBot](https://github.com/norecha/pokubot)：部落冲突机器人。
 
-<h2 id="swing">Swing库</h2>
+<h2 id="gui">GUI开发工具</h2>
+
+这里列出了Java中常用的Swing、JavaFx开发库，以及一些Java开发的GUI工具和游戏引擎。
+
+<h4 id="swing">Swing库</h4>
 
 * [FlatLaf](https://github.com/JFormDesigner/FlatLaf)：FlatLaf是Java Swing桌面应用程序的现代开源跨平台外观。
 * [BeautyEye](https://github.com/JackJiang2011/beautyeye)：BeautyEye是一种Java Swing跨平台外观。
@@ -1928,3 +1937,102 @@
 * [InvUI](https://github.com/NichtStudioCode/InvUI)：用于创建基于库存的自定义GUI的插头库。
 * [Lemur](https://github.com/jMonkeyEngine-Contributions/Lemur)：Lemur是一个基于jMonkeyEngine的UI工具包。
 * [Limelight](https://github.com/slagyr/limelight)：用于Ruby/Clojure/Java的GUI库。
+
+<h4 id="javafx-lib">JavaFX库</h4>
+
+* [JFoenix](https://github.com/sshahine/JFoenix)：JavaFX材料设计库。
+* [xJavaFxTool](https://github.com/864381832/xJavaFxTool)：基于JavaFX搭建的实用小工具集合，方便开发过程中的代码编写与调试。
+* [TrayNotification](https://github.com/PlusHaze/TrayNotification)：JavaFX中的托盘通知类，允许在桌面计算机上调用美观的通知。
+* [RichTextFX](https://github.com/FXMisc/RichTextFX)：RichTextFX为JavaFX提供了一个节省内存的文本区，允许开发人员设置文本范围的样式。
+* [MaterialFX](https://github.com/palexdev/MaterialFX)：JavaFX材质组件库。
+* [CalendarFX](https://github.com/dlsc-software-consulting-gmbh/CalendarFX)：用于创建复杂日历视图的Java框架。
+* [FXLauncher](https://github.com/edvin/fxlauncher)：JavaFX应用程序的自动更新启动器。
+* [XR3Player](https://github.com/goxr3plus/XR3Player)：最先进的JavaFX媒体播放器。
+* [SceneBuilder](https://github.com/gluonhq/scenebuilder)：Scene Builder是一个可视化拖放布局工具，用于设计JavaFX应用程序用户界面。
+* [JFXtras](https://github.com/JFXtras/jfxtras)：JavaFX的支持库，包含工具程序类、扩展布局、控件和其他有趣的小部件。
+* [RxJavaFX](https://github.com/ReactiveX/RxJavaFX)：JavaFX的RxJava绑定。
+* [WorkbenchFX](https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX)：用于JavaFX应用程序的轻量级RCP框架。
+* [mvvmFX](https://github.com/sialcasa/mvvmFX)：使用JavaFX实现MVVM模式的应用程序框架。
+* [AnimateFX](https://github.com/Typhon0/AnimateFX)：包含70多个即用型JavaFX动画的库。
+* [DashboardFx](https://github.com/gleidsonmt/DashboardFx)：该项目是为JavaFX创建的自定义组件集的一部分。
+* [ReactFX](https://github.com/TomasMikula/ReactFX)：ReactFX是对JavaFX(函数式)响应式编程技术的补充。
+* [Substrate](https://github.com/gluonhq/substrate)：Gluon Substrate是一款将JavaFX客户端应用程序转换为桌面、移动和嵌入式设备的本机可执行文件的工具。
+* [GemsFX](https://github.com/dlsc-software-consulting-gmbh/GemsFX)：JavaFX控件和实用程序的集合。
+* [VWorkflows](https://github.com/miho/VWorkflows)：JavaFX和VRL-Studio的流可视化库。
+* [DockFX](https://github.com/RobertBColton/DockFX)：适用于JavaFX平台的功能齐全的对接库。
+* [WebFX](https://github.com/webfx-project/webfx)：JavaFX应用程序转译器，使用JavaFX编写Web应用程序，WebFX会将其转译为纯JS。
+* [FXRibbon](https://github.com/dukke/FXRibbon)：Java的Ribbon控件，使用JavaFX框架，基于Microsoft Ribbon。
+* [WebBrowser](https://github.com/goxr3plus/JavaFX-Web-Browser)：用Java和JavaFX制作的Web浏览器。
+* [RXControls](https://github.com/leewyatt/rxcontrols)：RXControls是一个JavaFX自定义组件库。
+* [AnchorFX](https://github.com/alexbodogit/AnchorFX)：JavaFX平台停靠框架。
+* [Flowless](https://github.com/FXMisc/Flowless)：JavaFX的高效VirtualFlow。
+* [ValidatorFX](https://github.com/effad/ValidatorFX)：JavaFX的表单验证库。
+* [EasyBind](https://github.com/TomasMikula/EasyBind)：EasyBind在创建自定义绑定时利用Lambda来减少样板文件，为Bindings.select*方法提供类型安全的替代方案，并向ObservableValue添加单子操作。
+* [Maps](https://github.com/gluonhq/maps)：Gluon Maps提供了一种将OpenStreetMaps集成到JavaFX应用程序中的简单方法。
+* [Ikonli](https://github.com/kordamp/ikonli)：Ikonli提供可在Java应用程序中使用的图标包，目前支持Swing和JavaFX UI工具包。
+* [DesktopPaneFX](https://github.com/kordamp/desktoppanefx)：JavaFX的MDI组件。
+* [KeyboardFX](https://github.com/dlsc-software-consulting-gmbh/KeyboardFX)：JavaFX应用程序的屏幕键盘。
+* [LibRawFX](https://github.com/lanthale/LibRawFX)：集成适用于所有主要操作系统的JavaFX的LibRaw库。
+* [LitFX](https://github.com/Birdasaur/LitFX)：可连接到JavaFX 2D GUI的闪电和其他动画光/粒子效果。
+* [NSMenuFX](https://github.com/0x4a616e/NSMenuFX)：JavaFX应用程序的完整macOS菜单栏访问。
+* [PDFViewFX](https://github.com/dlsc-software-consulting-gmbh/PDFViewFX)：允许应用程序显示PDF文件的自定义控件。
+* [TiwulFX](https://github.com/panemu/tiwulfx-dock)：TiwulFX-Dock提供增强的JavaFX TabPane，支持选项卡重新排序、分离和对接。
+* [UnitFX](https://github.com/dlsc-software-consulting-gmbh/UnitFX)：用于创建测量单位输入字段的框架。
+* [UpdateFX](https://github.com/vinumeris/updatefx)：一个用于对Java应用程序进行灵活、多签名Web风格在线更新的库。
+
+<h4 id="javafx-ui">JavaFX UI库</h4>
+
+* [ControlsFX](https://github.com/controlsfx/controlsfx)：ControlsFX是JavaFX的一个开源项目，旨在提供真正高质量的UI控件和其他工具来补充核心JavaFX发行版。
+* [BootstrapFX](https://github.com/kordamp/bootstrapfx)：BootstrapFX是Twitter Bootstrap的部分移植。
+* [PreferencesFX](https://github.com/dlsc-software-consulting-gmbh/PreferencesFX)：用于轻松创建应用程序设置/首选项UI的框架。
+* [FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX)：用于轻松创建JavaFX UI表单的框架。
+* [AtlantaFX](https://github.com/mkpaz/atlantafx)：现代JavaFX CSS主题集合，带有附加控件。
+* [jfxtras-styles](https://github.com/JFXtras/jfxtras-styles)： Java、JavaFX主题或外观，目前包含JMetro主题。
+* [jbootx](https://github.com/dicolar/jbootx)：JavaFX Bootstrap主题库。
+* [CustomStage](https://github.com/Oshan96/CustomStage)：用于创建完全自定义的未修饰窗口的JavaFX UI框架。
+* [cssfx](https://github.com/McFoggy/cssfx)：允许运行时修改JavaFX CSS。
+* [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph)：该项目提供了一个通用JavaFX图形可视化库，可以通过力导向算法实时自动排列顶点的位置。
+* [Animated](https://github.com/iamgio/animated)：JavaFX的现代动画库。
+* [FXSkins](https://github.com/dukke/FXSkins)：现有JavaFX控件的新外观集合。
+* [JSilhouette](https://github.com/kordamp/jsilhouette)：JSilhouette为Java应用程序提供了额外的形状。
+* [JFXShader](https://github.com/Teragam/JFXShader)：允许在JavaFX中自定义效果着色器。
+* [MDFX](https://github.com/JPro-one/markdown-javafx-renderer)：MDFX是一个简单的JavaFX渲染器。
+* [FXParallax](https://github.com/dukke/FXParallax)：用于为Java添加视差效果的控件。
+
+<h4 id="javafx-chart">JavaFX图表库</h4>
+
+* [TilesFX](https://github.com/HanSolo/tilesfx)：包含可用于仪表板的图块的JavaFX库。
+* [Medusa](https://github.com/HanSolo/medusa)：用于仪表的JavaFX库。
+* [Charts](https://github.com/HanSolo/charts)：包含不同类型图表的JavaFX库。
+* [ChartFx](https://github.com/fair-acc/chart-fx)：一个科学图表库，专注于以25Hz更新速率针对具有几万到500万个数据点的数据集进行性能优化的实时数据可视化。
+* [FXTrayIcon](https://github.com/dustinkredmond/FXTrayIcon)：用于JavaFX应用程序的库，可以更轻松地添加系统托盘图标。
+* [GMapsFX](https://github.com/dlsc-software-consulting-gmbh/GMapsFX)：用于在JavaFX应用程序中使用Google地图的Java API。
+* [FXForm2](https://github.com/dooApp/FXForm2)：动态JavaFX表单生成。
+* [FXGraphics2D](https://github.com/jfree/fxgraphics2d)：一个JavaFX库，允许使用Java2D代码(Graphics2D)绘制到Canvas节点。
+* [FlexGanttFX](https://dlsc.com/products/flexganttfx/)：FlexGanttFX是目前可用于Java的最先进的基于JavaFX的甘特图框架。
+* [FXyz](https://github.com/FXyz/FXyz)：JavaFX 3D可视化和组件库。
+* [Countries](https://github.com/HanSolo/countries)：包含不同控件的JavaFX库，用于可视化基于国家/地区的数据。
+
+<h4 id="javafx-tool">JavaFX小工具</h4>
+
+* [JabRef](https://github.com/JabRef/jabref)：用于管理BibTeX和biblatex(.bib)数据库的图形化Java应用程序。
+* [PDFsam](https://github.com/torakiki/pdfsam)：一款用于拆分、合并、混合、旋转PDF文件和提取页面的桌面应用程序。
+* [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：使用JavaFX 19编写的Asciidoc编辑器和工具链(构建PDF、Epub、Mobi和HTML书籍、文档和幻灯片)。
+* [Fofa-Viewer](https://github.com/wgpsec/fofa_viewer)：用JavaFX编写的简单FOFA客户端。
+* [QuPath](https://github.com/qupath/qupath)：QuPath是用于生物图像分析的开源软件。
+* [Everest](https://github.com/RohitAwate/Everest)：一个漂亮的跨平台REST客户端。
+* [Phoenicis](https://github.com/PhoenicisOrg/phoenicis)：Phoenicis是PlayOnLinux和PlayOnMac 4的指定继承者，允许你在您喜欢的操作系统上安装和使用非本机应用程序。
+* [JetUML](https://github.com/prmr/JetUML)：用于快速绘制UML图表的桌面应用程序。
+* [XPipe](https://github.com/xpipe-io/xpipe)：全新的Shell连接集线器和远程文件管理器。
+* [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX。
+* [latexdraw](https://github.com/latexdraw/latexdraw)：LaTeX的矢量绘图编辑器。
+* [JDKMon](https://github.com/HanSolo/JDKMon)：一个用JavaFX编写的小工具，用于监视已安装的JDK并通知你有关更新的信息。
+* [TerminalFX](https://github.com/javaterminal/TerminalFX)：JavaFX终端模拟器。
+* [binjr](https://github.com/binjr/binjr)：时序数据浏览器。
+* [SQLucky](https://github.com/tenie/SQLucky)：跨平台数据库可视化操作工具。
+* [FakeImageDetection](https://github.com/afsalashyana/FakeImageDetection)：使用机器学习检测虚假图像。
+* [OwlPlug](https://github.com/DropSnorz/OwlPlug)：音频插件管理器，用于在Windows、MacOS和Linux上管理VST/AU/LV2插件的小工具。
+* [LogFX](https://github.com/renatoathaydes/LogFX)：LogFX是一个简单的日志阅读器，支持颜色突出显示并能够处理巨型文件。
+* [DSTE](https://ai-solutions.com/dste/)：深空轨迹探测器，被约翰逊航天中心用作设计工具。
+* [JMetro](https://pixelduke.com/java-javafx-theme-jmetro/)：JavaFX应用程序的现代主题，具有浅色和深色风格。
+* [Object-Graph-Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：对象图可视化工具。
