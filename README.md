@@ -17,7 +17,7 @@
 - [数据Mock](#mocks-data)
 - [BDD框架](#bdd)
 - [自动化工具](#automation)
-- [负载测试](#load)
+- [性能测试](#load)
 - [测试库](#test-lib)
 - [Java IDE](#ide)
 - [构建工具](#build)
@@ -127,6 +127,7 @@
 * [Takes](https://github.com/yegor256/takes)：面向对象的Java Web框架，没有NULL、静态方法、注解和可变对象。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
+* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 
 <h2 id="rest-framework">Rest框架</h2>
 
@@ -264,20 +265,22 @@
 * [Robolectric](https://github.com/robolectric/robolectric)：一个Android的单元测试框架。
 * [Kotest](https://github.com/kotest/kotest)：强大、优雅且灵活的Kotlin测试框架，具有额外的断言、属性测试和数据驱动测试功能。
 * [TestFX](https://github.com/TestFX/TestFX)：用于JavaFX的单元测试框架。
-* [scalatest](https://github.com/scalatest/scalatest)：面向Scala和Java开发人员的测试工具。
-* [utest](https://github.com/com-lihaoyi/utest)：用于Scala的测试框架。
-* [munit](https://github.com/scalameta/munit)：具有可操作错误和可扩展API的Scala测试库。
+* [ScalaTest](https://github.com/scalatest/scalatest)：面向Scala和Java开发人员的测试工具。
+* [uTest](https://github.com/com-lihaoyi/utest)：用于Scala的测试框架。
+* [MUnit](https://github.com/scalameta/munit)：具有可操作错误和可扩展API的Scala测试库。
 
 <h4 id="assertions">断言库</h4>
 
 * [AssertJ](https://github.com/assertj/assertj)：AssertJ是一个提供易于使用的丰富类型断言的库。
+* [AssertJ Android](https://github.com/square/assertj-android)：一组用于测试Android的AssertJ助手。
 * [JsonAssert](https://github.com/skyscreamer/JSONassert)：用更少的代码编写JSON单元测试，非常适合测试REST接口。
 * [Truth](https://github.com/google/truth)：Google出品的流式断言库。
 * [Hamcrest](https://github.com/hamcrest/JavaHamcrest)：Hamcrest的Java版本。
+* [Spotify Hamcrest](https://github.com/spotify/java-hamcrest)：使用有用的匹配器扩展Hamcrest的库。
 * [BeanMatcher](https://github.com/orien/bean-matchers)：用于测试Java bean的Hamcrest匹配器。
 * [Deepdive](https://github.com/jdlib/deepdive)：Java的流式断言库。
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：流式断言库。
-* [expekt](https://github.com/winterbe/expekt): Kotlin的BDD断言库。
+* [Expekt](https://github.com/winterbe/expekt): Kotlin的BDD断言库。
 
 <h4 id="mocks">Mock框架</h4>
 
@@ -287,26 +290,35 @@
 * [WireMock](https://github.com/wiremock/wiremock)：一个模拟HTTP服务的工具。
 * [EasyMock](https://github.com/easymock/easymock)：一个比较古老的Mock库。
 * [Mockk](https://github.com/mockk/mockk)：用于Kotlin的Mock框架。
-* [ScalaMock](https://github.com/paulbutcher/ScalaMock)：原生Scala  Mock框架。
+* [ScalaMock](https://github.com/paulbutcher/ScalaMock)：原生Scala Mock框架。
 * [MockServer](https://github.com/mock-server/mockserver)：MockServer可以轻松模拟通过HTTP或HTTPS与用Java、JavaScript和Ruby编写的客户端集成的任何系统。
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)：用于测试HTTP客户端的可编写脚本的Web服务器。
 * [Jukito](https://github.com/ArcBees/Jukito)：JUnit、Guice和Mockito的组合。
 * [JMockit](https://github.com/jmockit/jmockit1)：用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
 * [MockBukkit](https://github.com/MockBukkit/MockBukkit)：MockBukkit是bukkit的Mock框架，可以轻松地对Bukkit插件进行单元测试。
+* [Mock-Box](https://github.com/mock-box/mock-box)：Mock-Box是一个轻量级且功能强大的支持测试的Mock库。
 
 <h4 id="mocks-lib">Mock工具</h4>
 
-* [Moco](https://github.com/dreamhead/moco)：设置存根服务器。
+* [Moco](https://github.com/dreamhead/moco)：Moco是一个易于设置的存根框架。
 * [RabbitMQ Mock](https://github.com/fridujo/rabbitmq-mock)：RabbitMQ的Mock库。
-* [flashback](https://github.com/linkedin/flashback)：Flashback旨在模拟HTTP和HTTPS资源(例如Web服务和REST API)以用于测试目的。
+* [Flashback](https://github.com/linkedin/flashback)：Flashback旨在模拟HTTP和HTTPS资源(例如Web服务和REST API)以用于测试目的。
 * [S3Mock](https://github.com/adobe/S3Mock)：AWS S3 API的简单Mock实现，可作为Docker镜像、TestContainer、JUnit 4 Rule、JUnit Jupiter扩展或TestNG监听器启动。
 * [CastleMock](https://github.com/castlemock/castlemock)：CastleMock是一个Web应用程序，提供模拟RESTful API和SOAP Web Service的功能。
-* [restito](https://github.com/mkotsur/restito)：用于测试Rest客户端的Mock框架。
+* [Restito](https://github.com/mkotsur/restito)：用于测试Rest客户端的Mock框架。
+* [Mockrunner](https://github.com/mockrunner/mockrunner)：用于企业级应用程序的Mock工具。
+* [DaggerMock](https://github.com/fabioCollini/DaggerMock)：用于轻松覆盖Dagger 2对象的JUnit Rule。
+* [DeepfakeHTTP](https://github.com/xnbox/DeepfakeHTTP)：DeepfakeHTTP是一个使用HTTP转储作为响应源的Web服务器。
+* [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
+* [Database-Rider](https://github.com/database-rider/database-rider)：让数据库集成测试变得更简单的库。
+* [GreenMail](https://github.com/greenmail-mail-test/greenmail)：GreenMail是一个邮件服务器Mock库，允许开发人员测试基于电子邮件的应用程序、服务或系统，而无需访问实时邮件服务器。
+* [CassandraUnit](https://github.com/jsevellec/cassandra-unit)：CassandraUnit是一个Java实用程序测试工具，它可以用于测试使用Cassandra数据库后端创建的Java应用程序。
+* [embedded-ldap-junit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
 
 <h4 id="mocks-data">数据Mock</h4>
 
 * [Instancio](https://github.com/instancio/instancio)：为单元测试创建完全填充的对象的库。
-* [Junit Data Provider](https://github.com/TNG/junit-dataprovider)：类似TestNG的JUnit数据提供者运行程序，具有许多附加功能。
+* [Junit-Data-Provider](https://github.com/TNG/junit-dataprovider)：类似TestNG的JUnit数据提供者运行程序，具有许多附加功能。
 * [DataFaker](https://github.com/datafaker-net/datafaker)：为JVM(Java、Kotlin、Groovy)生成测试数据的库。
 * [Java Faker](https://github.com/DiUS/java-faker)：将流行的ruby faker gem带到Java。
 * [MockNeat](https://github.com/nomemory/mockneat)：现代的测试数据生成库。
@@ -314,9 +326,10 @@
 * [EasyRandom](https://github.com/j-easy/easy-random)：简单的随机Java beans/记录生成器。
 * [Jmockdata](https://github.com/jsonzou/jmockdata)：生成随机Java数据的插件。
 * [JMock](https://github.com/jmock-developers/jmock-library)：用于测试驱动开发的富有表现力的对象Mock库。
-* [burst](https://github.com/square/burst)：用于不同测试数据的单元测试库。
+* [Burst](https://github.com/square/burst)：用于不同测试数据的单元测试库。
 * [EasyModeling](https://github.com/easymodeling/easy-modeling)：EasyModeling是一个Java注解处理器，可生成随机填充的对象以供测试使用。
-* [beanmother](https://github.com/keepcosmos/beanmother)：用于将Java对象设置为测试数据的库。
+* [Beanmother](https://github.com/keepcosmos/beanmother)：用于将Java对象设置为测试数据的库。
+* [common-random](https://github.com/yindz/common-random)：用于测试目的的简单易用随机数据生成器。
 
 <h4 id="bdd">BDD框架</h4>
 
@@ -330,11 +343,17 @@
 * [Chorus](https://github.com/Chorus-bdd/Chorus)：分布式系统的可执行规范。
 * [Lambda Behave](https://github.com/RichardWarburton/lambda-behave)：Java 8的现代测试和行为规范框架。
 * [Spectrum](https://github.com/greghaskins/spectrum)：适用于Java 8的BDD风格测试运行器。受Jasmine、RSpec和Cucumber启发。
+* [Specs2](https://github.com/etorreborre/specs2)：Specs2是一个用于在Scala中编写可执行软件规范的库。
+* [YatSpec](https://github.com/bodar/yatspec)：YatSpec是一个BDD测试框架，可以运行JUnit测试并生成人类可读的HTML报告。
+* [SmartBDD](https://github.com/bit-smart-io/smart-bdd)：从Java代码创建交互式HTML文档/功能文件的BDD框架。
+* [BDD-Security](https://github.com/iriusrisk/bdd-security)：BDD-Security是一个安全测试框架，它使用行为驱动开发概念来创建自我验证的安全规范。
+* [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
 
 <h4 id="automation">自动化工具</h4>
 
 * [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架和生态系统。
 * [Playwright](https://github.com/microsoft/playwright-java)：Java版本的Playwright测试和自动化库。
+* [MeterSphere](https://github.com/metersphere/metersphere)：MeterSphere是一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI测试和性能测试等功能，全面兼容JMeter、Selenium等主流开源标准。
 * [Selenide](https://github.com/selenide/selenide)：Selenium的封装，提供了更简洁的API。
 * [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：Java中Selenium WebDriver的自动化驱动程序管理和其他辅助工具。
 * [ashot](https://github.com/pazone/ashot)：WebDriver屏幕截图工具。
@@ -344,20 +363,30 @@
 * [Galen](https://github.com/galenframework/galen)：一个自动化的布局和页面响应测试框架。
 * [FluentLenium](https://github.com/FluentLenium/FluentLenium)：FluentLenium是一个Web和移动自动化框架，它扩展了Selenium以编写可靠且有弹性的UI功能测试。
 * [Citrus](https://github.com/citrusframework/citrus)：专注于消息集成的自动化集成测试框架。
+* [HydraLab](https://github.com/microsoft/HydraLab)：HydraLab是一个可以帮助利用现有的测试设备/机器轻松构建云测试平台的框架。
 * [Webtau](https://github.com/testingisdocumenting/webtau)：WebTau(Web测试自动化)是一个测试API、命令行工具和一个用于编写单元、集成和端到端测试的框架。
 * [SeLion](https://github.com/paypal/SeLion)：自动化测试工具。
 * [jdi-light](https://github.com/jdi-testing/jdi-light)：Java中强大的UI自动化测试框架。
-* [ZeroCode](https://github.com/authorjapps/zerocode)：社区开发的免费开源微服务API自动化和负载测试框架，使用JUnit核心运行程序构建，适用于Http REST、SOAP、安全性、数据库、Kafka等。
+* [ZeroCode](https://github.com/authorjapps/zerocode)：社区开发的免费开源微服务API自动化和负载测试框架，使用JUnit核心运行器构建，适用于HTTP REST、SOAP、安全性、数据库、Kafka等。
 * [SoloPi](https://github.com/alipay/SoloPi)：SoloPi是一个无线化、非侵入式的Android自动化工具。
 * [rest-client](https://github.com/wisdom-projects/rest-client)：测试REST API的自动化工具，可以生成精美的测试报告和REST API文档。
 * [rest-client](https://github.com/wiztools/rest-client)：用于测试HTTP/RESTful WebService的工具。
-* [opentest](https://github.com/mcdcorp/opentest)：适用于Web应用程序、移动应用程序和API的开源测试自动化工具。
+* [OpenTest](https://github.com/mcdcorp/opentest)：适用于Web应用程序、移动应用程序和API的开源测试自动化工具。
+* [Carina](https://github.com/zebrunner/carina)：Carina自动化框架(TestNG)：Web、移动、API、DB等测试。
+* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Java Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
+* [HBrowser](https://github.com/Osiris-Team/HBrowser)：无头/完整的Java浏览器，支持下载文件、使用Cookie、检索HTML和模拟真实用户输入。
+* [Appium-Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
 
-<h4 id="load">负载测试</h4>
+<h4 id="load">性能测试</h4>
 
 * [JMeter](https://github.com/apache/jmeter)：Apache出品的GUI形式的开源负载测试工具。
 * [Ngrinder](https://github.com/naver/ngrinder)：企业级性能测试解决方案。
 * [Gatling](https://github.com/gatling/gatling)：更现代的负载测试工具，以代码的方式编写测试用例。
+* [JMH](https://github.com/openjdk/jmh)：JMH是一个Java工具，用于构建、运行和分析用Java和其他针对JVM的语言编写的宏观基准测试。
+* [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
+* [JfrUnit](https://github.com/moditect/jfrunit)：用于断言JFR(JDK Flight Recorder)事件的JUnit扩展。
+* [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级通用性能测试框架。
+* [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP基准项目是一个Java测试套件，用于验证漏洞检测工具的速度和准确性。
 
 <h4 id="test-lib">测试库</h4>
 
@@ -367,30 +396,36 @@
 * [Pitest](https://github.com/hcoles/pitest)：最先进的JVM突变测试库。
 * [Awaitility](https://github.com/awaitility/awaitility)：用于测试异步代码的库。
 * [Microcks](https://github.com/microcks/microcks)：用于模拟和测试API和微服务的Kubernetes原生工具。
-* [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
-* [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：用于比较JSON的库。
+* [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：用于在单元测试中比较JSON的库。
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：EqualsVerifier可用于Java单元测试来验证equals和hashCode方法的约定是否得到满足。
-* [Database-Rider](https://github.com/database-rider/database-rider)：让数据库集成测试变得更简单的库。
 * [Jqwik](https://github.com/jqwik-team/jqwik)：JUnit平台上基于属性的测试库。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：可以自动生成包括边缘情况的测试实例。
 * [OpenTest4J](https://github.com/ota4j-team/opentest4j)：JVM开放测试联盟。
 * [randomizedtesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
+* [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是用于Java程序的无GUI浏览器。
 * [XmlUnit](https://github.com/xmlunit/xmlunit)：XMLUnit是一个支持以多种方式测试XML输出的库。
 * [JUnit Pioneer](https://github.com/junit-pioneer/junit-pioneer)：JUnit 5扩展包，提供很多JUnit 5没有的Extension。
+* [JUnitParams](https://github.com/Pragmatists/JUnitParams)：JUnit 4的参数化测试扩展。
 * [System Rules](https://github.com/stefanbirkner/system-rules)：用于测试使用java.lang.System的代码的JUnit Rule集合。
 * [System Lambda](https://github.com/stefanbirkner/system-lambda)：用于测试使用java.lang.System的代码的函数集合。
 * [System Stubs](https://github.com/webcompere/system-stubs)：Java系统资源的测试替身。
-* [GreenMail](https://github.com/greenmail-mail-test/greenmail)：GreenMail是一个邮件服务器Mock库，允许开发人员测试基于电子邮件的应用程序、服务或系统，而无需访问实时邮件服务器。
 * [Arquillian](https://github.com/arquillian/arquillian-core)：Arquillian提供了用于集成测试的组件模型，其中包括依赖注入和容器生命周期管理。
 * [MicroShed](https://github.com/MicroShed/microshed-testing)：用于黑盒测试MicroProfile和Jakarta EE应用程序的测试框架。
 * [JGotesting](https://github.com/tastapod/jgotesting)：受Go测试包启发的JUnit兼容测试工具。
 * [Pact](https://github.com/pact-foundation/pact-jvm)：Pact的JVM版本，用于编写消费者驱动的契约测试。
-* [wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
+* [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
 * [evosuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
 * [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
 * [jwebunit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
-* [scalacheck](https://github.com/typelevel/scalacheck)：Scala基于属性的测试。
+* [ScalaCheck](https://github.com/typelevel/scalacheck)：ScalaCheck是一个用Scala编写的库，用于对Scala或Java程序进行基于属性的自动化测试。
 * [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
+* [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
+* [JUnit-5-FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
+* [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
+* [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植。
+* [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
+* [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
+* [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
 
 <h2 id="ide">Java IDE</h2>
 
@@ -1038,6 +1073,7 @@
 * [rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)：一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：NettyRPC是基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
 * [JoyRPC](https://github.com/joyrpc/joyrpc)：高性能、高扩展性的Java RPC框架。
+* [Thunder](https://github.com/Nepxion/Thunder)：多协议、多组件、多序列化的分布式RPC调用框架。
 
 <h2 id="message">消息中间件</h2>
 
