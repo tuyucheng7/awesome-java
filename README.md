@@ -28,6 +28,7 @@
 - [性能分析](#profiler)
 - [Kafka管理工具](#kafka-tool)
 - [APM监控工具](#apm)
+- [分布式追踪](#distributed-tracing)
 - [云原生](#cloud-native)
 - [工具库](#utils)
 - [依赖注入](#di)
@@ -95,6 +96,7 @@
 - [JavaFX图表库](#javafx-chart)
 - [JavaFX小工具](#javafx-tool)
 - [游戏引擎](#game-engine)
+- [数据库客户端](#db-client)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -188,6 +190,7 @@
 * [Ribbon](https://github.com/Netflix/ribbon)：Ribbon是一个进程间通信(远程过程调用)库，具有内置的软件负载均衡器。
 * [Mantis](https://github.com/Netflix/mantis)：该平台使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序。
 * [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问。
+* [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 
 <h2 id="orm-framework">ORM框架</h2>
 
@@ -218,6 +221,7 @@
 * [database-all](https://github.com/gaarason/database-all)：Java 的Eloquent ORM。
 * [bean-searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
 * [Speedment](https://github.com/speedment/speedment)：Speedment是一个Stream ORM Java工具包和运行时。
+* [Easy-ES](https://gitee.com/dromara/easy-es)：Easy-ES是一款简化ElasticSearch搜索引擎操作的开源框架。
 
 <h2 id="scaffold">脚手架</h2>
 
@@ -590,6 +594,18 @@
 * [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
 
+<h2 id="distributed-tracing">分布式追踪</h2>
+
+* [Zipkin](https://github.com/openzipkin/zipkin)：Zipkin是一个分布式追踪系统，由Twitter开源。
+* [SOFATracer](https://github.com/sofastack/sofa-tracer)：SOFATracer是一个用于分布式系统调用跟踪的组件，由蚂蚁开源。
+* [Brave](https://github.com/openzipkin/brave)：Brave是一个分布式跟踪基础库。
+* [SkyEye](https://github.com/JThink/SkyEye)：对Java、Scala等运行于JVM的程序进行实时日志采集、索引和可视化，对系统进行进程级别的监控的工具。
+* [Spring Cloud Sleuth](https://github.com/spring-cloud/spring-cloud-sleuth)：Spring Cloud Sleuth为分布式跟踪提供Spring Boot自动配置。
+* [OpenCensus](https://github.com/census-instrumentation/opencensus-java)：统计数据收集和分布式跟踪框架。
+* [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java)：OpenTelemetry Java SDK。
+* [Fiery](https://github.com/weiboad/fiery)：微博开源的APM应用程序性能管理工具。
+* [DataDog](https://github.com/DataDog/dd-trace-java)：DadaDog分布式跟踪工具的Java客户端。
+
 <h2 id="cloud-native">云原生</h2>
 
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。
@@ -622,6 +638,8 @@
 * [XAP](https://github.com/xap/xap)：分布式、高度可扩展的内存数据网格。
 * [Spring Boot Istio](https://github.com/piomin/spring-boot-istio)：用于与Kubernetes上的Istio集成的Spring Boot库。
 * [SimianArmy](https://github.com/Netflix/SimianArmy)：SimianArmy是一套工具，可让云保持最佳状态运行。
+* [CloudSimPlus](https://github.com/cloudsimplus/cloudsimplus)：最先进的云计算框架，现代、功能齐全、易于使用、高度可扩展、更快和更准确用于云计算研究的Java 17+工具。
+* [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点关注于实时日志分析和人工智能集成。
 
 <h2 id="utils">工具库</h2>
 
@@ -1790,7 +1808,6 @@
 * [grpc-spring-boot-starter](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
 * [retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强。
 * [spring-boot-data-source-decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
-* [redis-om-spring](https://github.com/redis/redis-om-spring)：Spring Data Redis扩展，可实现更好的搜索、文档模型等。
 * [chatgpt-spring-boot-starter](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
 * [spring-modulith](https://github.com/spring-projects/spring-modulith)：使用Spring Boot的模块化应用程序。
 * [spring-data-jpa-entity-graph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
@@ -1852,6 +1869,7 @@
 * [Redisson](https://github.com/redisson/redisson)：具有内存数据网格功能的简单Redis Java客户端，包含实现分布式锁的功能。
 * [ShedLock](https://github.com/lukas-krecan/ShedLock)：计划任务的分布式锁。
 * [klock](https://github.com/kekingcn/spring-boot-klock-starter)：基于Redis的分布式锁组件，简单方便快捷接入项目，使项目拥有分布式锁能力。
+* [Apache Curator](https://github.com/apache/curator)：Apache Curator是Apache ZooKeeper(分布式协调服务)的Java/JVM客户端库。
 * [Distributed-Kit](https://github.com/yujiasun/Distributed-Kit)：基于Redis和Zookeeper分布式工具集，包括分布式锁实现。
 * [Lock4j](https://gitee.com/baomidou/lock4j)：基于Spring AOP的声明式和编程式分布式锁，支持RedisTemplate、Redisson、Zookeeper。
 * [amazon-dynamodb-lock-client](https://github.com/awslabs/amazon-dynamodb-lock-client)：构建在DynamoDB之上的通用分布式锁库，支持粗粒度和细粒度锁定。
@@ -2107,3 +2125,24 @@
 * [LionEngine](https://github.com/b3dgs/lionengine)：Java 2D游戏引擎。
 * [SilenceEngine](https://github.com/sriharshachilakapati/SilenceEngine)：跨平台2D/3D Java游戏引擎(桌面/Html5/Android)。
 * [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和IOS设备。
+
+<h2 id="db-client">数据库客户端</h2>
+
+* [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
+* [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
+* [Postgresql-R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
+* [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
+* [AWS-MySQL-JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MuSQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
+* [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
+* [Oracle-R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
+* [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
+* [ElasticSearch](https://github.com/elastic/elasticsearch-java)：Elasticsearch官方Java客户端。
+* [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
+* [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：ElasticSearch高级Java REST客户端API。
+* [Redisson](https://github.com/redisson/redisson)：具有内存数据网格功能的简单Redis Java客户端。
+* [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
+* [Lettuce](https://github.com/lettuce-io/lettuce-core)：高级Java Redis客户端，用于线程安全同步、异步和响应式使用。支持集群、哨兵、管道和编解码器。
+* [redis-om-spring](https://github.com/redis/redis-om-spring)：Spring Data Redis扩展，可实现更好的搜索、文档模型等。
+* [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：更轻松地构建基于Redis的Spring应用程序。
+* [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
+* [redis-protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
