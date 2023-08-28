@@ -45,6 +45,7 @@
 - [CSV库](#csv)
 - [HTTP客户端库](#httpclient)
 - [WebServer](#webserver)
+- [游戏服务器](#gameserver)
 - [Jakarta EE实现](#jakartaee)
 - [RPC框架](#rpc)
 - [消息中间件](#message)
@@ -57,6 +58,9 @@
 - [深度学习](#dl)
 - [遗传算法](#genetic)
 - [专家系统](#expert-system)
+- [数学库](#math)
+- [本体库](#ontology)
+- [生物信息学](#bioinformatics)
 - [并发编程](#concurrency)
 - [安全](#security)
 - [事务](#transaction)
@@ -98,6 +102,7 @@
 - [JavaFX小工具](#javafx-tool)
 - [游戏引擎](#game-engine)
 - [数据库客户端](#db-client)
+- [Minecraft](#minecraft)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -281,6 +286,7 @@
 * [Deepdive](https://github.com/jdlib/deepdive)：Java的流式断言库。
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：流式断言库。
 * [Expekt](https://github.com/winterbe/expekt): Kotlin的BDD断言库。
+* [AssertJ-DB](https://github.com/assertj/assertj-db)：AssertJ-DB提供断言来测试数据库中的值。
 
 <h4 id="mocks">Mock框架</h4>
 
@@ -1024,11 +1030,29 @@
 * [graphhopper](https://github.com/graphhopper/graphhopper)：OpenStreetMap的开源路由引擎，将其用作Java库或独立的Web服务器。
 * [AndServer](https://github.com/yanzhenjie/AndServer)：Android平台的Web服务器和Web框架。
 * [rapidoid](https://github.com/rapidoid/rapidoid)：极其快速、简单且功能强大的Java Web框架和HTTP服务器。
-* [game-server](https://github.com/jzyong/game-server)：分布式Java游戏服务器，包括集群管理服务器、网关服务器、大厅服务器、游戏逻辑服务器。
 * [restcommander](https://github.com/eBay/restcommander)：快速并行异步HTTP客户端即服务，用于监控和管理10000个Web服务器，由eBay开发。
 * [webbit](https://github.com/webbit/webbit)：基于Java事件的WebSocket和HTTP服务器。
 * [para](https://github.com/Erudika/para)：用于快速构建Web和移动应用程序的多租户后端服务器。
 * [methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
+
+<h2 id="gameserver">游戏服务器</h2>
+
+* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：使用Netty 4.X实现的手机游戏分布式服务器,支持TCP、UDP、HTTP、WebSocket链接。
+* [Jetserver](https://github.com/menacher/java-game-server)：Jetserver是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
+* [game-server](https://github.com/jzyong/game-server)：分布式Java游戏服务器，包括集群管理服务器、网关服务器、大厅服务器、游戏逻辑服务器。
+* [Summer](https://github.com/SwingFrog/Summer)：轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
+* [mmorpg](https://github.com/kingston-csj/mmorpg)：用Java编写的分布式高性能mmorpg手游服务端框架。
+* [everwar](https://github.com/geektcp/everwar)：魔兽世界完整的服务端源码版本。
+* [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
+* [ioGame](https://gitee.com/game-town/ioGame)：无锁异步化、事件驱动架构设计的Java Netty网络游戏服务器框架。
+* [Socket.IO](https://github.com/scalecube/socketio)：基于Netty的Socket.IO Java服务器，为了满足游戏性能要求而创建的。
+* [Apollo](https://github.com/apollo-rsps/apollo)：一个开源Java游戏服务器套件，旨在轻量、快速且安全。
+* [Noark](https://gitee.com/xiaoe/noark3)：一个由Java实现的游戏服务器端框架，可快速开发出易维护、高性能、高扩展能力的游戏服务器。
+* [Carmelo](https://github.com/needmorecode/carmelo)：Carmelo是一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
+* [Okra](https://github.com/ogcs/Okra)：基于Netty和Disruptor的高性能游戏服务器框架。
+* [Gamioo](https://github.com/jiangguilong2000/gamioo)：游戏服务器框架，基于此框架，可以快速实现一个高可用、易维护、稳定、高性能的游戏服务器。
+* [TenIO](https://github.com/congcoi123/tenio)：TenIO是一个用于创建多人在线游戏的开源项目。
+* [Avalon](https://gitee.com/codeborker/Avalon)：基于Akka的高性能可伸缩的Java网络游戏服务器，简单的单服务器开发与集群开发的切换。
 
 <h2 id="jakartaee">Jakarta EE实现</h2>
 
@@ -1121,6 +1145,7 @@
 * [TypeDB](https://github.com/vaticle/typedb)：TypeDB是一个强类型数据库，具有丰富且逻辑的类型系统。
 * [Gaffer](https://github.com/gchq/Gaffer)：支持属性聚合的大规模实体和关系数据库，由英国政府通讯总部开源。
 * [HyperGraphDB](https://github.com/hypergraphdb/hypergraphdb)：专为人工智能和语义Web项目设计的图数据库，也可以用作各种规模项目的嵌入式面向对象数据库。
+* [YangDB](https://github.com/YANG-DB/yang-db)：开源、可扩展、非原生图数据库(由Elasticsearch提供支持)。
 
 <h4 id="embedded-db">嵌入式数据库</h4>
 
@@ -1251,6 +1276,7 @@
 * [ECJ 23](https://cs.gmu.edu/~eclab/projects/ecj/)：ECJ 23是一个基于Java的研究框架，为遗传算法提供强大的算法支持。
 * [JGAP](https://sourceforge.net/projects/jgap/)：JGAP是作为Java框架提供的遗传编程组件。
 * [Eva](https://github.com/decorators-squad/eva)：Eva是一个简单的Java OOP进化算法框架。
+* [](https://github.com/lagodiuk/genetic-algorithm)：Java中遗传算法的通用实现。
 
 <h4 id="expert-system">专家系统</h4>
 
@@ -1261,9 +1287,61 @@
 * [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
 * [OptaPlanner](https://github.com/kiegroup/optaplanner)：OptaPlanner是一个基于Java的约束求解器。
 
-<h4 id="math">数学库</h4>
+<h2 id="math">数学库</h2>
 
 * [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
+
+<h2 id="ontology">本体库</h2>
+
+* [WebProtégé](https://github.com/protegeproject/webprotege)：WebProtégé是一个免费、开源的协作本体开发环境。
+* [OWLAPI](https://github.com/owlcs/owlapi)：OWL API是用于创建、操作和序列化OWL本体的Java API。
+* [Karma](https://github.com/usc-isi-i2/Web-Karma)：Karma是一种信息集成工具，使用户能够快速轻松地集成来自各种数据源的数据，包括数据库、电子表格、分隔文本文件、XML、JSON、KML和Web API。
+* [Widoco](https://github.com/dgarijo/Widoco)：WIDOCO是一个带有本体文档的HTML模板逐步生成器，它使用LODE环境来创建部分模板。
+* [Ontop](https://github.com/ontop/ontop)：Ontop是一个使用SPARQL将关系数据库查询为虚拟RDF知识图的平台。
+* [RSSOwl](https://github.com/rssowl/RSSOwl)：RSS Owl是一个功能强大的应用程序，可以以舒适的方式组织、搜索和阅读RSS、RDF和Atom新闻源。
+* [Scowl](https://github.com/phenoscape/scowl)：用于使用OWL API进行编程的Scala DSL。
+* [SnowOwl](https://github.com/b2ihealthcare/snow-owl)：SnowOwl是一款高度可扩展的开源术语服务器，具有修订控制功能和协作创作平台功能。允许快速高效地存储、搜索和创作大量术语工件。
+* [DL-Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL-Learner是一个用于执行丰富语义背景知识的机器学习的框架。
+* [ROBOT](https://github.com/ontodev/robot)：ROBOT是一个用于自动化本体开发任务的命令行工具和库，重点是开放生物和生物医学本体。
+* [SciGraph](https://github.com/SciGraph/SciGraph)：Neo4j支持的本体存储。
+* [OWL2VOWL](https://github.com/VisualDataWeb/OWL2VOWL)：本体转换器。
+* [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher)：本体对齐和对齐修复系统。
+* [Openllet](https://github.com/Galigator/openllet)：Openllet是Java中的OWL 2推理器，构建在Pellet之上。
+* [ELK](https://github.com/liveontologies/elk-reasoner)：基于Java的OWL 2 EL推理器。
+* [OWLTools](https://github.com/owlcollab/owltools)：OWLTools是OWL API之上的便捷Java API。
+* [Slib](https://github.com/sharispe/slib)：Slib是一个专门用于基于文本和/或本体处理的语义数据挖掘的Java库。
+* [OBOGraphs](https://github.com/geneontology/obographs)：包含用于本体交换的JSON/YAML格式规范，以及参考Java对象模型和OWL转换器。
+
+<h2 id="bioinformatics">生物信息学</h2>
+
+* [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个生物信息学工作流程管理器，支持开发可移植且可重复的工作流程。
+* [Cromwell](https://github.com/broadinstitute/cromwell)：Cromwell是一个用于生物信息学的开源工作流程管理系统。
+* [GATK](https://github.com/broadinstitute/gatk)：包含下一代基因组分析工具包(GATK)。
+* [BioJava](https://github.com/biojava/biojava)：BioJava是一个开源项目，致力于提供用于处理生物数据的Java库。
+* [WDL](https://github.com/openwdl/wdl)：工作流描述语言的规范和实现。
+* [Jvarkit](https://github.com/lindenb/jvarkit)：用于生物信息学的Java实用程序。
+* [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
+* [biometrics](https://github.com/SelfLender/react-native-biometrics)：适用于iOS和Android生物识别的React Native模块
+* [InterMine](https://github.com/intermine/intermine)：一个强大的开源数据仓库系统，允许用户以最少的努力集成不同的数据源，InterMine为生命科学领域一些最大的数据仓库提供支持。
+* [Artemis](https://github.com/sanger-pathogens/Artemis)：Artemis是一款免费的基因组浏览器和注释工具，可实现序列特征、下一代数据和序列背景下的分析结果及其六帧翻译的可视化。
+* [BBMap](https://github.com/BioInfoTools/BBMap)：用于DNA/RNAseq的BBMap短读对齐器和其他生物信息学工具。
+* [Pegasus](https://github.com/pegasus-isi/pegasus)：Pegasus WMS是一个可配置系统，用于在各种计算基础设施(包括笔记本电脑、校园集群、超级计算机、网格以及商业和学术云)上映射和执行科学工作流程。
+* [Cloud-Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台。
+* [DNAnalyzer](https://github.com/VerisimilitudeX/DNAnalyzer)：致力于彻底改变DNA分析领域，目标是使DNA分析工具的使用更加民主化。
+* [GloBI](https://github.com/globalbioticinteractions/globalbioticinteractions)：提供对现有物种相互作用数据集的访问。
+* [MOLGENIS](https://github.com/molgenis/molgenis)：MOLGENIS是一个协作开源项目，其目的是为生命科学研究生成出色的软件基础设施。
+* [Hadoop-BAM](https://github.com/HadoopGenomics/Hadoop-BAM)：Hadoop-BAM是一个Java库，用于使用Hadoop MapReduce框架操作常见生物信息学格式的文件。
+* [SIRIUS](https://github.com/boecker-lab/sirius)：SIRIUS是一个基于Java的软件框架，用于分析代谢物和其他“具有生物意义的小分子”的LC-MS/MS数据。
+* [liblevenshtein](https://github.com/universal-automata/liblevenshtein-java)：有关Levenshtein传感器的各种实用程序。
+* [Jannovar](https://github.com/charite/jannovar)：Java中的功能变体文件注释，Jannovar提供了一个用于VCF文件注释的程序，并通过库API公开其功能。
+* [sirius-libs](https://github.com/boecker-lab/sirius-libs)：用Java编写的用于小分子分子式识别的代谢组学质谱框架。
+* [PeptideShaker](https://github.com/compomics/peptide-shaker)：PeptideShaker是一个独立于搜索引擎的平台，用于解释来自多个搜索和de novo引擎的蛋白质组学鉴定结果，目前支持X! Tandem、MS-GF+、MS Amanda、OMSSA、MyriMatch、Comet、Tide、Mascot、Andromeda、MetaMorpheus、Sage、Novor、DirecTag和mzIdentML。
+* [NSGA-II](https://github.com/onclave/NSGA-II)：NSGA-II的Java实现。
+* [GORpipe](https://github.com/gorpipe/gor)：GORpipe是一种基于基因组有序关系架构的工具，允许在并行执行引擎中使用声明性查询语言分析大量基因组和表型表格数据。
+* [SearchGUI](https://github.com/compomics/searchgui)：SearchGUI是一个高度适应性的开源通用界面，用于配置和运行蛋白质组学搜索和de novo引擎，目前支持X! Tandem、MyriMatch、MS Amanda、MS-GF+、OMSSA、Comet、Tide、Andromeda、MetaMorpheus、Sage、Novor和DirecTag。
+* [Bio-Formats](https://github.com/ome/bioformats)：Bio-Formats是一个Java库，用于读取和写入生命科学图像文件格式的数据。
+* [Bio4j](https://github.com/bio4j/bio4j)：Bio4j是一个生物信息学图形数据平台，集成了Uniprot KB(SwissProt + Trembl)、Gene Ontology(GO)、UniRef(50,90,100)、NCBI Taxonomy和Expasy Enzyme DB中的大部分可用数据。
+* [libSBOLj](https://github.com/SynBioDex/libSBOLj)：合成生物学开放语言Java库。
 
 <h2 id="concurrency">并发编程</h2>
 
@@ -2157,7 +2235,6 @@
 * [jbox2d](https://github.com/jbox2d/jbox2d)：2D Java 物理引擎，C++物理引擎Box2D和LiquidFun的本机Java端口。
 * [AndEngine](https://github.com/nicolasgramlich/AndEngine)：免费Android 2D OpenGL游戏引擎。
 * [XMage](https://github.com/magefree/mage)：XMage允许你与一名或多名在线玩家或电脑对手玩万智牌。
-* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：使用Netty 4.X实现的手机游戏分布式服务器,支持TCP、UDP、HTTP、WebSocket链接。
 * [OpenRTS](https://github.com/methusalah/OpenRTS)：纯Java编码的即时战略游戏3D引擎。
 * [jforgame](https://github.com/kingston-csj/jforgame)：jforgame是一个一站式游戏服务器开发框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
 * [FriceEngine](https://github.com/icela/FriceEngine)：基于Swing/JavaFX的JVM游戏引擎。
@@ -2195,3 +2272,39 @@
 * [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：更轻松地构建基于Redis的Spring应用程序。
 * [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
 * [redis-protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
+
+<h2 id="minecraft">Minecraft</h2>
+
+* [Paper](https://github.com/PaperMC/Paper)：使用最广泛的高性能Minecraft服务器，旨在修复游戏玩法和机制的不一致问题。
+* [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：Forge是一个免费的开源模组API，所有常见模组都在使用。
+* [HMCL](https://github.com/huanghongxun/HMCL)：一款多功能、跨平台、流行的Minecraft桌面。
+* [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：基于Boardwalk的Minecraft：适用于Android和iOS的Java版启动器。
+* [Sodium](https://github.com/CaffeineMC/sodium-fabric)：旨在提高帧速率并减少微卡顿的Fabric模组。
+* [Geyser](https://github.com/GeyserMC/Geyser)：允许使用Minecraft基岩版连接到Minecraft Java版服务器的桥接器。
+* [Malmo](https://github.com/microsoft/malmo)：Project Malmo是一个建立在Minecraft之上的人工智能实验和研究平台。
+* [Brigadier](https://github.com/Mojang/brigadier)：Brigadier是一个命令解析器和调度器，专为Minecraft Java版设计和开发。
+* [WorldEdit](https://github.com/EngineHub/WorldEdit)：Minecraft地图编辑器和模组。
+* [Iris](https://github.com/IrisShaders/Iris)：Minecraft的现代着色器模组，旨在与现有的OptiFine着色器包兼容。
+* [MCA Selector](https://github.com/Querz/mcaselector)：一种从Minecraft世界中选择块进行删除或导出的工具。
+* [Bukkit](https://github.com/Bukkit/Bukkit)：Minecraft服务器API。
+* [Create](https://github.com/Creators-of-Create/Create)：一个为建筑、装饰和美学自动化提供各种工具和模块的模组。
+* [Amidst](https://github.com/toolbox4minecraft/amidst)：Amidst是一个工具，用于显示Minecraft世界的概览，而无需实际创建它。
+* [Minestom](https://github.com/Minestom/Minestom)：1.19.3轻量级Minecraft服务器。
+* [Dynmap](https://github.com/webbukkit/dynmap)：一组Minecraft模组，为各种Minecraft服务器实现提供基于Web的实时地图系统。
+* [Fabric](https://github.com/FabricMC/fabric)：Fabric API是Fabric mods的基本钩子和互操作机制的库。
+* [Glowstone](https://github.com/GlowstoneMC/Glowstone)：一个快速、可定制且兼容的Minecraft Java版开源服务器。
+* [CatServer](https://github.com/Luohuayu/CatServer)：高性能和高兼容性的1.12.2/1.16.5/1.18.2版本Forge + Bukkit + Spigot服务端。
+* [LuckPerms](https://github.com/LuckPerms/LuckPerms)：Minecraft服务器的权限插件。
+* [Lithium](https://github.com/CaffeineMC/lithium-fabric)：Lithium是一款免费开源的Minecraft模组，可优化游戏的许多领域，以提供更好的整体性能。
+* [Essentials](https://github.com/EssentialsX/Essentials)：用于Spigot和Paper的现代Essentials套件。
+* [Meteor](https://github.com/MeteorDevelopment/meteor-client)：基础Minecraft实用程序模组。
+* [BungeeCord](https://github.com/SpigotMC/BungeeCord)：BungeeCord是一个复杂的代理和API，主要设计用于在多个Minecraft服务器之间传送玩家。
+* [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap)：一款Minecraft地图工具，可创建Minecraft世界的3D模型并将其显示在Web查看器中。
+* [Velocity](https://github.com/PaperMC/Velocity)：下一代Minecraft服务器代理。
+* [FarPlaneTwo](https://github.com/PorkStudios/FarPlaneTwo)：Minecraft中的细节层次渲染器，允许渲染数百万个块的距离。
+* [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)：一个关于物质、能量并利用它们征服世界的模组。
+* [Botania](https://github.com/VazkiiMods/Botania)：以自然和植物生命的魔力为主题的Minecraft技术模组。
+* [SpongeAPI](https://github.com/SpongePowered/SpongeAPI)：成熟的Minecraft插件API，不包括实现。
+* [Nukkit](https://github.com/CloudburstMC/Nukkit)：Nukkit是Minecraft基岩版的核动力服务器软件。
+* [SpongeForge](https://github.com/SpongePowered/SpongeForge)：一个实现SpongeAPI的Forge模组。
+* [Adventure](https://github.com/KyoriPowered/adventure)：Minecraft Java版的服务器端用户界面库。
