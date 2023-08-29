@@ -37,6 +37,7 @@
 - [依赖注入](#di)
 - [AOP](#aop)
 - [日志库](#log)
+- [GraphQL](#graphql)
 - [任务调度](#job)
 - [配置库](#configuration)
 - [业务流 & 规则引擎](#bpm)
@@ -799,6 +800,28 @@
 * [JLog](https://gitee.com/jd-platform-opensource/jlog)：京东开源的海量日志搜集、传输、存储解决方案。
 * [jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
 
+<h2 id="graphql">GraphQL</h2>
+
+* [GraphQL Java](https://github.com/graphql-java/graphql-java)：GraphQL Java实现。
+* [DGS-Framework](https://github.com/netflix/dgs-framework)：DGS(Domain Graph Service)框架是由Netflix开发的Spring Boot的GraphQL服务器框架。
+* [Apollo Kotlin](https://github.com/apollographql/apollo-kotlin)：适用于JVM、Android和Kotlin多平台的强类型缓存GraphQL客户端。
+* [Rejoiner](https://github.com/google/rejoiner)：用于从gRPC微服务和其他Protobuf源生成统一的GraphQL模式，由Google开发。
+* [Spring GraphQL](https://github.com/spring-projects/spring-graphql)：GraphQL的Spring集成。
+* [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)：构建在graphql-java之上，可简化在Kotlin中运行GraphQL客户端和服务器。
+* [GraphQL SPQR](https://github.com/leangen/graphql-spqr)：可以让任何Java项目添加GraphQL API变得非常简单，它的工作原理是从Java代码动态生成GraphQL模式。
+* [GraphQL SPQR Starter](https://github.com/leangen/graphql-spqr-spring-boot-starter)：由GraphQL SPQR提供支持的Spring Boot Starter。
+* [GraphQL Spring Boot](https://github.com/graphql-java-kickstart/graphql-spring-boot)：集成GraphQL Java和Spring Boot的库。
+* [Elide](https://github.com/yahoo/elide)：Elide是一个Java库，可以轻松设置模型驱动的GraphQL或JSON API Web服务。
+* [GraphQL-Java Annotations](https://github.com/Enigmatis/graphql-java-annotations)：该库为GraphQL模式定义提供基于注解的语法。
+* [KGraphQL](https://github.com/aPureBase/KGraphQL)：GraphQL的纯Kotlin实现。
+* [GraphQL-Calculator](https://github.com/graphql-calculator/graphql-calculator)：一个轻量级的GraphQL计算引擎，用于改变查询的执行行为。
+* [Microprofile GraphQL](https://github.com/eclipse/microprofile-graphql)：MicroProfile框架中用于构建GraphQL应用程序的GraphQL服务器和客户端规范。
+* [Nodes](https://github.com/americanexpress/nodes)：Nodes是一个GraphQL客户端，旨在根据标准模型定义构建查询。
+* [GraphQL Java Generator](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：GraphQL Java生成器可以轻松地以模式优先的方式在Java中使用GraphQL。
+* [GraphQL Codegen](https://github.com/kobylynskyi/graphql-java-codegen)：GraphQL Java代码生成器可以轻松地让你的Java应用程序遵循模式优先的方法，无论它是服务器应用程序还是客户端应用程序。
+* [GraphQL JPA](https://github.com/introproventures/graphql-jpa-query)：可以为JPA实体模型生成GraphQL查询API。
+* [HyperGraphQL](https://github.com/hypergraphql/hypergraphql)：HyperGraphQL是一个GraphQL接口，用于在Web上查询和提供链接数据。
+
 <h2 id="job">任务调度</h2>
 
 * [xxl-job](https://github.com/xuxueli/xxl-job)：分布式任务调度平台。
@@ -1031,7 +1054,7 @@
 <h4 id="excel">Excel库</h4>
 
 * [Apache POI](https://github.com/apache/poi)：用于读写Microsoft Office二进制和OOXML文件格式的Java库。
-* [EasyExcel](https://github.com/alibaba/easyexcel)：快速、简洁、解决大文件内存溢出的java处理Excel工具，由阿里开源。
+* [EasyExcel](https://github.com/alibaba/easyexcel)：快速、简洁、解决大文件内存溢出的Java处理Excel工具，由阿里开源。
 * [autopoi](https://github.com/jeecgboot/autopoi)：国产的Excel和Word简易工具类，基于Apache POI。
 * [docx4j](https://github.com/plutext/docx4j)：用于Word docx、Powerpoint pptx和Excel xlsx文件的基于JAXB的Java库。
 * [myexcel](https://github.com/liaochong/myexcel)：MyExcel是一个集导入、导出、加密Excel等多项功能的工具包。
@@ -1897,7 +1920,6 @@
 * [mybatis-generator-yml-maven-plugin](https://github.com/javthon/mybatis-generator-yml-maven-plugin)：MyBatis Generator YML配置、Lombok插件、Swagger插件支持。
 * [springdoc-openapi-maven-plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
 * [cucable-plugin](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
-* [graphql-maven-plugin](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：可以生成Java代码来加速客户端和服务器的开发。
 * [web3j-maven-plugin](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
 * [aspectj-maven-plugin](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
 * [app-maven-plugin](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
