@@ -134,6 +134,7 @@
 - [文件系统](#filesystem)
 - [报表引擎](#report)
 - [部署工具](#deploy)
+- [地理空间](#geo)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -1395,6 +1396,8 @@
 * [Sensei](https://github.com/LinkedInAttic/sensei)：Sensei是一个分布式、弹性的实时可搜索数据库，由LinkedIn开源。
 * [ArcadeDB](https://github.com/ArcadeData/arcadedb)：一种支持SQL、Cypher、Gremlin、HTTP/JSON、MongoDB和Redis的多模型DBMS。
 * [Heroic](https://github.com/spotify/heroic)：基于Bigtable、Cassandra和Elasticsearch的可扩展时序数据库，由Spotify开源。
+* [StarRocks](https://github.com/StarRocks/starrocks)：StarRocks是Linux基金会的一个项目，是下一代数据平台，旨在使数据密集型实时分析变得快速、轻松，由百度Doris团队成员开源。
+* [KairosDB](https://github.com/kairosdb/kairosdb)：KairosDB是一个基于Cassandra编写的快速分布式可扩展时序数据库。
 
 <h2 id="db-conn">数据库连接池</h2>
 
@@ -1995,6 +1998,7 @@
 * [MSEC](https://github.com/Tencent/MSEC)：集群海量服务引擎。
 * [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个Docker集群管理系统，用户可以通过用户友好且功能强大的用户界面和命令行工具控制整个平台。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：使用约束编程的声明式集群管理，其中约束使用SQL进行描述。
+* [CorfuDB](https://github.com/CorfuDB/CorfuDB)：Corfu是一个围绕共享日志抽象设计的一致性平台。
 
 <h2 id="code-analysis">代码分析</h2>
 
@@ -2921,3 +2925,37 @@
 * [Obevo](https://github.com/goldmansachs/obevo)：Obevo是一种数据库部署工具，可处理企业规模的架构和复杂性。
 * [Stork](https://github.com/fizzed/stork)：Stork是一个轻量级实用程序的集合，用于通过填补Java构建系统和执行之间的空白来优化“构建后”工作流程。
 * [Linux Deploy](https://github.com/meefik/linuxdeploy)：可在Android设备上快速轻松地安装操作系统(OS) GNU/Linux。
+
+<h2 id="geo">地理空间</h2>
+
+* [JTS](https://github.com/locationtech/jts)：JTS是一个用于创建和操作向量几何的Java库。
+* [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，提供地理空间数据工具。
+* [Geometry API](https://github.com/Esri/geometry-api-java)：Geometry API可用于在第三方数据处理解决方案中启用空间数据处理。
+* [Open Location Code](https://github.com/google/open-location-code)：Open Location Code是一种将位置编码为比纬度和经度更易于使用的形式的技术，由Google开源。
+* [Gisgraphy](https://github.com/gisgraphy/gisgraphy)：免费、开源且随时可用的地理编码器、反向地理编码器和地理定位网络服务。
+* [GAMA](https://github.com/gama-platform/gama)：GAMA是一个易于使用的开源建模和仿真环境，用于创建基于代理的空间显式仿真。
+* [MeteoInfo](https://github.com/meteoinfo/MeteoInfo)：MeteoInfo是GIS应用(MeteoInfoMap)、科学计算和可视化环境(MeteoInfoLab)的集成框架，特别适合气象界。
+* [MapFish](https://github.com/mapfish/mapfish-print)：MapFish的一个组件，用于打印模板化地图，该模块是Java服务器端模块。
+* [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个用于管理内存中空间数据的空间库。
+* [Proj4J](https://github.com/locationtech/proj4j)：Proj4J是一个用于在不同地理空间坐标参考系之间转换坐标的Java库，它被设计为与proj.4参数兼容，并从proj.4源中派生出一些实现。
+* [SLDEditor](https://github.com/sldeditor/sldeditor)：SLDEditor是由SCISYS开发的Java桌面应用程序，允许使用图形用户界面以交互方式创建和编辑OGC样式层描述符。
+* [Deegree](https://github.com/deegree/deegree3)：Deegree是用于空间数据基础设施和地理空间网络的开源软件，Deegree包含地理空间数据管理组件，包括数据访问、可视化、发现和安全性。
+* [Tinfour](https://github.com/gwlucastrig/Tinfour)：Java中的Delaunay和约束Delaunay三角剖分，为表面建模提供高性能实用程序，支持激光雷达LAS文件、数字高程模型 (DEM)、有限元分析、路径规划、自然邻域插值以及不规则三角网络(TIN)的其他应用。
+* [Geolatte-geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)：NoiseModelling是一个能够生成噪声图的库，它可以免费用于研究和教育，也可以由专家用于专业用途。
+* [Importer/Exporter](https://github.com/3dcitydb/importer-exporter)：基于Java的3D城市数据库导入器/导出器客户端，它允许高性能加载和提取3D城市模型数据。
+* [geOrchestra](https://github.com/georchestra/georchestra)：geOrchestra是一个完整的空间数据基础设施解决方案。
+* [OrbisGIS](https://github.com/orbisgis/orbisgis)：OrbisGIS是一个由研究创建并用于研究的跨平台开源地理信息系统(GIS)，它由法国Lab-STICC实验室(Vannes的DECIDE团队)内的CNRS领导。
+* [GeoServer](https://github.com/geoserver/geoserver)：GeoServer是一个用Java编写的开源软件服务器，允许用户共享和编辑地理空间数据。
+* [Geohash Java](https://github.com/kungfoo/geohash-java)：Geohashes的纯Java实现。
+* [GeoIP2 Java](https://github.com/maxmind/GeoIP2-java)：用于GeoIP2 Web服务客户端和数据库读取器的Java API。
+* [GeoFire Java](https://github.com/firebase/geofire-java)：使用Firebase进行实时位置查询的Java SDK。
+* [GeoWave](https://github.com/locationtech/geowave)：GeoWave在Accumulo、HBase、BigTable、Cassandra、Kudu、Redis、RocksDB和DynamoDB之上提供地理空间和时间索引。
+* [geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
+* [GeoGig](https://github.com/locationtech/geogig)：地理空间分布式版本控制系统。
+* [GeoWebCache](https://github.com/GeoWebCache/geowebcache)：GeoWebCache是一个用Java实现的图块缓存服务器，提供各种图块缓存服务，如WMS-C、TMS、WMTS、Google Maps、MS Bing等。
+* [CLAVIN](https://github.com/Novetta/CLAVIN)：CLAVIN(制图位置和邻近索引器)是一个开源软件包，用于文档地理解析和地理分辨率，采用基于上下文的地理实体分辨率。
+* [GeoNetwork](https://github.com/geonetwork/core-geonetwork)：GeoNetwork是一个用于管理空间参考资源的目录应用程序，它提供强大的元数据编辑和搜索功能以及交互式网络地图查看器。
+* [map-download](https://gitee.com/CrimsonHu/java_map_download)：使用Java开发的地图瓦片图下载工具，支持OpenStreetMap、天地图、谷歌地图、高德地图、腾讯地图、必应地图的XYZ瓦片图下载与合并。
+* [GAF](https://gitee.com/supermapgaf/GAF)：基于SuperMap GIS平台，采用Spring Cloud和Vue等技术，提供权限、GIS数据、服务和二三维地图场景等功能，用于快速搭建企业级GIS微服务框架。
+* [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
