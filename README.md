@@ -32,6 +32,7 @@
 - [Kafka管理工具](#kafka-tool)
 - [APM监控工具](#apm)
 - [分布式追踪](#distributed-tracing)
+- [指标报告](#metrics)
 - [云原生](#cloud-native)
 - [工具库](#utils)
 - [依赖注入](#di)
@@ -467,6 +468,7 @@
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
 * [Cucumber-Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
+* [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
 
 <h2 id="ide">Java IDE</h2>
 
@@ -700,10 +702,30 @@
 * [DataDog](https://github.com/DataDog/dd-trace-java)：DadaDog分布式跟踪工具的Java客户端。
 * [Wingtips](https://github.com/Nike-Inc/wingtips)：Wingtips是基于Google Dapper论文的Java分布式跟踪解决方案，由Nike开源。
 
+<h2 id="metrics">指标报告</h2>
+
+* [Dropwizard Metrics](https://github.com/dropwizard/metrics)：用于捕获JVM和应用程序级别的指标。
+* [Prometheus Java](https://github.com/prometheus/client_java)：用于JVM应用程序的Prometheus检测库。
+* [Servo](https://github.com/Netflix/servo)：Servo提供了一个简单的接口，用于在Java中公开和发布应用程序指标，由Netflix开源。
+* [OpenMessaging Java](https://github.com/openmessaging/openmessaging-java)：Java的OpenMessaging运行时接口。
+* [Oculus](https://github.com/etsy/oculus)：Etsy Kale系统的度量相关组件。
+* [Metrics Spring](https://github.com/ryantenney/metrics-spring)：该项目将Dropwizard Metrics库与Spring集成，并提供XML和Java配置。
+* [Spectator](https://github.com/Netflix/spectator)：用于记录维度时间序列的检测代码的简单库，由Netflix开源。
+* [Micrometer](https://github.com/micrometer-metrics/micrometer)：最流行的可观察性工具的应用程序可观察性门面。
+* [Dubbo Metrics](https://github.com/alibaba/metrics)：Metrics(原Alibaba Metrics)是阿里巴巴内部广泛使用的度量埋点基础类库。
+* [Argus](https://github.com/salesforce/Argus)：Argus是一个时序监控和警报平台，它由离散服务组成，用于配置警报、摄取和转换指标和事件、发送通知、创建命名空间以及建立和实施策略和使用配额。
+* [Keycloak Metrics](https://github.com/aerogear/keycloak-metrics-spi)：向Keycloak添加指标端点的SPI，端点返回可供Prometheus抓取的指标数据。
+* [SOFALookout](https://github.com/sofastack/sofa-lookout)：SOFALookout是一个利用多维度的Metrics对目标系统进行度量和监控的项目。
+* [PerfMon](https://github.com/undera/perfmon-agent)：用于访问远程计算机上的系统指标的代理应用程序。
+* [InfluxDB Metrics](https://github.com/davidB/metrics-influxdb)：向InfluxDB服务器公布度量结果的指标报告器。
+* [ElasticSearch Metrics](https://github.com/elastic/elasticsearch-metrics-reporter-java)：向ElasticSearch服务器公布度量结果的指标报告器
+* [Hawkular](https://github.com/hawkular/hawkular-metrics)：基于Cassandra的时序指标引擎。
+* [Spf4j](https://github.com/zolyfarkas/spf4j)：Java的简单性能框架。
+* [Jmxtrans](https://github.com/jmxtrans/jmxtrans-agent)：基于Java代理的JMX指标导出器。
+
 <h2 id="cloud-native">云原生</h2>
 
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。
-* [Micrometer](https://github.com/micrometer-metrics/micrometer)：最流行的可观察性工具的应用程序可观察性门面。
 * [Spring-Cloud-Kubernetes](https://github.com/spring-cloud/spring-cloud-kubernetes)：Kubernetes与Spring Cloud Discovery客户端、配置等集成。
 * [HummerRisk](https://github.com/chaitin/HummerRisk)：HummerRisk是云原生安全平台，包括混合云安全治理和云原生安全检测。
 * [SREWorks](https://github.com/alibaba/SREWorks)：云原生数智运维平台。
@@ -804,6 +826,7 @@
 * [blitz4j](https://github.com/Netflix/blitz4j)：用于固定异步日志记录的日志记录框架。
 * [kotlin-logging](https://github.com/oshai/kotlin-logging)：Kotlin的轻量级多平台日志框架。
 * [Jboss-logging](https://github.com/jboss-logging/jboss-logging)：JBoss开源的日志库。
+* [Timbermill](https://github.com/salesforce/Timbermill)：Timbermill是专为Elasticsearch构建的高级开源日志服务。
 * [scala-logging](https://github.com/lightbend-labs/scala-logging)：用于包装Slf4j的Scala的方便且高性能的日志记录库。
 * [logger](https://github.com/orhanobut/logger)：简单、功能强大的Android记录器。
 * [timber](https://github.com/JakeWharton/timber)：具有小型可扩展API的日志记录器。
