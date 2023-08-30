@@ -40,7 +40,9 @@
 - [GraphQL](#graphql)
 - [任务调度](#job)
 - [配置库](#configuration)
-- [业务流 & 规则引擎](#bpm)
+- [业务流程管理](#bpm)
+- [规则引擎](#ruleengine)
+- [低代码平台](#lowcode)
 - [响应式库](#reactive)
 - [缓存库](#cache)
 - [大数据框架](#bigdata)
@@ -48,6 +50,7 @@
 - [PDF库](#pdf)
 - [Excel库](#excel)
 - [CSV库](#csv)
+- [XML库](#xml)
 - [日期时间库](#datetime)
 - [HTTP客户端库](#httpclient)
 - [WebServer](#webserver)
@@ -124,6 +127,7 @@
 - [网络库](#network)
 - [状态机](#statemachine)
 - [二维码生成器](#qrcode)
+- [文件系统](#filesystem)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -168,6 +172,7 @@
 * [Resty](https://github.com/Dreampie/Resty)：极简的REST框架。
 * [RestExpress](https://github.com/RestExpress/RestExpress)：用于快速创建可扩展、Containerless、RESTful微服务的极简Java框架。
 * [Apache-CXF](https://github.com/apache/cxf)： Apache CXF是一个开源框架，提供了用于方便地构建和开发Web Service的可靠基础架构。
+* [Kilo](https://github.com/HTTP-RPC/Kilo)：Kilo是一个开源框架，用于在Java中创建和使用RESTful和类REST Web服务。
 
 <h2 id="microservice-framework">微服务框架</h2>
 
@@ -868,27 +873,58 @@
 <h2 id="bpm">业务流 & 规则引擎</h2>
 
 * [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和业务流程管理(BPM)平台，面向业务人员、开发人员和系统管理员。
-* [Drools](https://github.com/kiegroup/drools)：Drools是Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
-* [Camunda](https://github.com/camunda/camunda-bpm-platform)：使用BPMN和DMN实现工作流程和决策自动化的灵活框架。与Spring、Spring Boot、CDI集成。
 * [Flowable](https://github.com/flowable/flowable-engine)：为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和业务流程管理(BPM)平台。
-* [dolphinscheduler](https://github.com/apache/dolphinscheduler)：Apache DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程。
-* [jbpm](https://github.com/kiegroup/jbpm)：业务流程管理(BPM)套件。
-* [liteflow](https://github.com/dromara/liteflow)：dromara开源的轻量级、快速、稳定、可编程的基于组件的规则引擎/流程引擎。
-* [piper](https://github.com/runabol/piper)：分布式工作流引擎。
-* [zeebe](https://github.com/camunda/zeebe)：用于微服务编排的分布式工作流引擎。
-* [compileflow](https://github.com/alibaba/compileflow)：阿里开源的高性能流程编排引擎。
-* [bulbasaur](https://github.com/alibaba/bulbasaur)：阿里开源的可插拔的精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
+* [Camunda](https://github.com/camunda/camunda-bpm-platform)：使用BPMN和DMN实现工作流程和决策自动化的灵活框架。与Spring、Spring Boot、CDI集成。
+* [Apache Dolphinscheduler](https://github.com/apache/dolphinscheduler)：Apache DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程，由易观开源。
+* [jBPM](https://github.com/kiegroup/jbpm)：业务流程管理(BPM)套件。
+* [Piper](https://github.com/runabol/piper)：分布式工作流引擎。
+* [Turbo](https://github.com/didi/turbo)：一款轻量级流程引擎服务框架，可作为底层服务支持各类流程设计、低代码设计、工作流、服务编排等场景，由滴滴开源。
+* [Zeebe](https://github.com/camunda/zeebe)：用于微服务编排的分布式工作流引擎。
+* [Compileflow](https://github.com/alibaba/compileflow)：阿里开源的高性能流程编排引擎。
+* [Bulbasaur](https://github.com/alibaba/bulbasaur)：阿里开源的可插拔的精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
 * [SmartEngine](https://github.com/alibaba/SmartEngine)：阿里开源的一个轻量级的业务编排引擎。
-* [kestra](https://github.com/kestra-io/kestra)：Kestra是一个无限可扩展的编排和调度平台，可创建、运行、调度和监控数百万个复杂的管道。
-* [azkaban](https://github.com/azkaban/azkaban)：工作流程管理器。
-* [imixs-workflow](https://github.com/imixs/imixs-workflow)：用于业务流程管理的开源框架。
-* [easy-rules](https://github.com/j-easy/easy-rules)：简单的Java规则引擎。
-* [digdag](https://github.com/treasure-data/digdag)：工作负载自动化系统。
-* [cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
-* [openl-tablets](https://github.com/openl-tablets/openl-tablets)：业务规则管理系统。
-* [agile-bpm](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
+* [Kestra](https://github.com/kestra-io/kestra)：Kestra是一个无限可扩展的编排和调度平台，可创建、运行、调度和监控数百万个复杂的管道。
+* [Modelio](https://github.com/ModelioOpenSource/Modelio)：Modelio是一种建模解决方案，提供基于企业架构、软件开发和系统工程主要标准的广泛功能。
+* [Azkaban](https://github.com/azkaban/azkaban)：Azkaban是LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
+* [Imixs-Workflow](https://github.com/imixs/imixs-workflow)：用于业务流程管理的开源框架。
+* [Bonita](https://github.com/bonitasoft/bonita-engine)：部署、执行、管理使用Bonita studio或通过Engine API制作的基于流程的应用程序。
+* [Digdag](https://github.com/treasure-data/digdag)：工作负载自动化系统。
+* [Cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
+* [AgileBPM](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
 * [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎。
+
+<h2 id="ruleengine">规则引擎</h2>
+
+* [Drools](https://github.com/kiegroup/drools)：Drools是Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
+* [Easy Rules](https://github.com/j-easy/easy-rules)：简单的Java规则引擎。
+* [Liteflow](https://github.com/dromara/liteflow)：dromara开源的轻量级、快速、稳定、可编程的基于组件的规则引擎/流程引擎。
+* [Radar](https://github.com/wfh45678/radar)：一款基于Java语言，使用Spring Boot + MongoDB + Groovy + Es等框架搭建的轻量级实时风控引擎。
+* [RuleBook](https://github.com/deliveredtechnologies/rulebook)：纯Java、支持Lambda的轻量级规则引擎，具有简单直观的DSL。
+* [RuleEngine](https://github.com/Hale-Lee/RuleEngine)：非常好用的规则引擎，可以直接使用SQL语句定义规则，简化了编码的负荷，也可以使用XML、drl文件配置规则，还支持drools文件导入。
+* [Evrete](https://github.com/evrete/evrete)：Evrete是一个轻量级且直观的Java规则引擎。
+* [OpenL Tablets](https://github.com/openl-tablets/openl-tablets)：业务规则管理系统。
+* [Jess](http://alvarestech.com/temp/fuzzyjess/Jess60/Jess70b7/docs/index.html)：Jess是最早能够轻松与Java集成的规则引擎之一。
+* [dataframe-rules-engine](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
+
+<h2 id="lowcode">低代码平台</h2>
+
+* [JeeSite](https://gitee.com/thinkgem/jeesite4)：JeeSite快速开发平台，不仅仅是一个后台开发框架，更是一个企业级快速开发解决方案。
+* [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发基础框架，基于主流技术Spring Boot，配套代码生成平台、DevOps运维平台、CI/CD持续集成能力、在线API接口管理。
+* [maku-boot](https://gitee.com/makunet/maku-boot)：采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
+* [MateCloud](https://gitee.com/matevip/matecloud)：基于Spring Cloud Alibaba的微服务架构，支持多租户的低代码平台。
+* [JeecgBoot](https://github.com/jeecgboot/jeecg-boot)：JeecgBoot是一款基于代码生成器的低代码开发平台，前后端分离架构 Spring Boot 2.x、Spring Cloud、Ant Design & Vue、MybatisPlus、Shiro、JWT，支持微服务。
+* [diboot](https://github.com/dibo-software/diboot)：为开发人员打造的低代码开发平台。
+* [OPSLI](https://github.com/hiparker/opsli-boot)：OPSLI是一款低代码快速平台，零代码开发，致力于更简洁的后台管理系统。
+* [RESTHeart](https://github.com/SoftInstigate/restheart)：开源低代码API开发框架，具有现成的安全性和MongoDB API。
+* [Structr](https://github.com/structr/structr)：Structr是一个使用图数据库的集成低代码开发和运行时环境，使用Structr，可以比传统开发方法更快地构建企业Web应用程序。
+* [DBApi](https://github.com/freakchick/DBApi)：DBAPI是一款为开发者提供的低代码工具，只需在页面上编写SQL并配置参数即可自动生成HTTP API。
+* [Citrus](https://github.com/Yiuman/citrus)：低代码快速开发脚手架，灵活、高效。
+* [Convertigo](https://github.com/convertigo/convertigo)：Convertigo是一个开源低代码平台，包括用于全栈移动和Web应用程序开发的无代码应用程序构建器。
+* [Orienteer](https://github.com/OrienteerBAP/Orienteer)：业务应用程序平台-用于构建业务应用程序的无代码/低代码平台。
+* [Open-Lowcode](https://github.com/openlowcode/Open-Lowcode)：特定企业软件快速开发解决方案。
+* [Portofino](https://github.com/ManyDesigns/Portofino)：Portofino 5是下一代开源低代码Web框架，其目的是帮助开发人员使用REST API和Angular UI创建现代的、响应式的企业应用程序。
+* [Jianmu](https://github.com/jianmu-dev/jianmu)：健木是一款易于扩展的开源NoCode(Graphical)/LowCode(GitOps) DevOps工具。
 
 <h2 id="reactive">响应式库</h2>
 
@@ -1016,7 +1052,6 @@
 * [kontraktor](https://github.com/RuedigerMoeller/kontraktor)：由分布式Actor模型提供支持的异步远程通信的无样板且一致的抽象。
 * [TuGraph-analytics](https://github.com/TuGraph-family/tugraph-analytics)：TuGraph-analytics是一个基于图模型的分布式流式计算引擎，由蚂蚁开源。
 * [Stubby4j](https://github.com/azagniotov/stubby4j)：HTTP/1.1、HTTP/2和WebSocket存根服务器，用于在Docker和非容器化环境中存根分布式Web服务以进行契约测试。
-* [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统。
 * [Concourse](https://github.com/cinchapi/concourse)：用于跨时间交易、搜索和分析的分布式数据库仓库。
 * [Rewrite](https://github.com/openrewrite/rewrite)：OpenRewrite项目是一个海量源代码重构生态系统，由Netflix开源。
 * [XXL-DEEP](https://github.com/xuxueli/xxl-deep)：XXL-DEEP是一个分布式企业开发平台，提供整套开箱即用的基础模块。
@@ -1087,6 +1122,32 @@
 * [javacsv](http://sourceforge.net/projects/javacsv)：Java CSV是一个小型快速开源Java库，用于读写CSV和纯分隔文本文件。
 * [decs](https://github.com/diergo/decs)：Diergo Easy CSV Streamable：一个简单的Java 8 CSV解析器和生成器。
 * [csv-utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV(逗号分隔值)文本文件的实用程序。
+
+<h4 id="xml">XML库</h4>
+
+* [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：Flying Saucer是一个纯Java库，用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)。
+* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用MS Office(docx)或OpenOffice(odt)、LibreOffice (odt)创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
+* [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
+* [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
+* [BaseX](https://github.com/BaseXdb/basex)：BaseX是一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
+* [XmlToJson](https://github.com/smart-fun/XmlToJson)：用于将XML转换为JSON以及将JSON转换为XML的Android库。
+* [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
+* [jOOX](https://github.com/jOOQ/jOOX)：org.w3c.dom包的简单包装器，允许在需要DOM但过于冗长的情况下流式地创建和操作XML文档。
+* [TikXML](https://github.com/Tickaroo/tikxml)：适用于Java和Android的快速XML解析器。
+* [eXist-db](https://github.com/eXist-db/exist)：eXist-db是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
+* [Smooks](https://github.com/smooks/smooks)：用于构建基于XML和非XML片段的应用程序的可扩展数据集成Java框架。
+* [jaxb-tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
+* [JDOM](https://github.com/hunterhacker/jdom)：可以让Java操作XML变得容易。
+* [Aalto-XML](https://github.com/FasterXML/aalto-xml)：Aalto XML处理器是超高性能的下一代Stax XML处理器实现，实现了基本的Stax API(javax.xml.stream)和Stax2 API扩展(org.codehaus.woodstox.stax2)。
+* [Xembly](https://github.com/yegor256/xembly)：Xembly是一种类似于汇编的命令式编程语言，用于XML文档中的数据操作。
+* [Eclipse LemMinX](https://github.com/eclipse/lemminx)：LemMinX是语言服务器协议的XML语言特定实现，可以与支持该协议的任何编辑器一起使用，为XML语言提供良好的支持。
+* [GsonXml](https://github.com/stanfy/gson-xml)：GsonXml是一个小型库，允许使用Google Gson库进行XML反序列化。
+* [Woodstox](https://github.com/FasterXML/woodstox)：Stax XML API(javax.xml.stream)实现。
+* [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
+* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：SitemapGen4j是一个用Java生成XML站点地图的库。
+* [Jaxen](https://github.com/jaxen-xpath/jaxen)：用于Java的XPath引擎。
+* [Jettison](https://github.com/jettison-json/jettison)：Jettison是一个Java库，用于在StAX的帮助下将XML和JSON相互转换，它实现XMLStreamWriter和XMLStreamReader并支持Mapped和BadgerFish约定。
+* [Simple-XMl](http://simple.sourceforge.net)：Simple是一个高性能的Java XML序列化和配置框架。
 
 <h2 id="datetime">日期时间库</h2>
 
@@ -1188,6 +1249,7 @@
 * [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
 * [InChat](https://github.com/AwakenCN/InChat)：一个轻量级、高效、分布式的异步通信框架, 支持聊天和物联网。
 * [Camellia](https://github.com/netease-im/camellia)：Camellia是网易云信开发的服务器基础组件。
+* [Smack](https://github.com/igniterealtime/Smack)：用Java编写的模块化、可移植的开源XMPP客户端库，适用于Android和Java。
 
 <h2 id="jakartaee">Jakarta EE实现</h2>
 
@@ -1266,6 +1328,7 @@
 * [Fess](https://github.com/codelibs/fess)：Fess是非常强大且易于部署的企业搜索服务器。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：开源企业级搜索引擎软件。
 * [Loklak](https://github.com/loklak/loklak_server)：Loklak是一个服务器应用程序，能够从各种来源收集消息，包括Twitter。服务器包含搜索索引和点对点索引共享接口。
+* [Kooder](https://gitee.com/koode/kooder)：Kooder是一个开源的代码搜索工具，目标是为包括Gitee/GitLab/Gitea在内的代码托管系统提供自动的源码、仓库和Issue的搜索服务。
 
 <h4 id="graph-db">图数据库</h4>
 
@@ -1529,6 +1592,7 @@
 * [Sureness](https://github.com/dromara/sureness)：由dromara社区开源的一个简单高效的安全框架。
 * [java-jwt](https://github.com/auth0/java-jwt)：JWT的Java实现。
 * [ZAP](https://github.com/zaproxy/zaproxy)：可以在在开发和测试应用程序时自动查找Web应用程序中的安全漏洞，由专门的国际志愿者团队积极维护。
+* [Kisso](https://gitee.com/baomidou/kisso)：Java基于Cookie的SSO中间件低代码组件库。
 * [jjwt](https://github.com/jwtk/jjwt)：适用于Java和Android的JWT库。
 * [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
 * [nimbus-jose-jwt](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
@@ -2746,3 +2810,12 @@
 * [visual-qr-code](https://gitee.com/boat824109722/visual-qr-code)：可以创建出设置了虚拟背景图片的二维码。
 * [QRext4j](https://gitee.com/BYSRepo/qrext4j)：一个简单易用的二维码生成工具，可自定义二维码颜色和码眼样式。
 * [FiwanQRCode](https://gitee.com/frogchou/FiwanQRCode)：飞网开发的二维码生成工具。
+
+<h2 id="filesystem">文件系统</h2>
+
+* [Jimfs](https://github.com/google/jimfs)：Jimfs是Java 8及更高版本的内存文件系统，实现了java.nio.file抽象文件系统API。
+* [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统。
+* [memoryfilesystem](https://github.com/marschall/memoryfilesystem)：JSR-203文件系统的内存实现。
+* [RubiX](https://github.com/qubole/rubix)：针对列格式和对象存储优化的缓存文件系统。
+* [ADFS](https://github.com/taobao/ADFS)：ADFS(阿里分布式文件系统)是Hadoop的演进版本，提供高可用性、自动重启等特性。
+* [TngouFS](https://gitee.com/397713572/tngouFS)：天狗文件系统，主要用于图片、视频、文档等相关文件的管理。
