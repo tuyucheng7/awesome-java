@@ -72,7 +72,11 @@
 - [本体库](#ontology)
 - [生物信息学](#bioinformatics)
 - [并发编程](#concurrency)
-- [安全](#security)
+- [安全库](#security-lib)
+- [身份认证](#authentication)
+- [JWT](#jwt)
+- [OAuth](#oauth)
+- [加密](#encryption)
 - [事务](#transaction)
 - [模板引擎](#template-engine)
 - [JSON库](#json)
@@ -128,6 +132,8 @@
 - [状态机](#statemachine)
 - [二维码生成器](#qrcode)
 - [文件系统](#filesystem)
+- [报表引擎](#report)
+- [部署工具](#deploy)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -158,6 +164,7 @@
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
+* [CUBA](https://github.com/cuba-platform/cuba)：CUBA平台是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 
 <h2 id="rest-framework">REST框架</h2>
 
@@ -458,6 +465,7 @@
 * [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
+* [Cucumber-Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
 
 <h2 id="ide">Java IDE</h2>
 
@@ -870,7 +878,7 @@
 * [Smallrye-Config](https://github.com/smallrye/smallrye-config)：Smallrye提供的配置库。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
 
-<h2 id="bpm">业务流 & 规则引擎</h2>
+<h2 id="bpm">业务流</h2>
 
 * [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和业务流程管理(BPM)平台，面向业务人员、开发人员和系统管理员。
 * [Flowable](https://github.com/flowable/flowable-engine)：为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和业务流程管理(BPM)平台。
@@ -893,6 +901,7 @@
 * [AgileBPM](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
 * [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎。
+* [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎。
 
 <h2 id="ruleengine">规则引擎</h2>
 
@@ -1031,6 +1040,7 @@
 * [Genie](https://github.com/Netflix/genie)：分布式大数据编排服务，由Netflix开源。
 * [Venice](https://github.com/linkedin/venice)：Venice是一个衍生的数据存储平台。
 * [DataWave](https://github.com/NationalSecurityAgency/datawave)：DataWave是一个基于Java的摄取和查询框架，它利用Apache Accumulo提供对数据的快速、安全访问，由美国国家安全局开源。
+* [Taier](https://github.com/DTStack/Taier)：太二是一个提交、调度、运维、指标信息展示的大数据开发平台。
 
 <h2 id="distributed">分布式组件</h2>
 
@@ -1084,7 +1094,6 @@
 * [PDFLayoutTextStripper](https://github.com/JonathanLink/PDFLayoutTextStripper)：将PDF文件转换为文本文件，同时保留原始PDF的布局。
 * [Apache FOP](https://xmlgraphics.apache.org/fop/)：从XSL-FO创建PDF的库。
 * [pdfcompare](https://github.com/red6/pdfcompare)：一个比较两个PDF文件的简单Java库。
-* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：一个复杂的报表引擎。
 
 <h4 id="excel">Excel库</h4>
 
@@ -1126,7 +1135,7 @@
 <h4 id="xml">XML库</h4>
 
 * [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：Flying Saucer是一个纯Java库，用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)。
-* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用MS Office(docx)或OpenOffice(odt)、LibreOffice (odt)创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
+* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用MS Office(docx)或OpenOffice(odt)、LibreOffice(odt)创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
 * [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
 * [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
 * [BaseX](https://github.com/BaseXdb/basex)：BaseX是一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
@@ -1184,6 +1193,7 @@
 + [jodd-http](https://github.com/oblac/jodd-http)：简单的Java HTTP客户端。
 + [esa-restclient](https://github.com/esastack/esa-restclient)：一个基于Netty的异步事件驱动的HTTP客户端。
 + [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
++ [java-http](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 
 <h2 id="webserver">WebServer</h2>
 
@@ -1384,6 +1394,7 @@
 * [ElephantDB](https://github.com/nathanmarz/elephantdb)：ElephantDB是一个专门从Hadoop导出键/值数据的数据库。
 * [Sensei](https://github.com/LinkedInAttic/sensei)：Sensei是一个分布式、弹性的实时可搜索数据库，由LinkedIn开源。
 * [ArcadeDB](https://github.com/ArcadeData/arcadedb)：一种支持SQL、Cypher、Gremlin、HTTP/JSON、MongoDB和Redis的多模型DBMS。
+* [Heroic](https://github.com/spotify/heroic)：基于Bigtable、Cassandra和Elasticsearch的可扩展时序数据库，由Spotify开源。
 
 <h2 id="db-conn">数据库连接池</h2>
 
@@ -1583,49 +1594,108 @@
 
 <h2 id="security">安全</h2>
 
-* [Spring Security](https://github.com/spring-projects/spring-security)：Spring生态提供的安全框架。
-* [Apache Shiro](https://github.com/apache/shiro)：Apache下开源的功能强大且易于使用的Java安全框架，可以执行身份验证、授权、加密和会话管理。
-* [Tink](https://github.com/google/tink)：Tink是一个多语言、跨平台、开源库，提供安全、易于正确使用且难以误用的加密API，由Google开源。
-* [Keycloak](https://github.com/keycloak/keycloak)：Keycloak是适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat基金会开源。
-* [Pac4j](https://github.com/pac4j/pac4j)：简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
-* [Sa-Token](https://github.com/dromara/sa-token)：由dromara社区开源的轻量级Java权限认证框架。
-* [Sureness](https://github.com/dromara/sureness)：由dromara社区开源的一个简单高效的安全框架。
-* [java-jwt](https://github.com/auth0/java-jwt)：JWT的Java实现。
+这里列出了安全相关的库、框架、组件，例如JWT、OAuth和CAS。
+
+<h4 id="security-lib">安全库</h4>
+
 * [ZAP](https://github.com/zaproxy/zaproxy)：可以在在开发和测试应用程序时自动查找Web应用程序中的安全漏洞，由专门的国际志愿者团队积极维护。
 * [Kisso](https://gitee.com/baomidou/kisso)：Java基于Cookie的SSO中间件低代码组件库。
-* [jjwt](https://github.com/jwtk/jjwt)：适用于Java和Android的JWT库。
-* [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
-* [nimbus-jose-jwt](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
-* [fusionauth-jwt](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库。
-* [MaxKey](https://github.com/dromara/MaxKey)：业界领先的IAM-IDaas身份管理和认证产品,支持OAuth2.x、OIDC、SAML2.0、JWT、CAS、SCIM等SSO标准协议，由dromara社区开源。
 * [JustAuth](https://github.com/justauth/JustAuth)：第三方授权登录的工具类库。
-* [UAA](https://github.com/cloudfoundry/uaa)：CloudFoundry用户帐户和身份验证(UAA)服务器。
-* [Athenz](https://github.com/AthenZ/athenz)：Athenz是一个开源平台，用于动态基础设施中基于X.509证书的服务身份验证和细粒度访问控制。
-* [Apereo CAS](https://github.com/apereo/cas)：集中认证服务平台，可用于企业内部单点登录系统。
-* [JOAuth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库。
 * [Passay](https://github.com/vt-middleware/passay)：Java的密码策略实现。
-* [bc-java](https://github.com/bcgit/bc-java)：Bouncy Castle Java发行版。
-* [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个允许开发人员以最小的努力向项目添加基本加密功能的Java库。
-* [Cryptomator](https://github.com/cryptomator/cryptomator)：对云中文件进行多平台透明客户端加密。
+* [Tsunami](https://github.com/google/tsunami-security-scanner)：Tsunami是一款通用网络安全扫描器，具有可扩展的插件系统，可高置信度地检测高严重性漏洞，由谷歌开源。
 * [PicketLink](https://github.com/picketlink/picketlink)：PicketLink是一个用于保护Java EE应用程序的安全框架。
 * [DependencyCheck](https://github.com/jeremylong/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
-* [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
+* [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
 * [okta](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
 * [auth0-java](https://github.com/auth0/auth0-java)：Auth0平台的Java客户端库。
-* [AppAuth](https://github.com/openid/AppAuth-Android)：用于与OAuth 2.0和OIDC提供商进行通信的Android客户端SDK。
 * [jCasbin](https://github.com/casbin/jcasbin)：Java中支持ACL、RBAC、ABAC等访问控制模型的授权库。
 * [Keywhiz](https://github.com/square/keywhiz)：Keywhiz是一个用于分发和管理密钥的系统。
 * [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz)：密码强度估计器。
-* [OACC](https://github.com/acciente/oacc-core)：是一个功能齐全的API，可强制执行和管理应用程序的身份验证和授权需求。
-* [XXL-SSO](https://github.com/xuxueli/xxl-sso)：分布式单点登录框架。
-* [smart-sso](https://github.com/a466350665/smart-sso)：SpringBoot SSO单点登录，OAuth2实现，支持App登录、分布式。
-* [oxAuth](https://github.com/GluuFederation/oxAuth)：OAuth 2.0服务器和客户端；OIDC提供商(OP)和UMA授权服务器(AS)。
+* [burpgpt](https://github.com/aress31/burpgpt)：Burp Suite扩展集成了OpenAI的GPT，可以执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
 * [Janssen](https://github.com/JanssenProject/jans)：数字身份基础设施软件协作中心。
-* [Vertx-Auth](https://github.com/eclipse-vertx/vertx-auth)：包含Vert.x和常见身份验证接口的身份验证实现。
-* [jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件(JWS、JWE和JWK)的开源实现。
-* [java-cas-client](https://github.com/apereo/java-cas-client)：Apereo Java CAS客户端库。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
-* [joauth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库。
+* [two-factor-auth](https://github.com/j256/two-factor-auth)：2因素身份验证(2FA)Java代码，使用基于时间的一次性密码(TOTP)算法。
+* [Microsoft Authentication Library](https://github.com/AzureAD/microsoft-authentication-library-for-java)：MSAL4J使应用程序能够与Microsoft身份平台集成。
+* [Firebase Admin SDK](https://github.com/firebase/firebase-admin-java)：Firebase Admin提供的Java SDK。
+
+<h4 id="authentication">身份认证</h4>
+
+* [Spring Security](https://github.com/spring-projects/spring-security)：Spring生态提供的安全框架。
+* [Apache Shiro](https://github.com/apache/shiro)：Apache下开源的功能强大且易于使用的Java安全框架，可以执行身份验证、授权、加密和会话管理。
+* [Apereo CAS](https://github.com/apereo/cas)：集中认证服务平台，可用于企业内部单点登录系统。
+* [Google Authenticator](https://github.com/google/google-authenticator)：Google Authenticator项目包括针对多个移动平台的一次性密码生成器的实现。
+* [andOTP](https://github.com/andOTP/andOTP)：适用于Android的开源双因素身份验证。
+* [Soter](https://github.com/Tencent/soter)：腾讯主导的Android下安全、快速的生物识别认证标准及平台。
+* [XXL-SSO](https://github.com/xuxueli/xxl-sso)：分布式单点登录框架。
+* [GoogleAuth](https://github.com/wstrange/GoogleAuth)：GoogleAuth是一个Java服务器库，它实现RFC 6238中指定的基于时间的一次性密码(TOTP)算法。
+* [Sa-Token](https://github.com/dromara/sa-token)：由dromara社区开源的轻量级Java权限认证框架。
+* [java-cas-client](https://github.com/apereo/java-cas-client)：Apereo Java CAS客户端库。
+* [Athenz](https://github.com/AthenZ/athenz)：Athenz是一个开源平台，用于动态基础设施中基于X.509证书的服务身份验证和细粒度访问控制。
+* [Sureness](https://github.com/dromara/sureness)：由dromara社区开源的一个简单高效的安全框架。
+* [WSO2 Identity Server](https://github.com/wso2/product-is)：WSO2 Identity Server是一种开源身份和访问管理解决方案，跨企业和云服务环境联合和管理身份。它支持多种身份验证协议，例如SAML 2.0 Web SSO、OpenID、OAuth 2.0、OpenID Connect和WS-Federation Passive。
+* [Android-Goldfinger](https://github.com/infinum/Android-Goldfinger)：用于简化生物识别身份验证实施的Android库。
+* [Akto](https://github.com/akto-api-security/akto)：即时、开源API安全、API发现、自动化业务逻辑测试和运行时检测。
+* [UAF](https://github.com/eBay/UAF)：通用认证框架，由eBay开源。
+* [SocialAuth](https://github.com/3pillarlabs/socialauth)：用于在Google、Yahoo、Facebook、Twitter、LinkedIn和许多其他提供商上进行身份验证、获取个人资料、联系人和更新状态的Java库。
+* [Apache Syncope](https://github.com/apache/syncope)：Apache Syncope是一个用于管理企业环境中的数字身份的开源系统，采用Java EE技术实现。
+* [Vertx-Auth](https://github.com/eclipse-vertx/vertx-auth)：包含Vert.x和常见身份验证接口的身份验证实现。
+* [OACC](https://github.com/acciente/oacc-core)：是一个功能齐全的API，可强制执行和管理应用程序的身份验证和授权需求。
+* [Waffle](https://github.com/Waffle/waffle)：Waffle是一个本机Windows身份验证框架，执行与Windows身份验证相关的功能，支持Negotiate、NTLM和Kerberos。
+* [WebAuthn4J](https://github.com/webauthn4j/webauthn4j)：用于WebAuthn和Apple App Attest服务器端验证的可移植Java库。
+
+<h4 id="jwt">JWT库</h4>
+
+* [JJWT](https://github.com/jwtk/jjwt)：适用于Java和Android的JWT库。
+* [java-jwt](https://github.com/auth0/java-jwt)：JWT的Java实现。
+* [JWT-Starter](https://github.com/bfwg/springboot-jwt-starter)：适用于无状态和基于令牌的身份验证应用程序的Spring Boot JWT Starter套件。
+* [jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件(JWS、JWE和JWK)的开源实现。
+* [Nimbus-JOSE-JWT](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
+* [FusionAuth-JWT](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库。
+* [Vert.x Auth](https://github.com/vert-x3/vertx-auth)：Vertx框架提供JWT集成的库。
+* [Inverno](https://github.com/inverno-io/inverno-mods/tree/master/inverno-security-jose)：Inverno框架提供JWT库，提供JSON对象签名和加密RFC规范的完整实现。
+* [JWT](https://github.com/PhilJay/JWT)：轻量级Kotlin JWT实现。
+
+<h4 id="oauth">OAuth库</h4>
+
+* [SuperTokens](https://github.com/supertokens/supertokens-core)：Auth0/Firebase Auth/AWS Cognito的开源替代品。
+* [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
+* [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server)：Spring生态中提供的OAuth 2.1授权服务器支持。
+* [AppAuth](https://github.com/openid/AppAuth-Android)：用于与OAuth 2.0和OIDC提供商进行通信的Android客户端SDK。
+* [Pac4j](https://github.com/pac4j/pac4j)：简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
+* [UAA](https://github.com/cloudfoundry/uaa)：CloudFoundry用户帐户和身份验证(UAA)服务器。
+* [MaxKey](https://github.com/dromara/MaxKey)：业界领先的IAM-IDaas身份管理和认证产品,支持OAuth 2.x、OIDC、SAML 2.0、JWT、CAS、SCIM等SSO标准协议，由dromara社区开源。
+* [PlayAuthenticate](https://github.com/joscha/play-authenticate)：Play框架2.x(Java)的身份验证插件。
+* [OAuth-Apis](https://github.com/OAuth-Apis/apis)：该项目提供了一个OAuth 2.0授权服务器，可用于配置API身份验证，目前不再维护。
+* [Google OAuth Client](https://github.com/googleapis/google-oauth-java-client)：由Google编写的一个功能强大且易于使用的Java库，适用于OAuth 1.0和OAuth 2.0授权标准。
+* [oxAuth](https://github.com/GluuFederation/oxAuth)：OAuth 2.0服务器和客户端；OIDC提供商(OP)和UMA授权服务器(AS)。
+* [Java Authorization Server](https://github.com/authlete/java-oauth-server)：这是Java中的授权服务器实现，支持OAuth 2.0和OpenID Connect。
+* [JOAuth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库，由Twitter开源。
+* [MITREid-Connect](https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server)：该服务器可用作OpenID Connect身份提供商以及通用OAuth 2.0授权服务器。
+* [oauth2-essentials](https://github.com/dmfs/oauth2-essentials)：基于http-client-essentials的OAuth2客户端实现。
+* [Tokens](https://github.com/zalando/tokens)：Tokens是一个用于验证和存储OAuth 2.0服务访问令牌的Java库，它具有弹性、可配置且经过生产测试，并且适用于所有JVM语言。
+* [Keycloak](https://github.com/keycloak/keycloak)：Keycloak是适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat基金会开源。
+* [Smart-SSO](https://github.com/a466350665/smart-sso)：SpringBoot SSO单点登录，OAuth2实现，支持App登录、分布式。
+* [JustAuthPlus](https://github.com/fujieid/jap)：一款开源的登录认证中间件，基于模块化设计，为所有需要登录认证的Web应用提供一套标准的技术解决方案。
+
+<h4 id="encryption">加密库</h4>
+
+* [Tink](https://github.com/google/tink)：Tink是一个多语言、跨平台、开源库，提供安全、易于正确使用且难以误用的加密API，由Google开源。
+* [bc-java](https://github.com/bcgit/bc-java)：Bouncy Castle Java发行版。
+* [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个允许开发人员以最小的努力向项目添加基本加密功能的Java库。
+* [Cryptomator](https://github.com/cryptomator/cryptomator)：对云中文件进行多平台透明客户端加密。
+* [Hawk](https://github.com/orhanobut/hawk)：适用于Android的安全、简单的键值存储。
+* [Wycheproof](https://github.com/google/wycheproof)：Wycheproof项目针对已知攻击测试加密库。
+* [Bt](https://github.com/atomashpolskiy/bt)：BitTorrent库和客户端，具有DHT、磁力链接、加密等功能。
+* [Peergos](https://github.com/Peergos/Peergos)：P2P、安全文件存储、社交网络和应用程序协议。
+* [I2P](https://github.com/i2p/i2p.i2p)：I2P是一个匿名网络，提供一个简单的层，身份敏感的应用程序可以使用它来安全地通信。
+* [AndroidWM](https://github.com/huangyz0918/AndroidWM)：一个支持隐写术的Android图像水印库。
+* [Cipher.so](https://github.com/linisme/Cipher.so)：将密码等安全数据加密到本机.so库中的简单方法。
+* [Conscrypt](https://github.com/google/conscrypt)：Conscrypt是一个Java安全提供程序，它实现了部分Java加密扩展和Java安全套接字扩展，由谷歌开源。
+* [android-storage](https://github.com/sromku/android-storage)：使用非常简单的API在内部或外部磁盘空间上创建、读取、删除、附加、加密文件等的库。
+* [Whorlwind](https://github.com/square/whorlwind)：Android指纹API的响应式包装器，使用指纹处理敏感数据的加密/解密。
+* [Encrypt](https://github.com/GcsSloop/encrypt)：适用于Java和Android的加解密工具库。
+* [java-aes-crypto](https://github.com/tozny/java-aes-crypto)：一个简单的Android库，用于加密和解密字符串，旨在避免大多数此类类所遭受的经典错误。
+* [EncryptedPreferences](https://github.com/PDDStudio/EncryptedPreferences)：适用于Java和Android的AES-256加密SharedPreferences。
 
 <h2 id="transaction">事务</h2>
 
@@ -2034,6 +2104,7 @@
 * [Choreo-Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、开源且以开发人员为中心的API网关。
 * [Liiklus](https://github.com/bsideup/liiklus)：基于事件的系统的响应式(RSocket/gRPC)网关。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
+* [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、开源且以开发人员为中心的API网关代理。
 
 <h2 id="sdk">SDK</h2>
 
@@ -2696,7 +2767,6 @@
 * [ReLinker](https://github.com/KeepSafe/ReLinker)：适用于Android的强大原生库加载器。
 * [Spring Native](https://github.com/spring-attic/spring-native)：Spring Native提供了使用GraalVM本机映像编译器将Spring应用程序编译为本机可执行文件的beta支持。
 * [JavaCPP-Presets](https://github.com/bytedeco/javacpp-presets)：JavaCPP-Presets模块包含广泛使用的C/C++库的Java配置和接口类。
-* [Cipher.so](https://github.com/linisme/Cipher.so)：将密码等安全数据加密到本机.so库中的简单方法。
 * [Chronicle-Core](https://github.com/OpenHFT/Chronicle-Core)：Chronicle-Core是一个先进的低级库，为开发人员提供了与操作系统交互、管理内存、处理资源等功能强大的工具。
 * [JNAerator](https://github.com/nativelibs4java/JNAerator)：JNAerator为C、C++和Objective-C库生成完整的本机绑定，针对BridJ、JNA或Node.js运行时。
 * [Aparapi](https://github.com/Syncleus/aparapi)：Aparapi允许开发人员通过在运行时动态地将Java字节代码转换为OpenCL内核来编写能够直接在显卡GPU上执行的本机Java代码。
@@ -2756,12 +2826,9 @@
 
 <h2 id="network">网络库</h2>
 
-* [Tsunami](https://github.com/google/tsunami-security-scanner)：Tsunami是一款通用网络安全扫描器，具有可扩展的插件系统，可高置信度地检测高严重性漏洞。
 * [IPScan](https://github.com/angryip/ipscan)：快速且友好的网络扫描器。
 * [t-io](https://gitee.com/tywo45/t-io)：t-io是基于java开发的一款高性能网络编程框架
 * [Network-Connection](https://github.com/facebookarchive/network-connection-class)：在应用程序中监听当前的网络流量并对网络质量进行分类。
-* [I2P](https://github.com/i2p/i2p.i2p)：I2P是一个匿名网络，提供一个简单的层，身份敏感的应用程序可以使用它来安全地通信。
-* [Peergos](https://github.com/Peergos/Peergos)：P2P、安全文件存储、社交网络和应用程序协议。
 * [nzyme](https://github.com/lennartkoopmann/nzyme)：网络防御系统。
 * [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是唯一支持从传统“棕地”网络向SDN“绿地”网络过渡的SDN控制器平台。
 * [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
@@ -2819,3 +2886,38 @@
 * [RubiX](https://github.com/qubole/rubix)：针对列格式和对象存储优化的缓存文件系统。
 * [ADFS](https://github.com/taobao/ADFS)：ADFS(阿里分布式文件系统)是Hadoop的演进版本，提供高可用性、自动重启等特性。
 * [TngouFS](https://gitee.com/397713572/tngouFS)：天狗文件系统，主要用于图片、视频、文档等相关文件的管理。
+
+<h2 id="report">报表引擎</h2>
+
+* [JimuReport](https://github.com/jeecgboot/JimuReport)：一款免费的数据可视化报表，含报表和大屏设计，功能涵盖数据报表、打印设计、图表报表、大屏设计等！
+* [UReport2](https://github.com/youseries/ureport)：UReport2是一个基于Spring架构的高性能纯Java报表引擎，可以通过迭代单元格来准备复杂的中式报表和报表。
+* [EasyReport](https://github.com/xianrendzw/EasyReport)：EasyReport是一个简单易用的Web报表工具，它的主要功能是把SQL语句查询出的行列结构转换成HTML表格，并支持表格的跨行与跨列。
+* [Telescope](https://github.com/mattprecious/telescope)：一个简单的工具，可以在你的应用程序中轻松捕获错误报告。
+* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：一个复杂的报表引擎。
+* [Eclipse BIRT](https://github.com/eclipse-birt/birt)：开源报告和数据可视化项目。
+* [Yarg](https://github.com/cuba-platform/yarg)：YARG是一个Java开源报告库，由Haulmont开发。
+* [Pentaho](https://github.com/pentaho/pentaho-reporting)：Pentaho Reporting是用于生成报告的Java类库，它使用来自多个来源的数据提供灵活的报告和打印功能，并支持输出到显示设备、打印机、PDF、Excel、XHTML、纯文本、XML和CSV文件。
+* [DynamicJasper](https://github.com/intive-FDV/DynamicJasper)：DynamicJasper是一个隐藏JasperReports复杂性的API，它可以帮助开发人员在设计简单/中等复杂性报表时节省时间，自动生成报表元素的布局。
+* [ExtentReports](https://github.com/extent-framework/extentreports-java)：使用ExtentReports库，可以为你的测试创建美观、交互式且详细的报告。
+* [CBoard](https://gitee.com/tuiqiao/CBoard)：由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
+* [FineReport](https://www.finereport.com/en/)：一款商业的BI报告和仪表板软件。
+* [Logi Report](https://devnet.logianalytics.com/hc/en-us/categories/1500001227442-Logi-Report)：Logi Report被设计为作为独立服务器执行，但可以将其集成到现有WAR项目中。
+* [Report Mill](http://www.reportmill.com/product/)：ReportMill可以平滑地嵌入到每个Java应用程序中，此外，与BIRT一样它非常灵活：可以在运行时自定义报告。
+* [iReport](https://community.jaspersoft.com/project/ireport-designer)：这是一个开源报表设计器，对于JasperReports库和JasperReports服务器免费。
+* [OpenReports](https://sourceforge.net/projects/oreports/)：基于Web的报告解决方案，允许用户通过浏览器动态查看XLS、HTML或PDF格式创建的报告。
+* [AJ-Report](https://gitee.com/anji-plus/report)：AJ-Report是一个完全开源，拖拽编辑的可视化设计工具。
+* [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单 + 自定义流程 + 自定义报表。
+* [R3-Query](https://gitee.com/aagagagag/R3-Query)：整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
+
+<h2 id="deploy">部署工具</h2>
+
+* [SOFAArk](https://github.com/sofastack/sofa-ark)：SOFAArk是一款基于Java实现的动态热部署和轻量级类隔离框架，由蚂蚁集团开源贡献，主要提供应用模块的动态热部署和类隔离能力。
+* [Capsule](https://github.com/puniverse/capsule)：Capsule是JVM应用程序的打包和部署工具。
+* [ShinyProxy](https://github.com/openanalytics/shinyproxy)：用于Shiny和数据科学应用程序的开源企业部署。
+* [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
+* [Storm-yarn](https://github.com/yahoo/storm-yarn)：Storm-yarn使Storm集群能够部署到Hadoop YARN管理的机器中。
+* [Raigad](https://github.com/Netflix/Raigad)：用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程。
+* [jDeploy](https://github.com/shannah/jdeploy)：jdeploy github action允许你在Github工作流中为Java项目生成本机桌面安装程序。
+* [Obevo](https://github.com/goldmansachs/obevo)：Obevo是一种数据库部署工具，可处理企业规模的架构和复杂性。
+* [Stork](https://github.com/fizzed/stork)：Stork是一个轻量级实用程序的集合，用于通过填补Java构建系统和执行之间的空白来优化“构建后”工作流程。
+* [Linux Deploy](https://github.com/meefik/linuxdeploy)：可在Android设备上快速轻松地安装操作系统(OS) GNU/Linux。
