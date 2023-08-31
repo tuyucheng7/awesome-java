@@ -57,6 +57,7 @@
 - [日期时间库](#datetime)
 - [HTTP客户端库](#httpclient)
 - [WebServer](#webserver)
+- [WebSocket](#websocket)
 - [游戏服务器](#gameserver)
 - [IM服务器](#im)
 - [Jakarta EE实现](#jakartaee)
@@ -208,6 +209,7 @@
 * [Ktor](https://github.com/ktorio/ktor)：Ktor是一个Kotlin编写的用于创建微服务、Web应用程序等的异步框架。
 * [MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展。
 * [ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个软件开发套件，用于快速开发Java微服务。
+* [Kotless](https://github.com/JetBrains/kotless)：Kotlin开发的Serverless框架，由JetBrains开源。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：JVM上的演化消息驱动微服务框架。
 * [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架。
 * [Armeria](https://github.com/line/armeria)：适用于任何情况的首选微服务框架，来自Netty创始人。你可以利用你喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Stream、Spring Boot和Dropwizard。
@@ -1246,30 +1248,30 @@
 
 <h2 id="httpclient">HTTP客户端库</h2>
 
-+ [Apache components-core](https://github.com/apache/httpcomponents-core)：Apache开源的HTTP客户端库。
-+ [Apache components-client](https://github.com/apache/httpcomponents-client)：Apache开源的HTTP客户端库，相比components-core提供更流式的API。
-+ [HttpAsyncClient](https://github.com/apache/httpasyncclient)：Apache开源的异步HTTP客户端库。
-+ [Feign](https://github.com/OpenFeign/feign)：Feign是一个Java到HTTP客户端绑定器，其灵感来自于Retrofit、JAXRS-2.0和WebSocket。
-+ [OkHttp](https://github.com/square/okhttp)：Square为JVM、Android和GraalVM精心设计的HTTP客户端。
-+ [Retrofit](https://github.com/square/retrofit)：适用于Android和JVM的类型安全HTTP客户端。
-+ [async-http-client](https://github.com/AsyncHttpClient/async-http-client)：适用于Java的异步HTTP和WebSocket客户端库。
-+ [android-async-http](https://github.com/android-async-http/android-async-http)：适用于Android的异步、基于回调的HTTP客户端，构建于Apache的HttpClient库之上。
-+ [google-http-java-client](https://github.com/googleapis/google-http-java-client)：Google开发的适用于Java的HTTP客户端库。
-+ [Httpclientutil](https://github.com/Arronlong/httpclientutil)：基于HttpClient 4.4.1封装的工具类。
-+ [rest-client](https://github.com/wisdom-projects/rest-client)：自动化测试REST API的工具，可以生成精美的测试报告和REST API文档。
-+ [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
-+ [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：基于HTTP协议，封装了OkHttp的网络请求框架，比Retrofit更简单易用。
-+ [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
-+ [chuck](https://github.com/jgilfelt/chuck)：适用于Android OkHttp客户端的应用内HTTP检查器。
-+ [bilibili-android-client](https://github.com/HotBitmapGG/bilibili-android-client)：适用于Android的非官方BiliBili客户端。
-+ [Unirest](https://github.com/Kong/unirest-java)：简化的轻量级HTTP客户端库。
-+ [http-kit](https://github.com/http-kit/http-kit)：适用于Clojure的简单、高性能、事件驱动的HTTP客户端+服务器。
-+ [Forest](https://github.com/dromara/forest)：由dromara社区开源的声明式HTTP客户端框架。
-+ [jetty-reactive-httpclient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应流包装器。
-+ [jodd-http](https://github.com/oblac/jodd-http)：简单的Java HTTP客户端。
-+ [esa-restclient](https://github.com/esastack/esa-restclient)：一个基于Netty的异步事件驱动的HTTP客户端。
-+ [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
-+ [java-http](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
+* [Apache components-core](https://github.com/apache/httpcomponents-core)：Apache开源的HTTP客户端库。
+* [Apache components-client](https://github.com/apache/httpcomponents-client)：Apache开源的HTTP客户端库，相比components-core提供更流式的API。
+* [HttpAsyncClient](https://github.com/apache/httpasyncclient)：Apache开源的异步HTTP客户端库。
+* [Feign](https://github.com/OpenFeign/feign)：Feign是一个Java到HTTP客户端绑定器，其灵感来自于Retrofit、JAXRS-2.0和WebSocket。
+* [OkHttp](https://github.com/square/okhttp)：Square为JVM、Android和GraalVM精心设计的HTTP客户端。
+* [Retrofit](https://github.com/square/retrofit)：适用于Android和JVM的类型安全HTTP客户端。
+* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：适用于Java的异步HTTP和WebSocket客户端库。
+* [android-async-http](https://github.com/android-async-http/android-async-http)：适用于Android的异步、基于回调的HTTP客户端，构建于Apache的HttpClient库之上。
+* [google-http-java-client](https://github.com/googleapis/google-http-java-client)：Google开发的适用于Java的HTTP客户端库。
+* [Httpclientutil](https://github.com/Arronlong/httpclientutil)：基于HttpClient 4.4.1封装的工具类。
+* [rest-client](https://github.com/wisdom-projects/rest-client)：自动化测试REST API的工具，可以生成精美的测试报告和REST API文档。
+* [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
+* [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：基于HTTP协议，封装了OkHttp的网络请求框架，比Retrofit更简单易用。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
+* [chuck](https://github.com/jgilfelt/chuck)：适用于Android OkHttp客户端的应用内HTTP检查器。
+* [bilibili-android-client](https://github.com/HotBitmapGG/bilibili-android-client)：适用于Android的非官方BiliBili客户端。
+* [Unirest](https://github.com/Kong/unirest-java)：简化的轻量级HTTP客户端库。
+* [http-kit](https://github.com/http-kit/http-kit)：适用于Clojure的简单、高性能、事件驱动的HTTP客户端+服务器。
+* [Forest](https://github.com/dromara/forest)：由dromara社区开源的声明式HTTP客户端框架。
+* [jetty-reactive-httpclient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应流包装器。
+* [jodd-http](https://github.com/oblac/jodd-http)：简单的Java HTTP客户端。
+* [esa-restclient](https://github.com/esastack/esa-restclient)：一个基于Netty的异步事件驱动的HTTP客户端。
+* [sslcontext-kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
+* [java-http](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 
 <h2 id="webserver">WebServer</h2>
 
@@ -1289,7 +1291,6 @@
 * [hella](https://github.com/bbeaupain/hella-http)：适用于Java的Hella快速HTTP服务器库。
 * [microhttp](https://github.com/ebarlas/microhttp)：快速、可扩展、独立、单线程Java Web服务器。
 * [Apache MINA](https://github.com/apache/mina)：Apache MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
-* [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)：用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [ZIO](https://github.com/zio/zio)：一个类型安全、可组合的库，用于Scala中的异步和并发编程。
 * [zfoo](https://github.com/zfoo-project/zfoo)：极致性能的Java服务器框架，RPC，游戏服务器框架，Web应用服务器框架。
 * [Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，并提供扩展框架组件。
@@ -1302,9 +1303,26 @@
 * [rapidoid](https://github.com/rapidoid/rapidoid)：极其快速、简单且功能强大的Java Web框架和HTTP服务器。
 * [restcommander](https://github.com/eBay/restcommander)：快速并行异步HTTP客户端即服务，用于监控和管理10000个Web服务器，由eBay开发。
 * [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：套接字服务器(包括SSL)支持TCP、UDP和Websocket的实时应用程序、实时游戏、MMORPG、消息传递、聊天和流数据。
-* [webbit](https://github.com/webbit/webbit)：基于Java事件的WebSocket和HTTP服务器。
 * [para](https://github.com/Erudika/para)：用于快速构建Web和移动应用程序的多租户后端服务器。
 * [methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
+
+<h2 id="websocket">WebSocket</h2>
+
+* [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)：用纯Java编写的准系统WebSocket客户端和服务器实现。
+* [Scarlet](https://github.com/Tinder/Scarlet)：受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
+* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：适用于Java的异步HTTP和WebSocket客户端库。
+* [nv-websocket-client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
+* [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
+* [Kafka-WebSocket](https://github.com/b/kafka-websocket)：Kafka-WebSocket是kafka分布式消息代理的简单WebSocket服务器接口。
+* [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
+* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的 Pusher Channels客户端库，面向Java和Android。
+* [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
+* [Netty-Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
+* [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
+* [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
+* [Proxyee](https://github.com/monkeyWie/proxyee)：Proxyee是一个Java编写的HTTP代理服务器库，支持HTTP、HTTPS、WebSocket协议，并支持MITM，可以捕获和篡改HTTP、HTTPS数据包。
+* [Webbit](https://github.com/webbit/webbit)：基于Java事件的WebSocket和HTTP服务器。
 
 <h2 id="gameserver">游戏服务器</h2>
 
@@ -1376,6 +1394,7 @@
 * [NettyRpc](https://github.com/luxiaoxun/NettyRpc)：一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [koalas-rpc](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用可拓展的RPC框架。
 * [xxl-rpc](https://github.com/xuxueli/xxl-rpc)：国产高性能、分布式RPC框架。
+* [Wire](https://github.com/square/wire)：适用于Android、Kotlin、Swift和Java的gRPC和协议缓冲区。
 * [Turbo](https://github.com/hank-whu/turbo-rpc)：Turbo是一个超快速响应式RPC框架。
 * [rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)：一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：NettyRPC是基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
@@ -2501,6 +2520,7 @@
 <h2 id="bot">机器人</h2>
 
 * [MusicBot](https://github.com/jagrosh/MusicBot)：一个可以轻松设置和运行的Discord音乐机器人。
+* [Mirai](https://github.com/mamoe/mirai)：高效率QQ机器人支持库。
 * [TelegramBots](https://github.com/rubenlagus/TelegramBots)：使用Telegram Bots API创建机器人的Java库。
 * [JDA](https://github.com/discord-jda/JDA)：流行的聊天和VOIP服务的Java包装器。
 * [Discord4J](https://github.com/Discord4J/Discord4J)：Discord4J是一个快速、强大、无偏见的响应式库，可使用官方Discord Bot API快速轻松地开发适用于Java、Kotlin和其他JVM语言的Discord机器人。
@@ -2597,6 +2617,7 @@
 * [FXRibbon](https://github.com/dukke/FXRibbon)：Java的Ribbon控件，使用JavaFX框架，基于Microsoft Ribbon。
 * [WebBrowser](https://github.com/goxr3plus/JavaFX-Web-Browser)：用Java和JavaFX制作的Web浏览器。
 * [RXControls](https://github.com/leewyatt/rxcontrols)：RXControls是一个JavaFX自定义组件库。
+* [TornadoFX](https://github.com/edvin/tornadofx)：Kotlin的轻量级JavaFX框架。
 * [AnchorFX](https://github.com/alexbodogit/AnchorFX)：JavaFX平台停靠框架。
 * [Flowless](https://github.com/FXMisc/Flowless)：JavaFX的高效VirtualFlow。
 * [ValidatorFX](https://github.com/effad/ValidatorFX)：JavaFX的表单验证库。
