@@ -46,6 +46,7 @@
 - [响应式库](#reactive)
 - [缓存库](#cache)
 - [大数据框架](#bigdata)
+- [大数据组件](#bigdatatool)
 - [分布式组件](#distributed)
 - [PDF库](#pdf)
 - [Excel库](#excel)
@@ -197,8 +198,8 @@
 * [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring生态中的微服务框架。
 * [Dubbo](https://github.com/apache/dubbo)：阿里开源的RPC和微服务框架。
 * [Micronaut](https://github.com/micronaut-projects/micronaut-core)：JVM平台上的微服务框架。
-* [Quarkus](https://github.com/quarkusio/quarkus)：云原生时代的Java微服务框架。
-* [Helidon](https://github.com/helidon-io/helidon)：用于编写微服务的Java库。
+* [Quarkus](https://github.com/quarkusio/quarkus)：云原生时代的Java微服务框架，由RedHat开发。
+* [Helidon](https://github.com/helidon-io/helidon)：用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix是Spring Cloud的子项目，提供了Netflix开源项目的整合。
 * [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：阿里开源的Spring Cloud框架，提供一站式的微服务应用开发解决方案。
 * [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp)：集成了Google云功能的Spring Cloud框架，由Google提供。
@@ -209,7 +210,7 @@
 * [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Ktor](https://github.com/ktorio/ktor)：Ktor是一个Kotlin编写的用于创建微服务、Web应用程序等的异步框架。
 * [MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展。
-* [ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个软件开发套件，用于快速开发Java微服务。
+* [ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个华为云开源的软件开发套件，用于快速开发Java微服务。
 * [Kotless](https://github.com/JetBrains/kotless)：Kotlin开发的Serverless框架，由JetBrains开源。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：JVM上的演化消息驱动微服务框架。
 * [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架。
@@ -244,6 +245,7 @@
 * [Mantis](https://github.com/Netflix/mantis)：该平台使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序。
 * [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
+* [Sermant](https://github.com/huaweicloud/Sermant)：一个基于Javaagent的无代理服务网格解决方案，由华为开源。
 
 <h2 id="orm-framework">ORM框架</h2>
 
@@ -893,6 +895,7 @@
 * [Digdag](https://github.com/treasure-data/digdag)：工作负载自动化系统。
 * [Cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
 * [AgileBPM](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
+* [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。
 * [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎。
@@ -999,7 +1002,6 @@
 * [Apache Nifi](https://github.com/apache/nifi)：Apache NiFi是一个易于使用、功能强大且可靠的系统，用于处理和分发数据，由美国国家安全局开源。
 * [Apache Heron](https://github.com/apache/incubator-heron)：由Twitter开发的实时分析平台。
 * [Apache Kylin](https://github.com/apache/kylin)：Apache Kylin是一个开源分布式分析引擎，由eBay贡献。
-* [Apache StreamPark](https://github.com/apache/incubator-streampark)：简单易用的流媒体应用开发框架和运营平台。
 * [Apache Linkis](https://github.com/apache/linkis)：Apache Linkis是一种计算中间件，充当上层应用程序和底层引擎(例如Apache Spark、Apache Hive和Apache Flink)之间的层，由微众开源。
 * [Apache Flume](https://github.com/apache/flume)：由Cloudera软件公司产出的可分布式日志收集系统。
 * [Apache Geode](https://github.com/apache/geode)：Apache Geode是一个数据管理平台，可在广泛分布的云架构中提供对数据密集型应用程序的实时、一致的访问，由GemStone开源。
@@ -1023,18 +1025,44 @@
 * [Piflow](https://github.com/cas-bigdatalab/piflow)：支持Spark的大数据流引擎，由科学大数据社区开源。
 * [Hazelcast](https://github.com/hazelcast/hazelcast)：Hazelcast是一个实时流处理平台，可让你构建立即对数据采取操作的应用程序。
 * [DataX](https://github.com/alibaba/DataX)：阿里开源的一个异构数据源离线同步工具。
-* [BitSail](https://github.com/bytedance/bitsail)：BitSail是一个分布式高性能数据集成引擎，支持批量、流式和增量场景，由字节开源。
 * [Scio](https://github.com/spotify/scio)：适用于Apache Beam和Google Cloud Dataflow的Scala API，由Spotify开源。
 * [Presto](https://github.com/prestodb/presto)：用于大数据的分布式SQL查询引擎，由Facebook开源。
 * [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆。
 * [HiBench](https://github.com/Intel-bigdata/HiBench)：HiBench是一个大数据基准测试套件，由Intel开源。
-* [ChunJun](https://github.com/DTStack/chunjun)：基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
 * [DataHub](https://github.com/datahub-project/datahub)：由LinkedIn的数据团队开源的一款提供元数据搜索与发现的工具。
 * [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
 * [Genie](https://github.com/Netflix/genie)：分布式大数据编排服务，由Netflix开源。
 * [Venice](https://github.com/linkedin/venice)：Venice是一个衍生的数据存储平台。
 * [DataWave](https://github.com/NationalSecurityAgency/datawave)：DataWave是一个基于Java的摄取和查询框架，它利用Apache Accumulo提供对数据的快速、安全访问，由美国国家安全局开源。
 * [Taier](https://github.com/DTStack/Taier)：太二是一个提交、调度、运维、指标信息展示的大数据开发平台。
+
+<h2 id="bigdatatool">大数据组件</h2>
+
+* [Canal](https://github.com/alibaba/canal)：Canal是阿里开发的基于数据库增量日志解析，提供增量数据订阅&消费的中间件。
+* [Otter](https://github.com/alibaba/otter)：Otter是阿里开源的一个分布式数据库同步系统，尤其是在跨机房数据库同步方面，有很强大的功能。
+* [Flink CDC Connectors](https://github.com/ververica/flink-cdc-connectors)：CDC Connectors是Apache Flink的一组源连接器，使用变更数据捕获(CDC)从不同数据库中获取变更。
+* [ChunJun](https://github.com/DTStack/chunjun)：基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
+* [DataSphereStudio](https://github.com/WeBankFinTech/DataSphereStudio)：DataSphere Studio(简称DSS)是微众银行开发的一站式数据应用开发管理门户WeDataSphere。
+* [Dinky](https://github.com/DataLinkDC/dinky)：Dinky是一个开箱即用的一站式实时计算平台，致力于统一流批处理、统一数据湖和数据仓库的构建和实践。
+* [Quicksql](https://github.com/Qihoo360/Quicksql)：Quicksql是一款360开源的SQL查询产品，可用于特定数据存储查询或多个数据存储关联查询，它支持关系型数据库、非关系型数据库甚至不支持SQL的数据存储(如Elasticsearch、Druid)。
+* [FlinkStreamSQL](https://github.com/DTStack/flinkStreamSQL)：基于开源的Flink，对其实时SQL进行扩展；主要实现了流与维表的join，支持原生Flink SQL所有的语法，由袋鼠云开源。
+* [BitSail](https://github.com/bytedance/bitsail)：BitSail是一个分布式高性能数据集成引擎，支持批量、流式和增量场景，由字节开源。
+* [AthenaX](https://github.com/uber-archive/AthenaX)：基于SQL的大规模流分析平台，由Uber开源。
+* [TIS](https://github.com/datavane/tis)：支持基于Flink、DataX和Flink-CDC的敏捷DataOps，Chunjun具有Web-UI，由Datavane大数据组织开源。
+* [Dr.Elephant](https://github.com/linkedin/dr-elephant)：Dr.Elephant是一款针对Apache Hadoop和Apache Spark的作业和流级性能监控和调优工具。
+* [Kylo](https://github.com/Teradata/kylo)：Kylo是一个数据湖管理软件平台和框架，用于在Teradata、Apache Spark和/或Hadoop等大数据技术上实现可扩展的企业级数据湖，由Teradata开源。
+* [CDAP](https://github.com/cdapio/cdap)：CDAP是一个面向Hadoop生态系统的集成开源应用程序开发平台，为开发人员提供数据和应用程序抽象，目前是Google云端项目。
+* [Nessie](https://github.com/projectnessie/nessie)：Nessie是由Dremio团队开源的一个类似Git管理数据湖的系统方案。
+* [Yanagishima](https://github.com/yanagishima/yanagishima)：适用于Trino、Hive和SparkSQL的Web UI。
+* [Apache Ambari](https://github.com/apache/ambari)：Apache Ambari是一个用于配置、管理和监控Apache Hadoop集群的工具，由一组RESTful API和一个基于浏览器的管理界面组成，由Hortonworks开源。
+* [Elasticsearch Hadoop](https://github.com/elastic/elasticsearch-hadoop)：Elasticsearch实时搜索和分析与Hadoop原生集成，支持Map/Reduce、Apache Hive和Apache Spark。
+* [XLearning](https://github.com/Qihoo360/XLearning)：XLearning是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架。
+* [Addax](https://github.com/wgzhao/Addax)：Addax是一款多功能开源ETL工具，可以在各种RDBMS和NoSQL数据库之间无缝传输数据，使其成为数据迁移的理想解决方案。
+* [Amoro](https://github.com/NetEase/amoro)：Amoro是一个基于开放数据湖格式构建的Lakehouse管理系统，由网易开源。
+* [Apache StreamPark](https://github.com/apache/incubator-streampark)：简单易用的流媒体应用开发框架和运营平台。
+* [Apache StreamPark](https://github.com/apache/incubator-streampark)：StreamPark是一个流处理开发框架和专业管理平台。
+* [Firestorm](https://github.com/Tencent/Firestorm)：Firestorm是一项远程Shuffle服务，为Apache Spark和Apache Hadoop MapReduce应用程序提供在远程服务器上存储Shuffle数据的功能，由腾讯开源。
+* [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
 
 <h2 id="distributed">分布式组件</h2>
 
@@ -2399,6 +2427,7 @@
 * [Sequence](https://gitee.com/yu120/sequence)：高效GUID生成算法，基于Snowflake实现64位自增ID算法。
 * [idworker](https://github.com/imadcn/idworker)：基于Zookeeper和雪花算法的分布式ID生成工具。
 * [redis-id-generator](https://github.com/hengyunabc/redis-id-generator)：基于Redis的分布式ID生成器。
+* [UidGenerator](https://github.com/baidu/uid-generator)：UidGenerator是一个Java实现的、基于Snowflake的唯一ID生成器，由百度开源。
 * [JNanoId](https://github.com/aventrix/jnanoid)：Java的唯一字符串ID生成器。
 * [CosId](https://github.com/Ahoo-Wang/CosId)：通用、灵活、高性能的分布式ID生成器。
 * [UUID-Creator](https://github.com/f4b6a3/uuid-creator)：用于生成通用唯一标识符(UUID)的Java库。
