@@ -107,6 +107,7 @@
 - [比特币](#bitcoin)
 - [物联网](#iot)
 - [MQTT](#mqtt)
+- [金融](#finance)
 - [Spring生态](#spring)
 - [Raft算法](#raft)
 - [Paxos算法](#paxos)
@@ -146,6 +147,7 @@
 - [IO操作](#ioutils)
 - [邮件操作](#email)
 - [RSS](#rss)
+- [校验](#validation)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -752,6 +754,7 @@
 * [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions 是一个Java库，可帮助构建困难的正则表达式。
 * [JGit](https://eclipse.dev/jgit/)：可以用于操作Git存储库的纯Java实现。
 * [sofa-common-tools](https://github.com/sofastack/sofa-common-tools)：sofa-common-tools是一个为其他SOFA库提供一些实用功能的库。
+* [Governator](https://github.com/Netflix/governator)：Governator是一个扩展和实用程序库，可增强Google Guice的功能，提供类路径扫描和自动绑定、生命周期管理、字段映射配置、字段验证和并行对象预热等功能，由Netflix开源。
 
 <h2 id="di">依赖注入</h2>
 
@@ -1516,6 +1519,7 @@
 * [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [Jcseg](https://github.com/lionsoul2014/jcseg)：Jcseg是一个用Java开发的轻量级NLP框架。
 * [neo4j-nlp](https://github.com/graphaware/neo4j-nlp)：提供基于图的自然语言处理功能。
+* [MiNLP](https://github.com/XiaoMi/MiNLP)：小米开发的自然语言处理工具包。
 * [nlp-lang](https://github.com/NLPchina/nlp-lang)：这个项目是一个基本包，封装了大多数NLP项目中常用工具。
 * [Mynlp](https://github.com/mayabot/mynlp)：一个生产级、高性能、模块化、可扩展的中文NLP工具包。
 * [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA应用程序是分析大量非结构化信息以发现与最终用户相关的知识的软件系统。
@@ -1834,6 +1838,7 @@
 * [Jfire-codejson](https://gitee.com/eric_ds/jfire-codejson)：性能非常高的JSON序列化和反序列化库。
 * [Snack3](https://gitee.com/noear/snack3)：一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
+* [JSON Schema Validator](https://github.com/networknt/json-schema-validator)：这是用于JSON模式验证的JSON Schema规范的Java实现。
 * [OkJson](https://gitee.com/calvinwilliams/okjson)：Java编写的小巧、高效、灵活的JSON处理器。
 
 <h2 id="mapper">Bean映射</h2>
@@ -2333,6 +2338,16 @@
 * [MoP](https://github.com/streamnative/mop)：MQTT-on-Pulsar(又名MoP)是为了在Apache Pulsar上原生支持MQTT协议而开发的。
 * [EnMasse](https://github.com/EnMasseProject/enmasse)：EnMasse在Kubernetes和OpenShift上提供了一个自助消息传递平台，具有统一的界面来管理不同的消息传递基础设施。
 * [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt)：全新的MQTT协议架构模型，基于该模型RocketMQ可以更好地支持来自物联网设备、手机APP等终端的消息。
+
+<h2 id="finance">金融</h2>
+
+* [Apache Fineract](https://github.com/apache/fineract)：Fineract是一个具有开放API的成熟平台，可为金融机构提供可靠、强大且价格实惠的核心银行解决方案，为全球30亿银行服务不足和无银行账户的人口提供服务。
+* [Strata](https://github.com/OpenGamma/Strata)：OpenGamma的开源分析和市场风险库。
+* [Portfolio](https://github.com/portfolio-performance/portfolio)：用于跟踪和评估股票、加密货币和其他资产的投资组合的表现。
+* [JavaMoney](https://github.com/JavaMoney/javamoney-lib)：提供基于JSR 354(兼容实现)构建的扩展和库。
+* [QuickFIX/J](https://github.com/quickfix-j/quickfixj)：QuickFIX/J是适用于FIX(金融信息交换)协议的全功能消息传递引擎。
+* [Northstar](https://gitee.com/dromara/northstar)：国内最优秀的Java开源一站式量化交易平台，具备历史回放、策略研发、模拟交易、实盘交易等功能，由dromara社区开源。
+* [CDM](https://github.com/finos/common-domain-model)：CDM是金融产品、这些产品的交易以及这些交易的生命周期事件的模型。它是一个开源标准，可以协调数据、系统和流程，并且可以多种语言的代码形式提供，以便于跨技术实现，由金融科技开源基金会FINOS托管。
 
 <h2 id="spring">Spring生态</h2>
 
@@ -3181,3 +3196,25 @@
 * [RSS Recipes](https://github.com/Netflix/recipes-rss)：使用多个Netflix OSS组件的RSS阅读器食谱。
 * [Apache Uniffle](https://github.com/apache/incubator-uniffle)：Uniffle是一种用于分布式计算引擎的高性能、通用远程洗牌服务。
 * [RSS Reader](https://github.com/w3stling/rssreader)：RSS Reader是一个简单的Java库，用于读取RSS和Atom提要。
+
+<h2 id="validation">校验</h2>
+
+* [Hibernate Validator](https://github.com/hibernate/hibernate-validator)：Jakarta Bean Validation参考实现。
+* [cron-utils](https://github.com/jmrozanec/cron-utils)：用于解析、验证和人类可读描述以及日期/时间互操作性的Cron实用程序。
+* [Fluent Validator](https://github.com/neoremind/fluent-validator)：利用流式的接口风格和JSR 303规范的Java验证框架。
+* [JSON Schema Validator](https://github.com/everit-org/json-schema)：用于Java的JSON模式验证器，基于org.json API。
+* [YAVI](https://github.com/making/yavi)：基于Lambda的类型安全验证框架。
+* [iban4j](https://github.com/arturmkrtchyan/iban4j)：用于生成和验证国际银行帐号(IBAN ISO_13616)和企业标识符代码(BIC ISO_9362)的Java库。
+* [libphonenumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
+* [Apache Commons Validator](https://github.com/apache/commons-validator)：Apache开源的通用数据验证框架。
+* [Java Fluent Validator](https://github.com/mvallim/java-fluent-validator)：在Java语言中定义了一个内部DSL供程序员使用。
+* [DSS](https://github.com/esig/dss)：数字签名服务：高级电子签名的创建、扩展和验证。
+* [veraPDF-library](https://github.com/veraPDF/veraPDF-library)：行业支持的开源PDF/A验证库。
+* [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
+* [galimatias](https://github.com/smola/galimatias)：galimatias是一个用Java编写的URL解析和规范化库。
+* [JHOVE](https://github.com/openpreserve/jhove)：JHOVE是一个可扩展的软件框架，用于执行数字对象的格式识别、验证和表征，由哈佛大学开发。
+* [easyopen](https://gitee.com/durcframework/easyopen)：一个简单易用的接口开放平台，平台封装了常用的参数校验、结果返回等功能。
+* [coody-verification](https://gitee.com/coodyer/coody-verification)：一款反射+注解实现的参数自动化校验工具。
+* [Apache BVal](https://bval.apache.org/)：Apache BVal提供了Java Bean Validation规范的实现，适用于Java 8或更高版本。
+* [JBVE](https://github.com/nomemory/java-bean-validation-extension)：JBVE(Java Bean Validation Extension)是一个小型工具库，它通过额外注解扩展了Java Bean Validation规范。
+* [Collection Validator](https://github.com/jirutka/validator-collection)：该库可以轻松地为任何验证约束创建“伪约束”(通常命名为@EachX)来标注简单类型的集合，而无需为每个集合编写额外的验证器或不必要的包装类。
