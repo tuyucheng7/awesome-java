@@ -1,6 +1,6 @@
 # Java生态资源大全
 
-该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、物联网、APP、生物学等方面。
+该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、APP、生物学等方面。
 
 所有框架和库都是基于Java语言实现的，只有极少数是由Kotlin、Scala、Groovy等JVM系语言混合开发，并且也可以在Java中兼容使用。
 
@@ -156,6 +156,7 @@
 - [RSS](#rss)
 - [校验](#validation)
 - [词法解析](#ast)
+- [正则表达式](#regex)
 - [代码生成器](#codegen)
 
 <h2 id="web-framework">Web框架</h2>
@@ -495,6 +496,7 @@
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
 * [Cucumber-Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
 * [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
+* [junit-quickcheck](https://github.com/pholser/junit-quickcheck)：junit-quickcheck是一个支持在JUnit中编写和运行基于属性的测试的库。
 
 <h2 id="build">构建工具</h2>
 
@@ -768,21 +770,19 @@
 
 * [Guava](https://github.com/google/guava)：Google开源的Java工具库。
 * [Apache Commons](https://github.com/apache/commons-lang)：Apache下的Java工具库。
-* [Lombok](https://github.com/projectlombok/lombok)：对Java语法非常有用的补充，消除样板代码。
+* [Lombok](https://github.com/projectlombok/lombok)：对Java语法非常有用的补充，消除大量样板代码。
 * [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
 * [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
 * [jcommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
-* [immutables](https://github.com/immutables/immutables)：用于创建不可变对象和构建器的注解处理器。
 * [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
-* [RecordBuilder](https://github.com/Randgalt/record-builder)：Java记录的记录构建器。
+* [Jodd](https://github.com/oblac/jodd)：零依赖的Java工具库。
 * [ph-commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量实用程序类。
-* [commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
+* [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
 * [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
-* [simple-binary-encoding](https://github.com/real-logic/simple-binary-encoding)：高性能消息编解码器。
-* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions 是一个Java库，可帮助构建困难的正则表达式。
-* [JGit](https://eclipse.dev/jgit/)：可以用于操作Git存储库的纯Java实现。
+* [JUtils](https://github.com/chenssy89/jutils)：通用的Java工具类库。
 * [sofa-common-tools](https://github.com/sofastack/sofa-common-tools)：sofa-common-tools是一个为其他SOFA库提供一些实用功能的库。
+* [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
 * [Governator](https://github.com/Netflix/governator)：Governator是一个扩展和实用程序库，可增强Google Guice的功能，提供类路径扫描和自动绑定、生命周期管理、字段映射配置、字段验证和并行对象预热等功能，由Netflix开源。
 
 <h2 id="di">依赖注入</h2>
@@ -808,6 +808,7 @@
 * [AspectJ](https://eclipse.dev/aspectj/)：一个易用的功能强大的AOP框架。
 * [jvm-sandbox](https://github.com/alibaba/jvm-sandbox)：基于JVM的实时非侵入式AOP框架容器。
 * [JBossAop](https://jbossaop.jboss.org/)：JBoss AOP是一个100%纯Java面向切面的框架，可在任何编程环境中使用或与我们的应用程序服务器紧密集成。
+* [Apache Commons Weaver](https://github.com/apache/commons-weaver)：Apache Commons Weaver提供了一种通过生成(“织入”)字节码到这些类中来增强已编译Java类的简单方法。
 * [FastAop](https://github.com/fast-light/fastaop)：基于Java注解处理的轻量级高性能AOP框架，类似于Lombok。
 * [Alliance](https://aopalliance.sourceforge.net/)：Alliance项目是几个对AOP和Java感兴趣的软件工程人员联合发起的开源项目。
 * [VirtualXposed](https://github.com/android-hacker/VirtualXposed)：无需Root即可使用Xpose，解锁引导加载程序或修改系统镜像等。
@@ -821,9 +822,9 @@
 * [Logback](https://github.com/qos-ch/logback)：可靠、通用、快速且灵活的Java日志记录框架。
 * [Slf4j](https://github.com/qos-ch/slf4j)：Java的简单日志门面。
 * [Flogger](https://github.com/google/flogger)：适用于Java的流式日志记录API，由Google开发。
-* [Commons-logging](https://github.com/apache/commons-logging)：Apache下的通用日志记录接口。
+* [Apache Commons Logging](https://github.com/apache/commons-logging)：Apache下的通用日志记录接口。
 * [Logstash](https://github.com/elastic/logstash)：传输和处理日志、事件或其他数据。
-* [twitter-util](https://github.com/twitter/util/tree/develop/util-logging)：Twitter开发的工具库。
+* [Twitter-Logging](https://github.com/twitter/util/tree/develop/util-logging)：Twitter开发的工具库。
 * [Tinylog](https://github.com/tinylog-org/tinylog)：适用于Java、Kotlin、Scala和Android的轻量级日志框架。
 * [Graylog](https://github.com/Graylog2/graylog2-server)：免费开放的日志管理。
 * [blitz4j](https://github.com/Netflix/blitz4j)：用于固定异步日志记录的日志记录框架。
@@ -896,7 +897,7 @@
 * [CentralDogma](https://github.com/line/centraldogma)：Central Dogma是一个基于Git、ZooKeeper和HTTP/2的开源、高可用、版本控制的服务配置存储库，由Line开源。
 * [XXL-Conf](https://github.com/xuxueli/xxl-conf)：轻量级分布式配置管理平台。
 * [Spring-Fu](https://github.com/spring-projects-experimental/spring-fu)：Spring Fu是JaFu(Java DSL)和KoFu(Kotlin DSL)的孵化器，旨在以声明性方式使用代码显式配置Spring Boot。
-* [Apache Configuration](https://github.com/apache/commons-configuration)：协助读取各种格式的配置/首选项文件的工具。
+* [Apache Commons Configuration](https://github.com/apache/commons-configuration)：协助读取各种格式的配置/首选项文件的工具。
 * [NightConfig](https://github.com/TheElectronWill/night-config)：强大的Java配置库，适用于Toml、Yaml、Hocon、Json和内存配置。
 * [Archaius](https://github.com/Netflix/archaius)：Archaius是一个配置库，用于将静态和动态配置的混合作为单个配置单元进行访问，由Netflix开源。
 * [cfg4j](https://github.com/cfg4j/cfg4j)：用Java编写的分布式应用程序的现代配置库。
@@ -1012,6 +1013,7 @@
 * [Guava](https://github.com/google/guava/tree/master/guava/src/com/google/common/cache)：Guava库提供的Java本地缓存工具。
 * [Caffeine](https://github.com/ben-manes/caffeine)：Java的高性能缓存库。
 * [Ehcache](https://github.com/ehcache/ehcache3)：一个纯Java的进程内缓存框架。
+* [Apache Commons JCS](https://github.com/apache/commons-jcs)：Apache Commons JCS是一个分布式、多功能的缓存系统。
 * [jetcache](https://github.com/alibaba/jetcache)：阿里开源的Java缓存框架。
 * [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)：基于磁盘的LRU缓存的Java实现，专门针对Android兼容性。
 * [RxCache](https://github.com/VictorAlbertos/RxCache)：适用于Android和Java的响应式缓存库。
@@ -1110,6 +1112,11 @@
 * [Firestorm](https://github.com/Tencent/Firestorm)：Firestorm是一项远程Shuffle服务，为Apache Spark和Apache Hadoop MapReduce应用程序提供在远程服务器上存储Shuffle数据的功能，由腾讯开源。
 * [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
 * [Debezium](https://github.com/debezium/debezium)：Debezium是一个开源项目，为变更数据捕获(CDC)提供低延迟数据流平台，由RedHat开源。
+* [Cubert](https://github.com/LinkedInAttic/Cubert)：Cubert是一种快速高效的批量计算引擎，用于对Hadoop上的海量数据集进行复杂分析和报告。
+* [Exchangis](https://github.com/WeBankFinTech/Exchangis)：Exchangis是微众银行大数据平台WeDataSphere与社区用户共同开发的新版数据交换工具，支持异构数据源之间结构化和非结构化数据的同步传输。
+* [Kettle](https://github.com/pentaho/pentaho-kettle)：一款开源的ETL工具，可以用它来对数据进行抽取、清洗和转换操作。
+* [DataBand](https://gitee.com/475660/databand)：轻量级一站式大数据分析平台。
+* [Big Whale](https://gitee.com/meetyoucrop/big-whale)：巨鲸任务调度平台为美柚大数据研发的分布式计算任务调度系统，提供Spark、Flink等批处理任务的DAG调度和流处理任务的运行管理和状态监控，并具有Yarn应用管理、重复应用检测、大内存应用检测等功能。
 
 <h2 id="distributed">分布式组件</h2>
 
@@ -1183,7 +1190,7 @@
 
 <h4 id="csv">CSV库</h4>
 
-* [commons-csv](https://commons.apache.org/proper/commons-csv/)：Apache下的CSV操作库。
+* [Apache Commons CSV](https://github.com/apache/commons-csv)：Apache下的CSV操作库。
 * [AdaptiveTableLayout](https://github.com/Cleveroad/AdaptiveTableLayout)：可以读取、编辑和写入CSV文件的库。
 * [myexcel](https://github.com/liaochong/myexcel)：MyExcel是一个集导入、导出、加密Excel等多项功能的工具包，支持CSV文件。
 * [super-csv](https://github.com/super-csv/super-csv)：一个快速、程序员友好、免费的Java CSV库。
@@ -1200,6 +1207,12 @@
 * [decs](https://github.com/diergo/decs)：Diergo Easy CSV Streamable：一个简单的Java 8 CSV解析器和生成器。
 * [csv-utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV(逗号分隔值)文本文件的实用程序。
 
+<h4 id="word">Word库</h4>
+
+* [kkFileView](https://github.com/kekingcn/kkFileView)：基于Spring Boot的通用文件在线预览项目。
+* [docx4j](https://github.com/plutext/docx4j)：用于Word docx、Powerpoint pptx和Excel xlsx文件的基于JAXB的Java库。
+* [poi-tl](https://github.com/Sayi/poi-tl)：一种更好的模板生成word(docx)的方法，基于Apache POI。
+
 <h4 id="xml">XML库</h4>
 
 * [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：Flying Saucer是一个纯Java库，用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)。
@@ -1207,9 +1220,11 @@
 * [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
 * [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
 * [BaseX](https://github.com/BaseXdb/basex)：BaseX是一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
+* [Apache Commons JXPath](https://github.com/apache/commons-jxpath)：XPath 1.0的基于Java的实现，除了XML处理之外，还可以检查/修改Java对象图，甚至混合Java/XML结构。
 * [XmlToJson](https://github.com/smart-fun/XmlToJson)：用于将XML转换为JSON以及将JSON转换为XML的Android库。
 * [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
 * [jOOX](https://github.com/jOOQ/jOOX)：org.w3c.dom包的简单包装器，允许在需要DOM但过于冗长的情况下流式地创建和操作XML文档。
+* [Apache Commons SCXML](https://github.com/apache/commons-scxml)：状态图XML引擎的Java实现。
 * [TikXML](https://github.com/Tickaroo/tikxml)：适用于Java和Android的快速XML解析器。
 * [eXist-db](https://github.com/eXist-db/exist)：eXist-db是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
 * [Smooks](https://github.com/smooks/smooks)：用于构建基于XML和非XML片段的应用程序的可扩展数据集成Java框架。
@@ -1259,6 +1274,7 @@
 * [android-async-http](https://github.com/android-async-http/android-async-http)：适用于Android的异步、基于回调的HTTP客户端，构建于Apache的HttpClient库之上。
 * [google-http-java-client](https://github.com/googleapis/google-http-java-client)：Google开发的适用于Java的HTTP客户端库。
 * [Httpclientutil](https://github.com/Arronlong/httpclientutil)：基于HttpClient 4.4.1封装的工具类。
+* [Http Request](https://github.com/kevinsawicki/http-request)：一个简单的便利库，用于使用HttpURLConnection发出请求并访问响应。
 * [rest-client](https://github.com/wisdom-projects/rest-client)：自动化测试REST API的工具，可以生成精美的测试报告和REST API文档。
 * [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：基于HTTP协议，封装了OkHttp的网络请求框架，比Retrofit更简单易用。
@@ -1497,7 +1513,7 @@
 
 * [Druid](https://github.com/alibaba/druid)：阿里云计算平台DataWorks团队出品，为监控而生的数据库连接池。
 * [HikariCP](https://github.com/brettwooldridge/HikariCP)：可靠、高性能的JDBC连接池。
-* [Apache commons-dbcp](https://github.com/apache/commons-dbcp)：Apache下开源的数据库连接池。
+* [Apache Commons DBCP](https://github.com/apache/commons-dbcp)：Apache下开源的数据库连接池。
 * [c3p0](https://github.com/swaldman/c3p0)：一个成熟的、高度并发的JDBC连接池库，支持缓存和重用PreparedStatements。
 * [bonecp](https://github.com/wwadge/bonecp)：BoneCP是一种JDBC连接池实现，它通过最大限度地减少锁争用来实现高性能，从而为应用程序提供更大的吞吐量。
 * [flexy-pool](https://github.com/vladmihalcea/flexy-pool)：可以向给定的连接池添加指标和故障转移策略，使其能够按需调整大小。
@@ -1646,6 +1662,7 @@
 * [LinkedGeoData](https://github.com/GeoKnow/LinkedGeoData)：LinkedGeoData致力于向数据网/语义网添加空间维度，LinkedGeoData使用OpenStreetMap项目收集的信息，并根据关联数据原则将其作为RDF知识库提供。
 * [Ripple](https://github.com/joshsh/ripple)：Ripple是一种基于堆栈的函数式查询语言，适用于关联数据和其他RDF数据源。
 * [Vitro](https://github.com/vivo-project/Vitro)：Vitro是一个通用的基于Web的本体和实例编辑器，具有可定制的公共浏览功能。
+* [Apache Commons RDF](https://github.com/apache/commons-rdf)：RDF旨在为RDF 1.1提供一个通用库，并实现常见Java RDF框架(如RDF4J、Apache Jena)以及其他库(如OWLAPI、Clerezza和其他JVM语言)的实现。
 * [Corese](https://github.com/Wimmics/corese)：Corese是一个实现和扩展语义网标准的软件平台，它允许创建、操作、解析、序列化、查询、推理和验证RDF数据。
 * [neosemantics](https://github.com/neo4j-labs/neosemantics)：neosemantics是一个允许在Neo4j中使用RDF的插件。
 * [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit)：Wikidata Toolkit是一个用于访问Wikidata和其他Wikibase安装的Java库。它可用于创建机器人、执行数据提取任务以及进行对于使用简单的SPARQL查询服务来说过于复杂的大规模分析。
@@ -1715,6 +1732,7 @@
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在Java虚拟机(JVM)上进行离线和实时分析。
 * [LogicNG](https://github.com/logic-ng/LogicNG)：LogicNG是一个用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
 * [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
+* [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Apache Commons Statistics提供用于统计应用程序的实用程序，为常用的连续和离散分布提供支持。
 * [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit(Mines JTK)是一组用于科学和工程的Java包和原生(非Java)软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形。
 * [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
 * [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
@@ -1738,6 +1756,8 @@
 * [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
 * [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Colt是Java中用于高性能科学计算的库。它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法。
 * [Apache Commons Math](https://github.com/apache/commons-math)：Commons Math是一个轻量级、独立的数学和统计组件库，可解决Java编程语言或Commons Lang中无法解决的最常见问题。
+* [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Apache Commons Numbers项目提供数字类型和实用程序。
+* [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Apache Commons Geometry项目提供几何类型和实用程序。
 * [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库。
 * [JNT](https://math.nist.gov/jnt/)：包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作。
 * [JUMP](https://sourceforge.net/projects/jump-math/)：JUMP是一个基于Java的可扩展高精度数学包，包括对基于分数的计算的支持，支持转换为浮点数和BigDecimal。
@@ -1880,6 +1900,7 @@
 * [AndroidWM](https://github.com/huangyz0918/AndroidWM)：一个支持隐写术的Android图像水印库。
 * [Cipher.so](https://github.com/linisme/Cipher.so)：将密码等安全数据加密到本机.so库中的简单方法。
 * [Conscrypt](https://github.com/google/conscrypt)：Conscrypt是一个Java安全提供程序，它实现了部分Java加密扩展和Java安全套接字扩展，由谷歌开源。
+* [Apache Commons Crypto](https://github.com/apache/commons-crypto)：Apache Commons Crypto是一个使用AES-NI(高级加密标准新指令)优化的加密库，它提供了密码级别和Java流级别的Java API。
 * [android-storage](https://github.com/sromku/android-storage)：使用非常简单的API在内部或外部磁盘空间上创建、读取、删除、附加、加密文件等的库。
 * [Whorlwind](https://github.com/square/whorlwind)：Android指纹API的响应式包装器，使用指纹处理敏感数据的加密/解密。
 * [Encrypt](https://github.com/GcsSloop/encrypt)：适用于Java和Android的加解密工具库。
@@ -1988,6 +2009,7 @@
 * [Crash](https://github.com/crashub/crash)：Crash是一个为扩展Java程序和Java虚拟机而设计的Shell。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [java-ascii-render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
+* [Apache Commons CLI](https://github.com/apache/commons-cli)：Apache Commons CLI提供了一个简单的API，用于呈现、处理和验证命令行界面。
 * [mcs](https://github.com/mthmulders/mcs)：可以从命令行搜索Maven中央仓库。
 * [JD-Core](https://github.com/java-decompiler/jd-core)：JD-Core是一个用Java编写的Java反编译器。
 * [jd-cli](https://github.com/intoolswetrust/jd-cli)：jd-cli是JD-Core项目的简单命令行包装器。
@@ -2024,6 +2046,7 @@
 * [StreamEx](https://github.com/amaembo/streamex)：对Java Stream API的增强库。
 * [jOOL](https://github.com/jOOQ/jOOL)：为Java 8 Lambda提供了一些有用的扩展，
 * [javatuples](https://github.com/javatuples/javatuples)：Java中元组的类型安全表示。
+* [Apache Commons Functor](https://github.com/apache/commons-functor)：Apache Commons Functor库定义了通用函子和函子相关的接口、实现和实用程序。
 * [throwing-function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
 * [FunctionalJava](https://github.com/functionaljava/functionaljava)：Functional Java是一个开源库，促进Java中的函数式编程。
 * [Cyclops](https://github.com/aol/cyclops)：一个先进且易于使用的平台，用于在Java 8中编写函数式应用程序。
@@ -2046,6 +2069,7 @@
 * [ASM](https://gitlab.ow2.org/asm/asm)：通用底层字节码操作和分析开发库。
 * [Byte Buddy](https://github.com/raphw/byte-buddy)：Byte Buddy是一个代码生成和操作库，用于在Java应用程序运行时创建和修改Java类，而无需编译器的帮助。
 * [Byteman](https://github.com/bytemanproject/byteman)：Byteman支持将副作用注入到Java程序中用于跟踪和测试应用程序行为的目的。
+* [Apache Commons BCEL](https://github.com/apache/commons-bcel)：Apache Commons BCEL为用户提供一种便捷的方式来分析、创建和操作Java class文件。
 * [Javassist](https://github.com/jboss-javassist/javassist)：Java字节码工程工具包。
 * [cglib](https://github.com/cglib/cglib)：用于生成和转换Java字节码的高级API。
 * [ByteX](https://github.com/bytedance/ByteX)：字节开源的字节码插件开发平台。
@@ -2063,6 +2087,7 @@
 * [Pngtastic](https://github.com/depsypher/pngtastic/)：一个纯Java PNG图像优化和操作库。
 * [ImageJ](https://github.com/imagej/ImageJ)：用于处理和分析科学图像的公共领域软件。
 * [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。
+* [Apache Commons Imaging](https://github.com/apache/commons-imaging)：Apache Commons Imaging是一个纯Java图像库。
 * [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：Java ImageIO的附加插件和扩展。
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV(开源计算机视觉)是一个用于实时计算机视觉和图像处理的库。
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
@@ -2138,6 +2163,7 @@
 * [jackson-annotations](https://github.com/FasterXML/jackson-annotations)：Jackson数据处理器的核心注解。
 * [compile-testing](https://github.com/google/compile-testing)：javac和注解处理器的测试工具。
 * [PaperParcel](https://github.com/grandstaish/paperparcel)：自动生成Java和Kotlin的Parcelable实现。
+* [RecordBuilder](https://github.com/Randgalt/record-builder)：Java记录的记录构建器。
 * [RAVE](https://github.com/uber-archive/rave)：使用Java注解处理的数据模型验证框架。
 * [PojoBuilder](https://github.com/mkarneim/pojobuilder)：POJO构建器的Java代码生成器。
 * [Moxy](https://github.com/moxy-community/Moxy)：Moxy是适用于Android的MVP库，具有增量注解处理器和ktx功能。
@@ -2277,6 +2303,7 @@
 * [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
 * [Discovery](https://gitee.com/nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
 * [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架。
+* [Failsafe](https://github.com/failsafe-lib/failsafe)：Failsafe是一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
 * [SDS](https://github.com/didi/sds)：SDS是一个轻量级、简单、易用的限流、熔断、降级系统，由滴滴开源。
 
 <h2 id="gateway">网关</h2>
@@ -2578,6 +2605,7 @@
 * [UUID-Creator](https://github.com/f4b6a3/uuid-creator)：用于生成通用唯一标识符(UUID)的Java库。
 * [ULID-Creator](https://github.com/f4b6a3/ulid-creator)：用于生成通用唯一词典可排序标识符(ULID)的Java库。
 * [java-snowflak](https://github.com/callicoder/java-snowflake)：基于雪花算法的分布式ID生成器。
+* [Apache Commons RNG](https://github.com/apache/commons-rng)：提供伪随机生成器的纯Java实现。
 
 <h2 id="cqrs">CQRS框架</h2>
 
@@ -2851,6 +2879,7 @@
 * [Decompiler](https://github.com/sotasan/decompiler)：小巧的Java反编译器GUI。
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder)：用于将JVM字节码解释和转换为JavaScript、OpenCL或WebAssembly的框架。
 * [Vineflower](https://github.com/Vineflower/vineflower)：Vineflower是一种现代通用JVM语言反编译器，专注于提供最佳的质量、速度和可用性。
+* [Fernflower](https://github.com/fesh0r/fernflower)：Java反编译器。
 * [jd-core-java](https://github.com/nviennot/jd-core-java)：Java反编译器JD-Core库。
 * [friday](https://github.com/zifeihan/friday)：Java实时反编译工具。
 * [CFR](https://github.com/leibnitz27/cfr)：可以很好地将class文件从其他JVM语言转回Java。
@@ -3185,6 +3214,7 @@
 * [RubiX](https://github.com/qubole/rubix)：针对列格式和对象存储优化的缓存文件系统。
 * [ADFS](https://github.com/taobao/ADFS)：ADFS(阿里分布式文件系统)是Hadoop的演进版本，提供高可用性、自动重启等特性。
 * [TngouFS](https://gitee.com/397713572/tngouFS)：天狗文件系统，主要用于图片、视频、文档等相关文件的管理。
+* [Apache Commons VFS](https://github.com/apache/commons-vfs)：Apache Commons VFS是一个虚拟文件系统库。
 
 <h2 id="report">报表引擎</h2>
 
@@ -3223,6 +3253,7 @@
 
 <h2 id="geo">地理空间</h2>
 
+* [WorldWindJava](https://github.com/NASAWorldWind/WorldWindJava)：美国国家航空航天局(NASA)发布的一个开源的地理科普软件，由NASA Research开发。它是一个可视化地球仪，将NASA、USGS以及其它WMS服务商提供的图像通过一个三维的地球模型展现。
 * [JTS](https://github.com/locationtech/jts)：JTS是一个用于创建和操作向量几何的Java库。
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，提供地理空间数据工具。
 * [Geometry API](https://github.com/Esri/geometry-api-java)：Geometry API可用于在第三方数据处理解决方案中启用空间数据处理。
@@ -3365,6 +3396,13 @@
 * [Gumtree Spoon AST Diff](https://github.com/SpoonLabs/gumtree-spoon-ast-diff)：使用Gumtree算法计算两个Spoon抽象语法树之间的AST差异。
 * [JavaCC](https://github.com/javacc/javacc)：JavaCC是用于Java应用程序的最流行的解析器生成器。
 * [JFlex](https://github.com/jflex-de/jflex)：JFlex是Java的词法分析器生成器(也称为扫描器生成器)。
+
+<h2 id="regex">正则表达式</h2>
+
+* [RegexGenerator](https://github.com/MaLeLabTs/RegexGenerator)：该项目包含用于生成文本提取正则表达式的工具的源代码。
+* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions是一个Java库，可帮助构建困难的正则表达式。
+* [Generex](https://github.com/mifmif/Generex)：用于生成与给定正则表达式匹配的字符串的Java库。
+* [RE2/J](https://github.com/google/re2j)：RE2是一个正则表达式引擎，其运行时间与输入大小成线性关系，由Google开源。
 
 <h2 id="codegen">代码生成器</h2>
 
