@@ -49,6 +49,7 @@
 - [嵌入式数据库](#embedded-db)
 - [NoSQL数据库 & 其他](#nosql-db)
 - [数据库连接池](#db-conn)
+- [中间件客户端](#mid-client)
 - [HTTP客户端库](#httpclient)
 - [RPC框架](#rpc)
 - [响应式库](#reactive)
@@ -262,6 +263,7 @@
 * [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [Sermant](https://github.com/huaweicloud/Sermant)：一个基于Javaagent的无代理服务网格解决方案，由华为开源。
+* [Apache Pekko](https://github.com/apache/incubator-pekko)：Apache Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
 
 <h2 id="orm-framework">持久层框架</h2>
 
@@ -693,6 +695,7 @@
 * [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
+* [Lightrun](https://lightrun.com/)：Lightrun是一个面向开发人员的可观察性工具。
 
 <h2 id="distributed-tracing">分布式追踪</h2>
 
@@ -908,6 +911,7 @@
 * [Mycat2](https://github.com/MyCATApache/Mycat2)：支持分布式SQL查询、兼容MySQL通信协议，以Java生态支持多种后端数据库，通过数据分片提高数据查询处理能力。
 * [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
 * [DBLE](https://github.com/actiontech/dble)：由爱可生开发的一种高扩展性的MySQL分片中间件。
+* [Stroom](https://github.com/gchq/stroom)：Stroom是一个数据处理、存储和分析平台，由英国政府通讯总部开源。
 
 <h2 id="message">消息中间件</h2>
 
@@ -918,7 +922,6 @@
 * [BifroMQ](https://github.com/baidu/bifromq)：采用Serverless架构的MQTT代理实现，由百度开源。
 * [QMQ](https://github.com/qunarcorp/qmq)：QMQ是去哪儿网内部广泛使用的消息中间件。
 * [PMQ](https://github.com/ppdaicorp/pmq)：信也科技开源的轻量级分布式消息队列。
-* [Paho](https://github.com/eclipse/paho.mqtt.java)：Eclipse Paho Java MQTT客户端库，Paho是一个Eclipse IoT项目。
 * [JeroMQ](https://github.com/zeromq/jeromq)：ZeroMQ的Java版本。
 * [DDMQ](https://github.com/didi/DDMQ)：DDMQ是滴滴基础设施团队基于Apache RocketMQ打造的分布式消息产品。
 * [JGroups](https://github.com/belaban/JGroups)：JGroups是一个集群库，允许成员交换消息。
@@ -1100,6 +1103,22 @@
 * [Agroal](https://github.com/agroal/agroal)：一个小巧的数据库连接池。
 * [vibur-dbcp](https://github.com/vibur/vibur-dbcp)：并发和动态JDBC连接池。
 * [jdbc-pool](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)：Tomcat JDBC连接池。
+
+<h2 id="mid-client">中间件客户端</h2>
+
+* [NATS Java Client](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
+* [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端。
+* [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
+* [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
+* [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
+* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
+* [Paho](https://github.com/eclipse/paho.mqtt.java)：Eclipse Paho Java MQTT客户端库，Paho是一个Eclipse IoT项目。
+* [HiveMQ MQTT Client](https://github.com/hivemq/hivemq-mqtt-client)：MQTT 5.0和3.1.1兼容且功能丰富的高性能Java客户端库，具有不同的API风格和背压支持。
+* [Couchbase](https://github.com/couchbase/couchbase-java-client)：Couchbase Server的官方Java客户端。
+* [Consul](https://github.com/Ecwid/consul-api)：Consul的Java客户端。
+* [Grafana OpenTelemetry Starter](https://github.com/grafana/grafana-opentelemetry-starter)：用于OpenTelemetry的Spring Boot Starter。
+* [Sentry SDK](https://github.com/getsentry/sentry-java/)：适用于Java、Android和其他JVM语言的Sentry SDK。
+* [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
 
 <h2 id="httpclient">HTTP客户端库</h2>
 
@@ -1307,6 +1326,20 @@
 * [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
 * [Governator](https://github.com/Netflix/governator)：Governator是一个扩展和实用程序库，可增强Google Guice的功能，提供类路径扫描和自动绑定、生命周期管理、字段映射配置、字段验证和并行对象预热等功能，由Netflix开源。
 * [xUtils](https://github.com/wyouflf/xUtils3)：xUtils包含了ORM、HTTP、图片处理等工具类。
+* [Apache Commons Text](https://github.com/apache/commons-text)：Apache Commons Text是一个专注于字符串算法的库。
+* [Apache Commons BSF](https://github.com/apache/commons-bsf)：BSF是一组Java类，它在Java应用程序中提供脚本语言支持，并通过脚本语言访问Java对象和方法。
+* [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
+* [Apache Commons Codec](https://github.com/apache/commons-codec)：Apache Commons Codec包含各种格式(例如Base64和十六进制)的简单编码器和解码器。
+* [Apache Commons Daemon](https://github.com/apache/commons-daemon)：Apache Commons Daemon是一组实用程序和Java支持类，用于将Java应用程序作为服务器进程运行。
+* [Apache Commons Digester](https://github.com/apache/commons-digester)：Apache Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
+* [Apache Commons Exec](https://github.com/apache/commons-exec)：Apache Commons Exec是一个从JVM内可靠地执行外部进程的库。
+* [Apache Commons FileUpload](https://github.com/apache/commons-fileupload)：Apache Commons FileUpload组件提供了一种简单而灵活的方法来向Servlet和Web应用程序添加对分段文件上传功能的支持。
+* [Apache Commons JCI](https://github.com/apache/commons-jci)：Apache Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
+* [Apache Commons Jelly](https://github.com/apache/commons-jelly)：Apache Commons Jelly是一个基于Java和XML的脚本引擎。
+* [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Apache Commons JEXL库是Java共生表达式语言的实现。
+* [Apache Commons OGNL](https://github.com/apache/commons-ognl)：OGNL代表对象图导航语言；它是一种表达式语言，用于获取和设置Java对象的属性，以及其他附加功能，例如列表投影和选择以及Lambda表达式。
+* [Apache Commons Pool](https://github.com/apache/commons-pool)：Apache Commons对象池库。
+* [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
 
 <h2 id="di">依赖注入</h2>
 
@@ -2161,6 +2194,7 @@
 * [LMAXCollections](https://github.com/LMAX-Exchange/LMAXCollections)：高性能集合库。
 * [Paguro](https://github.com/GlenKPeterson/Paguro)：JVM的泛型、空安全、不可变集合和函数式转换。
 * [pcj](https://github.com/pmem/pcj)：Java的持久集合库。
+* [Zero-Allocation Hashing](https://github.com/OpenHFT/Zero-Allocation-Hashing)：用于对Java中的任何字节序列进行哈希处理，包括各种原始数组、缓冲区、CharSequence等。
 
 <h2 id="functional">函数式编程</h2>
 
@@ -2292,6 +2326,12 @@
 * [JaVers](https://github.com/javers/javers)： Java的对象审计和差异框架。
 * [java-LSH](https://github.com/tdebatty/java-LSH)：局部敏感哈希(LSH)的Java实现。
 * [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
+* [Spring Batch](https://github.com/spring-projects/spring-batch)：Spring Batch是一个使用Java和Spring编写批处理应用程序的框架。
+* [Spring Cloud Data Flow](https://github.com/spring-cloud/spring-cloud-dataflow)：Spring Cloud Data Flow是一个基于微服务的工具包，用于在Cloud Foundry和Kubernetes中构建流式和批量数据处理管道。
+* [Easy Batch](https://github.com/j-easy/easy-batch)：Easy Batch是一个旨在简化Java批处理的框架。它专为简单的单任务ETL作业而设计。
+* [Liquibase](https://github.com/liquibase/liquibase)：用于跟踪、版本化和部署数据库模式更改。
+* [Dynamic-DataSource](https://github.com/baomidou/dynamic-datasource)：一个基于Spring Boot的快速集成多数据源的Starter。
+* [DataSource-Proxy](https://github.com/jdbc-observations/datasource-proxy)：通过代理为JDBC交互和查询执行提供监听器框架。
 
 <h2 id="annotation-processor">注解处理器</h2>
 
@@ -2449,8 +2489,7 @@
 * [weixin-java-tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
 * [weixin-popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、商户平台、服务商平台)。
 * [Firebase Android](https://github.com/firebase/firebase-android-sdk)：Firebase安卓SDK。
-* [lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架。
-* [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
+* [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架。
 * [PayPal](https://github.com/paypal/PayPal-Android-SDK)：接入PayPal支付的Android SDK。
 * [IJPay](https://github.com/Javen205/IJPay)：封装了微信支付、QQ支付、支付宝支付、京东支付、银联支付、PayPal支付等常用的支付方式以及各种常用的接口。
 * [KillBill](https://github.com/killbill/killbill)：KillBill在过去10年中一直是领先的开源订阅计费和支付平台，该平台的存在是为了帮助扩展计费和支付基础设施并发展业务。
@@ -2942,6 +2981,7 @@
 * [friday](https://github.com/zifeihan/friday)：Java实时反编译工具。
 * [CFR](https://github.com/leibnitz27/cfr)：可以很好地将class文件从其他JVM语言转回Java。
 * [jd-eclipse](https://github.com/java-decompiler/jd-eclipse)：Java反编译器Eclipse插件。
+* [ClassGraph](https://github.com/classgraph/classgraph)：超快速并行Java类路径扫描器和模块扫描器。
 
 <h2 id="obfuscator">字节码混淆工具</h2>
 
