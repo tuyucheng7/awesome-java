@@ -230,6 +230,7 @@
 * [ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个华为云开源的软件开发套件，用于快速开发Java微服务。
 * [Kotless](https://github.com/JetBrains/kotless)：Kotlin开发的Serverless框架，由JetBrains开源。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：JVM上的演化消息驱动微服务框架。
+* [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
 * [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架。
 * [Armeria](https://github.com/line/armeria)：适用于任何情况的首选微服务框架，来自Netty创始人。你可以利用你喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Stream、Spring Boot和Dropwizard。
 * [Light-4j](https://github.com/networknt/light-4j)：快速、轻量级且更高效的微服务框架。
@@ -750,6 +751,7 @@
 * [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：Java限流库/框架。
 * [concurrency-limits](https://github.com/Netflix/concurrency-limits)：实现并集成了从TCP拥塞控制到自动检测服务并发限制的概念，以便以最佳延迟实现最佳吞吐量。
 * [RateLimitJ](https://github.com/mokies/ratelimitj)：用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器，该项目不再活跃。
+* [Fastbreak](https://github.com/Nike-Inc/fastbreak)：Fastbreak是一个简单但功能强大的断路器，本身支持Java 8 CompletableFuture，由Nike开源。
 * [token-bucket](https://github.com/bbeck/token-bucket)：令牌桶限速算法。
 * [RedisRateLimiter](https://github.com/tangaiyun/RedisRateLimiter)：基于Redis的API访问速率限制器。
 * [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
@@ -3474,6 +3476,7 @@
 * [Apache Commons Validator](https://github.com/apache/commons-validator)：Apache开源的通用数据验证框架。
 * [Java Fluent Validator](https://github.com/mvallim/java-fluent-validator)：在Java语言中定义了一个内部DSL供程序员使用。
 * [DSS](https://github.com/esig/dss)：数字签名服务：高级电子签名的创建、扩展和验证。
+* [Backstopper](https://github.com/Nike-Inc/backstopper)：Backstopper是一个与框架无关的API错误处理和(可选)模型验证解决方案，适用于Java 7及更高版本，由Nike开源。
 * [veraPDF-library](https://github.com/veraPDF/veraPDF-library)：行业支持的开源PDF/A验证库。
 * [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
 * [galimatias](https://github.com/smola/galimatias)：galimatias是一个用Java编写的URL解析和规范化库。
