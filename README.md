@@ -23,6 +23,7 @@
 - [测试库](#test-lib)
 - [构建工具](#build)
 - [开源JDK](#jdk)
+- [JVM编程语言](#jvm)
 - [Java IDE](#ide)
 - [持续集成](#ci)
 - [发布工具](#publish)
@@ -570,6 +571,35 @@
 * [Jikes RVM](https://github.com/JikesRVM/JikesRVM)：一个由Java开发的虚拟机，曾经为虚拟机技术前沿研究超过180篇出版物和36篇论文。
 * [duppio](https://github.com/plasma-umass/doppio)：一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM。
 
+<h2 id="jvm">JVM编程语言</h2>
+
+* [Java](https://www.oracle.com/java/)：Java是一种采用面向对象范式的通用编程语言。
+* [Groovy](https://github.com/apache/groovy)：适用于JVM平台的强大的多方面编程语言。
+* [kotlin](https://github.com/JetBrains/kotlin)：一种开源静态类型编程语言，由JetBrains和开源贡献者支持和开发。
+* [Scala](https://github.com/scala/scala)：基于JVM平台的函数式语言。
+* [Clojure](https://github.com/clojure/clojure)：Clojure是Lisp编程语言在Java平台上的现代、动态及函数式方言。
+* [Jython](https://github.com/jython/jython)：用于Java平台的Python。
+* [JRuby](https://github.com/jruby/jruby)：Ruby语言在JVM上的实现。
+* [AviatorScript](https://github.com/killme2008/aviatorscript)：AviatorScript是一门高性能、轻量级寄宿于JVM(包括Android平台)之上的脚本语言。
+* [Eta](https://github.com/typelead/eta)：Eta编程语言是Haskell的一种方言，运行在JVM上。
+* [Flix](https://github.com/flix/flix)：Flix是一种静态类型函数式、命令式和逻辑编程语言。
+* [Golo](https://github.com/eclipse-archived/golo-lang)：JVM的轻量级动态语言。
+* [Rascal](https://github.com/usethesource/rascal)：Rascal元编程语言的核心实现，包含解释器、解析器生成器、解析器运行时。
+* [JPHP](https://github.com/jphp-group/jphp)：JPHP是使用JVM的PHP的新实现，支持PHP语言(7.1+)的许多功能。
+* [JGO](https://github.com/thomasmodeneis/jgo)：Golang的Java编译器和运行时环境。
+* [Enkel](https://github.com/JakubDziworski/Enkel-JVM-language)： Enkel是一种运行在JVM上的简单编程语言。
+* [Yeti](https://github.com/mth/yeti)：JVM的函数式编程语言。
+* [Concurnas](https://github.com/Concurnas/Concurnas)：Concurnas是一种开源JVM编程语言，旨在构建可靠、可扩展、高性能的并发、分布式和并行系统。
+* [Ioke](https://github.com/olabini/ioke)：Ioke是一种强类型、动态、基于原型的编程语言。
+* [Fantom](https://github.com/fantom-lang/fantom)：Fantom是一种在JVM和现代Web浏览器上运行的可移植语言。
+* [Ceylon](https://github.com/eclipse-archived/ceylon)：Ceylon是一种用于Java和JavaScript虚拟机的现代、模块化、静态类型编程语言。
+* [Frege](https://github.com/Frege/frege)：Frege是JVM的Haskell，它将纯函数式编程引入了Java平台。
+* [Xtend](https://github.com/eclipse/xtext-xtend)：Xtend是一种灵活且富有表现力的Java方言，可编译成可读的Java源代码。
+* [Renjin](https://github.com/bedatadriven/renjin)：基于JVM的R语言解释器。
+* [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种静态类型、开源云原生编程语言，由WSO2开发和支持。
+* [BeanShell](https://github.com/beanshell/beanshell)：BeanShell是一个小型、免费、可嵌入的Java源解释器，具有对象脚本语言功能。
+* [Rhino](https://github.com/mozilla/rhino)：Rhino是完全用Java编写的JavaScript的开源实现。
+
 <h2 id="ide">Java IDE</h2>
 
 * [IntelliJ IDEA](https://github.com/JetBrains/intellij-community)：Jetbrains开发的Java、Kotlin IDE。
@@ -1001,7 +1031,6 @@
 * [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式。
 * [Ambry](https://github.com/linkedin/ambry)：Ambry是一个分布式对象存储，支持存储数万亿个小型不可变对象(50K-100K)以及数十亿个大型对象，由LinkedIn开发。
-* [Concurnas](https://github.com/Concurnas/Concurnas)：Concurnas是一种开源JVM编程语言，旨在构建可靠、可扩展、高性能的并发、分布式和并行系统。
 * [Dempsy](https://github.com/Dempsy/dempsy)：分布式弹性消息处理系统。
 * [Shuttle](https://github.com/cubefs/shuttle)：Shuttle提供远程shuffle功能，可以按分区将shuffle数据分组并转储到分布式文件系统中，由Vivo大数据团队开源。
 * [Batch Processing Gateway](https://github.com/apple/batch-processing-gateway)：批处理网关使在Kubernetes上运行Spark服务变得容易，它允许用户通过直观的API调用在Kubernetes上提交、检查和删除Spark应用程序，而无需过多担心幕后发生的事情，由苹果开源。
