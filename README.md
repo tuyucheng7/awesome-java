@@ -116,6 +116,7 @@
 - [集群管理](#cluster-management)
 - [代码分析](#code-analysis)
 - [Maven插件](#maven)
+- [Gradle插件](#gradle)
 - [SDK](#sdk)
 - [区块链](#blockchain)
 - [以太坊](#ethereum)
@@ -140,6 +141,9 @@
 - [字节码工具](#classtool)
 - [字节码混淆工具](#obfuscator)
 - [游戏引擎](#game-engine)
+- [JVM代理](#agent)
+- [编译器&插件](#compiler)
+- [语言服务器](#lsp)
 - [数据库驱动](#db-client)
 - [Minecraft](#minecraft)
 - [音视频处理](#video)
@@ -527,6 +531,7 @@
 * [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
 * [junit-quickcheck](https://github.com/pholser/junit-quickcheck)：junit-quickcheck是一个支持在JUnit中编写和运行基于属性的测试的库。
 * [jetCheck](https://github.com/JetBrains/jetCheck)：由JetBrains开源的基于属性的测试框架。
+* [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz是一组用于测试shader编译器的工具。
 
 <h2 id="build">构建工具</h2>
 
@@ -601,6 +606,7 @@
 * [Nexus](https://github.com/sonatype/nexus-public)：支持代理和缓存功能的二进制管理工具。
 * [Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)：发布二进制文件版本控制工具，可以于Maven或Gradle一起配合使用，提供开源免费版本和几种商业收费版本。
 * [Maven Central](https://central.sonatype.com/)：最大的二进制组件仓库，面向开源社区提供免费服务。
+* [Walle](https://github.com/Meituan-Dianping/walle)：Android Signature V2 Scheme签名下的新一代渠道包打包神器，由美团开源。
 
 <h2 id="project-management">项目管理</h2>
 
@@ -660,7 +666,6 @@
 * [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)：用于运行和创建Docker镜像的Maven插件。
 * [Spotify Docker Client](https://github.com/spotify/docker-client)：这是一个用Java编写的Docker客户端，之前被用于Spotify的许多关键生产系统，目前Spotify已不再维护该项目。
 * [Terrakube](https://github.com/AzBuilder/terrakube)：开源Terraform自动化和协作软件。
-* [gradle-docker-plugin](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
 * [Eclipse JKube](https://github.com/eclipse/jkube)：在Kubernetes上构建和部署Java应用程序。
 * [Cattle](https://github.com/rancher/cattle)：Cattle是为Rancher提供支持的编排引擎，它的主要作用是元数据管理和外部系统的编排。
 * [DotCi](https://github.com/groupon/DotCi)：为Jenkins带来TravisCI等云CI系统的构建配置的便捷性以及Docker运行时环境配置的便捷性。
@@ -1340,7 +1345,6 @@
 * [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
 * [jcommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
-* [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
 * [Jodd](https://github.com/oblac/jodd)：零依赖的Java工具库。
 * [ph-commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量实用程序类。
 * [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
@@ -1679,7 +1683,6 @@
 * [JDOM](https://github.com/hunterhacker/jdom)：可以让Java操作XML变得容易。
 * [Aalto-XML](https://github.com/FasterXML/aalto-xml)：Aalto XML处理器是超高性能的下一代Stax XML处理器实现，实现了基本的Stax API(javax.xml.stream)和Stax2 API扩展(org.codehaus.woodstox.stax2)。
 * [Xembly](https://github.com/yegor256/xembly)：Xembly是一种类似于汇编的命令式编程语言，用于XML文档中的数据操作。
-* [Eclipse LemMinX](https://github.com/eclipse/lemminx)：LemMinX是语言服务器协议的XML语言特定实现，可以与支持该协议的任何编辑器一起使用，为XML语言提供良好的支持。
 * [GsonXml](https://github.com/stanfy/gson-xml)：GsonXml是一个小型库，允许使用Google Gson库进行XML反序列化。
 * [Woodstox](https://github.com/FasterXML/woodstox)：Stax XML API(javax.xml.stream)实现。
 * [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
@@ -1996,7 +1999,6 @@
 * [completable-futures](https://github.com/spotify/completable-futures)：Java 8中处理Future的实用程序，由Spotify开源。
 * [DynamicTp](https://github.com/dromara/dynamic-tp)：基于配置中心的轻量级动态线程池，内置监控告警功能，集成常用中间件线程池管理，可通过SPI自定义扩展实现，由dromara社区开源。
 * [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
-* [BlockHound](https://github.com/reactor/BlockHound)：用于检测来自非阻塞线程的阻塞调用的Java代理。
 * [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
 * [fact-async](https://gitee.com/china2010pan/fact-async)：fact-async是一个基于Spring的异步并行框架。
@@ -2532,6 +2534,23 @@
 * [allure-maven](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
 * [heroku-maven-plugin](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
 
+<h2 id="gradle">Gradle插件</h2>
+
+* [Gradle Retrolambda Plugin](https://github.com/evant/gradle-retrolambda)：一个Gradle插件，用于在Java 6、7和Android中获取Java Lambda支持。
+* [Dexcount Gradle Plugin](https://github.com/KeepSafe/dexcount-gradle-plugin)：一个Gradle插件，用于报告每次构建时APK中方法引用的数量。
+* [Hunter](https://github.com/Leaking/Hunter)：一个快速、增量、并发的框架，用于开发Android项目的编译插件来操作字节码。
+* [Gradle Docker plugin](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
+* [Dependency Management Plugin](https://github.com/spring-gradle-plugins/dependency-management-plugin)：一个Gradle插件，提供类似Maven的依赖管理功能。
+* [JavaFX Gradle Plugin](https://github.com/FibreFoX/javafx-gradle-plugin)：用于JavaFX的Gradle插件。
+* [Google Play Plugin](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
+* [Clean Architecture](https://github.com/bancolombia/scaffold-clean-architecture)：用于按照最佳实践创建基于Clean Architecture的Java和Kotlin应用程序的Gradle插件。
+* [Git-Version Gradle Plugin](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
+* [Gradle Avro Plugin](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Apache Avro的Java代码生成的Gradle插件。
+* [Gradle Baseline](https://github.com/palantir/gradle-baseline)：一组Gradle插件，为开发人员配置默认的代码质量工具。
+* [Gradle AWS Plugin](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
+* [Gradle Modules Plugin](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
+* [Android SVG Drawable Plugin](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
+
 <h2 id="sdk">SDK</h2>
 
 * [Aliyun](https://github.com/aliyun/aliyun-openapi-java-sdk)：阿里云Java SDK。
@@ -2987,7 +3006,7 @@
 * [JMetro](https://pixelduke.com/java-javafx-theme-jmetro/)：JavaFX应用程序的现代主题，具有浅色和深色风格。
 * [Object-Graph-Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：对象图可视化工具。
 
-<h2 id="gui">GUI程序</h2>
+<h4 id="gui">GUI程序</h4>
 
 * [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
 * [FinalShell](https://www.hostbuf.com/)：国内开源的SSH客户端工具。
@@ -3032,7 +3051,7 @@
 * [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
 * [Perceptron](https://github.com/Jasonnor/Perceptron)：使用Java Swing实现单层感知器神经网络。
 
-<h2 id="classtool">字节码工具</h2>
+<h4 id="classtool">字节码工具</h4>
 
 * [JD-GUI](https://github.com/java-decompiler/jd-gui)：Java反编译器GUI。
 * [Recaf](https://github.com/Col-E/Recaf)：现代Java字节码编辑器。
@@ -3054,7 +3073,7 @@
 * [jd-eclipse](https://github.com/java-decompiler/jd-eclipse)：Java反编译器Eclipse插件。
 * [ClassGraph](https://github.com/classgraph/classgraph)：超快速并行Java类路径扫描器和模块扫描器。
 
-<h2 id="obfuscator">字节码混淆工具</h2>
+<h4 id="obfuscator">字节码混淆工具</h4>
 
 * [ProGuard](https://github.com/Guardsquare/proguard)：ProGuard是一个免费的Java字节码收缩器、优化器、混淆器和预验证器。
 * [AabResGuard](https://github.com/bytedance/AabResGuard)：Android App bundle资源混淆工具。
@@ -3105,6 +3124,45 @@
 * [SilenceEngine](https://github.com/sriharshachilakapati/SilenceEngine)：跨平台2D/3D Java游戏引擎(桌面/Html5/Android)。
 * [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和IOS设备。
 
+<h2 id="agent">JVM代理</h2>
+
+* [WGCLOUD](https://github.com/tianshiyeben/wgcloud)：Linux运维监控工具，支持系统硬件信息、内存、CPU、温度、磁盘空间及IO、硬盘smart、系统负载、网络流量等监控。
+* [Spring-Loaded](https://github.com/spring-projects/spring-loaded)：Spring Loaded是一个JVM代理，用于在JVM运行时重新加载class文件更改。
+* [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent)：Java无限运行时类和资源重定义。
+* [BlockHound](https://github.com/reactor/BlockHound)：用于检测来自非阻塞线程的阻塞调用的Java代理。
+* [Jamm](https://github.com/jbellis/jamm)：用于内存测量的Java代理。
+* [Dongtai-agent-java](https://github.com/HXSecurity/DongTai-agent-java)：针对Java应用程序的数据采集工具。
+* [Cubic](https://github.com/dromara/cubic)：一站式问题定位平台，分布式实例监控、线程栈监控、线程池监控、动态Arthas命令集、依赖分析等等。
+* [BTrace](https://github.com/btraceio/btrace)：用于Java平台的安全、动态跟踪工具。
+
+<h2 id="compiler">编译器&插件</h2>
+
+* [Google Closure Compiler](https://github.com/google/closure-compiler)：Google开源的JavaScript检查器和优化器。
+* [TeaVM](https://github.com/konsoletyper/teavm)：Java字节码到JavaScript的编译器。
+* [Janin](https://github.com/janino-compiler/janino)：Janino是一个超小型、快速的Java编译器。
+* [JWebAssembly](https://github.com/i-net-software/JWebAssembly)：JWebAssembly是一个Java字节码到WebAssembly的编译器。
+* [RoboVM](https://github.com/MobiVM/robovm)：针对iOS、Mac OSX和Linux的JVM字节码AOT编译器。
+* [Chronicle Runtime Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler)：Java运行时编译器。
+* [Language Server](https://github.com/georgewfraser/java-language-server)：使用Java编译器API的Java语言服务器。
+* [Java-OO](https://github.com/amelentev/java-oo)：Java-OO是Java编译器和IDE的模块化扩展(插件)，用于支持(类似Scala)运算符重载。
+* [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
+* [J2CL](https://github.com/google/j2cl)：J2CL是一个功能强大、简单且轻量级的从Java到Closure风格JavaScript的转译器，由Google开源。
+* [Zotero](https://github.com/jlegewie/zotfile)：Zotfile是一个Zotero插件。
+* [VirtualAPK](https://github.com/didi/VirtualAPK)：一个强大且轻量级的Android插件框架，由滴滴开源。
+* [DroidPlugin](https://github.com/DroidPluginTeam/DroidPlugin)：Android上的插件框架，无需安装、修改或重新打包即可运行任何第三方apk。
+* [Jarslink](https://github.com/sofastack/sofa-jarslink)：Jarslink是SOFABoot官方基于SOFAArk开发的功能插件，负责管理多应用在SOFAArk容器之上的合并部署，由蚂蚁开源。
+* [VasDolly](https://github.com/Tencent/VasDolly)：Android V1和V2签名通道包插件，由腾讯开源。
+* [PF4J](https://github.com/pf4j/pf4j)：Java插件框架。
+* [OpenGrok](https://github.com/oracle/opengrok)：OpenGrok是一个快速且可用的源代码搜索和交叉引用引擎，可以帮助你搜索、交叉引用和导航源树，由Oracle开源。
+
+<h2 id="lsp">语言服务器</h2>
+
+* [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls)：Eclipse JDT语言服务器是语言服务器协议的Java语言特定实现，可以与支持该协议的任何编辑器一起使用，为Java语言提供良好的支持。
+* [Smithy](https://github.com/smithy-lang/smithy)：Smithy是一种与协议无关的接口定义语言和一组工具，用于为任何编程语言生成客户端、服务器和文档。
+* [Eclipse LSP4J](https://github.com/eclipse-lsp4j/lsp4j)：语言服务器协议的Java实现，旨在由用Java实现的工具和语言服务器使用。
+* [Eclipse LemMinX](https://github.com/eclipse/lemminx)：LemMinX是语言服务器协议的XML语言特定实现，可以与支持该协议的任何编辑器一起使用，为XML语言提供良好的支持。
+* [Groovy Language Server](https://github.com/GroovyLanguageServer/groovy-language-server)：Groovy的语言服务器。
+
 <h2 id="db-client">数据库驱动</h2>
 
 * [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
@@ -3125,6 +3183,8 @@
 * [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：更轻松地构建基于Redis的Spring应用程序。
 * [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
 * [redis-protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
+* [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Apache Cassandra的DataStax Java驱动程序。
+* [Astyanax](https://github.com/Netflix/astyanax)：Cassandra Java客户端库，由Netflix开源。
 
 <h2 id="minecraft">Minecraft</h2>
 
