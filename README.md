@@ -103,6 +103,8 @@
 - [Bean映射](#mapper)
 - [CLI工具](#cli)
 - [SSH工具](#ssh)
+- [DNS&内网穿透](#dns)
+- [Git工具](#git)
 - [集合库](#collection)
 - [函数式编程](#functional)
 - [字节码操作](#bytecode)
@@ -524,7 +526,6 @@
 * [JUnit-5-FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
 * [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：使用Docker Compose管理Docker容器的JUnit Rule。
-* [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植。
 * [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
@@ -587,6 +588,7 @@
 * [Rascal](https://github.com/usethesource/rascal)：Rascal元编程语言的核心实现，包含解释器、解析器生成器、解析器运行时。
 * [JPHP](https://github.com/jphp-group/jphp)：JPHP是使用JVM的PHP的新实现，支持PHP语言(7.1+)的许多功能。
 * [JGO](https://github.com/thomasmodeneis/jgo)：Golang的Java编译器和运行时环境。
+* [LuaJ](https://github.com/luaj/luaj)：为JME和JSE编写的轻量级、快速、以Java为中心的Lua解释器。
 * [Enkel](https://github.com/JakubDziworski/Enkel-JVM-language)： Enkel是一种运行在JVM上的简单编程语言。
 * [Yeti](https://github.com/mth/yeti)：JVM的函数式编程语言。
 * [Concurnas](https://github.com/Concurnas/Concurnas)：Concurnas是一种开源JVM编程语言，旨在构建可靠、可扩展、高性能的并发、分布式和并行系统。
@@ -994,6 +996,7 @@
 * [KCenter](https://github.com/xaecbd/KCenter)：KKafka中心是kafka集群管理维护、生产者/消费者监控、生态组件使用的统一平台。
 * [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：用于Kafka集群管理的Web GUI。
 * [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor通过使用端到端管道生成合成工作负载来监控Kafka集群的可用性。
+* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
 * [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Apache Kafka集群的UI工具。
 * [Mirus](https://github.com/salesforce/mirus)：一种基于Kafka Connect的Apache Kafka集群之间分布式、大容量复制的工具。
 * [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
@@ -1294,7 +1297,6 @@
 * [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：套接字服务器(包括SSL)支持TCP、UDP和Websocket的实时应用程序、实时游戏、MMORPG、消息传递、聊天和流数据。
 * [para](https://github.com/Erudika/para)：用于快速构建Web和移动应用程序的多租户后端服务器。
 * [methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
-* [Neutrino-Proxy](https://gitee.com/dromara/neutrino-proxy)：一款基于Netty的内网穿透神器。
 
 <h2 id="websocket">WebSocket</h2>
 
@@ -1980,6 +1982,7 @@
 * [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
 * [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
 * [Datavines](https://github.com/datavane/datavines)：Datavines是下一代数据观测平台，支持元数据管理和数据质量。
+* [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
 
 <h2 id="math">数学库</h2>
 
@@ -2266,6 +2269,35 @@
 * [Jcabi-SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端(JSch的面向对象包装器)。
 * [JSch](https://github.com/is/jsch)：JSch是SSH2的纯Java实现。
 
+<h2 id="ssh">DNS&内网穿透</h2>
+
+* [DNS66](https://github.com/julian-klode/dns66)：适用于Android的基于DNS的主机拦截器。
+* [NoPE Proxy](https://github.com/summitt/Burp-Non-HTTP-Extension)：Burp Suite的非HTTP协议扩展(NoPE)代理和DNS。
+* [DNSJava](https://github.com/dnsjava/dnsjava)：DNS协议的Java实现。
+* [DNS Proxy](https://github.com/mageddo/dns-proxy-server)：用于从Docker容器、本地配置、互联网中解析DNS主机。
+* [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植，由阿里开源。
+* [Denominator](https://github.com/Netflix/denominator)：Denominator是一个用于操作DNS云的可移植Java库，由Netflix开源。
+* [Happy DNS](https://github.com/qiniu/happy-dns-android)：用于Android的DNS库。
+* [DNS-Java](https://github.com/spotify/dns-java)：提供了一些与SRV查找相关的有用功能的小型DNS包装器库，由Spotify开源。
+* [DNS-Cheater](https://gitee.com/matrixy/dns-cheater)：Java实现的DNS服务器，可通过WEB管理界面随意设置灵活的解析规则。
+* [Neutrino-Proxy](https://gitee.com/dromara/neutrino-proxy)：一款基于Netty的内网穿透神器，由dromara社区开源。
+* [Lanproxy](https://gitee.com/fengfei/lanproxy)：Lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具。
+* [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
+
+<h2 id="git">Git工具</h2>
+
+* [Gitblit](https://github.com/gitblit-org/gitblit)：Gitblit是一个开源、纯Java Git解决方案，用于管理、查看和服务Git仓库。
+* [Gitiles](https://github.com/google/gitiles)：Gitiles是一个简单的Git存储库浏览器，基于JGit构建，由Google开源。
+* [Agit](https://github.com/rtyley/agit)：Agit是适用于Android设备的开源Git客户端。
+* [Kooder](https://github.com/oschina/kooder)：Kooder是一个为Gitee/GitLab开发的开源代码搜索工具。
+* [Jcabi-Github](https://github.com/jcabi/jcabi-github)：GitHub API的Java面向对象包装器。
+* [RepoSense](https://github.com/reposense/RepoSense)：Git存储库的贡献分析工具。
+* [JGit](https://eclipse.dev/jgit/)：可以用于操作Git存储库的纯Java实现。
+* [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
+* [GitLab4J](https://github.com/gitlab4j/gitlab4j-api)：GitLab4J提供了功能齐全且易于使用的Java库，用于通过GitLab REST API使用GitLab存储库。
+* [GitSolo](https://gitee.com/zhiqim/gitsolo)：知启蒙团队开源的极简Git服务器，纯Java开发。
+* [Github Java API](https://github.com/hub4j/github-api)：GitHub的Java API。
+
 <h2 id="collection">集合库</h2>
 
 * [Apache Commons Collections](https://github.com/apache/commons-collections)：Apache基金会下的开源Java集合工具库。
@@ -2456,6 +2488,7 @@
 * [beanknife](https://github.com/vipcxj/beanknife)：用于自动生成数据传输对象(DTO)的注解处理器库。
 * [Rest.Vertx](https://github.com/zandero/rest.vertx)：类似JAX-RS的注解处理器，适用于Vert.x Vertical。
 * [FreeBuilder](https://github.com/inferred/FreeBuilder)：自动生成Java的Builder模式。
+* [Airline](https://github.com/airlift/airline)：Airline是一个基于Java注解的框架，用于解析类似命令行结构的Git。
 
 <h2 id="event-bus">事件总线</h2>
 
@@ -2508,6 +2541,8 @@
 * [PMD](https://github.com/pmd/pmd)：可扩展的多语言静态代码分析器。
 * [SpotBugs](https://github.com/spotbugs/spotbugs)：一种静态分析工具，用于查找Java代码中的错误。
 * [SonarJava](https://github.com/SonarSource/sonar-java)：用于Java代码质量和安全性的SonarSource静态分析器。
+* [Google Java Format](https://github.com/google/google-java-format)：google-java-format是一个重新格式化Java源代码以符合Google Java风格的程序。
+* [Spotless](https://github.com/diffplug/spotless)：Spotless是支持多种语言的代码格式化工具。
 * [Spoon](https://github.com/INRIA/spoon)：Spoon是一个用于分析和转换Java源代码的元编程库。
 * [FindBugs](https://github.com/findbugsproject/findbugs)：Findbugs是一款开源的Java源码静态分析工具。
 * [jQAssistant](https://github.com/jQAssistant/jqassistant)：一个基于Neo4j数据库的依赖分析工具，支持分析Java、XML、JSON等格式的数据，并提供可视化界面和查询语言。
@@ -2526,7 +2561,6 @@
 <h2 id="Maven">Maven插件</h2>
 
 * [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
-* [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
 * [android-maven-plugin](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
 * [javafx-maven-plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
 * [swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)：该插件使你的Swagger注解项目能够在Maven构建阶段生成Swagger规范和可定制的模板化静态文档。
@@ -2610,7 +2644,6 @@
 * [weixin-java-tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
 * [weixin-popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、商户平台、服务商平台)。
 * [Firebase Android](https://github.com/firebase/firebase-android-sdk)：Firebase安卓SDK。
-* [Github Java API](https://github.com/hub4j/github-api)：GitHub的Java API。
 * [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架。
 
 <h2 id="blockchain">区块链</h2>
