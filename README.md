@@ -187,14 +187,14 @@
 
 * [Spring MVC](https://github.com/spring-projects/spring-framework/tree/main/spring-webmvc)：Spring MVC是Spring生态中的Web框架。
 * [Spring Boot](https://github.com/spring-projects/spring-boot)：用于快速开发Spring应用的脚手架框架。
-* [Solon](https://github.com/noear/solon)：国产的轻量级Java Web框架。
+* [Solon](https://gitee.com/noear/solon)：国产的轻量级Java Web框架。
 * [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序。
 * [Blade](https://github.com/lets-blade/blade)：国产的轻量级Web框架。
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
 * [Javalin](https://github.com/javalin/javalin)：简单而现代的Java和Kotlin Web框架。
 * [Hilla](https://github.com/vaadin/hilla)：Java全栈框架，支持React和Lit/Web组件。
 * [Ninja](https://github.com/ninjaframework/ninja)：Java的全栈Web框架。
-* [Sofa-Boot](https://github.com/sofastack/sofa-boot)：蚂蚁开发的Spring Boot增强并与其完全兼容的框架，提供就绪性检查、类隔离等功能。
+* [SOFABoot](https://github.com/sofastack/sofa-boot)：蚂蚁开发的Spring Boot增强并与其完全兼容的框架，提供就绪性检查、类隔离等功能。
 * [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架。
 * [Vaadin](https://github.com/vaadin/framework)：Vaadin是用于现代Java Web应用程序的Java框架。
 * [Jooby](https://github.com/jooby-project/jooby)：适用于Java和Kotlin的模块化Web框架。
@@ -528,7 +528,7 @@
 * [Jqwik](https://github.com/jqwik-team/jqwik)：JUnit平台上基于属性的测试库。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：可以自动生成包括边缘情况的测试实例。
 * [OpenTest4J](https://github.com/ota4j-team/opentest4j)：JVM开放测试联盟。
-* [randomizedtesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
+* [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
 * [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是用于Java程序的无GUI浏览器。
 * [XmlUnit](https://github.com/xmlunit/xmlunit)：XMLUnit是一个支持以多种方式测试XML输出的库。
 * [JUnit Pioneer](https://github.com/junit-pioneer/junit-pioneer)：JUnit 5扩展包，提供很多JUnit 5没有的Extension。
@@ -541,13 +541,13 @@
 * [JGotesting](https://github.com/tastapod/jgotesting)：受Go测试包启发的JUnit兼容测试工具。
 * [Pact](https://github.com/pact-foundation/pact-jvm)：Pact的JVM版本，用于编写消费者驱动的契约测试。
 * [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
-* [evosuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
+* [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
 * [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
-* [jwebunit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
+* [JWebUnit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [ScalaCheck](https://github.com/typelevel/scalacheck)：ScalaCheck是一个用Scala编写的库，用于对Scala或Java程序进行基于属性的自动化测试。
 * [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
 * [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
-* [JUnit-5-FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
+* [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
 * [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：使用Docker Compose管理Docker容器的JUnit Rule。
 * [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
@@ -3985,12 +3985,12 @@
 * [JSON Schema Validator](https://github.com/everit-org/json-schema)：用于Java的JSON模式验证器，基于org.json API。
 * [YAVI](https://github.com/making/yavi)：基于Lambda的类型安全验证框架。
 * [iban4j](https://github.com/arturmkrtchyan/iban4j)：用于生成和验证国际银行帐号(IBAN ISO_13616)和企业标识符代码(BIC ISO_9362)的Java库。
-* [libphonenumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
+* [LibPhoneNumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
 * [Apache Commons Validator](https://github.com/apache/commons-validator)：Apache开源的通用数据验证框架。
 * [Java Fluent Validator](https://github.com/mvallim/java-fluent-validator)：在Java语言中定义了一个内部DSL供程序员使用。
 * [DSS](https://github.com/esig/dss)：数字签名服务：高级电子签名的创建、扩展和验证。
 * [Backstopper](https://github.com/Nike-Inc/backstopper)：Backstopper是一个与框架无关的API错误处理和(可选)模型验证解决方案，适用于Java 7及更高版本，由Nike开源。
-* [veraPDF-library](https://github.com/veraPDF/veraPDF-library)：行业支持的开源PDF/A验证库。
+* [veraPDF](https://github.com/veraPDF/veraPDF-library)：行业支持的开源PDF/A验证库。
 * [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
 * [galimatias](https://github.com/smola/galimatias)：galimatias是一个用Java编写的URL解析和规范化库。
 * [JHOVE](https://github.com/openpreserve/jhove)：JHOVE是一个可扩展的软件框架，用于执行数字对象的格式识别、验证和表征，由哈佛大学开发。
