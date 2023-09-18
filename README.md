@@ -585,7 +585,10 @@
 * [Buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
 * [SBT](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
 * [Bnd](https://github.com/bndtools/bnd)：用于构建OSGi包的工具，包括Eclipse、Maven和Gradle插件。
+* [Mill](https://github.com/com-lihaoyi/mill)：Mill是一个现代化的构建工具，支持Scala和Java项目的构建和管理。
+* [Apache Ivy](https://github.com/apache/ant-ivy)：Apache Ivy是一个用于管理项目依赖关系的工具，具有很高的灵活性和可配置性，并且与Apache Ant紧密集成。
 * [Freeline](https://github.com/alibaba/freeline)：Android超快速构建工具，Instant Run的替代品，由阿里开源。
+* [Leiningen](https://github.com/technomancy/leiningen)：Leiningen是一种构建自动化和依赖管理工具，用于以Clojure编程语言编写的软件项目的简单配置。
 * [Apache Archiva](https://github.com/apache/archiva)：Apache Archiva是一种可扩展的存储库管理软件，可帮助管理你自己的个人或企业范围的构建工件存储库。
 
 <h2 id="jdk">开源JDK</h2>
@@ -1840,6 +1843,7 @@
 * [Markwon](https://github.com/noties/Markwon)：Android Markdown库。
 * [jOpenDocument](https://www.jopendocument.org/)：用于OASIS Open Document文件操作的纯Java库。
 * [Markdown Doclet](https://github.com/Abnaxos/markdown-doclet)：允许在JavaDoc注释中使用Markdown的Doclet。
+* [JTidy](https://github.com/jtidy/jtidy)：JTidy是HTML Tidy的Java端口，是一个HTML语法检查器和漂亮的打印机。
 
 <h2 id="datetime">日期时间库</h2>
 
@@ -3295,7 +3299,7 @@
 * [jfxtras-styles](https://github.com/JFXtras/jfxtras-styles)： Java、JavaFX主题或外观，目前包含JMetro主题。
 * [jbootx](https://github.com/dicolar/jbootx)：JavaFX Bootstrap主题库。
 * [CustomStage](https://github.com/Oshan96/CustomStage)：用于创建完全自定义的未修饰窗口的JavaFX UI框架。
-* [cssfx](https://github.com/McFoggy/cssfx)：允许运行时修改JavaFX CSS。
+* [CSSFX](https://github.com/McFoggy/cssfx)：允许运行时修改JavaFX CSS。
 * [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph)：该项目提供了一个通用JavaFX图形可视化库，可以通过力导向算法实时自动排列顶点的位置。
 * [Animated](https://github.com/iamgio/animated)：JavaFX的现代动画库。
 * [FXSkins](https://github.com/dukke/FXSkins)：现有JavaFX控件的新外观集合。
@@ -3303,6 +3307,7 @@
 * [JFXShader](https://github.com/Teragam/JFXShader)：允许在JavaFX中自定义效果着色器。
 * [MDFX](https://github.com/JPro-one/markdown-javafx-renderer)：MDFX是一个简单的JavaFX渲染器。
 * [FXParallax](https://github.com/dukke/FXParallax)：用于为Java添加视差效果的控件。
+* [Actlist](https://github.com/actlist/actlist)：Actlist是一个实用平台，可以轻松简单地执行你自己的行为列表。
 
 <h4 id="javafx-chart">JavaFX图表库</h4>
 
@@ -3317,6 +3322,7 @@
 * [FlexGanttFX](https://dlsc.com/products/flexganttfx/)：FlexGanttFX是目前可用于Java的最先进的基于JavaFX的甘特图框架。
 * [FXyz](https://github.com/FXyz/FXyz)：JavaFX 3D可视化和组件库。
 * [Countries](https://github.com/HanSolo/countries)：包含不同控件的JavaFX库，用于可视化基于国家/地区的数据。
+* [Animated](https://github.com/iAmGio/animated)：JavaFX的现代动画库。
 
 <h4 id="javafx-tool">JavaFX小工具</h4>
 
@@ -3777,6 +3783,7 @@
 * [COMSAT](https://github.com/puniverse/comsat)：将标准Java Web相关API与Quasar纤程和Actor集成。
 * [Drift](https://github.com/airlift/drift)：一个基于注解的Java库，用于创建Thrift可序列化类型和服务。
 * [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
+* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是一个基于Netty的轻量级、易用且高性能的远程框架，由蚂蚁开源。
 
 <h2 id="statemachine">状态机</h2>
 
