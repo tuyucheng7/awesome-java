@@ -86,6 +86,8 @@
 - [机器学习](#ml)
 - [自然语言处理](#nlp)
 - [深度学习](#dl)
+- [数据科学](#science)
+- [数学库](#math)
 - [遗传算法](#genetic)
 - [人脸识别](#face)
 - [专家系统](#expert-system)
@@ -94,8 +96,6 @@
 - [生物信息学](#bioinformatics)
 - [基因组学](#genomics)
 - [医疗平台](#medical)
-- [数据科学](#science)
-- [数学库](#math)
 - [并发编程](#concurrency)
 - [安全库](#security-lib)
 - [身份认证](#authentication)
@@ -2002,6 +2002,63 @@
 * [DLSF](https://github.com/Cloudslab/DLSF)：用于随机雾云计算环境的基于深度学习的调度程序。
 * [ADAMS](https://adams.cms.waikato.ac.nz/)：ADAMS代表高级数据挖掘和机器学习系统，是专门针对Java的深度学习库，由怀卡托大学开发。
 
+<h2 id="science">数据科学</h2>
+
+* [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个数据框架和可视化库，支持加载、清理、转换、过滤和汇总数据。
+* [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
+* [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
+* [JGraphX](https://github.com/jgraph/jgraphx)：JGraphX是一个Java Swing图表(图形可视化)库。
+* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
+* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图。
+* [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在Java虚拟机(JVM)上进行离线和实时分析。
+* [LogicNG](https://github.com/logic-ng/LogicNG)：LogicNG是一个用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
+* [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Apache Commons Statistics提供用于统计应用程序的实用程序，为常用的连续和离散分布提供支持。
+* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit(Mines JTK)是一组用于科学和工程的Java包和原生(非Java)软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形。
+* [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
+* [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
+* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
+* [KNIME Python](https://github.com/knime/knime-python)：KNIME Python集成缩小了KNIME分析平台和Python之间的差距，它提供了编写和执行Python脚本的节点以及在KNIME分析平台的其他部分使用Python的功能。
+* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序(JavaFX、Swing或服务器端)的2D图表库。
+* [DataMelt](https://datamelt.org/)：DataMelt是一款为科学家、工程师和学生提供的免费数学软件，它可用于数值计算、统计、符号计算、数据分析和数据可视化。
+* [Dex](https://github.com/PatMartin/Dex)：Dex是数据科学的强大工具，它是在JavaFX之上用Groovy和Java编写的数据可视化工具，能够进行强大的ETL和发布Web可视化。
+* [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性。
+* [krangl](https://github.com/holgerbrandl/krangl)：krangl是一个用于数据处理的Kotlin库，通过使用现代函数式API实现数据操作语法，它允许过滤、转换、聚合和重塑表格数据。
+* [Science Parse](https://github.com/allenai/science-parse)：用于解析科学论文(PDF形式)并以结构化形式返回的Java库。
+* [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充。
+* [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能。
+* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
+* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具，有助于通过现代用户友好的环境有效实现数据民主化、增强协作并减少数据发现时间。
+* [Zingg](https://github.com/zinggAI/zingg)：使用机器学习进行可扩展的身份解析、实体解析、数据掌握和重复数据删除。
+* [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
+* [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
+* [Featran](https://github.com/spotify/featran)：用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
+* [Datavines](https://github.com/datavane/datavines)：Datavines是下一代数据观测平台，支持元数据管理和数据质量。
+* [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
+
+<h2 id="math">数学库</h2>
+
+* [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
+* [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Colt是Java中用于高性能科学计算的库。它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法。
+* [Apache Commons Math](https://github.com/apache/commons-math)：Commons Math是一个轻量级、独立的数学和统计组件库，可解决Java编程语言或Commons Lang中无法解决的最常见问题。
+* [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Apache Commons Numbers项目提供数字类型和实用程序。
+* [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Apache Commons Geometry项目提供几何类型和实用程序。
+* [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库。
+* [JNT](https://math.nist.gov/jnt/)：包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作。
+* [JUMP](https://sourceforge.net/projects/jump-math/)：JUMP是一个基于Java的可扩展高精度数学包，包括对基于分数的计算的支持，支持转换为浮点数和BigDecimal。
+* [JSci](https://jsci.sourceforge.net/)：这是一组免费的Java包，目的是以最自然的方式概括科学方法/原理。
+* [Jampack](https://math.nist.gov/pub/Jampack/Jampack/AboutJampack.html)：Jampack是一个协作类的集合，旨在在Java应用程序中执行矩阵计算。
+* [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类。
+* [JOML](https://github.com/JOML-CI/JOML)：用于OpenGL渲染计算的Java数学库。
+* [KeenWrite](https://github.com/DaveJarvis/KeenWrite)：免费、开源、跨平台桌面Markdown文本编辑器，具有实时预览、字符串插值和数学功能。
+* [Symja](https://github.com/axkr/symja_android_library)：计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
+* [BigDecimalMath](https://github.com/eobermuhlner/big-math)：使用任意精度的高级Java BigDecimal数学函数库。
+* [uncommons-maths](https://github.com/dwdyer/uncommons-maths)：Java的随机数生成器、概率分布、组合学和统计库。
+* [Hacktoberfest-Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
+* [RxJavaMath](https://github.com/ReactiveX/RxJavaMath)：RxJava的数学运算符。
+* [KMath](https://github.com/SciProgCentre/kmath)：Kotlin数学扩展库。
+* [ParallelColt](https://github.com/rwl/ParallelColt)：Parallel Colt是Colt的多线程版本。
+
 <h4 id="genetic">遗传算法</h4>
 
 * [Jenetics](https://github.com/jenetics/jenetics)：Jenetics是一种用Java编写的高级遗传算法，它提供了遗传算法概念的清晰分离。
@@ -2132,63 +2189,6 @@
 * [HAPI FHIR Core](https://github.com/hapifhir/org.hl7.fhir.core)：适用于FHIR规范的Java核心对象处理代码，带有实用程序(包括验证器)。
 * [OpenMRS](https://github.com/openmrs/openmrs-core)：OpenMRS是一个基于患者的医疗记录系统，专注于为提供商提供免费的可定制电子医疗记录系统(EMR)。
 * [dcm4che](https://github.com/dcm4che/dcm4che)：Java中的DICOM实现。
-
-<h2 id="science">数据科学</h2>
-
-* [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个数据框架和可视化库，支持加载、清理、转换、过滤和汇总数据。
-* [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
-* [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
-* [JGraphX](https://github.com/jgraph/jgraphx)：JGraphX是一个Java Swing图表(图形可视化)库。
-* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
-* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图。
-* [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在Java虚拟机(JVM)上进行离线和实时分析。
-* [LogicNG](https://github.com/logic-ng/LogicNG)：LogicNG是一个用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
-* [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Apache Commons Statistics提供用于统计应用程序的实用程序，为常用的连续和离散分布提供支持。
-* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit(Mines JTK)是一组用于科学和工程的Java包和原生(非Java)软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形。
-* [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
-* [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
-* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
-* [KNIME Python](https://github.com/knime/knime-python)：KNIME Python集成缩小了KNIME分析平台和Python之间的差距，它提供了编写和执行Python脚本的节点以及在KNIME分析平台的其他部分使用Python的功能。
-* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序(JavaFX、Swing或服务器端)的2D图表库。
-* [DataMelt](https://datamelt.org/)：DataMelt是一款为科学家、工程师和学生提供的免费数学软件，它可用于数值计算、统计、符号计算、数据分析和数据可视化。
-* [Dex](https://github.com/PatMartin/Dex)：Dex是数据科学的强大工具，它是在JavaFX之上用Groovy和Java编写的数据可视化工具，能够进行强大的ETL和发布Web可视化。
-* [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性。
-* [krangl](https://github.com/holgerbrandl/krangl)：krangl是一个用于数据处理的Kotlin库，通过使用现代函数式API实现数据操作语法，它允许过滤、转换、聚合和重塑表格数据。
-* [Science Parse](https://github.com/allenai/science-parse)：用于解析科学论文(PDF形式)并以结构化形式返回的Java库。
-* [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充。
-* [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能。
-* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
-* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具，有助于通过现代用户友好的环境有效实现数据民主化、增强协作并减少数据发现时间。
-* [Zingg](https://github.com/zinggAI/zingg)：使用机器学习进行可扩展的身份解析、实体解析、数据掌握和重复数据删除。
-* [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
-* [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
-* [Featran](https://github.com/spotify/featran)：用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
-* [Datavines](https://github.com/datavane/datavines)：Datavines是下一代数据观测平台，支持元数据管理和数据质量。
-* [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
-
-<h2 id="math">数学库</h2>
-
-* [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
-* [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Colt是Java中用于高性能科学计算的库。它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法。
-* [Apache Commons Math](https://github.com/apache/commons-math)：Commons Math是一个轻量级、独立的数学和统计组件库，可解决Java编程语言或Commons Lang中无法解决的最常见问题。
-* [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Apache Commons Numbers项目提供数字类型和实用程序。
-* [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Apache Commons Geometry项目提供几何类型和实用程序。
-* [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库。
-* [JNT](https://math.nist.gov/jnt/)：包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作。
-* [JUMP](https://sourceforge.net/projects/jump-math/)：JUMP是一个基于Java的可扩展高精度数学包，包括对基于分数的计算的支持，支持转换为浮点数和BigDecimal。
-* [JSci](https://jsci.sourceforge.net/)：这是一组免费的Java包，目的是以最自然的方式概括科学方法/原理。
-* [Jampack](https://math.nist.gov/pub/Jampack/Jampack/AboutJampack.html)：Jampack是一个协作类的集合，旨在在Java应用程序中执行矩阵计算。
-* [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类。
-* [JOML](https://github.com/JOML-CI/JOML)：用于OpenGL渲染计算的Java数学库。
-* [KeenWrite](https://github.com/DaveJarvis/KeenWrite)：免费、开源、跨平台桌面Markdown文本编辑器，具有实时预览、字符串插值和数学功能。
-* [Symja](https://github.com/axkr/symja_android_library)：计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
-* [BigDecimalMath](https://github.com/eobermuhlner/big-math)：使用任意精度的高级Java BigDecimal数学函数库。
-* [uncommons-maths](https://github.com/dwdyer/uncommons-maths)：Java的随机数生成器、概率分布、组合学和统计库。
-* [Hacktoberfest-Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
-* [RxJavaMath](https://github.com/ReactiveX/RxJavaMath)：RxJava的数学运算符。
-* [KMath](https://github.com/SciProgCentre/kmath)：Kotlin数学扩展库。
-* [ParallelColt](https://github.com/rwl/ParallelColt)：Parallel Colt是Colt的多线程版本。
 
 <h2 id="concurrency">并发编程</h2>
 
