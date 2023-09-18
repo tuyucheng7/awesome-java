@@ -1934,26 +1934,28 @@
 * [Seldon](https://github.com/SeldonIO/seldon-server)：基于Kubernetes构建的机器学习平台和推荐引擎。
 * [Tribuo](https://github.com/oracle/tribuo)：Oracle开源的Java机器学习库。
 * [AeroSolve](https://github.com/airbnb/aerosolve)：一个从头开始设计的人性化机器学习库，由Airbnb开源。
-* [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Apache Spark上构建模块化、可重用、强类型的机器学习工作流程，只需最少的手动调整。
 * [Apache SystemDS](https://github.com/apache/systemds)：用于端到端数据科学生命周期的开源机器学习系统。
 * [QuickML](https://github.com/sanity/quickml)：Java中快速且易于使用的决策树学习器。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
-* [Dagli](https://github.com/linkedin/dagli)：用于定义机器学习模型的框架，包括特征生成和转换，如有向无环图(DAG)。
+* [Dagli](https://github.com/linkedin/dagli)：用于定义机器学习模型的框架，包括特征生成和转换，如有向无环图(DAG)，由LinkedIn开源。
 * [Ytk-learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-learn是一个分布式机器学习库，实现了大多数流行的机器学习算法。
-* [Meka](https://github.com/Waikato/meka)：使用Weka机器学习框架的多标签分类器和评估程序。
+* [Meka](https://github.com/Waikato/meka)：使用Weka机器学习框架的多标签分类器和评估程序，由怀卡托大学开发。
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow的Java绑定。
 * [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [oj!Algorithms](https://github.com/optimatika/ojAlgo)：与数学、线性代数和优化有关的开源Java代码。
+* [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
-* [Moa](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具。
-* [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是2008年创建的一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
+* [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具，由怀卡托大学开发。
+* [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个先进的机器学习框架，支持支持向量机、人工神经网络、遗传编程、贝叶斯网络、隐马尔可夫模型、遗传编程和遗传算法。
 * [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个轻量级的Java神经网络框架。
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
+* [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Apache Spark上构建模块化、可重用、强类型的机器学习工作流程，只需最少的手动调整。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：Java统计分析工具，用于机器学习的Java库。
 * [Java-ML](https://github.com/charliermarsh/java-ml)：多种机器学习分类算法的Java实现。
 * [HTM.Java](https://github.com/numenta/htm.java)：Java中的分层临时内存实现-Numenta智能计算平台(NuPIC)的官方社区驱动Java端口。
 * [GeoGebra](https://github.com/geogebra/geogebra)：GeoGebra应用程序。
 * [Libsvm](https://github.com/cjlin1/libsvm)：Libsvm是一款简单、易用、高效的SVM分类和回归软件。它可以解决C-SVM分类、nu-SVM分类、一类SVM、epsilon-SVM回归和nu-SVM回归问题。
+* [Elasticsearch Learning](https://github.com/o19s/elasticsearch-learning-to-rank)：用于将机器学习与Elasticsearch集成的插件。
 
 <h4 id="nlp">自然语言处理</h4>
 
@@ -1963,7 +1965,7 @@
 * [FudanNLP](https://github.com/FudanNLP/fnlp)：中文自然语言处理工具包。
 * [Lingua](https://github.com/pemistahl/lingua)：适用于Java和JVM的最准确的自然语言检测库，适用于长文本和短文本。
 * [DKPro-Core](https://github.com/dkpro/dkpro-core)：基于Apache UIMA框架的自然语言处理(NLP)软件组件集合。
-* [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
+* [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用，由马萨诸塞大学和宾夕法尼亚大学开发。
 * [Jcseg](https://github.com/lionsoul2014/jcseg)：Jcseg是一个用Java开发的轻量级NLP框架。
 * [Neo4j-NLP](https://github.com/graphaware/neo4j-nlp)：提供基于图的自然语言处理功能。
 * [MiNLP](https://github.com/XiaoMi/MiNLP)：小米开发的自然语言处理工具包。
@@ -1974,13 +1976,14 @@
 * [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft)：将自然语言转换为操作的API。
 * [EasyAI](https://gitee.com/ldp_dpsmax/easyAi)：通过简单的API调用就可以实现常用的图像内物体的识别，定位等图像AI服务，及自然语言分类处理服务。
 * [Hawking](https://github.com/zoho/hawking)：自然语言日期时间解析器，可以从具有上下文的文本中提取日期和时间并解析为所需的格式。
-* [LingPipe](https://www.alias-i.com/)：LingPipe是使用计算语言学处理文本的工具包。
+* [LingPipe](https://www.alias-i.com/)：用于从POS标记到情感分析等任务的工具包。
 * [Twitter Text](https://github.com/twitter/twitter-text)：Twitter使用此代码对文本进行标记和解析，以满足平台上可用内容的期望。
 * [NLP4J](https://github.com/emorynlp/nlp4j)：NLP4J项目(以前称为ClearNLP)为JVM语言提供了一个NLP工具包，该项目目前由埃默里大学NLP研究小组开发。
 * [Joshua](http://joshua-decoder.org/)：Joshua是一个开源统计机器翻译解码器，用于基于短语、分层和基于语法的机器翻译，由约翰霍普金斯大学人类语言技术卓越中心开发。
 * [Z-MERT](http://cs.jhu.edu/~ozaidan/zmert/)：Z-MERT是一款用于机器翻译系统最小错误率训练的软件工具，由约翰霍普金斯大学开发。
 * [ClearTK](https://github.com/ClearTK/cleartk)：ClearTK提供了一个用Java开发统计自然语言处理组件的框架，并构建在Apache UIMA之上，它由科罗拉多大学博尔德分校计算语言和教育研究中心(CLEAR)开发。
 * [ARK Twitter NLP](https://github.com/brendano/ark-tweet-nlp)：CMU ARK Twitter词性标注器。
+* [GATE](https://github.com/GateNLP/gate-core)：GATE是一个开源软件工具包，能够解决几乎所有文本处理问题，由谢菲尔德大学开发。
 
 <h4 id="dl">深度学习</h4>
 
@@ -1997,6 +2000,7 @@
 * [TensorDash](https://github.com/CleanPegasus/TensorDash)：TensorDash是一款应用程序，可让你远程监控深度学习模型的指标，并在模型训练完成或崩溃时通知你。
 * [Omega-AI](https://gitee.com/iangellove/omega-ai)：基于Java打造的深度学习框架，帮助你快速搭建神经网络，实现训练或测试模型，引擎支持自动求导，多线程与GPU运算。
 * [DLSF](https://github.com/Cloudslab/DLSF)：用于随机雾云计算环境的基于深度学习的调度程序。
+* [ADAMS](https://adams.cms.waikato.ac.nz/)：ADAMS代表高级数据挖掘和机器学习系统，是专门针对Java的深度学习库，由怀卡托大学开发。
 
 <h4 id="genetic">遗传算法</h4>
 
@@ -2146,6 +2150,7 @@
 * [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
 * [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
 * [KNIME Python](https://github.com/knime/knime-python)：KNIME Python集成缩小了KNIME分析平台和Python之间的差距，它提供了编写和执行Python脚本的节点以及在KNIME分析平台的其他部分使用Python的功能。
+* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序(JavaFX、Swing或服务器端)的2D图表库。
 * [DataMelt](https://datamelt.org/)：DataMelt是一款为科学家、工程师和学生提供的免费数学软件，它可用于数值计算、统计、符号计算、数据分析和数据可视化。
 * [Dex](https://github.com/PatMartin/Dex)：Dex是数据科学的强大工具，它是在JavaFX之上用Groovy和Java编写的数据可视化工具，能够进行强大的ETL和发布Web可视化。
 * [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性。
@@ -2153,11 +2158,12 @@
 * [Science Parse](https://github.com/allenai/science-parse)：用于解析科学论文(PDF形式)并以结构化形式返回的Java库。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充。
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能。
-* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件。
+* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
 * [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具，有助于通过现代用户友好的环境有效实现数据民主化、增强协作并减少数据发现时间。
 * [Zingg](https://github.com/zinggAI/zingg)：使用机器学习进行可扩展的身份解析、实体解析、数据掌握和重复数据删除。
 * [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
 * [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
+* [Featran](https://github.com/spotify/featran)：用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
 * [Datavines](https://github.com/datavane/datavines)：Datavines是下一代数据观测平台，支持元数据管理和数据质量。
 * [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
 
@@ -3214,7 +3220,6 @@
 * [FlatLaf](https://github.com/JFormDesigner/FlatLaf)：FlatLaf是Java Swing桌面应用程序的现代开源跨平台外观。
 * [BeautyEye](https://github.com/JackJiang2011/beautyeye)：BeautyEye是一种Java Swing跨平台外观。
 * [WebLaf](https://github.com/mgarin/weblaf)：WebLaF是一个完全开源的外观和感觉以及用纯Java编写的组件库，用于跨平台桌面Swing应用程序。
-* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序(JavaFX、Swing或服务器端)的2D图表库。
 * [Orson-Charts](https://github.com/jfree/orson-charts)：用于Java应用程序(JavaFX、Swing或服务器端)的3D图表库。
 * [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)：用于Java Swing应用程序的语法突出显示、代码折叠文本编辑器。
 * [Radiance](https://github.com/kirill-grouchnikov/radiance)：Radiance是一个库集合，用于基于Ephemeral设计系统编写现代、优雅且快速的Swing应用程序。
