@@ -1,199 +1,187 @@
 # Java生态资源大全
 
-该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android、生物学等方面。
+该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android、生物学等领域。
 
 所有框架和库都是基于Java语言实现的，只有极少数是由Kotlin、Scala、Groovy等JVM系语言混合开发，并且也可以在Java中兼容使用。
 
 ## 目录
 
-<html>
-    <table style="margin-left: auto; margin-right: auto;">
-            <td>
-                <li><a href="#web-framework">Web框架</a></li>
-                <li><a href="#rest-framework">REST框架</a></li>
-                <li><a href="#microservice-framework">微服务框架</a></li>
-                <li><a href="#microservice-tool">微服务工具</a></li>
-                <li><a href="#orm-framework">持久层框架</a></li>
-                <li><a href="#scaffold">脚手架</a></li>
-                <li><a href="#unit-test">单元测试</a></li>
-                <li><a href="#assertions">断言库</a></li>
-                <li><a href="#mocks">Mock框架</a></li>
-                <li><a href="#mocks-lib">Mock工具</a></li>
-                <li><a href="#mocks-data">数据Mock</a></li>
-                <li><a href="#bdd">BDD框架</a></li>
-                <li><a href="#automation">自动化工具</a></li>
-                <li><a href="#load">性能测试</a></li>
-                <li><a href="#test-lib">测试库</a></li>
-                <li><a href="#coverage">代码覆盖率</a></li>
-                <li><a href="#build">构建工具</a></li>
-                <li><a href="#jdk">开源JDK</a></li>
-                <li><a href="#jvm">JVM编程语言</a></li>
-                <li><a href="#ide">Java IDE</a></li>
-                <li><a href="#ci">持续集成</a></li>
-                <li><a href="#publish">发布工具</a></li>
-                <li><a href="#project-management">项目管理</a></li>
-                <li><a href="#cloud-native">云原生</a></li>
-                <li><a href="#container">容器化工具</a></li>
-                <li><a href="#cloudservice">云服务</a></li>
-                <li><a href="#apm">APM监控工具</a></li>
-                <li><a href="#distributed-tracing">分布式追踪</a></li>
-                <li><a href="#metrics">指标报告</a></li>
-                <li><a href="#registry">注册中心</a></li>
-                <li><a href="#rate-limiting">容错库</a></li>
-                <li><a href="#gateway">网关</a></li>
-                <li><a href="#profiler">性能分析</a></li>
-                <li><a href="#bigdata">大数据框架</a></li>
-                <li><a href="#bigdatatool">大数据组件</a></li>
-            </td>
-            <td>
-                <li><a href="#kafka-tool">Kafka管理工具</a></li>
-                <li><a href="#distributed">分布式组件</a></li>
-                <li><a href="#distributed-lock">分布式锁</a></li>
-                <li><a href="#distributed-id-generator">分布式ID生成器</a></li>
-                <li><a href="#search-engine">搜索引擎</a></li>
-                <li><a href="#graph-db">图数据库</a></li>
-                <li><a href="#embedded-db">嵌入式数据库</a></li>
-                <li><a href="#rdbms-db">关系型数据库</a></li>
-                <li><a href="#nosql-db">NoSQL数据库</a></li>
-                <li><a href="#db-conn">数据库连接池</a></li>
-                <li><a href="#mid-client">中间件客户端</a></li>
-                <li><a href="#httpclient">HTTP客户端库</a></li>
-                <li><a href="#rpc">RPC框架</a></li>
-                <li><a href="#reactive">响应式库</a></li>
-                <li><a href="#webserver">WebServer</a></li>
-                <li><a href="#websocket">WebSocket</a></li>
-                <li><a href="#gameserver">游戏服务器</a></li>
-                <li><a href="#im">IM服务器</a></li>
-                <li><a href="#jakartaee">JakartaEE实现</a></li>
-                <li><a href="#utils">工具库</a></li>
-                <li><a href="#di">依赖注入</a></li>
-                <li><a href="#aop">AOP</a></li>
-                <li><a href="#log">日志库</a></li>
-                <li><a href="#graphql">GraphQL</a></li>
-                <li><a href="#job">任务调度</a></li>
-                <li><a href="#configuration">配置库</a></li>
-                <li><a href="#bpm">业务流程管理</a></li>
-                <li><a href="#ruleengine">规则引擎</a></li>
-                <li><a href="#lowcode">低代码平台</a></li>
-                <li><a href="#erp">ERP系统</a></li>
-                <li><a href="#business">业务</a></li>
-                <li><a href="#pay">支付</a></li>
-                <li><a href="#cache">缓存库</a></li>
-                <li><a href="#pdf">PDF库</a></li>
-                <li><a href="#excel">Excel库</a></li>
-            </td>
-            <td>
-                <li><a href="#csv">CSV库</a></li>
-                <li><a href="#xml">XML库</a></li>
-                <li><a href="#file">文件库</a></li>
-                <li><a href="#reflection">反射</a></li>
-                <li><a href="#miscellaneous">杂项</a></li>
-                <li><a href="#datetime">日期时间库</a></li>
-                <li><a href="#ml">机器学习</a></li>
-                <li><a href="#nlp">自然语言处理</a></li>
-                <li><a href="#dl">深度学习</a></li>
-                <li><a href="#science">数据科学</a></li>
-                <li><a href="#math">数学库</a></li>
-                <li><a href="#genetic">遗传算法</a></li>
-                <li><a href="#face">人脸识别</a></li>
-                <li><a href="#expert-system">专家系统</a></li>
-                <li><a href="#ontology">本体库</a></li>
-                <li><a href="#semantic">语义Web</a></li>
-                <li><a href="#bioinformatics">生物信息学</a></li>
-                <li><a href="#genomics">基因组学</a></li>
-                <li><a href="#medical">医疗平台</a></li>
-                <li><a href="#concurrency">并发编程</a></li>
-                <li><a href="#security-lib">安全库</a></li>
-                <li><a href="#authentication">身份认证</a></li>
-                <li><a href="#jwt">JWT</a></li>
-                <li><a href="#oauth">OAuth</a></li>
-                <li><a href="#encryption">加密</a></li>
-                <li><a href="#transaction">事务</a></li>
-                <li><a href="#template-engine">模板引擎</a></li>
-                <li><a href="#json">JSON库</a></li>
-                <li><a href="#mapper">Bean映射</a></li>
-                <li><a href="#ssh">SSH工具</a></li>
-                <li><a href="#dns">DNS&内网穿透</a></li>
-                <li><a href="#git">Git工具</a></li>
-                <li><a href="#collection">集合库</a></li>
-                <li><a href="#functional">函数式编程</a></li>
-                <li><a href="#bytecode">字节码操作</a></li>
-            </td>
-            <td>
-                <li><a href="#image">图像处理</a></li>
-                <li><a href="#captcha">验证码</a></li>
-                <li><a href="#compress">压缩</a></li>
-                <li><a href="#crawler">爬虫</a></li>
-                <li><a href="#data">数据处理</a></li>
-                <li><a href="#annotation-processor">注解处理器</a></li>
-                <li><a href="#event-bus">事件总线</a></li>
-                <li><a href="#swagger">Swagger</a></li>
-                <li><a href="#cluster-management">集群管理</a></li>
-                <li><a href="#code-analysis">代码分析</a></li>
-                <li><a href="#maven">Maven插件</a></li>
-                <li><a href="#blockchain">Gradle插件</a></li>
-                <li><a href="#sdk">SDK</a></li>
-                <li><a href="#ethereum">以太坊</a></li>
-                <li><a href="#bitcoin">比特币</a></li>
-                <li><a href="#iot">物联网</a></li>
-                <li><a href="#mqtt">MQTT</a></li>
-                <li><a href="#finance">金融</a></li>
-                <li><a href="#sms">短信</a></li>
-                <li><a href="#spring">Spring生态</a></li>
-                <li><a href="#raft">Raft算法</a></li>
-                <li><a href="#paxos">Paxos算法</a></li>
-                <li><a href="#cqrs">CQRS框架</a></li>
-                <li><a href="#ddd">DDD框架</a></li>
-                <li><a href="#architecture">软件工程</a></li>
-                <li><a href="#migrate">迁移工具</a></li>
-                <li><a href="#jsf">JSF框架</a></li>
-                <li><a href="#bot">机器人</a></li>
-                <li><a href="#android">安卓库</a></li>
-                <li><a href="#swing">Swing库</a></li>
-                <li><a href="#javafx-lib">JavaFx库</a></li>
-                <li><a href="#javafx-ui">JavaFX样式库</a></li>
-                <li><a href="#javafx-chart">JavaFX图表库</a></li>
-                <li><a href="#javafx-tool">JavaFX小工具</a></li>
-                <li><a href="#gui">GUI程序</a></li>
-            </td>
-            <td>
-                <li><a href="#dbtool">数据库工具</a></li>
-                <li><a href="#classtool">字节码工具</a></li>
-                <li><a href="#obfuscator">字节码混淆工具</a></li>
-                <li><a href="#game-engine">游戏开发</a></li>
-                <li><a href="#agent">JVM代理</a></li>
-                <li><a href="#compiler">编译器</a></li>
-                <li><a href="#lsp">语言服务器</a></li>
-                <li><a href="#db-client">数据库驱动</a></li>
-                <li><a href="#minecraft">Minecraft</a></li>
-                <li><a href="#video">音视频处理</a></li>
-                <li><a href="#datastructure">数据结构</a></li>
-                <li><a href="#bloom">布隆过滤器</a></li>
-                <li><a href="#algorithms">算法库</a></li>
-                <li><a href="#native">原生开发库</a></li>
-                <li><a href="#hardware">硬件操作库</a></li>
-                <li><a href="#reverse-engineering">逆向工程</a></li>
-                <li><a href="#cms">开源CMS</a></li>
-                <li><a href="#network">网络库</a></li>
-                <li><a href="#statemachine">状态机</a></li>
-                <li><a href="#qrcode">二维码生成器</a></li>
-                <li><a href="#filesystem">文件系统</a></li>
-                <li><a href="#report">报表引擎</a></li>
-                <li><a href="#deploy">部署工具</a></li>
-                <li><a href="#geo">地理空间</a></li>
-                <li><a href="#serialization">序列化</a></li>
-                <li><a href="#ioutils">IO操作</a></li>
-                <li><a href="#email">邮件操作</a></li>
-                <li><a href="#rss">RSS</a></li>
-                <li><a href="#validation">校验</a></li>
-                <li><a href="#ast">词法解析</a></li>
-                <li><a href="#formal-verification">形式验证</a></li>
-                <li><a href="#regex">正则表达式</a></li>
-                <li><a href="#codegen">代码生成器</a></li>
-            </td>
-        </tr>
-    </table>
-</html>
+- [Web框架](#web-framework)
+- [REST框架](#rest-framework)
+- [微服务框架](#microservice-framework)
+- [微服务工具](#microservice-tool)
+- [持久层框架](#orm-framework)
+- [脚手架](#scaffold)
+- [单元测试](#unit-test)
+- [断言库](#assertions)
+- [Mock框架](#mocks)
+- [Mock工具](#mocks-lib)
+- [数据Mock](#mocks-data)
+- [BDD框架](#bdd)
+- [自动化工具](#automation)
+- [性能测试](#load)
+- [测试库](#test-lib)
+- [代码覆盖率](#coverage)
+- [构建工具](#build)
+- [开源JDK](#jdk)
+- [JVM编程语言](#jvm)
+- [Java IDE](#ide)
+- [持续集成](#ci)
+- [发布工具](#publish)
+- [项目管理](#project-management)
+- [云原生](#cloud-native)
+- [容器化工具](#container)
+- [云服务](#cloudservice)
+- [APM监控工具](#apm)
+- [分布式追踪](#distributed-tracing)
+- [指标报告](#metrics)
+- [注册中心](#registry)
+- [容错库](#rate-limiting)
+- [网关](#gateway)
+- [性能分析](#profiler)
+- [大数据框架](#bigdata)
+- [大数据组件](#bigdatatool)
+- [消息中间件](#message)
+- [Kafka管理工具](#kafka-tool)
+- [分布式组件](#distributed)
+- [分布式锁](#distributed-lock)
+- [分布式ID生成器](#distributed-id-generator)
+- [搜索引擎](#search-engine)
+- [图数据库](#graph-db)
+- [嵌入式数据库](#embedded-db)
+- [关系型数据库](#rdbms-db)
+- [NoSQL数据库](#nosql-db)
+- [数据库连接池](#db-conn)
+- [中间件客户端](#mid-client)
+- [HTTP客户端库](#httpclient)
+- [RPC框架](#rpc)
+- [响应式库](#reactive)
+- [WebServer](#webserver)
+- [WebSocket](#websocket)
+- [游戏服务器](#gameserver)
+- [IM服务器](#im)
+- [Jakarta EE实现](#jakartaee)
+- [工具库](#utils)
+- [依赖注入](#di)
+- [AOP](#aop)
+- [日志库](#log)
+- [GraphQL](#graphql)
+- [任务调度](#job)
+- [配置库](#configuration)
+- [业务流程管理](#bpm)
+- [规则引擎](#ruleengine)
+- [低代码平台](#lowcode)
+- [ERP系统](#erp)
+- [业务](#business)
+- [支付](#pay)
+- [缓存库](#cache)
+- [PDF库](#pdf)
+- [Excel库](#excel)
+- [CSV库](#csv)
+- [XML库](#xml)
+- [文件库](#file)
+- [反射](#reflection)
+- [杂项](#miscellaneous)
+- [日期时间库](#datetime)
+- [机器学习](#ml)
+- [自然语言处理](#nlp)
+- [深度学习](#dl)
+- [数据科学](#science)
+- [数学库](#math)
+- [遗传算法](#genetic)
+- [人脸识别](#face)
+- [专家系统](#expert-system)
+- [本体库](#ontology)
+- [语义Web](#semantic)
+- [生物信息学](#bioinformatics)
+- [基因组学](#genomics)
+- [医疗平台](#medical)
+- [并发编程](#concurrency)
+- [安全库](#security-lib)
+- [身份认证](#authentication)
+- [JWT](#jwt)
+- [OAuth](#oauth)
+- [加密](#encryption)
+- [事务](#transaction)
+- [模板引擎](#template-engine)
+- [JSON库](#json)
+- [Bean映射](#mapper)
+- [CLI工具](#cli)
+- [SSH工具](#ssh)
+- [DNS&内网穿透](#dns)
+- [Git工具](#git)
+- [集合库](#collection)
+- [函数式编程](#functional)
+- [字节码操作](#bytecode)
+- [图像处理](#image)
+- [验证码](#captcha)
+- [压缩](#compress)
+- [爬虫](#crawler)
+- [数据处理](#data)
+- [注解处理器](#annotation-processor)
+- [事件总线](#event-bus)
+- [Swagger](#swagger)
+- [集群管理](#cluster-management)
+- [代码分析](#code-analysis)
+- [Maven插件](#maven)
+- [Gradle插件](#gradle)
+- [SDK](#sdk)
+- [区块链](#blockchain)
+- [以太坊](#ethereum)
+- [比特币](#bitcoin)
+- [物联网](#iot)
+- [MQTT](#mqtt)
+- [金融](#finance)
+- [短信](#sms)
+- [Spring生态](#spring)
+- [Raft算法](#raft)
+- [Paxos算法](#paxos)
+- [CQRS框架](#cqrs)
+- [DDD框架](#ddd)
+- [软件工程](#architecture)
+- [迁移工具](#migrate)
+- [JSF框架](#jsf)
+- [机器人](#bot)
+- [安卓库](#android)
+- [Swing库](#swing)
+- [JavaFx库](#javafx-lib)
+- [JavaFX样式库](#javafx-ui)
+- [JavaFX图表库](#javafx-chart)
+- [JavaFX小工具](#javafx-tool)
+- [GUI程序](#gui)
+- [数据库工具](#dbtool)
+- [字节码工具](#classtool)
+- [字节码混淆工具](#obfuscator)
+- [游戏开发](#game-engine)
+- [JVM代理](#agent)
+- [编译器&插件](#compiler)
+- [语言服务器](#lsp)
+- [数据库驱动](#db-client)
+- [Minecraft](#minecraft)
+- [音视频处理](#video)
+- [数据结构](#datastructure)
+- [布隆过滤器](#bloom)
+- [算法库](#algorithms)
+- [原生开发库](#native)
+- [硬件操作库](#hardware)
+- [逆向工程](#reverse-engineering)
+- [开源CMS](#cms)
+- [网络库](#network)
+- [状态机](#statemachine)
+- [二维码生成器](#qrcode)
+- [文件系统](#filesystem)
+- [报表引擎](#report)
+- [部署工具](#deploy)
+- [地理空间](#geo)
+- [序列化](#serialization)
+- [IO操作](#ioutils)
+- [邮件操作](#email)
+- [RSS](#rss)
+- [校验](#validation)
+- [词法解析](#ast)
+- [形式验证](#formal-verification)
+- [正则表达式](#regex)
+- [代码生成器](#codegen)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -692,6 +680,7 @@
 * [FlowCI](https://github.com/FlowCI/flow-core-x)：功能强大且用户友好的CI/CD服务器，具有高可用性、并行构建、代理扩展特点。
 * [BlueKing](https://github.com/TencentBlueKing/bk-ci)：bk-ci是一个免费并开源的CI服务，可助你自动化构建-测试-发布工作流，持续、快速、高质量地交付你的产品，由腾讯开源。
 * [Hudson](https://github.com/hudson/hudson-2.x)：持续集成服务器，Jenkins的前身。
+* [BK-Job](https://github.com/TencentBlueKing/bk-job)：蓝鲸作业平台是一套运维基础操作管理系统，具备海量任务并发处理能力，由腾讯开源。
 * [Apache Continuum](https://continuum.apache.org/)：Apache Continuum是一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统集成等功能。
 
 <h2 id="publish">发布工具</h2>
@@ -1022,7 +1011,7 @@
 * [BitSail](https://github.com/bytedance/bitsail)：BitSail是一个分布式高性能数据集成引擎，支持批量、流式和增量场景，由字节开源。
 * [AthenaX](https://github.com/uber-archive/AthenaX)：基于SQL的大规模流分析平台，由Uber开源。
 * [TIS](https://github.com/datavane/tis)：支持基于Flink、DataX和Flink-CDC的敏捷DataOps，Chunjun具有Web-UI，由Datavane大数据组织开源。
-* [Dr.Elephant](https://github.com/linkedin/dr-elephant)：Dr.Elephant是一款针对Apache Hadoop和Apache Spark的作业和流级性能监控和调优工具。
+* [Dr.Elephant](https://github.com/linkedin/dr-elephant)：Dr.Elephant是一款针对Apache Hadoop和Apache Spark的作业和流级性能监控和调优工具，由LinkedIn开源。
 * [Kylo](https://github.com/Teradata/kylo)：Kylo是一个数据湖管理软件平台和框架，用于在Teradata、Apache Spark和/或Hadoop等大数据技术上实现可扩展的企业级数据湖，由Teradata开源。
 * [CDAP](https://github.com/cdapio/cdap)：CDAP是一个面向Hadoop生态系统的集成开源应用程序开发平台，为开发人员提供数据和应用程序抽象，目前是Google云端项目。
 * [Nessie](https://github.com/projectnessie/nessie)：Nessie是由Dremio团队开源的一个类似Git管理数据湖的系统方案。
@@ -1612,20 +1601,21 @@
 * [Jobrunr](https://github.com/jobrunr/jobrunr)：一种在Java中执行后台处理的极其简单的方法，由持久存储支持。
 * [SchedulerX](https://www.aliyun.com/aliware/schedulerx)：阿里开发的基于Akka架构的分布式任务调度平台。
 * [ShedLock](https://github.com/lukas-krecan/ShedLock)：调度任务的分布式锁。
-* [Disjob](https://gitee.com/dromara/disjob)：dromara社区开源的分布式任务调度框架。
+* [DisJob](https://gitee.com/dromara/disjob)：dromara社区开源的分布式任务调度框架。
 * [Saturn](https://github.com/vipshop/Saturn)：唯品会开源的分布式作业调度平台。
 * [Apache Aurora](https://github.com/apache/aurora)：用于长时间运行的服务、cron作业和临时作业的Mesos框架，该项目在Apache基金会下已经退役。
-* [DB-Scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
-* [Openjob](https://github.com/open-job/openjob)：分布式高性能任务调度框架。
+* [DB Scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
+* [OpenJob](https://github.com/open-job/openjob)：分布式高性能任务调度框架。
 * [PlumeJob](https://gitee.com/plumeorg/plumejob)：PlumeJob是一个去中心化的分布式调度系统，集成简单易用，并可和PlumeLog整合。
 * [Sundial](https://github.com/knowm/Sundial)：轻量级的作业调度框架。
 * [Wisp](https://github.com/Coreoz/Wisp)：一个简单的Java调度库，具有最小的占用空间和简单的API。
-* [android-job](https://github.com/evernote/android-job)：用于在后台处理任务的Android库，该项目不再维护。
+* [Android Job](https://github.com/Evernote/android-job)：用于在后台处理作业的Android库，由Evernote开源。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：古老的Java平台调度程序。
 * [Job-Dispatcher](https://gitee.com/daye_daye/job-dispatcher)：国产的基于事件的流程编排和调度引擎。
-* [Antares](https://github.com/ihaolin/antares)：分布式任务调度平台。
 * [SIA-TASK](https://github.com/siaorg/sia-task)：微服务任务调度框架。
 * [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
+* [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：分布式作业调度框架。
+* [Chronus](https://github.com/360digitech/chronus)：Chronus是360金融技术团队基于阿里开源项目TBSchedule进行重写的分布式调度平台。
 
 <h2 id="configuration">配置库</h2>
 
@@ -1971,6 +1961,7 @@
 * [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [oj!Algorithms](https://github.com/optimatika/ojAlgo)：与数学、线性代数和优化有关的开源Java代码。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
+* [LangChain4j](https://github.com/langchain4j/langchain4j)：该项目的目标是简化AI/LLM功能到Java应用程序的集成。
 * [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
 * [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具，由怀卡托大学开发。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个先进的机器学习框架，支持支持向量机、人工神经网络、遗传编程、贝叶斯网络、隐马尔可夫模型、遗传编程和遗传算法。
@@ -2118,6 +2109,7 @@
 * [JaCoP](https://github.com/radsz/jacop/)：Java约束编程求解器。
 * [Sat4j](http://www.sat4j.org/)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集(MUS)问题。
 * [Timefold](https://github.com/TimefoldAI/timefold-solver)：灵活的求解器，支持Spring/Quarkus以及车辆路线问题、维护计划、员工轮班计划等快速入门。
+* [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的AI约束求解器，用于优化规划和调度问题。
 
 <h2 id="ontology">本体库</h2>
 
@@ -2245,6 +2237,7 @@
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
 * [Fact-Async](https://gitee.com/china2010pan/fact-async)：Fact-Async是一个基于Spring的异步并行框架。
 * [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个框架，可以更轻松地用Java编写异步代码。
+* [Threadly](https://github.com/threadly/threadly)：协助安全并发Java开发的工具库，提供独特的基于优先级的线程池，以及安全分配线程工作的方法。
 
 <h2 id="security">安全</h2>
 
@@ -2768,6 +2761,7 @@
 * [CorfuDB](https://github.com/CorfuDB/CorfuDB)：Corfu是一个围绕共享日志抽象设计的一致性平台。
 * [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
 * [Apache Airavata](https://airavata.apache.org/)：Apache Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业和工作流程。
+* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是一个适用于Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
 
 <h2 id="code-analysis">代码分析</h2>
 
