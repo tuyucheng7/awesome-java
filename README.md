@@ -267,11 +267,13 @@
 * [NutzBoot](https://github.com/nutzam/nutzboot)：可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、Hystrix、RPC等解决方案。
 * [Piggy Metrics](https://github.com/sqshq/piggymetrics)：使用Spring Boot、Spring Cloud和Docker的微服务架构。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
-* [Ja-micro](https://github.com/Sixt/ja-micro)：用于构建Java微服务的轻量级框架。
+* [Ja-Micro](https://github.com/Sixt/ja-micro)：用于构建Java微服务的轻量级框架。
+* [JBoot](https://github.com/yangfuhai/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
 * [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
 * [Redkale](https://github.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
 * [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
+* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
 
 <h2 id="microservice-tool">微服务工具</h2>
 
@@ -741,6 +743,8 @@
 * [CloudSimPlus](https://github.com/cloudsimplus/cloudsimplus)：最先进的云计算框架，现代、功能齐全、易于使用、高度可扩展、更快和更准确用于云计算研究的Java 17+工具。
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点关注于实时日志分析和人工智能集成。
 * [Syncany](https://github.com/syncany/syncany)：Syncany是一款云存储和文件共享应用程序，重点关注存储的安全性和抽象性。
+* [Serverless Java container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Apache Struts、Jersey或Spark等框架编写的Java应用程序。
+* [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：Spring Cloud Function是基于Spring Boot的函数计算框架。
 
 <h2 id="container">容器化工具</h2>
 
@@ -1193,7 +1197,7 @@
 * [Titan](https://github.com/thinkaurelius/titan)：分布式图数据库。
 * [OrientDB](https://github.com/orientechnologies/orientdb)：OrientDB是最通用的DBMS，在一个多模型产品中支持图、文档、响应式、全文和地理空间模型。
 * [Apache TinkerPop](https://github.com/apache/tinkerpop)：为图数据库(OLTP)和图分析系统(OLAP)提供图计算功能。
-* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个实时图处理库。
+* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个实时图处理库，由Twitter开源。
 * [GraphDB](https://www.ontotext.com/)：企业级RDF和图数据库，具有高效推理、集群和外部索引同步支持。它还支持通过SPARQL对知识图和GraphQL进行SQL JDBC访问。
 * [Stardog](https://www.stardog.com/)：一款商业图数据库。
 * [BlazeGraph](https://github.com/blazegraph/database)：一款开源的高性能图数据库。
@@ -1317,6 +1321,7 @@
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [Riptide](https://github.com/zalando/riptide)：Spring RestTemplate的客户端响应路由。
+* [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
 
 <h2 id="rpc">RPC框架</h2>
 
@@ -1749,6 +1754,7 @@
 * [Apache Commons JCS](https://github.com/apache/commons-jcs)：Apache Commons JCS是一个分布式、多功能的缓存系统。
 * [JetCache](https://github.com/alibaba/jetcache)：阿里开源的Java缓存框架。
 * [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)：基于磁盘的LRU缓存的Java实现，专门针对Android兼容性。
+* [ASimpleCache](https://github.com/yangfuhai/ASimpleCache)：ASimpleCache是一个为Java和Android制定的轻量级开源缓存框架。
 * [RxCache](https://github.com/VictorAlbertos/RxCache)：适用于Android和Java的响应式缓存库。
 * [Infinispan](https://github.com/infinispan/infinispan)：针对缓存的高并发键值对数据存储。
 * [EVCache](https://github.com/Netflix/EVCache)：云分布式内存数据存储。
@@ -2258,7 +2264,7 @@
 * [jCasbin](https://github.com/casbin/jcasbin)：Java中支持ACL、RBAC、ABAC等访问控制模型的授权库。
 * [Keywhiz](https://github.com/square/keywhiz)：Keywhiz是一个用于分发和管理密钥的系统。
 * [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz)：密码强度估计器。
-* [burpgpt](https://github.com/aress31/burpgpt)：Burp Suite扩展集成了OpenAI的GPT，可以执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
+* [BurpGPT](https://github.com/aress31/burpgpt)：Burp Suite扩展集成了OpenAI的GPT，可以执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
 * [Janssen](https://github.com/JanssenProject/jans)：数字身份基础设施软件协作中心。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
 * [Spring Session](https://github.com/spring-projects/spring-session)：Spring Session提供了一个API和实现来管理用户的会话信息，同时也使得支持集群会话变得很简单，而无需绑定到应用程序容器特定的解决方案。
@@ -2570,7 +2576,7 @@
 * [Byteman](https://github.com/bytemanproject/byteman)：Byteman支持将副作用注入到Java程序中用于跟踪和测试应用程序行为的目的。
 * [Apache Commons BCEL](https://github.com/apache/commons-bcel)：Apache Commons BCEL为用户提供一种便捷的方式来分析、创建和操作Java class文件。
 * [Javassist](https://github.com/jboss-javassist/javassist)：Java字节码工程工具包。
-* [cglib](https://github.com/cglib/cglib)：用于生成和转换Java字节码的高级API。
+* [CGLIB](https://github.com/cglib/cglib)：用于生成和转换Java字节码的高级API。
 * [ByteX](https://github.com/bytedance/ByteX)：字节开源的字节码插件开发平台。
 * [Allocation Instrumenter](https://github.com/google/allocation-instrumenter)：将字节码重写为工具分配站点的Java代理，由Google开源。
 * [Soot](https://github.com/soot-oss/soot)：Soot是一个Java优化框架，提供了多种用于分析和转换Java字节码的中间表示形式。
@@ -2752,10 +2758,10 @@
 
 <h2 id="cluster-management">集群管理</h2>
 
-* [Apache Aurora](https://github.com/apache/aurora)：Apache Aurora是一个Mesos框架，用于长时间运行服务和定时任务。
+* [Apache Aurora](https://github.com/apache/aurora)：Apache Aurora是一个Mesos框架，用于长时间运行服务和定时任务，由Twitter开源。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Apache Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
 * [CacheCloud](https://github.com/sohutv/cachecloud)：搜狐视频Redis私有云平台：支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率。
-* [MSEC](https://github.com/Tencent/MSEC)：集群海量服务引擎。
+* [MSEC](https://github.com/Tencent/MSEC)：集群海量服务引擎，由腾讯开源。
 * [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个Docker集群管理系统，用户可以通过用户友好且功能强大的用户界面和命令行工具控制整个平台。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：使用约束编程的声明式集群管理，其中约束使用SQL进行描述。
 * [CorfuDB](https://github.com/CorfuDB/CorfuDB)：Corfu是一个围绕共享日志抽象设计的一致性平台。
