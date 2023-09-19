@@ -44,6 +44,8 @@
                 <li><a href="#profiler">性能分析</a></li>
                 <li><a href="#bigdata">大数据框架</a></li>
                 <li><a href="#bigdatatool">大数据组件</a></li>
+            </td>
+            <td>
                 <li><a href="#kafka-tool">Kafka管理工具</a></li>
                 <li><a href="#distributed">分布式组件</a></li>
                 <li><a href="#distributed-lock">分布式锁</a></li>
@@ -67,8 +69,6 @@
                 <li><a href="#di">依赖注入</a></li>
                 <li><a href="#aop">AOP</a></li>
                 <li><a href="#log">日志库</a></li>
-            </td>
-            <td>
                 <li><a href="#graphql">GraphQL</a></li>
                 <li><a href="#job">任务调度</a></li>
                 <li><a href="#configuration">配置库</a></li>
@@ -81,6 +81,8 @@
                 <li><a href="#cache">缓存库</a></li>
                 <li><a href="#pdf">PDF库</a></li>
                 <li><a href="#excel">Excel库</a></li>
+            </td>
+            <td>
                 <li><a href="#csv">CSV库</a></li>
                 <li><a href="#xml">XML库</a></li>
                 <li><a href="#file">文件库</a></li>
@@ -116,6 +118,8 @@
                 <li><a href="#collection">集合库</a></li>
                 <li><a href="#functional">函数式编程</a></li>
                 <li><a href="#bytecode">字节码操作</a></li>
+            </td>
+            <td>
                 <li><a href="#image">图像处理</a></li>
                 <li><a href="#captcha">验证码</a></li>
                 <li><a href="#compress">压缩</a></li>
@@ -127,8 +131,6 @@
                 <li><a href="#cluster-management">集群管理</a></li>
                 <li><a href="#code-analysis">代码分析</a></li>
                 <li><a href="#maven">Maven插件</a></li>
-            </td>
-            <td>
                 <li><a href="#blockchain">Gradle插件</a></li>
                 <li><a href="#sdk">SDK</a></li>
                 <li><a href="#ethereum">以太坊</a></li>
@@ -153,6 +155,8 @@
                 <li><a href="#javafx-chart">JavaFX图表库</a></li>
                 <li><a href="#javafx-tool">JavaFX小工具</a></li>
                 <li><a href="#gui">GUI程序</a></li>
+            </td>
+            <td>
                 <li><a href="#dbtool">数据库工具</a></li>
                 <li><a href="#classtool">字节码工具</a></li>
                 <li><a href="#obfuscator">字节码混淆工具</a></li>
