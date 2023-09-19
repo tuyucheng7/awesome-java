@@ -1485,7 +1485,7 @@
 * [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
 * [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
-* [jcommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
+* [JCommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
 * [Jodd](https://github.com/oblac/jodd)：零依赖的Java工具库。
 * [Ph-Commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量实用程序类。
 * [Essentials](https://github.com/greenrobot/essentials)：适用于Android和Java的通用实用程序和哈希函数。
@@ -1493,7 +1493,7 @@
 * [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
 * [Annotations](https://github.com/JetBrains/java-annotations)：一组可在基于JVM的语言中使用的Java注解，由JetBrains开源。
 * [JUtils](https://github.com/chenssy89/jutils)：通用的Java工具类库。
-* [sofa-common-tools](https://github.com/sofastack/sofa-common-tools)：sofa-common-tools是一个为其他SOFA库提供一些实用功能的库。
+* [SOFA-Common](https://github.com/sofastack/sofa-common-tools)：sofa-common-tools是一个为其他SOFA库提供一些实用功能的库。
 * [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
 * [XXL-TOOL](https://github.com/xuxueli/xxl-tool)：XXL-TOOL是一个Java工具类库，包含集合、缓存、并发、字符串、IO、Excel、Emoji等数十个模块。
 * [xUtils](https://github.com/wyouflf/xUtils3)：xUtils包含了ORM、HTTP、图片处理等工具类。
@@ -2210,28 +2210,28 @@
 * [Disruptor](https://github.com/LMAX-Exchange/disruptor)：高性能线程间消息传递库。
 * [Quasar](https://github.com/puniverse/quasar)：JVM上的Fiber、Channel和Actor实现。
 * [JCTools](https://github.com/JCTools/JCTools)：用于JVM的Java并发工具，该项目旨在提供JDK目前缺少的一些并发数据结构。
-* [asyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：京东开源的多线程编排一站式解决方案。
-* [thread-weaver](https://github.com/google/thread-weaver)：用于测试多线程代码的Java框架。
+* [AsyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：京东开源的多线程编排一站式解决方案。
+* [Thread Weaver](https://github.com/google/thread-weaver)：用于测试多线程代码的Java框架。
 * [Kilim](https://github.com/kilim/kilim)：Java的轻量级线程，具有消息传递、NIO、HTTP和调度支持。
 * [EA-Async](https://github.com/electronicarts/ea-async)：EA-Async在JVM中实现Async-Await方法，它允许程序员以顺序方式编写异步代码。
 * [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：提供了一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
-* [concurrentlinkedhashmap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap。
-* [trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotity开源。
+* [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap。
+* [Trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotity开源。
 * [Loom](https://github.com/openjdk/loom)：JDK实现的虚拟线程、结构化并发项目。
-* [jcstress](https://github.com/openjdk/jcstress)：jcstress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性。
-* [jcommon](https://github.com/facebookarchive/jcommon)：并发、集合、统计/分析、配置、测试等，由Facebook开发。
+* [Java Concurrency Stress](https://github.com/openjdk/jcstress)：jcstress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性。
+* [JCommon](https://github.com/facebookarchive/jcommon)：并发、集合、统计/分析、配置、测试等，由Facebook开发。
 * [JDeferred](https://github.com/jdeferred/jdeferred)：JDeferred是一个小型Java库(也支持Groovy)，用于实现异步拓扑，而无需编写样板代码。
 * [Coroutines](https://github.com/esoco/coroutines)：协作并发的纯Java实现，又名协程。
 * [Menagerie](https://github.com/sfines/menagerie)：基于ZooKeeper的Java并发库。
 * [Thread Affinity](https://github.com/OpenHFT/Java-Thread-Affinity)：该库允许你将线程绑定到给定核心，这可以提高性能(在Linux上运行最佳)。
-* [tascalate-concurrent](https://github.com/vsilaev/tascalate-concurrent)：阻塞可取消java.util.concurrent.CompletionStage的实现以及java.util.concurrent.ExecutorService的相关扩展。
+* [Tascalate Concurrent](https://github.com/vsilaev/tascalate-concurrent)：阻塞可取消java.util.concurrent.CompletionStage的实现以及java.util.concurrent.ExecutorService的相关扩展。
 * [Coroutines](https://github.com/offbynull/coroutines)：允许编写协程的Java工具包。
-* [completable-futures](https://github.com/spotify/completable-futures)：Java 8中处理Future的实用程序，由Spotify开源。
+* [Completable Futures](https://github.com/spotify/completable-futures)：Java 8中处理Future的实用程序，由Spotify开源。
 * [DynamicTp](https://github.com/dromara/dynamic-tp)：基于配置中心的轻量级动态线程池，内置监控告警功能，集成常用中间件线程池管理，可通过SPI自定义扩展实现，由dromara社区开源。
 * [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
 * [hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
-* [fact-async](https://gitee.com/china2010pan/fact-async)：fact-async是一个基于Spring的异步并行框架。
+* [Fact-Async](https://gitee.com/china2010pan/fact-async)：Fact-Async是一个基于Spring的异步并行框架。
 * [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个框架，可以更轻松地用Java编写异步代码。
 
 <h2 id="security">安全</h2>
@@ -2327,7 +2327,7 @@
 <h4 id="encryption">加密库</h4>
 
 * [Tink](https://github.com/google/tink)：Tink是一个多语言、跨平台、开源库，提供安全、易于正确使用且难以误用的加密API，由Google开源。
-* [bc-java](https://github.com/bcgit/bc-java)：Bouncy Castle Java发行版。
+* [Bouncy Castle Java](https://github.com/bcgit/bc-java)：Bouncy Castle Java发行版。
 * [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个允许开发人员以最小的努力向项目添加基本加密功能的Java库。
 * [Cryptomator](https://github.com/cryptomator/cryptomator)：对云中文件进行多平台透明客户端加密。
 * [Hawk](https://github.com/orhanobut/hawk)：适用于Android的安全、简单的键值存储。
@@ -2339,10 +2339,9 @@
 * [Cipher.so](https://github.com/linisme/Cipher.so)：将密码等安全数据加密到本机.so库中的简单方法。
 * [Conscrypt](https://github.com/google/conscrypt)：Conscrypt是一个Java安全提供程序，它实现了部分Java加密扩展和Java安全套接字扩展，由谷歌开源。
 * [Apache Commons Crypto](https://github.com/apache/commons-crypto)：Apache Commons Crypto是一个使用AES-NI(高级加密标准新指令)优化的加密库，它提供了密码级别和Java流级别的Java API。
-* [android-storage](https://github.com/sromku/android-storage)：使用非常简单的API在内部或外部磁盘空间上创建、读取、删除、附加、加密文件等的库。
 * [Whorlwind](https://github.com/square/whorlwind)：Android指纹API的响应式包装器，使用指纹处理敏感数据的加密/解密。
 * [Encrypt](https://github.com/GcsSloop/encrypt)：适用于Java和Android的加解密工具库。
-* [java-aes-crypto](https://github.com/tozny/java-aes-crypto)：一个简单的Android库，用于加密和解密字符串，旨在避免大多数此类类所遭受的经典错误。
+* [Java-AES-Crypto](https://github.com/tozny/java-aes-crypto)：一个简单的Android库，用于加密和解密字符串，旨在避免大多数此类类所遭受的经典错误。
 * [EncryptedPreferences](https://github.com/PDDStudio/EncryptedPreferences)：适用于Java和Android的AES-256加密SharedPreferences。
 * [OTP-Java](https://github.com/BastiaanJansen/OTP-Java)：一款小型且易于使用的Java一次性密码生成器，实现RFC 4226(HOTP)和RFC 6238(TOTP)。
 * [Keyczar](https://github.com/google/keyczar)：易于使用的加密工具包，由Google开源。
@@ -2362,7 +2361,7 @@
 * [Hmily](https://github.com/dromara/hmily)：分布式事务解决方案，由dromara社区开源。
 * [TCC-Transaction](https://github.com/changmingxie/tcc-transaction)：开源的微服务架构下的TCC型分布式事务解决方案。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：JVM的软件事务内存实现。
-* [tx-lcn](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库。
+* [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库。
 * [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等。
 * [Servicecomb-pack](https://github.com/apache/servicecomb-pack)：提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，在Apache基金会下开源。
 * [Raincat](https://github.com/dromara/raincat)：强一致分布式事务框架。
@@ -2384,7 +2383,7 @@
 * [Handlebars.java](https://github.com/jknack/handlebars.java)：使用Java的无逻辑和语义Mustache模板。
 * [Beetl](https://github.com/javamonkey/beetl2.0)：新一代的模板引擎，更简单易用。
 * [Rocker](https://github.com/fizzed/rocker)：Java 8优化、内存高效、快速模板引擎生成静态类型、纯Java对象。
-* [jinjava](https://github.com/HubSpot/jinjava)：基于Django模板语法的基于Java的模板引擎，适用于渲染Jinja模板。
+* [Jinja](https://github.com/HubSpot/jinjava)：基于Django模板语法的基于Java的模板引擎，适用于渲染Jinja模板。
 * [HTTL](https://github.com/httl/httl)：HTTL是一个高性能的开源Java模板引擎，适用于动态HTML页面输出，可替代JSP页面，指令和Velocity相似。
 * [HtmlFlow](https://github.com/xmlet/HtmlFlow/)：HtmlFlow是一种Java DSL，可以以流式的方式编写类型安全的HTML文档。
 * [Chunk](https://github.com/tomj74/chunk-templates)：Chunk是一个Java模板引擎，适用于服务HTML或XML的应用程序。
@@ -2418,7 +2417,7 @@
 * [jsonld-java](https://github.com/jsonld-java/jsonld-java)：JSON-LD 1.0规范和JSON-LD-API 1.0规范的Java实现。
 * [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库。
 * [Instagram Json Parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
-* [minimal-json](https://github.com/ralfstx/minimal-json)：一个快速、小型的Java JSON解析器和写入器。
+* [Minimal Json](https://github.com/ralfstx/minimal-json)：一个快速、小型的Java JSON解析器和写入器。
 * [Jfire-codejson](https://gitee.com/eric_ds/jfire-codejson)：性能非常高的JSON序列化和反序列化库。
 * [Snack3](https://gitee.com/noear/snack3)：一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
@@ -2456,18 +2455,18 @@
 * [ASCII Table](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
 * [Crash](https://github.com/crashub/crash)：Crash是一个为扩展Java程序和Java虚拟机而设计的Shell。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
-* [java-ascii-render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
+* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
 * [Apache Commons CLI](https://github.com/apache/commons-cli)：Apache Commons CLI提供了一个简单的API，用于呈现、处理和验证命令行界面。
-* [mcs](https://github.com/mthmulders/mcs)：可以从命令行搜索Maven中央仓库。
+* [MCS](https://github.com/mthmulders/mcs)：可以从命令行搜索Maven中央仓库。
 * [JD-Core](https://github.com/java-decompiler/jd-core)：JD-Core是一个用Java编写的Java反编译器。
-* [jd-cli](https://github.com/intoolswetrust/jd-cli)：jd-cli是JD-Core项目的简单命令行包装器。
+* [JD-CLI](https://github.com/intoolswetrust/jd-cli)：JD-CLI是JD-Core项目的简单命令行包装器。
 * [Airline](https://github.com/rvesse/airline)：基于Java注解的框架，用于解析类似Git的命令行结构，具有深度可扩展性。
-* [jbock](https://github.com/jbock-java/jbock)：无反射命令行解析器。
+* [JBock](https://github.com/jbock-java/jbock)：无反射命令行解析器。
 * [Args4j](https://github.com/kohsuke/args4j)：Args4j是一个小型Java类库，可以轻松解析CUI应用程序中的命令行选项/参数。
 * [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
 * [JeeSh](https://github.com/jeeshell/je2sh)：JVM可扩展和可嵌入Shell。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
-* [progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
+* [Progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：高级控制台(和Swing)文本用户界面库，具有可鼠标拖动的窗口、内置终端窗口管理器和Sixel图像支持。
 
 <h2 id="ssh">SSH工具</h2>
@@ -2507,7 +2506,7 @@
 * [Jcabi-Github](https://github.com/jcabi/jcabi-github)：GitHub API的Java面向对象包装器。
 * [RepoSense](https://github.com/reposense/RepoSense)：Git存储库的贡献分析工具。
 * [JGit](https://eclipse.dev/jgit/)：可以用于操作Git存储库的纯Java实现。
-* [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
+* [Git Commit Id Maven Plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
 * [GitLab4J](https://github.com/gitlab4j/gitlab4j-api)：GitLab4J提供了功能齐全且易于使用的Java库，用于通过GitLab REST API使用GitLab存储库。
 * [GitSolo](https://gitee.com/zhiqim/gitsolo)：知启蒙团队开源的极简Git服务器，纯Java开发。
 * [Github Java API](https://github.com/hub4j/github-api)：GitHub的Java API。
@@ -2523,24 +2522,23 @@
 * [CQEngine](https://github.com/npgall/cqengine)：集合查询引擎–是一个高性能Java集合，可以使用类似SQL的查询进行搜索，并且延迟极低。
 * [Agrona](https://github.com/real-logic/agrona)：Java的高性能数据结构和实用方法。
 * [Koloboke](https://github.com/leventov/Koloboke)：精心设计的Java集合框架扩展，具有原始类型特化等功能。
-* [high-scale-lib](https://github.com/stephenc/high-scale-lib)：并发且高度可扩展的实用程序的集合。
 * [Javolution](https://github.com/javolution/javolution)：用于实时和嵌入式系统的Java核心库。
 * [Trove](https://bitbucket.org/trove4j/trove/src/master/)：为Java提供高速对象和原始集合。
 * [Primitive-Collections](https://github.com/Speiger/Primitive-Collections)：一个原始集合库，可减少内存使用并提高性能。
 * [Capsule](https://github.com/usethesource/capsule)：Capsule旨在成为Java 11+的成熟(不可变)集合库，完全围绕持久尝试构建。
 * [LMAXCollections](https://github.com/LMAX-Exchange/LMAXCollections)：高性能集合库。
 * [Paguro](https://github.com/GlenKPeterson/Paguro)：JVM的泛型、空安全、不可变集合和函数式转换。
-* [pcj](https://github.com/pmem/pcj)：Java的持久集合库。
+* [Persistent Collections](https://github.com/pmem/pcj)：Java的持久集合库。
 * [Zero-Allocation Hashing](https://github.com/OpenHFT/Zero-Allocation-Hashing)：用于对Java中的任何字节序列进行哈希处理，包括各种原始数组、缓冲区、CharSequence等。
 
 <h2 id="functional">函数式编程</h2>
 
 * [Vavr](https://github.com/vavr-io/vavr)：Vavr是Java 8的对象函数语言扩展，旨在减少代码行数并提高代码质量。
 * [StreamEx](https://github.com/amaembo/streamex)：对Java Stream API的增强库。
-* [jOOL](https://github.com/jOOQ/jOOL)：为Java 8 Lambda提供了一些有用的扩展，
-* [javatuples](https://github.com/javatuples/javatuples)：Java中元组的类型安全表示。
+* [JOOL](https://github.com/jOOQ/jOOL)：为Java 8 Lambda提供了一些有用的扩展。
+* [JavaTuples](https://github.com/javatuples/javatuples)：Java中元组的类型安全表示。
 * [Apache Commons Functor](https://github.com/apache/commons-functor)：Apache Commons Functor库定义了通用函子和函子相关的接口、实现和实用程序。
-* [throwing-function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
+* [Throwing Function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
 * [FunctionalJava](https://github.com/functionaljava/functionaljava)：Functional Java是一个开源库，促进Java中的函数式编程。
 * [Cyclops](https://github.com/aol/cyclops)：一个先进且易于使用的平台，用于在Java 8中编写函数式应用程序。
 * [Linq4j](https://github.com/julianhyde/linq4j)：LINQ的Java实现库。
@@ -2551,11 +2549,11 @@
 * [Totallylazy](https://github.com/bodar/totallylazy/)：用于Java的函数式编程库。
 * [Retrolambda](https://github.com/luontola/retrolambda)：Retrolambda允许你在Java 7、6或5上运行带有Lambda表达式、方法引用和try-with-resources语句的Java 8代码。
 * [Fugue](https://bitbucket.org/atlassian/fugue/src/master/)：Guava的函数式编程扩展。
-* [lambda](https://github.com/palatable/lambda)：Java的函数式模式。
-* [underscore-java](https://github.com/javadev/underscore-java)：Underscore.js的Java版本。
+* [Lambda](https://github.com/palatable/lambda)：Java的函数式模式。
+* [Underscore Java](https://github.com/javadev/underscore-java)：Underscore.js的Java版本。
 * [Faux-Pas](https://github.com/zalando/faux-pas)：一个简化Java函数式编程错误处理的库。
 * [Lightweight-Stream-API](https://github.com/aNNiMON/Lightweight-Stream-API)：Java Stream API的扩展库。
-* [linq](https://github.com/timandy/linq)：LINQ到对象转换的Java库。
+* [LINQ](https://github.com/timandy/linq)：LINQ到对象转换的Java库。
 * [Formulog](https://github.com/HarvardPL/formulog)：支持SMT查询和一阶函数编程的数据记录。
 * [Purefun](https://github.com/tonivade/purefun)：Java函数式编程库。
 * [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow)：SneakyThrow是一个忽略受检异常的Java库。
@@ -2569,12 +2567,12 @@
 * [Javassist](https://github.com/jboss-javassist/javassist)：Java字节码工程工具包。
 * [cglib](https://github.com/cglib/cglib)：用于生成和转换Java字节码的高级API。
 * [ByteX](https://github.com/bytedance/ByteX)：字节开源的字节码插件开发平台。
-* [allocation-instrumenter](https://github.com/google/allocation-instrumenter)：将字节码重写为工具分配站点的Java代理，由Google开源。
+* [Allocation Instrumenter](https://github.com/google/allocation-instrumenter)：将字节码重写为工具分配站点的Java代理，由Google开源。
 * [Soot](https://github.com/soot-oss/soot)：Soot是一个Java优化框架，提供了多种用于分析和转换Java字节码的中间表示形式。
 * [Mixin](https://github.com/SpongePowered/Mixin)：Mixin是一个使用ASM的Java特征/混合和字节码编织框架。
 * [RoboVM](https://github.com/MobiVM/robovm)：针对IOS、Mac OSX和Linux的JVM字节码AOT。
 * [ByteKit](https://github.com/alibaba/bytekit)：Java字节码工具包，由阿里开发。
-* [proguard-core](https://github.com/Guardsquare/proguard-core)：用于读取、写入、分析和处理Java字节码的库。
+* [ProGuard](https://github.com/Guardsquare/proguard-core)：用于读取、写入、分析和处理Java字节码的库。
 * [DroidAssist](https://github.com/didi/DroidAssist)：一个基于Javassist的轻量级Android Studio Gradle插件，用于在Android中编辑字节码，由滴滴开源。
 
 <h2 id="image">图像处理</h2>
