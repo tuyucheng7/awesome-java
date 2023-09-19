@@ -36,7 +36,7 @@
 - [分布式追踪](#distributed-tracing)
 - [指标报告](#metrics)
 - [注册中心](#registry)
-- [限流库](#rate-limiting)
+- [容错库](#rate-limiting)
 - [网关](#gateway)
 - [性能分析](#profiler)
 - [大数据框架](#bigdata)
@@ -270,7 +270,7 @@
 * [Ja-micro](https://github.com/Sixt/ja-micro)：用于构建Java微服务的轻量级框架。
 * [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
 * [Redkale](https://github.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
-* [Mica](https://github.com/lets-mica/mica)：Spring Cloud微服务开发核心工具集。
+* [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
 
 <h2 id="microservice-tool">微服务工具</h2>
@@ -286,6 +286,7 @@
 * [Abixen-Platform](https://github.com/abixen/abixen-platform)：Abixen平台是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
 * [MicroStream](https://github.com/microstream-one/microstream)：微秒响应时间、超高吞吐量、最小延迟，创建超快速内存数据库应用程序和微服务。
 * [MSEC](https://github.com/Tencent/MSEC)：由腾讯QQ团队开源，它是一个后端DEV & OPS引擎，包括RPC、名称查找、负载均衡、监控、发布和容量管理。
+* [Moss](https://github.com/SpringCloud/Moss)：Spring Cloud体系的服务治理平台。
 * [SwimOS](https://github.com/swimos/swim)：用于构建有状态微服务、流API和实时UI的全栈应用程序平台。
 * [Conjure](https://github.com/palantir/conjure)：适用于浏览器和微服务的强类型HTTP/JSON API。
 * [GreenLightning](https://github.com/oci-pronghorn/GreenLightning)：高性能微服务运行时。
@@ -347,31 +348,35 @@
 
 * [Pig](https://gitee.com/log4j/pig)：基于Spring Boot 3.0、Spring Cloud 2022 & Alibaba、SAS OAuth2的微服务RBAC权限管理系统。
 * [RuoYi](https://gitee.com/zhijiantianya/ruoyi-vue-pro)：基于Spring Boot + MyBatisPlus + Vue & Element实现的后台管理系统、微信小程序。
-* [zheng](https://gitee.com/shuzheng/zheng)：基于Spring + Spring MVC+ Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块。
-* [Cloud-Platform](https://gitee.com/geek_qi/cloud-platform)：Spring Cloud微服务化RBAC的管理平台。
+* [RuoYi Cloud](https://gitee.com/zhijiantianya/yudao-cloud)：基于Spring Cloud Alibaba、Gateway、Nacos、RocketMQ、Vue实现的后台管理系统 + 用户小程序。
+* [Zheng](https://gitee.com/shuzheng/zheng)：基于Spring + Spring MVC+ Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块。
+* [Cloud Platform](https://gitee.com/geek_qi/cloud-platform)：Spring Cloud微服务化RBAC的管理平台。
 * [SpringBlade](https://gitee.com/smallc/SpringBlade)：提供基于React和Vue的两个前端框架用于快速搭建企业级的SaaS多租户微服务平台。
 * [JeeSpringCloud](https://gitee.com/JeeHuangBingGui/jeeSpringCloud)：基于Spring Boot 2.0的后台权限管理系统界面简洁美观敏捷开发系统架构。
-* [hope-boot](https://github.com/java-aodeng/hope-boot)：一款现代化的脚手架项目。
-* [spring-boot-plus](https://github.com/geekidea/spring-boot-plus)：Spring Boot Plus是一个简单易用、高速、高效、功能丰富的开源Spring Boot脚手架。
+* [Hope Boot](https://github.com/java-aodeng/hope-boot)：一款现代化的脚手架项目。
+* [Spring Boot Plus](https://github.com/geekidea/spring-boot-plus)：Spring Boot Plus是一个简单易用、高速、高效、功能丰富的开源Spring Boot脚手架。
 * [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：X-SpringBoot是一个轻量级的Java快速开发平台。
-* [springcloud-thoth](https://github.com/SpringForAll/springcloud-thoth)：Spring Cloud脚手架。
-* [lenosp](https://gitee.com/zzdevelop/lenosp)：lenosp是一个基于Spring Boot的脚手架。
+* [Lenosp](https://gitee.com/zzdevelop/lenosp)：lenosp是一个基于Spring Boot的脚手架。
 * [SpringCloud](https://github.com/zhoutaoo/SpringCloud)：基于Spring Cloud 2.1的微服务开发脚手架。
-* [liugh-parent](https://github.com/qq53182347/liugh-parent)：实现RESTful快速开发的后端脚手架。
-* [es](https://github.com/zhangkaitao/es)：Java EE项目开发脚手架。
-* [ballcat](https://github.com/ballcat-projects/ballcat)：一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷starter进行功能扩展。
-* [mall-tiny](https://github.com/macrozheng/mall-tiny)：一款基于Spring Boot + MyBatisPlus的快速开发脚手架。
-* [AgileBoot-Back-End](https://github.com/valarchie/AgileBoot-Back-End)：规范易于二开的全栈基础快速开发脚手架。
+* [Liugh](https://github.com/qq53182347/liugh-parent)：实现RESTful快速开发的后端脚手架。
+* [ES](https://github.com/zhangkaitao/es)：Java EE项目开发脚手架。
+* [BallCat](https://github.com/ballcat-projects/ballcat)：一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷starter进行功能扩展。
+* [Mall-Tiny](https://github.com/macrozheng/mall-tiny)：一款基于Spring Boot + MyBatisPlus的快速开发脚手架。
+* [AgileBoot](https://github.com/valarchie/AgileBoot-Back-End)：规范易于二开的全栈基础快速开发脚手架。
+* [Spring Boot API Project Seed](https://github.com/lihengming/spring-boot-api-project-seed)：一个基于Spring Boot、MyBatis的种子项目，用于快速构建中小型API、RESTful API项目。
 * [Vole](https://github.com/gavenwangcn/vole)：Spring Cloud微服务商业脚手架。
 * [SpringBoot_v2](https://gitee.com/bdj/SpringBoot_v2)：Spring Boot项目开发脚手架。
 * [Slife](https://gitee.com/jamen/slife)：Spring Boot搭建的一个企业级快速开发脚手架。
-* [vhr](https://gitee.com/lenve/vhr)：Spring Boot + Vue前后端分离的人力资源管理项目，可做常规企业级应用脚手架。
-* [maozi-cloud-parent](https://github.com/1095071913/maozi-cloud-parent)：基于Spring Cloud Alibaba、Dubbo二开封装。
-* [jbone](https://github.com/417511458/jbone)：jbone基于Spring Cloud框架开发，旨在为中小企业提供稳定的微服务解决方案，为开发人员提供基础开发骨架。
-* [hsweb4](https://github.com/hs-web/hsweb-framework)：一个基于Spring Boot开发，使用全响应式编程的企业级后台管理系统基础项目。
+* [Vhr](https://gitee.com/lenve/vhr)：Spring Boot + Vue前后端分离的人力资源管理项目，可做常规企业级应用脚手架。
+* [Maozi](https://github.com/1095071913/maozi-cloud-parent)：基于Spring Cloud Alibaba、Dubbo二开封装。
+* [JBone](https://github.com/417511458/jbone)：jbone基于Spring Cloud框架开发，旨在为中小企业提供稳定的微服务解决方案，为开发人员提供基础开发骨架。
+* [HsWeb](https://github.com/hs-web/hsweb-framework)：一个基于Spring Boot开发，使用全响应式编程的企业级后台管理系统基础项目。
 * [Source-Vue](https://gitee.com/open-source-byte/source-vue)：基于Spring Boot + Vue前后端分离的Java快速开发框架。
 * [Pangu](https://gitee.com/pulanos/pangu-framework)：盘古开发框架是一套轻量稳健的工业级前、中、后台三维多端行业数字化赋能开发基座。
-* [fx-falsework](https://gitee.com/lwdillon/fx-falsework)：基于JavaFX、Spring Boot开发的客户端与服务端系统开发脚手架。
+* [JavaFX-Falsework](https://gitee.com/lwdillon/fx-falsework)：基于JavaFX、Spring Boot开发的客户端与服务端系统开发脚手架。
+* [XBoot](https://github.com/Exrick/xboot)：基于Spring Boot 2.x的一站式前后端分离快速开发平台。
+* [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：一个轻量级的Java快速开发平台，能快速开发项目并交付。
+* [RenRen Security](https://gitee.com/renrenio/renren-security)：采用Spring Boot、MyBatisPlus、Shiro、Vue 3、ElementPlus等框架开发的一套权限系统。
 
 <h2 id="test">测试</h2>
 
@@ -700,7 +705,7 @@
 <h2 id="cloud-native">云原生</h2>
 
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。
-* [Spring-Cloud-Kubernetes](https://github.com/spring-cloud/spring-cloud-kubernetes)：Kubernetes与Spring Cloud Discovery客户端、配置等集成。
+* [Spring Cloud Kubernetes](https://github.com/spring-cloud/spring-cloud-kubernetes)：Kubernetes与Spring Cloud Discovery客户端、配置等集成。
 * [HummerRisk](https://github.com/chaitin/HummerRisk)：HummerRisk是云原生安全平台，包括混合云安全治理和云原生安全检测。
 * [SREWorks](https://github.com/alibaba/SREWorks)：云原生数智运维平台。
 * [Siddhi](https://github.com/siddhi-io/siddhi)：流处理和复杂事件处理引擎。
@@ -844,7 +849,7 @@
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是由蚂蚁金服提供支持的生产级、低延迟、高可用性服务注册中心。
 * [Flair-Registry](https://github.com/viz-centric/flair-registry)：Flair BI的服务发现。
 
-<h2 id="rate-limiting">限流库</h2>
+<h2 id="rate-limiting">容错库</h2>
 
 * [Sentinel](https://github.com/alibaba/Sentinel)：面向云原生微服务的高可用流控防护组件，由阿里开源。
 * [Hystrix](https://github.com/Netflix/Hystrix)：Hystrix是一个延迟和容错库，可以防止级联故障，由Netflix开源。
@@ -861,6 +866,14 @@
 * [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架。
 * [Failsafe](https://github.com/failsafe-lib/failsafe)：Failsafe是一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
 * [SDS](https://github.com/didi/sds)：SDS是一个轻量级、简单、易用的限流、熔断、降级系统，由滴滴开源。
+* [Spring Retry](https://github.com/spring-projects/spring-retry)：该项目为Spring应用程序提供声明式重试支持。
+* [Guava Retry](https://github.com/rholder/guava-retrying)：这是Google Guava库的一个小扩展，允许为任意函数调用创建可配置的重试策略。
+* [Async Retry](https://github.com/nurkiewicz/async-retry)：用于Java 7/8的异步重试库。
+* [Retry4j](https://github.com/elennick/retry4j)：Retry4j是一个简单的Java库，可帮助重试瞬时故障情况或不可靠的代码，该项目不再维护。
+* [Easy Retry](https://github.com/alibaba/easy-retry)：一种存储介质可扩展的持久化重试方案，由阿里开源。
+* [Easy Retry](https://gitee.com/aizuda/easy-retry)：致力提高分布式业务系统一致性的分布式重试平台。
+* [Retrieval](https://gitee.com/spjich/retrieval)：一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
+* [Sisyphus](https://github.com/houbb/sisyphus)：支持过程式编程和注解编程的Java重试框架。
 
 <h2 id="gateway">网关</h2>
 
@@ -1666,10 +1679,10 @@
 
 * [JeeSite](https://gitee.com/thinkgem/jeesite4)：JeeSite快速开发平台，不仅仅是一个后台开发框架，更是一个企业级快速开发解决方案。
 * [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发基础框架，基于主流技术Spring Boot，配套代码生成平台、DevOps运维平台、CI/CD持续集成能力、在线API接口管理。
-* [maku-boot](https://gitee.com/makunet/maku-boot)：采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
+* [Maku Boot](https://gitee.com/makunet/maku-boot)：采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
 * [MateCloud](https://gitee.com/matevip/matecloud)：基于Spring Cloud Alibaba的微服务架构，支持多租户的低代码平台。
-* [JeecgBoot](https://github.com/jeecgboot/jeecg-boot)：JeecgBoot是一款基于代码生成器的低代码开发平台，前后端分离架构 Spring Boot 2.x、Spring Cloud、Ant Design & Vue、MybatisPlus、Shiro、JWT，支持微服务。
-* [diboot](https://github.com/dibo-software/diboot)：为开发人员打造的低代码开发平台。
+* [JeecgBoot](https://gitee.com/jeecg/jeecg-boot)：JeecgBoot是一款基于代码生成器的低代码开发平台，前后端分离架构Spring Boot 2.x、Spring Cloud、Ant Design & Vue、MybatisPlus、Shiro、JWT，支持微服务。
+* [DiBoot](https://github.com/dibo-software/diboot)：为开发人员打造的低代码开发平台。
 * [OPSLI](https://github.com/hiparker/opsli-boot)：OPSLI是一款低代码快速平台，零代码开发，致力于更简洁的后台管理系统。
 * [RESTHeart](https://github.com/SoftInstigate/restheart)：开源低代码API开发框架，具有现成的安全性和MongoDB API。
 * [Structr](https://github.com/structr/structr)：Structr是一个使用图数据库的集成低代码开发和运行时环境，使用Structr，可以比传统开发方法更快地构建企业Web应用程序。
@@ -1677,7 +1690,8 @@
 * [Citrus](https://github.com/Yiuman/citrus)：低代码快速开发脚手架，灵活、高效。
 * [Convertigo](https://github.com/convertigo/convertigo)：Convertigo是一个开源低代码平台，包括用于全栈移动和Web应用程序开发的无代码应用程序构建器。
 * [Orienteer](https://github.com/OrienteerBAP/Orienteer)：业务应用程序平台-用于构建业务应用程序的无代码/低代码平台。
-* [Open-Lowcode](https://github.com/openlowcode/Open-Lowcode)：特定企业软件快速开发解决方案。
+* [Open Lowcode](https://github.com/openlowcode/Open-Lowcode)：特定企业软件快速开发解决方案。
+* [LAMP Cloud](https://github.com/dromara/lamp-cloud)：基于JDK 11、Spring Cloud、Spring Boot开发的微服务中后台快速开发平台，专注于多租户(SaaS架构)解决方案。
 * [Portofino](https://github.com/ManyDesigns/Portofino)：Portofino 5是下一代开源低代码Web框架，其目的是帮助开发人员使用REST API和Angular UI创建现代的、响应式的企业应用程序。
 * [Jianmu](https://github.com/jianmu-dev/jianmu)：健木是一款易于扩展的开源NoCode(Graphical)/LowCode(GitOps) DevOps工具。
 * [Skyeye](https://gitee.com/doc_wei01/skyeye)：智能制造一体化，采用Spring Boot + WinUI的低代码平台开发模式。
@@ -1938,6 +1952,7 @@
 * [QuickML](https://github.com/sanity/quickml)：Java中快速且易于使用的决策树学习器。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
 * [Dagli](https://github.com/linkedin/dagli)：用于定义机器学习模型的框架，包括特征生成和转换，如有向无环图(DAG)，由LinkedIn开源。
+* [Spring AI](https://github.com/spring-projects-experimental/spring-ai)：Spring AI项目旨在简化包含人工智能功能的应用程序的开发，避免不必要的复杂性。
 * [Ytk-learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-learn是一个分布式机器学习库，实现了大多数流行的机器学习算法。
 * [Meka](https://github.com/Waikato/meka)：使用Weka机器学习框架的多标签分类器和评估程序，由怀卡托大学开发。
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow的Java绑定。
@@ -2241,7 +2256,8 @@
 * [burpgpt](https://github.com/aress31/burpgpt)：Burp Suite扩展集成了OpenAI的GPT，可以执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
 * [Janssen](https://github.com/JanssenProject/jans)：数字身份基础设施软件协作中心。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
-* [two-factor-auth](https://github.com/j256/two-factor-auth)：2因素身份验证(2FA)Java代码，使用基于时间的一次性密码(TOTP)算法。
+* [Spring Session](https://github.com/spring-projects/spring-session)：Spring Session提供了一个API和实现来管理用户的会话信息，同时也使得支持集群会话变得很简单，而无需绑定到应用程序容器特定的解决方案。
+* [2FA](https://github.com/j256/two-factor-auth)：2因素身份验证(2FA)Java代码，使用基于时间的一次性密码(TOTP)算法。
 * [Microsoft Authentication Library](https://github.com/AzureAD/microsoft-authentication-library-for-java)：MSAL4J使应用程序能够与Microsoft身份平台集成。
 * [Firebase Admin SDK](https://github.com/firebase/firebase-admin-java)：Firebase Admin提供的Java SDK。
 * [RiskScanner](https://github.com/fit2cloud/riskscanner)：RiskScanner是开源的多云安全合规扫描平台，基于Cloud Custodian、Prowler和Nuclei引擎，实现对主流公(私)有云资源的安全合规扫描和漏洞扫描。
@@ -2343,7 +2359,7 @@
 * [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持。
 * [Bitronix](https://github.com/bitronix/btm)：Bitronix事务管理器(BTM)是JTA 1.1 API的简单但完整的实现。
 * [AtlasDB](https://github.com/palantir/atlasdb)：事务分布式数据库层。
-* [hmily](https://github.com/dromara/hmily)：分布式事务解决方案，由dromara社区开源。
+* [Hmily](https://github.com/dromara/hmily)：分布式事务解决方案，由dromara社区开源。
 * [TCC-Transaction](https://github.com/changmingxie/tcc-transaction)：开源的微服务架构下的TCC型分布式事务解决方案。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：JVM的软件事务内存实现。
 * [tx-lcn](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库。
@@ -2715,20 +2731,21 @@
 
 <h2 id="swagger">Swagger</h2>
 
-* [swagger-core](https://github.com/swagger-api/swagger-core)：Swagger Core是OpenAPI规范的Java实现。
-* [knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和OpenAPI 3为一体的增强解决方案。
+* [Swagger Core](https://github.com/swagger-api/swagger-core)：Swagger Core是OpenAPI规范的Java实现。
+* [Knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和OpenAPI 3为一体的增强解决方案。
 * [Springfox](https://github.com/springfox/springfox)：使用Spring构建的API的自动化JSON API文档。
-* [swagger-parser](https://github.com/swagger-api/swagger-parser)：Swagger Parser是Swagger工具之一，可以帮助我们解析OpenAPI文档并提取其各个组件。
-* [springdoc-openapi](https://github.com/springdoc/springdoc-openapi)：Springdoc-openapi是一个用于Spring Boot项目的OpenAPI 3实现。
+* [Swagger Parser](https://github.com/swagger-api/swagger-parser)：Swagger Parser是Swagger工具之一，可以帮助我们解析OpenAPI文档并提取其各个组件。
+* [SpringDoc-OpenAPI](https://github.com/springdoc/springdoc-openapi)：Springdoc-openapi是一个用于Spring Boot项目的OpenAPI 3实现。
 * [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
-* [spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot集成Swagger的Starter。
-* [swagger2word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
+* [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot集成Swagger的Starter。
+* [Swagger2Word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
 * [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。
+* [Spring REST Docs](https://github.com/spring-projects/spring-restdocs)：该项目的主要目标是通过将使用Asciidoctor手写的内容与使用Spring MVC测试框架生成的自动生成的示例相结合，轻松记录RESTful服务。
 * [OpenAPI-diff](https://github.com/OpenAPITools/openapi-diff)：用于比较两个OpenAPI规范的实用程序。
 * [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：基于WebSocket的REST。
 * [Swagger-Play](https://github.com/swagger-api/swagger-play)：这是一个在Play框架控制器中支持Swagger注解的模块。
-* [validator-badge](https://github.com/swagger-api/validator-badge)：该项目在网站上显示“valid swagger”徽章，支持Swagger/OpenAPI 2.0和OpenAPI 3.x规范。
-* [openapi-style-validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
+* [Swagger Validator Badge](https://github.com/swagger-api/validator-badge)：该项目在网站上显示“valid swagger”徽章，支持Swagger/OpenAPI 2.0和OpenAPI 3.x规范。
+* [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
 
 <h2 id="cluster-management">集群管理</h2>
 
@@ -3011,44 +3028,46 @@
 
 <h2 id="spring">Spring生态</h2>
 
-* [spring-boot-admin](https://github.com/codecentric/spring-boot-admin)：用于管理Spring Boot应用程序的管理UI。
-* [mybatis-spring-boot](https://github.com/mybatis/spring-boot-starter)：MyBatis与Spring Boot集成。
-* [Spring-Initializr](https://github.com/spring-io/initializr)：Spring项目的快速生成器。
-* [grpc-spring-boot-starter](https://github.com/yidongnan/grpc-spring-boot-starter)：gRPC框架的Spring Boot Starter模块。
-* [grpc-spring-boot-starter](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
-* [retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强。
-* [spring-boot-data-source-decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
-* [chatgpt-spring-boot-starter](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
-* [spring-modulith](https://github.com/spring-projects/spring-modulith)：使用Spring Boot的模块化应用程序。
-* [spring-data-jpa-entity-graph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
-* [error-handling-spring-boot-starter](https://github.com/wimdeblauwe/error-handling-spring-boot-starter)：可配置的REST API错误处理。
-* [okta-spring-boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
-* [spring-content](https://github.com/paulcwarren/spring-content)：Spring的云原生存储和企业内容服务(ECMS)。
-* [spring-boot-logging](https://github.com/piomin/spring-boot-logging)：用于记录Spring Boot应用程序的HTTP请求/响应以及与Elastic Stack集成的库。
-* [spring-boot-starter-calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
-* [htmx-spring-boot](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
-* [wiremock-spring-boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
-* [djl-spring-boot-starter](https://github.com/deepjavalibrary/djl-spring-boot-starter)：DJL Spring Boot Starter。
-* [spring-view-component](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
-* [narayana-spring-boot](https://github.com/snowdrop/narayana-spring-boot)：Narayana Spring Boot自动配置和Starter。
-* [spring-test-dbunit](https://github.com/springtestdbunit/spring-test-dbunit)：Spring测试框架和DBUnit之间的集成。
-* [aliyun-spring-boot](https://github.com/alibaba/aliyun-spring-boot)：阿里云服务Spring Boot Starter。
-* [springwolf-core](https://github.com/springwolf/springwolf-core)：使用Spring Boot构建的异步API的自动化文档。
-* [camel-spring-boot](https://github.com/apache/camel-spring-boot)：Apache Camel Spring Boot支持。
-* [wicket-spring-boot](https://github.com/MarcGiffing/wicket-spring-boot)：Apache Wicket的Spring Boot Starter。
-* [bitcoin-spring-boot-starter](https://github.com/theborakompanioni/bitcoin-spring-boot-starter)：使用Spring Boot编写企业比特币应用程序的工具。
-* [bucket4j-spring-boot-starter](https://github.com/MarcGiffing/bucket4j-spring-boot-starter)：Bucket4j的Spring Boot Starter。
-* [camunda-bpm-spring-boot-starter](https://github.com/camunda/camunda-bpm-spring-boot-starter)：Camunda的Spring Boot Starter。
-* [charon-spring-boot-starter](https://github.com/mkopylec/charon-spring-boot-starter)：以Spring Boot Starter形式的反向代理实现。
-* [desensitization-spring-boot](https://github.com/allurx/desensitization-spring-boot)：脱敏库与Spring Boot集成。
-* [errors-spring-boot-starter](https://github.com/alimate/errors-spring-boot-starter)：Spring Boot的优雅错误处理。
-* [recaptcha-spring-boot-starter](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
-* [jade4j-spring-boot-starter](https://github.com/domix/jade4j-spring-boot-starter)：Spring Boot jade4j Starter。
-* [resteasy-spring-boot](https://github.com/resteasy/resteasy-spring-boot)：RESTEasy Spring Boot Starter。
-* [cxf-spring-boot-starter](https://github.com/codecentric/cxf-spring-boot-starter)：由Spring Boot和Apache CXF提供支持的企业和生产就绪SOAP Web Service。
-* [spring-boot-starter-batch-web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
-* [problem-spring-web](https://github.com/zalando/problem-spring-web)：用于处理Spring Web MVC中问题的库。
-* [spring-ai](https://github.com/spring-projects-experimental/spring-ai)：Spring AI项目旨在简化包含人工智能功能的应用程序的开发，避免不必要的复杂性。
+* [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)：用于管理Spring Boot应用程序的管理UI。
+* [MyBatis Spring Boot](https://github.com/mybatis/spring-boot-starter)：MyBatis与Spring Boot集成。
+* [Spring Initializr](https://github.com/spring-io/initializr)：Spring项目的快速生成器。
+* [gRPC Spring Boot](https://github.com/yidongnan/grpc-spring-boot-starter)：gRPC框架的Spring Boot Starter模块。
+* [gRPC Spring Boot](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
+* [Retrofit Spring Boot](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强。
+* [Spring Boot DataSource Decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
+* [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
+* [Spring Boot Dubbo](https://github.com/apache/dubbo-spring-boot-project)：Apache Dubbo Spring Boot项目可以轻松使用Dubbo作为RPC框架创建Spring Boot应用程序。
+* [Spring Boot Jasypt](https://github.com/ulisesbocchio/jasypt-spring-boot)：Jasypt Spring Boot为Spring Boot应用程序中的属性源提供加密支持。
+* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
+* [Error Handling Spring Boot](https://github.com/wimdeblauwe/error-handling-spring-boot-starter)：可配置的REST API错误处理。
+* [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
+* [Spring Content](https://github.com/paulcwarren/spring-content)：Spring的云原生存储和企业内容服务(ECMS)。
+* [Spring Boot Logging](https://github.com/piomin/spring-boot-logging)：用于记录Spring Boot应用程序的HTTP请求/响应以及与Elastic Stack集成的库。
+* [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
+* [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
+* [WireMock Spring Boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
+* [DJL Spring Boot](https://github.com/deepjavalibrary/djl-spring-boot-starter)：DJL Spring Boot Starter。
+* [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
+* [Narayana Spring Boot](https://github.com/snowdrop/narayana-spring-boot)：Narayana Spring Boot自动配置和Starter。
+* [Spring DBUnit](https://github.com/springtestdbunit/spring-test-dbunit)：Spring测试框架和DBUnit之间的集成。
+* [Alibaba Spring Boot](https://github.com/alibaba/aliyun-spring-boot)：阿里云服务Spring Boot Starter。
+* [Springwolf](https://github.com/springwolf/springwolf-core)：使用Spring Boot构建的异步API的自动化文档。
+* [Apache Camel Spring Boot](https://github.com/apache/camel-spring-boot)：Apache Camel Spring Boot支持。
+* [Wicket Spring Boot](https://github.com/MarcGiffing/wicket-spring-boot)：Apache Wicket的Spring Boot Starter。
+* [Bitcoin Spring Boot](https://github.com/theborakompanioni/bitcoin-spring-boot-starter)：使用Spring Boot编写企业比特币应用程序的工具。
+* [Spring Boot Bucket4j](https://github.com/MarcGiffing/bucket4j-spring-boot-starter)：Bucket4j的Spring Boot Starter。
+* [Camunda Spring Boot](https://github.com/camunda/camunda-bpm-spring-boot-starter)：Camunda的Spring Boot Starter。
+* [Charon Spring Boot](https://github.com/mkopylec/charon-spring-boot-starter)：以Spring Boot Starter形式的反向代理实现。
+* [Desensitization Spring Boot](https://github.com/allurx/desensitization-spring-boot)：脱敏库与Spring Boot集成。
+* [Errors Spring Boot](https://github.com/alimate/errors-spring-boot-starter)：Spring Boot的优雅错误处理。
+* [reCAPTCHA Spring Boot](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
+* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：该项目旨在帮助开发者快速将RocketMQ与Spring Boot集成。
+* [PageHelper Spring Boot](https://github.com/pagehelper/pagehelper-spring-boot)：Mybatis分页插件与Spring Boot的集成。
+* [Pug4j Spring Boot](https://github.com/domix/jade4j-spring-boot-starter)：Spring Boot jade4j Starter。
+* [RESTEasy Spring Boot](https://github.com/resteasy/resteasy-spring-boot)：RESTEasy Spring Boot Starter。
+* [Apache CXF Spring Boot](https://github.com/codecentric/cxf-spring-boot-starter)：由Spring Boot和Apache CXF提供支持的企业和生产就绪SOAP Web Service。
+* [Spring Boot Batch Web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
+* [Problem Spring Web](https://github.com/zalando/problem-spring-web)：用于处理Spring Web MVC中问题的库。
 
 <h2 id="raft">Raft算法</h2>
 
