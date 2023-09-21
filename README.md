@@ -243,7 +243,7 @@
 
 * [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring生态中的微服务框架。
 * [Dubbo](https://github.com/apache/dubbo)：阿里开源的RPC和微服务框架。
-* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：JVM平台上的微服务框架。
+* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：JVM平台上的微服务框架，由GraalVM项目组维护。
 * [Quarkus](https://github.com/quarkusio/quarkus)：云原生时代的Java微服务框架，由RedHat开发。
 * [Helidon](https://github.com/helidon-io/helidon)：用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix是Spring Cloud的子项目，提供了Netflix开源项目的整合。
@@ -341,7 +341,7 @@
 * [Requery](https://github.com/requery/requery)：一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
 * [BeetlSQL](https://gitee.com/xiandafu/beetlsql)：简洁方便，功能强大的ORM工具。
 * [Eclipse JNoSQL](https://github.com/eclipse/jnosql)：Eclipse JNoSQL是Jakarta NoSQL和Jakarta Data规范的兼容实现，可简化Java应用程序与NoSQL数据库的集成。
-* [Eclipse Store](https://github.com/eclipse-store/store)：高性能Java原生持久层，部分存储和加载任何Java对象图或子图，摆脱重量级 JPA。
+* [Eclipse Store](https://github.com/eclipse-store/store)：高性能Java原生持久层，部分存储和加载任何Java对象图或子图，摆脱重量级JPA。
 * [Sql2o](https://github.com/aaberg/sql2o)：Sql2o是一个小型库，可以轻松地将SQL语句的结果转换为对象。
 * [Morphia](https://github.com/MorphiaOrg/morphia)：基于Java的MongoDB对象-文档映射器。
 * [Apache MetaModel](https://metamodel.apache.org/)：借助MetaModel，你可以获得许多不同数据存储类型的统一连接器和查询API。
