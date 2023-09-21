@@ -300,6 +300,7 @@
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [Sermant](https://github.com/huaweicloud/Sermant)：一个基于Javaagent的无代理服务网格解决方案，由华为开源。
 * [Apache Pekko](https://github.com/apache/incubator-pekko)：Apache Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
+* [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
 * [WSO2 API Manager](https://github.com/wso2/product-apim)：WSO2 API Manager是一个用于创建、管理、使用和监控Web API的强大平台。
 
 <h2 id="orm-framework">持久层框架</h2>
@@ -709,6 +710,8 @@
 * [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
 * [Zerocrat](https://github.com/zerocracy/farm)：Zerocrat核心引擎。
 * [Freeplane](https://github.com/freeplane/freeplane)：Freeplane是一款免费的开源软件应用程序，提供了一组用于思维导图和导航映射信息的工具。
+* [Gerrit](https://github.com/GerritCodeReview/gerrit)：Gerrit是基于Git的项目的代码审查和项目管理工具，由Google开源。
+* [Hawtio](https://github.com/hawtio/hawtio)：Hawtio是一个轻量级、模块化的Web控制台，用于管理Java应用程序，由IBM开源。
 
 <h2 id="cloud-native">云原生</h2>
 
@@ -728,6 +731,7 @@
 * [Apache Submarine](https://github.com/apache/submarine)：Submarine是云原生机器学习平台。
 * [DataSophon](https://github.com/datavane/datasophon)：致力于快速实现大数据云原生平台的部署、管理、监控和自动化运维，帮助你快速构建稳定、高效、弹性、可扩展的大数据云原生平台。
 * [Kogito](https://github.com/kiegroup/kogito-runtimes)：Kogito是一种云原生业务自动化技术，用于构建云就绪的业务应用程序。
+* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Apache Kafka集群的方法，由RedHat开源。
 * [OpenWMS.org](https://github.com/openwms/org.openwms)：开放式仓库管理系统。
 * [JoyQueue](https://github.com/chubaostream/joyqueue)：具有高性能的云原生生产质量消息传递平台。
 * [DataEase](https://gitee.com/fit2cloud-feizhiyun/DataEase)：DataEase是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。
@@ -737,11 +741,13 @@
 * [Smart-MQTT](https://gitee.com/smartboot/smart-mqtt)：一款开源的云原生分布式MQTT Broker服务器，支持海量物联网设备互联互通。
 * [Firehose](https://github.com/raystack/firehose)：Firehose是一种可扩展、无代码、云原生服务，用于将实时流数据从Kafka加载到数据存储、数据湖和分析存储系统。
 * [Dagger](https://github.com/raystack/dagger)：Dagger是一个易于使用、通过代码进行配置的云原生框架，构建在Apache Flink之上，用于实时流数据的状态处理。
+* [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
 * [EDDI](https://github.com/labsai/EDDI)：用于对话式AI API(例如ChatGPT)的提示和对话管理中间件。
 * [GeoServer](https://github.com/geoserver/geoserver-cloud)：通过Docker化微服务在云中使用的GeoServer。
 * [Infinispan](https://github.com/infinispan/infinispan)：Infinispan是一个开源数据网格平台和高度可扩展的NoSQL云数据存储。
 * [Starwhale](https://github.com/star-whale/starwhale)：MLOps/LLMOps平台。
 * [KalDB](https://github.com/slackhq/kaldb)：KalDB是一个用于日志、跟踪和审计数据的云原生搜索和分析引擎。
+* [Teiid](https://github.com/teiid/teiid)：Teiid是一种数据虚拟化系统，允许应用程序使用来自多个异构数据存储的数据，由RedHat主导。
 * [XAP](https://github.com/xap/xap)：分布式、高度可扩展的内存数据网格。
 * [Spring Boot Istio](https://github.com/piomin/spring-boot-istio)：用于与Kubernetes上的Istio集成的Spring Boot库。
 * [SimianArmy](https://github.com/Netflix/SimianArmy)：SimianArmy是一套工具，可让云保持最佳状态运行，由Netflix开源。
@@ -1064,6 +1070,11 @@
 * [Apache Falcon](http://falcon.apache.org/)：Hadoop的数据管理和处理平台。
 * [Apache Karaf](https://github.com/apache/karaf)：用于Hadoop服务的REST API网关。
 * [Apache Giraph](https://giraph.apache.org/)：Apache Giraph是一个专为高可扩展性而构建的迭代图形处理系统，Facebook基于Pregel思想的开源实现。
+* [Marquez](https://github.com/MarquezProject/marquez)：Marquez是一种开源元数据服务，用于数据生态系统元数据的收集、聚合和可视化，由WeWork开源。
+* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具，有助于通过现代用户友好的环境有效实现数据民主化、增强协作并减少数据发现时间。
+* [Egeria](https://github.com/odpi/egeria)：Egeria提供开放元数据和治理类型系统、框架、API、事件有效负载和交换协议，由IBM开源。
+* [Cloudbreak](https://github.com/hortonworks/cloudbreak)：CDP公共云是部署在云服务上的集成分析和数据管理平台，它提供广泛的数据分析和人工智能功能以及安全的用户访问和数据治理功能，由Hortonworks开源。
+* [BigQuery Data Lineage](https://github.com/GoogleCloudPlatform/bigquery-data-lineage)：使用审核日志、ZetaSQL和Dataflow对BigQuery进行实时数据沿袭跟踪的参考实现，由Google开源。
 
 <h2 id="message">消息中间件</h2>
 
@@ -1189,7 +1200,7 @@
 * [ElasticSearch](https://github.com/elastic/elasticsearch)：免费开源的分布式、RESTful搜索引擎。
 * [Apache Lucene](https://github.com/apache/lucene)：开源搜索引擎。
 * [Solr](https://github.com/apache/solr)：Solr是一款流行、速度极快的开源搜索平台，基于Apache Lucene构建。
-* [OpenSearch](https://github.com/opensearch-project/OpenSearch)：开源分布式RESTful搜索引擎。
+* [OpenSearch](https://github.com/opensearch-project/OpenSearch)：开源分布式RESTful搜索引擎，由Amazon主导。
 * [YaCy](https://github.com/yacy/yacy_search_server)：分布式点对点Web搜索引擎和Intranet搜索设备。
 * [Fess](https://github.com/codelibs/fess)：Fess是非常强大且易于部署的企业搜索服务器。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：开源企业级搜索引擎软件。
@@ -1922,6 +1933,7 @@
 * [Emoji-Java](https://github.com/vdurmont/emoji-java)：emoji-java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号。
 * [Connector](https://github.com/eclipse-edc/Connector)：
 * [esProc](https://github.com/SPLWare/esProc)：esProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
+* [Syndesis](https://github.com/syndesisio/syndesis)：一个灵活且可定制的开源平台，以服务形式提供核心集成功能，由Fuse Online开源。
 * [Autopsy](https://github.com/sleuthkit/autopsy)：Autopsy是一个数字取证平台以及The Sleuth Kit和其他数字取证工具的图形界面。
 * [DCEVM](https://github.com/dcevm/dcevm)：Java 7/8的动态代码演化VM。
 * [OpenTracing](https://github.com/opentracing/opentracing-java)：OpenTracing的Java平台API。
@@ -1989,6 +2001,7 @@
 * [oj!Algorithms](https://github.com/optimatika/ojAlgo)：与数学、线性代数和优化有关的开源Java代码。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [LangChain4j](https://github.com/langchain4j/langchain4j)：该项目的目标是简化AI/LLM功能到Java应用程序的集成。
+* [ModelMesh](https://github.com/kserve/modelmesh)：ModelMesh框架是一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
 * [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
 * [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具，由怀卡托大学开发。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个先进的机器学习框架，支持支持向量机、人工神经网络、遗传编程、贝叶斯网络、隐马尔可夫模型、遗传编程和遗传算法。
@@ -2073,7 +2086,6 @@
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充。
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能。
 * [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
-* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具，有助于通过现代用户友好的环境有效实现数据民主化、增强协作并减少数据发现时间。
 * [Zingg](https://github.com/zinggAI/zingg)：使用机器学习进行可扩展的身份解析、实体解析、数据掌握和重复数据删除。
 * [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
 * [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
@@ -2375,6 +2387,7 @@
 * [Whorlwind](https://github.com/square/whorlwind)：Android指纹API的响应式包装器，使用指纹处理敏感数据的加密/解密。
 * [Encrypt](https://github.com/GcsSloop/encrypt)：适用于Java和Android的加解密工具库。
 * [Java-AES-Crypto](https://github.com/tozny/java-aes-crypto)：一个简单的Android库，用于加密和解密字符串，旨在避免大多数此类类所遭受的经典错误。
+* [Spring Cloud Config AWS KMS Add-on](https://github.com/zalando/spring-cloud-config-aws-kms)：这是一个Spring Cloud Config附加组件，通过AWS KMS提供加密，由Zalando开源。
 * [EncryptedPreferences](https://github.com/PDDStudio/EncryptedPreferences)：适用于Java和Android的AES-256加密SharedPreferences。
 * [OTP-Java](https://github.com/BastiaanJansen/OTP-Java)：一款小型且易于使用的Java一次性密码生成器，实现RFC 4226(HOTP)和RFC 6238(TOTP)。
 * [Keyczar](https://github.com/google/keyczar)：易于使用的加密工具包，由Google开源。
