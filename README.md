@@ -1084,6 +1084,7 @@
 * [Cloudbreak](https://github.com/hortonworks/cloudbreak)：CDP公共云是部署在云服务上的集成分析和数据管理平台，它提供广泛的数据分析和人工智能功能以及安全的用户访问和数据治理功能，由Hortonworks开源。
 * [BigQuery Data Lineage](https://github.com/GoogleCloudPlatform/bigquery-data-lineage)：使用审核日志、ZetaSQL和Dataflow对BigQuery进行实时数据沿袭跟踪的参考实现，由Google开源。
 * [Vespa](https://github.com/vespa-engine/vespa)：Yahoo开源的大数据服务引擎，在服务时存储、搜索、组织大数据并进行机器学习推理。
+* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 
 <h2 id="message">消息中间件</h2>
 
@@ -1289,6 +1290,7 @@
 * [LevelDB](https://github.com/dain/leveldb)：这是Java中LevelDB的重写，此目标是拥有一个功能完整的实现，其性能与C++原始版本的性能相差不超过10%，并生成C++代码的逐字节精确副本。
 * [Tarantool](https://github.com/tarantool/tarantool)：一个开源NoSQL数据库管理系统和Lua应用服务器。
 * [eXistDB](https://github.com/eXist-db/exist)：eXist-db是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
+* [KSqlDB](https://github.com/confluentinc/ksql)：KSqlDB是一个用于在Apache Kafka之上构建流处理应用程序的数据库，由Confluent开源。
 
 <h2 id="db-conn">数据库连接池</h2>
 
@@ -1541,6 +1543,7 @@
 * [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
 * [XXL-TOOL](https://github.com/xuxueli/xxl-tool)：XXL-TOOL是一个Java工具类库，包含集合、缓存、并发、字符串、IO、Excel、Emoji等数十个模块。
 * [xUtils](https://github.com/wyouflf/xUtils3)：xUtils包含了ORM、HTTP、图片处理等工具类。
+* [TypeTools](https://github.com/jhalterman/typetools)：一个用于处理类型的简单、零依赖库，支持 Java 1.6+和Android。
 * [Apache Commons Text](https://github.com/apache/commons-text)：Apache Commons Text是一个专注于字符串算法的库。
 * [Apache Commons BSF](https://github.com/apache/commons-bsf)：BSF是一组Java类，它在Java应用程序中提供脚本语言支持，并通过脚本语言访问Java对象和方法。
 * [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
@@ -2638,9 +2641,11 @@
 * [Faux-Pas](https://github.com/zalando/faux-pas)：一个简化Java函数式编程错误处理的库，由Zalando开源。
 * [Lightweight-Stream-API](https://github.com/aNNiMON/Lightweight-Stream-API)：Java Stream API的扩展库。
 * [LINQ](https://github.com/timandy/linq)：LINQ到对象转换的Java库。
+* [More Lambda](https://github.com/PhantomThief/more-lambdas-java)：Java 8的一些有用的Lambda实现。
 * [Formulog](https://github.com/HarvardPL/formulog)：支持SMT查询和一阶函数编程的数据记录。
 * [Purefun](https://github.com/tonivade/purefun)：Java函数式编程库。
 * [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow)：SneakyThrow是一个忽略受检异常的Java库。
+* [Streams Utils](https://github.com/JosePaumard/streams-utils)：Streams Utils是一组基于Java 8 Stream编写的操作，它允许一些Java 8中不可用的基本操作。
 
 <h2 id="bytecode">字节码操作</h2>
 
@@ -4091,7 +4096,7 @@
 <h2 id="rss">RSS</h2>
 
 * [Rome](https://github.com/rometools/rome)：用于RSS和Atom提要的Java库。
-* [CommaFeed](https://github.com/Athou/commafeed)：受Google Reader启发的自托管RSS阅读器，基于Dropwizard和React/TypeScript。
+* [CommaFeed](https://github.com/Athou/commafeed)：CommaFeed是受Google Reader启发而开发的自托管RSS阅读器，基于Dropwizard和React/TypeScript。
 * [Android-RSS](https://github.com/ahorn/android-rss)：用于解析RSS 2.0提要的轻量级Android库。
 * [Sismics Reader](https://github.com/sismics/reader)：Reader是一个开源的、基于Web的内容聚合器，由Web Feeds(RSS、Atom)提供服务。
 * [RSSOwl](https://github.com/rssowl/RSSOwl)：RSS Owl是一个功能强大的应用程序，可以以舒适的方式组织、搜索和阅读RSS、RDF和Atom新闻源。
