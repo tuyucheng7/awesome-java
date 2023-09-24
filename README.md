@@ -87,11 +87,11 @@
 - [机器学习](#ml)
 - [自然语言处理](#nlp)
 - [深度学习](#dl)
-- [数据科学](#science)
-- [数学库](#math)
 - [遗传算法](#genetic)
 - [人脸识别](#face)
 - [专家系统](#expert-system)
+- [数据科学](#science)
+- [数学库](#math)
 - [本体库](#ontology)
 - [语义Web](#semantic)
 - [生物信息学](#bioinformatics)
@@ -2097,6 +2097,40 @@
 * [DLSF](https://github.com/Cloudslab/DLSF)：用于随机雾云计算环境的基于深度学习的调度程序。
 * [ADAMS](https://adams.cms.waikato.ac.nz/)：ADAMS代表高级数据挖掘和机器学习系统，是专门针对Java的深度学习库，由怀卡托大学开发。
 
+<h4 id="genetic">遗传算法</h4>
+
+* [Jenetics](https://github.com/jenetics/jenetics)：Jenetics是一种用Java编写的高级遗传算法，它提供了遗传算法概念的清晰分离。
+* [Watchmaker](https://github.com/dwdyer/watchmaker)：Watchmaker Framework是一个用Java实现遗传算法的框架。
+* [ECJ 23](https://cs.gmu.edu/~eclab/projects/ecj/)：ECJ 23是一个基于Java的研究框架，为遗传算法提供强大的算法支持。
+* [JGAP](https://sourceforge.net/projects/jgap/)：JGAP是作为Java框架提供的遗传编程组件。
+* [Eva](https://github.com/decorators-squad/eva)：Eva是一个简单的Java OOP进化算法框架。
+* [Genetic Algorithms](https://github.com/lagodiuk/genetic-algorithm)：Java中遗传算法的通用实现。
+* [MergeLife](https://github.com/jeffheaton/mergelife)：使用遗传算法演化复杂的元胞自动机。
+
+<h4 id="face">人脸识别</h4>
+
+* [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
+* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：用于Android和Java的人脸识别库，其中包含多种人脸识别方法。
+* [FaceRecognition](https://github.com/wihoho/FaceRecognition)：使用PCA、LDA和LPP实现的人脸识别。
+* [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：基于中科院Seetaface 2进行封装的Java人脸识别库，支持人脸识别、1:1比对、1:N比对。
+* [FaceSearch](https://gitee.com/open-visual/face-search)：本项目是阿里云视觉智能开放平台的人脸搜索M：N的开源替代，项目中使用的模型均为开源模型，项目支持OpenSearch、Milvus和Proxima向量存储库，并具有较高的自定义能力。
+* [red5-rtmp-push](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
+* [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：第5代深度学习人脸识别引擎Java SDK，由千搜科技开源。
+
+<h4 id="expert-system">专家系统</h4>
+
+* [Apache Jena](https://github.com/apache/jena)：Apache Jena是一个开源Java框架，用于从RDF数据构建语义Web和链接数据应用程序。它提供了一个API来从RDF图中提取数据并写入RDF图中。
+* [PowerLoom](https://www.isi.edu/isd/LOOM/PowerLoom/)：PowerLoom是一个用于创建智能、基于知识的应用程序的平台。
+* [d3web](https://github.com/denkbares)：d3web是一个开源推理引擎，用于开发、测试问题解决知识并将其应用于给定的问题情况，其中已经包含许多算法。
+* [Eye](https://github.com/eyereasoner/eye)：Eye是一个用于执行半逆向推理的开源推理引擎。
+* [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
+* [OptaPlanner](https://github.com/kiegroup/optaplanner)：OptaPlanner是一个基于Java的约束求解器。
+* [Choco](https://github.com/chocoteam/choco-solver)：用于约束编程的开源Java库。
+* [JaCoP](https://github.com/radsz/jacop/)：Java约束编程求解器。
+* [Sat4j](http://www.sat4j.org/)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集(MUS)问题。
+* [Timefold](https://github.com/TimefoldAI/timefold-solver)：灵活的求解器，支持Spring/Quarkus以及车辆路线问题、维护计划、员工轮班计划等快速入门。
+* [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的AI约束求解器，用于优化规划和调度问题。
+
 <h2 id="science">数据科学</h2>
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个数据框架和可视化库，支持加载、清理、转换、过滤和汇总数据。
@@ -2153,40 +2187,6 @@
 * [RxJavaMath](https://github.com/ReactiveX/RxJavaMath)：RxJava的数学运算符。
 * [KMath](https://github.com/SciProgCentre/kmath)：Kotlin数学扩展库。
 * [ParallelColt](https://github.com/rwl/ParallelColt)：Parallel Colt是Colt的多线程版本。
-
-<h4 id="genetic">遗传算法</h4>
-
-* [Jenetics](https://github.com/jenetics/jenetics)：Jenetics是一种用Java编写的高级遗传算法，它提供了遗传算法概念的清晰分离。
-* [Watchmaker](https://github.com/dwdyer/watchmaker)：Watchmaker Framework是一个用Java实现遗传算法的框架。
-* [ECJ 23](https://cs.gmu.edu/~eclab/projects/ecj/)：ECJ 23是一个基于Java的研究框架，为遗传算法提供强大的算法支持。
-* [JGAP](https://sourceforge.net/projects/jgap/)：JGAP是作为Java框架提供的遗传编程组件。
-* [Eva](https://github.com/decorators-squad/eva)：Eva是一个简单的Java OOP进化算法框架。
-* [Genetic Algorithms](https://github.com/lagodiuk/genetic-algorithm)：Java中遗传算法的通用实现。
-* [MergeLife](https://github.com/jeffheaton/mergelife)：使用遗传算法演化复杂的元胞自动机。
-
-<h4 id="face">人脸识别</h4>
-
-* [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
-* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：用于Android和Java的人脸识别库，其中包含多种人脸识别方法。
-* [FaceRecognition](https://github.com/wihoho/FaceRecognition)：使用PCA、LDA和LPP实现的人脸识别。
-* [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：基于中科院Seetaface 2进行封装的Java人脸识别库，支持人脸识别、1:1比对、1:N比对。
-* [FaceSearch](https://gitee.com/open-visual/face-search)：本项目是阿里云视觉智能开放平台的人脸搜索M：N的开源替代，项目中使用的模型均为开源模型，项目支持OpenSearch、Milvus和Proxima向量存储库，并具有较高的自定义能力。
-* [red5-rtmp-push](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
-* [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：第5代深度学习人脸识别引擎Java SDK，由千搜科技开源。
-
-<h4 id="expert-system">专家系统</h4>
-
-* [Apache Jena](https://github.com/apache/jena)：Apache Jena是一个开源Java框架，用于从RDF数据构建语义Web和链接数据应用程序。它提供了一个API来从RDF图中提取数据并写入RDF图中。
-* [PowerLoom](https://www.isi.edu/isd/LOOM/PowerLoom/)：PowerLoom是一个用于创建智能、基于知识的应用程序的平台。
-* [d3web](https://github.com/denkbares)：d3web是一个开源推理引擎，用于开发、测试问题解决知识并将其应用于给定的问题情况，其中已经包含许多算法。
-* [Eye](https://github.com/eyereasoner/eye)：Eye是一个用于执行半逆向推理的开源推理引擎。
-* [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
-* [OptaPlanner](https://github.com/kiegroup/optaplanner)：OptaPlanner是一个基于Java的约束求解器。
-* [Choco](https://github.com/chocoteam/choco-solver)：用于约束编程的开源Java库。
-* [JaCoP](https://github.com/radsz/jacop/)：Java约束编程求解器。
-* [Sat4j](http://www.sat4j.org/)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集(MUS)问题。
-* [Timefold](https://github.com/TimefoldAI/timefold-solver)：灵活的求解器，支持Spring/Quarkus以及车辆路线问题、维护计划、员工轮班计划等快速入门。
-* [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的AI约束求解器，用于优化规划和调度问题。
 
 <h2 id="ontology">本体库</h2>
 
