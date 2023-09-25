@@ -18,9 +18,11 @@
 - [Mock工具](#mocks-lib)
 - [数据Mock](#mocks-data)
 - [BDD框架](#bdd)
-- [自动化工具](#automation)
 - [性能测试](#load)
-- [测试库](#test-lib)
+- [属性测试](#propertytest)
+- [其他测试库](#test-lib)
+- [自动化框架](#automation-framework)
+- [自动化工具](#automation-tool)
 - [代码覆盖率](#coverage)
 - [构建工具](#build)
 - [开源JDK](#jdk)
@@ -438,6 +440,7 @@
 * [JMockit](https://github.com/jmockit/jmockit1)：用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
 * [MockBukkit](https://github.com/MockBukkit/MockBukkit)：MockBukkit是bukkit的Mock框架，可以轻松地对Bukkit插件进行单元测试。
 * [Mock-Box](https://github.com/mock-box/mock-box)：Mock-Box是一个轻量级且功能强大的支持测试的Mock库。
+* [Microcks](https://github.com/microcks/microcks)：用于模拟和测试API和微服务的Kubernetes原生工具。
 
 <h4 id="mocks-lib">Mock工具</h4>
 
@@ -455,7 +458,8 @@
 * [Database-Rider](https://github.com/database-rider/database-rider)：让数据库集成测试变得更简单的库。
 * [GreenMail](https://github.com/greenmail-mail-test/greenmail)：GreenMail是一个邮件服务器Mock库，允许开发人员测试基于电子邮件的应用程序、服务或系统，而无需访问实时邮件服务器。
 * [CassandraUnit](https://github.com/jsevellec/cassandra-unit)：CassandraUnit是一个Java实用程序测试工具，它可以用于测试使用Cassandra数据库后端创建的Java应用程序。
-* [embedded-ldap-junit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
+* [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
+* [Hoverfly](https://github.com/SpectoLabs/hoverfly-java)：Hoverfly的本机绑定，Hoverfly是一个允许你模拟HTTP服务的代理。
 
 <h4 id="mocks-data">数据Mock</h4>
 
@@ -492,38 +496,6 @@
 * [BDD-Security](https://github.com/iriusrisk/bdd-security)：BDD-Security是一个安全测试框架，它使用行为驱动开发概念来创建自我验证的安全规范。
 * [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
 
-<h4 id="automation">自动化工具</h4>
-
-* [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架和生态系统。
-* [Playwright](https://github.com/microsoft/playwright-java)：Java版本的Playwright测试和自动化库。
-* [MeterSphere](https://github.com/metersphere/metersphere)：MeterSphere是一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI测试和性能测试等功能，全面兼容JMeter、Selenium等主流开源标准。
-* [Selenide](https://github.com/selenide/selenide)：Selenium的封装，提供了更简洁的API。
-* [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：Java中Selenium WebDriver的自动化驱动程序管理和其他辅助工具。
-* [aShot](https://github.com/pazone/ashot)：WebDriver屏幕截图工具。
-* [Allure](https://github.com/allure-framework/allure2)：一款灵活、轻量级的多语言测试报告工具。
-* [FitNesse](https://github.com/unclebob/fitnesse)：一个验收测试工具。
-* [SoapUI](https://github.com/SmartBear/soapui)：免费、开源的跨平台API和Web Service功能测试解决方案。
-* [Galen](https://github.com/galenframework/galen)：一个自动化的布局和页面响应测试框架。
-* [FluentLenium](https://github.com/FluentLenium/FluentLenium)：FluentLenium是一个Web和移动自动化框架，它扩展了Selenium以编写可靠且有弹性的UI功能测试。
-* [Citrus](https://github.com/citrusframework/citrus)：专注于消息集成的自动化集成测试框架。
-* [HydraLab](https://github.com/microsoft/HydraLab)：HydraLab是一个可以帮助利用现有的测试设备/机器轻松构建云测试平台的框架。
-* [Webtau](https://github.com/testingisdocumenting/webtau)：WebTau(Web测试自动化)是一个测试API、命令行工具和一个用于编写单元、集成和端到端测试的框架。
-* [SeLion](https://github.com/paypal/SeLion)：Paypal开源的自动化测试工具。
-* [JDI-Light](https://github.com/jdi-testing/jdi-light)：Java中强大的UI自动化测试框架。
-* [ZeroCode](https://github.com/authorjapps/zerocode)：社区开发的免费开源微服务API自动化和负载测试框架，使用JUnit核心运行器构建，适用于HTTP REST、SOAP、安全性、数据库、Kafka等。
-* [Geb](https://github.com/geb/geb)：Geb是一种浏览器自动化解决方案，它汇集了WebDriver的强大功能、jQuery内容选择的优雅性、页面对象建模的稳健性以及Groovy语言的表现力。
-* [SoloPi](https://github.com/alipay/SoloPi)：SoloPi是一个无线化、非侵入式的Android自动化工具。
-* [rest-client](https://github.com/wisdom-projects/rest-client)：测试REST API的自动化工具，可以生成精美的测试报告和REST API文档。
-* [OpenTest](https://github.com/mcdcorp/opentest)：适用于Web应用程序、移动应用程序和API的开源测试自动化工具。
-* [Carina](https://github.com/zebrunner/carina)：Carina自动化框架(TestNG)：Web、移动、API、DB等测试。
-* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Java Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
-* [rest-client](https://github.com/wiztools/rest-client)：用于测试HTTP/RESTful WebService的工具。
-* [HBrowser](https://github.com/Osiris-Team/HBrowser)：无头/完整的Java浏览器，支持下载文件、使用Cookie、检索HTML和模拟真实用户输入。
-* [Appium-Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
-* [LuckyFrameWeb](https://gitee.com/seagull1985/LuckyFrameWeb)：LuckyFrame测试平台是一款免费开源的测试平台，最大的特点是全纬度覆盖了接口自动化、WEB UI自动化、APP自动化。
-* [Sonic](https://github.com/SonicCloudOrg/sonic-agent)：Sonic是一个集远程控制调试和移动设备自动化测试于一体的平台，致力于为全球开发者和测试工程师创造更好的使用体验。
-* [Zalenium](https://github.com/zalando/zalenium)：灵活且可扩展的基于容器的Selenium Grid，具有视频录制、实时预览、基本身份验证和仪表板，由Zalando开源。
-
 <h4 id="load">性能测试</h4>
 
 * [Apache JMeter](https://github.com/apache/jmeter)：Apache出品的GUI形式的开源负载测试工具。
@@ -535,17 +507,24 @@
 * [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级通用性能测试框架。
 * [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP基准项目是一个Java测试套件，用于验证漏洞检测工具的速度和准确性。
 
-<h4 id="test-lib">测试库</h4>
+<h4 id="propertytest">属性测试</h4>
+
+* [JUnit Quickcheck](https://github.com/pholser/junit-quickcheck)：junit-quickcheck是一个支持在JUnit中编写和运行基于属性的测试的库。
+* [Jqwik](https://github.com/jqwik-team/jqwik)：JUnit平台上基于属性的测试库。
+* [ScalaCheck](https://github.com/typelevel/scalacheck)：ScalaCheck是一个用Scala编写的库，用于对Scala或Java程序进行基于属性的自动化测试。
+* [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
+* [jetCheck](https://github.com/JetBrains/jetCheck)：由JetBrains开源的基于属性的测试框架。
+* [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
+
+<h4 id="test-lib">其他测试库</h4>
 
 * [Testcontainers](https://github.com/testcontainers/testcontainers-java)：一个用于在测试中启动Docker容器的库。
 * [Rest Assured](https://github.com/rest-assured/rest-assured)：一个用于测试REST API的库。
 * [ArchUnit](https://github.com/TNG/ArchUnit)：Java架构测试库，用于以纯Java指定和断言架构规则。
 * [Pitest](https://github.com/hcoles/pitest)：最先进的JVM突变测试库。
 * [Awaitility](https://github.com/awaitility/awaitility)：用于测试异步代码的库。
-* [Microcks](https://github.com/microcks/microcks)：用于模拟和测试API和微服务的Kubernetes原生工具。
 * [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：用于在单元测试中比较JSON的库。
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：EqualsVerifier可用于Java单元测试来验证equals和hashCode方法的约定是否得到满足。
-* [Jqwik](https://github.com/jqwik-team/jqwik)：JUnit平台上基于属性的测试库。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：可以自动生成包括边缘情况的测试实例。
 * [OpenTest4J](https://github.com/ota4j-team/opentest4j)：JVM开放测试联盟。
 * [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
@@ -562,10 +541,7 @@
 * [Pact](https://github.com/pact-foundation/pact-jvm)：Pact的JVM版本，用于编写消费者驱动的契约测试。
 * [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
 * [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
-* [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
-* [ScalaCheck](https://github.com/typelevel/scalacheck)：ScalaCheck是一个用Scala编写的库，用于对Scala或Java程序进行基于属性的自动化测试。
-* [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
 * [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
 * [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
@@ -573,16 +549,53 @@
 * [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
-* [Cucumber-Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
+* [Cucumber Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
 * [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
-* [junit-quickcheck](https://github.com/pholser/junit-quickcheck)：junit-quickcheck是一个支持在JUnit中编写和运行基于属性的测试的库。
-* [jetCheck](https://github.com/JetBrains/jetCheck)：由JetBrains开源的基于属性的测试框架。
 * [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz是一组用于测试shader编译器的工具。
 * [Firing Range](https://github.com/google/firing-range)：Firing Range是Web应用程序安全扫描器的测试台，为一系列漏洞提供综合、广泛的覆盖，由Google开源。
 * [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer)：Jazzer是由Code Intelligence开发的适用于JVM平台的覆盖率引导的进程内模糊器。它基于libFuzzer，并将许多由仪器驱动的突变功能引入JVM。
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit)：一个简单的、零依赖的工具包，用于测试多线程代码。
-* [Hoverfly](https://github.com/SpectoLabs/hoverfly-java)：Hoverfly的本机绑定，Hoverfly是一个允许你模拟HTTP服务的代理。
 * [MutabilityDetector](https://github.com/MutabilityDetector/MutabilityDetector)：报告给定类的实例是否是不可变。
+
+<h4 id="automation-framework">自动化框架</h4>
+
+* [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架和生态系统。
+* [Playwright](https://github.com/microsoft/playwright-java)：Java版本的Playwright测试和自动化库。
+* [Selenide](https://github.com/selenide/selenide)：Selenium的封装，提供了更简洁的API。
+* [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：Java中Selenium WebDriver的自动化驱动程序管理和其他辅助工具。
+* [aShot](https://github.com/pazone/ashot)：WebDriver屏幕截图工具。
+* [Allure](https://github.com/allure-framework/allure2)：一款灵活、轻量级的多语言测试报告工具。
+* [FitNesse](https://github.com/unclebob/fitnesse)：一个验收测试工具。
+* [Galen](https://github.com/galenframework/galen)：一个自动化的布局和页面响应测试框架。
+* [FluentLenium](https://github.com/FluentLenium/FluentLenium)：FluentLenium是一个Web和移动自动化框架，它扩展了Selenium以编写可靠且有弹性的UI功能测试。
+* [Citrus](https://github.com/citrusframework/citrus)：专注于消息集成的自动化集成测试框架。
+* [SeLion](https://github.com/paypal/SeLion)：Paypal开源的自动化测试工具。
+* [JDI-Light](https://github.com/jdi-testing/jdi-light)：Java中强大的UI自动化测试框架。
+* [ZeroCode](https://github.com/authorjapps/zerocode)：社区开发的免费开源微服务API自动化和负载测试框架，使用JUnit核心运行器构建，适用于HTTP REST、SOAP、安全性、数据库、Kafka等。
+* [Geb](https://github.com/geb/geb)：Geb是一种浏览器自动化解决方案，它汇集了WebDriver的强大功能、jQuery内容选择的优雅性、页面对象建模的稳健性以及Groovy语言的表现力。
+* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Java Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
+* [HBrowser](https://github.com/Osiris-Team/HBrowser)：无头/完整的Java浏览器，支持下载文件、使用Cookie、检索HTML和模拟真实用户输入。
+* [Appium-Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
+* [Zalenium](https://github.com/zalando/zalenium)：灵活且可扩展的基于容器的Selenium Grid，具有视频录制、实时预览、基本身份验证和仪表板，由Zalando开源。
+
+<h4 id="automation-tool">自动化工具</h4>
+
+* [Testsigma](https://github.com/testsigmahq/testsigma)：Testsigma是一个开源、可扩展的测试自动化平台，开箱即用。使用简单的英语快速(快5倍)自动化Web、移动应用程序和API测试。
+* [OpenTest](https://github.com/mcdcorp/opentest)：适用于Web应用程序、移动应用程序和API的开源测试自动化工具。
+* [SoapUI](https://github.com/SmartBear/soapui)：免费、开源的跨平台API和Web Service功能测试解决方案。
+* [MeterSphere](https://github.com/metersphere/metersphere)：MeterSphere是一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI测试和性能测试等功能，全面兼容JMeter、Selenium等主流开源标准。
+* [Sonic](https://github.com/SonicCloudOrg/sonic-agent)：Sonic是一个集远程控制调试和移动设备自动化测试于一体的平台，致力于为全球开发者和测试工程师创造更好的使用体验。
+* [LuckyFrameWeb](https://gitee.com/seagull1985/LuckyFrameWeb)：LuckyFrame测试平台是一款免费开源的测试平台，最大的特点是全纬度覆盖了接口自动化、WEB UI自动化、APP自动化。
+* [Carina](https://github.com/zebrunner/carina)：Carina自动化框架(TestNG)：Web、移动、API、DB等测试。
+* [Webtau](https://github.com/testingisdocumenting/webtau)：WebTau(Web测试自动化)是一个测试API、命令行工具和一个用于编写单元、集成和端到端测试的框架。
+* [Wisdom](https://github.com/wisdom-projects/rest-client)：测试REST API的自动化工具，可以生成精美的测试报告和REST API文档。
+* [Vividus](https://github.com/vividus-framework/vividus)：VIVIDUS是一种测试自动化工具，为测试最流行的应用程序类型提供已实施的解决方案。
+* [Cerberus](https://github.com/cerberustesting/cerberus-core)：Cerberus Test是一个低代码测试自动化平台，支持测试Web、iOS、Android和API(REST、SOAP和Kafka)应用程序。
+* [SoloPi](https://github.com/alipay/SoloPi)：SoloPi是一个无线化、非侵入式的Android自动化工具，由阿里开源。
+* [SHAFT](https://github.com/ShaftHQ/SHAFT_ENGINE)：SHAFT是一个统一的测试自动化引擎，由一流的框架提供支持，提供类似向导的语法来高效推动自动化、最大化你的投资回报率并最小化你的学习曲线。
+* [AutoMeter](https://gitee.com/season-fan/autometer-api)：AutoMeter是一款针对分布式服务、微服务API做功能和性能一体化的自动化测试平台。
+* [HydraLab](https://github.com/microsoft/HydraLab)：HydraLab是一个可以帮助利用现有的测试设备/机器轻松构建云测试平台的框架，由微软开源。
+* [RESTClient](https://github.com/wiztools/rest-client)：RESTClient是一个用于测试RESTful Web服务的Java应用程序。
 
 <h2 id="coverage">代码覆盖率</h2>
 
