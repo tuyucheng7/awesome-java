@@ -16,6 +16,7 @@
 - [断言库](#assertions)
 - [Mock框架](#mocks)
 - [Mock工具](#mocks-lib)
+- [嵌入式工具](#embedded-tool)
 - [数据Mock](#mocks-data)
 - [BDD框架](#bdd)
 - [性能测试](#load)
@@ -441,7 +442,6 @@
 * [JMockit](https://github.com/jmockit/jmockit1)：用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
 * [MockBukkit](https://github.com/MockBukkit/MockBukkit)：MockBukkit是bukkit的Mock框架，可以轻松地对Bukkit插件进行单元测试。
 * [Mock-Box](https://github.com/mock-box/mock-box)：Mock-Box是一个轻量级且功能强大的支持测试的Mock库。
-* [Microcks](https://github.com/microcks/microcks)：用于模拟和测试API和微服务的Kubernetes原生工具。
 
 <h4 id="mocks-lib">Mock工具</h4>
 
@@ -450,20 +450,30 @@
 * [Flashback](https://github.com/linkedin/flashback)：Flashback旨在模拟HTTP和HTTPS资源(例如Web服务和REST API)以用于测试目的，由LinkedIn开源。
 * [S3Mock](https://github.com/adobe/S3Mock)：AWS S3 API的简单Mock实现，可作为Docker镜像、TestContainer、JUnit 4 Rule、JUnit Jupiter扩展或TestNG监听器启动，由Adobe开源。
 * [CastleMock](https://github.com/castlemock/castlemock)：CastleMock是一个Web应用程序，提供模拟RESTful API和SOAP Web Service的功能。
+* [Microcks](https://github.com/microcks/microcks)：用于模拟和测试API和微服务的Kubernetes原生工具。
 * [Restito](https://github.com/mkotsur/restito)：用于测试REST客户端的Mock框架。
 * [Mockrunner](https://github.com/mockrunner/mockrunner)：用于企业级应用程序的Mock工具。
 * [DaggerMock](https://github.com/fabioCollini/DaggerMock)：用于轻松覆盖Dagger 2对象的JUnit Rule。
 * [DeepfakeHTTP](https://github.com/xnbox/DeepfakeHTTP)：DeepfakeHTTP是一个使用HTTP转储作为响应源的Web服务器。
-* [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
-* [Embedded PostgreSQL](https://github.com/opentable/otj-pg-embedded)：用于测试的Java嵌入式PostgreSQL组件。
 * [Database-Rider](https://github.com/database-rider/database-rider)：让数据库集成测试变得更简单的库。
 * [GreenMail](https://github.com/greenmail-mail-test/greenmail)：GreenMail是一个邮件服务器Mock库，允许开发人员测试基于电子邮件的应用程序、服务或系统，而无需访问实时邮件服务器。
 * [CassandraUnit](https://github.com/jsevellec/cassandra-unit)：CassandraUnit是一个Java实用程序测试工具，它可以用于测试使用Cassandra数据库后端创建的Java应用程序。
-* [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
 * [Hoverfly](https://github.com/SpectoLabs/hoverfly-java)：Hoverfly的本机绑定，Hoverfly是一个允许你模拟HTTP服务的代理。
 * [Keycloak Mock](https://github.com/TNG/keycloak-mock)：提供Keycloak测试支持的Java库。
 * [gRPC Mock](https://github.com/Fadelis/grpcmock)：一个gRPC Java测试工具，可轻松Mock gRPC服务端点以进行集成测试或单元测试。
 * [GwtMockito](https://github.com/google/gwtmockito)：用于GWT应用程序的测试工具，由Google开源。
+
+<h4 id="embedded-tool">嵌入式工具</h4>
+
+* [Embedded Kafka](https://github.com/embeddedkafka/embedded-kafka)：用于为测试提供内存中Kafka实例的库。
+* [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
+* [Embedded PostgreSQL](https://github.com/opentable/otj-pg-embedded)：用于测试的Java嵌入式PostgreSQL组件。
+* [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
+* [Embedded MySQL](https://github.com/wix-incubator/wix-embedded-mysql)：嵌入式MySQL。
+* [Embedded MongoDB](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)：Embedded MongoDB提供一种平台中立的方式在单元测试中运行MongoDB。
+* [Embedded Database](https://github.com/zonkyio/embedded-database-spring-test)：用于为Spring支持的集成测试创建隔离的嵌入式数据库的库。
+* [Embedded ElasticSearch](https://github.com/allegro/embedded-elasticsearch)：简化使用Elasticsearch创建集成测试的工具。
+* [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：提供了在集成测试中运行Consul的简单方法。
 
 <h4 id="mocks-data">数据Mock</h4>
 
@@ -495,12 +505,13 @@
 * [JGiven](https://github.com/TNG/JGiven)：用纯Java进行行为驱动开发的框架。
 * [Chorus](https://github.com/Chorus-bdd/Chorus)：分布式系统的可执行规范。
 * [Lambda Behave](https://github.com/RichardWarburton/lambda-behave)：Java 8的现代测试和行为规范框架。
-* [Spectrum](https://github.com/greghaskins/spectrum)：适用于Java 8的BDD风格测试运行器。受Jasmine、RSpec和Cucumber启发。
+* [Spectrum](https://github.com/greghaskins/spectrum)：适用于Java 8的BDD风格测试运行器，受Jasmine、RSpec和Cucumber启发。
 * [Specs2](https://github.com/etorreborre/specs2)：Specs2是一个用于在Scala中编写可执行软件规范的库。
 * [YatSpec](https://github.com/bodar/yatspec)：YatSpec是一个BDD测试框架，可以运行JUnit测试并生成人类可读的HTML报告。
 * [SmartBDD](https://github.com/bit-smart-io/smart-bdd)：从Java代码创建交互式HTML文档/功能文件的BDD框架。
 * [BDD-Security](https://github.com/iriusrisk/bdd-security)：BDD-Security是一个安全测试框架，它使用行为驱动开发概念来创建自我验证的安全规范。
 * [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
+* [Spek](https://github.com/spekframework/spek)：Kotlin的规范框架。
 
 <h4 id="load">性能测试</h4>
 
@@ -513,6 +524,7 @@
 * [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级通用性能测试框架。
 * [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP基准项目是一个Java测试套件，用于验证漏洞检测工具的速度和准确性。
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
+* [ScalaMeter](https://github.com/scalameter/scalameter)：JVM平台的微基准测试和性能回归测试框架，ScalaMeter可以自动测量和收集程序的各种指标，然后生成漂亮的报告，或存储你的数据。
 
 <h4 id="propertytest">属性测试</h4>
 
@@ -522,6 +534,7 @@
 * [QuickTheories](https://github.com/quicktheories/QuickTheories)：Java 8基于属性的测试。
 * [jetCheck](https://github.com/JetBrains/jetCheck)：由JetBrains开源的基于属性的测试框架。
 * [QuickPerf](https://github.com/quick-perf/quickperf)：QuickPerf是Java的一个测试库，用于快速评估和改进一些与性能相关的属性。
+* [ScalaProps](https://github.com/scalaprops/scalaprops)：Scala基于属性的测试库。
 
 <h4 id="selenium">Selenium生态</h4>
 
