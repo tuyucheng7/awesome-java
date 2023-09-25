@@ -32,6 +32,7 @@
 - [发布工具](#publish)
 - [项目管理](#project-management)
 - [云原生](#cloud-native)
+- [Serverless](#serverless)
 - [容器化工具](#container)
 - [云服务](#cloudservice)
 - [APM监控工具](#apm)
@@ -287,7 +288,6 @@
 
 * [Conductor](https://github.com/Netflix/conductor)：微服务编排引擎，由Netflix开源。
 * [Apollo](https://github.com/spotify/apollo)：用于编写可组合微服务的Java库，由Spotify开源。
-* [SiteWhere](https://github.com/sitewhere/sitewhere)：SiteWhere是一个工业级物联网开源应用支持平台，提供了基于多租户微服务的基础设施。
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行Java REST微服务。
 * [Eventuate-Tram](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Eventuate-Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Sagas框架是使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
@@ -584,7 +584,7 @@
 * [OpenTest](https://github.com/mcdcorp/opentest)：适用于Web应用程序、移动应用程序和API的开源测试自动化工具。
 * [SoapUI](https://github.com/SmartBear/soapui)：免费、开源的跨平台API和Web Service功能测试解决方案。
 * [MeterSphere](https://github.com/metersphere/metersphere)：MeterSphere是一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI测试和性能测试等功能，全面兼容JMeter、Selenium等主流开源标准。
-* [Sonic](https://github.com/SonicCloudOrg/sonic-agent)：Sonic是一个集远程控制调试和移动设备自动化测试于一体的平台，致力于为全球开发者和测试工程师创造更好的使用体验。
+* [Sonic](https://github.com/SonicCloudOrg/sonic-server)：Sonic是一个集远程控制调试和移动设备自动化测试于一体的平台，致力于为全球开发者和测试工程师创造更好的使用体验。
 * [LuckyFrameWeb](https://gitee.com/seagull1985/LuckyFrameWeb)：LuckyFrame测试平台是一款免费开源的测试平台，最大的特点是全纬度覆盖了接口自动化、WEB UI自动化、APP自动化。
 * [Carina](https://github.com/zebrunner/carina)：Carina自动化框架(TestNG)：Web、移动、API、DB等测试。
 * [Webtau](https://github.com/testingisdocumenting/webtau)：WebTau(Web测试自动化)是一个测试API、命令行工具和一个用于编写单元、集成和端到端测试的框架。
@@ -596,6 +596,8 @@
 * [AutoMeter](https://gitee.com/season-fan/autometer-api)：AutoMeter是一款针对分布式服务、微服务API做功能和性能一体化的自动化测试平台。
 * [HydraLab](https://github.com/microsoft/HydraLab)：HydraLab是一个可以帮助利用现有的测试设备/机器轻松构建云测试平台的框架，由微软开源。
 * [RESTClient](https://github.com/wiztools/rest-client)：RESTClient是一个用于测试RESTful Web服务的Java应用程序。
+* [Hamibot](https://github.com/hamibot/hamibot)：Hamibot是一款Android平台JavaScript自动化工具，无需Root，基于Auto.js。
+* [AppiumTestDistribution](https://github.com/AppiumTestDistribution/AppiumTestDistribution)：一个用于跨设备并行运行Android和iOS Appium测试的工具。
 
 <h2 id="coverage">代码覆盖率</h2>
 
@@ -761,7 +763,6 @@
 * [Smart-MQTT](https://gitee.com/smartboot/smart-mqtt)：一款开源的云原生分布式MQTT Broker服务器，支持海量物联网设备互联互通。
 * [Firehose](https://github.com/raystack/firehose)：Firehose是一种可扩展、无代码、云原生服务，用于将实时流数据从Kafka加载到数据存储、数据湖和分析存储系统。
 * [Dagger](https://github.com/raystack/dagger)：Dagger是一个易于使用、通过代码进行配置的云原生框架，构建在Apache Flink之上，用于实时流数据的状态处理。
-* [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
 * [EDDI](https://github.com/labsai/EDDI)：用于对话式AI API(例如ChatGPT)的提示和对话管理中间件。
 * [GeoServer](https://github.com/geoserver/geoserver-cloud)：通过Docker化微服务在云中使用的GeoServer。
 * [Infinispan](https://github.com/infinispan/infinispan)：Infinispan是一个开源数据网格平台和高度可扩展的NoSQL云数据存储。
@@ -774,8 +775,18 @@
 * [CloudSimPlus](https://github.com/cloudsimplus/cloudsimplus)：最先进的云计算框架，现代、功能齐全、易于使用、高度可扩展、更快和更准确用于云计算研究的Java 17+工具。
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点关注于实时日志分析和人工智能集成。
 * [Syncany](https://github.com/syncany/syncany)：Syncany是一款云存储和文件共享应用程序，重点关注存储的安全性和抽象性。
+
+<h2 id="serverless">Serverless</h2>
+
+* [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools AWS Lambda(Java)是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
+* [SOFAServerless](https://github.com/sofastack/sofa-serverless)：SOFAServerless是一种模块化的应用架构模式，能够帮助大中小企业低成本地实现极速研发、运维、微服务演进和人员协作，由蚂蚁开源。
 * [Serverless Java container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Apache Struts、Jersey或Spark等框架编写的Java应用程序。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：Spring Cloud Function是基于Spring Boot的函数计算框架。
+* [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
+* [Sleeper](https://github.com/gchq/sleeper)：Sleeper是一种Serverless、云原生、基于日志结构合并树的可扩展键值存储，由英国政府通讯总部开源。
+* [Pulumi AWS](https://github.com/pulumi/pulumi-aws)：Pulumi的Amazon Web Services(AWS)资源提供者允许你在云程序中使用AWS资源。
+* [Open Runtimes](https://github.com/open-runtimes/open-runtimes)：适用于多种编码语言的无服务器云计算运行时环境，旨在为在容器化系统中编写云功能创建一致且可预测的开放标准。
+* [Flink Stateful Functions](https://github.com/apache/flink-statefun)：Stateful Functions是一个API，它通过为Serverless架构构建的运行时来简化分布式有状态应用程序的构建。
 
 <h2 id="container">容器化工具</h2>
 
@@ -1986,7 +1997,6 @@
 * [OpenTracing](https://github.com/opentracing/opentracing-java)：OpenTracing的Java平台API。
 * [Cling](https://github.com/4thline/cling)：适用于Java和Android的UPnP/DLNA库。
 * [CodenameOne](https://github.com/codenameone/CodenameOne)：用于使用Java或Kotlin构建真正的本机移动应用程序的跨平台框架。
-* [Pi4J](https://github.com/Pi4J/pi4j-v1)：适用于Raspberry Pi(GPIO、I2C、SPI、UART)的Java I/O库。
 * [IJava](https://github.com/SpencerPark/IJava)：用于执行Java代码的Jupyter内核。
 * [RackShift](https://github.com/fit2cloud/rackshift)：RackShift是开源的裸金属服务器管理平台，功能覆盖裸金属服务器的发现、带外管理、RAID配置、固件更新、操作系统安装等。
 * [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei)：WSO2 Enterprise Integrator是一个开源、快速、云原生且可扩展的集成解决方案，是WSO2集成敏捷平台的核心。
@@ -3070,6 +3080,7 @@
 * [ThingLinks](https://gitee.com/mqttsnet/thinglinks)：高性能、高吞吐量、高扩展性的物联网平台。
 * [Eclipse Leshan](https://github.com/eclipse-leshan/leshan)：Eclipse Leshan是OMA轻量级M2M服务器和客户端Java实现。
 * [Groza](https://github.com/IoT-Technology/Groza)：开源物联网平台-物联网解决方案的设备管理，数据收集，处理。
+* [SiteWhere](https://github.com/sitewhere/sitewhere)：SiteWhere是一个工业级物联网开源应用支持平台，提供了基于多租户微服务的基础设施。
 * [ThingLinks](https://github.com/mqttsnet/thinglinks)：采用Spring Cloud微服务架构，一款高性、高吞吐量、高扩展性的物联网平台。
 * [Eclipse Ditto](https://github.com/eclipse-ditto/ditto)：Eclipse IoT的数字孪生框架。
 * [Eclipse Kura](https://github.com/eclipse/kura)：基于OSGi的M2M服务网关应用程序框架。
@@ -3851,6 +3862,9 @@
 * [r2cloud](https://github.com/dernasherbrezon/r2cloud)：r2cloud可以跟踪和解码来自卫星的各种无线电信号。
 * [S-Tools](https://github.com/naman14/S-Tools)：跟踪CPU和传感器以及拾色器、指南针和设备信息等有用功能。
 * [JCuda](https://github.com/jcuda/jcuda)：CUDA的Java绑定。
+* [Pi4J](https://github.com/Pi4J/pi4j-v1)：适用于Raspberry Pi(GPIO、I2C、SPI、UART)的Java I/O库。
+* [Diozero](https://github.com/mattjlewis/diozero)：用Java编写的设备I/O库，为连接到单板计算机(如Raspberry Pi)的一系列GPIO/I2C/SPI设备(LED、按钮、传感器、电机、显示器等)提供面向对象的接口。
+* [Stream-Pi Client](https://github.com/stream-pi/client)：免费、开源、模块化、跨平台和可编程宏垫。
 
 <h2 id="reverse-engineering">逆向工程</h2>
 
