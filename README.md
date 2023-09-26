@@ -185,6 +185,7 @@
 - [报表引擎](#report)
 - [部署工具](#deploy)
 - [地理空间](#geo)
+- [航空航天](#space)
 - [序列化](#serialization)
 - [IO操作](#ioutils)
 - [邮件操作](#email)
@@ -2269,7 +2270,6 @@
 * [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Apache Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM...)运行查询、声明式机器学习等。
 * [Featran](https://github.com/spotify/featran)：用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
 * [Datavines](https://github.com/datavane/datavines)：Datavines是下一代数据观测平台，支持元数据管理和数据质量。
-* [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
 
 <h2 id="math">数学库</h2>
 
@@ -4131,7 +4131,6 @@
 
 <h2 id="geo">地理空间</h2>
 
-* [WorldWindJava](https://github.com/NASAWorldWind/WorldWindJava)：美国国家航空航天局(NASA)发布的一个开源的地理科普软件，由NASA Research开发。它是一个可视化地球仪，将NASA、USGS以及其它WMS服务商提供的图像通过一个三维的地球模型展现。
 * [JTS](https://github.com/locationtech/jts)：JTS是一个用于创建和操作向量几何的Java库。
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，提供地理空间数据工具。
 * [Geometry API](https://github.com/Esri/geometry-api-java)：Geometry API可用于在第三方数据处理解决方案中启用空间数据处理。
@@ -4174,6 +4173,19 @@
 * [Timeshape](https://github.com/RomanIakovlev/timeshape)：Timeshape是一个Java库，可用于确定给定地理坐标属于哪个时区。
 * [Traccar](https://github.com/traccar/traccar)：GPS追踪系统。
 * [Apache Sedona](https://github.com/apache/sedona)：处理大规模地理空间数据的集群计算框架。
+
+<h2 id="space">航空航天</h2>
+
+* [SeNtinel Application Platform](https://github.com/senbox-org/snap-engine)：SNAP是欧洲航天局(ESA)为Sentinel-1、Sentinel-2和Sentinel-3任务的科学开发而开发的三个Sentinel工具箱的通用软件平台。
+* [NanoSat MO Framework](https://github.com/esa/nanosat-mo-framework)：基于CCSDS MO服务的小卫星软件框架，由欧洲航天局开源。
+* [GUSTO](https://github.com/esa/GUSTO)：用于空间天文学的Java库。
+* [DERT](https://github.com/nasa/DERT)：DERT是一款用于探索3D大型数字地形模型(DTM)的软件工具，它有助于理解地形和地形特征的空间关系，以及执行与行星科学界相关的简单分析任务。
+* [CCDD](https://github.com/nasa/CCDD)：CCDD是一款用于管理CFS和CFS应用程序的命令和遥测数据的软件工具。
+* [WorldWindJava](https://github.com/NASAWorldWind/WorldWindJava)：美国国家航空航天局(NASA)发布的一个开源的地理科普软件，由NASA Research开发。它是一个可视化地球仪，将NASA、USGS以及其它WMS服务商提供的图像通过一个三维的地球模型展现。
+* [Sentinel-1 Toolbox](https://github.com/senbox-org/s1tbx)：用于支持ERS-ENVISAT任务、Sentinels 1/2/3任务以及一系列国家和第三方任务科学开发的工具箱。
+* [SNAP Desktop](https://github.com/senbox-org/snap-desktop)：这是SNAP桌面GUI的源代码发行版，它是在SNAP引擎(SNAP-Engine)之上开发的，并且基于NetBeans平台。
+* [Orekit](https://github.com/CS-SI/Orekit)：Orekit是一个用Java编写的免费低级空间动力学库。
+* [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：EarthSci是一个Eclipse RCP平台，用于创建地球科学数据可视化应用程序，它是基于NASA World Wind Java SDK构建的现有GA World Wind Suite的演变。
 
 <h2 id="serialization">序列化</h2>
 
@@ -4335,6 +4347,7 @@
 * [Bootify](https://bootify.io/)：使用JPA模型和REST API生成基于浏览器的Spring Boot应用程序，商业项目。
 * [Code Gen](https://gitee.com/durcframework/code-gen)：一款代码生成工具，可自定义模板生成不同的代码，支持MySQL、Oracle、SQL Server、PostgreSQL。
 * [AiCode](https://gitee.com/lemur/aicode)：新一代代码生成器，根据模板配置生成代码。
+* [Jeddict](https://github.com/jeddict/jeddict)：Jakarta EE 10和MicroProfile应用程序生成器和建模器。
 
 <h2 id="ladp">目录服务</h2>
 
