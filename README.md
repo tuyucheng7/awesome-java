@@ -41,7 +41,7 @@
 - [分布式追踪](#distributed-tracing)
 - [指标报告](#metrics)
 - [注册中心](#registry)
-- [容错库](#rate-limiting)
+- [容错组件](#fault-tolerance)
 - [网关](#gateway)
 - [诊断工具](#profiler)
 - [性能分析](#performance)
@@ -950,31 +950,31 @@
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是由蚂蚁金服提供支持的生产级、低延迟、高可用性服务注册中心。
 * [Flair-Registry](https://github.com/viz-centric/flair-registry)：Flair BI的服务发现。
 
-<h2 id="rate-limiting">容错库</h2>
+<h2 id="fault-tolerance">容错组件</h2>
 
 * [Sentinel](https://github.com/alibaba/Sentinel)：面向云原生微服务的高可用流控防护组件，由阿里开源。
 * [Hystrix](https://github.com/Netflix/Hystrix)：Hystrix是一个延迟和容错库，可以防止级联故障，由Netflix开源。
 * [Resilience4j](https://github.com/resilience4j/resilience4j)：Resilience4j是一个专为Java 8和函数式编程设计的容错库。
 * [Bucket4j](https://github.com/bucket4j/bucket4j)：Bucket4j是一个基于令牌桶算法的Java限流库。
 * [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：Java限流库/框架。
-* [Concurrency-Limits](https://github.com/Netflix/concurrency-limits)：实现并集成了从TCP拥塞控制到自动检测服务并发限制的概念，以便以最佳延迟实现最佳吞吐量。
+* [Concurrency Limits](https://github.com/Netflix/concurrency-limits)：实现并集成了从TCP拥塞控制到自动检测服务并发限制概念的Java库，可以以最佳延迟实现最佳吞吐量，由Netflix开源。
 * [RateLimitJ](https://github.com/mokies/ratelimitj)：用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器，该项目不再活跃。
-* [Fastbreak](https://github.com/Nike-Inc/fastbreak)：Fastbreak是一个简单但功能强大的断路器，本身支持Java 8 CompletableFuture，由Nike开源。
-* [Token-Bucket](https://github.com/bbeck/token-bucket)：令牌桶限速算法。
-* [RedisRateLimiter](https://github.com/tangaiyun/RedisRateLimiter)：基于Redis的API访问速率限制器。
-* [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
-* [Discovery](https://gitee.com/nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
-* [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架。
-* [Failsafe](https://github.com/failsafe-lib/failsafe)：Failsafe是一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
 * [SDS](https://github.com/didi/sds)：SDS是一个轻量级、简单、易用的限流、熔断、降级系统，由滴滴开源。
+* [Fastbreak](https://github.com/Nike-Inc/fastbreak)：Fastbreak是一个简单但功能强大的断路器，本身支持Java 8 CompletableFuture，由Nike开源。
+* [Token-Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
+* [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
+* [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
+* [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架。
+* [Easy Retry](https://github.com/alibaba/easy-retry)：一种存储介质可扩展的持久化重试方案，由阿里开源。
+* [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance)：Eclipse MicroProfile中提供的容错组件。
 * [Spring Retry](https://github.com/spring-projects/spring-retry)：该项目为Spring应用程序提供声明式重试支持。
+* [Failsafe](https://github.com/failsafe-lib/failsafe)：Failsafe是一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
 * [Guava Retry](https://github.com/rholder/guava-retrying)：这是Google Guava库的一个小扩展，允许为任意函数调用创建可配置的重试策略。
 * [Async Retry](https://github.com/nurkiewicz/async-retry)：用于Java 7/8的异步重试库。
 * [Retry4j](https://github.com/elennick/retry4j)：Retry4j是一个简单的Java库，可帮助重试瞬时故障情况或不可靠的代码，该项目不再维护。
-* [Easy Retry](https://github.com/alibaba/easy-retry)：一种存储介质可扩展的持久化重试方案，由阿里开源。
 * [Easy Retry](https://gitee.com/aizuda/easy-retry)：致力提高分布式业务系统一致性的分布式重试平台。
+* [Vert.x Circuit Breaker](https://github.com/vert-x3/vertx-circuit-breaker)：Vert.x Circuit Breaker是Vert.x的断路器模式实现。
 * [Retrieval](https://gitee.com/spjich/retrieval)：一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
-* [Sisyphus](https://github.com/houbb/sisyphus)：支持过程式编程和注解编程的Java重试框架。
 
 <h2 id="gateway">网关</h2>
 
