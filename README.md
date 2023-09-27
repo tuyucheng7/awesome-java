@@ -43,7 +43,8 @@
 - [注册中心](#registry)
 - [容错库](#rate-limiting)
 - [网关](#gateway)
-- [性能分析](#profiler)
+- [诊断工具](#profiler)
+- [性能分析](#performance)
 - [大数据框架](#bigdata)
 - [大数据工具](#bigdatatool)
 - [大数据组件](#bigdatacomponent)
@@ -148,6 +149,7 @@
 - [Spring生态](#spring)
 - [Raft算法](#raft)
 - [Paxos算法](#paxos)
+- [对象池](#object-pool)
 - [CQRS框架](#cqrs)
 - [DDD框架](#ddd)
 - [软件工程](#architecture)
@@ -156,7 +158,7 @@
 - [机器人](#bot)
 - [安卓库](#android)
 - [Swing库](#swing)
-- [JavaFx库](#javafx-lib)
+- [JavaFX库](#javafx-lib)
 - [JavaFX样式库](#javafx-ui)
 - [JavaFX图表库](#javafx-chart)
 - [JavaFX小工具](#javafx-tool)
@@ -198,6 +200,8 @@
 - [代码生成器](#codegen)
 - [目录服务](#ldap)
 - [功能切换](#feature-flag)
+- [表情处理](#emoji)
+- [字符编码](#unicode)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -991,7 +995,7 @@
 * [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、开源且以开发人员为中心的API网关代理。
 * [Membrane](https://github.com/membrane/api-gateway)：用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关。
 
-<h2 id="profiler">性能分析</h2>
+<h2 id="profiler">诊断工具</h2>
 
 * [VisualVM](https://github.com/oracle/visualvm)：VisualVM是一款一体化Java故障排除工具。
 * [Arthas](https://arthas.aliyun.com/)：阿里巴巴开源的Java诊断工具。
@@ -1002,16 +1006,9 @@
 * [JVM-Profiler](https://github.com/uber-common/jvm-profiler)：可以将指标发送到Kafka、控制台输出或自定义报告器的JVM Profiler，由Uber开源。
 * [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
 * [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：Apache NetBeans的内置分析器。
-* [Greys](https://github.com/oldmanpushcart/greys-anatomy)：Java诊断工具。
+* [Greys](https://github.com/oldmanpushcart/greys-anatomy)：国产Java诊断工具。
 * [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿网开源的Java应用生产问题诊断工具，提供了一站式的问题诊断方案。
-* [JMC](https://github.com/openjdk/jmc)：Oracle开源的一个生产时间分析和诊断工具套件。
-* [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java垃圾回收(GC)日志文件的库，由微软开源。
-* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器。
-* [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录。
-* [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的实用程序。
-* [JOL](https://github.com/openjdk/jol)：JOL(Java对象布局)是用于分析JVM中对象布局的微型工具箱。
-* [Sematext](https://github.com/sematext/sematext-agent-java)：全栈基础设施监控工具。
-* [JMX-Exporter](https://github.com/prometheus/jmx_exporter)：通过HTTP公开JMX Bean供Prometheus使用的工具。
+* [Mission Control](https://github.com/openjdk/jmc)：Oracle开源的一个生产时间分析和诊断工具套件。
 * [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler)：没有安全点样本偏差的JVM采样分析器。
 * [statsd-jvm-profiler](https://github.com/etsy/statsd-jvm-profiler)：使用StatsD和其他指标后端的简单JVM分析器。
 * [SJK](https://github.com/aragozin/jvm-tools)：SJK是一个用于JVM诊断、故障排除和分析的命令行工具。
@@ -1019,20 +1016,30 @@
 * [Jvmtop](https://github.com/patric-r/jvmtop)：Java命令行监控工具，包括分析器。
 * [GCeasy](https://gceasy.io/)：非常好用的在线分析GC日志的工具。
 * [Aprof](https://github.com/devexperts/aprof)：Java内存分配分析器。
-* [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer)：MySQL性能分析器是一个用于MySQL性能监控和分析的开源项目，由Yahoo开源。
 * [Sniffy](https://github.com/sniffy/sniffy)：Java的交互式分析器、测试和混沌工程工具。
 * [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
-* [FastThread](https://fastthread.io/)：Java线程转储分析器。
 * [Automon](https://github.com/stevensouza/automon)：Automon将AOP(AspectJ)的强大功能与已使用的监视或日志记录工具相结合，以声明方式监视Java代码、JDK和第三方库。
-* [Spring Boot Startup Report](https://github.com/maciejwalkowiak/spring-boot-startup-report)：Spring Boot启动报告库生成交互式Spring Boot应用程序启动报告，让你了解影响应用程序启动时间的因素，并可能有助于优化它。
-* [Spring Startup Ananlyzer](https://github.com/linyimin0812/spring-startup-analyzer)：Spring Startup Analyzer生成交互式Spring应用程序启动报告，让你了解影响应用程序启动时间的因素并帮助优化它。
 * [Eclipse Jifa](https://github.com/eclipse/jifa)：Eclipse Jifa是一个开源的Web端软件，用于更好地排除Java应用程序中出现的常见问题。
 * [LeakCanary](https://github.com/square/leakcanary)：适用于Android和Java的内存泄漏检测库。
-* [GCViewer](https://github.com/chewiebug/GCViewer)：GCViewer是一个小工具，可以可视化Sun/Oracle、IBM、HP和BEA Java虚拟机生成的详细GC输出。
 * [XRebel](https://www.jrebel.com/products/xrebel)：用于Java Web应用程序的商业分析器。
-* [Kamon](https://www.kamon.io/)：用于监视JVM上运行的应用程序的工具。
 * [New Relic](https://newrelic.com/)：商业性能监视器。
 * [SPM](https://sematext.com/spm/)：商业性能监视器，可为JVM应用程序提供分布式事务跟踪。
+
+<h2 id="performance">性能分析</h2>
+
+* [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java垃圾回收(GC)日志文件的库，由微软开源。
+* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器。
+* [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录，由Azul开源。
+* [Kamon](https://www.kamon.io/)：用于监视JVM上运行的应用程序的工具。
+* [Sematext](https://github.com/sematext/sematext-agent-java)：全栈基础设施监控工具。
+* [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的实用程序。
+* [JOL](https://github.com/openjdk/jol)：JOL(Java对象布局)是用于分析JVM中对象布局的微型工具箱。
+* [JMX Exporter](https://github.com/prometheus/jmx_exporter)：通过HTTP公开JMX Bean供Prometheus使用的工具。
+* [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer)：MySQL性能分析器是一个用于MySQL性能监控和分析的开源项目，由Yahoo开源。
+* [Spring Boot Startup Report](https://github.com/maciejwalkowiak/spring-boot-startup-report)：Spring Boot启动报告库生成交互式Spring Boot应用程序启动报告，让你了解影响应用程序启动时间的因素，并可能有助于优化它。
+* [Spring Startup Ananlyzer](https://github.com/linyimin0812/spring-startup-analyzer)：Spring Startup Analyzer生成交互式Spring应用程序启动报告，让你了解影响应用程序启动时间的因素并帮助优化它。
+* [FastThread](https://fastthread.io/)：Java线程转储分析器。
+* [GCViewer](https://github.com/chewiebug/GCViewer)：GCViewer是一个小工具，可以可视化Sun/Oracle、IBM、HP和BEA Java虚拟机生成的详细GC输出。
 
 <h2 id="bigdata">大数据框架</h2>
 
@@ -1643,20 +1650,7 @@
 * [XXL-TOOL](https://github.com/xuxueli/xxl-tool)：XXL-TOOL是一个Java工具类库，包含集合、缓存、并发、字符串、IO、Excel、Emoji等数十个模块。
 * [xUtils](https://github.com/wyouflf/xUtils3)：xUtils包含了ORM、HTTP、图片处理等工具类。
 * [TypeTools](https://github.com/jhalterman/typetools)：一个用于处理类型的简单、零依赖库，支持 Java 1.6+和Android。
-* [Apache Commons Text](https://github.com/apache/commons-text)：Apache Commons Text是一个专注于字符串算法的库。
 * [Apache Commons BSF](https://github.com/apache/commons-bsf)：BSF是一组Java类，它在Java应用程序中提供脚本语言支持，并通过脚本语言访问Java对象和方法。
-* [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
-* [Apache Commons Codec](https://github.com/apache/commons-codec)：Apache Commons Codec包含各种格式(例如Base64和十六进制)的简单编码器和解码器。
-* [Apache Commons Daemon](https://github.com/apache/commons-daemon)：Apache Commons Daemon是一组实用程序和Java支持类，用于将Java应用程序作为服务器进程运行。
-* [Apache Commons Digester](https://github.com/apache/commons-digester)：Apache Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
-* [Apache Commons Exec](https://github.com/apache/commons-exec)：Apache Commons Exec是一个从JVM内可靠地执行外部进程的库。
-* [Apache Commons FileUpload](https://github.com/apache/commons-fileupload)：Apache Commons FileUpload组件提供了一种简单而灵活的方法来向Servlet和Web应用程序添加对分段文件上传功能的支持。
-* [Apache Commons JCI](https://github.com/apache/commons-jci)：Apache Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
-* [Apache Commons Jelly](https://github.com/apache/commons-jelly)：Apache Commons Jelly是一个基于Java和XML的脚本引擎。
-* [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Apache Commons JEXL库是Java共生表达式语言的实现。
-* [Apache Commons OGNL](https://github.com/apache/commons-ognl)：OGNL代表对象图导航语言；它是一种表达式语言，用于获取和设置Java对象的属性，以及其他附加功能，例如列表投影和选择以及Lambda表达式。
-* [Apache Commons Pool](https://github.com/apache/commons-pool)：Apache Commons对象池库。
-* [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
 
 <h2 id="di">依赖注入</h2>
 
@@ -2076,7 +2070,6 @@
 * [iQuantum](https://github.com/Cloudslab/iQuantum)：用于量子计算环境建模和仿真的工具包。
 * [SecurityShepherd](https://github.com/OWASP/SecurityShepherd)：SecurityShepherd是一个Web和移动应用的安全培训平台，用于促进和提高人员的安全意识，由OWASP开源。
 * [Connector](https://github.com/eclipse-edc/Connector)：EDC核心服务包括数据平面和控制平面。
-* [esProc](https://github.com/SPLWare/esProc)：esProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
 * [Autopsy](https://github.com/sleuthkit/autopsy)：Autopsy是一个数字取证平台以及The Sleuth Kit和其他数字取证工具的图形界面。
 * [DCEVM](https://github.com/dcevm/dcevm)：Java 7/8的动态代码演化VM。
 * [OpenTracing](https://github.com/opentracing/opentracing-java)：OpenTracing的Java平台API。
@@ -2094,7 +2087,6 @@
 * [Eclipse Transformer](https://github.com/eclipse/transformer)：Eclipse Transformer提供了转换Java二进制文件(例如单个class文件和完整的JAR和WAR)的工具和运行时组件，将更改映射到Java包、类型名称和相关资源名称。
 * [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：Eclipse AA4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
 * [Guacamole Client](https://github.com/glyptodon/guacamole-client)：HTML5/JavaScript Guacamole客户端，其包含Web应用程序和相关组件。
-* [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持。
 * [Apache Jackrabbit](https://github.com/apache/jackrabbit)：Apache Jackrabbit是Java技术API(JCR)内容仓库的完全一致的实现。
 * [Apache JSPWiki](https://github.com/apache/jspwiki)：Apache JSPWiki是领先的开源WikiWiki引擎，功能丰富且围绕标准JEE组件(Java、Servlet、JSP)构建。
 * [Bateman](https://github.com/fearofcode/bateman)：简单的股票交易系统，通过粒子群优化来优化其参数。
@@ -2655,28 +2647,23 @@
 * [JCommander](https://github.com/cbeust/jcommander)：基于Java 8注解的参数解析框架。
 * [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
 * [Spring Shell](https://github.com/spring-projects/spring-shell)：Spring Shell可帮助你创建基于Spring的、针对CLI空间的生产级应用程序。
-* [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面。
 * [Just](https://github.com/maciejwalkowiak/just)：用于开发Spring Boot应用程序的命令行工具包。
+* [Signal CLI](https://github.com/AsamK/signal-cli)：Signal CLI是Signal Messenger的命令行接口，它支持注册、验证、发送和接收消息。
+* [Open PDF Sign](https://github.com/open-pdf-sign/open-pdf-sign)：Open PDF Sign CLI应用程序允许从命令行轻松签署PDF文件，签名可以是不可见的(默认)或可见的(可以自定义)。
 * [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
-* [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
-* [ASCII Table](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
 * [Crash](https://github.com/crashub/crash)：Crash是一个为扩展Java程序和Java虚拟机而设计的Shell。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
-* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
 * [Apache Commons CLI](https://github.com/apache/commons-cli)：Apache Commons CLI提供了一个简单的API，用于呈现、处理和验证命令行界面。
-* [MCS](https://github.com/mthmulders/mcs)：可以从命令行搜索Maven中央仓库。
-* [JD-Core](https://github.com/java-decompiler/jd-core)：JD-Core是一个用Java编写的Java反编译器。
+* [MCS](https://github.com/mthmulders/mcs)：用于从命令行搜索Maven中央仓库。
 * [JD-CLI](https://github.com/intoolswetrust/jd-cli)：JD-CLI是JD-Core项目的简单命令行包装器。
 * [Airline](https://github.com/rvesse/airline)：基于Java注解的框架，用于解析类似Git的命令行结构，具有深度可扩展性。
-* [JBock](https://github.com/jbock-java/jbock)：无反射命令行解析器。
-* [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [Unix4j](https://github.com/tools4j/unix4j)：Unix4j是Unix命令行工具的Java实现，可以在Java程序中使用你在Unix中了解的命令。
 * [Args4j](https://github.com/kohsuke/args4j)：Args4j是一个小型Java类库，可以轻松解析CUI应用程序中的命令行选项/参数。
 * [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
 * [JeeSh](https://github.com/jeeshell/je2sh)：JVM可扩展和可嵌入Shell。
-* [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
 * [Progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
-* [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：高级控制台(和Swing)文本用户界面库，具有可鼠标拖动的窗口、内置终端窗口管理器和Sixel图像支持。
+* [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：高级控制台文本用户界面库，具有可鼠标拖动的窗口、内置终端窗口管理器和Sixel图像支持。
+* [SQLLine](https://github.com/julianhyde/sqlline)：用于通过JDBC向关系型数据库发出SQL的命令行Shell。
 
 <h2 id="ssh">SSH工具</h2>
 
@@ -2819,7 +2806,7 @@
 * [ImageJ2](https://github.com/imagej/imagej2)：Image的重写版本，用于多维图像数据，重点是科学成像。
 * [BoofCV](https://github.com/lessthanoptimal/BoofCV)：用于SFM、校准、基准、跟踪、图像处理等的快速计算机视觉库。
 * [Scrimage](https://github.com/sksamuel/scrimage)：Java、Scala和Kotlin图像处理库。
-* [cv4j](https://github.com/imageprocessor/cv4j)：一个用纯Java实现的高质量、实时的图像处理和机器学习库。
+* [CV4j](https://github.com/imageprocessor/cv4j)：一个用纯Java实现的高质量、实时的图像处理和机器学习库。
 * [ImgLib2](https://github.com/imglib/imglib2)：用于图像处理的通用下一代Java库。
 * [Imglib](https://github.com/nackily/imglib)：一个轻量级的Java图像处理库，致力于简化对图像的常见处理。
 * [AndroidLibyuvImageUtils](https://github.com/myrao/AndroidLibyuvImageUtils)：Android上的图像处理库，基于libyuv。
@@ -2928,6 +2915,7 @@
 * [Jackdaw](https://github.com/vbauer/jackdaw)：可以简化开发的Java注解处理器。
 * [ParcelablePlease](https://github.com/sockeqwe/ParcelablePlease)：用于生成Parcelable代码的注解处理器。
 * [BeanKnife](https://github.com/vipcxj/beanknife)：用于自动生成数据传输对象(DTO)的注解处理器库。
+* [JBock](https://github.com/jbock-java/jbock)：无反射命令行解析器。
 * [Rest.Vertx](https://github.com/zandero/rest.vertx)：类似JAX-RS的注解处理器，适用于Vert.x Vertical。
 * [FreeBuilder](https://github.com/inferred/FreeBuilder)：自动生成Java的Builder模式。
 * [Airline](https://github.com/airlift/airline)：Airline是一个基于Java注解的框架，用于解析类似命令行结构的Git。
@@ -3323,6 +3311,12 @@
 * [URingPaxos](https://github.com/sambenz/URingPaxos)：高吞吐量原子多播协议。
 * [PaxosImpl](https://github.com/hellolinjx/PaxosImpl)：Paxos算法的多线程实现。
 
+<h2 id="object-pool">对象池</h2>
+
+* [Stormpot](https://github.com/chrisvest/stormpot)：JVM的快速对象池。
+* [Apache Commons Pool](https://github.com/apache/commons-pool)：Apache Commons对象池库。
+* [Fast Object Pool](https://github.com/DanielYWoo/fast-object-pool)：一个针对并发访问进行优化的轻量级高性能对象池，你可以使用它来池化昂贵且非线程安全的对象，例如Thrift客户端等。
+
 <h2 id="cqrs">CQRS框架</h2>
 
 * [JDON](https://github.com/banq/jdonframework)：领域驱动设计Pub/Sub领域事件框架。
@@ -3357,6 +3351,9 @@
 * [Spring Modulith](https://github.com/spring-projects/spring-modulith)：Spring Modulith允许开发人员构建结构良好的Spring Boot应用程序，并指导开发人员查找和使用由领域驱动的应用程序模块。
 * [Moduliths](https://github.com/moduliths/moduliths)：构建模块化、整体式Spring Boot应用程序的框架。
 * [Structurizr Java](https://github.com/structurizr/java)：Structurizr基于“图即代码”构建，允许你从单个模型创建多个软件架构图。
+* [JRugged](https://github.com/Comcast/jrugged)：Jrugged库实现了用Java构建健壮的、可用于生产的服务器代码所需的一些常见模式。
+* [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
+* [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
 
 <h2 id="migrate">迁移工具</h2>
 
@@ -3470,6 +3467,7 @@
 * [FlatLaf](https://github.com/JFormDesigner/FlatLaf)：FlatLaf是Java Swing桌面应用程序的现代开源跨平台外观。
 * [BeautyEye](https://github.com/JackJiang2011/beautyeye)：BeautyEye是一种Java Swing跨平台外观。
 * [WebLaf](https://github.com/mgarin/weblaf)：WebLaF是一个完全开源的外观和感觉以及用纯Java编写的组件库，用于跨平台桌面Swing应用程序。
+* [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面。
 * [Orson-Charts](https://github.com/jfree/orson-charts)：用于Java应用程序(JavaFX、Swing或服务器端)的3D图表库。
 * [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)：用于Java Swing应用程序的语法突出显示、代码折叠文本编辑器。
 * [Radiance](https://github.com/kirill-grouchnikov/radiance)：Radiance是一个库集合，用于基于Ephemeral设计系统编写现代、优雅且快速的Swing应用程序。
@@ -3674,6 +3672,7 @@
 * [Classpy](https://github.com/zxh0/classpy)：Classpy是一个GUI工具，用于研究Java类文件、Lua二进制块、Wasm二进制代码和其他二进制文件格式。
 * [Jar-Analyzer](https://github.com/4ra1n/jar-analyzer-gui)：一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自动构建方法调用关系，支持分析Spring框架。
 * [ClassViewer](https://github.com/ClassViewer/ClassViewer)：ClassViewer是一个轻量级的Java字节码文件查看器，仅依赖于JDK和JavaFX。
+* [JD-Core](https://github.com/java-decompiler/jd-core)：JD-Core是一个用Java编写的Java反编译器。
 * [JADXecute](https://github.com/LaurieWired/JADXecute)：用于动态反编译器操作的JADX-GUI脚本插件。
 * [Decompiler](https://github.com/sotasan/decompiler)：小巧的Java反编译器GUI。
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder)：用于将JVM字节码解释和转换为JavaScript、OpenCL或WebAssembly的框架。
@@ -3770,6 +3769,7 @@
 * [Jarslink](https://github.com/sofastack/sofa-jarslink)：Jarslink是SOFABoot官方基于SOFAArk开发的功能插件，负责管理多应用在SOFAArk容器之上的合并部署，由蚂蚁开源。
 * [VasDolly](https://github.com/Tencent/VasDolly)：Android V1和V2签名通道包插件，由腾讯开源。
 * [PF4J](https://github.com/pf4j/pf4j)：Java插件框架。
+* [Apache Commons JCI](https://github.com/apache/commons-jci)：Apache Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
 
 <h2 id="lsp">语言服务器</h2>
 
@@ -3927,6 +3927,7 @@
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [k-NN](https://github.com/opendistro-for-elasticsearch/k-NN)：一个机器学习插件，支持Open Distro的近似k-NN搜索算法。
 * [ABAGAIL](https://github.com/pushkar/ABAGAIL)：该库包含许多互连的Java包，用于实现机器学习和人工智能算法。
+* [Apache Commons Text](https://github.com/apache/commons-text)：Apache Commons Text是一个专注于字符串算法的库。
 * [JWave](https://github.com/graetz23/JWave)：离散傅里叶变换(DFT)、快速小波变换(FWT)和小波包变换(WPT)算法的Java实现。
 * [Dexter](https://github.com/dexter/dexter)：Dexter是一个框架，它实现了一些流行的算法，并提供了开发任何实体链接技术所需的所有工具。
 * [AnomalyDetection](https://github.com/JeemyJohn/AnomalyDetection)：Java实现的异常检测算法。
@@ -3957,7 +3958,6 @@
 * [ImGui-Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
 * [Jacob](https://github.com/freemansoft/jacob-project)：Jacob是一个Java库，允许Java应用程序与Microsoft Windows DLL或COM库进行通信。
 * [Nalim](https://github.com/apangin/nalim)：Nalim是一个使用JVMCI(JVM编译器接口)将Java方法链接到本机函数的库。
-* [LuaJava](https://github.com/jasonsantos/luajava)：LuaJava是一个Java脚本编写工具，该工具的目标是允许用Lua编写的脚本操作用Java开发的组件。
 * [nrjavaserial](https://github.com/NeuronRobotics/nrjavaserial)：Java串行端口系统，这是RXTX项目的一个分支，用于本地代码的jar加载。
 * [Native-Utils](https://github.com/adamheinrich/native-utils)：一个简单的工具库，用于加载存储在JAR存档中的动态库。
 * [Hid4Java](https://github.com/gary-rowe/hid4java)：libusb/hidapi库的跨平台Java Native Access(JNA)包装器，在Windows/Mac/Linux上开箱即用。
@@ -4214,6 +4214,7 @@
 * [Okio](https://github.com/square/okio/)：Okio是一个补充java.io和java.nio的库，使你可以更轻松地访问、存储和处理数据。
 * [UberFire I/O](https://github.com/kiegroup/appformer/tree/main/uberfire-io)：NIO.2的实用程序/门面集。
 * [JNR-UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
+* [Apache Commons FileUpload](https://github.com/apache/commons-fileupload)：Apache Commons FileUpload组件提供了一种简单而灵活的方法来向Servlet和Web应用程序添加对分段文件上传功能的支持。
 * [Plexus IO](https://github.com/codehaus-plexus/plexus-io)：Plexus IO是一组Plexus组件，设计用于I/O操作。
 * [OPS4J](https://github.com/ops4j/org.ops4j.base)：与java.io相关的实用程序/扩展。
 * [Jaydio](https://github.com/smacke/jaydio)：Jaydio是一个Java库，可让程序员更好地控制文件I/O，部分方法是绕过操作系统缓冲区高速缓存。
@@ -4225,7 +4226,6 @@
 * [Apache MIME4J](https://github.com/apache/james-mime4j)：Mime4j可用于解析纯rfc822和MIME格式的电子邮件消息流，并构建电子邮件消息的树表示形式。
 * [MIME Type](https://github.com/overview/mime-types)：用于检测文件MIME类型的Java库。
 * [Tape](https://github.com/square/tape)：Tape是Android和Java中与队列相关的类的集合。
-* [Simple Binary Encoding](https://github.com/real-logic/simple-binary-encoding)：高性能消息编解码器。
 
 <h2 id="email">邮件操作</h2>
 
@@ -4371,3 +4371,20 @@
 * [LaunchDarkly Java SDK](https://github.com/launchdarkly/java-server-sdk)：LaunchDarkly是一个功能管理平台，每天提供数万亿个功能标记，帮助团队更快地构建更好的软件。
 * [Piranha](https://github.com/uber/piranha)：用于重构与功能标志API相关的代码的工具，由Uber开源。
 * [Split Java SDK](https://github.com/splitio/java-client)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
+
+<h2 id="emoji">表情处理</h2>
+
+* [Emoji](https://github.com/delight-im/Emoji)：对Java和Android的表情符号支持。
+* [Emoji-Java](https://github.com/vdurmont/emoji-java)：一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号。
+* [Emoji4j](https://github.com/kcthota/emoji4j)：用于将短代码、HTML实体转换为表情符号的Java库，还支持解析表情符号、代理HTML实体。
+* [Java Emoji Converter](https://github.com/binarywang/java-emoji-converter)：Emoji转换工具，便于各种规格客户端生成的Emoji字符串转换成另外一种格式。
+
+<h2 id="unicode">字符编码</h2>
+
+* [JUnidecode](https://github.com/gcardone/junidecode)：Unicode转换到ASCII的Java库。
+* [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
+* [ASCII Table](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
+* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
+* [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持。
+* [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
+* [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
