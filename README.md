@@ -202,6 +202,7 @@
 - [功能切换](#feature-flag)
 - [表情处理](#emoji)
 - [字符编码](#unicode)
+- [URL操作](#url)
 
 <h2 id="web-framework">Web框架</h2>
 
@@ -2807,36 +2808,39 @@
 * [Thumbnailator](https://github.com/coobird/thumbnailator)：Java的缩略图生成库。
 * [Pngtastic](https://github.com/depsypher/pngtastic/)：一个纯Java PNG图像优化和操作库。
 * [ImageJ](https://github.com/imagej/ImageJ)：用于处理和分析科学图像的公共领域软件。
-* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。
+* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个用于多媒体(图像、文本、视频、音频等)内容分析和内容生成的库和工具集合。
 * [Apache Commons Imaging](https://github.com/apache/commons-imaging)：Apache Commons Imaging是一个纯Java图像库。
-* [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：Java ImageIO的附加插件和扩展。
-* [OpenCV](https://github.com/openpnp/opencv)：OpenCV(开源计算机视觉)是一个用于实时计算机视觉和图像处理的库。
-* [树洞OCR](https://github.com/AnyListen/tools-ocr)：一款跨平台的OCR小工具。
+* [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：javax.imageio包的附加插件和扩展。
+* [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个用于实时计算机视觉和图像处理的库。
+* [ImgLib2](https://github.com/imglib/imglib2)：用于图像处理的通用下一代Java库。
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
-* [imgscalr](https://github.com/rkalla/imgscalr)：简单的Java图像缩放库，实现Chris Campbell的增量缩放算法以及Java 2D的“最佳实践”图像缩放技术。
+* [ImgScalr](https://github.com/rkalla/imgscalr)：简单的Java图像缩放库，实现Chris Campbell的增量缩放算法以及Java 2D的“最佳实践”图像缩放技术。
 * [Marvin](https://github.com/gabrielarchanjo/marvin-framework)：Marvin图像处理框架提供实时处理图像和视频的功能。
 * [JavaCV](https://github.com/bytedeco/javacv)： OpenCV、FFmpeg等的Java接口。
 * [Skija](https://github.com/JetBrains/skija)：Skia是一个开源2D图形库，提供可跨各种硬件和软件平台工作的通用API，由JetBrains开源。
-* [webcam-capture](https://github.com/sarxos/webcam-capture)：该库允许你直接从Java使用内置或外部网络摄像头，它旨在抽象常用的相机功能并支持各种捕获框架。
+* [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
+* [EasyImage](https://github.com/aviyehuda/EasyImage)：EasyImage是一个图片制作的第三方Jar包，可以做所有基础的图片操作：转换、裁剪、缩放、选择等。
+* [JMagick](https://github.com/techblue/jmagick)：JMagick是ImageMagick的开源Java接口。
+* [Jrawio](https://github.com/tidalwave-it/jrawio-src)：jrawio是一个Java Image I/O API的服务提供者，用来处理数码相机拍摄的RAW格式的图片，包括NEF、CRW、CR2、PEF、SRF、MRW。
+* [JavaCL](https://github.com/nativelibs4java/JavaCL)：Java的OpenCL绑定。
+* [JJIL](https://github.com/litmanowicziv/jjil)：JJIL是一个Java图像处理库，它包括图像处理架构和60多个用于各种图像处理任务的例程。
+* [JAI ImageIO](https://github.com/jai-imageio/jai-imageio-core)：Java高级图像I/O工具项目。
+* [LEADTOOLS](https://www.leadtools.com/sdk/java)：LEADTOOLS是一个Java图像处理库，提供了文档清理、医学图像增强、边缘检测、颜色转换和校正、降噪等功能。
+* [SimpleImage](https://github.com/alibaba/simpleimage)：SimpleImage是阿里开源的一个Java图片处理的类库，可以实现图片缩略、水印等处理。
 * [Picasso](https://github.com/square/picasso)：一个强大的Android图像下载和缓存库。
 * [Image Comparison](https://github.com/romankh3/image-comparison)：可以比较2个相同大小的图像，并通过绘制矩形直观地显示差异。
-* [xmlgraphics-batik](https://github.com/apache/xmlgraphics-batik)：Batik是一个基于Java的工具包，适用于处理可缩放矢量图形(SVG)格式的图像各种目的，例如观看、生成或操纵。
-* [Luban](https://github.com/Curzibn/Luban)：Android图片压缩工具，仿微信朋友圈压缩策略。
+* [Batik](https://github.com/apache/xmlgraphics-batik)：Batik是一个基于Java的工具包，适用于处理可缩放矢量图形(SVG)格式的图像各种目的，例如观看、生成或操纵。
 * [PixelFlow](https://github.com/diwi/PixelFlow)：用于高性能GPU计算(GLSL)处理的Java库。
-* [ImageJ2](https://github.com/imagej/imagej2)：Image的重写版本，用于多维图像数据，重点是科学成像。
+* [ImageJ2](https://github.com/imagej/imagej2)：Image的重写版本，其中心目标是拓宽ImageJ的范式，超越原始ImageJ应用程序的限制，以支持更广泛的多维科学图像数据。
 * [BoofCV](https://github.com/lessthanoptimal/BoofCV)：用于SFM、校准、基准、跟踪、图像处理等的快速计算机视觉库。
 * [Scrimage](https://github.com/sksamuel/scrimage)：Java、Scala和Kotlin图像处理库。
 * [CV4j](https://github.com/imageprocessor/cv4j)：一个用纯Java实现的高质量、实时的图像处理和机器学习库。
-* [ImgLib2](https://github.com/imglib/imglib2)：用于图像处理的通用下一代Java库。
-* [Imglib](https://github.com/nackily/imglib)：一个轻量级的Java图像处理库，致力于简化对图像的常见处理。
-* [AndroidLibyuvImageUtils](https://github.com/myrao/AndroidLibyuvImageUtils)：Android上的图像处理库，基于libyuv。
-* [ImageCombiner](https://gitee.com/dromara/image-combiner)：ImageCombiner是一个专门用于Java服务端图片合成的工具。
-* [image-plugin](https://gitee.com/hellokaton/image-plugin)：非常简单的图片处理插件，可快速集成在Web应用中。
-* [imagetool](https://gitee.com/xshuai/imagetool)：一个简单的图片处理工具，支持图片压缩、图片水印、图片裁剪、图片旋转、图片格式转换等功能。
+* [ImgLib](https://github.com/nackily/imglib)：一个轻量级的Java图像处理库，致力于简化对图像的常见处理。
+* [AndroidLibyuvImageUtils](https://github.com/myrao/AndroidLibyuvImageUtils)：Android上的图像处理库。
+* [ImageCombiner](https://gitee.com/dromara/image-combiner)：ImageCombiner是一个专门用于Java服务端图片合成的工具，由dromara社区开源。
+* [ImageTool](https://gitee.com/xshuai/imagetool)：一个简单的图片处理工具，支持图片压缩、图片水印、图片裁剪、图片旋转、图片格式转换等功能。
 * [JFreeSVG](https://github.com/jfree/jfreesvg)：一个快速、轻量级的Java库，用于创建可扩展矢量图形(SVG)输出。
-* [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix)：Image2LaTeX提供将图像转换为某些LaTeX方程格式和OCR的核心功能。
-* [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一个用纯Java编写的印刷科学文档识别系统，MathOCR具有图像预处理、布局分析和字符识别的功能，尤其是数学表达式的识别能力。
 * [SikuliX](https://github.com/RaiMan/SikuliX1)：SikuliX可以自动化你在运行Windows、Mac或某些Linux/Unix的台式计算机屏幕上看到的任何内容，它使用由OpenCV提供支持的图像识别来识别GUI组件，并可以通过鼠标和键盘操作对其进行操作。
 * [SealKit](https://gitee.com/liuzy1988/SealKit)：印章生成工具。
 
@@ -3007,6 +3011,8 @@
 * [FindBugs](https://github.com/findbugsproject/findbugs)：Findbugs是一款开源的Java源码静态分析工具。
 * [jQAssistant](https://github.com/jQAssistant/jqassistant)：一个基于Neo4j数据库的依赖分析工具，支持分析Java、XML、JSON等格式的数据，并提供可视化界面和查询语言。
 * [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：Dependency-Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险。
+* [Scavenger](https://github.com/naver/scavenger)：由Naver开源的运行时死代码分析工具。
+* [Codekvast](https://github.com/crispab/codekvast)：Java死代码检测器。
 * [OWASP Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：用于Java Web应用程序和Android应用程序安全审核的SpotBugs插件。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：一个易于学习/使用的Java静态分析框架。
 * [Eclipse Steady](https://github.com/eclipse/steady)：分析你的Java应用程序是否存在已知漏洞的开源依赖项，同时使用静态分析和测试来确定代码上下文和使用情况，以提高准确性。
@@ -3377,6 +3383,8 @@
 * [JRugged](https://github.com/Comcast/jrugged)：Jrugged库实现了用Java构建健壮的、可用于生产的服务器代码所需的一些常见模式。
 * [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
 * [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
+* [RR](https://github.com/GuntherRademacher/rr)：铁路图生成器。
+* [RRDiagram](https://github.com/Chrriis/RRDiagram)：RRDiagram是一个Java库，可从代码或BNF表示法生成铁路图(也称为语法图)。
 
 <h2 id="migrate">迁移工具</h2>
 
@@ -3610,63 +3618,61 @@
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：使用JavaFX 19编写的Asciidoc编辑器和工具链(构建PDF、Epub、Mobi和HTML书籍、文档和幻灯片)。
 * [Fofa Viewer](https://github.com/wgpsec/fofa_viewer)：用JavaFX编写的简单FOFA客户端。
 * [QuPath](https://github.com/qupath/qupath)：QuPath是用于生物图像分析的开源软件。
-* [Everest](https://github.com/RohitAwate/Everest)：一个漂亮的跨平台REST客户端。
+* [DSTE](https://ai-solutions.com/dste/)：深空轨迹探测器，被约翰逊航天中心用作设计工具。
 * [Phoenicis](https://github.com/PhoenicisOrg/phoenicis)：Phoenicis是PlayOnLinux和PlayOnMac 4的指定继承者，允许你在您喜欢的操作系统上安装和使用非本机应用程序。
 * [JetUML](https://github.com/prmr/JetUML)：用于快速绘制UML图表的桌面应用程序。
 * [XPipe](https://github.com/xpipe-io/xpipe)：全新的Shell连接集线器和远程文件管理器。
 * [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX。
+* [DrawingBotV3](https://github.com/SonarSonic/DrawingBotV3)：DrawingBotV3是一款将图像转换为矢量艺术的软件。
 * [LaTeXDraw](https://github.com/latexdraw/latexdraw)：LaTeX的矢量绘图编辑器。
+* [树洞OCR](https://github.com/AnyListen/tools-ocr)：一款跨平台的OCR小工具。
 * [JDKMon](https://github.com/HanSolo/JDKMon)：一个用JavaFX编写的小工具，用于监视已安装的JDK并通知你有关更新的信息。
 * [TerminalFX](https://github.com/javaterminal/TerminalFX)：JavaFX终端模拟器。
 * [Binjr](https://github.com/binjr/binjr)：时序数据浏览器。
 * [SQLucky](https://github.com/tenie/SQLucky)：跨平台数据库可视化操作工具。
+* [Quelea](https://github.com/quelea-projection/Quelea)：适用于教堂的开源投影软件。
+* [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix)：Image2LaTeX提供将图像转换为某些LaTeX方程格式和OCR的核心功能。
 * [FakeImageDetection](https://github.com/afsalashyana/FakeImageDetection)：使用机器学习检测虚假图像。
 * [OwlPlug](https://github.com/DropSnorz/OwlPlug)：音频插件管理器，用于在Windows、MacOS和Linux上管理VST/AU/LV2插件的小工具。
 * [LogFX](https://github.com/renatoathaydes/LogFX)：LogFX是一个简单的日志阅读器，支持颜色突出显示并能够处理巨型文件。
-* [DSTE](https://ai-solutions.com/dste/)：深空轨迹探测器，被约翰逊航天中心用作设计工具。
 * [JMetro](https://pixelduke.com/java-javafx-theme-jmetro/)：JavaFX应用程序的现代主题，具有浅色和深色风格。
-* [Object-Graph-Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：对象图可视化工具。
+* [Object Graph Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：对象图可视化工具。
+* [Everest](https://github.com/RohitAwate/Everest)：一个漂亮的跨平台REST客户端。
 
 <h4 id="gui">GUI程序</h4>
 
 * [FinalShell](https://www.hostbuf.com/)：国内开源的SSH客户端工具。
 * [SoapUI](https://github.com/SmartBear/soapui)：SoapUI是一个免费、开源的跨平台API和Web Service功能测试解决方案。
-* [ArgoUML](https://github.com/argouml-tigris-org/argouml)：一个用于绘制UML图的应用软件。
 * [PlantUML](https://github.com/plantuml/plantuml)：可以通过纯文本的方式来生成UML图。
 * [Matlab](https://www.mathworks.com/products/matlab.html)：Matlab是一种用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境，其GUI部分由Java开发。
 * [Protege](https://github.com/protegeproject/protege)：Protege是一个免费的开源本体编辑器，支持最新的OWL 2.0标准。
-* [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
-* [blobsaver](https://github.com/airsquared/blobsaver)：用于自动保存SHSH blob的跨平台GUI和CLI应用程序。
 * [Sonarqube](https://github.com/SonarSource/sonarqube)：SonarQube是一个开源的代码分析平台，可以用来持续分析和评测项目源代码的质量。
 * [LibreOffice](https://github.com/LibreOffice/core)：一款开源的办公套件，包括文档处理、电子表格、演示文稿等功能。
 * [Teambition](https://www.teambition.com/)：阿里旗下的项目协作工具。
 * [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件。
 * [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)：STM32CubeMX是ST公司推出的一种自动创建单片机工程及初始化代码的工具。
 * [GeoGebra](https://www.geogebra.org/)：GeoGebra是一款动态数学(几何)软件，于2001年由Markus Hohenwarter在奥地利萨尔茨堡大学制作。
-* [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)：数字逻辑设计工具和模拟器。
-* [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas)：位图和表情符号字体创建和转换工具。
+* [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)：数字逻辑设计工具和模拟器。
 * [ImageJ](https://imagej.net/ij/index.html)：生物医学领域的图像处理软件。
+* [OpenRocket](https://github.com/openrocket/openrocket)：OpenRocket是一款免费、功能齐全的模型火箭模拟器，可让你在实际建造和飞行火箭之前设计和模拟火箭。
 * [Vivado](https://www.xilinx.com/products/design-tools/vivado.html)：Xilinx开发的用于HDL设计的合成和分析的软件套件，具有用于片上系统开发和高级综合的附加功能。
 * [Citespace](https://citespace.podia.com/)：基于Java语言编写的可视化文献分析软件。
 * [ArcTime](https://arctime.org/)：ArcTime是使用Java编写的免费跨平台字幕软件。
-* [FreeMind](https://github.com/jiangxin/freemind-mmx)：FreeMind是一款免费开源的思维导图软件。
 * [Xmind](https://xmind.app/)：Xmind是一款全功能的思维导图和头脑风暴软件。
+* [Unidata AWIPS](https://github.com/Unidata/awips2)：由NWS/Raytheon开发的天气预报显示和分析包，由Unidata作为开源软件发布。
 * [CuratOR](https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/)：CuratorOR由德国EIZO GmbH开发，是一款用在医院手术室的应用程序。
-* [mybatis-generator-gui](https://github.com/zouzg/mybatis-generator-gui)：Mybatis-Generator界面工具，可以更加直观的生成代码。
 * [ThinkPHPGUI](https://github.com/Lotus6/ThinkphpGUI)：Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。
-* [Super-Xray](https://github.com/4ra1n/super-xray)：Web漏洞扫描工具XRAY的GUI启动器。
+* [Super Xray](https://github.com/4ra1n/super-xray)：Web漏洞扫描工具XRAY的GUI启动器。
 * [Poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
-* [Particle-Life](https://github.com/tom-mohr/particle-life-app)：Particle Life的GUI，这是一个显示逼真行为的粒子系统。
-* [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI)：FutureRestore的现代GUI，添加了使过程更容易的功能。
-* [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMap的高级图形用户界面。
+* [JMRI](https://github.com/JMRI/JMRI)：模型铁路数字指挥与控制软件。
+* [Particle Life](https://github.com/tom-mohr/particle-life-app)：Particle Life的GUI，这是一个显示逼真行为的粒子系统。
+* [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI)：FutureRestore的现代GUI，添加了使过程更容易的功能。
+* [Makelangelo](https://github.com/MarginallyClever/Makelangelo-software)：Makelangelo是一个Java程序，可为CNC绘图仪准备艺术品。
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)：jExifToolGUI是Phil Harvey的一个多平台Java/Swing图形前端，用于优秀的命令行ExifTool应用程序。
 * [WePush](https://github.com/rememberber/WePush)：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息等。
-* [WeSync](https://github.com/rememberber/WeSync)：用Java Swing写的数据库同步软件。
-* [Remote Desktop Control](https://github.com/Cool-Coding/remote-desktop-control)：远程桌面控制软件。
-* [CXTouch](https://github.com/cxplan/CXTouch)：基于Java Swing的PC客户端查看和管理Android设备，支持Windows、Linux和MacOS。
-* [JavaANPR](https://github.com/oskopek/javaanpr)：Java的自动车牌识别系统。
+* [BlobSaver](https://github.com/airsquared/blobsaver)：用于自动保存SHSH blob的跨平台GUI和CLI应用程序。
+* [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
 * [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
-* [Perceptron](https://github.com/Jasonnor/Perceptron)：使用Java Swing实现的单层感知器神经网络。
 
 <h4 id="dbtool">数据库工具</h4>
 
@@ -3998,6 +4004,7 @@
 * [System-Hook](https://github.com/kristian/system-hook)：Java应用程序的全局键盘/鼠标钩子。
 * [NaturalMouseMotion](https://github.com/JoonasVali/NaturalMouseMotion)：该库提供了一种将光标可靠地移动到屏幕上指定坐标的方法，同时随机形成弧线，看起来就像真手使用鼠标将其移动到那里。
 * [USB4Java](https://github.com/usb4java/usb4java)：该库可用于在Java中访问USB设备。
+* [Webcam Capture](https://github.com/sarxos/webcam-capture)：该库允许你直接从Java使用内置或外部网络摄像头，它旨在抽象常用的相机功能并支持各种捕获框架。
 * [JavaSysMon](https://github.com/jezhumble/javasysmon)：JavaSysMon提供了一种独立于操作系统的方式来管理操作系统进程并获取实时系统性能信息，例如CPU和内存使用情况。
 * [PixelController](https://github.com/neophob/PixelController)：该应用程序的主要目标是创建一个易于使用的矩阵控制器软件。
 * [r2cloud](https://github.com/dernasherbrezon/r2cloud)：r2cloud可以跟踪和解码来自卫星的各种无线电信号。
@@ -4251,6 +4258,7 @@
 * [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取tar文件的简单方法。
 * [jMimeMagic](https://github.com/arimus/jmimemagic)：jMimeMagic是一个用于确定文件或流的MIME类型的Java库。
 * [SimpleMagic](https://github.com/j256/simplemagic)：简单的文件幻数和内容类型库，提供文件和字节数组的MIME类型确定。
+* [nio_uring](https://github.com/bbeaupain/nio_uring)：在底层使用io_uring的Java高性能I/O库。
 * [MimeCraft](https://github.com/square/mimecraft)：用于创建符合RFC要求的Multipart和表单编码HTTP请求主体的实用程序。
 * [Ballerina MIME](https://github.com/ballerina-platform/module-ballerina-mime)：该库提供了一组用于处理消息的API，这些API遵循RFC 2045标准中指定的多用途Internet邮件扩展(MIME)规范。
 * [Apache MIME4J](https://github.com/apache/james-mime4j)：Mime4j可用于解析纯rfc822和MIME格式的电子邮件消息流，并构建电子邮件消息的树表示形式。
@@ -4321,7 +4329,6 @@
 * [Backstopper](https://github.com/Nike-Inc/backstopper)：Backstopper是一个与框架无关的API错误处理和(可选)模型验证解决方案，适用于Java 7及更高版本，由Nike开源。
 * [veraPDF](https://github.com/veraPDF/veraPDF-library)：行业支持的开源PDF/A验证库。
 * [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
-* [Galimatias](https://github.com/smola/galimatias)：galimatias是一个用Java编写的URL解析和规范化库。
 * [JHOVE](https://github.com/openpreserve/jhove)：JHOVE是一个可扩展的软件框架，用于执行数字对象的格式识别、验证和表征，由哈佛大学开发。
 * [Coody Verification](https://gitee.com/coodyer/coody-verification)：一款反射+注解实现的参数自动化校验工具。
 * [Apache BVal](https://bval.apache.org/)：Apache BVal提供了Java Bean Validation规范的实现，适用于Java 8或更高版本。
@@ -4418,3 +4425,15 @@
 * [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持。
 * [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
+
+<h2 id="url">URL操作</h2>
+
+* [Url Detector](https://github.com/linkedin/URL-Detector)：由Linkedin安全团队创建的一个库，用于检测和提取长文本中的URL。
+* [Slugify](https://github.com/slugify/slugify)：用于生成语音URL的小型实用程序库。
+* [Unbescape](https://github.com/unbescape/unbescape)：高级且易于使用的Java转义库。
+* [Java URLBuilder](https://github.com/mikaelhg/urlbuilder)：无运行时依赖的URL构建器。
+* [AutoLink Java](https://github.com/robinst/autolink-java)：用于从纯文本中提取URL和电子邮件地址等链接的Java库。
+* [Rewrite](https://github.com/ocpsoft/rewrite)：适用于Java EE 6+和Servlet 2.5+应用程序的高度可配置的URL重写工具。
+* [Galimatias](https://github.com/smola/galimatias)：Galimatias是一个用Java编写的URL解析和规范化库。
+* [JURL](https://github.com/anthonynsimon/jurl)：快速简单的Java URL解析库，支持UTF-8和路径解析。
+* [Handy URI Templates](https://github.com/damnhandy/Handy-URI-Templates)：实现RFC6570的Java URI模板处理器。
