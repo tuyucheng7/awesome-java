@@ -128,7 +128,7 @@
 - [图像处理](#image)
 - [验证码](#captcha)
 - [压缩](#compress)
-- [爬虫](#crawler)
+- [爬虫框架](#crawler)
 - [数据处理](#data)
 - [注解处理器](#annotation-processor)
 - [事件总线](#event-bus)
@@ -2873,44 +2873,41 @@
 * [Compress](https://gitee.com/yu120/compress)：基于gzip、deflate、lz4、snappy、lzo等算法实现数据压缩，主要用于RPC通讯数据的压缩。
 * [Zip4j](https://github.com/srikanth-lingala/zip4j)：Zip4j是一个全面的zip文件或流Java库。
 
-<h2 id="crawler">爬虫</h2>
+<h2 id="crawler">爬虫框架</h2>
 
-* [Crawler4j](https://github.com/yasserg/crawler4j)：Java开源网络爬虫库。
+* [Crawler4j](https://github.com/yasserg/crawler4j)：Crawler4j是一个开源的Java网络爬虫库，可以在几分钟内设置一个多线程网络爬虫。
 * [Apache Nutch](https://github.com/apache/nutch)：Apache Nutch是一个可扩展且可伸缩的网络爬虫库。
-* [WebMagic](https://github.com/code4craft/webmagic)：用于Java的可扩展网络爬虫框架。
 * [Jsoup](https://github.com/jhy/jsoup/)：Java HTML解析器，专为HTML编辑、清理、抓取和XSS安全而构建。
 * [StormCrawler](https://github.com/DigitalPebble/storm-crawler)：基于Apache Storm的可扩展、成熟且多功能的网络爬虫库。
 * [Sparkler](https://github.com/USCDataScience/sparkler)：在Apache Spark上运行的类似Apache Nutch的爬虫库。
-* [Spider-Flow](https://github.com/ssssssss-team/spider-flow)：新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
-* [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，提供了一些简单的网络爬虫接口。
+* [Spider Flow](https://github.com/ssssssss-team/spider-flow)：新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
+* [WebMagic](https://github.com/code4craft/webmagic)：可扩展的爬虫框架，它涵盖了爬虫的整个生命周期：下载、URL管理、内容提取和持久化。
 * [Heritrix](https://github.com/internetarchive/heritrix3)：Heritrix是互联网档案馆的开源、可扩展、网络规模、档案质量的网络爬虫项目。
-* [Gecco](https://github.com/xtuhcy/gecco)：易用的轻量化网络爬虫库。
+* [Gecco](https://github.com/xtuhcy/gecco)：Gecco集成了Jsoup、HttpClient、FastJson、Spring、HtmlUnit、Redission框架，让你只需要配置一些JQuery风格的选择器就可以非常快速的编写一个爬虫。
 * [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：一个简单、敏捷、分布式的支持Spring Boot的Java爬虫框架。
 * [Apache ManifoldCF](https://github.com/apache/manifoldcf)：Apache ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
 * [SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler)：免费的数据库模式发现和理解工具。
 * [FS-Crawler](https://github.com/dadoonet/fscrawler)：Elasticsearch文件系统爬虫。
-* [Zhihu-Crawler](https://github.com/wycm/zhihu-crawler)：zhihu-crawler是一个基于Java的高性能、支持免费HTTP代理池、横向扩展、分布式爬虫项目。
-* [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：Java分布式爬虫框架。
-* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：适用于Java的无头Chrome。
+* [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，提供了一些简单的网络爬虫接口。
+* [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：XXL社区开源的Java分布式爬虫框架。
+* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：方便使用Java操控Chrome或Chromium。
 * [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
-* [Spiderman](https://gitee.com/l-weiwei/spiderman)：Java开源Web数据抽取工具。
+* [Spiderman](https://gitee.com/l-weiwei/spiderman)：Spiderman是一个垂直领域的爬虫，可用于抓取特定目标网页的内容，并且解析为所需要的业务数据，整个过程追求无需任何编码就能实现。
+* [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
 * [XueQiuSuperSpider](https://github.com/decaywood/XueQiuSuperSpider)：雪球超级爬虫是基于雪球网、东方财富和同花顺实现的股票数据爬虫程序。
 * [Anthelion](https://github.com/YahooArchive/anthelion)：Anthelion是Apache Nutch的一个插件，用于抓取HTML页面中的语义注释，由Yahoo开源。
 * [Crawljax](https://github.com/crawljax/crawljax)：Crawljax是一个自动爬取和测试现代Web应用程序的工具。
-* [ACHE](https://github.com/VIDA-NYU/ache)：ACHE是一个用于特定域搜索的网络爬虫。
+* [ACHE](https://github.com/VIDA-NYU/ache)：ACHE是一个专注的网络爬虫，它收集满足某些特定标准的网页，例如属于给定域或包含用户指定模式的页面。
 * [Spiderman2](https://gitee.com/l-weiwei/Spiderman2)：Spiderman的升级版，在性能、架构、易用性上有提升，支持分布式。
+* [Jaunt](https://jaunt-api.com/)：Jaunt是一个用于Web抓取、Web自动化和JSON查询的Java库。
+* [Jauntium](https://jauntium.com/)：使用Jauntium，Java程序可以在完全支持JavaScript的情况下执行Web抓取和Web自动化。
 * [YayCrawler](https://gitee.com/shentong_012/YayCrawler)：分布式爬虫系统，简单使用，高级配置。
-* [Wind-Bell](https://gitee.com/zhiyubujian/wind-bell)：轻量级的高效爬虫工具，配置简单，方便二次开发。
 * [HtmlCleaner](https://htmlcleaner.sourceforge.net/)：HtmlCleaner是一个用Java编写的开源HTML解析器。
 * [Crawler-Commons](https://github.com/crawler-commons/crawler-commons)：一组可重用的Java组件，实现任何网络爬虫通用的功能。
-* [Zongtui WebCrawler](https://gitee.com/zongtui/zongtui-webcrawler)：基于Hadoop思维的分布式网络爬虫。
-* [VsCrawler](https://gitee.com/virjar/vscrawler)：适合抓取封堵的爬虫框架。
+* [Norconex HTTP Collector](https://github.com/Norconex/collector-http)：Norconex HTTP Collector是一个功能齐全的网络爬虫，可以操作收集的数据并将其存储到你选择的存储库(例如搜索引擎)中。
 * [Elves](https://github.com/hellokaton/elves)：轻量级爬虫框架的设计与实现。
-* [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
 * [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
 * [Nokogiri](https://github.com/sparklemotion/nokogiri)：Nokogiri是一个HTML、XML、SAX和Reader解析器，支持XPath和CSS选择器。
-* [Parboiled](https://github.com/sirthias/parboiled)：Java和Scala中的优雅解析-轻量级、易于使用、功能强大。
-* [Pegdown](https://github.com/sirthias/pegdown)：基于parboiled PEG解析器的纯Java Markdown处理器，支持多种扩展。
 
 <h2 id="data">数据处理</h2>
 
