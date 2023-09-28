@@ -187,6 +187,7 @@
 - [报表引擎](#report)
 - [部署工具](#deploy)
 - [地理空间](#geo)
+- [几何学](#geometry)
 - [航空航天](#space)
 - [序列化](#serialization)
 - [IO操作](#ioutils)
@@ -929,7 +930,7 @@
 * [Dubbo Metrics](https://github.com/alibaba/metrics)：Metrics(原Alibaba Metrics)是阿里巴巴内部广泛使用的度量埋点基础类库。
 * [Argus](https://github.com/salesforce/Argus)：Argus是一个时序监控和警报平台，它由离散服务组成，用于配置警报、摄取和转换指标和事件、发送通知、创建命名空间以及建立和实施策略和使用配额。
 * [Keycloak Metrics](https://github.com/aerogear/keycloak-metrics-spi)：向Keycloak添加指标端点的SPI，端点返回可供Prometheus抓取的指标数据。
-* [SOFALookout](https://github.com/sofastack/sofa-lookout)：SOFALookout是一个利用多维度的Metrics对目标系统进行度量和监控的项目。
+* [SOFALookout](https://github.com/sofastack/sofa-lookout)：SOFALookout是一个利用多维度的Metrics对目标系统进行度量和监控的项目，由蚂蚁开源。
 * [PerfMon](https://github.com/undera/perfmon-agent)：用于访问远程计算机上的系统指标的代理应用程序。
 * [InfluxDB Metrics](https://github.com/davidB/metrics-influxdb)：向InfluxDB服务器公布度量结果的指标报告器。
 * [ElasticSearch Metrics](https://github.com/elastic/elasticsearch-metrics-reporter-java)：向ElasticSearch服务器公布度量结果的指标报告器
@@ -1480,6 +1481,7 @@
 * [Finagle](https://github.com/twitter/finagle)：容错、协议无关的RPC系统，由Twitter开源并广泛使用。
 * [Motan](https://github.com/weibocom/motan)：Motan是一个跨语言远程过程调用(RPC)框架，用于快速开发高性能分布式服务，由微博开源。
 * [SOFARPC](https://github.com/sofastack/sofa-rpc)：一个高性能、高扩展性、生产级的Java RPC框架，由蚂蚁金服开源并广泛使用。
+* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是一个基于Netty的轻量级、易用且高性能的远程框架，由蚂蚁开源。
 * [Pigeon](https://github.com/dianping/pigeon)：大众点评开源的RPC框架。
 * [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个由Facebook开源的轻量级、独立于语言的软件堆栈，用于点对点RPC实现的框架。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
@@ -2290,7 +2292,6 @@
 * [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Colt是Java中用于高性能科学计算的库。它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法。
 * [Apache Commons Math](https://github.com/apache/commons-math)：Commons Math是一个轻量级、独立的数学和统计组件库，可解决Java编程语言或Commons Lang中无法解决的最常见问题。
 * [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Apache Commons Numbers项目提供数字类型和实用程序。
-* [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Apache Commons Geometry项目提供几何类型和实用程序。
 * [Eclipse January](https://github.com/eclipse/january)：这是一个用Java处理数据的库，它部分受到NumPy的启发，旨在提供类似的功能。
 * [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库。
 * [JNT](https://math.nist.gov/jnt/)：包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作。
@@ -2350,7 +2351,7 @@
 * [Eclipse RDF4J](https://github.com/eclipse-rdf4j/rdf4j)：Eclipse RDF4J是一个强大的Java框架，用于处理和处理RDF数据，这包括使用RDF和链接数据创建、解析、可扩展存储、推理和查询。
 * [D2RQ](https://github.com/d2rq/d2rq)：一个数据库到RDF映射引擎和SPARQL服务器。
 * [RDFUnit](https://github.com/AKSW/RDFUnit)：RDFUnit在测试驱动数据验证本体之上实现，旨在读取和生成仅符合该本体的RDF。
-* [Rdf-File](https://github.com/alipay/rdf-file)：Rdf-File是一个处理结构化文本文件的工具组件。
+* [Rdf-File](https://github.com/alipay/rdf-file)：Rdf-File是一个处理结构化文本文件的工具组件，由支付宝开源。
 * [LodView](https://github.com/LodLive/LodView)：LodView是一个基于Spring和Jena的Web应用程序，它是一个能够提供符合W3C标准的IRI解引用的工具。
 * [Empire](https://github.com/mhgrove/Empire)：Empire使用SPARQL为RDF数据库提供标准JPA风格的接口。
 * [HDT](https://github.com/rdfhdt/hdt-java)：HDT-lib是一个Java库，它实现了RDF HDT(标头-字典-三元组)二进制格式的W3C提交。
@@ -3376,6 +3377,7 @@
 * [Modelio](https://github.com/ModelioOpenSource/Modelio)：Modelio是一种建模解决方案，提供基于企业架构、软件开发和系统工程主要标准的广泛功能。
 * [Spring Modulith](https://github.com/spring-projects/spring-modulith)：Spring Modulith允许开发人员构建结构良好的Spring Boot应用程序，并指导开发人员查找和使用由领域驱动的应用程序模块。
 * [Moduliths](https://github.com/moduliths/moduliths)：构建模块化、整体式Spring Boot应用程序的框架。
+* [Structure101](https://structure101.com/)：Structure101是一个敏捷体系结构开发环境(ADE)，它允许软件开发团队组织代码库，这是一个收费软件。
 * [Structurizr Java](https://github.com/structurizr/java)：Structurizr基于“图即代码”构建，允许你从单个模型创建多个软件架构图。
 * [JRugged](https://github.com/Comcast/jrugged)：Jrugged库实现了用Java构建健壮的、可用于生产的服务器代码所需的一些常见模式。
 * [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
@@ -4077,7 +4079,6 @@
 * [COMSAT](https://github.com/puniverse/comsat)：将标准Java Web相关API与Quasar纤程和Actor集成。
 * [Drift](https://github.com/airlift/drift)：一个基于注解的Java库，用于创建Thrift可序列化类型和服务。
 * [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
-* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是一个基于Netty的轻量级、易用且高性能的远程框架，由蚂蚁开源。
 * [Voovan](https://gitee.com/helyho/Voovan)：Voovan是高性能异步通信、HTTP服务器和客户端通信、动态编译支持、数据库操作帮助类等工具的框架。
 * [IPAddress](https://github.com/seancfoley/IPAddress)：用于处理IP地址和子网(IPv4和IPv6)的Java库。
 * [Commons IP Math](https://github.com/jgonian/commons-ip-math)：该库提供了丰富、类型安全的API，用于处理对IP资源执行的最常见操作，例如解析、以多种表示法打印、检查范围是否重叠或可以合并等。
@@ -4165,27 +4166,21 @@
 
 <h2 id="geo">地理空间</h2>
 
-* [JTS](https://github.com/locationtech/jts)：JTS是一个用于创建和操作向量几何的Java库。
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，提供地理空间数据工具。
-* [Geometry API](https://github.com/Esri/geometry-api-java)：Geometry API可用于在第三方数据处理解决方案中启用空间数据处理。
 * [Open Location Code](https://github.com/google/open-location-code)：Open Location Code是一种将位置编码为比纬度和经度更易于使用的形式的技术，由Google开源。
 * [Gisgraphy](https://github.com/gisgraphy/gisgraphy)：免费、开源且随时可用的地理编码器、反向地理编码器和地理定位网络服务。
 * [GAMA](https://github.com/gama-platform/gama)：GAMA是一个易于使用的开源建模和仿真环境，用于创建基于代理的空间显式仿真。
 * [MeteoInfo](https://github.com/meteoinfo/MeteoInfo)：MeteoInfo是GIS应用(MeteoInfoMap)、科学计算和可视化环境(MeteoInfoLab)的集成框架，特别适合气象界。
 * [Apache SIS](https://github.com/apache/sis)：Apache SIS是一个用于开发地理空间应用程序的Java语言库，该库是OGC GeoAPI 3.0.2接口的实现，可用于桌面或服务器应用程序。
-* [MapFish](https://github.com/mapfish/mapfish-print)：MapFish的一个组件，用于打印模板化地图，该模块是Java服务器端模块。
 * [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个用于管理内存中空间数据的空间库。
-* [GraphHopper](https://github.com/graphhopper/graphhopper)：OpenStreetMap的开源路由引擎，将其用作Java库或独立的Web服务器。
+* [GraphHopper](https://github.com/graphhopper/graphhopper)：OpenStreetMap的开源路由引擎，可以将其用作Java库或独立的Web服务器。
 * [Proj4J](https://github.com/locationtech/proj4j)：Proj4J是一个用于在不同地理空间坐标参考系之间转换坐标的Java库，它被设计为与proj.4参数兼容，并从proj.4源中派生出一些实现。
 * [Barefoot](https://github.com/bmwcarit/barefoot)：一个宝马开源Java的库，用于与OpenStreetMap进行在线和离线地图匹配。
-* [SLDEditor](https://github.com/sldeditor/sldeditor)：SLDEditor是由SCISYS开发的Java桌面应用程序，允许使用图形用户界面以交互方式创建和编辑OGC样式层描述符。
 * [Deegree](https://github.com/deegree/deegree3)：Deegree是用于空间数据基础设施和地理空间网络的开源软件，Deegree包含地理空间数据管理组件，包括数据访问、可视化、发现和安全性。
 * [Mapsforge](https://github.com/mapsforge/mapsforge)：用于Android和桌面应用的矢量地图库和编写器。
-* [Tinfour](https://github.com/gwlucastrig/Tinfour)：Java中的Delaunay和约束Delaunay三角剖分，为表面建模提供高性能实用程序，支持激光雷达LAS文件、数字高程模型 (DEM)、有限元分析、路径规划、自然邻域插值以及不规则三角网络(TIN)的其他应用。
-* [Geolatte-geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [Tinfour](https://github.com/gwlucastrig/Tinfour)：用Java编写的高性能2D Delaunay三角测量和相关实用程序。
 * [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)：NoiseModelling是一个能够生成噪声图的库，它可以免费用于研究和教育，也可以由专家用于专业用途。
 * [Spatial4j](https://github.com/locationtech/spatial4j)：Spatial4j是一个通用空间/地理空间开源Java库，它的核心功能有3个方面：提供可在欧几里得和测地线(球面)世界模型中工作的常见形状，提供距离计算和其他数学，以及从WKT和GeoJSON等格式读取和写入形状，Spatial4j是Eclipse基金会LocationTech行业工作组的一个项目。
-* [Importer/Exporter](https://github.com/3dcitydb/importer-exporter)：基于Java的3D城市数据库导入器/导出器客户端，它允许高性能加载和提取3D城市模型数据。
 * [geOrchestra](https://github.com/georchestra/georchestra)：geOrchestra是一个完整的空间数据基础设施解决方案。
 * [OrbisGIS](https://github.com/orbisgis/orbisgis)：OrbisGIS是一个由研究创建并用于研究的跨平台开源地理信息系统(GIS)，它由法国Lab-STICC实验室(Vannes的DECIDE团队)内的CNRS领导。
 * [GeoServer](https://github.com/geoserver/geoserver)：GeoServer是一个用Java编写的开源软件服务器，允许用户共享和编辑地理空间数据。
@@ -4195,18 +4190,28 @@
 * [GeoWave](https://github.com/locationtech/geowave)：GeoWave在Accumulo、HBase、BigTable、Cassandra、Kudu、Redis、RocksDB和DynamoDB之上提供地理空间和时间索引。
 * [Geotoolkit](https://github.com/Geomatys/geotoolkit)：Geotoolkit是一个开源库，提供了操作制图数据的工具。
 * [Photon](https://github.com/komoot/photon)：Photon是一个为OpenStreetMap数据构建的开源地理编码器。
-* [geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
+* [Geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
 * [GeoGig](https://github.com/locationtech/geogig)：地理空间分布式版本控制系统。
 * [GeoWebCache](https://github.com/GeoWebCache/geowebcache)：GeoWebCache是一个用Java实现的图块缓存服务器，提供各种图块缓存服务，如WMS-C、TMS、WMTS、Google Maps、MS Bing等。
-* [H2GIS](https://github.com/orbisgis/h2gis)：增加了对H2的新几何类型、开放地理空间联盟(OGC)SQL简单特征(SFSQL)函数以及CNRS开发的其他空间函数的空间特征和操作管理的支持。
 * [CLAVIN](https://github.com/Novetta/CLAVIN)：CLAVIN(制图位置和邻近索引器)是一个开源软件包，用于文档地理解析和地理分辨率，采用基于上下文的地理实体分辨率。
-* [GeoNetwork](https://github.com/geonetwork/core-geonetwork)：GeoNetwork是一个用于管理空间参考资源的目录应用程序，它提供强大的元数据编辑和搜索功能以及交互式网络地图查看器。
+* [GeoNetwork](https://github.com/geonetwork/core-geonetwork)：GeoNetwork是一个用于管理空间参考资源的目录应用程序，它提供强大的元数据编辑和搜索功能以及交互式Web地图查看器。
 * [地图瓦片图下载器](https://gitee.com/CrimsonHu/java_map_download)：使用Java开发的地图瓦片图下载工具，支持OpenStreetMap、天地图、谷歌地图、高德地图、腾讯地图、必应地图的XYZ瓦片图下载与合并。
 * [GAF](https://gitee.com/supermapgaf/GAF)：基于SuperMap GIS平台，采用Spring Cloud和Vue等技术，提供权限、GIS数据、服务和二三维地图场景等功能，用于快速搭建企业级GIS微服务框架。
 * [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 * [Timeshape](https://github.com/RomanIakovlev/timeshape)：Timeshape是一个Java库，可用于确定给定地理坐标属于哪个时区。
-* [Traccar](https://github.com/traccar/traccar)：GPS追踪系统。
+* [Traccar](https://github.com/traccar/traccar)：一个开源GPS跟踪系统。
 * [Apache Sedona](https://github.com/apache/sedona)：处理大规模地理空间数据的集群计算框架。
+* [H3-Java](https://github.com/uber/h3-java)：H3的Java绑定，分层六边形地理空间索引系统，由Uber开源。
+
+<h2 id="geometry">几何学</h2>
+
+* [S2 Geometry Library](https://github.com/google/s2-geometry-library-java)：这是一个Google开源的用于操作几何形状的包，S2主要设计用于处理球面几何，即在球体上而不是在平面2D地图上绘制的形状。
+* [Geolatte-geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [JGEX]()：JGEX是一款结合了动态几何软件(DGS)、自动几何定理证明器(GTP)和视觉动态证明呈现方法的软件，由威奇托州立大学开源。
+* [JTS](https://github.com/locationtech/jts)：JTS是一个用于创建和操作向量几何的Java库。
+* [Geometry API](https://github.com/Esri/geometry-api-java)：Geometry API可用于在第三方数据处理解决方案中启用空间数据处理。
+* [Geolatte Geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Apache Commons Geometry项目提供几何类型和实用程序。
 
 <h2 id="space">航空航天</h2>
 
@@ -4223,21 +4228,22 @@
 
 <h2 id="serialization">序列化</h2>
 
+* [Hessian](http://hessian.caucho.com/)：Hessian是一个性能较优且兼容性较好的二进制序列化协议。
+* [FlatBuffers](https://github.com/google/flatbuffers)：FlatBuffers是一个跨平台序列化库，旨在实现最大内存效率，由Google开源。
 * [Ysoserial](https://github.com/frohoff/ysoserial)：一种概念验证工具，用于生成利用不安全的Java对象反序列化的有效负载。
 * [Apache Avro](https://github.com/apache/avro)：Apache Avro是一个数据序列化系统。
 * [Protostuff](https://github.com/protostuff/protostuff)：一个Java序列化库，内置对向前向后兼容性(模式演化)和验证的支持。
-* [FlatBuffers](https://github.com/google/flatbuffers)：FlatBuffers是一个跨平台序列化库，旨在实现最大内存效率，由Google开源。
-* [FST](https://github.com/RuedigerMoeller/fast-serialization)：快速Java序列化下降替换。
 * [Fury](https://github.com/alipay/fury)：由JIT和零拷贝支持的超快多语言序列化框架，由阿里开源。
+* [FST](https://github.com/RuedigerMoeller/fast-serialization)：完全兼容JDK序列化协议的Java序列化框架，在序列化速度上能达到JDK的10倍。
 * [MessagePack](https://github.com/msgpack/msgpack-java)：Java的MessagePack序列化器实现。
 * [Serial](https://github.com/twitter/Serial)：用于Java对象序列化的轻量级快速框架，支持Android，由Twitter开源。
 * [Swift](https://github.com/facebookarchive/swift)：Swift是一个易于使用、基于注解的Java库，用于创建Thrift可序列化类型和服务，由Facebook开源。
 * [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
 * [SerializationDumper](https://github.com/NickstaDB/SerializationDumper)：一种以更易于理解的形式转储和重建Java序列化流和Java RMI数据包内容的工具。
+* [SOFA-Hessian](https://github.com/sofastack/sofa-hessian)：SOFA-Hessian基于原生Hessian v4.0.51进行改进，目前已经蚂蚁金服内部稳定运行多年。
 * [Colfer](https://github.com/pascaldekloe/colfer)：Colfer是一种针对速度和大小进行优化的二进制序列化格式。
-* [Chronicle-Wire](https://github.com/OpenHFT/Chronicle-Wire)：支持多种格式的低垃圾Java序列化库。
+* [Chronicle Wire](https://github.com/OpenHFT/Chronicle-Wire)：支持多种格式的低垃圾Java序列化库。
 * [Kryo](https://github.com/EsotericSoftware/kryo)：快速、高效、自动化的Java对象序列化和克隆库。
-* [GeoJson Jackson](https://github.com/opendatalab-de/geojson-jackson)：用于通过JSON Jackson解析器序列化和反序列化对象，该库符合2008 GeoJSON规范。
 * [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由Google开源。
 * [Reservoir](https://github.com/anupcowkur/Reservoir)：可使用键/值对轻松序列化对象并将其缓存到磁盘的Android库。
 * [Eclipse Serializer](https://github.com/eclipse-serializer/serializer)：Eclipse Serializer项目可以对任何Java对象进行(反)序列化，而无需生成代码的注解、超类或接口或数据模式。
