@@ -307,6 +307,7 @@
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行Java REST微服务。
 * [Eventuate-Tram](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Eventuate-Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Sagas框架是使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
+* [Femas](https://github.com/TencentFemas/femas)：基于Java Agent的微服务治理平台，由腾讯开源。
 * [ActiveJ](https://github.com/activej/activej)：ActiveJ是一个从头开始构建的现代Java平台。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
 * [Abixen-Platform](https://github.com/abixen/abixen-platform)：Abixen平台是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
@@ -890,22 +891,23 @@
 
 <h2 id="apm">APM监控工具</h2>
 
-* [Apache SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源。
+* [Apache SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源(华为吴晟)。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：采用Java语言编写的链路分析和应用性能监控系统，由韩国Naver研发团队开源。
 * [Cat](https://github.com/dianping/cat)：服务端项目基础组件，可以提供系统丰富的性能指标、健康状况、实时告警等，由美团点评开源。
 * [Matrix](https://github.com/Tencent/matrix)：Matrix是微信开发的插件式、非侵入式APM系统。
 * [Hertzbeat](https://github.com/dromara/hertzbeat)：开源实时监控系统，具有自定义监控、高性能集群和无代理功能，由dromara社区开源。
 * [ArgusAPM](https://github.com/Qihoo360/ArgusAPM)：360开源的线上移动性能检测平台。
-* [Scouter](https://github.com/scouter-project/scouter)：开源APM工具。
-* [Femas](https://github.com/TencentFemas/femas)：基于Java Agent的微服务治理平台，由腾讯开源。
+* [Scouter](https://github.com/scouter-project/scouter)：SCOUTER是一个开源APM，类似于New Relic和AppDynamics。
+* [MyPerf4J](https://github.com/LinShunKang/MyPerf4J)：一个针对高并发、低延迟应用设计的高性能Java性能监控和统计工具。
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor)：面向云原生和APM系统的轻量级开放Java Agent。
+* [New Relic Java](https://github.com/newrelic/newrelic-java-agent)：New Relic Java代理。
 * [Glowroot](https://github.com/glowroot/glowroot)：易于使用，开销极低的Java APM。
-* [BeeAPM](https://gitee.com/beetle082/bee-apm)：分布式跟踪和应用性能监控系统，基于Java Agent。
 * [Fiery](https://github.com/weiboad/fiery)：微博开源的APM应用程序性能管理工具。
-* [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件。
+* [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件，MegaEase开源。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
 * [Lightrun](https://lightrun.com/)：Lightrun是一个面向开发人员的可观察性工具。
+* [XXL-APM](https://github.com/xuxueli/xxl-apm)：分布式APM平台，XXL社区开源。
 
 <h2 id="distributed-tracing">分布式追踪</h2>
 
@@ -946,7 +948,6 @@
 * [InfluxDB Metrics](https://github.com/davidB/metrics-influxdb)：向InfluxDB服务器公布度量结果的指标报告器。
 * [ElasticSearch Metrics](https://github.com/elastic/elasticsearch-metrics-reporter-java)：向ElasticSearch服务器公布度量结果的指标报告器
 * [Hawkular](https://github.com/hawkular/hawkular-metrics)：基于Cassandra的时序指标引擎。
-* [Spf4j](https://github.com/zolyfarkas/spf4j)：Java的简单性能框架。
 * [Jmxtrans](https://github.com/jmxtrans/jmxtrans-agent)：基于Java代理的JMX指标导出器。
 
 <h2 id="registry">注册中心</h2>
@@ -1001,32 +1002,32 @@
 
 <h2 id="profiler">诊断工具</h2>
 
-* [VisualVM](https://github.com/oracle/visualvm)：VisualVM是一款一体化Java故障排除工具。
+* [VisualVM](https://github.com/oracle/visualvm)：VisualVM是一款一体化Java故障排除工具，Oracle开源。
 * [Arthas](https://arthas.aliyun.com/)：阿里巴巴开源的Java诊断工具。
-* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：商业分析器。
-* [YourKit](https://www.yourkit.com/features/)：商业分析器。
+* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：JProfiler是一个商业授权的Java剖析工具，用于分析Java EE和Java SE应用程序。
+* [YourKit](https://www.yourkit.com/features/)：业界领先的Java剖析工具。
 * [AppDynamics](https://www.appdynamics.com/)：服务性能监控/管理工具。
-* [Async-Profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
-* [JVM-Profiler](https://github.com/uber-common/jvm-profiler)：可以将指标发送到Kafka、控制台输出或自定义报告器的JVM Profiler，由Uber开源。
+* [Async Profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
+* [JVM Profiler](https://github.com/uber-common/jvm-profiler)：可以将指标发送到Kafka、控制台输出或自定义报告器的JVM Profiler，由Uber开源。
 * [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
 * [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：Apache NetBeans的内置分析器。
-* [Greys](https://github.com/oldmanpushcart/greys-anatomy)：国产Java诊断工具。
+* [Greys](https://github.com/oldmanpushcart/greys-anatomy)：国产Java线上问题诊断工具。
 * [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿网开源的Java应用生产问题诊断工具，提供了一站式的问题诊断方案。
 * [Mission Control](https://github.com/openjdk/jmc)：Oracle开源的一个生产时间分析和诊断工具套件。
-* [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler)：没有安全点样本偏差的JVM采样分析器。
-* [statsd-jvm-profiler](https://github.com/etsy/statsd-jvm-profiler)：使用StatsD和其他指标后端的简单JVM分析器。
+* [Honest Profiler](https://github.com/jvm-profiling-tools/honest-profiler)：没有安全点样本偏差的JVM采样分析器。
+* [Statsd JVM Profiler](https://github.com/etsy/statsd-jvm-profiler)：使用StatsD和其他指标后端的简单JVM分析器。
 * [SJK](https://github.com/aragozin/jvm-tools)：SJK是一个用于JVM诊断、故障排除和分析的命令行工具。
-* [MyPerf4J](https://github.com/LinShunKang/MyPerf4J)：一个针对高并发、低延迟应用设计的高性能Java性能监控和统计工具。
 * [Jvmtop](https://github.com/patric-r/jvmtop)：Java命令行监控工具，包括分析器。
 * [GCeasy](https://gceasy.io/)：非常好用的在线分析GC日志的工具。
 * [Aprof](https://github.com/devexperts/aprof)：Java内存分配分析器。
 * [Sniffy](https://github.com/sniffy/sniffy)：Java的交互式分析器、测试和混沌工程工具。
+* [Spf4j](https://github.com/zolyfarkas/spf4j)：Java的简单性能框架。
 * [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
 * [Automon](https://github.com/stevensouza/automon)：Automon将AOP(AspectJ)的强大功能与已使用的监视或日志记录工具相结合，以声明方式监视Java代码、JDK和第三方库。
 * [Eclipse Jifa](https://github.com/eclipse/jifa)：Eclipse Jifa是一个开源的Web端软件，用于更好地排除Java应用程序中出现的常见问题。
 * [LeakCanary](https://github.com/square/leakcanary)：适用于Android和Java的内存泄漏检测库。
 * [XRebel](https://www.jrebel.com/products/xrebel)：用于Java Web应用程序的商业分析器。
-* [New Relic](https://newrelic.com/)：商业性能监视器。
+* [New Relic](https://newrelic.com/)：功能强大的服务器性能监控工具。
 * [SPM](https://sematext.com/spm/)：商业性能监视器，可为JVM应用程序提供分布式事务跟踪。
 
 <h2 id="performance">性能分析</h2>
