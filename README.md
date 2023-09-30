@@ -24,6 +24,7 @@
 - [Selenium生态](#selenium)
 - [自动化框架](#automation-framework)
 - [自动化工具](#automation-tool)
+- [多线程测试](#test-thread)
 - [其他测试库](#test-lib)
 - [代码覆盖率](#coverage)
 - [构建工具](#build)
@@ -56,7 +57,7 @@
 - [分布式组件](#distributed)
 - [分布式锁](#distributed-lock)
 - [分布式事务](#transaction)
-- [分布式ID生成器](#distributed-id-generator)
+- [ID生成器](#distributed-id-generator)
 - [搜索引擎](#search-engine)
 - [图数据库](#graph-db)
 - [嵌入式数据库](#embedded-db)
@@ -110,6 +111,7 @@
 - [基因组学](#genomics)
 - [医疗平台](#medical)
 - [并发编程](#concurrency)
+- [Actor模型](#actor)
 - [安全库](#security-lib)
 - [身份认证](#authentication)
 - [JWT](#jwt)
@@ -611,13 +613,22 @@
 * [AppiumTestDistribution](https://github.com/AppiumTestDistribution/AppiumTestDistribution)：一个用于跨设备并行运行Android和iOS Appium测试的工具。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
 
+<h4 id="test-thread">多线程测试</h4>
+
+* [Awaitility](https://github.com/awaitility/awaitility)：用于测试异步代码的库。
+* [Vmlens](https://github.com/vmlens/vmlens)：在JVM上对多线程应用程序进行单元测试变得容易。
+* [Thread Weaver](https://github.com/google/thread-weaver)：用于测试多线程代码的Java框架，由Google开源。
+* [Java Concurrency Stress](https://github.com/openjdk/jcstress)：jcstress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性。
+* [MultithreadedTC](https://code.google.com/archive/p/multithreadedtc/)：用于测试并发Java应用程序的框架，由Google开源。
+* [ConcurrentUnit](https://github.com/jhalterman/concurrentunit)：一个简单的、零依赖的工具包，用于测试多线程代码。
+* [Tempus Fugit](https://github.com/tobyweston/tempus-fugit)：用于编写和测试并发代码的库。
+
 <h4 id="test-lib">其他测试库</h4>
 
 * [Testcontainers](https://github.com/testcontainers/testcontainers-java)：一个用于在测试中启动Docker容器的库。
 * [Rest Assured](https://github.com/rest-assured/rest-assured)：一个用于测试REST API的库。
 * [ArchUnit](https://github.com/TNG/ArchUnit)：Java架构测试库，用于以纯Java指定和断言架构规则。
 * [Pitest](https://github.com/hcoles/pitest)：最先进的JVM突变测试库。
-* [Awaitility](https://github.com/awaitility/awaitility)：用于测试异步代码的库。
 * [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：用于在单元测试中比较JSON的库。
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：EqualsVerifier可用于Java单元测试来验证equals和hashCode方法的约定是否得到满足。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：可以自动生成包括边缘情况的测试实例，由Naver开源。
@@ -637,7 +648,6 @@
 * [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
 * [Proctor](https://github.com/indeedeng/proctor)：Proctor是一个基于Java的A/B测试框架，由Indeed开发并大量使用。
 * [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
-* [MultithreadedTC](https://code.google.com/archive/p/multithreadedtc/)：用于测试并发Java应用程序的框架，由Google开源。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
 * [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
@@ -652,7 +662,6 @@
 * [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz是一组用于测试shader编译器的工具，由Google开源。
 * [Firing Range](https://github.com/google/firing-range)：Firing Range是Web应用程序安全扫描器的测试台，为一系列漏洞提供综合、广泛的覆盖，由Google开源。
 * [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer)：Jazzer是由Code Intelligence开发的适用于JVM平台的覆盖率引导的进程内模糊器。它基于libFuzzer，并将许多由仪器驱动的突变功能引入JVM。
-* [ConcurrentUnit](https://github.com/jhalterman/concurrentunit)：一个简单的、零依赖的工具包，用于测试多线程代码。
 * [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector)：报告给定类的实例是否是不可变。
 
 <h2 id="coverage">代码覆盖率</h2>
@@ -795,6 +804,7 @@
 * [BugCatcher](https://github.com/youzan/bugCatcher)：方便产品、开发、测试三方协同管理、测试、监控项目进度和质量，以持续交付，有赞开源。
 * [Kayenta](https://github.com/spinnaker/kayenta)：Kayenta是一个自动金丝雀分析(ACA)平台。
 * [Semver4j](https://github.com/vdurmont/semver4j)：Semver4j是一个处理版本的轻量级Java库，它遵循语义版本控制规范的规则，提供多种版本控制模式。
+* [Apache Yetus](https://github.com/apache/yetus)：Apache Yetus是一个库和工具的集合，支持软件项目的贡献和发布过程。
 
 <h2 id="cloud-native">云原生</h2>
 
@@ -1124,6 +1134,7 @@
 * [Apache ORC](https://github.com/apache/orc)：ORC是一种自描述、类型感知的列式文件格式，专为Hadoop工作负载而设计。它针对大型流读取进行了优化，但具有快速查找所需行的集成支持，由Hortonworks和Facebook联合开发。
 * [Kettle](https://github.com/pentaho/pentaho-kettle)：一款开源的ETL工具，可以用它来对数据进行抽取、清洗和转换操作，主作者是Matt Casters。
 * [Secor](https://github.com/pinterest/secor)：Secor是一项将Kafka日志持久保存到Amazon S3、Google Cloud Storage、Microsoft Azure Blob Storage和Openstack Swift的服务，由Pinterest开源。
+* [Oak](https://github.com/yahoo/Oak)：用于大数据分析的可扩展并发键值映射，Yahoo开源。
 * [DataBand](https://gitee.com/475660/databand)：轻量级一站式大数据分析平台。
 * [Big Whale](https://gitee.com/meetyoucrop/big-whale)：巨鲸任务调度平台为美柚大数据研发的分布式计算任务调度系统，提供Spark、Flink等批处理任务的DAG调度和流处理任务的运行管理和状态监控，并具有Yarn应用管理、重复应用检测、大内存应用检测等功能。
 * [DataCap](https://github.com/devlive-community/datacap)：DataCap是用于数据转换、集成和可视化的集成软件。
@@ -1213,11 +1224,10 @@
 * [JeroMQ](https://github.com/zeromq/jeromq)：ZeroMQ的Java版本。
 * [DDMQ](https://github.com/didi/DDMQ)：DDMQ是滴滴基础设施团队基于Apache RocketMQ打造的分布式消息产品。
 * [JGroups](https://github.com/belaban/JGroups)：JGroups是一个集群库，允许成员交换消息。
-* [Chronicle-Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架。
+* [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架。
 * [JoyQueue](https://github.com/chubaostream/joyqueue)：具有高性能的云原生生产质量消息传递平台。
 * [HornetQ](https://github.com/hornetq/hornetq)：HornetQ是一个开源项目，用于构建多协议、可嵌入、高性能、集群、异步消息传递系统。
 * [XXL-MQ](https://github.com/xuxueli/xxl-mq)：由XXL开源的分布式消息队列。
-* [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
 * [Aeron](https://github.com/real-logic/Aeron)：高效可靠的UDP单播、UDP组播和IPC消息传输。
 * [Metamorphosis](https://github.com/killme2008/Metamorphosis)：一个高可用、高性能的分布式消息系统，由淘宝开源。
 * [Openfire](https://github.com/igniterealtime/Openfire)：开源XMPP服务器。
@@ -1225,7 +1235,6 @@
 * [Eclipse OpenMQ](https://github.com/eclipse-ee4j/openmq)：JMS规范实现。
 * [Hermes](https://github.com/allegro/hermes)：构建在Kafka之上的快速可靠的消息代理。
 * [Apache Qpid](http://qpid.apache.org/)：AMQP企业消息传递实现。
-* [Apache Synapse](https://github.com/apache/synapse)：Apache Synapse是一种轻量级高性能企业服务总线(ESB)。
 
 <h2 id="kafka-tool">Kafka生态</h2>
 
@@ -1263,9 +1272,7 @@
 * [TAPIR](https://github.com/UWSysLab/tapir)：分布式事务存储系统。
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
 * [Dynein](https://github.com/airbnb/dynein)：Dynein是Airbnb开源的分布式延迟作业排队系统。
-* [kontraktor](https://github.com/RuedigerMoeller/kontraktor)：由分布式Actor模型提供支持的异步远程通信的无样板且一致的抽象。
 * [TuGraph-analytics](https://github.com/TuGraph-family/tugraph-analytics)：TuGraph-analytics是一个基于图模型的分布式流式计算引擎，由蚂蚁开源。
-* [Stubby4j](https://github.com/azagniotov/stubby4j)：HTTP/1.1、HTTP/2和WebSocket存根服务器，用于在Docker和非容器化环境中存根分布式Web服务以进行契约测试。
 * [Concourse](https://github.com/cinchapi/concourse)：用于跨时间交易、搜索和分析的分布式数据库仓库。
 * [Rewrite](https://github.com/openrewrite/rewrite)：OpenRewrite项目是一个海量源代码重构生态系统，由Netflix开源。
 * [Apache Fluo](https://github.com/apache/fluo)：Apache Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，Google Percolator的开源实现。
@@ -1278,7 +1285,6 @@
 * [Emissary](https://github.com/NationalSecurityAgency/emissary)：Emissary是一种基于P2P的数据驱动工作流引擎，运行在异构的、可能广泛分散的多层P2P计算资源网络中，由美国国家安全局开源。
 * [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式。
-* [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务编排和高可用性的一站式的分布式任务调度系统，由dromara社区开源。
 * [Ambry](https://github.com/linkedin/ambry)：Ambry是一个分布式对象存储，支持存储数万亿个小型不可变对象(50K-100K)以及数十亿个大型对象，由LinkedIn开发。
 * [Dempsy](https://github.com/Dempsy/dempsy)：分布式弹性消息处理系统。
 * [Shuttle](https://github.com/cubefs/shuttle)：Shuttle提供远程shuffle功能，可以按分区将shuffle数据分组并转储到分布式文件系统中，由Vivo大数据团队开源。
@@ -1318,9 +1324,9 @@
 * [Raincat](https://github.com/dromara/raincat)：强一致分布式事务框架，由dromara社区开源。
 * [Scalardb](https://github.com/scalar-labs/scalardb)：通用事务管理器。
 * [ByteJTA](https://github.com/liuyangming/ByteJTA)：ByteJTA是一个基于XA/2PC机制的分布式事务管理器，它与JTA规范兼容。
-* [Myth](https://gitee.com/dromara/myth)：采用消息队列解决分布式事务的开源框架，由dromara社区开源。
+* [Myth](https://github.com/dromara/myth)：采用消息队列解决分布式事务的开源框架，由dromara社区开源。
 
-<h2 id="distributed-id-generator">分布式ID生成器</h2>
+<h2 id="distributed-id-generator">ID生成器</h2>
 
 * [Leaf](https://github.com/Meituan-Dianping/Leaf)：分布式ID生成服务，由美团开源。
 * [Tinyid](https://github.com/didi/tinyid)：简单易用、高性能、高可用的分布式ID生成系统，由滴滴开源。
@@ -1461,6 +1467,7 @@
 * [Consul](https://github.com/Ecwid/consul-api)：Consul的Java客户端。
 * [Grafana OpenTelemetry Starter](https://github.com/grafana/grafana-opentelemetry-starter)：用于OpenTelemetry的Spring Boot Starter。
 * [Sentry SDK](https://github.com/getsentry/sentry-java/)：适用于Java、Android和其他JVM语言的Sentry SDK。
+* [TarsJava](https://github.com/TarsCloud/TarsJava)：Java语言框架RPC源码实现，在Tars基金会下开源。
 * [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
 
 <h2 id="httpclient">HTTP客户端库</h2>
@@ -1476,7 +1483,6 @@
 * [Google HTTP Client](https://github.com/googleapis/google-http-java-client)：Google开发的适用于Java的HTTP客户端库。
 * [HttpClientUtil](https://github.com/Arronlong/httpclientutil)：基于HttpClient 4.4.1封装的工具类。
 * [Http Request](https://github.com/kevinsawicki/http-request)：一个简单的便利库，用于使用HttpURLConnection发出请求并访问响应。
-* [rest-client](https://github.com/wisdom-projects/rest-client)：自动化测试REST API的工具，可以生成精美的测试报告和REST API文档。
 * [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：基于HTTP协议，封装了OkHttp的网络请求框架，比Retrofit更简单易用。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
@@ -1508,20 +1514,16 @@
 * [Pigeon](https://github.com/dianping/pigeon)：大众点评开源的RPC框架。
 * [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个由Facebook开源的轻量级、独立于语言的软件堆栈，用于点对点RPC实现的框架。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
-* [DeFiBus](https://gitee.com/WeBank/DeFiBus)：由微众银行开源的分布式金融级消息总线，提供了RPC同步调用、MQ的异步事件通知、事件组播和广播等常用服务调用和消息模式。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
 * [TChannel](https://github.com/uber/tchannel-java)：TChannel协议的Java实现，由Uber开源。
-* [TarsJava](https://github.com/TarsCloud/TarsJava)：Java语言框架RPC源码实现，在Tars基金会下开源。
 * [Hessian](http://hessian.caucho.com/)：Hessian是一种基于HTTP协议的二进制序列化框架，它可以用于快速、简单地实现远程方法调用。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Starlight](https://github.com/baidu/starlight)：百度RPC、多协议、高性能RPC的Java实现。
 * [NettyRpc](https://github.com/luxiaoxun/NettyRpc)：一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [Koalas](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用可拓展的RPC框架。
 * [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL社区开源的国产高性能、分布式RPC框架。
-* [Wire](https://github.com/square/wire)：适用于Android、Kotlin、Swift和Java的gRPC和协议缓冲区。
 * [Armeria](https://github.com/line/armeria)：可以利用不同技术构建任何类型微服务的框架，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Stream、Spring Boot和Dropwizard，由Line开源。
 * [RPC-Framework](https://github.com/Snailclimb/guide-rpc-framework)：一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
-* [NFS4J](https://github.com/dCache/nfs4j)：NFS服务器版本3、4.0和4.1的纯Java实现，包括带有nfs4.1-files和flex-files布局类型的pNFS扩展。
 * [JoyRPC](https://github.com/joyrpc/joyrpc)：高性能、高扩展性的Java RPC框架。
 * [Thunder](https://github.com/Nepxion/Thunder)：多协议、多组件、多序列化的分布式RPC调用框架，由Nepxion开源。
 * [ONCRPC4J](https://github.com/dCache/oncrpc4j)：ONCRPC/SUNRPC的纯Java实现。
@@ -1559,32 +1561,28 @@
 * [Netty](https://github.com/netty/netty)：事件驱动的异步网络应用框架。
 * [Apache Tomcat](https://github.com/apache/tomcat)：Apache Tomcat是Java Servlet、JavaServer Pages、Java EL和Java WebSocket技术的开源实现。
 * [Apache TomEE](https://github.com/apache/tomee)：一个轻量级但功能强大的Java EE应用服务器，具有功能丰富的工具。
-* [Helidon Nima](https://github.com/helidon-io/helidon/tree/helidon-3.x/webserver)：基于JDK虚拟线程的轻量级Web服务器。
+* [Helidon Nima](https://github.com/helidon-io/helidon/tree/helidon-3.x/webserver)：基于JDK虚拟线程的轻量级Web服务器，Oracle开源。
 * [Undertow](https://github.com/undertow-io/undertow)：高性能非阻塞Web服务器。
 * [Wildfly](https://github.com/wildfly/wildfly)：WildFly应用服务器。
 * [Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle的商业应用服务器。
-* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，由IBM提供。
 * [Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
 * [Glassfish](https://github.com/eclipse-ee4j/glassfish)：Eclipse基金会下开源的Jakarta服务器。
-* [Payara](https://github.com/payara/Payara)：Payara Server是一个开源中间件平台，支持在本地、云端或混合环境中可靠、安全地部署Java EE(Jakarta EE)和MicroProfile应用程序。
-* [Apache Geronimo](https://geronimo.apache.org/)：Apache基金会下开源的Java EE服务器。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：快速、可扩展、独立、单线程Java Web服务器。
 * [Apache MINA](https://github.com/apache/mina)：Apache MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
-* [ZIO](https://github.com/zio/zio)：一个类型安全、可组合的库，用于Scala中的异步和并发编程。
-* [zfoo](https://github.com/zfoo-project/zfoo)：极致性能的Java服务器框架，RPC，游戏服务器框架，Web应用服务器框架。
+* [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，是一个非常流行的支持Servlet和JSP的服务器。
+* [ZFoo](https://github.com/zfoo-project/zfoo)：极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，并提供扩展框架组件。
-* [Reactor-Netty](https://github.com/reactor/reactor-netty)：TCP/HTTP/UDP/QUIC客户端/服务器，使用基于Netty的Reactor。
+* [Reactor-Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
 * [Nettosphere](https://github.com/Atmosphere/nettosphere)：基于Atmosphere和Netty框架的Java WebSocket/HTTP服务器。
 * [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：微型、可轻松嵌入Java中的HTTP服务器。
 * [Java NIO Server](https://github.com/jjenkov/java-nio-server)：一个始终使用非阻塞IO的Java NIO服务器。
 * [AndServer](https://github.com/yanzhenjie/AndServer)：Android平台的Web服务器和Web框架。
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：极其快速、简单且功能强大的Java Web框架和HTTP服务器。
-* [REST Commander](https://github.com/eBay/restcommander)：快速并行异步HTTP客户端即服务，用于监控和管理10000个Web服务器，由eBay开发。
-* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：套接字服务器(包括SSL)支持TCP、UDP和Websocket的实时应用程序、实时游戏、MMORPG、消息传递、聊天和流数据。
 * [Para](https://github.com/Erudika/para)：用于快速构建Web和移动应用程序的多租户后端服务器。
-* [Methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
 * [Nginx-Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是基于Ring的处理程序。
+* [Jibble](http://www.jibble.org/miniwebserver/)：这是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
 
 <h2 id="websocket">WebSocket</h2>
 
@@ -1592,26 +1590,29 @@
 * [Scarlet](https://github.com/Tinder/Scarlet)：受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：适用于Java的异步HTTP和WebSocket客户端库。
-* [NV-Websocket-Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
+* [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
 * [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
 * [Kafka-WebSocket](https://github.com/b/kafka-websocket)：Kafka-WebSocket是kafka分布式消息代理的简单WebSocket服务器接口。
 * [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
-* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的 Pusher Channels客户端库，面向Java和Android。
+* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：套接字服务器(包括SSL)支持TCP、UDP和Websocket的实时应用程序、实时游戏、MMORPG、消息传递、聊天和流数据。
+* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的Pusher Channels客户端库，面向Java和Android。
 * [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
-* [Netty-Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
+* [Netty Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
 * [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
 * [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
 * [Webbit](https://github.com/webbit/webbit)：基于Java事件的WebSocket和HTTP服务器。
+* [Stubby4j](https://github.com/azagniotov/stubby4j)：HTTP/1.1、HTTP/2和WebSocket存根服务器，用于在Docker和非容器化环境中存根分布式Web服务以进行契约测试。
+* [Autobahn](https://github.com/crossbario/autobahn-java)：适用于Android和Java 8的Java中的WebSocket和WAMP。
 
 <h2 id="gameserver">游戏服务器</h2>
 
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：使用Netty 4.X实现的手机游戏分布式服务器,支持TCP、UDP、HTTP、WebSocket链接。
 * [Jetserver](https://github.com/menacher/java-game-server)：Jetserver是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [Game-Server](https://github.com/jzyong/game-server)：分布式Java游戏服务器，包括集群管理服务器、网关服务器、大厅服务器、游戏逻辑服务器。
+* [Game Server](https://github.com/jzyong/game-server)：分布式Java游戏服务器，包括集群管理服务器、网关服务器、大厅服务器、游戏逻辑服务器。
 * [Summer](https://github.com/SwingFrog/Summer)：轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
 * [Mmorpg](https://github.com/kingston-csj/mmorpg)：用Java编写的分布式高性能mmorpg手游服务端框架。
-* [Everwar](https://github.com/geektcp/everwar)：魔兽世界完整的服务端源码版本。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
+* [ZFoo](https://github.com/zfoo-project/zfoo)：极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [ioGame](https://gitee.com/game-town/ioGame)：无锁异步化、事件驱动架构设计的Java Netty网络游戏服务器框架。
 * [Socket.IO](https://github.com/scalecube/socketio)：基于Netty的Socket.IO Java服务器，为了满足游戏性能要求而创建的。
 * [Apollo](https://github.com/apollo-rsps/apollo)：一个开源Java游戏服务器套件，旨在轻量、快速且安全。
@@ -1631,10 +1632,13 @@
 * [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty + TCP + Protobuf实现的Android IM库。
 * [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
 * [InChat](https://github.com/AwakenCN/InChat)：一个轻量级、高效、分布式的异步通信框架, 支持聊天和物联网。
-* [Camellia](https://github.com/netease-im/camellia)：Camellia是网易云信开发的服务器基础组件。
 * [Smack](https://github.com/igniterealtime/Smack)：用Java编写的模块化、可移植的开源XMPP客户端库，适用于Android和Java。
 * [J-IM](https://gitee.com/xchao/j-im)：J-IM是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
 * [CIM](https://gitee.com/farsunset/cim)：CIM是一套基于Netty框架下的推送系统。
+* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP + TCP + WebSocket三种协议。
+* [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
+* [云信IM](https://github.com/netease-kit/nim-uikit-android)：基于网易云信IM SDK开发的一款即时通讯UI组件库，包括聊天、会话、圈组、搜索、群管理等组件。
+* [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
 
 <h2 id="jakartaee">JakartaEE产品</h2>
 
@@ -1686,7 +1690,16 @@
 * [xUtils](https://github.com/wyouflf/xUtils3)：xUtils包含了ORM、HTTP、图片处理等工具类。
 * [LogiCommon](https://github.com/didi/LogiCommon)：认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
 * [TypeTools](https://github.com/jhalterman/typetools)：一个用于处理类型的简单、零依赖库，支持 Java 1.6+和Android。
-* [Apache Commons BSF](https://github.com/apache/commons-bsf)：BSF是一组Java类，它在Java应用程序中提供脚本语言支持，并通过脚本语言访问Java对象和方法。
+* [Camellia](https://github.com/netease-im/camellia)：Camellia是网易云信开发的服务器基础组件库。
+* [CommonUtil](https://github.com/LJWLgl/CommonUtil)：轻便简单的Java常用工具类库。
+* [Shawn Common Utils](https://github.com/shawntime/shawn-common-utils)：Java整理的基础工具类项目。
+* [Netflix Commons](https://github.com/Netflix/netflix-commons)：Netflix OSS项目的常用实用程序。
+* [Confluent Commons](https://github.com/confluentinc/common)：Confluent开源的包含指标、配置和工具类的通用库。
+* [BankCardUtils](https://github.com/nanchen2251/BankCardUtils)：根据银行卡号获取银行卡类型、银行名称和银行编码，自动格式化银行卡号、手机号、身份证号输入的工具类。
+* [LinkedIn Utils](https://github.com/LinkedInAttic/linkedin-utils)：所有Linkedin开源项目共享的基础实用程序。
+* [Java Util](https://github.com/metamx/java-util)：Metamarkets开源的Java和基于JVM的语言的实用程序代码。
+* [Jodd Util](https://github.com/oblac/jodd-util)：包含基本的Java实用程序类。
+* [Triava](https://github.com/trivago/triava)：Triava项目包含几个trivago的基于Java项目的核心库：缓存、集合、注解、并发库等等。
 
 <h2 id="di">依赖注入</h2>
 
@@ -1718,7 +1731,7 @@
 * [FastAop](https://github.com/fast-light/fastaop)：基于Java注解处理的轻量级高性能AOP框架，类似于Lombok。
 * [Alliance](https://aopalliance.sourceforge.net/)：Alliance项目是几个对AOP和Java感兴趣的软件工程人员联合发起的开源项目。
 * [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架，饿了么开源。
-* [jcabi-aspects](https://github.com/jcabi/jcabi-aspects)：AspectJ Java切面的集合，促进面向切面的编程模式：日志记录、缓存、验证等。
+* [Jcabi Aspects](https://github.com/jcabi/jcabi-aspects)：AspectJ Java切面的集合，促进面向切面的编程模式：日志记录、缓存、验证等。
 * [Eclipse AspectJ](https://github.com/eclipse-aspectj/aspectj)：Java编程语言的无缝面向切面扩展。
 
 <h2 id="log">日志库</h2>
@@ -1799,6 +1812,7 @@
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
 * [Chronus](https://github.com/360digitech/chronus)：Chronus是360金融技术团队基于阿里开源项目TBSchedule进行重写的分布式调度平台。
 * [Earth-Frost](https://gitee.com/justlive1/earth-frost)：只依赖Redis的分布式任务调度实现版本。
+* [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务编排和高可用性的一站式的分布式任务调度系统，由dromara社区开源。
 
 <h2 id="configuration">配置库</h2>
 
@@ -1812,7 +1826,6 @@
 * [CentralDogma](https://github.com/line/centraldogma)：Central Dogma是一个基于Git、ZooKeeper和HTTP/2的开源、高可用、版本控制的服务配置存储库，由Line开源。
 * [XXL-Conf](https://github.com/xuxueli/xxl-conf)：轻量级分布式配置管理平台。
 * [QConfig](https://github.com/qunarcorp/qconfig)：去哪儿开发的配置中心，提供高可用的配置托管/动态热更新服务，具备丰富的格式支持和简单易用的API。
-* [Spring-Fu](https://github.com/spring-projects-experimental/spring-fu)：Spring Fu是JaFu(Java DSL)和KoFu(Kotlin DSL)的孵化器，旨在以声明性方式使用代码显式配置Spring Boot。
 * [Apache Commons Configuration](https://github.com/apache/commons-configuration)：协助读取各种格式的配置/首选项文件的工具。
 * [NightConfig](https://github.com/TheElectronWill/night-config)：强大的Java配置库，适用于Toml、Yaml、Hocon、Json和内存配置。
 * [Archaius](https://github.com/Netflix/archaius)：Archaius是一个配置库，用于将静态和动态配置的混合作为单个配置单元进行访问，由Netflix开源。
@@ -1820,7 +1833,6 @@
 * [Configurate](https://github.com/SpongePowered/Configurate)：一个简单的Java应用程序配置库，提供节点结构、多种格式和转换工具。
 * [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
 * [Directories](https://github.com/dirs-dev/directories-jvm)：一个提供配置/缓存/数据路径的小型库，遵循Linux、macOS、BSD和Windows上的相应约定。
-* [Apache Yetus](https://github.com/apache/yetus)：Apache Yetus是一个库和工具的集合，支持软件项目的贡献和发布过程。
 * [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的JVM配置库，由Accenture开源。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
 * [OWNER](https://github.com/matteobaccan/owner)：可以最大限度地减少通过Java属性文件处理应用程序配置所需的代码。
@@ -2099,6 +2111,7 @@
 * [Lambda-Factory](https://github.com/Hervian/lambda-factory)：lambda-factory是一个Java实用程序项目，提供了基于反射的方法调用的快速替代方案。
 * [Mirror](http://projetos.vidageek.net/mirror/mirror/)：Mirror的创建是为了解决一个简单的问题，通常命名为ReflectionUtil，它几乎适用于所有依赖反射来完成高级任务的项目。
 * [Jandex](https://github.com/smallrye/jandex)：Jandex是一个节省空间的Java类文件索引器和离线反射库。
+* [Reflection Util](https://github.com/cronn/reflection-util)：简化Java反射常见用例的实用程序类。
 
 <h2 id="miscellaneous">杂项</h2>
 
@@ -2445,30 +2458,44 @@
 * [Quasar](https://github.com/puniverse/quasar)：JVM上的Fiber、Channel和Actor实现。
 * [JCTools](https://github.com/JCTools/JCTools)：用于JVM的Java并发工具，该项目旨在提供JDK目前缺少的一些并发数据结构。
 * [AsyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：京东开源的多线程编排一站式解决方案。
-* [Thread Weaver](https://github.com/google/thread-weaver)：用于测试多线程代码的Java框架。
 * [Kilim](https://github.com/kilim/kilim)：Java的轻量级线程，具有消息传递、NIO、HTTP和调度支持。
-* [EA-Async](https://github.com/electronicarts/ea-async)：EA-Async在JVM中实现Async-Await方法，它允许程序员以顺序方式编写异步代码。
+* [EA-Async](https://github.com/electronicarts/ea-async)：EA-Async在JVM中实现Async-Await方法，它允许程序员以顺序方式编写异步代码，艺电开源。
+* [ZIO](https://github.com/zio/zio)：一个类型安全、可组合的库，用于Scala中的异步和并发编程。
 * [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：提供了一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
-* [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap。
+* [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap库。
 * [Trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotity开源。
 * [Loom](https://github.com/openjdk/loom)：JDK实现的虚拟线程、结构化并发项目。
-* [Java Concurrency Stress](https://github.com/openjdk/jcstress)：jcstress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性。
-* [JCommon](https://github.com/facebookarchive/jcommon)：并发、集合、统计/分析、配置、测试等，由Facebook开发。
 * [JDeferred](https://github.com/jdeferred/jdeferred)：JDeferred是一个小型Java库(也支持Groovy)，用于实现异步拓扑，而无需编写样板代码。
 * [Coroutines](https://github.com/esoco/coroutines)：协作并发的纯Java实现，又名协程。
+* [Concurrentli](https://github.com/linkedin/concurrentli)：扩展了java.util.concurrent，为多线程Java程序增加了便利性、效率和新工具，LinkedIn开源。
 * [Menagerie](https://github.com/sfines/menagerie)：基于ZooKeeper的Java并发库。
 * [Thread Affinity](https://github.com/OpenHFT/Java-Thread-Affinity)：该库允许你将线程绑定到给定核心，这可以提高性能(在Linux上运行最佳)。
 * [Tascalate Concurrent](https://github.com/vsilaev/tascalate-concurrent)：阻塞可取消java.util.concurrent.CompletionStage的实现以及java.util.concurrent.ExecutorService的相关扩展。
 * [Coroutines](https://github.com/offbynull/coroutines)：允许编写协程的Java工具包。
 * [Completable Futures](https://github.com/spotify/completable-futures)：Java 8中处理Future的实用程序，由Spotify开源。
 * [DynamicTp](https://github.com/dromara/dynamic-tp)：基于配置中心的轻量级动态线程池，内置监控告警功能，集成常用中间件线程池管理，可通过SPI自定义扩展实现，由dromara社区开源。
+* [Async Util](https://github.com/IBM/java-async-util)：提供异步协调工具，包括CompletionStages的迭代生产/消费和非阻塞异步互斥支持由IBM开源。
 * [TaskManager](https://github.com/iqiyi/TaskManager)：一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
 * [Hippo4j](https://github.com/opengoofy/hippo4j)：国产异步线程池框架，支持线程池动态变更、监控、报警。
 * [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：多线程并发编程框架，由dromara社区开源。
 * [Fact-Async](https://gitee.com/china2010pan/fact-async)：Fact-Async是一个基于Spring的异步并行框架。
-* [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个框架，可以更轻松地用Java编写异步代码。
+* [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个框架，可以更轻松地用Java编写异步代码，LinkedIn开源。
 * [Threadly](https://github.com/threadly/threadly)：协助安全并发Java开发的工具库，提供独特的基于优先级的线程池，以及安全分配线程工作的方法。
 * [Conditional](https://github.com/line/conditional)：一个超轻量级库，可帮助你组合多个条件表达式并使它们轻松异步，由Line开源。
+* [CompletableFuture Fu](https://github.com/foldright/cffu)：CompletableFuture辅助增强库。
+* [BascomTask](https://github.com/eBay/bascomtask)：Java的轻量级、低摩擦进程内并行任务管理，eBay开源。
+* [Tascalate Async Await](https://github.com/vsilaev/tascalate-async-await)：Java版本8到17的Async/Await异步编程模型。
+
+<h2 id="actor">Actor模型</h2>
+
+* [Fibry](https://github.com/lucav76/Fibry)：第一个支持Project Loom协程的Java Actor系统。
+* [XOOM Actor](https://github.com/vlingo/xoom-actors)：用于类型安全Actor模型的VLINGO XOOM平台SDK，使用Java和其他JVM语言提供响应式并发、高可扩展性、高吞吐量和弹性。
+* [JActor](https://github.com/laforge49/JActor)：Java的Actor库。
+* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
+* [Kontraktor](https://github.com/RuedigerMoeller/kontraktor)：由分布式Actor模型提供支持的异步远程通信的无样板且一致的抽象。
+* [Actr](https://github.com/zakgof/actr)：简单、快速且类型安全的Java Actor模型实现。
+* [Ptolemy II](https://github.com/icyphy/ptII)：Ptolemy II由一组支持异构并发建模和设计的Java包组成。
+* [ReActed](https://github.com/reacted-io/reacted)：基于Actor的响应式Java框架，用于本地和分布式环境中的微服务。
 
 <h2 id="security">安全</h2>
 
@@ -3351,6 +3378,7 @@
 * [Stormpot](https://github.com/chrisvest/stormpot)：JVM的快速对象池。
 * [Apache Commons Pool](https://github.com/apache/commons-pool)：Apache Commons对象池库。
 * [Fast Object Pool](https://github.com/DanielYWoo/fast-object-pool)：一个针对并发访问进行优化的轻量级高性能对象池，你可以使用它来池化昂贵且非线程安全的对象，例如Thrift客户端等。
+* [Vibur Object Pool](https://github.com/vibur/vibur-object-pool)：一个通用并发Java对象池，完全使用标准Java并发实用程序构建，不使用任何同步块或方法，并且没有任何外部依赖项。
 
 <h2 id="cqrs">CQRS框架</h2>
 
@@ -3929,11 +3957,13 @@
 * [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
 * [networkanalysis](https://github.com/CWTSLeiden/networkanalysis)：提供了用于网络分析的算法和数据结构，专注于网络的聚类(或社区检测)和布局(或映射)。
 * [Time-Utilities](https://github.com/Breinify/brein-time-utilities)：包含多个时间相关数据和索引结构(例如IntervalTree、BucketTimeSeries)以及算法的库。
+* [Lin-Check](https://github.com/devexperts/lin-check)：Lin-Check是一个用于测试并发数据结构正确性的框架，Devexperts开源。
 * [Funcj](https://github.com/typemeta/funcj)：用于Java的面向函数的数据结构、算法和库的集合。
 * [Athena](https://github.com/sanity/Athena)：支持任意布尔查询的高效内存数据结构。
 * [KVStore](https://github.com/ggrandes/kvstore)：KVStore是一个基于B+Tree的Java内存和磁盘键值存储。
 * [RTree](https://github.com/davidmoten/rtree)：使用响应式API在Java中实现不可变的内存中R树和R*树。
 * [Agrona](https://github.com/real-logic/Agrona)：Java的高性能数据结构和实用方法。
+* [Concurrent Trees](https://github.com/npgall/concurrent-trees)：Java的并发Radix和后缀树。
 * [Tape](https://github.com/square/tape)：Tape是Android和Java中与队列相关的类的集合。
 * [JUnion](https://github.com/TehLeo/junion)：为Java编程语言提供结构类型。
 * [Big Queue](https://github.com/bulldog2011/bigqueue)：基于内存映射文件的大、快速且持久的队列。
