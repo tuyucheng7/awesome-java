@@ -165,7 +165,7 @@
 - [JavaFX图表库](#javafx-chart)
 - [JavaFX小工具](#javafx-tool)
 - [GUI程序](#gui)
-- [数据库工具](#dbtool)
+- [数据库工具](#数据库工具)
 - [字节码工具](#classtool)
 - [字节码混淆工具](#obfuscator)
 - [游戏开发](#game-engine)
@@ -3742,7 +3742,7 @@
 * [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
 * [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
 
-<h4 id="dbtool">数据库工具</h4>
+## 数据库工具
 
 * [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
 * [Chat2DB](https://github.com/chat2db/Chat2DB)：智能的通用数据库SQL客户端和报表工具，由阿里开源。
