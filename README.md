@@ -214,7 +214,7 @@
 * [Spring Boot](https://github.com/spring-projects/spring-boot)：用于快速开发Spring应用的脚手架框架。
 * [Solon](https://gitee.com/noear/solon)：国产的轻量级Java Web框架。
 * [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序。
-* [Blade](https://github.com/lets-blade/blade)：国产的轻量级Web框架。
+* [Blade](https://github.com/lets-blade/blade)：国产简约、高效的Web框架。
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
 * [Javalin](https://github.com/javalin/javalin)：简单而现代的Java和Kotlin Web框架。
 * [Hilla](https://github.com/vaadin/hilla)：Java全栈框架，支持React和Lit/Web组件。
@@ -229,19 +229,19 @@
 * [Rife2](https://github.com/rife2/rife2)：全栈、无声明框架，可使用现代Java快速轻松地创建Web应用程序。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架。
 * [Ratpack](https://github.com/ratpack/ratpack)：一个简单、功能强大的工具包，用于创建高性能Web应用程序。
+* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [Google Web Toolkit](https://github.com/gwtproject/gwt)：快速构建和维护复杂但性能高的JavaScript前端应用程序的工具集，由Google开发。
 * [Apache Struts](https://github.com/apache/struts)：Apache Struts框架是一个用于创建Java Web应用程序的免费开源解决方案。
 * [Rose](https://github.com/XiaoMi/rose)：人人网、糯米网释出的开源高效Java Web开发框架。
-* [JavaLite](https://github.com/javalite/javalite)：一系列工具的集合框架。
+* [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Vraptor4](https://github.com/caelum/vraptor4)：一个基于Action的Web MVC框架，构建于CDI之上，用于快速且可维护的Java开发。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Apache Cocoon是一个基于Spring的Web框架，围绕关注点分离和基于组件的开发概念构建。
 * [Apache Turbine](https://github.com/apache/turbine-core)：Apache Turbine是一个基于Servlet的框架，可以快速构建Web应用程序。
 * [Takes](https://github.com/yegor256/takes)：面向对象的Java Web框架，没有NULL、静态方法、注解和可变对象。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
-* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [CUBA](https://github.com/cuba-platform/cuba)：CUBA平台是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
-* [Tiny](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
+* [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
 
 <h2 id="rest-framework">REST框架</h2>
 
@@ -255,15 +255,16 @@
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：没有注解/DI/响应式的Java REST框架。
 * [Resty](https://github.com/Dreampie/Resty)：极简的REST框架。
 * [Airlift](https://github.com/airlift/airlift)：Airlift是一个用Java构建REST服务的框架。
+* [Apache Juneau](https://github.com/apache/juneau)：一个使用通用框架将POJO编组到各种内容类型的工具包，并可以使用非常少的代码创建复杂的自记录REST接口和微服务。
+* [Kanary](https://github.com/SeunAdelekan/Kanary)：用于在Kotlin/Java中构建REST API的简约Web框架。
 * [RestExpress](https://github.com/RestExpress/RestExpress)：用于快速创建可扩展、Containerless、RESTful微服务的极简Java框架。
+* [Moqui Framework](https://github.com/moqui/moqui-framework)：Moqui开发框架是一个全功能的，企业级应用开发框架，基于Groovy和Java语言。
 * [Apache CXF](https://github.com/apache/cxf)： Apache CXF是一个开源框架，提供了用于方便地构建和开发Web Service的可靠基础架构。
 * [Kilo](https://github.com/HTTP-RPC/Kilo)：Kilo是一个开源框架，用于在Java中创建和使用RESTful和类REST Web服务。
 * [Crnk](https://github.com/crnk-project/crnk-framework)：Crnk是JSON API规范和建议的Java实现，旨在促进构建RESTful应用程序。
 * [Hammock](https://github.com/hammock-project/hammock)：Hammock是一个简单易用的框架，用于引导CDI、启动Web服务器并能够部署REST API。
 * [Apache Sling](https://sling.apache.org/)：Apache Sling是一个基于可扩展内容树的RESTful Web应用程序框架。
-* [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)：支持实现超文本驱动的REST Web服务表示的库。
 * [Apache Wink](https://wink.apache.org/)：Apache Wink是一个简单可靠的框架，用于构建RESTful Web服务。
-* [Apache Olingo](https://olingo.apache.org/)：Apache Olingo是一个实现开放数据协议(OData)的Java和JavaScript库。
 * [Rocket API](https://gitee.com/alenfive/rocket-api)：API敏捷开发框架，用于API接口功能的快速开发。
 
 <h2 id="microservice-framework">微服务框架</h2>
@@ -285,21 +286,21 @@
 * [MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展。
 * [ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个华为云开源的软件开发套件，用于快速开发Java微服务。
 * [Kotless](https://github.com/JetBrains/kotless)：Kotlin开发的Serverless框架，由JetBrains开源。
-* [Axon](https://github.com/AxonFramework/AxonFramework)：JVM上的演化消息驱动微服务框架。
+* [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
 * [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
 * [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架。
-* [Armeria](https://github.com/line/armeria)：适用于任何情况的首选微服务框架，来自Netty创始人。你可以利用你喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Stream、Spring Boot和Dropwizard。
+* [Armeria](https://github.com/line/armeria)：可以利用不同技术构建任何类型微服务的框架，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Stream、Spring Boot和Dropwizard，由Line开源。
 * [Light-4j](https://github.com/networknt/light-4j)：快速、轻量级且更高效的微服务框架。
-* [JClouds](https://github.com/apache/jclouds)：Apache jclouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
-* [Msf4j](https://github.com/wso2/msf4j)：适用于Java的WSO2微服务框架。
+* [Kalix](https://www.kalix.io/)：Kalix是一个PaaS平台，它抽象了事件驱动的微服务的复杂性，由Lightbend开源。
+* [JClouds](https://github.com/apache/jclouds)：Apache JClouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
+* [MSF4J](https://github.com/wso2/msf4j)：WSO2 Java微服务框架(MSF4J)是一个用于开发和运行微服务的轻量级高性能框架。
 * [NutzBoot](https://github.com/nutzam/nutzboot)：可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、Hystrix、RPC等解决方案。
-* [Piggy Metrics](https://github.com/sqshq/piggymetrics)：使用Spring Boot、Spring Cloud和Docker的微服务架构。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [Ja-Micro](https://github.com/Sixt/ja-micro)：用于构建Java微服务的轻量级框架。
 * [JBoot](https://github.com/yangfuhai/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
+* [ActiveJ](https://github.com/activej/activej)：适用于现代Web、云、高负载和微服务解决方案的Java框架。
 * [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
 * [Redkale](https://github.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
-* [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
 * [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
 * [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架(用户权限管理、配置中心管理、应用管理...)，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
@@ -312,21 +313,20 @@
 * [Eventuate-Tram](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Eventuate-Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Sagas框架是使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
 * [Femas](https://github.com/TencentFemas/femas)：基于Java Agent的微服务治理平台，由腾讯开源。
-* [ActiveJ](https://github.com/activej/activej)：ActiveJ是一个从头开始构建的现代Java平台。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
 * [Abixen-Platform](https://github.com/abixen/abixen-platform)：Abixen平台是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
-* [MicroStream](https://github.com/microstream-one/microstream)：微秒响应时间、超高吞吐量、最小延迟，创建超快速内存数据库应用程序和微服务。
-* [MSEC](https://github.com/Tencent/MSEC)：由腾讯QQ团队开源，它是一个后端DEV & OPS引擎，包括RPC、名称查找、负载均衡、监控、发布和容量管理。
+* [MSEC](https://github.com/Tencent/MSEC)：由腾讯QQ团队开源，它是一个后端DEV&OPS引擎，包括RPC、名称查找、负载均衡、监控、发布和容量管理。
 * [Moss](https://github.com/SpringCloud/Moss)：Spring Cloud体系的服务治理平台。
 * [SwimOS](https://github.com/swimos/swim)：用于构建有状态微服务、流API和实时UI的全栈应用程序平台。
-* [Conjure](https://github.com/palantir/conjure)：适用于浏览器和微服务的强类型HTTP/JSON API。
+* [Blade-Tool](https://github.com/chillzhuang/blade-tool)：Spring Blade 3.0架构核心工具包。
+* [Conjure](https://github.com/palantir/conjure)：Conjure是一个简单的工具链，用于定义一次API并生成多种语言的客户端/服务器接口，由Palantir开源。
 * [GreenLightning](https://github.com/oci-pronghorn/GreenLightning)：高性能微服务运行时。
-* [Ribbon](https://github.com/Netflix/ribbon)：Ribbon是一个进程间通信(远程过程调用)库，具有内置的软件负载均衡器，由Netflix开源。
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发。
-* [Mantis](https://github.com/Netflix/mantis)：该平台使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序。
-* [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问。
-* [Apache Juneau](https://github.com/apache/juneau)：一个使用通用框架将POJO编组到各种内容类型的工具包，并可以使用非常少的代码创建复杂的自记录REST接口和微服务。
+* [Mantis](https://github.com/Netflix/mantis)：该平台使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序，Netflix开源。
+* [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问，由Netflix开源。
+* [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务(Web应用程序或API)的构建。
 * [Magic API](https://gitee.com/ssssssss-team/magic-api)：Magic API是一个基于Java的接口快速开发框架，编写接口将通过Magic API提供的UI界面完成，自动映射为HTTP接口，无需定义Controller、Service、Dao、Mapper、XML、VO等Java对象即可完成常见的HTTP API接口开发。
+* [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [Apache Pekko](https://github.com/apache/incubator-pekko)：Apache Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
 * [Turbine](https://github.com/Netflix/Turbine)：Netflix开发的SSE流聚合器。
@@ -339,7 +339,7 @@
 * [Mybatis-Plus](https://github.com/baomidou/mybatis-plus)：国产Mybatis的封装框架。
 * [Mybatis-Flex](https://github.com/mybatis-flex/mybatis-flex)：国产Mybatis封装框架。
 * [Fluent-Mybatis](https://github.com/atool/fluent-mybatis)：国产Mybatis的封装框架。
-* [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
+* [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
 * [APIJSON](https://github.com/Tencent/APIJSON)：腾讯开源的零代码、全功能、强安全ORM库。
 * [EclipseLink](https://github.com/eclipse-ee4j/eclipselink)：Eclipse基金会下的JPA实现。
 * [Apache Commons DbUtils](https://github.com/apache/commons-dbutils)：Apache Commons DbUtils包是一组用于简化JDBC开发的Java实用程序类。
@@ -350,20 +350,20 @@
 * [JOOQ](https://github.com/jOOQ/jOOQ)：jOOQ是一个内部DSL和源代码生成器，将SQL语言建模为类型安全的Java API，帮助编写更好的SQL。
 * [Ebean](https://github.com/ebean-orm/ebean)：Ebean提供多个查询抽象级别ORM查询，与SQL、DTO查询、SqlQuery和JDBC混合。
 * [ObjectiveSql](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的Java ORM框架，它鼓励快速开发和清洁，最少的代码，以及约定优于配置。
-* [JPA-Streamer](https://github.com/speedment/jpa-streamer)：JPAstreamer是一个轻量级库，用于将JPA查询表达为Java Stream。
+* [JPA-Streamer](https://github.com/speedment/jpa-streamer)：JPA Streamer是一个轻量级库，用于将JPA查询表达为Java Stream。
 * [Jdbi](https://github.com/jdbi/jdbi)：Jdbi旨在提供Java中方便的表数据访问；包括模板化SQL、参数化和强类型查询以及Stream集成。
 * [ORMLite](https://github.com/j256/ormlite-core)：精简版Java ORM。
 * [Reladomo](https://github.com/goldmansachs/reladomo)：Reladomo是Java的企业级对象关系映射框架。
 * [Apache Cayenne](https://github.com/apache/cayenne)：Apache Cayenne是一个开源持久层框架，提供对象关系映射(ORM)和远程处理服务。
 * [Doma](https://github.com/domaframework/doma)：适用于Java 8+的面向DAO的数据库映射框架。
-* [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
+* [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
 * [Jimmer](https://github.com/babyfish-ct/jimmer)：适用于Java和Kotlin的ORM框架。
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
 * [AnyLine](https://gitee.com/anyline/anyline)：基于Spring生态的D-ORM，兼容各种数据库、动态注册切换数据源、生成或执行DDL/DML。
 * [Easy-Query](https://github.com/xuejmnet/easy-query)：Java/Kotlin高性能轻量级JDBC查询解决方案，支持分表，数据库支持主从。
 * [Bee](https://github.com/automvc/bee)：Bee是一个人工智能、简单、高效的ORM框架，支持JDBC、Cassandra、Mongodb、Sharding。
-* [Nutz](https://github.com/nutzam/nutz)：包含全功能的ORM、Web框架。
 * [Bean Searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
+* [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久性的微服务和Serverless函数而构建。
 * [Speedment](https://github.com/speedment/speedment)：Speedment是一个Stream ORM Java工具包和运行时。
 * [Easy-ES](https://gitee.com/dromara/easy-es)：Easy-ES是一款简化ElasticSearch搜索引擎操作的开源框架。
 * [Kundera](https://github.com/Impetus/kundera)：Kundera是一个带有JPA接口的“多语言对象映射器”。
@@ -375,7 +375,7 @@
 * [Morphia](https://github.com/MorphiaOrg/morphia)：基于Java的MongoDB对象-文档映射器。
 * [Apache MetaModel](https://metamodel.apache.org/)：借助MetaModel，你可以获得许多不同数据存储类型的统一连接器和查询API。
 * [Jinq](https://github.com/my2iu/Jinq)：Jinq为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
-* [Permazen](https://github.com/permazen/permazen)：语言自然持久层。
+* [Permazen](https://github.com/permazen/permazen)：用于SQL、键值或内存数据库的Java持久层框架。
 * [Apache Gora](https://github.com/apache/gora)：Apache Gora框架提供内存数据模型和大数据持久化。Gora支持持久化列存储、键值存储、文档存储和RDBMS，并通过广泛的Apache Hadoop MapReduce、Apache Spark、Apache Flink和Apache Pig支持来分析数据。
 
 <h2 id="scaffold">脚手架</h2>
@@ -960,6 +960,7 @@
 * [InfluxDB Metrics](https://github.com/davidB/metrics-influxdb)：向InfluxDB服务器公布度量结果的指标报告器。
 * [ElasticSearch Metrics](https://github.com/elastic/elasticsearch-metrics-reporter-java)：向ElasticSearch服务器公布度量结果的指标报告器
 * [Hawkular](https://github.com/hawkular/hawkular-metrics)：基于Cassandra的时序指标引擎。
+* [Tritium](https://github.com/palantir/tritium)：Tritium是一个用于检测应用程序的库，以在运行时提供更好的可观察性，Palantir开源。
 * [Jmxtrans](https://github.com/jmxtrans/jmxtrans-agent)：基于Java代理的JMX指标导出器。
 
 <h2 id="registry">注册中心</h2>
@@ -998,6 +999,9 @@
 * [Easy Retry](https://gitee.com/aizuda/easy-retry)：致力提高分布式业务系统一致性的分布式重试平台。
 * [Vert.x Circuit Breaker](https://github.com/vert-x3/vertx-circuit-breaker)：Vert.x Circuit Breaker是Vert.x的断路器模式实现。
 * [Retrieval](https://gitee.com/spjich/retrieval)：一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
+* [Ribbon](https://github.com/Netflix/ribbon)：Ribbon是一个进程间通信(远程过程调用)库，具有内置的软件负载均衡器，由Netflix开源。
+* [SmallRye Stork](https://github.com/smallrye/smallrye-stork)：SmallRye Stork是一个服务发现和客户端负载均衡框架。
+* [Neutrino](https://github.com/eBay/Neutrino)：Neutrino是一款基于Scala的软件负载均衡器，最初由eBay开发。
 
 <h2 id="gateway">API网关</h2>
 
@@ -1682,7 +1686,6 @@
 
 * [Guava](https://github.com/google/guava)：Google开源的Java工具库。
 * [Apache Commons](https://github.com/apache/commons-lang)：Apache下的Java工具库。
-* [Lombok](https://github.com/projectlombok/lombok)：对Java语法非常有用的补充，消除大量样板代码。
 * [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
 * [NullAway](https://github.com/uber/NullAway)：一种帮助消除Java代码中NullPointerExceptions(NPE)的工具，由Uber开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
@@ -1831,7 +1834,7 @@
 <h2 id="configuration">配置库</h2>
 
 * [Nacos](https://github.com/alibaba/nacos)：一个易于使用的动态服务发现、配置和服务管理平台，用于构建云原生应用程序，由阿里开源。
-* [Config](https://github.com/lightbend/config)：使用HOCON文件的JVM语言的配置库。
+* [Config](https://github.com/lightbend/config)：使用HOCON文件的JVM语言的配置库，由Lightbend开源。
 * [Microconfig](https://github.com/microconfig/microconfig)：用于微服务配置管理的现代工具。
 * [Spring Cloud Config](https://github.com/spring-cloud/spring-cloud-config)：Spring Cloud Config为分布式系统中的外部化配置提供服务器端和客户端支持。
 * [BRCC](https://github.com/baidu/brcc)：BRCC是一个分布式配置中心，用于统一管理应用服务的配置信息，由百度开源。
@@ -2984,12 +2987,12 @@
 
 <h2 id="annotation-processor">注解处理器</h2>
 
+* [Lombok](https://github.com/projectlombok/lombok)：对Java语法非常有用的补充，消除大量样板代码。
 * [Immutables](https://github.com/immutables/immutables)：用于创建不可变对象和构建器的注解处理器。
 * [Derive4j](https://github.com/derive4j/derive4j)：Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
 * [AndroidAnnotations](https://github.com/androidannotations/androidannotations)：快速的Android开发，维护方便。
 * [DeepLinkDispatch](https://github.com/airbnb/DeepLinkDispatch)：一个简单、基于注解的库，用于在Android上更好地处理深度链接，，由Airbnb开源。
-* [jackson-annotations](https://github.com/FasterXML/jackson-annotations)：Jackson数据处理器的核心注解。
-* [compile-testing](https://github.com/google/compile-testing)：javac和注解处理器的测试工具，由Google开源。
+* [Compile Testing](https://github.com/google/compile-testing)：javac和注解处理器的测试工具，由Google开源。
 * [PaperParcel](https://github.com/grandstaish/paperparcel)：自动生成Java和Kotlin的Parcelable实现。
 * [RecordBuilder](https://github.com/Randgalt/record-builder)：Java记录的记录构建器。
 * [RAVE](https://github.com/uber-archive/rave)：使用Java注解处理的数据模型验证框架。
