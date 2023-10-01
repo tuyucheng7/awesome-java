@@ -1163,6 +1163,7 @@
 * [BigQuery Data Lineage](https://github.com/GoogleCloudPlatform/bigquery-data-lineage)：使用审核日志、ZetaSQL和Dataflow对BigQuery进行实时数据沿袭跟踪的参考实现，由Google开源。
 * [Vespa](https://github.com/vespa-engine/vespa)：Yahoo开源的大数据服务引擎，在服务时存储、搜索、组织大数据并进行机器学习推理。
 * [Suro](https://github.com/Netflix/suro)：Suro是一种数据管道服务，用于收集、聚合和调度大量应用程序事件(包括日志数据)，由Netflix开发。
+* [Maxwell](https://github.com/zendesk/maxwell)：一个变更数据捕获应用程序，它读取MySQL二进制日志并将数据变更以JSON形式写入Kafka、Kinesis和其他流平台，由Zendesk开源。
 
 <h2 id="streaming">流处理平台</h2>
 
@@ -1499,6 +1500,7 @@
 * [Jetty ReactiveStream HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应流包装器。
 * [Methanol](https://github.com/mizosoft/methanol)：Java的轻量级HTTP扩展。
 * [Jodd HTTP](https://github.com/oblac/jodd-http)：简单的Java HTTP客户端。
+* [Avaje HttpClient](https://github.com/avaje/avaje-http/tree/master/http-client)：JDK HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：流式的Java HTTP客户端。
 * [ESA RestClient](https://github.com/esastack/esa-restclient)：一个基于Netty的异步事件驱动的HTTP客户端。
 * [SSLContext Kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的 HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
@@ -1690,6 +1692,7 @@
 * [Essentials](https://github.com/greenrobot/essentials)：适用于Android和Java的通用实用程序和哈希函数。
 * [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
 * [Indeed Util](https://github.com/indeedeng/util)：由Indeed开发的通用Java实用程序和工具类。
+* [Boon](https://github.com/boonproject/boon)：非常全的Java工具类库，低仪式，高生产率。
 * [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
 * [Annotations](https://github.com/JetBrains/java-annotations)：一组可在基于JVM的语言中使用的Java注解，由JetBrains开源。
 * [JUtils](https://github.com/chenssy89/jutils)：通用的Java工具类库。
@@ -1842,6 +1845,7 @@
 * [Archaius](https://github.com/Netflix/archaius)：Archaius是一个配置库，用于将静态和动态配置的混合作为单个配置单元进行访问，由Netflix开源。
 * [CFG4J](https://github.com/cfg4j/cfg4j)：用Java编写的分布式应用程序的现代配置库。
 * [Configurate](https://github.com/SpongePowered/Configurate)：一个简单的Java应用程序配置库，提供节点结构、多种格式和转换工具。
+* [Avaje Config](https://github.com/avaje/avaje-config)：JVM应用程序的应用程序配置/属性加载库。
 * [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
 * [Directories](https://github.com/dirs-dev/directories-jvm)：一个提供配置/缓存/数据路径的小型库，遵循Linux、macOS、BSD和Windows上的相应约定。
 * [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的JVM配置库，由Accenture开源。
@@ -2664,39 +2668,45 @@
 * [Jackson](https://github.com/FasterXML/jackson-databind)：Java中使用最广泛的JSON库，也是Spring默认的JSON处理器。
 * [Gson](https://github.com/google/gson)：由Google开源的一个JSON序列化/反序列化库。
 * [Fastjson](https://github.com/alibaba/fastjson)：由阿里开源的一个JSON处理库，性能较好。
+* [Fastjson 2](https://github.com/alibaba/fastjson2)：Fastjson 2是一个性能极致并且简单易用的Java JSON库，阿里开源。
 * [Moshi](https://github.com/square/moshi)：适用于Kotlin和Java的现代JSON库。
-* [JsonPath](https://github.com/json-path/JsonPath)：JsonPath的实现版本。
+* [Flexjson](https://sourceforge.net/projects/flexjson/)：Flexjson是一个轻量级库，可以将Java对象序列化为JSON，并允许对象的深拷贝和浅拷贝。
+* [Json-lib](https://json-lib.sourceforge.net/)：JSON-lib是一个Java库，用于将Bean、Map、集合、Java数组和XML与JSON相互抓换。
+* [Json-Simple](https://github.com/fangyidong/json-simple)：非常简单的JSON库，可以用于编码和解码JSON文本。
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare)：适用于Android的快速JSON解析和序列化库。
 * [JSON-P](https://github.com/jakartaee/jsonp-api)：JSON-P是一个用于解析、构建、转换和查询JSON消息的属于Jakarta EE规范下的API。
 * [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)：由Eclipse开源的一个JSON处理库，也是JSR-367的官方参考实现。
 * [HikariJSON](https://github.com/brettwooldridge/HikariJSON)：高性能JSON解析器。
 * [Eclipse Parsson](https://github.com/eclipse-ee4j/parsson)：Eclipse Parsson是Jakarta JSON Processing规范的实现。
 * [JsonLube](https://github.com/alibaba/JsonLube)：JsonLube可以在编译期自动生成JSON解析代码，用户使用方式更简单，同时能收获原生解析的性能，由阿里开发。
-* [JSON.simple](https://github.com/fangyidong/json-simple)：非常简单的JSON库，可以用于编码和解码JSON文本。
 * [JSON-Java](https://github.com/stleary/JSON-java)：Java中JSON包的参考实现。
-* [JSON-io](https://github.com/jdereg/json-io)：小巧、轻量级的JSON和Java对象转换库。
+* [JSON-IO](https://github.com/jdereg/json-io)：小巧、轻量级的JSON和Java对象转换库。
 * [Jsoniter](https://github.com/json-iterator/java)：Jsoniter(json-iterator)是Java和Go中可用的快速且灵活的JSON解析器。
-* [Genson](https://github.com/owlike/genson)：Genson是一个完整的JSON转换库，提供完整的数据绑定、流媒体等等。
-* [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)：从JSON或JSON Schema生成Java类型，并标注这些类型以与Jackson、Gson等进行数据绑定。
+* [Genson](https://github.com/owlike/genson)：Genson是一个完整的JSON转换库，提供完整的数据绑定、流等等。
+* [Jsonschema2Pojo](https://github.com/joelittlejohn/jsonschema2pojo)：从JSON或JSON Schema生成Java类型，并标注这些类型以与Jackson、Gson等进行数据绑定。
 * [DSL-JSON](https://github.com/ngs-doo/dsl-json)：高性能JVM JSON库，具有高级编译时数据绑定支持。
 * [Ason](https://github.com/afollestad/ason)：提供JSON序列化功能的Java库，已经停止维护。
-* [jsonld-java](https://github.com/jsonld-java/jsonld-java)：JSON-LD 1.0规范和JSON-LD-API 1.0规范的Java实现。
-* [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库。
+* [JSONLD-Java](https://github.com/jsonld-java/jsonld-java)：JSON-LD 1.0规范和JSON-LD-API 1.0规范的Java实现。
 * [Instagram Json Parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
 * [Minimal Json](https://github.com/ralfstx/minimal-json)：一个快速、小型的Java JSON解析器和写入器。
 * [JSON Patch](https://github.com/java-json-tools/json-patch)：这是用Java编写的RFC 6902(JSON Patch)和RFC 7386(JSON Merge Patch)的实现，其核心使用Jackson。
+* [JsonPath](https://github.com/json-path/JsonPath)：JsonPath的实现版本。
+* [Json-Smart](https://github.com/netplex/json-smart-v2)：Json-Smart是一个注重性能的JSON处理器库。
 * [JSON Sanitizer](https://github.com/OWASP/json-sanitizer)：给定类似JSON的内容，JSON Sanitizer会将其转换为有效的JSON，由OWASP开源。
-* [Jfire-codejson](https://gitee.com/eric_ds/jfire-codejson)：性能非常高的JSON序列化和反序列化库。
+* [Jfire-CodeJson](https://gitee.com/eric_ds/jfire-codejson)：性能非常高的JSON序列化和反序列化库。
 * [Snack3](https://gitee.com/noear/snack3)：一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
 * [Katharsis](https://github.com/katharsis-project/katharsis-framework)：Katharsis实现了JSON API标准，引入了一致的REST接口定义，可以通过统一的机制轻松地与其他系统集成。
 * [JSON Schema Validator](https://github.com/networknt/json-schema-validator)：这是用于JSON模式验证的JSON Schema规范的Java实现。
-* [OkJson](https://gitee.com/calvinwilliams/okjson)：Java编写的小巧、高效、灵活的JSON处理器。
-* [Apache Johnzon](https://github.com/apache/johnzon)：Apache Johnzon是一个提供JsonProcessing(又名JSR-353)实现和该规范的一组有用扩展的项目。
+* [Apache Johnzon](https://github.com/apache/johnzon)：Apache Johnzon是一个提供JSON Processing(又名JSR-353)实现和该规范的一组有用扩展的项目。
 * [JSON Schema Validator](https://github.com/java-json-tools/json-schema-validator)：Java中的纯JSON模式验证实现，具有可靠的正确性和性能。
 * [JsonSurfer](https://github.com/wanglingsong/JsonSurfer)：Java中的流式JsonPath处理器。
+* [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库。
 * [Problem](https://github.com/zalando/problem)：一个实现application/problem+json的Java库，由Zalando开源。
+* [Hjson Java](https://github.com/hjson/hjson-java)：人类的配置文件格式，宽松的语法，更少的错误，更多的注释。
+* [Avaje JsonB](https://github.com/avaje/avaje-jsonb)：通过APT源代码生成进行快速、无反射的JSON绑定的Java库。
 * [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
+* [NanoJson](https://github.com/mmastrac/nanojson)：一个小型、兼容的Java JSON解析器和写入器。
 
 <h2 id="mapper">Bean映射</h2>
 
@@ -3884,7 +3894,7 @@
 * [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
 * [Lettuce](https://github.com/lettuce-io/lettuce-core)：高级Java Redis客户端，用于线程安全同步、异步和响应式使用。支持集群、哨兵、管道和编解码器。
 * [Redis OM Spring](https://github.com/redis/redis-om-spring)：Spring Data Redis扩展，可实现更好的搜索、文档模型等。
-* [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：更轻松地构建基于Redis的Spring应用程序。
+* [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
 * [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
 * [Redis Protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
 * [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Apache Cassandra的DataStax Java驱动程序。
@@ -3974,6 +3984,7 @@
 * [Conversant](https://github.com/conversant/disruptor)：Conversant Disruptor是环形缓冲区中性能最高的实现，因为它几乎没有开销，并且采用了特别简单的设计。
 * [BPlusTree](https://github.com/andylamp/BPlusTree)：一种高效、简洁、简单的纯磁盘B+Tree数据结构实现。
 * [RMLMapper](https://github.com/RMLio/rmlmapper-java)：RLMMapper执行RML规则来生成链接数据。
+* [JVector](https://github.com/jbellis/jvector)：JVector 是一个纯Java、零依赖、嵌入式矢量搜索引擎，由DataStax Astra DB和Apache Cassandra使用。
 * [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
 * [networkanalysis](https://github.com/CWTSLeiden/networkanalysis)：提供了用于网络分析的算法和数据结构，专注于网络的聚类(或社区检测)和布局(或映射)。
 * [Time-Utilities](https://github.com/Breinify/brein-time-utilities)：包含多个时间相关数据和索引结构(例如IntervalTree、BucketTimeSeries)以及算法的库。
@@ -3982,6 +3993,7 @@
 * [Athena](https://github.com/sanity/Athena)：支持任意布尔查询的高效内存数据结构。
 * [KVStore](https://github.com/ggrandes/kvstore)：KVStore是一个基于B+Tree的Java内存和磁盘键值存储。
 * [RTree](https://github.com/davidmoten/rtree)：使用响应式API在Java中实现不可变的内存中R树和R*树。
+* [SparseBitSet](https://github.com/brettwooldridge/SparseBitSet)：Java的高效稀疏位集实现。
 * [Agrona](https://github.com/real-logic/Agrona)：Java的高性能数据结构和实用方法。
 * [Concurrent Trees](https://github.com/npgall/concurrent-trees)：Java的并发Radix和后缀树。
 * [Tape](https://github.com/square/tape)：Tape是Android和Java中与队列相关的类的集合。
@@ -4401,6 +4413,7 @@
 * [JBVE](https://github.com/nomemory/java-bean-validation-extension)：JBVE(Java Bean Validation Extension)是一个小型工具库，它通过额外注解扩展了Java Bean Validation规范。
 * [Collection Validator](https://github.com/jirutka/validator-collection)：该库可以轻松地为任何验证约束创建“伪约束”(通常命名为@EachX)来标注简单类型的集合，而无需为每个集合编写额外的验证器或不必要的包装类。
 * [dOOv](https://github.com/doov-org/doov)：dOOv是一个用于类型安全域模型验证和映射的流式API。
+* [Avaje Validator](https://github.com/avaje/avaje-validator)：通过APT源代码生成进行无反射POJO验证的Java库。
 * [OVal](https://sourceforge.net/projects/oval/)：一个实用且可扩展的验证框架，适用于任何类型的Java对象。不符合JSR 303/JSR 380，但支持Bean验证约束。
 
 <h2 id="ast">词法解析</h2>
