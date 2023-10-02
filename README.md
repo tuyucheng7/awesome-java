@@ -194,19 +194,20 @@
 - [序列化](#序列化)
 - [IO操作](#IO操作)
 - [邮件操作](#邮件操作)
-- [RSS](#rss)
-- [OSGI](#osgi)
-- [校验](#validation)
-- [词法解析](#ast)
-- [形式验证](#formal-verification)
+- [RSS](#RSS)
+- [OSGI](#OSGI)
+- [校验](#校验)
+- [词法解析](#词法解析)
+- [形式验证](#形式验证)
 - [正则表达式](#正则表达式)
-- [代码生成器](#codegen)
-- [目录服务](#ldap)
-- [功能切换](#feature-flag)
-- [表情处理](#emoji)
-- [字符编码](#unicode)
-- [URL操作](#url)
-- [外部进程执行](#process)
+- [代码生成器](#代码生成器)
+- [目录服务](#目录服务)
+- [功能切换](#功能切换)
+- [表情处理](#表情处理)
+- [字符编码](#字符编码)
+- [国际化](#国际化)
+- [URL操作](#URL操作)
+- [外部进程执行](#外部进程执行)
 
 ## Web框架
 
@@ -1256,6 +1257,7 @@
 * [Eclipse OpenMQ](https://github.com/eclipse-ee4j/openmq)：JMS规范实现。
 * [Hermes](https://github.com/allegro/hermes)：构建在Kafka之上的快速可靠的消息代理，由波兰最大电商Allegro开源。
 * [Apache Qpid](http://qpid.apache.org/)：AMQP企业消息传递实现。
+* [MemQ](https://github.com/pinterest/memq)：高效、可扩展的云原生PubSub系统，由Pinterest开源。
 
 ## Kafka生态
 
@@ -1277,6 +1279,7 @@
 * [Decaton](https://github.com/line/decaton)：Apache Kafka上的高吞吐量异步任务处理，由Line开源。
 * [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
+* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
 
 ## 分布式组件
 
@@ -1701,6 +1704,7 @@
 * [JCommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
 * [Jodd](https://github.com/oblac/jodd)：零依赖的Java工具库。
 * [Ph-Commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量实用程序类。
+* [X-Core](https://github.com/TGX-Android/X-Core)：一组可在任何项目中使用的通用Java实用程序和接口，Telegram开源。
 * [Essentials](https://github.com/greenrobot/essentials)：适用于Android和Java的通用实用程序和哈希函数。
 * [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
 * [Indeed Util](https://github.com/indeedeng/util)：由Indeed开发的通用Java实用程序和工具类。
@@ -1726,6 +1730,7 @@
 * [Plexus Utils](https://github.com/codehaus-plexus/plexus-utils)：各种实用程序类的集合，可轻松处理字符串、文件、命令行等。
 * [Triava](https://github.com/trivago/triava)：Triava项目包含几个trivago的基于Java项目的核心库：缓存、集合、注解、并发库等等。
 * [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
+* [Bus](https://github.com/aoju/bus)：包含大量工具的基础框架、服务套件。
 
 ## 依赖注入
 
@@ -1806,6 +1811,7 @@
 * [Spotify Logging](https://github.com/spotify/logging-java)：以Spotify兼容方式设置日志记录的实用程序类。
 * [MinBox Logging](https://gitee.com/minbox-projects/minbox-logging)：分布式、零侵入式的链路日志分析框架。
 * [LogUtils](https://github.com/pengwei1024/LogUtils)：更方便易用的Android日志管理器。
+* [Singer](https://github.com/pinterest/singer)：高性能、可靠且可扩展的日志代理，用于将数据上传到Kafka、Pulsar等，由Pinterest开源。
 
 ## GraphQL
 
@@ -3090,6 +3096,7 @@
 * [Apache Airavata](https://airavata.apache.org/)：Apache Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业和工作流程。
 * [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是一个适用于Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
 * [Apache REEF](https://github.com/apache/reef)：Apache REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库。例如，Microsoft Azure流分析是基于REEF和Hadoop构建的。
+* [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
 
 ## 代码分析
 
@@ -4540,9 +4547,22 @@
 * [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
 * [ASCII Table](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
 * [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
-* [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持。
 * [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
+
+## 国际化
+
+* [L10nMessages](https://github.com/pinterest/l10nmessages)：L10nMessages是一个使Java应用程序的国际化(i18n)和本地化(l10n)变得简单且安全的库，由Pinterest开源。
+* [NV-1i8n](https://github.com/TakahikoKawasaki/nv-i18n)：支持国际化的包，包含ISO 3166-1国家代码枚举、ISO 639-1语言代码枚举、ISO 15924脚本代码枚举等。
+* [Mojito](https://github.com/box/mojito)：Mojito是一个持续本地化平台，依靠持续集成将所有软件字符串收集到一处，实时查看哪些产品需要本地化。
+* [Tradukisto](https://github.com/allegro/tradukisto)：用于将数字转换为其单词表示形式的Java库，由Allegro开源。
+* [Kilt](https://github.com/hupfdule/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
+* [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持。
+* [Gettext](https://github.com/jgettext/gettext-commons)：Gettext Commons项目为国际化(i18n)通过GNU gettext和Java实现资源包。
+* [Cosmopolitan](https://github.com/rodionmoiseev/c10n)：一个Java库，专注于使国际化更加模块化、更易于发展和维护、易于更改且IDE友好，无需过多的外部工具。
+* [Easy I18N](https://github.com/awkay/easy-i18n)：这是一个Java库，旨在使创建国际化程序变得更加容易。
+* [Resource4j](https://github.com/resource4j/resource4j)：Resource4j库是Java ResourceBundle机制的替代品，支持大型和遗留应用程序的复杂i18n场景，并提供对键/值应用程序配置和任意资源文件的安全访问。
+* [Loc4J](https://loc4j.sourceforge.net/)：Loc4J是一个Java库，可帮助本地化应用程序。
 
 ## URL操作
 
