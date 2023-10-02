@@ -137,6 +137,7 @@
 - [接口文档](#接口文档)
 - [集群管理](#集群管理)
 - [代码分析](#代码分析)
+- [依赖分析](#依赖分析)
 - [Maven插件](#Maven插件)
 - [Gradle插件](#Gradle插件)
 - [SDK](#SDK)
@@ -544,12 +545,10 @@
 * [Ngrinder](https://github.com/naver/ngrinder)：企业级性能测试解决方案，由Naver开源。
 * [Gatling](https://github.com/gatling/gatling)：更现代的负载测试工具，以代码的方式编写测试用例。
 * [JMH](https://github.com/openjdk/jmh)：JMH是一个Java工具，用于构建、运行和分析用Java和其他针对JVM的语言编写的宏观基准测试。
-* [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
-* [JfrUnit](https://github.com/moditect/jfrunit)：用于断言JFR(JDK Flight Recorder)事件的JUnit扩展。
-* [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级通用性能测试框架。
-* [OpenMessaging Benchmark](https://github.com/openmessaging/benchmark)：OpenMessaging基准测试框架。
-* [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP基准项目是一个Java测试套件，用于验证漏洞检测工具的速度和准确性。
+* [JFRUnit](https://github.com/moditect/jfrunit)：用于断言JFR(JDK Flight Recorder)事件的JUnit扩展。
+* [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级性能测试框架和负载生成器。
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
+* [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
 * [ScalaMeter](https://github.com/scalameter/scalameter)：JVM平台的微基准测试和性能回归测试框架，ScalaMeter可以自动测量和收集程序的各种指标，然后生成漂亮的报告，或存储你的数据。
 
 #### 属性测试
@@ -1128,6 +1127,7 @@
 * [Variety](https://github.com/variety/variety)：MongoDB的模式分析器。
 * [Cloudbreak](https://github.com/hortonworks/cloudbreak)：CDP公共云是部署在云服务上的集成分析和数据管理平台，它提供广泛的数据分析和人工智能功能以及安全的用户访问和数据治理功能，由Hortonworks开源。
 * [AGEIPort](https://github.com/alibaba/AGEIPort)：AGEIPort是数字供应链孵化并在阿里巴巴集团内广泛使用的一套性能卓越、稳定可靠、功能丰富、易于扩展、生态完整的数据导入导出方案，由阿里开源。
+* [YCSB](https://github.com/brianfrankcooper/YCSB)：雅虎云服务基准测试框架。
 
 ## 大数据组件
 
@@ -1707,6 +1707,7 @@
 * [X-Core](https://github.com/TGX-Android/X-Core)：一组可在任何项目中使用的通用Java实用程序和接口，Telegram开源。
 * [Essentials](https://github.com/greenrobot/essentials)：适用于Android和Java的通用实用程序和哈希函数。
 * [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
+* [Cloudhopper Commons](https://github.com/twitter/cloudhopper-commons)：Twitter的Cloudhopper系列移动消息应用程序使用的通用Java库。
 * [Indeed Util](https://github.com/indeedeng/util)：由Indeed开发的通用Java实用程序和工具类。
 * [Boon](https://github.com/boonproject/boon)：非常全的Java工具类库，低仪式，高生产率。
 * [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
@@ -2545,6 +2546,7 @@
 * [BascomTask](https://github.com/eBay/bascomtask)：Java的轻量级、低摩擦进程内并行任务管理，eBay开源。
 * [Tascalate Async Await](https://github.com/vsilaev/tascalate-async-await)：Java版本8到17的Async/Await异步编程模型。
 * [GPars](https://github.com/GPars/GPars)：GPars框架为Java开发人员提供了直观且安全的方法来同时处理Java或Groovy任务。
+* [Nodes](https://github.com/twitter/nodes)：Nodes是一个用Java实现服务异步依赖图的库，由Twitter开源。
 
 ## Actor模型
 
@@ -2569,7 +2571,6 @@
 * [Passay](https://github.com/vt-middleware/passay)：Java的密码策略实现。
 * [Tsunami](https://github.com/google/tsunami-security-scanner)：Tsunami是一款通用网络安全扫描器，具有可扩展的插件系统，可高置信度地检测高严重性漏洞，由Google开源。
 * [PicketLink](https://github.com/picketlink/picketlink)：PicketLink是一个用于保护Java EE应用程序的安全框架。
-* [DependencyCheck](https://github.com/jeremylong/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
 * [SSLContext Kickstart](https://github.com/Hakky54/sslcontext-kickstart)：一个轻量级库，用于配置基于SSLContext或其他属性(例如TrustManager、KeyManager或受信任证书)的HTTP客户端或服务器，以通过SSLFactory提供的单向身份验证或双向身份验证通过SSL/TLS进行通信。
 * [Okta](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
 * [ESAPI](https://github.com/ESAPI/esapi-java-legacy)：ESAPI是一个免费、开源的Web应用程序安全控制库，使程序员可以更轻松地编写风险较低的应用程序。
@@ -3113,7 +3114,6 @@
 * [Spoon](https://github.com/INRIA/spoon)：Spoon是一个用于分析和转换Java源代码的元编程库。
 * [FindBugs](https://github.com/findbugsproject/findbugs)：Findbugs是一款开源的Java源码静态分析工具。
 * [jQAssistant](https://github.com/jQAssistant/jqassistant)：一个基于Neo4j数据库的依赖分析工具，支持分析Java、XML、JSON等格式的数据，并提供可视化界面和查询语言。
-* [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：Dependency-Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险。
 * [Scavenger](https://github.com/naver/scavenger)：由Naver开源的运行时死代码分析工具。
 * [Codekvast](https://github.com/crispab/codekvast)：Java死代码检测器。
 * [OWASP Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：用于Java Web应用程序和Android应用程序安全审核的SpotBugs插件。
@@ -3129,6 +3129,17 @@
 * [OpenGrok](https://github.com/oracle/opengrok)：OpenGrok是一个快速且可用的源代码搜索和交叉引用引擎，可以帮助你搜索、交叉引用和导航源树，由Oracle开源。
 * [Forbidden API](https://github.com/policeman-tools/forbidden-apis)：允许解析Java字节码以查找方法/类/字段签名的调用并失败构建(Apache Ant、Apache Maven或Gradle)。
 
+## 依赖分析
+
+* [DependencyCheck](https://github.com/jeremylong/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
+* [Depends](https://github.com/multilang-depends/depends)：Depends是一个源代码依赖提取工具，旨在从各种编程语言推断源代码实体(例如文件和方法)之间的语法关系。
+* [Jarviz](https://github.com/ExpediaGroup/jarviz)：Jarviz是专为Java应用程序设计的依赖分析和可视化工具。
+* [DepAn](https://github.com/google/depan)：DepAn是一个直接操作工具，用于可视化、分析和重构大型应用程序中的依赖关系，Google开源。
+* [JDependency](https://github.com/tcurdt/jdependency)：JDependency是一个小型库，可帮助你分析类级别依赖关系、冲突和缺失的类。
+* [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：Dependency-Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险。
+* [Depgraph Maven Plugin](https://github.com/ferstl/depgraph-maven-plugin)：可生成各种格式(DOT、GML、PlantUML、JSON和Text)依赖关系图的Maven插件。
+* [FASTEN](https://github.com/fasten-project/fasten)：在调用图级别分析包依赖网络的工具。
+
 ## Maven插件
 
 * [Frontend Maven Plugin](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
@@ -3136,7 +3147,6 @@
 * [Javafx Maven Plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
 * [SonarQube Scanner](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
 * [Scala Maven Plugin](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
-* [Depgraph Maven Plugin](https://github.com/ferstl/depgraph-maven-plugin)：可生成各种格式(DOT、GML、PlantUML、JSON和Text)依赖关系图的Maven插件。
 * [JMeter Maven Plugin](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
 * [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
 * [Modernizer Maven Plugin](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
@@ -3427,7 +3437,7 @@
 * [SOFAJRaft](https://github.com/sofastack/sofa-jraft)：Raft共识算法的生产级Java实现。
 * [Raft Java](https://github.com/wenweihu86/raft-java)：Raft算法的简单Java实现。
 * [Apache Ratis](https://github.com/apache/ratis)：Raft共识协议的开源Java实现。
-* [Dledger](https://github.com/openmessaging/dledger)：一个基于Raft的java库，用于构建高可用、高持久、强一致的提交日志。
+* [Dledger](https://github.com/openmessaging/dledger)：一个基于Raft的Java库，用于构建高可用、高持久、强一致的提交日志。
 * [Lu-Raft-KV-Storage](https://github.com/stateIs0/lu-raft-kv)：这是一个Java版本的Raft(CP) KV分布式存储实现。
 * [Copycat](https://github.com/atomix/copycat)：Raft一致性算法的新颖实现。
 * [jGroups Raft](https://github.com/belaban/jgroups-raft)：Raft共识协议在JGroups中的实现。
@@ -4042,6 +4052,7 @@
 * [Tape](https://github.com/square/tape)：Tape是Android和Java中与队列相关的类的集合。
 * [JUnion](https://github.com/TehLeo/junion)：为Java编程语言提供结构类型。
 * [Big Queue](https://github.com/bulldog2011/bigqueue)：基于内存映射文件的大、快速且持久的队列。
+* [Cassovary](https://github.com/twitter/cassovary)：Cassovary是一个简单的JVM大图处理库，由Twitter开源。
 
 ## 布隆过滤器
 
