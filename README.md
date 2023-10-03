@@ -214,7 +214,7 @@
 
 * [Spring MVC](https://github.com/spring-projects/spring-framework/tree/main/spring-webmvc)：Spring MVC是Spring生态中的Web框架。
 * [Spring Boot](https://github.com/spring-projects/spring-boot)：用于快速开发Spring应用的脚手架框架。
-* [Solon](https://gitee.com/noear/solon)：国产的轻量级Java Web框架。
+* [Solon](https://gitee.com/noear/solon)：国产的轻量级Web框架。
 * [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序。
 * [Blade](https://github.com/lets-blade/blade)：国产简约、高效的Web框架。
 * [JFinal](https://github.com/jfinal/jfinal)：国产的Web、ORM框架。
@@ -223,23 +223,23 @@
 * [Ninja](https://github.com/ninjaframework/ninja)：Java的全栈Web框架。
 * [SOFABoot](https://github.com/sofastack/sofa-boot)：蚂蚁开发的Spring Boot增强并与其完全兼容的框架，提供就绪性检查、类隔离等功能。
 * [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架。
-* [Vaadin](https://github.com/vaadin/framework)：Vaadin是用于现代Java Web应用程序的Java框架。
+* [Vaadin](https://github.com/vaadin/framework)：Vaadin是用于现代Web应用程序的Java框架。
 * [Jooby](https://github.com/jooby-project/jooby)：适用于Java和Kotlin的模块化Web框架。
-* [Pippo](https://github.com/pippo-java/pippo)：Java开源的微型Web框架。
-* [Spark](https://github.com/perwendel/spark)：一个简单的、富有表现力的Java Web框架。
-* [Apache Wicket](https://github.com/apache/wicket)：基于组件的Java Web框架。
+* [Pippo](https://github.com/pippo-java/pippo)：开源的微型Web框架。
+* [Spark](https://github.com/perwendel/spark)：一个简单的、富有表现力的Web框架。
+* [Apache Wicket](https://github.com/apache/wicket)：基于组件的Web框架。
 * [Rife2](https://github.com/rife2/rife2)：全栈、无声明框架，可使用现代Java快速轻松地创建Web应用程序。
-* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架。
+* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Web应用程序框架。
 * [Ratpack](https://github.com/ratpack/ratpack)：一个简单、功能强大的工具包，用于创建高性能Web应用程序。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [GWT](https://github.com/gwtproject/gwt)：快速构建和维护复杂但性能高的JavaScript前端应用程序的工具集，由Google开发。
-* [Apache Struts](https://github.com/apache/struts)：Apache Struts框架是一个用于创建Java Web应用程序的免费开源解决方案。
+* [Apache Struts](https://github.com/apache/struts)：Apache Struts框架是一个用于创建Web应用程序的免费开源解决方案。
 * [Rose](https://github.com/XiaoMi/rose)：人人网、糯米网释出的开源高效Java Web开发框架。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Vraptor4](https://github.com/caelum/vraptor4)：一个基于Action的Web MVC框架，构建于CDI之上，用于快速且可维护的Java开发。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是一个基于Spring的Web框架，围绕关注点分离和基于组件的开发概念构建。
 * [Apache Turbine](https://github.com/apache/turbine-core)：Turbine是一个基于Servlet的框架，可以快速构建Web应用程序。
-* [Takes](https://github.com/yegor256/takes)：面向对象的Java Web框架，没有NULL、静态方法、注解和可变对象。
+* [Takes](https://github.com/yegor256/takes)：面向对象的Web框架，没有NULL、静态方法、注解和可变对象。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [CUBA](https://github.com/cuba-platform/cuba)：CUBA平台是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
@@ -251,7 +251,7 @@
 * [Dropwizard](https://github.com/dropwizard/dropwizard)：一个非常简单的库，用于构建生产就绪的RESTful Web服务。
 * [RESTEasy](https://github.com/resteasy/resteasy)：Jakarta RESTful Web服务规范的实现。
 * [Bootique](https://github.com/bootique/bootique)：Bootique是一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序。
-* [Restx](https://github.com/restx/restx)：轻量级Java REST框架。
+* [Restx](https://github.com/restx/restx)：轻量级REST框架。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Java REST API框架。
 * [Rest.li](https://github.com/linkedin/rest.li)：LinkedIn开源的REST + JSON框架，用于使用动态发现和简单的异步API构建健壮、可扩展的服务架构。
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：没有注解/DI/响应式的Java REST框架。
@@ -295,7 +295,7 @@
 * [Light-4j](https://github.com/networknt/light-4j)：快速、轻量级且更高效的微服务框架。
 * [Kalix](https://www.kalix.io/)：Kalix是一个PaaS平台，它抽象了事件驱动的微服务的复杂性，由Lightbend开源。
 * [JClouds](https://github.com/apache/jclouds)：JClouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
-* [MSF4J](https://github.com/wso2/msf4j)：WSO2 Java微服务框架(MSF4J)是一个用于开发和运行微服务的轻量级高性能框架。
+* [MSF4J](https://github.com/wso2/msf4j)：WSO2微服务框架(MSF4J)是一个用于开发和运行微服务的轻量级高性能框架。
 * [NutzBoot](https://github.com/nutzam/nutzboot)：可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、Hystrix、RPC等解决方案。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [Ja-Micro](https://github.com/Sixt/ja-micro)：用于构建Java微服务的轻量级框架。
@@ -312,7 +312,7 @@
 
 * [Conductor](https://github.com/Netflix/conductor)：微服务编排引擎，由Netflix开源。
 * [Apollo](https://github.com/spotify/apollo)：用于编写可组合微服务的Java库，由Spotify开源。
-* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行Java REST微服务。
+* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务。
 * [Eventuate-Tram](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Eventuate-Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Sagas框架是使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
 * [Femas](https://github.com/TencentFemas/femas)：基于Java Agent的微服务治理平台，由腾讯开源。
@@ -353,7 +353,7 @@
 * [QueryDSL](https://github.com/querydsl/querydsl)：Querydsl是一个可以为多个后端(包括JPA、MongoDB和Java中的SQL)构建类型安全的类SQL查询的框架。
 * [JOOQ](https://github.com/jOOQ/jOOQ)：jOOQ是一个内部DSL和源代码生成器，将SQL语言建模为类型安全的Java API，帮助编写更好的SQL。
 * [Ebean](https://github.com/ebean-orm/ebean)：Ebean提供多个查询抽象级别ORM查询，与SQL、DTO查询、SqlQuery和JDBC混合。
-* [ObjectiveSql](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的Java ORM框架，它鼓励快速开发和清洁，最少的代码，以及约定优于配置。
+* [ObjectiveSql](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的ORM框架，它鼓励快速开发和清洁，最少的代码，以及约定优于配置。
 * [JPA-Streamer](https://github.com/speedment/jpa-streamer)：JPA Streamer是一个轻量级库，用于将JPA查询表达为Java Stream。
 * [Jdbi](https://github.com/jdbi/jdbi)：Jdbi旨在提供Java中方便的表数据访问；包括模板化SQL、参数化和强类型查询以及Stream集成。
 * [ORMLite](https://github.com/j256/ormlite-core)：精简版Java ORM。
@@ -379,7 +379,7 @@
 * [Morphia](https://github.com/MorphiaOrg/morphia)：基于Java的MongoDB对象-文档映射器。
 * [Apache MetaModel](https://metamodel.apache.org/)：借助MetaModel，你可以获得许多不同数据存储类型的统一连接器和查询API。
 * [Jinq](https://github.com/my2iu/Jinq)：Jinq为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
-* [Permazen](https://github.com/permazen/permazen)：用于SQL、键值或内存数据库的Java持久层框架。
+* [Permazen](https://github.com/permazen/permazen)：用于SQL、键值或内存数据库的持久层框架。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。Gora支持持久化列存储、键值存储、文档存储和RDBMS，并通过广泛的Hadoop MapReduce、Spark、Pig支持来分析数据。
 
 ## 脚手架
@@ -413,7 +413,7 @@
 * [Pangu](https://gitee.com/pulanos/pangu-framework)：盘古开发框架是一套轻量稳健的工业级前、中、后台三维多端行业数字化赋能开发基座。
 * [JavaFX-Falsework](https://gitee.com/lwdillon/fx-falsework)：基于JavaFX、Spring Boot开发的客户端与服务端系统开发脚手架。
 * [XBoot](https://github.com/Exrick/xboot)：基于Spring Boot 2.x的一站式前后端分离快速开发平台。
-* [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：一个轻量级的Java快速开发平台，能快速开发项目并交付。
+* [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：一个轻量级的快速开发平台，能快速开发项目并交付。
 * [RenRen Security](https://gitee.com/renrenio/renren-security)：采用Spring Boot、MyBatisPlus、Shiro、Vue 3、ElementPlus等框架开发的一套权限系统。
 * [Snowy](https://gitee.com/xiaonuobase/snowy)：Snowy是国内首个国密前后端分离快速开发平台，集成国密加解密插件，软件层面完全符合等保测评要求，同时实现国产化机型、中间件、数据库适配。
 * [FCat](https://gitee.com/softnetcat/FCat)：FCat项目是企业级基础功能框架，软件巢工作室出品。
@@ -444,7 +444,7 @@
 * [Truth](https://github.com/google/truth)：Google出品的流式断言库。
 * [Hamcrest](https://github.com/hamcrest/JavaHamcrest)：Hamcrest的Java版本。
 * [Spotify Hamcrest](https://github.com/spotify/java-hamcrest)：使用有用的匹配器扩展Hamcrest的库。
-* [BeanMatcher](https://github.com/orien/bean-matchers)：用于测试Java bean的Hamcrest匹配器。
+* [BeanMatcher](https://github.com/orien/bean-matchers)：用于测试JavaBean的Hamcrest匹配器。
 * [Deepdive](https://github.com/jdlib/deepdive)：Java的流式断言库。
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：流式断言库。
 * [Expekt](https://github.com/winterbe/expekt): Kotlin的BDD断言库。
@@ -508,7 +508,7 @@
 * [Java Faker](https://github.com/DiUS/java-faker)：Java Faker是一个基于Ruby的faker gem和Perl的Data::Faker的库，用于为测试构建假数据。
 * [MockNeat](https://github.com/nomemory/mockneat)：现代的测试数据生成库。
 * [jFairy](https://github.com/Devskiller/jfairy)：Java测试数据生成器。
-* [EasyRandom](https://github.com/j-easy/easy-random)：简单的随机Java beans/记录生成器。
+* [EasyRandom](https://github.com/j-easy/easy-random)：简单的随机JavaBean/记录生成器。
 * [Jmockdata](https://github.com/jsonzou/jmockdata)：生成随机Java数据的插件。
 * [JMock](https://github.com/jmock-developers/jmock-library)：用于测试驱动开发的富有表现力的对象Mock库。
 * [Burst](https://github.com/square/burst)：用于不同测试数据的单元测试库，由Square开源。
@@ -592,7 +592,7 @@
 * [JDI-Light](https://github.com/jdi-testing/jdi-light)：Java中强大的UI自动化测试框架。
 * [ZeroCode](https://github.com/authorjapps/zerocode)：社区开发的免费开源微服务API自动化和负载测试框架，使用JUnit核心运行器构建，适用于HTTP REST、SOAP、安全性、数据库、Kafka等。
 * [Geb](https://github.com/geb/geb)：Geb是一种浏览器自动化解决方案，它汇集了WebDriver的强大功能、jQuery内容选择的优雅性、页面对象建模的稳健性以及Groovy语言的表现力。
-* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Java Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
+* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
 * [HBrowser](https://github.com/Osiris-Team/HBrowser)：无头/完整的Java浏览器，支持下载文件、使用Cookie、检索HTML和模拟真实用户输入。
 * [Appium-Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
 
@@ -714,10 +714,7 @@
 * [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Openlogic开源的JDK版本。
 * [SapMachine](https://github.com/SAP/SapMachine)：由SAP维护和支持的OpenJDK版本。
 * [LeJOS](https://lejos.sourceforge.io/)：乐高开发的JVM，基于leJOS开发的机器人曾经在国际空间站上运行，该VM很早就已经停止维护。
-* [JamJVM](https://jamvm.sourceforge.net/)：一个比较小众的JVM。
-* [Maxine VM](https://github.com/beehive-lab/Maxine-VM)：Java中的元循环VM。
 * [Jikes RVM](https://github.com/JikesRVM/JikesRVM)：一个由Java开发的虚拟机，曾经为虚拟机技术前沿研究超过180篇出版物和36篇论文。
-* [Duppio](https://github.com/plasma-umass/doppio)：一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM。
 
 ## JVM编程语言
 
@@ -847,9 +844,9 @@
 
 ## Serverless
 
-* [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools AWS Lambda(Java)是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
+* [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools AWS Lambda是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
 * [SOFAServerless](https://github.com/sofastack/sofa-serverless)：SOFAServerless是一种模块化的应用架构模式，能够帮助大中小企业低成本地实现极速研发、运维、微服务演进和人员协作，由蚂蚁开源。
-* [Serverless Java container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
+* [Serverless Java container](https://github.com/awslabs/aws-serverless-java-container)：可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：Spring Cloud Function是基于Spring Boot的函数计算框架。
 * [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
 * [Sermant](https://github.com/huaweicloud/Sermant)：一个基于Javaagent的无代理服务网格解决方案，由华为开源。
@@ -879,7 +876,7 @@
 * [Styx](https://github.com/spotify/styx)：Styx是一项用于触发Docker容器定期调用的服务。
 * [Cryostat](https://github.com/cryostatio/cryostat)：容器原生JVM应用程序，充当其他容器化JVM的桥梁，并公开安全的API，用于从云工作负载中生成、分析和检索JFR数据。
 * [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个开源Docker容器管理系统，它将容器、应用程序、集群、镜像和注册表管理集成在一处。
-* [Docker Client](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Java Docker客户端库。
+* [Docker Client](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Docker客户端库。
 * [Kubernetes Java](https://github.com/kubernetes-client/java)：kubernetes的官方Java客户端库。
 * [Kubernetes & OpenShift Client](https://github.com/fabric8io/kubernetes-client)：适用于Kubernetes和OpenShift的Java客户端。
 * [OpsCloud4](https://github.com/ixrjog/opscloud4)：用于云上运维的工具，提供持续交付、多实例动态数据源、堡垒机等功能。
