@@ -64,6 +64,7 @@
 - [关系型数据库](#关系型数据库)
 - [NoSQL数据库](#NoSQL数据库)
 - [数据库连接池](#数据库连接池)
+- [对象存储](#对象存储)
 - [中间件客户端](#中间件客户端)
 - [HTTP客户端库](#HTTP客户端库)
 - [RPC框架](#RPC框架)
@@ -1230,6 +1231,7 @@
 * [Amoro](https://github.com/NetEase/amoro)：Amoro是一个基于开放数据湖格式构建的Lakehouse管理系统，由网易开源。
 * [Herd](https://github.com/FINRAOS/herd)：Herd是一个云托管数据湖，Herd统一数据目录有助于将云中的存储与计算分开，管理PB级数据，并使其可通过任何云计算平台进行数据处理和分析，由美国金融业监管局开源。
 * [Delta](https://github.com/delta-io/delta)：Delta是一个开源存储框架，支持使用Spark、PrestoDB、Flink、Trino和Hive等计算引擎以及Scala、Java、Rust、Ruby和Python的API构建Lakehouse架构，由Databricks开源。
+* [Dremio](https://github.com/dremio/dremio-oss)：新一代的数据湖引擎，它通过直接在云数据湖存储中进行实时的、交互式的查询来释放数据价值。
 
 ## 消息中间件
 
@@ -1468,11 +1470,17 @@
 * [R2DBC-Pool](https://github.com/r2dbc/r2dbc-pool)：用于响应式关系数据库连接的连接池。
 * [BeeCP](https://gitee.com/Chris2018998/BeeCP)：一个小型的JDBC连接池，性能高、代码轻量、稳定性好。
 
+## 对象存储
+
+* [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS的Java SDK。
+* [X File Storage](https://gitee.com/dromara/x-file-storage)：将文件存储到各种云平台的Spring Boot库。
+* [OSS Spring Boot](https://github.com/pig-mesh/oss-spring-boot-starter)：兼容S3协议的通用文件存储工具类。
+* [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
+
 ## 中间件客户端
 
 * [NATS Java Client](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
 * [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端。
-* [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
 * [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
 * [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
 * [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
@@ -3198,7 +3206,6 @@
 * [Azure IoT](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
 * [Tencent](https://github.com/TencentCloud/tencentcloud-sdk-java)：腾讯云API 3.0 Java SDK。
 * [Kubernetes Operator](https://github.com/operator-framework/java-operator-sdk)：用于构建Kubernetes Operator的Java SDK。
-* [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS的Java SDK。
 * [Aliyun OSS Android](https://github.com/aliyun/aliyun-oss-android-sdk)：阿里云对象存储服务Android SDK。
 * [Aliyun ODPS Java SDK](https://github.com/aliyun/aliyun-odps-java-sdk)：面向Java开发者的ODPS SDK。
 * [Volcengine](https://github.com/volcengine/volcengine-java-sdk)：火山引擎Java SDK。
