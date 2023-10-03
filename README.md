@@ -3140,56 +3140,56 @@
 
 ## Maven插件
 
-* [Frontend Maven Plugin](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
-* [Android Maven Plugin](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
-* [Javafx Maven Plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
-* [SonarQube Scanner](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
-* [Scala Maven Plugin](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
-* [JMeter Maven Plugin](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
+* [Frontend](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
+* [Android](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
+* [JavaFX](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
+* [SonarQube](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
+* [Scala](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
+* [JMeter](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
 * [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
-* [Modernizer Maven Plugin](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
-* [JavaFX Maven Plugin](https://github.com/openjfx/javafx-maven-plugin)：用于运行JavaFX 11+应用程序的Maven插件。
-* [Versions Maven Plugin](https://github.com/mojohaus/versions)：用于管理项目POM中的工件版本。
-* [Asciidoctor Maven Plugin](https://github.com/asciidoctor/asciidoctor-maven-plugin)：通过JRuby使用Asciidoctor来处理项目内的AsciiDoc源文件。
-* [Fmt Maven Plugin](https://github.com/spotify/fmt-maven-plugin)：格式化Java代码的固定Maven插件。
-* [OS Maven Plugin](https://github.com/trustin/os-maven-plugin)：用于设置从${os.name}和${os.arch}属性检测到的各种有用属性。
+* [Modernizer](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
+* [JavaFX](https://github.com/openjfx/javafx-maven-plugin)：用于运行JavaFX 11+应用程序的Maven插件。
+* [Versions](https://github.com/mojohaus/versions)：用于管理项目POM中的工件版本。
+* [Asciidoctor](https://github.com/asciidoctor/asciidoctor-maven-plugin)：通过JRuby使用Asciidoctor来处理项目内的AsciiDoc源文件。
+* [Fmt](https://github.com/spotify/fmt-maven-plugin)：格式化Java代码的固定Maven插件。
+* [OS](https://github.com/trustin/os-maven-plugin)：用于设置从${os.name}和${os.arch}属性检测到的各种有用属性。
 * [Native Build Tools](https://github.com/graalvm/native-build-tools)：适用于各种构建工具的本机镜像插件。
-* [Azure Maven Plugin](https://github.com/microsoft/azure-maven-plugins)：适用于Azure的Maven插件。
-* [Protoc-jar Maven Plugin](https://github.com/os72/protoc-jar-maven-plugin)：使用protoc-jar多平台可执行protoc JAR执行protobuf代码生成。
-* [License Maven Plugin](https://github.com/mathieucarbou/license-maven-plugin)：用于管理源文件中的许可证标头。
-* [Appbundle Maven Plugin](https://github.com/federkasten/appbundle-maven-plugin)：可为OS X创建包含所有项目依赖项和必要元数据的应用程序包。
-* [Duplicate-finder Maven Plugin](https://github.com/basepom/duplicate-finder-maven-plugin)：用于查找重复类或资源的Maven插件。
-* [GluonFX Maven Plugin](https://github.com/gluonhq/gluonfx-maven-plugin)：简化为Java/JavaFX Maven项目创建本机镜像的插件。
-* [Tomcat Maven Plugin](https://github.com/apache/tomcat-maven-plugin)：Tomcat Maven插件。
-* [Exec Maven Plugin](https://github.com/mojohaus/exec-maven-plugin)：可以执行Java程序的Maven插件。
-* [GWT Maven Plugin](https://github.com/tbroyer/gwt-maven-plugin)：使Maven构建GWT项目更加容易。
-* [JShell Maven Plugin](https://github.com/johnpoth/jshell-maven-plugin)：Java Shell工具(JShell)的Maven插件。
-* [Springdoc-openapi Maven Plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
-* [Cucable-Plugin](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
-* [Web3j Maven Plugin](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
-* [AspectJ Maven Plugin](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
-* [App Maven Plugin](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
-* [Mosec Maven Plugin](https://github.com/momosecurity/mosec-maven-plugin)：用于检测Maven项目的第三方依赖组件是否存在安全漏洞。
-* [Rewrite Maven Plugin](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件。
-* [Allure Maven Plugin](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
-* [Heroku Maven Plugin](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
+* [Azure](https://github.com/microsoft/azure-maven-plugins)：适用于Azure的Maven插件。
+* [Protoc-jar](https://github.com/os72/protoc-jar-maven-plugin)：使用protoc-jar多平台可执行protoc JAR执行protobuf代码生成。
+* [License](https://github.com/mathieucarbou/license-maven-plugin)：用于管理源文件中的许可证标头。
+* [Appbundle](https://github.com/federkasten/appbundle-maven-plugin)：可为OS X创建包含所有项目依赖项和必要元数据的应用程序包。
+* [Duplicate-finder](https://github.com/basepom/duplicate-finder-maven-plugin)：用于查找重复类或资源的Maven插件。
+* [GluonFX](https://github.com/gluonhq/gluonfx-maven-plugin)：简化为Java/JavaFX Maven项目创建本机镜像的插件。
+* [Tomcat](https://github.com/apache/tomcat-maven-plugin)：Tomcat Maven插件。
+* [Exec](https://github.com/mojohaus/exec-maven-plugin)：可以执行Java程序的Maven插件。
+* [GWT](https://github.com/tbroyer/gwt-maven-plugin)：使Maven构建GWT项目更加容易。
+* [JShell](https://github.com/johnpoth/jshell-maven-plugin)：Java Shell工具(JShell)的Maven插件。
+* [Springdoc-openapi](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
+* [Cucable](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
+* [Web3j](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
+* [AspectJ](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
+* [App](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
+* [Mosec](https://github.com/momosecurity/mosec-maven-plugin)：用于检测Maven项目的第三方依赖组件是否存在安全漏洞。
+* [Rewrite](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件。
+* [Allure](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
+* [Heroku](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
 
 ## Gradle插件
 
-* [Gradle Retrolambda Plugin](https://github.com/evant/gradle-retrolambda)：一个Gradle插件，用于在Java 6、7和Android中获取Java Lambda支持。
-* [Dexcount Gradle Plugin](https://github.com/KeepSafe/dexcount-gradle-plugin)：一个Gradle插件，用于报告每次构建时APK中方法引用的数量。
+* [Gradle Retrolambda](https://github.com/evant/gradle-retrolambda)：一个Gradle插件，用于在Java 6、7和Android中获取Java Lambda支持。
+* [Dexcount](https://github.com/KeepSafe/dexcount-gradle-plugin)：一个Gradle插件，用于报告每次构建时APK中方法引用的数量。
 * [Hunter](https://github.com/Leaking/Hunter)：一个快速、增量、并发的框架，用于开发Android项目的编译插件来操作字节码。
-* [Gradle Docker plugin](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
-* [Dependency Management Plugin](https://github.com/spring-gradle-plugins/dependency-management-plugin)：一个Gradle插件，提供类似Maven的依赖管理功能。
-* [JavaFX Gradle Plugin](https://github.com/FibreFoX/javafx-gradle-plugin)：用于JavaFX的Gradle插件。
-* [Google Play Plugin](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
+* [Docker](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
+* [Dependency Management](https://github.com/spring-gradle-plugins/dependency-management-plugin)：一个Gradle插件，提供类似Maven的依赖管理功能。
+* [JavaFX](https://github.com/FibreFoX/javafx-gradle-plugin)：用于JavaFX的Gradle插件。
+* [Google Play](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
 * [Clean Architecture](https://github.com/bancolombia/scaffold-clean-architecture)：用于按照最佳实践创建基于Clean Architecture的Java和Kotlin应用程序的Gradle插件。
-* [Git-Version Gradle Plugin](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
-* [Gradle Avro Plugin](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Avro的Java代码生成的Gradle插件。
+* [Git-Version](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
+* [Gradle Avro](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Avro的Java代码生成的Gradle插件。
 * [Gradle Baseline](https://github.com/palantir/gradle-baseline)：一组Gradle插件，为开发人员配置默认的代码质量工具。
-* [Gradle AWS Plugin](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
-* [Gradle Modules Plugin](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
-* [Android SVG Drawable Plugin](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
+* [Gradle AWS](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
+* [Gradle Modules](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
+* [Android SVG Drawable](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
 
 ## SDK
 
@@ -4411,7 +4411,7 @@
 * [SubEtha SMTP](https://github.com/voodoodyne/subethasmtp)：SubEtha SMTP是一个Java库，允许你的应用程序通过简单、易于理解的API接收SMTP邮件。
 * [Jakarta Mail](https://github.com/jakartaee/mail-api)：Jakarta Mail定义了一个独立于平台和协议的框架来构建邮件和消息传递应用程序。
 * [Angus Mail](https://github.com/eclipse-ee4j/angus-mail)：该项目提供了Jakarta Mail规范2.1+的实现。
-* [TrashEmail](https://github.com/rosehgal/TrashEmail)：托管的一次性电子邮件电报机器人，对隐私极其友好；
+* [TrashEmail](https://github.com/rosehgal/TrashEmail)：托管的一次性电子邮件电报机器人，对隐私极其友好。
 * [exJello](https://code.google.com/archive/p/exjello/)：exJello是一个连接到Microsoft Exchange服务器的JavaMail提供程序，它被设计为标准POP3和SMTP提供商的直接替代品。
 * [DKIM](https://www.agitos.de/dkim-for-javamail/)：DKIM是一个开源库，允许你使用域名密钥标识邮件(DKIM)对邮件进行签名。
 * [Jack Mail](https://sourceforge.net/projects/jackmailclient/)：Jack Mail Client是一个简单的邮件客户端，可以以最少的配置使用任何邮件服务器。
