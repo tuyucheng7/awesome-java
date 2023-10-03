@@ -6,194 +6,209 @@
 
 ## 目录
 
-<html>
-    <table style="margin-left: auto; margin-right: auto;">
-            <td>
-                <li><a href="#Web框架">Web框架</a></li>
-                <li><a href="#REST框架">REST框架</a></li>
-                <li><a href="#微服务框架">微服务框架</a></li>
-                <li><a href="#微服务工具">微服务工具</a></li>
-                <li><a href="#持久层框架">持久层框架</a></li>
-                <li><a href="#脚手架">脚手架</a></li>
-                <li><a href="#单元测试">单元测试</a></li>
-                <li><a href="#断言库">断言库</a></li>
-                <li><a href="#Mock框架">Mock框架</a></li>
-                <li><a href="#Mock工具">Mock工具</a></li>
-                <li><a href="#数据Mock">数据Mock</a></li>
-                <li><a href="#BDD框架">BDD框架</a></li>
-                <li><a href="#自动化工具">自动化工具</a></li>
-                <li><a href="#性能测试">性能测试</a></li>
-                <li><a href="#测试库">测试库</a></li>
-                <li><a href="#代码覆盖率">代码覆盖率</a></li>
-                <li><a href="#构建工具">构建工具</a></li>
-                <li><a href="#开源JDK">开源JDK</a></li>
-                <li><a href="#JVM编程语言">JVM编程语言</a></li>
-                <li><a href="#集成开发环境">集成开发环境</a></li>
-                <li><a href="#持续集成">持续集成</a></li>
-                <li><a href="#发布工具">发布工具</a></li>
-                <li><a href="#项目管理">项目管理</a></li>
-                <li><a href="#云原生">云原生</a></li>
-                <li><a href="#容器化工具">容器化工具</a></li>
-                <li><a href="#云服务">云服务</a></li>
-                <li><a href="#APM监控工具">APM监控工具</a></li>
-                <li><a href="#分布式追踪">分布式追踪</a></li>
-                <li><a href="#指标报告">指标报告</a></li>
-                <li><a href="#注册中心">注册中心</a></li>
-                <li><a href="#容错组件">容错组件</a></li>
-                <li><a href="#网关">网关</a></li>
-                <li><a href="#性能分析">性能分析</a></li>
-                <li><a href="#大数据框架">大数据框架</a></li>
-                <li><a href="#大数据组件">大数据组件</a></li>
-            </td>
-            <td>
-                <li><a href="#kafka-tool">Kafka管理工具</a></li>
-                <li><a href="#distributed">分布式组件</a></li>
-                <li><a href="#distributed-lock">分布式锁</a></li>
-                <li><a href="#distributed-id-generator">分布式ID生成器</a></li>
-                <li><a href="#search-engine">搜索引擎</a></li>
-                <li><a href="#graph-db">图数据库</a></li>
-                <li><a href="#embedded-db">嵌入式数据库</a></li>
-                <li><a href="#rdbms-db">关系型数据库</a></li>
-                <li><a href="#nosql-db">NoSQL数据库</a></li>
-                <li><a href="#db-conn">数据库连接池</a></li>
-                <li><a href="#mid-client">中间件客户端</a></li>
-                <li><a href="#httpclient">HTTP客户端库</a></li>
-                <li><a href="#rpc">RPC框架</a></li>
-                <li><a href="#reactive">响应式库</a></li>
-                <li><a href="#webserver">WebServer</a></li>
-                <li><a href="#websocket">WebSocket</a></li>
-                <li><a href="#gameserver">游戏服务器</a></li>
-                <li><a href="#im">IM服务器</a></li>
-                <li><a href="#jakartaee">JakartaEE实现</a></li>
-                <li><a href="#utils">工具库</a></li>
-                <li><a href="#di">依赖注入</a></li>
-                <li><a href="#aop">AOP</a></li>
-                <li><a href="#log">日志库</a></li>
-                <li><a href="#graphql">GraphQL</a></li>
-                <li><a href="#job">任务调度</a></li>
-                <li><a href="#configuration">配置库</a></li>
-                <li><a href="#bpm">业务流程管理</a></li>
-                <li><a href="#ruleengine">规则引擎</a></li>
-                <li><a href="#lowcode">低代码平台</a></li>
-                <li><a href="#erp">ERP系统</a></li>
-                <li><a href="#business">业务</a></li>
-                <li><a href="#pay">支付</a></li>
-                <li><a href="#cache">缓存库</a></li>
-                <li><a href="#pdf">PDF库</a></li>
-                <li><a href="#excel">Excel库</a></li>
-            </td>
-            <td>
-                <li><a href="#csv">CSV库</a></li>
-                <li><a href="#xml">XML库</a></li>
-                <li><a href="#file">文件库</a></li>
-                <li><a href="#reflection">反射</a></li>
-                <li><a href="#miscellaneous">杂项</a></li>
-                <li><a href="#datetime">日期时间库</a></li>
-                <li><a href="#ml">机器学习</a></li>
-                <li><a href="#nlp">自然语言处理</a></li>
-                <li><a href="#dl">深度学习</a></li>
-                <li><a href="#science">数据科学</a></li>
-                <li><a href="#math">数学库</a></li>
-                <li><a href="#genetic">遗传算法</a></li>
-                <li><a href="#face">人脸识别</a></li>
-                <li><a href="#expert-system">专家系统</a></li>
-                <li><a href="#ontology">本体库</a></li>
-                <li><a href="#semantic">语义Web</a></li>
-                <li><a href="#bioinformatics">生物信息学</a></li>
-                <li><a href="#genomics">基因组学</a></li>
-                <li><a href="#medical">医疗平台</a></li>
-                <li><a href="#concurrency">并发编程</a></li>
-                <li><a href="#security-lib">安全库</a></li>
-                <li><a href="#authentication">身份认证</a></li>
-                <li><a href="#jwt">JWT</a></li>
-                <li><a href="#oauth">OAuth</a></li>
-                <li><a href="#encryption">加密</a></li>
-                <li><a href="#transaction">事务</a></li>
-                <li><a href="#template-engine">模板引擎</a></li>
-                <li><a href="#json">JSON库</a></li>
-                <li><a href="#mapper">Bean映射</a></li>
-                <li><a href="#ssh">SSH工具</a></li>
-                <li><a href="#dns">DNS&内网穿透</a></li>
-                <li><a href="#git">Git工具</a></li>
-                <li><a href="#collection">集合库</a></li>
-                <li><a href="#functional">函数式编程</a></li>
-                <li><a href="#bytecode">字节码操作</a></li>
-            </td>
-            <td>
-                <li><a href="#image">图像处理</a></li>
-                <li><a href="#captcha">验证码</a></li>
-                <li><a href="#compress">压缩</a></li>
-                <li><a href="#crawler">爬虫</a></li>
-                <li><a href="#data">数据处理</a></li>
-                <li><a href="#annotation-processor">注解处理器</a></li>
-                <li><a href="#event-bus">事件总线</a></li>
-                <li><a href="#swagger">Swagger</a></li>
-                <li><a href="#cluster-management">集群管理</a></li>
-                <li><a href="#code-analysis">代码分析</a></li>
-                <li><a href="#maven">Maven插件</a></li>
-                <li><a href="#blockchain">Gradle插件</a></li>
-                <li><a href="#sdk">SDK</a></li>
-                <li><a href="#ethereum">以太坊</a></li>
-                <li><a href="#bitcoin">比特币</a></li>
-                <li><a href="#iot">物联网</a></li>
-                <li><a href="#mqtt">MQTT</a></li>
-                <li><a href="#finance">金融</a></li>
-                <li><a href="#sms">短信</a></li>
-                <li><a href="#spring">Spring生态</a></li>
-                <li><a href="#raft">Raft算法</a></li>
-                <li><a href="#paxos">Paxos算法</a></li>
-                <li><a href="#cqrs">CQRS框架</a></li>
-                <li><a href="#ddd">DDD框架</a></li>
-                <li><a href="#architecture">软件工程</a></li>
-                <li><a href="#migrate">迁移工具</a></li>
-                <li><a href="#jsf">JSF框架</a></li>
-                <li><a href="#bot">机器人</a></li>
-                <li><a href="#android">安卓库</a></li>
-                <li><a href="#swing">Swing库</a></li>
-                <li><a href="#javafx-lib">JavaFx库</a></li>
-                <li><a href="#javafx-ui">JavaFX样式库</a></li>
-                <li><a href="#javafx-chart">JavaFX图表库</a></li>
-                <li><a href="#javafx-tool">JavaFX小工具</a></li>
-                <li><a href="#gui">GUI程序</a></li>
-            </td>
-            <td>
-                <li><a href="#dbtool">数据库工具</a></li>
-                <li><a href="#classtool">字节码工具</a></li>
-                <li><a href="#obfuscator">字节码混淆工具</a></li>
-                <li><a href="#game-engine">游戏开发</a></li>
-                <li><a href="#agent">JVM代理</a></li>
-                <li><a href="#compiler">编译器</a></li>
-                <li><a href="#lsp">语言服务器</a></li>
-                <li><a href="#db-client">数据库驱动</a></li>
-                <li><a href="#minecraft">Minecraft</a></li>
-                <li><a href="#video">音视频处理</a></li>
-                <li><a href="#datastructure">数据结构</a></li>
-                <li><a href="#bloom">布隆过滤器</a></li>
-                <li><a href="#algorithms">算法库</a></li>
-                <li><a href="#native">原生开发库</a></li>
-                <li><a href="#hardware">硬件操作库</a></li>
-                <li><a href="#reverse-engineering">逆向工程</a></li>
-                <li><a href="#cms">开源CMS</a></li>
-                <li><a href="#network">网络库</a></li>
-                <li><a href="#statemachine">状态机</a></li>
-                <li><a href="#qrcode">二维码生成器</a></li>
-                <li><a href="#filesystem">文件系统</a></li>
-                <li><a href="#report">报表引擎</a></li>
-                <li><a href="#deploy">部署工具</a></li>
-                <li><a href="#geo">地理空间</a></li>
-                <li><a href="#serialization">序列化</a></li>
-                <li><a href="#ioutils">IO操作</a></li>
-                <li><a href="#email">邮件操作</a></li>
-                <li><a href="#rss">RSS</a></li>
-                <li><a href="#validation">校验</a></li>
-                <li><a href="#ast">词法解析</a></li>
-                <li><a href="#formal-verification">形式验证</a></li>
-                <li><a href="#regex">正则表达式</a></li>
-                <li><a href="#codegen">代码生成器</a></li>
-            </td>
-        </tr>
-    </table>
-</html>
+- [Web框架](#Web框架)
+- [REST框架](#REST框架)
+- [微服务框架](#微服务框架)
+- [微服务工具](#微服务工具)
+- [持久层框架](#持久层框架)
+- [脚手架](#脚手架)
+- [单元测试](#单元测试)
+- [断言库](#断言库)
+- [Mock框架](#Mock框架)
+- [Mock工具](#Mock工具)
+- [数据库集成测试](#数据库集成测试)
+- [数据Mock](#数据Mock)
+- [BDD框架](#BDD框架)
+- [性能测试](#性能测试)
+- [属性测试](#属性测试)
+- [Selenium生态](#Selenium生态)
+- [自动化框架](#自动化框架)
+- [自动化工具](#自动化工具)
+- [多线程测试](#多线程测试)
+- [其他测试库](#其他测试库)
+- [代码覆盖率](#代码覆盖率)
+- [构建工具](#构建工具)
+- [开源JDK](#开源JDK)
+- [JVM编程语言](#JVM编程语言)
+- [集成开发环境](#集成开发环境)
+- [持续集成](#持续集成)
+- [发布工具](#发布工具)
+- [项目管理](#项目管理)
+- [云原生](#云原生)
+- [Serverless](#Serverless)
+- [容器化工具](#容器化工具)
+- [云服务](#云服务)
+- [APM监控工具](#APM监控工具)
+- [分布式追踪](#分布式追踪)
+- [指标报告](#指标报告)
+- [注册中心](#注册中心)
+- [容错组件](#容错组件)
+- [API网关](#API网关)
+- [诊断工具](#诊断工具)
+- [性能分析](#性能分析)
+- [大数据框架](#大数据框架)
+- [大数据工具](#大数据工具)
+- [大数据组件](#大数据组件)
+- [流处理平台](#流处理平台)
+- [数据库中间件](#数据库中间件)
+- [数据湖框架](#数据湖框架)
+- [消息中间件](#消息中间件)
+- [Kafka生态](#Kafka生态)
+- [分布式组件](#分布式组件)
+- [分布式锁](#分布式锁)
+- [分布式事务](#分布式事务)
+- [ID生成器](#ID生成器)
+- [搜索引擎](#搜索引擎)
+- [图数据库](#图数据库)
+- [嵌入式数据库](#嵌入式数据库)
+- [关系型数据库](#关系型数据库)
+- [NoSQL数据库](#NoSQL数据库)
+- [数据库连接池](#数据库连接池)
+- [中间件客户端](#中间件客户端)
+- [HTTP客户端库](#HTTP客户端库)
+- [RPC框架](#RPC框架)
+- [响应式库](#响应式库)
+- [WebServer](#WebServer)
+- [WebSocket](#WebSocket)
+- [游戏服务器](#游戏服务器)
+- [IM服务器](#IM服务器)
+- [JakartaEE产品](#JakartaEE产品)
+- [工具库](#工具库)
+- [依赖注入](#依赖注入)
+- [AOP](#AOP)
+- [日志库](#日志库)
+- [GraphQL](#GraphQL)
+- [任务调度](#任务调度)
+- [配置库](#配置库)
+- [业务流程管理](#业务流程管理)
+- [规则引擎](#规则引擎)
+- [低代码平台](#低代码平台)
+- [ERP系统](#ERP系统)
+- [业务](#业务)
+- [支付](#支付)
+- [API管理](#API管理)
+- [缓存库](#缓存库)
+- [企业集成模式](#企业集成模式)
+- [PDF库](#PDF库)
+- [Excel库](#Excel库)
+- [CSV库](#CSV库)
+- [XML库](#XML库)
+- [文件库](#文件库)
+- [反射](#反射)
+- [杂项](#杂项)
+- [日期时间库](#日期时间库)
+- [机器学习](#机器学习)
+- [自然语言处理](#自然语言处理)
+- [深度学习](#深度学习)
+- [遗传算法](#遗传算法)
+- [人脸识别](#人脸识别)
+- [专家系统](#专家系统)
+- [数据科学](#数据科学)
+- [数学库](#数学库)
+- [本体库](#本体库)
+- [语义Web](#语义Web)
+- [生物信息学](#生物信息学)
+- [基因组学](#基因组学)
+- [医疗平台](#医疗平台)
+- [并发编程](#并发编程)
+- [Actor模型](#Actor模型)
+- [安全库](#安全库)
+- [身份认证](#身份认证)
+- [JWT](#JWT)
+- [OAuth](#OAuth)
+- [加密](#加密)
+- [模板引擎](#模板引擎)
+- [JSON库](#JSON库)
+- [Bean映射](#Bean映射)
+- [CLI工具](#CLI工具)
+- [SSH工具](#SSH工具)
+- [DNS、内网穿透和代理](#DNS、内网穿透和代理)
+- [Git工具](#Git工具)
+- [集合库](#集合库)
+- [函数式编程](#函数式编程)
+- [字节码操作](#字节码操作)
+- [图像处理](#图像处理)
+- [验证码](#验证码)
+- [压缩](#压缩)
+- [爬虫框架](#爬虫框架)
+- [数据处理](#数据处理)
+- [注解处理器](#注解处理器)
+- [事件总线](#事件总线)
+- [接口文档](#接口文档)
+- [集群管理](#集群管理)
+- [代码分析](#代码分析)
+- [依赖分析](#依赖分析)
+- [Maven插件](#Maven插件)
+- [Gradle插件](#Gradle插件)
+- [SDK](#SDK)
+- [API](#API)
+- [区块链](#区块链)
+- [以太坊](#以太坊)
+- [比特币](#比特币)
+- [物联网](#物联网)
+- [MQTT](#MQTT)
+- [金融](#金融)
+- [短信](#短信)
+- [Spring生态](#Spring生态)
+- [Raft算法](#Raft算法)
+- [Paxos算法](#Paxos算法)
+- [对象池](#对象池)
+- [CQRS框架](#CQRS框架)
+- [DDD框架](#DDD框架)
+- [软件工程](#软件工程)
+- [迁移工具](#迁移工具)
+- [JSF框架](#JSF框架)
+- [机器人](#机器人)
+- [安卓库](#安卓库)
+- [Swing库](#Swing库)
+- [JavaFX库](#JavaFX库)
+- [JavaFX样式库](#JavaFX样式库)
+- [JavaFX图表库](#JavaFX图表库)
+- [JavaFX小工具](#JavaFX小工具)
+- [GUI程序](#GUI程序)
+- [数据库工具](#数据库工具)
+- [字节码工具](#字节码工具)
+- [字节码混淆工具](#字节码工具)
+- [游戏开发](#游戏开发)
+- [JVM代理](#JVM代理)
+- [编译器&插件](#编译器&插件)
+- [语言服务器](#语言服务器)
+- [数据库驱动](#数据库驱动)
+- [Minecraft](#Minecraft)
+- [音视频处理](#音视频处理)
+- [数据结构](#数据结构)
+- [布隆过滤器](#布隆过滤器)
+- [算法库](#算法库)
+- [原生开发库](#原生开发库)
+- [硬件操作库](#硬件操作库)
+- [逆向工程](#逆向工程)
+- [开源CMS](#开源CMS)
+- [网络库](#网络库)
+- [状态机](#状态机)
+- [二维码生成器](#二维码生成器)
+- [文件系统](#文件系统)
+- [报表引擎](#报表引擎)
+- [部署工具](#部署工具)
+- [地理空间](#地理空间)
+- [几何学](#几何学)
+- [航空航天](#航空航天)
+- [序列化](#序列化)
+- [IO操作](#IO操作)
+- [邮件操作](#邮件操作)
+- [RSS](#RSS)
+- [OSGI](#OSGI)
+- [校验](#校验)
+- [词法解析](#词法解析)
+- [形式验证](#形式验证)
+- [正则表达式](#正则表达式)
+- [代码生成器](#代码生成器)
+- [目录服务](#目录服务)
+- [功能切换](#功能切换)
+- [表情处理](#表情处理)
+- [字符编码](#字符编码)
+- [国际化](#国际化)
+- [URL操作](#URL操作)
+- [外部进程执行](#外部进程执行)
 
 ## Web框架
 
