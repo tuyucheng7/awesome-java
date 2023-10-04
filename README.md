@@ -863,10 +863,10 @@
 * [SOFAServerless](https://github.com/sofastack/sofa-serverless)：SOFAServerless是一种模块化的应用架构模式，能够帮助大中小企业低成本地实现极速研发、运维、微服务演进和人员协作，由蚂蚁开源。
 * [Serverless Java container](https://github.com/awslabs/aws-serverless-java-container)：可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：Spring Cloud Function是基于Spring Boot的函数计算框架。
-* [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
-* [Sermant](https://github.com/huaweicloud/Sermant)：一个基于Javaagent的无代理服务网格解决方案，由华为开源。
+* [Apache OpenWhisk](https://github.com/apache/openwhisk)：一个用于构建云应用程序的Serverless函数平台，由IBM开源。
+* [Sermant](https://github.com/huaweicloud/Sermant)：基于JavaAgent的无代理服务网格解决方案，由华为开源。
 * [Sleeper](https://github.com/gchq/sleeper)：Sleeper是一种Serverless、云原生、基于日志结构合并树的可扩展键值存储，由英国政府通讯总部开源。
-* [Pulumi AWS](https://github.com/pulumi/pulumi-aws)：Pulumi的Amazon Web Services(AWS)资源提供者允许你在云程序中使用AWS资源。
+* [Pulumi AWS](https://github.com/pulumi/pulumi-aws)：Pulumi的AWS资源提供者允许你在云程序中使用AWS资源。
 * [Open Runtimes](https://github.com/open-runtimes/open-runtimes)：适用于多种编码语言的无服务器云计算运行时环境，旨在为在容器化系统中编写云功能创建一致且可预测的开放标准。
 * [Flink Stateful Functions](https://github.com/apache/flink-statefun)：Stateful Functions是一个API，它通过为Serverless架构构建的运行时来简化分布式有状态应用程序的构建。
 * [Funktion](https://github.com/funktionio/funktion-connectors)：Funktion是一个基于Kubernetes的开源事件驱动的Lambda风格编程模型。
@@ -879,16 +879,16 @@
 * [Docker Maven Plugin](https://github.com/spotify/docker-maven-plugin)：Docker的Maven插件，Spotify开源，该项目不再活跃。
 * [Docker Java](https://github.com/docker-java/docker-java)：Java Docker官方客户端。
 * [Jenkins Kubernetes](https://github.com/jenkinsci/kubernetes-plugin)：用于在Kubernetes集群中运行动态代理的Jenkins插件。
-* [Helios](https://github.com/spotify/helios)：Helios是一个Docker编排平台，用于跨整个服务器群部署和管理容器，由Spotify开源。
+* [Helios](https://github.com/spotify/helios)：一个Docker编排平台，用于跨整个服务器群部署和管理容器，由Spotify开源。
 * [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)：用于运行和创建Docker镜像的Maven插件。
 * [Spotify Docker Client](https://github.com/spotify/docker-client)：这是一个用Java编写的Docker客户端，之前被用于Spotify的许多关键生产系统，目前Spotify已不再维护该项目。
 * [Terrakube](https://github.com/AzBuilder/terrakube)：开源Terraform自动化和协作软件。
 * [Eclipse JKube](https://github.com/eclipse/jkube)：在Kubernetes上构建和部署Java应用程序。
-* [Cattle](https://github.com/rancher/cattle)：Cattle是为Rancher提供支持的编排引擎，它的主要作用是元数据管理和外部系统的编排。
+* [Cattle](https://github.com/rancher/cattle)：为Rancher提供支持的编排引擎，它的主要作用是元数据管理和外部系统的编排。
 * [DotCi](https://github.com/groupon/DotCi)：为Jenkins带来TravisCI等云CI系统的构建配置的便捷性以及Docker运行时环境配置的便捷性。
 * [Jenkins Docker](https://github.com/jenkinsci/docker-plugin)：该插件允许使用Docker将容器动态配置为Jenkins节点，它是Docker的Jenkins Cloud插件。
-* [HyScale](https://github.com/hyscale/hyscale)：HyScale是基于K8s的以应用程序为中心的抽象框架。
-* [Styx](https://github.com/spotify/styx)：Styx是一项用于触发Docker容器定期调用的服务。
+* [HyScale](https://github.com/hyscale/hyscale)：基于K8s的以应用程序为中心的抽象框架。
+* [Styx](https://github.com/spotify/styx)：用于触发Docker容器定期调用的服务。
 * [Cryostat](https://github.com/cryostatio/cryostat)：容器原生JVM应用程序，充当其他容器化JVM的桥梁，并公开安全的API，用于从云工作负载中生成、分析和检索JFR数据。
 * [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个开源Docker容器管理系统，它将容器、应用程序、集群、镜像和注册表管理集成在一处。
 * [Docker Client](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Docker客户端库。
@@ -902,19 +902,19 @@
 * [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)：Kubernetes的Pulumi资源提供程序，用于管理正在运行的集群中的API资源和工作负载。
 * [KubeHelper](https://github.com/KubeHelper/kubehelper)：通过Web界面简化了许多日常Kubernetes集群任务，搜索、分析、运行命令、Cron作业、报告、过滤器、Git同步等等。
 * [Kardio](https://github.com/tmobile/kardio)：Kardio是一个简单的工具，可以配置为在任何端点上执行运行状况检查，由T-Mobile开源。
-* [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：这是基于Kubernetes的OpenShift版本3架构的Java REST客户端。
+* [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：基于Kubernetes的OpenShift版本3架构的Java REST客户端。
 
 ## 云服务
 
-* [Apache CloudStack](https://github.com/apache/cloudstack)：CloudStack是一个开源基础设施即服务(IaaS)云计算平台。
-* [ZStack](https://github.com/zstackio/zstack)：ZStack是开源IaaS软件，旨在实现数据中心自动化，通过API管理计算、存储和网络资源。
-* [Gaia](https://github.com/gaia-app/gaia)：Gaia是一个用于Terraform模块和自助服务基础设施的Terraform UI。
+* [Apache CloudStack](https://github.com/apache/cloudstack)：CloudStack是一个开源IaaS云计算平台。
+* [ZStack](https://github.com/zstackio/zstack)：开源IaaS软件，旨在实现数据中心自动化，通过API管理计算、存储和网络资源。
+* [Gaia](https://github.com/gaia-app/gaia)：一个用于Terraform模块和自助服务基础设施的Terraform UI。
 * [CloudSim](https://github.com/Cloudslab/cloudsim)：云计算基础设施和服务的建模和仿真框架。
 * [AWS SaaS Boost](https://github.com/awslabs/aws-saas-boost)：AWS SaaS Boost为组织提供即用型核心软件元素，以便在云中成功运行SaaS工作负载，由Amazon开源。
 * [Wemirr](https://gitee.com/battcn/wemirr-platform)：优秀、简单的开源SaaS平台。
 * [HZERO](https://gitee.com/open-hand/hzero)：基于微服务架构开源免费的企业级PaaS平台，由上海汉得公司开发。
-* [J2PaaS](https://gitee.com/j2paas/j2paas-framework)：J2PaaS是吉鼎科技基于多年项目经验打造的开源PaaS开发工具。
-* [Apache Stratos](https://github.com/apache/stratos)：Stratos是一个高度可扩展的PaaS框架，可帮助运行Tomcat、PHP和MySQL应用程序，并可扩展以支持所有主要云基础设施上的更多环境。
+* [J2PaaS](https://gitee.com/j2paas/j2paas-framework)：吉鼎科技基于多年项目经验打造的开源PaaS开发工具。
+* [Apache Stratos](https://github.com/apache/stratos)：一个高度可扩展的PaaS框架，可帮助运行Tomcat、PHP和MySQL应用程序，并可扩展以支持所有主要云基础设施上的更多环境。
 * [Eclipse Jemo](https://github.com/eclipse/jemo)：Jemo旨在为基于JVM的语言提供真正的多云FaaS实现。
 * [Eclipse Dirigible](https://github.com/eclipse/dirigible)：Dirigible是一种高生产力PaaS，它提供了一个由预选执行引擎和内置Web开发工具组成的应用程序服务器，它也适合利用低代码/无代码技术来快速开发业务应用程序。
 
@@ -923,7 +923,7 @@
 * [Apache SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源(华为吴晟)。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：采用Java语言编写的链路分析和应用性能监控系统，由韩国Naver研发团队开源。
 * [Cat](https://github.com/dianping/cat)：服务端项目基础组件，可以提供系统丰富的性能指标、健康状况、实时告警等，由美团点评开源。
-* [Matrix](https://github.com/Tencent/matrix)：Matrix是微信开发的插件式、非侵入式APM系统。
+* [Matrix](https://github.com/Tencent/matrix)：微信开发的插件式、非侵入式APM系统。
 * [Hertzbeat](https://github.com/dromara/hertzbeat)：开源实时监控系统，具有自定义监控、高性能集群和无代理功能，由dromara社区开源。
 * [ArgusAPM](https://github.com/Qihoo360/ArgusAPM)：360开源的线上移动性能检测平台。
 * [Scouter](https://github.com/scouter-project/scouter)：SCOUTER是一个开源APM，类似于New Relic和AppDynamics。
@@ -935,18 +935,18 @@
 * [EasyAgent](https://github.com/megaease/easeagent)：Java系统的代理组件，MegaEase开源。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：inspectIT是领先的开源APM工具，用于分析Java应用程序。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
-* [Lightrun](https://lightrun.com/)：Lightrun是一个面向开发人员的可观察性工具。
+* [Lightrun](https://lightrun.com/)：面向开发人员的可观察性工具。
 * [XXL-APM](https://github.com/xuxueli/xxl-apm)：分布式APM平台，XXL社区开源。
 
 ## 分布式追踪
 
 * [Apache SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源(华为吴晟)。
 * [Zipkin](https://github.com/openzipkin/zipkin)：Zipkin是一个分布式追踪系统，由Twitter开源。
-* [MTrace](https://tech.meituan.com/2016/10/14/mt-mtrace.html)：美团点评内部的分布式会话跟踪系统，参考了Twitter的Zipkin以及阿里的Eagle Eye的实现。
+* [MTrace](https://tech.meituan.com/2016/10/14/mt-mtrace.html)：美团点评内部的分布式会话跟踪系统，参考了Twitter的Zipkin以及阿里的鹰眼实现。
 * [Watchman](https://www.infoq.cn/article/weibo-watchman/)：微博平台的链路追踪及服务质量保障系统。
-* [EagleEye](https://www.infoq.cn/article/jgzbemozgmbsukewff6j)：EagleEye(鹰眼)是谷歌的分布式调用跟踪系统Dapper在淘宝的Java实现。
+* [EagleEye](https://www.infoq.cn/article/jgzbemozgmbsukewff6j)：鹰眼是谷歌的分布式调用跟踪系统Dapper在淘宝的Java实现。
 * [CallGraph](https://cread.jd.com/read/startRead.action?bookId=30388376&readType=1)：京东的分布式跟踪解决方案。
-* [SOFATracer](https://github.com/sofastack/sofa-tracer)：SOFATracer是一个用于分布式系统调用跟踪的组件，由蚂蚁开源。
+* [SOFATracer](https://github.com/sofastack/sofa-tracer)：用于分布式系统调用跟踪的组件，由蚂蚁开源。
 * [Cat](https://github.com/dianping/cat)：服务端项目基础组件，可以提供系统丰富的性能指标、健康状况、实时告警等，由美团点评开源。
 * [Brave](https://github.com/openzipkin/brave)：Brave是一个分布式跟踪仪器库。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：采用Java语言编写的链路分析和应用性能监控系统，由韩国Naver研发团队开源。
@@ -955,7 +955,7 @@
 * [ApplicationInsights-Java](https://github.com/microsoft/ApplicationInsights-Java)：Java应用程序洞察工具，由微软开源。
 * [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java)：OpenTelemetry Java SDK。
 * [DataDog](https://github.com/DataDog/dd-trace-java)：DadaDog分布式跟踪工具的Java客户端。
-* [Wingtips](https://github.com/Nike-Inc/wingtips)：Wingtips是基于谷歌Dapper论文的Java分布式跟踪解决方案，由Nike开源。
+* [Wingtips](https://github.com/Nike-Inc/wingtips)：基于谷歌Dapper论文的Java分布式跟踪解决方案，由Nike开源。
 * [Micrometer Tracing](https://github.com/micrometer-metrics/tracing)：Micrometer应用程序跟踪门面。
 * [Cicada](https://github.com/Yirendai/cicada)：宜人贷分布式跟踪系统，基于谷歌Dapper论文实现。
 
@@ -969,8 +969,8 @@
 * [Metrics Spring](https://github.com/ryantenney/metrics-spring)：该项目将Dropwizard Metrics库与Spring集成，并提供XML和Java配置。
 * [Spectator](https://github.com/Netflix/spectator)：用于记录维度时间序列的检测代码的简单库，由Netflix开源。
 * [Micrometer](https://github.com/micrometer-metrics/micrometer)：最流行的可观察性工具的应用程序可观察性门面。
-* [Dubbo Metrics](https://github.com/alibaba/metrics)：Metrics(原Alibaba Metrics)是阿里巴巴内部广泛使用的度量埋点基础类库。
-* [Argus](https://github.com/salesforce/Argus)：Argus是一个时序监控和警报平台，它由离散服务组成，用于配置警报、摄取和转换指标和事件、发送通知、创建命名空间以及建立和实施策略和使用配额。
+* [Dubbo Metrics](https://github.com/alibaba/metrics)：Metrics是阿里巴巴内部广泛使用的度量埋点基础类库。
+* [Argus](https://github.com/salesforce/Argus)：一个时序监控和警报平台，它由离散服务组成，用于配置警报、摄取和转换指标和事件、发送通知、创建命名空间以及建立和实施策略和使用配额。
 * [Keycloak Metrics](https://github.com/aerogear/keycloak-metrics-spi)：向Keycloak添加指标端点的SPI，端点返回可供Prometheus抓取的指标数据。
 * [SOFALookout](https://github.com/sofastack/sofa-lookout)：SOFALookout是一个利用多维度的Metrics对目标系统进行度量和监控的项目，由蚂蚁开源。
 * [PerfMon](https://github.com/undera/perfmon-agent)：用于访问远程计算机上的系统指标的代理应用程序。
@@ -4406,7 +4406,7 @@
 
 ## 邮件操作
 
-* [Simple Java Mail](https://github.com/bbottema/simple-java-mail)：Simple Java Mail是最简单的Java轻量级邮件库，同时能够发送复杂的电子邮件，包括CLI支持、附件、嵌入图像、自定义标头和属性、强大的地址验证、构建模式甚至DKIM签名、S/MIME支持和具有属性覆盖的外部配置文件、Spring支持和电子邮件转换工具。
+* [Simple Java Mail](https://github.com/bbottema/simple-java-mail)：最简单的Java轻量级邮件库，同时能够发送复杂的电子邮件，包括CLI支持、附件、嵌入图像、自定义标头和属性、强大的地址验证、构建模式甚至DKIM签名、S/MIME支持和具有属性覆盖的外部配置文件、Spring支持和电子邮件转换工具。
 * [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)：基于GUI的虚拟SMTP服务器，可轻松测试应用程序中的电子邮件。
 * [Apache James](https://github.com/apache/james-project)：它具有基于丰富的现代高效组件的模块化架构，最终提供在JVM上运行的完整、稳定、安全和可扩展的邮件服务器。
 * [Mail Utils](https://github.com/hellokaton/oh-my-email)：非常轻量的Java邮件发送类库。
@@ -4420,13 +4420,13 @@
 * [Angus Mail](https://github.com/eclipse-ee4j/angus-mail)：该项目提供了Jakarta Mail规范2.1+的实现。
 * [TrashEmail](https://github.com/rosehgal/TrashEmail)：托管的一次性电子邮件电报机器人，对隐私极其友好。
 * [exJello](https://code.google.com/archive/p/exjello/)：exJello是一个连接到Microsoft Exchange服务器的JavaMail提供程序，它被设计为标准POP3和SMTP提供商的直接替代品。
-* [DKIM](https://www.agitos.de/dkim-for-javamail/)：DKIM是一个开源库，允许你使用域名密钥标识邮件(DKIM)对邮件进行签名。
-* [Jack Mail](https://sourceforge.net/projects/jackmailclient/)：Jack Mail Client是一个简单的邮件客户端，可以以最少的配置使用任何邮件服务器。
-* [Aspirin](https://github.com/masukomi/aspirin)：Aspirin是一个供Java开发人员使用的嵌入式仅发送SMTP服务器。
-* [Yawebmail](https://yawebmail.sourceforge.net/)：yawebmail是一个用Java编写的网络邮件客户端，作为一个Web应用程序，它支持SMTP(包括SMTP身份验证)、POP3和IMAP。
+* [DKIM](https://www.agitos.de/dkim-for-javamail/)：允许你使用域名密钥标识邮件(DKIM)对邮件进行签名的开源库。
+* [Jack Mail](https://sourceforge.net/projects/jackmailclient/)：一个简单的邮件客户端，可以以最少的配置使用任何邮件服务器。
+* [Aspirin](https://github.com/masukomi/aspirin)：供Java开发人员使用的嵌入式仅发送SMTP服务器。
+* [Yawebmail](https://yawebmail.sourceforge.net/)：用Java编写的网络邮件客户端，作为一个Web应用程序，它支持SMTP(包括SMTP身份验证)、POP3和IMAP。
 * [Aperture](https://aperture.sourceforge.net/)：Aperture是一个Java框架，用于从各种信息系统(例如文件系统、网站、邮箱)以及这些系统中出现的文件格式(例如文档、图像)中提取和查询全文内容和元数据。
 * [JMBox](https://sourceforge.net/projects/jmbox/)：jmbox项目使开发人员能够使用JavaMail API来管理存储在本地存储库(如Outlook Express、Mozilla、Netscape等)中的邮件。
-* [JavaMail Crypto](http://javamail-crypto.sourceforge.net/)：JavaMail-Crypto是一个简单、易于使用的API，它提供了使用JavaMail访问OpenPGP和S/MIME加密功能的统一方法。
+* [JavaMail Crypto](http://javamail-crypto.sourceforge.net/)：一个简单、易于使用的API，它提供了使用JavaMail访问OpenPGP和S/MIME加密功能的统一方法。
 
 ## RSS
 
