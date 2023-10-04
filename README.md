@@ -1837,24 +1837,24 @@
 ## GraphQL
 
 * [GraphQL Java](https://github.com/graphql-java/graphql-java)：GraphQL Java实现。
-* [DGS-Framework](https://github.com/netflix/dgs-framework)：DGS(Domain Graph Service)框架是由Netflix开发的Spring Boot的GraphQL服务器框架。
+* [DGS-Framework](https://github.com/netflix/dgs-framework)：由Netflix开发的Spring Boot的GraphQL服务器框架。
 * [Apollo Kotlin](https://github.com/apollographql/apollo-kotlin)：适用于JVM、Android和Kotlin多平台的强类型缓存GraphQL客户端。
 * [Rejoiner](https://github.com/google/rejoiner)：用于从gRPC微服务和其他Protobuf源生成统一的GraphQL模式，由谷歌开发。
 * [Spring GraphQL](https://github.com/spring-projects/spring-graphql)：GraphQL的Spring集成。
-* [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)：构建在graphql-java之上，可简化在Kotlin中运行GraphQL客户端和服务器。
+* [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)：构建在GraphQL Java之上，可简化在Kotlin中运行GraphQL客户端和服务器。
 * [GraphQL SPQR](https://github.com/leangen/graphql-spqr)：可以让任何Java项目添加GraphQL API变得非常简单，它的工作原理是从Java代码动态生成GraphQL模式。
 * [GraphQL SPQR Starter](https://github.com/leangen/graphql-spqr-spring-boot-starter)：由GraphQL SPQR提供支持的Spring Boot Starter。
 * [GraphQL Spring Boot](https://github.com/graphql-java-kickstart/graphql-spring-boot)：集成GraphQL Java和Spring Boot的库。
 * [Elide](https://github.com/yahoo/elide)：Elide是一个Java库，可以轻松设置模型驱动的GraphQL或JSON API Web服务，由Yahoo开源。
 * [GraphQL-Java Annotations](https://github.com/Enigmatis/graphql-java-annotations)：该库为GraphQL模式定义提供基于注解的语法。
 * [KGraphQL](https://github.com/aPureBase/KGraphQL)：GraphQL的纯Kotlin实现。
-* [GraphQL-Calculator](https://github.com/graphql-calculator/graphql-calculator)：一个轻量级的GraphQL计算引擎，用于改变查询的执行行为。
+* [GraphQL-Calculator](https://github.com/graphql-calculator/graphql-calculator)：轻量级的GraphQL计算引擎，用于改变查询的执行行为。
 * [Microprofile GraphQL](https://github.com/eclipse/microprofile-graphql)：MicroProfile框架中用于构建GraphQL应用程序的GraphQL服务器和客户端规范。
 * [Nodes](https://github.com/americanexpress/nodes)：Nodes是一个GraphQL客户端，旨在根据标准模型定义构建查询。
 * [GraphQL Java Generator](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：GraphQL Java生成器可以轻松地以模式优先的方式在Java中使用GraphQL。
 * [GraphQL Codegen](https://github.com/kobylynskyi/graphql-java-codegen)：GraphQL Java代码生成器可以轻松地让你的Java应用程序遵循模式优先的方法，无论它是服务器应用程序还是客户端应用程序。
 * [GraphQL JPA](https://github.com/introproventures/graphql-jpa-query)：可以为JPA实体模型生成GraphQL查询API。
-* [HyperGraphQL](https://github.com/hypergraphql/hypergraphql)：HyperGraphQL是一个GraphQL接口，用于在Web上查询和提供链接数据。
+* [HyperGraphQL](https://github.com/hypergraphql/hypergraphql)：一个GraphQL接口，用于在Web上查询和提供链接数据。
 
 ## 任务调度
 
@@ -1871,7 +1871,7 @@
 * [Apache Aurora](https://github.com/apache/aurora)：用于长时间运行的服务、cron作业和临时作业的Mesos框架，该项目在Apache基金会下已经退役。
 * [DB Scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
 * [OpenJob](https://github.com/open-job/openjob)：分布式高性能任务调度框架。
-* [PlumeJob](https://gitee.com/plumeorg/plumejob)：PlumeJob是一个去中心化的分布式调度系统，集成简单易用，并可和PlumeLog整合。
+* [PlumeJob](https://gitee.com/plumeorg/plumejob)：一个去中心化的分布式调度系统，集成简单易用，并可和PlumeLog整合。
 * [Sundial](https://github.com/knowm/Sundial)：轻量级的作业调度框架。
 * [Kob](https://github.com/LianjiaTech/kob)：中心化的作业调度系统，定义了任务调度模型，实现了任务调度的统一管理和监控，由链家开源。
 * [Wisp](https://github.com/Coreoz/Wisp)：一个简单的Java调度库，具有最小的占用空间和简单的API。
@@ -1882,9 +1882,9 @@
 * [SIA-TASK](https://github.com/siaorg/sia-task)：宜信开源的微服务任务调度框架。
 * [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
-* [Chronus](https://github.com/360digitech/chronus)：Chronus是360金融技术团队基于阿里开源项目TBSchedule进行重写的分布式调度平台。
+* [Chronus](https://github.com/360digitech/chronus)：360金融技术团队基于阿里开源项目TBSchedule进行重写的分布式调度平台。
 * [Earth-Frost](https://gitee.com/justlive1/earth-frost)：只依赖Redis的分布式任务调度实现版本。
-* [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务编排和高可用性的一站式的分布式任务调度系统，由dromara社区开源。
+* [Hodor](https://github.com/dromara/hodor)：一个专注于任务编排和高可用性的一站式的分布式任务调度系统，由dromara社区开源。
 
 ## 配置库
 
@@ -1904,7 +1904,7 @@
 * [CFG4J](https://github.com/cfg4j/cfg4j)：用Java编写的分布式应用程序的现代配置库。
 * [Configurate](https://github.com/SpongePowered/Configurate)：一个简单的Java应用程序配置库，提供节点结构、多种格式和转换工具。
 * [Avaje Config](https://github.com/avaje/avaje-config)：JVM应用程序的应用程序配置/属性加载库。
-* [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
+* [Shepher](https://github.com/XiaoMi/shepher)：ZooKeeper管理工具，在小米作为配置管理中心使用。
 * [Directories](https://github.com/dirs-dev/directories-jvm)：一个提供配置/缓存/数据路径的小型库，遵循Linux、macOS、BSD和Windows上的相应约定。
 * [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的JVM配置库，由Accenture开源。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
@@ -1912,7 +1912,7 @@
 
 ## 业务流
 
-* [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和业务流程管理(BPM)平台，面向业务人员、开发人员和系统管理员。
+* [Activiti](https://github.com/Activiti/Activiti)：一个轻量级工作流程和业务流程管理(BPM)平台，面向业务人员、开发人员和系统管理员。
 * [Flowable](https://github.com/flowable/flowable-engine)：为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和业务流程管理(BPM)平台。
 * [Camunda](https://github.com/camunda/camunda-bpm-platform)：使用BPMN和DMN实现工作流程和决策自动化的灵活框架。与Spring、Spring Boot、CDI集成。
 * [Apache Dolphinscheduler](https://github.com/apache/dolphinscheduler)：DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程，由易观开源。
@@ -1923,15 +1923,15 @@
 * [Compileflow](https://github.com/alibaba/compileflow)：阿里开源的高性能流程编排引擎。
 * [Bulbasaur](https://github.com/alibaba/bulbasaur)：阿里开源的可插拔的精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
 * [SmartEngine](https://github.com/alibaba/SmartEngine)：阿里开源的一个轻量级的业务编排引擎。
-* [Kestra](https://github.com/kestra-io/kestra)：Kestra是一个无限可扩展的编排和调度平台，可创建、运行、调度和监控数百万个复杂的管道。
-* [Azkaban](https://github.com/azkaban/azkaban)：Azkaban是LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
+* [Kestra](https://github.com/kestra-io/kestra)：一个无限可扩展的编排和调度平台，可创建、运行、调度和监控数百万个复杂的管道。
+* [Azkaban](https://github.com/azkaban/azkaban)：LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
 * [Imixs-Workflow](https://github.com/imixs/imixs-workflow)：用于业务流程管理的开源框架。
 * [Bonita](https://github.com/bonitasoft/bonita-engine)：部署、执行、管理使用Bonita studio或通过Engine API制作的基于流程的应用程序。
-* [TFlow](https://gitee.com/bestfeng/oa_git_free)：行云流程引擎(TFlow)源自云网OA，自2006年起，历经16年，服务过上千家客户。
+* [TFlow](https://gitee.com/bestfeng/oa_git_free)：TFlow源自云网OA，自2006年起，历经16年，服务过上千家客户。
 * [Digdag](https://github.com/treasure-data/digdag)：工作负载自动化系统。
 * [Cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
 * [AgileBPM](https://gitee.com/agile-bpm)：快速、简洁且强大的低代码流程开发平台。
-* [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。
+* [Schedulis](https://github.com/WeBankFinTech/Schedulis)：基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。
 * [TestHub](https://gitee.com/dromara/TestHub)：基于流程编排的国产自动化测试工具。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎。
@@ -1939,7 +1939,7 @@
 
 ## 规则引擎
 
-* [Drools](https://github.com/kiegroup/drools)：Drools是Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
+* [Drools](https://github.com/kiegroup/drools)：Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
 * [Easy Rules](https://github.com/j-easy/easy-rules)：简单的Java规则引擎。
 * [Liteflow](https://github.com/dromara/liteflow)：dromara开源的轻量级、快速、稳定、可编程的基于组件的规则引擎/流程引擎。
 * [Radar](https://github.com/wfh45678/radar)：一款基于Java语言，使用Spring Boot + MongoDB + Groovy + Es等框架搭建的轻量级实时风控引擎。
