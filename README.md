@@ -659,6 +659,9 @@
 * [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：使用Docker Compose管理Docker容器的JUnit Rule。
 * [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
 * [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
+* [TestParameterInjector](https://github.com/google/TestParameterInjector)：一个简单但功能强大的Java参数化测试运行器，由谷歌开源。
+* [JGotesting](https://github.com/tastapod/jgotesting)：受Go测试包启发的JUnit兼容测试工具。
+* [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
 
 #### 其他测试库
 
@@ -670,19 +673,16 @@
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：可用于Java单元测试来验证equals和hashCode方法的约定是否得到满足。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：可以自动生成包括边缘情况的测试实例，由Naver开源。
 * [OpenTest4J](https://github.com/ota4j-team/opentest4j)：JVM开放测试联盟。
-* [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
 * [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：用于Java程序的无GUI浏览器。
 * [XmlUnit](https://github.com/xmlunit/xmlunit)：一个支持以多种方式测试XML输出的库。
 * [Arquillian](https://github.com/arquillian/arquillian-core)：Arquillian提供了用于集成测试的组件模型，其中包括依赖注入和容器生命周期管理。
 * [MicroShed](https://github.com/MicroShed/microshed-testing)：用于黑盒测试MicroProfile和Jakarta EE应用程序的测试框架。
-* [JGotesting](https://github.com/tastapod/jgotesting)：受Go测试包启发的JUnit兼容测试工具。
 * [Pact](https://github.com/pact-foundation/pact-jvm)：Pact的JVM版本，用于编写消费者驱动的契约测试。
 * [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
 * [Proctor](https://github.com/indeedeng/proctor)：一个基于Java的A/B测试框架，由Indeed开发并大量使用。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [LogCaptor](https://github.com/Hakky54/log-captor)：一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
-* [TestParameterInjector](https://github.com/google/TestParameterInjector)：一个简单但功能强大的Java参数化测试运行器，由谷歌开源。
 * [Spring Addons](https://github.com/ch4mpy/spring-addons)：提供OAuth2资源服务器配置和测试的库。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
 * [Cucumber Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
