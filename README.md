@@ -26,6 +26,7 @@
 - [自动化框架](#自动化框架)
 - [自动化工具](#自动化工具)
 - [多线程测试](#多线程测试)
+- [JUnit扩展](#JUnit扩展)
 - [其他测试库](#其他测试库)
 - [代码覆盖率](#代码覆盖率)
 - [构建工具](#构建工具)
@@ -246,6 +247,7 @@
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [CUBA](https://github.com/cuba-platform/cuba)：CUBA平台是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 * [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
+* [Minum](https://github.com/byronka/minum)：一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
 
 ## REST框架
 
@@ -644,6 +646,20 @@
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit)：一个简单的、零依赖的工具包，用于测试多线程代码。
 * [Tempus Fugit](https://github.com/tobyweston/tempus-fugit)：用于编写和测试并发代码的库。
 
+#### JUnit扩展
+
+* [HiveRunner](https://github.com/HiveRunner/HiveRunner)：基于JUnit 4和5的Hive查询开源单元测试框架。
+* [ReRunner](https://github.com/artsok/rerunner-jupiter)：ReRunner是Junit 5的扩展，可以立即重新运行失败的JUnit 5测试。
+* [JUnit Pioneer](https://github.com/junit-pioneer/junit-pioneer)：JUnit 5扩展包，提供很多JUnit 5没有的Extension。
+* [JUnitParams](https://github.com/Pragmatists/JUnitParams)：JUnit 4的参数化测试扩展。
+* [System Rules](https://github.com/stefanbirkner/system-rules)：用于测试使用java.lang.System的代码的JUnit Rule集合。
+* [System Lambda](https://github.com/stefanbirkner/system-lambda)：用于测试使用java.lang.System的代码的函数集合。
+* [System Stubs](https://github.com/webcompere/system-stubs)：Java系统资源的测试替身。
+* [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
+* [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：使用Docker Compose管理Docker容器的JUnit Rule。
+* [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
+* [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
+
 #### 其他测试库
 
 * [Testcontainers](https://github.com/testcontainers/testcontainers-java)：一个用于在测试中启动Docker容器的库。
@@ -657,28 +673,20 @@
 * [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：随机测试工具。
 * [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：用于Java程序的无GUI浏览器。
 * [XmlUnit](https://github.com/xmlunit/xmlunit)：一个支持以多种方式测试XML输出的库。
-* [JUnit Pioneer](https://github.com/junit-pioneer/junit-pioneer)：JUnit 5扩展包，提供很多JUnit 5没有的Extension。
-* [JUnitParams](https://github.com/Pragmatists/JUnitParams)：JUnit 4的参数化测试扩展。
-* [System Rules](https://github.com/stefanbirkner/system-rules)：用于测试使用java.lang.System的代码的JUnit Rule集合。
-* [System Lambda](https://github.com/stefanbirkner/system-lambda)：用于测试使用java.lang.System的代码的函数集合。
-* [System Stubs](https://github.com/webcompere/system-stubs)：Java系统资源的测试替身。
 * [Arquillian](https://github.com/arquillian/arquillian-core)：Arquillian提供了用于集成测试的组件模型，其中包括依赖注入和容器生命周期管理。
 * [MicroShed](https://github.com/MicroShed/microshed-testing)：用于黑盒测试MicroProfile和Jakarta EE应用程序的测试框架。
 * [JGotesting](https://github.com/tastapod/jgotesting)：受Go测试包启发的JUnit兼容测试工具。
 * [Pact](https://github.com/pact-foundation/pact-jvm)：Pact的JVM版本，用于编写消费者驱动的契约测试。
 * [Wasabi](https://github.com/intuit/wasabi)：A/B测试工具，不再处于开发状态。
 * [Proctor](https://github.com/indeedeng/proctor)：一个基于Java的A/B测试框架，由Indeed开发并大量使用。
-* [EvoSuite](https://github.com/EvoSuite/evosuite)：自动生成Java类的JUnit测试套件。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：Java Web测试框架。
 * [LogCaptor](https://github.com/Hakky54/log-captor)：一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
-* [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：JUnit 5格式驱动的参数化测试。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
 * [TestParameterInjector](https://github.com/google/TestParameterInjector)：一个简单但功能强大的Java参数化测试运行器，由谷歌开源。
 * [Spring Addons](https://github.com/ch4mpy/spring-addons)：提供OAuth2资源服务器配置和测试的库。
-* [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：使用Docker Compose管理Docker容器的JUnit Rule。
-* [NoSQLUnit](https://github.com/lordofthejars/nosql-unit)：NoSQLUnit是一个JUnit扩展，可用于编写NoSQL单元测试。
 * [AREX](https://github.com/arextest/arex-agent-java)：Arex是一个围绕利用现实世界数据(即数据库记录、服务负载、缓存项等)进行回归测试的非常简单的原则设计的框架。
 * [Cucumber Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
+* [Descartes](https://github.com/STAMP-project/pitest-descartes)：Descartes通过报告所覆盖代码中的弱点来支持开发人员改进他们的测试套件。
 * [ACTS](https://github.com/sofastack/sofa-acts)：基于数据模型驱动的白盒测试框架，由蚂蚁开源。
 * [GraphicsFuzz](https://github.com/google/graphicsfuzz)：一组用于测试shader编译器的工具，由谷歌开源。
 * [Firing Range](https://github.com/google/firing-range)：Firing Range是Web应用程序安全扫描器的测试台，为一系列漏洞提供综合、广泛的覆盖，由谷歌开源。
