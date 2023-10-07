@@ -446,7 +446,7 @@
 * [JUnit 5](https://github.com/junit-team/junit5)：JUnit的全新版本框架。
 * [TestNG](https://github.com/testng-team/testng)：TestNG测试框架。
 * [Spock](https://github.com/spockframework/spock)：基于Groovy的测试框架，支持数据驱动、Mock等功能。
-* [Robolectric](https://github.com/robolectric/robolectric)：一个Android的单元测试框架。
+* [Robolectric](https://github.com/robolectric/robolectric)：Android单元测试框架。
 * [Kotest](https://github.com/kotest/kotest)：强大、优雅且灵活的Kotlin测试框架，具有额外的断言、属性测试和数据驱动测试功能。
 * [TestFX](https://github.com/TestFX/TestFX)：用于JavaFX的单元测试框架。
 * [ScalaTest](https://github.com/scalatest/scalatest)：面向Scala和Java开发人员的测试工具。
@@ -505,8 +505,9 @@
 * [gRPC Mock](https://github.com/Fadelis/grpcmock)：一个gRPC Java测试工具，可轻松Mock gRPC服务端点以进行集成测试或单元测试。
 * [GwtMockito](https://github.com/google/gwtmockito)：用于GWT应用程序的测试工具，由谷歌开源。
 * [Betamax](https://github.com/betamaxteam/betamax)：Betamax是一个用于在测试中模拟外部HTTP资源的工具，该项目的灵感来自于Ruby的VCR库。
+* [S3Ninja](https://github.com/scireum/s3ninja)：S3Ninja模拟Amazon S3 API以用于开发和测试目的。
 
-#### 数据库集成测试
+#### 集成测试
 
 * [Embedded Kafka](https://github.com/embeddedkafka/embedded-kafka)：用于为测试提供内存中Kafka实例的库。
 * [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
@@ -517,6 +518,11 @@
 * [Embedded Database](https://github.com/zonkyio/embedded-database-spring-test)：用于为Spring支持的集成测试创建隔离的嵌入式数据库的库。
 * [Embedded ElasticSearch](https://github.com/allegro/embedded-elasticsearch)：简化使用Elasticsearch创建集成测试的工具。
 * [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：提供了在集成测试中运行Consul的简单方法。
+* [DbFit](https://github.com/dbfit/dbfit)：DbFit是一个数据库测试框架，支持对数据库代码进行简单的测试驱动开发。
+* [DbSetup](https://github.com/Ninja-Squad/DbSetup)：DbSetup允许在执行自动化集成测试(通常是DAO/Repository自动化测试)之前填充数据库。
+* [Kafka JUnit](https://github.com/salesforce/kafka-junit)：该库包装了Kafka的嵌入式测试集群，使你可以更轻松地使用JUnit针对在测试上下文中运行的真实kafka服务器创建和运行集成测试。
+* [ElasticSearch Test](https://github.com/tlrx/elasticsearch-test)：一个让ElasticSearch单元测试变得轻而易举的框架。
+* [LDAP Server](https://github.com/intoolswetrust/ldap-server)：用于测试目的的简单内存LDAP服务器。
 
 #### 数据Mock
 
@@ -692,6 +698,10 @@
 * [Firing Range](https://github.com/google/firing-range)：Firing Range是Web应用程序安全扫描器的测试台，为一系列漏洞提供综合、广泛的覆盖，由谷歌开源。
 * [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer)：由Code Intelligence开发的适用于JVM平台的覆盖率引导的进程内模糊器。它基于libFuzzer，并将许多由仪器驱动的突变功能引入JVM。
 * [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector)：报告给定类的实例是否是不可变。
+* [RESTest](https://github.com/isa-group/RESTest)：RESTest是一个用于RESTful Web API自动化黑盒测试的框架。
+* [Randoop](https://github.com/randoop/randoop)：Randoop是Java的单元测试生成器，可以自动为你的类创建JUnit格式的单元测试。
+* [Rest Driver](https://github.com/rest-driver/rest-driver)：测试驱动来测试你的RESTful服务和客户端。
+* [GraphWalker](https://github.com/GraphWalker/graphwalker-project)：一个基于模型的开源测试工具。
 
 ## 代码覆盖率
 
@@ -1149,6 +1159,7 @@
 * [Cloudbreak](https://github.com/hortonworks/cloudbreak)：部署在云服务上的集成分析和数据管理平台，它提供广泛的数据分析和人工智能功能以及安全的用户访问和数据治理功能，由Hortonworks开源。
 * [AGEIPort](https://github.com/alibaba/AGEIPort)：数字供应链孵化并在阿里巴巴集团内广泛使用的一套性能卓越、稳定可靠、功能丰富、易于扩展、生态完整的数据导入导出方案，由阿里开源。
 * [YCSB](https://github.com/brianfrankcooper/YCSB)：雅虎云服务基准测试框架。
+* [Flink Spector](https://github.com/ottogroup/flink-spector)：Flink单元测试框架。
 
 ## 大数据组件
 
@@ -1762,6 +1773,7 @@
 * [Triava](https://github.com/trivago/triava)：Triava项目包含几个trivago的基于Java项目的核心库：缓存、集合、注解、并发库等等。
 * [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
 * [Bus](https://github.com/aoju/bus)：包含大量工具的基础框架、服务套件。
+* [Java Util](https://github.com/jdereg/java-util)：提供非常多与其他工具库功能不同的实用程序。
 
 ## 依赖注入
 
@@ -2833,6 +2845,7 @@
 * [Progressbar](https://github.com/ctongfei/progressbar)：Java/JVM基于终端的进度条。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：高级控制台文本用户界面库，具有可鼠标拖动的窗口、内置终端窗口管理器和Sixel图像支持。
 * [SQLLine](https://github.com/julianhyde/sqlline)：用于通过JDBC向关系型数据库发出SQL的命令行Shell。
+* [Extract](https://github.com/ICIJ/extract)：用于并行、分布式内容提取的跨平台命令行工具。
 
 ## SSH工具
 
@@ -3820,6 +3833,7 @@
 * [BlobSaver](https://github.com/airsquared/blobsaver)：用于自动保存SHSH blob的跨平台GUI和CLI应用程序。
 * [Gephi](https://github.com/gephi/gephi/)：可视化跨平台网络图形化操作程序。
 * [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
+* [Datashare](https://github.com/ICIJ/datashare)：Datashare是由国际调查记者联盟(ICIJ)开发的自托管文档搜索引擎。
 
 #### 数据库工具
 
