@@ -39,6 +39,7 @@
 - [云原生](#云原生)
 - [Serverless](#Serverless)
 - [容器化工具](#容器化工具)
+- [DevOps](#DevOps)
 - [云服务](#云服务)
 - [APM监控工具](#APM监控工具)
 - [分布式追踪](#分布式追踪)
@@ -638,6 +639,7 @@
 * [AutoMeter](https://gitee.com/season-fan/autometer-api)：一款针对分布式服务、微服务API做功能和性能一体化的自动化测试平台。
 * [HydraLab](https://github.com/microsoft/HydraLab)：一个可以帮助利用现有的测试设备/机器轻松构建云测试平台的框架，由微软开源。
 * [RESTClient](https://github.com/wiztools/rest-client)：RESTClient是一个用于测试RESTful Web服务的Java应用程序。
+* [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。
 * [Hamibot](https://github.com/hamibot/hamibot)：一款Android平台JavaScript自动化工具，无需Root，基于Auto.js。
 * [AppiumTestDistribution](https://github.com/AppiumTestDistribution/AppiumTestDistribution)：一个用于跨设备并行运行Android和iOS Appium测试的工具。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：一个自动测试数据库管理系统以发现其实现中的逻辑错误的工具。
@@ -847,7 +849,6 @@
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。
 * [Spring Cloud Kubernetes](https://github.com/spring-cloud/spring-cloud-kubernetes)：Kubernetes与Spring Cloud Discovery客户端、配置等集成。
 * [HummerRisk](https://github.com/chaitin/HummerRisk)：云原生安全平台，包括混合云安全治理和云原生安全检测。
-* [SREWorks](https://github.com/alibaba/SREWorks)：SREWorks专注于以应用为中心的开发模式，提供一站式云原生数智化运维SaaS管理套件，由阿里开源。
 * [Siddhi](https://github.com/siddhi-io/siddhi)：一个云原生流式处理和复杂事件处理引擎。
 * [Apache EventMesh](https://github.com/apache/eventmesh)：新一代无服务器事件中间件，用于构建分布式事件驱动应用程序。
 * [PacBot](https://github.com/tmobile/pacbot)：用于云持续合规性监控、合规性报告和安全自动化的平台，由T-Mobile开源。
@@ -913,7 +914,6 @@
 * [Docker Client](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Docker客户端库。
 * [Kubernetes Java](https://github.com/kubernetes-client/java)：kubernetes的官方Java客户端库。
 * [Kubernetes & OpenShift Client](https://github.com/fabric8io/kubernetes-client)：适用于Kubernetes和OpenShift的Java客户端。
-* [OpsCloud4](https://github.com/ixrjog/opscloud4)：用于云上运维的工具，提供持续交付、多实例动态数据源、堡垒机等功能。
 * [StackGres](https://github.com/ongres/stackgres)：StackGres是Kubernetes的全栈PostgreSQL发行版，打包到一个简单的部署单元中，拥有一组精心挑选和调整的周边PostgreSQL组件。
 * [Kubernetes Operators](https://github.com/operator-framework/java-operator-sdk)：Java Operator SDK是一个生产就绪的框架，可以轻松地在Java中实现Kubernetes Operator。
 * [Dekorate](https://github.com/dekorateio/dekorate)：用于生成Kubernetes相关清单的工具。
@@ -922,6 +922,16 @@
 * [KubeHelper](https://github.com/KubeHelper/kubehelper)：通过Web界面简化了许多日常Kubernetes集群任务，搜索、分析、运行命令、Cron作业、报告、过滤器、Git同步等等。
 * [Kardio](https://github.com/tmobile/kardio)：Kardio是一个简单的工具，可以配置为在任何端点上执行运行状况检查，由T-Mobile开源。
 * [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：基于Kubernetes的OpenShift版本3架构的Java REST客户端。
+
+## DevOps
+
+* [DHorse](https://github.com/512team/dhorse)：DHorse是一个简单易用的轻量级的云应用管理平台，不需要理解容器和K8S的概念，具有多云和多环境管理、应用管理和部署、服务治理等功能。
+* [EazyBuilder](https://github.com/iSoftStoneGroup/EazyBuilder)：EazyBuilder是一套完整的云原生架构下的DevOps平台项目。
+* [OpsCloud4](https://github.com/ixrjog/opscloud4)：用于云上运维的工具，提供持续交付、多实例动态数据源、堡垒机等功能。
+* [SREWorks](https://github.com/alibaba/SREWorks)：SREWorks专注于以应用为中心的开发模式，提供一站式云原生数智化运维SaaS管理套件，由阿里开源。
+* [WGCLOUD](https://github.com/tianshiyeben/wgcloud)：Linux运维监控工具，支持系统硬件信息、内存、CPU、温度、磁盘空间及IO、硬盘smart、系统负载、网络流量等监控。
+* [MoSKito](https://github.com/anotheria/moskito)：MoSKito是一个开源系统，用于监控Java Web应用程序的性能和行为。
+* [Choerodon](https://gitee.com/choerodon/choerodon)：全场景效能平台，提供体系化方法论和协作、测试、DevOps及容器工具。
 
 ## 云服务
 
@@ -1208,6 +1218,7 @@
 * [Suro](https://github.com/Netflix/suro)：一种数据管道服务，用于收集、聚合和调度大量应用程序事件(包括日志数据)，由Netflix开发。
 * [Maxwell](https://github.com/zendesk/maxwell)：一个变更数据捕获应用程序，它读取MySQL二进制日志并将数据变更以JSON形式写入Kafka、Kinesis和其他流平台，由Zendesk开源。
 * [MdRill](https://github.com/alibaba/mdrill)：MdRill作为数据在线分析处理软件，可以在几秒到几十秒的时间，分析百亿级别的任意组合维度的数据，由阿里开源。
+* [Apache Apex](https://github.com/apache/apex-core)：Apache Apex是一个用于大数据流和批处理的统一平台，由DataTorrent开源。
 
 ## 流处理平台
 
@@ -1518,7 +1529,6 @@
 * [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端。
 * [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
 * [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
-* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
 * [Paho](https://github.com/eclipse/paho.mqtt.java)：Paho Java MQTT客户端库，Paho是一个Eclipse IoT项目。
 * [Amazon Kinesis Client](https://github.com/awslabs/amazon-kinesis-client)：适用于Java的Amazon Kinesis客户端库。
 * [HiveMQ MQTT Client](https://github.com/hivemq/hivemq-mqtt-client)：MQTT 5.0和3.1.1兼容且功能丰富的高性能Java客户端库，具有不同的API风格和背压支持。
@@ -1788,7 +1798,7 @@
 * [Javax-Inject](https://github.com/javax-inject/javax-inject)：JSR-330依赖注入标准。
 * [CDI](https://www.cdi-spec.org/)：CDI规范，定义了一组强大的补充服务。
 * [Apache OpenWebBeans](https://github.com/apache/openwebbeans)：上下文和依赖注入2.0规范(CDI-2.0)的实现。
-* [Sisu](https://github.com/eclipse/sisu.inject)：一个基于JSR 330的模块化容器，支持类路径扫描、自动绑定和动态自动装配。
+* [Sisu](https://github.com/eclipse/sisu.inject)：基于JSR 330的模块化容器，支持类路径扫描、自动绑定和动态自动装配。
 * [Weld](https://github.com/weld/core)：Weld是CDI的参考实现。
 * [Coody](https://gitee.com/coodyer/Coody-Framework)：国产IOC框架，轻量级、简单快速。
 * [Scaldi](https://github.com/scaldi/scaldi)：轻量级Scala依赖注入库。
@@ -1868,7 +1878,7 @@
 * [GraphQL SPQR Starter](https://github.com/leangen/graphql-spqr-spring-boot-starter)：由GraphQL SPQR提供支持的Spring Boot Starter。
 * [GraphQL Spring Boot](https://github.com/graphql-java-kickstart/graphql-spring-boot)：集成GraphQL Java和Spring Boot的库。
 * [Elide](https://github.com/yahoo/elide)：Elide是一个Java库，可以轻松设置模型驱动的GraphQL或JSON API Web服务，由Yahoo开源。
-* [GraphQL-Java Annotations](https://github.com/Enigmatis/graphql-java-annotations)：该库为GraphQL模式定义提供基于注解的语法。
+* [GraphQL Java Annotations](https://github.com/Enigmatis/graphql-java-annotations)：该库为GraphQL模式定义提供基于注解的语法。
 * [KGraphQL](https://github.com/aPureBase/KGraphQL)：GraphQL的纯Kotlin实现。
 * [GraphQL-Calculator](https://github.com/graphql-calculator/graphql-calculator)：轻量级的GraphQL计算引擎，用于改变查询的执行行为。
 * [Microprofile GraphQL](https://github.com/eclipse/microprofile-graphql)：MicroProfile框架中用于构建GraphQL应用程序的GraphQL服务器和客户端规范。
@@ -2083,9 +2093,9 @@
 * [Apache PDFBox](https://github.com/apache/pdfbox)：Apache下用于处理PDF文档的开源Java工具。
 * [iText](https://github.com/itext/itext7)：一个易于使用的PDF函数库，用来编程创建PDF文件。
 * [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF)：本地托管的Web应用程序，允许你对PDF文件执行各种操作。
-* [OpenPDF](https://github.com/LibrePDF/OpenPDF)：OpenPDF是一个免费的Java库，用于使用LGPL和MPL开源许可证创建和编辑PDF文件。
+* [OpenPDF](https://github.com/LibrePDF/OpenPDF)：一个免费的Java库，用于使用LGPL和MPL开源许可证创建和编辑PDF文件。
 * [X-EasyPDF](https://gitee.com/dromara/x-easypdf)：dromara开源的PDF文档库。
-* [PDF2JSON](https://github.com/modesty/pdf2json)：一个PDF文件解析器，可将PDF二进制文件转换为基于文本的JSON，由PDF.JS的分支提供支持。
+* [PDF2JSON](https://github.com/modesty/pdf2json)：一个PDF文件解析器，可将PDF二进制文件转换为基于文本的JSON。
 * [OPENHTMLTOPDF](https://github.com/danfickle/openhtmltopdf)：用于JVM的HTML到PDF的转换库，基于Flying Saucer和PDF-BOX2。
 * [Tabula-Java](https://github.com/tabulapdf/tabula-java)：从PDF文件中提取表格的工具库。
 * [PDFLayoutTextStripper](https://github.com/JonathanLink/PDFLayoutTextStripper)：将PDF文件转换为文本文件，同时保留原始PDF的布局。
@@ -3127,11 +3137,10 @@
 * [Knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和OpenAPI 3为一体的增强解决方案。
 * [Springfox](https://github.com/springfox/springfox)：使用Spring构建的API的自动化JSON API文档。
 * [Swagger Parser](https://github.com/swagger-api/swagger-parser)：Swagger Parser是Swagger工具之一，可以帮助解析OpenAPI文档并提取其各个组件。
-* [SpringDoc-OpenAPI](https://github.com/springdoc/springdoc-openapi)：Springdoc-openapi是一个用于Spring Boot项目的OpenAPI 3实现。
-* [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
-* [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot集成Swagger的Starter。
+* [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：Springdoc-openapi是一个用于Spring Boot项目的OpenAPI 3实现。
+* [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)：OpenAPI Generator允许在给定OpenAPI 规范的情况下自动生成API客户端库(SDK生成)、服务器存根、文档和配置。
+* [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot Swagger Starter。
 * [Swagger2Word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
-* [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具。
 * [Spring REST Docs](https://github.com/spring-projects/spring-restdocs)：该项目的主要目标是通过将使用Asciidoctor手写的内容与使用Spring MVC测试框架生成的自动生成的示例相结合，轻松记录RESTful服务。
 * [OpenAPI-diff](https://github.com/OpenAPITools/openapi-diff)：用于比较两个OpenAPI规范的实用程序。
 * [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：基于WebSocket的REST。
@@ -3140,6 +3149,7 @@
 * [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
 * [Smart-Doc](https://gitee.com/TongchengOpenSource/smart-doc)：Smart-Doc是一款同时支持Java REST API和Dubbo RPC接口文档生成的工具，由同程开源。
 * [Swagger Maven Plugin](https://github.com/kongchen/swagger-maven-plugin)：该插件使你的Swagger注解项目能够在Maven构建阶段生成Swagger规范和可定制的模板化静态文档。
+* [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
 
 ## 集群管理
 
@@ -3934,7 +3944,6 @@
 
 ## JVM代理
 
-* [WGCLOUD](https://github.com/tianshiyeben/wgcloud)：Linux运维监控工具，支持系统硬件信息、内存、CPU、温度、磁盘空间及IO、硬盘smart、系统负载、网络流量等监控。
 * [Spring-Loaded](https://github.com/spring-projects/spring-loaded)：Spring Loaded是一个JVM代理，用于在JVM运行时重新加载class文件更改。
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent)：Java无限运行时类和资源重定义。
 * [BlockHound](https://github.com/reactor/BlockHound)：用于检测来自非阻塞线程的阻塞调用的Java代理。
@@ -3983,19 +3992,25 @@
 * [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
 * [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
 * [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
+* [R2DBC MySQL](https://github.com/mirromutth/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
+* [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
+* [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS(表数据流)协议的SQLServer的R2DBC驱动程序。
+* [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
 * [ElasticSearch](https://github.com/elastic/elasticsearch-java)：Elasticsearch官方Java客户端。
 * [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
 * [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：ElasticSearch高级Java REST客户端API。
 * [Redisson](https://github.com/redisson/redisson)：具有内存数据网格功能的简单Redis Java客户端。
 * [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
 * [Lettuce](https://github.com/lettuce-io/lettuce-core)：高级Java Redis客户端，用于线程安全同步、异步和响应式使用。支持集群、哨兵、管道和编解码器。
-* [Redis OM Spring](https://github.com/redis/redis-om-spring)：Spring Data Redis扩展，可实现更好的搜索、文档模型等。
 * [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
 * [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
 * [Redis Protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
 * [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
 * [Astyanax](https://github.com/Netflix/astyanax)：Cassandra Java客户端库，由Netflix开源。
 * [Folsom](https://github.com/spotify/folsom)：Java的异步Memcache客户端库，由Spotify开源。
+* [SQLite JDBC](https://github.com/xerial/sqlite-jdbc)：用于在Java中访问和创建SQLite数据库文件的库。
+* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
+* [Neo4j Java Driver](https://github.com/neo4j/neo4j-java-driver)：Neo4j的官方Java驱动程序。
 
 ## Minecraft
 
