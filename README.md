@@ -78,7 +78,7 @@
 - [IM服务器](#IM服务器)
 - [JakartaEE产品](#JakartaEE产品)
 - [工具库](#工具库)
-- [Java 9-21](#Java 9-21)
+- [Java 9-21](#9-21特性)
 - [依赖注入](#依赖注入)
 - [AOP](#AOP)
 - [日志库](#日志库)
@@ -1799,7 +1799,7 @@
 * [Bus](https://github.com/aoju/bus)：包含大量工具的基础框架、服务套件。
 * [Java Util](https://github.com/jdereg/java-util)：提供非常多与其他工具库功能不同的实用程序。
 
-## Java 9-21
+## 9-21特性
 
 * [ModiTect](https://github.com/moditect/moditect)：Java 9模块系统工具库。
 * [OpenWebStart](https://github.com/karakun/OpenWebStart)：用于在Java 11后运行基于Web Start的应用程序。
