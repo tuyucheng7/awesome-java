@@ -1,4 +1,3 @@
-
 * [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
 * [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中。
 * [android-maven-plugin](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
