@@ -17,7 +17,7 @@
 - [断言库](#断言库)
 - [Mock框架](#Mock框架)
 - [Mock工具](#Mock工具)
-- [数据库集成测试](#数据库集成测试)
+- [集成测试](#集成测试)
 - [数据Mock](#数据Mock)
 - [BDD框架](#BDD框架)
 - [性能测试](#性能测试)
@@ -715,7 +715,7 @@
 ## 代码覆盖率
 
 * [JaCoCo](https://github.com/jacoco/jacoco)：Java中使用最广泛的代码覆盖率库。
-* [Super-Jacoco](https://github.com/didi/super-jacoco)：基于Jacoco、Git二次开发打造的一站式Java代码全量/diff覆盖率收集平台，能够低成本、无侵入的收集代码覆盖率数据，由滴滴开源。
+* [Super-JaCoCo](https://github.com/didi/super-jacoco)：基于JaCoCo、Git二次开发打造的一站式Java代码全量/diff覆盖率收集平台，能够低成本、无侵入的收集代码覆盖率数据，由滴滴开源。
 * [Clover](https://bitbucket.org/atlassian/clover)：Atlassian开源的Java和Groovy代码覆盖率工具。
 * [Cobertura](https://github.com/cobertura/cobertura)：一个免费的Java代码覆盖率报告工具。
 * [JCov](https://wiki.openjdk.org/display/CodeTools/jcov)：用于收集与测试套件的生产相关的质量指标，JCov的开放是为了促进在OpenJDK开发中验证回归测试的测试执行的实践。
