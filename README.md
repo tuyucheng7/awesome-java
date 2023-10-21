@@ -125,7 +125,7 @@
 - [加密](#加密)
 - [模板引擎](#模板引擎)
 - [JSON库](#JSON库)
-- [Bean映射](#Bean映射)
+- [Bean映射&复制](#Bean映射&复制)
 - [CLI工具](#CLI工具)
 - [SSH工具](#SSH工具)
 - [DNS、内网穿透和代理](#DNS、内网穿透和代理)
@@ -215,6 +215,8 @@
 - [URL操作](#URL操作)
 - [外部进程执行](#外部进程执行)
 - [协议实现](#协议实现)
+- [编解码](#编解码)
+- [解析&转换](#解析&转换)
 
 ## Web框架
 
@@ -276,6 +278,7 @@
 * [Apache Sling](https://sling.apache.org/)：Sling是一个基于可扩展内容树的RESTful Web应用程序框架。
 * [Apache Wink](https://wink.apache.org/)：Wink是一个简单可靠的框架，用于构建RESTful Web服务。
 * [Rocket API](https://gitee.com/alenfive/rocket-api)：API敏捷开发框架，用于API接口功能的快速开发。
+* [Proteus](https://github.com/noboomu/proteus)：Proteus是一个极快的Java API服务器框架，构建于Undertow之上。
 
 ## JSF框架
 
@@ -357,6 +360,7 @@
 * [Turbine](https://github.com/Netflix/Turbine)：Netflix开发的SSE流聚合器。
 * [Uship](https://github.com/yupiik/uship)：一个适用于现代应用程序的轻量级微服务堆栈。
 * [AdeptJ Runtime](https://github.com/AdeptJ/adeptj-runtime)：适用于RESTful API、微服务和Web应用的高性能、动态、模块化运行时。
+* [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈。
 
 ## 持久层框架
 
@@ -404,6 +408,7 @@
 * [Jinq](https://github.com/my2iu/Jinq)：Jinq为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
 * [Permazen](https://github.com/permazen/permazen)：用于SQL、键值或内存数据库的持久层框架。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。Gora支持持久化列存储、键值存储、文档存储和RDBMS，并通过广泛的Hadoop MapReduce、Spark、Pig支持来分析数据。
+* [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：提供基于Spring Data JDBC的扩展，由Naver开源。
 
 ## 脚手架
 
@@ -529,6 +534,7 @@
 * [Kafka JUnit](https://github.com/salesforce/kafka-junit)：该库包装了Kafka的嵌入式测试集群，使你可以更轻松地使用JUnit针对在测试上下文中运行的真实kafka服务器创建和运行集成测试。
 * [ElasticSearch Test](https://github.com/tlrx/elasticsearch-test)：一个让ElasticSearch单元测试变得轻而易举的框架。
 * [LDAP Server](https://github.com/intoolswetrust/ldap-server)：用于测试目的的简单内存LDAP服务器。
+* [Testcontainers Spring Boot](https://github.com/PlaytikaOSS/testcontainers-spring-boot)：基于Spring Boot的集成测试的容器自动配置。
 
 #### 数据Mock
 
@@ -711,6 +717,7 @@
 * [Randoop](https://github.com/randoop/randoop)：Randoop是Java的单元测试生成器，可以自动为你的类创建JUnit格式的单元测试。
 * [Rest Driver](https://github.com/rest-driver/rest-driver)：测试驱动来测试你的RESTful服务和客户端。
 * [GraphWalker](https://github.com/GraphWalker/graphwalker-project)：一个基于模型的开源测试工具。
+* [StackSrc](https://github.com/laech/java-stacksrc)：该项目的目标是修饰测试失败的堆栈跟踪，使其更有用。
 
 ## 代码覆盖率
 
@@ -943,6 +950,7 @@
 * [Choerodon](https://gitee.com/choerodon/choerodon)：全场景效能平台，提供体系化方法论和协作、测试、DevOps及容器工具。
 * [Digma](https://github.com/digma-ai/digma)：Digma是一个持续反馈平台，使可观察性与开发相关。
 * [CloudExplorer Lite](https://github.com/CloudExplorer-Dev/CloudExplorer-Lite)：开源的轻量级云管平台。
+* [Ward](https://github.com/Rudolf-Barbu/Ward)：Ward是一个简单简约的服务器监控工具，Ward支持自适应设计系统；此外，它还支持深色主题。
 
 ## 云服务
 
@@ -1280,6 +1288,7 @@
 * [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
 * [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
 * [Ptubes](https://github.com/meituan/ptubes)：一款基于PITR的数据库容灾产品，可以用来将整个数据库恢复到特定时间点，美团开源。
+* [esProc](https://github.com/SPLWare/esProc)：esProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
 
 ## 数据湖框架
 
@@ -1645,6 +1654,7 @@
 * [Reactive-Audit](https://github.com/octo-online/reactive-audit)：旨在为项目实施中使用响应式架构提供帮助的审计工具。
 * [XOOM-Actors](https://github.com/vlingo/xoom-actors)：用于类型安全Actor模型的VLINGO XOOM平台SDK，使用Java和其他JVM语言提供响应式并发、高可扩展性、高吞吐量和弹性。
 * [CohereFlux](https://github.com/pellse/cohereflux)：响应式数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
+* [Liiklus](https://github.com/bsideup/liiklus)：基于事件的系统的响应式(RSocket/gRPC)网关。
 
 ## WebServer
 
@@ -2031,6 +2041,7 @@
 * [Skyeye](https://gitee.com/doc_wei01/skyeye)：智能制造一体化，采用Spring Boot + WinUI的低代码平台开发模式。
 * [diboot](https://gitee.com/dibo_software/diboot)：为开发人员打造的低代码开发平台。
 * [Erupt](https://github.com/erupts/erupt)：Erupt是一个低代码全栈类框架，使用Java注解动态生成页面以及增、删、改、查、权限控制等后台功能。
+* [Appsmith](https://github.com/appsmithorg/appsmith)：用于构建管理面板、内部工具和仪表板的平台。
 
 ## ERP系统
 
@@ -2295,6 +2306,8 @@
 * [LanguageTool](https://github.com/languagetool-org/languagetool)：一款开源校对软件，适用于英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语和其他20多种语言，可以发现许多简单的拼写检查器无法检测到的错误。
 * [Apache OpenMeetings](https://openmeetings.apache.org/)：视频会议、即时消息、白板和协作文档编辑应用程序。
 * [TEAMMATES](https://github.com/TEAMMATES/teammates)：TEAMMATES是一个免费的在线工具，用于管理学生的同行评估和其他反馈路径。它作为基于云的服务提供给教育工作者/学生，目前已被全球数百所大学使用。
+* [WebJars](https://github.com/webjars/webjars)：打包到JAR中的客户端Web库。
+* [PowSyBl](https://github.com/powsybl/powsybl-core)：PowSyBl是一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
 
 ## 人工智能
 
@@ -2857,7 +2870,7 @@
 * [NanoJson](https://github.com/mmastrac/nanojson)：一个小型、兼容的Java JSON解析器和写入器。
 * [JSON Schema Generator](https://github.com/victools/jsonschema-generator)：用于从Java类创建JSON模式(Draft 6、Draft 7、Draft 2019-09或Draft 2020-12)。
 
-## Bean映射
+## Bean映射&复制
 
 * [MapStruct](https://github.com/mapstruct/mapstruct)：用于生成类型安全Bean映射器的注解处理器。
 * [Dozer](https://github.com/DozerMapper/dozer)：一个强大的，通用的，灵活的，可重用的和可配置的开源映射框架。
@@ -2870,6 +2883,9 @@
 * [ReMap](https://github.com/remondis-it/remap)：用于简化可测试对象映射的声明式映射库。
 * [Bull](https://github.com/ExpediaGroup/bull)：Bull是一种Java Bean到Java Bean转换器，通用、灵活、可重用、可配置，并且速度非常快。
 * [Datus](https://github.com/roookeee/datus)：Datus使你能够在流式的函数式API中定义两个数据结构之间的转换过程。
+* [Crane4j](https://github.com/opengoofy/crane4j)：一个简单易用的数据映射框架，通过简单的注解配置快速根据外键/编码值填充相关字段，支持字典、枚举、方法等多种数据源。
+* [Cloning](https://github.com/kostaskougios/cloning)：一个小型开源Java库，可深度克隆对象。
+* [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java Bean复制实用程序，具有强大的功能和高性能。
 
 ## CLI工具
 
@@ -3504,6 +3520,7 @@
 * [Joda-Money](https://github.com/JodaOrg/joda-money)：用于表示货币金额的Java库。
 * [Prowide ISO 20022](https://github.com/prowide/prowide-iso20022)：Prowide ISO 20022是一个用于管理ISO 20022消息的开源Java框架。
 * [Prowide](https://github.com/prowide/prowide-core)：Prowide Core是一个用于管理SWIFT FIN消息的开源Java框架。
+* [Artio](https://github.com/real-logic/artio)：弹性高性能FIX和FIXP网关。
 
 ## 短信
 
@@ -4162,7 +4179,7 @@
 * [Conversant](https://github.com/conversant/disruptor)：Conversant Disruptor是环形缓冲区中性能最高的实现，因为它几乎没有开销，并且采用了特别简单的设计。
 * [BPlusTree](https://github.com/andylamp/BPlusTree)：一种高效、简洁、简单的纯磁盘B+Tree数据结构实现。
 * [RMLMapper](https://github.com/RMLio/rmlmapper-java)：RLMMapper执行RML规则来生成链接数据。
-* [JVector](https://github.com/jbellis/jvector)：JVector 是一个纯Java、零依赖、嵌入式矢量搜索引擎，由DataStax Astra DB和Cassandra使用。
+* [JVector](https://github.com/jbellis/jvector)：JVector是一个纯Java、零依赖、嵌入式矢量搜索引擎。
 * [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
 * [networkanalysis](https://github.com/CWTSLeiden/networkanalysis)：提供了用于网络分析的算法和数据结构，专注于网络的聚类(或社区检测)和布局(或映射)。
 * [Time-Utilities](https://github.com/Breinify/brein-time-utilities)：包含多个时间相关数据和索引结构(例如IntervalTree、BucketTimeSeries)以及算法的库。
@@ -4463,6 +4480,7 @@
 * [Traccar](https://github.com/traccar/traccar)：一个开源GPS跟踪系统。
 * [Apache Sedona](https://github.com/apache/sedona)：处理大规模地理空间数据的集群计算框架。
 * [H3-Java](https://github.com/uber/h3-java)：H3的Java绑定，分层六边形地理空间索引系统，由Uber开源。
+* [Planetiler](https://github.com/onthegomap/planetiler)：Planetiler是一种从OpenStreetMap等地理数据源生成矢量切片的工具。
 
 ## 几何学
 
@@ -4508,6 +4526,7 @@
 * [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由谷歌开源。
 * [Reservoir](https://github.com/anupcowkur/Reservoir)：可使用键/值对轻松序列化对象并将其缓存到磁盘的Android库。
 * [Eclipse Serializer](https://github.com/eclipse-serializer/serializer)：Serializer项目可以对任何Java对象进行(反)序列化，而无需生成代码的注解、超类或接口或数据模式。
+* [YamlBeans](https://github.com/EsotericSoftware/yamlbeans)：YamlBeans可以轻松地将Java对象图与YAML进行序列化和反序列化。
 
 ## IO工具类
 
@@ -4736,3 +4755,18 @@
 * [ACME4J](https://github.com/shred/acme4j)：ACME协议Java客户端。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现。
 * [SMBJ](https://github.com/hierynomus/smbj)：Java中的服务器消息块(SMB2、SMB3)实现。
+* [Sardine](https://github.com/lookfirst/sardine)：一个易于使用的Java webdav客户端。
+
+## 编解码
+
+* [Apache Commons Codec](https://github.com/apache/commons-codec)：Apache Commons Codec包含各种格式(例如Base64和十六进制)的简单编码器和解码器。
+* [OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)：OWASP Java Encoder是一个简单易用的嵌入式高性能编码器类，没有依赖且包袱很少，由OWASP开源。
+* [Simple Binary Encoding](https://github.com/real-logic/simple-binary-encoding)：高性能消息编解码器。
+
+## 解析&转换
+
+* [Roaster](https://github.com/forge/roaster)：Java解析器库，可以轻松解析和格式化Java源文件。
+* [Joda-Convert](https://github.com/JodaOrg/joda-convert)：支持与标准字符串格式之间的转换的Java库。
+* [Elasticsearch Pinyin Analysis](https://github.com/medcl/elasticsearch-analysis-pinyin)：该拼音分析插件用于进行汉字与拼音之间的转换。
+* [Smail2Java](https://github.com/demitsuri/smali2java)：Java转换工具。
+* [JSweet](https://github.com/cincheo/jsweet)：Java到JavaScript的转换器。
