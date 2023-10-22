@@ -744,6 +744,7 @@
 * [Apache Ivy](https://github.com/apache/ant-ivy)：用于管理项目依赖关系的工具，具有很高的灵活性和可配置性，并且与Ant紧密集成。
 * [Leiningen](https://github.com/technomancy/leiningen)：一种构建自动化和依赖管理工具，用于以Clojure编程语言编写的软件项目的简单配置。
 * [Apache Archiva](https://github.com/apache/archiva)：Archiva是一种可扩展的存储库管理软件，可帮助管理你自己的个人或企业范围的构建工件存储库。
+* [JeKa](https://github.com/jeka-dev/jeka)：JeKa是一个自动化工具，允许用户直接从命令行执行Java/Kotlin源代码。
 
 ## 开源JDK
 
@@ -1898,6 +1899,7 @@
 * [MinBox Logging](https://gitee.com/minbox-projects/minbox-logging)：分布式、零侵入式的链路日志分析框架。
 * [LogUtils](https://github.com/pengwei1024/LogUtils)：更方便易用的Android日志管理器。
 * [Singer](https://github.com/pinterest/singer)：高性能、可靠且可扩展的日志代理，用于将数据上传到Kafka、Pulsar等，由Pinterest开源。
+* [Log-Record](https://github.com/qqxx6661/log-record)：通过Java注解优雅的记录操作日志，并支持SpEL表达式、自定义上下文、自定义函数、实体类DIFF等功能。
 
 ## GraphQL
 
