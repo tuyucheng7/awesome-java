@@ -144,8 +144,6 @@
 - [集群管理](#集群管理)
 - [代码分析](#代码分析)
 - [依赖分析](#依赖分析)
-- [Maven插件](#Maven插件)
-- [Gradle插件](#Gradle插件)
 - [SDK](#SDK)
 - [API&客户端](#API&客户端)
 - [区块链](#区块链)
@@ -179,7 +177,6 @@
 - [编译器&插件](#编译器&插件)
 - [语言服务器](#语言服务器)
 - [数据库驱动](#数据库驱动)
-- [Minecraft](#Minecraft)
 - [音视频处理](#音视频处理)
 - [数据结构](#数据结构)
 - [布隆过滤器](#布隆过滤器)
@@ -217,6 +214,9 @@
 - [协议实现](#协议实现)
 - [编解码](#编解码)
 - [解析&转换](#解析&转换)
+- [Minecraft](#Minecraft)
+- [Maven插件](#Maven插件)
+- [Gradle插件](#Gradle插件)
 
 ## Web框架
 
@@ -3278,59 +3278,6 @@
 * [Depgraph Maven Plugin](https://github.com/ferstl/depgraph-maven-plugin)：可生成各种格式(DOT、GML、PlantUML、JSON和Text)依赖关系图的Maven插件。
 * [FASTEN](https://github.com/fasten-project/fasten)：在调用图级别分析包依赖网络的工具。
 
-## Maven插件
-
-* [Frontend](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
-* [Android](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
-* [JavaFX](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
-* [SonarQube](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
-* [Scala](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
-* [JMeter](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
-* [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
-* [Modernizer](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
-* [JavaFX](https://github.com/openjfx/javafx-maven-plugin)：用于运行JavaFX 11+应用程序的Maven插件。
-* [Versions](https://github.com/mojohaus/versions)：用于管理项目POM中的工件版本。
-* [Asciidoctor](https://github.com/asciidoctor/asciidoctor-maven-plugin)：通过JRuby使用Asciidoctor来处理项目内的AsciiDoc源文件。
-* [Fmt](https://github.com/spotify/fmt-maven-plugin)：格式化Java代码的固定Maven插件。
-* [OS](https://github.com/trustin/os-maven-plugin)：用于设置从${os.name}和${os.arch}属性检测到的各种有用属性。
-* [Native Build Tools](https://github.com/graalvm/native-build-tools)：适用于各种构建工具的本机镜像插件。
-* [Azure](https://github.com/microsoft/azure-maven-plugins)：适用于Azure的Maven插件。
-* [Protoc-jar](https://github.com/os72/protoc-jar-maven-plugin)：使用protoc-jar多平台可执行protoc JAR执行protobuf代码生成。
-* [License](https://github.com/mathieucarbou/license-maven-plugin)：用于管理源文件中的许可证标头。
-* [Appbundle](https://github.com/federkasten/appbundle-maven-plugin)：可为OS X创建包含所有项目依赖项和必要元数据的应用程序包。
-* [Duplicate-finder](https://github.com/basepom/duplicate-finder-maven-plugin)：用于查找重复类或资源的Maven插件。
-* [GluonFX](https://github.com/gluonhq/gluonfx-maven-plugin)：简化为Java/JavaFX Maven项目创建本机镜像的插件。
-* [Tomcat](https://github.com/apache/tomcat-maven-plugin)：Tomcat Maven插件。
-* [Exec](https://github.com/mojohaus/exec-maven-plugin)：可以执行Java程序的Maven插件。
-* [GWT](https://github.com/tbroyer/gwt-maven-plugin)：使Maven构建GWT项目更加容易。
-* [JShell](https://github.com/johnpoth/jshell-maven-plugin)：JShell的Maven插件。
-* [Springdoc-openapi](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
-* [Cucable](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
-* [Web3j](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
-* [AspectJ](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
-* [App](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
-* [Mosec](https://github.com/momosecurity/mosec-maven-plugin)：用于检测Maven项目的第三方依赖组件是否存在安全漏洞。
-* [Rewrite](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件。
-* [Allure](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
-* [Heroku](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
-
-## Gradle插件
-
-* [Gradle Retrolambda](https://github.com/evant/gradle-retrolambda)：用于在Java 6、7和Android中获取Java Lambda支持。
-* [Dexcount](https://github.com/KeepSafe/dexcount-gradle-plugin)：用于报告每次构建时APK中方法引用的数量。
-* [Hunter](https://github.com/Leaking/Hunter)：一个快速、增量、并发的框架，用于开发Android项目的编译插件来操作字节码。
-* [Docker](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
-* [Dependency Management](https://github.com/spring-gradle-plugins/dependency-management-plugin)：提供类似Maven的依赖管理功能。
-* [JavaFX](https://github.com/FibreFoX/javafx-gradle-plugin)：用于JavaFX的Gradle插件。
-* [Google Play](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
-* [Clean Architecture](https://github.com/bancolombia/scaffold-clean-architecture)：用于按照最佳实践创建基于Clean Architecture的Java和Kotlin应用程序的Gradle插件。
-* [Git-Version](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
-* [Gradle Avro](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Avro的Java代码生成的Gradle插件。
-* [Gradle Baseline](https://github.com/palantir/gradle-baseline)：为开发人员配置默认的代码质量工具。
-* [Gradle AWS](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
-* [Gradle Modules](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
-* [Android SVG Drawable](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
-
 ## SDK
 
 * [Aliyun](https://github.com/aliyun/aliyun-openapi-java-sdk)：阿里云Java SDK。
@@ -4103,42 +4050,6 @@
 * [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
 * [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
 
-## Minecraft
-
-* [Paper](https://github.com/PaperMC/Paper)：使用最广泛的高性能Minecraft服务器，旨在修复游戏玩法和机制的不一致问题。
-* [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：一个免费的开源模组API，所有常见模组都在使用。
-* [HMCL](https://github.com/huanghongxun/HMCL)：一款多功能、跨平台、流行的Minecraft桌面。
-* [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：基于Boardwalk的Minecraft：适用于Android和iOS的Java版启动器。
-* [Sodium](https://github.com/CaffeineMC/sodium-fabric)：旨在提高帧速率并减少微卡顿的Fabric模组。
-* [Geyser](https://github.com/GeyserMC/Geyser)：允许使用Minecraft基岩版连接到Minecraft Java版服务器的桥接器。
-* [Brigadier](https://github.com/Mojang/brigadier)：一个命令解析器和调度器，专为Minecraft Java版设计和开发。
-* [WorldEdit](https://github.com/EngineHub/WorldEdit)：Minecraft地图编辑器和模组。
-* [Iris](https://github.com/IrisShaders/Iris)：Minecraft的现代着色器模组，旨在与现有的OptiFine着色器包兼容。
-* [MCA Selector](https://github.com/Querz/mcaselector)：一种从Minecraft世界中选择块进行删除或导出的工具。
-* [Bukkit](https://github.com/Bukkit/Bukkit)：Minecraft服务器API。
-* [Create](https://github.com/Creators-of-Create/Create)：一个为建筑、装饰和美学自动化提供各种工具和模块的模组。
-* [Amidst](https://github.com/toolbox4minecraft/amidst)：用于显示Minecraft世界概览的工具，而无需实际创建它。
-* [Minestom](https://github.com/Minestom/Minestom)：1.19.3轻量级Minecraft服务器。
-* [Dynmap](https://github.com/webbukkit/dynmap)：一组Minecraft模组，为各种Minecraft服务器实现提供基于Web的实时地图系统。
-* [Fabric](https://github.com/FabricMC/fabric)：Fabric mods的基本钩子和互操作机制的库。
-* [Glowstone](https://github.com/GlowstoneMC/Glowstone)：一个快速、可定制且兼容的Minecraft Java版开源服务器。
-* [CatServer](https://github.com/Luohuayu/CatServer)：高性能和高兼容性的1.12.2/1.16.5/1.18.2版本Forge+Bukkit+Spigot服务端。
-* [LuckPerms](https://github.com/LuckPerms/LuckPerms)：Minecraft服务器的权限插件。
-* [Lithium](https://github.com/CaffeineMC/lithium-fabric)：免费开源的Minecraft模组，可优化游戏的许多领域，以提供更好的整体性能。
-* [Essentials](https://github.com/EssentialsX/Essentials)：用于Spigot和Paper的现代Essentials套件。
-* [Meteor](https://github.com/MeteorDevelopment/meteor-client)：基础Minecraft实用程序模组。
-* [BungeeCord](https://github.com/SpigotMC/BungeeCord)：一个复杂的代理和API，主要设计用于在多个Minecraft服务器之间传送玩家。
-* [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap)：一款Minecraft地图工具，可创建Minecraft世界的3D模型并将其显示在Web查看器中。
-* [Velocity](https://github.com/PaperMC/Velocity)：下一代Minecraft服务器代理。
-* [FarPlaneTwo](https://github.com/PorkStudios/FarPlaneTwo)：Minecraft中的细节层次渲染器，允许渲染数百万个块的距离。
-* [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)：一个关于物质、能量并利用它们征服世界的模组。
-* [Botania](https://github.com/VazkiiMods/Botania)：以自然和植物生命的魔力为主题的Minecraft技术模组。
-* [SpongeAPI](https://github.com/SpongePowered/SpongeAPI)：成熟的Minecraft插件API，不包括实现。
-* [Nukkit](https://github.com/CloudburstMC/Nukkit)：Minecraft基岩版的核动力服务器软件。
-* [SpongeForge](https://github.com/SpongePowered/SpongeForge)：一个实现SpongeAPI的Forge模组。
-* [Adventure](https://github.com/KyoriPowered/adventure)：Minecraft Java版的服务器端用户界面库。
-* [BuildCraft](https://github.com/BuildCraft/BuildCraft)：Minecraft模组。
-
 ## 音视频处理
 
 * [Jitsi](https://github.com/jitsi/jitsi)：音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
@@ -4783,3 +4694,92 @@
 * [Elasticsearch Pinyin Analysis](https://github.com/medcl/elasticsearch-analysis-pinyin)：该拼音分析插件用于进行汉字与拼音之间的转换。
 * [Smail2Java](https://github.com/demitsuri/smali2java)：Java转换工具。
 * [JSweet](https://github.com/cincheo/jsweet)：Java到JavaScript的转换器。
+
+## Minecraft
+
+* [Paper](https://github.com/PaperMC/Paper)：使用最广泛的高性能Minecraft服务器，旨在修复游戏玩法和机制的不一致问题。
+* [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：一个免费的开源模组API，所有常见模组都在使用。
+* [HMCL](https://github.com/huanghongxun/HMCL)：一款多功能、跨平台、流行的Minecraft桌面。
+* [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：基于Boardwalk的Minecraft：适用于Android和iOS的Java版启动器。
+* [Sodium](https://github.com/CaffeineMC/sodium-fabric)：旨在提高帧速率并减少微卡顿的Fabric模组。
+* [Geyser](https://github.com/GeyserMC/Geyser)：允许使用Minecraft基岩版连接到Minecraft Java版服务器的桥接器。
+* [Brigadier](https://github.com/Mojang/brigadier)：一个命令解析器和调度器，专为Minecraft Java版设计和开发。
+* [WorldEdit](https://github.com/EngineHub/WorldEdit)：Minecraft地图编辑器和模组。
+* [Iris](https://github.com/IrisShaders/Iris)：Minecraft的现代着色器模组，旨在与现有的OptiFine着色器包兼容。
+* [MCA Selector](https://github.com/Querz/mcaselector)：一种从Minecraft世界中选择块进行删除或导出的工具。
+* [Bukkit](https://github.com/Bukkit/Bukkit)：Minecraft服务器API。
+* [Create](https://github.com/Creators-of-Create/Create)：一个为建筑、装饰和美学自动化提供各种工具和模块的模组。
+* [Amidst](https://github.com/toolbox4minecraft/amidst)：用于显示Minecraft世界概览的工具，而无需实际创建它。
+* [Minestom](https://github.com/Minestom/Minestom)：1.19.3轻量级Minecraft服务器。
+* [Dynmap](https://github.com/webbukkit/dynmap)：一组Minecraft模组，为各种Minecraft服务器实现提供基于Web的实时地图系统。
+* [Fabric](https://github.com/FabricMC/fabric)：Fabric mods的基本钩子和互操作机制的库。
+* [Glowstone](https://github.com/GlowstoneMC/Glowstone)：一个快速、可定制且兼容的Minecraft Java版开源服务器。
+* [CatServer](https://github.com/Luohuayu/CatServer)：高性能和高兼容性的1.12.2/1.16.5/1.18.2版本Forge+Bukkit+Spigot服务端。
+* [LuckPerms](https://github.com/LuckPerms/LuckPerms)：Minecraft服务器的权限插件。
+* [Lithium](https://github.com/CaffeineMC/lithium-fabric)：免费开源的Minecraft模组，可优化游戏的许多领域，以提供更好的整体性能。
+* [Essentials](https://github.com/EssentialsX/Essentials)：用于Spigot和Paper的现代Essentials套件。
+* [Meteor](https://github.com/MeteorDevelopment/meteor-client)：基础Minecraft实用程序模组。
+* [BungeeCord](https://github.com/SpigotMC/BungeeCord)：一个复杂的代理和API，主要设计用于在多个Minecraft服务器之间传送玩家。
+* [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap)：一款Minecraft地图工具，可创建Minecraft世界的3D模型并将其显示在Web查看器中。
+* [Velocity](https://github.com/PaperMC/Velocity)：下一代Minecraft服务器代理。
+* [FarPlaneTwo](https://github.com/PorkStudios/FarPlaneTwo)：Minecraft中的细节层次渲染器，允许渲染数百万个块的距离。
+* [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)：一个关于物质、能量并利用它们征服世界的模组。
+* [Botania](https://github.com/VazkiiMods/Botania)：以自然和植物生命的魔力为主题的Minecraft技术模组。
+* [SpongeAPI](https://github.com/SpongePowered/SpongeAPI)：成熟的Minecraft插件API，不包括实现。
+* [Nukkit](https://github.com/CloudburstMC/Nukkit)：Minecraft基岩版的核动力服务器软件。
+* [SpongeForge](https://github.com/SpongePowered/SpongeForge)：一个实现SpongeAPI的Forge模组。
+* [Adventure](https://github.com/KyoriPowered/adventure)：Minecraft Java版的服务器端用户界面库。
+* [BuildCraft](https://github.com/BuildCraft/BuildCraft)：Minecraft模组。
+
+## Maven插件
+
+* [Frontend](https://github.com/eirslett/frontend-maven-plugin)：可在本地下载/安装Node和NPM，运行NPM install、Grunt、Gulp和/或Karma。
+* [Android](https://github.com/simpligility/android-maven-plugin)：用于Android应用程序开发等的Maven插件。
+* [JavaFX](https://github.com/javafx-maven-plugin/javafx-maven-plugin)：JavaFX的Maven插件。
+* [SonarQube](https://github.com/SonarSource/sonar-scanner-maven)：用于Maven的SonarQube扫描器。
+* [Scala](https://github.com/davidB/scala-maven-plugin)：用于在Maven中编译/测试/运行/记录Scala代码。
+* [JMeter](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin)：JMeter Maven插件。
+* [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
+* [Modernizer](https://github.com/gaul/modernizer-maven-plugin)：检测旧版Java API的使用。
+* [JavaFX](https://github.com/openjfx/javafx-maven-plugin)：用于运行JavaFX 11+应用程序的Maven插件。
+* [Versions](https://github.com/mojohaus/versions)：用于管理项目POM中的工件版本。
+* [Asciidoctor](https://github.com/asciidoctor/asciidoctor-maven-plugin)：通过JRuby使用Asciidoctor来处理项目内的AsciiDoc源文件。
+* [Fmt](https://github.com/spotify/fmt-maven-plugin)：格式化Java代码的固定Maven插件。
+* [OS](https://github.com/trustin/os-maven-plugin)：用于设置从${os.name}和${os.arch}属性检测到的各种有用属性。
+* [Native Build Tools](https://github.com/graalvm/native-build-tools)：适用于各种构建工具的本机镜像插件。
+* [Azure](https://github.com/microsoft/azure-maven-plugins)：适用于Azure的Maven插件。
+* [Protoc-jar](https://github.com/os72/protoc-jar-maven-plugin)：使用protoc-jar多平台可执行protoc JAR执行protobuf代码生成。
+* [License](https://github.com/mathieucarbou/license-maven-plugin)：用于管理源文件中的许可证标头。
+* [Appbundle](https://github.com/federkasten/appbundle-maven-plugin)：可为OS X创建包含所有项目依赖项和必要元数据的应用程序包。
+* [Duplicate-finder](https://github.com/basepom/duplicate-finder-maven-plugin)：用于查找重复类或资源的Maven插件。
+* [GluonFX](https://github.com/gluonhq/gluonfx-maven-plugin)：简化为Java/JavaFX Maven项目创建本机镜像的插件。
+* [Tomcat](https://github.com/apache/tomcat-maven-plugin)：Tomcat Maven插件。
+* [Exec](https://github.com/mojohaus/exec-maven-plugin)：可以执行Java程序的Maven插件。
+* [GWT](https://github.com/tbroyer/gwt-maven-plugin)：使Maven构建GWT项目更加容易。
+* [JShell](https://github.com/johnpoth/jshell-maven-plugin)：JShell的Maven插件。
+* [Springdoc-openapi](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
+* [Cucable](https://github.com/trivago/cucable-plugin)：简化并行运行Cucumber场景的Maven插件。
+* [Web3j](https://github.com/web3j/web3j-maven-plugin)：用于根据Solidity合约文件创建Java类。
+* [AspectJ](https://github.com/mojohaus/aspectj-maven-plugin)：该插件使用AspectJ编译器ajc将AspectJ切面编织到类中。
+* [App](https://github.com/GoogleCloudPlatform/app-maven-plugin)：用于构建和部署Google App Engine应用程序的Maven插件。
+* [Mosec](https://github.com/momosecurity/mosec-maven-plugin)：用于检测Maven项目的第三方依赖组件是否存在安全漏洞。
+* [Rewrite](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件。
+* [Allure](https://github.com/allure-framework/allure-maven)：根据测试结果生成Allure报告的Maven插件。
+* [Heroku](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
+
+## Gradle插件
+
+* [Gradle Retrolambda](https://github.com/evant/gradle-retrolambda)：用于在Java 6、7和Android中获取Java Lambda支持。
+* [Dexcount](https://github.com/KeepSafe/dexcount-gradle-plugin)：用于报告每次构建时APK中方法引用的数量。
+* [Hunter](https://github.com/Leaking/Hunter)：一个快速、增量、并发的框架，用于开发Android项目的编译插件来操作字节码。
+* [Docker](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
+* [Dependency Management](https://github.com/spring-gradle-plugins/dependency-management-plugin)：提供类似Maven的依赖管理功能。
+* [JavaFX](https://github.com/FibreFoX/javafx-gradle-plugin)：用于JavaFX的Gradle插件。
+* [Google Play](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
+* [Clean Architecture](https://github.com/bancolombia/scaffold-clean-architecture)：用于按照最佳实践创建基于Clean Architecture的Java和Kotlin应用程序的Gradle插件。
+* [Git-Version](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
+* [Gradle Avro](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Avro的Java代码生成的Gradle插件。
+* [Gradle Baseline](https://github.com/palantir/gradle-baseline)：为开发人员配置默认的代码质量工具。
+* [Gradle AWS](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
+* [Gradle Modules](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
+* [Android SVG Drawable](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
