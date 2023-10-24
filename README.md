@@ -100,7 +100,6 @@
 - [XML库](#XML库)
 - [文件库](#文件库)
 - [反射](#反射)
-- [杂项](#杂项)
 - [日期时间库](#日期时间库)
 - [人工智能](#人工智能)
 - [机器学习](#机器学习)
@@ -153,7 +152,6 @@
 - [MQTT](#MQTT)
 - [金融](#金融)
 - [短信](#短信)
-- [Spring生态](#Spring生态)
 - [Raft算法](#Raft算法)
 - [Paxos算法](#Paxos算法)
 - [对象池](#对象池)
@@ -195,7 +193,7 @@
 - [几何学](#几何学)
 - [航空航天](#航空航天)
 - [序列化](#序列化)
-- [IO操作](#IO操作)
+- [IO操作](#IO工具类)
 - [邮件操作](#邮件操作)
 - [RSS](#RSS)
 - [OSGI](#OSGI)
@@ -217,6 +215,8 @@
 - [Minecraft](#Minecraft)
 - [Maven插件](#Maven插件)
 - [Gradle插件](#Gradle插件)
+- [Spring生态](#Spring生态)
+- [杂项](#杂项)
 
 ## Web框架
 
@@ -2273,49 +2273,6 @@
 * [Reflection Util](https://github.com/cronn/reflection-util)：简化Java反射常见用例的工具类。
 * [Paranamer](https://github.com/paul-hammant/paranamer)：一个允许在运行时访问非私有方法和构造函数的参数名称的库。
 
-## 杂项
-
-* [GWT-Bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap)：提供了简单灵活的组件来表示Bootstrap组件、样式和插件，由Twitter开源。
-* [CSSEmbed](https://github.com/nzakas/cssembed)：用于在CSS文件中嵌入数据URI的工具。
-* [J2ObjC](https://github.com/google/j2objc)：Java到iOS Objective-C的转换工具和运行时，由谷歌开源。
-* [Jabba](https://github.com/shyiko/jabba)：Java版本管理工具。
-* [ELK](https://github.com/eclipse/elk)：Eclipse布局内核提供了许多布局算法以及基于Eclipse的基础架构。
-* [Eclipse Xtext](https://github.com/eclipse/xtext)：一个用于开发编程语言和特定领域语言的框架。它涵盖了完整语言基础设施的所有方面，从解析器、链接器、编译器或解释器到针对Eclipse和基于Web的IDE的成熟的顶级IDE集成。
-* [RED](https://github.com/nokia/RED)：RED是基于Eclipse IDE的现代编辑器，可与RobotFramework测试件一起提供高效、舒适的工作，由Nokia开源。
-* [AWS CloudFormation Template](https://github.com/widdix/aws-cf-templates)：AWS CloudFormation的免费模板。
-* [iQuantum](https://github.com/Cloudslab/iQuantum)：用于量子计算环境建模和仿真的工具包。
-* [SecurityShepherd](https://github.com/OWASP/SecurityShepherd)：SecurityShepherd是一个Web和移动应用的安全培训平台，用于促进和提高人员的安全意识，由OWASP开源。
-* [Connector](https://github.com/eclipse-edc/Connector)：EDC核心服务包括数据平面和控制平面。
-* [Autopsy](https://github.com/sleuthkit/autopsy)：一个数字取证平台以及The Sleuth Kit和其他数字取证工具的图形界面。
-* [DCEVM](https://github.com/dcevm/dcevm)：Java 7/8的动态代码演化VM。
-* [OpenTracing](https://github.com/opentracing/opentracing-java)：OpenTracing的Java平台API。
-* [Cling](https://github.com/4thline/cling)：适用于Java和Android的UPnP/DLNA库。
-* [CodenameOne](https://github.com/codenameone/CodenameOne)：用于使用Java或Kotlin构建真正的本机移动应用程序的跨平台框架。
-* [IJava](https://github.com/SpencerPark/IJava)：用于执行Java代码的Jupyter内核。
-* [RackShift](https://github.com/fit2cloud/rackshift)：开源的裸金属服务器管理平台，功能覆盖裸金属服务器的发现、带外管理、RAID配置、固件更新、操作系统安装等。
-* [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei)：WSO2 Enterprise Integrator是一个开源、快速、云原生且可扩展的集成解决方案，是WSO2集成敏捷平台的核心。
-* [Rundeck](https://github.com/rundeck/rundeck)：一种开源自动化服务，具有Web控制台、命令行工具和Web API。
-* [Apache Hop](https://github.com/apache/hop)：旨在促进数据和元数据编排的各个方面，也是Kettle的前身。
-* [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)：开源多式联运旅行规划器。
-* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
-* [Eclipse Scout](https://github.com/eclipse-scout/scout.rt)：一站式框架，具有简单的概念、强大的应用程序模型和多功能的UI，它使你能够使用Java或TypeScript开发专业软件。
-* [Eclipse Titan](https://gitlab.eclipse.org/eclipse/titan)：一个TTCN-3编译和执行环境，具有基于Eclipse的IDE。该工具的用户可以开发测试用例、测试执行逻辑并为多个平台构建可执行测试套件。
-* [Eclipse Transformer](https://github.com/eclipse/transformer)：提供了转换Java二进制文件(例如单个class文件和完整的JAR和WAR)的工具和运行时组件，将更改映射到Java包、类型名称和相关资源名称。
-* [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：AA4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
-* [Guacamole Client](https://github.com/glyptodon/guacamole-client)：HTML5/JavaScript Guacamole客户端，其包含Web应用程序和相关组件。
-* [Apache Jackrabbit](https://github.com/apache/jackrabbit)：Java技术API(JCR)内容仓库的完全一致的实现。
-* [Apache JSPWiki](https://github.com/apache/jspwiki)：领先的开源WikiWiki引擎，功能丰富且围绕标准JEE组件(Java、Servlet、JSP)构建。
-* [Bateman](https://github.com/fearofcode/bateman)：简单的股票交易系统，通过粒子群优化来优化其参数。
-* [Java REPL](https://github.com/albertlatacz/java-repl)：Java语言的简单Read-Eval-Print-Loop。
-* [Seyren](https://github.com/scobal/seyren)：Graphite的警报仪表板。
-* [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。
-* [LanguageTool](https://github.com/languagetool-org/languagetool)：一款开源校对软件，适用于英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语和其他20多种语言，可以发现许多简单的拼写检查器无法检测到的错误。
-* [Apache OpenMeetings](https://openmeetings.apache.org/)：视频会议、即时消息、白板和协作文档编辑应用程序。
-* [TEAMMATES](https://github.com/TEAMMATES/teammates)：一个免费的在线工具，用于管理学生的同行评估和其他反馈路径。它作为基于云的服务提供给教育工作者/学生，目前已被全球数百所大学使用。
-* [WebJars](https://github.com/webjars/webjars)：打包到JAR中的客户端Web库。
-* [PowSyBl](https://github.com/powsybl/powsybl-core)：一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
-* [Py4J](https://github.com/py4j/py4j)：Py4J使Python程序能够动态访问任意Java对象。
-
 ## 人工智能
 
 * [LangChain4j](https://github.com/langchain4j/langchain4j)：该项目的目标是简化AI/LLM功能到Java应用程序的集成。
@@ -3483,51 +3440,6 @@
 * [SMS4J](https://gitee.com/dromara/sms4j)：SMS4J为短信聚合框架，可以轻松集成多家短信服务，解决接入多个短信SDK的繁琐流程。
 * [Austin](https://gitee.com/zhongfucheng/austin)：统一的接口发送各种类型消息，对消息生命周期全链路追踪。
 * [Guerlab](https://gitee.com/guerlab_net/guerlab-sms)：基于Spring Boot的短信服务支持，通过引用不同的Starter启用不同的短信通道支持，支持多通道下的负载均衡，支持同步/异步方式发送。
-
-## Spring生态
-
-* [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)：用于管理Spring Boot应用程序的管理UI。
-* [MyBatis Spring Boot](https://github.com/mybatis/spring-boot-starter)：MyBatis与Spring Boot集成。
-* [Spring Initializr](https://github.com/spring-io/initializr)：Spring项目的快速生成器。
-* [gRPC Spring Boot](https://github.com/yidongnan/grpc-spring-boot-starter)：gRPC框架的Spring Boot Starter模块。
-* [gRPC Spring Boot](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
-* [Retrofit Spring Boot](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强。
-* [Spring Boot DataSource Decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
-* [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
-* [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
-* [Spring Boot Dubbo](https://github.com/apache/dubbo-spring-boot-project)：Dubbo Spring Boot项目可以轻松使用Dubbo作为RPC框架创建Spring Boot应用程序。
-* [Spring Boot Jasypt](https://github.com/ulisesbocchio/jasypt-spring-boot)：Jasypt Spring Boot为Spring Boot应用程序中的属性源提供加密支持。
-* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
-* [Error Handling Spring Boot](https://github.com/wimdeblauwe/error-handling-spring-boot-starter)：可配置的REST API错误处理。
-* [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
-* [Chaos Monkey Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot)：该项目为Spring Boot应用程序提供了Chaos Monkey，并将尝试攻击你正在运行的Spring Boot应用程序。
-* [Spring Content](https://github.com/paulcwarren/spring-content)：Spring的云原生存储和企业内容服务(ECMS)。
-* [Spring Boot Logging](https://github.com/piomin/spring-boot-logging)：用于记录Spring Boot应用程序的HTTP请求/响应以及与Elastic Stack集成的库。
-* [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
-* [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
-* [WireMock Spring Boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
-* [DJL Spring Boot](https://github.com/deepjavalibrary/djl-spring-boot-starter)：DJL Spring Boot Starter。
-* [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
-* [Narayana Spring Boot](https://github.com/snowdrop/narayana-spring-boot)：Narayana Spring Boot自动配置和Starter。
-* [Spring DBUnit](https://github.com/springtestdbunit/spring-test-dbunit)：Spring测试框架和DBUnit之间的集成。
-* [Alibaba Spring Boot](https://github.com/alibaba/aliyun-spring-boot)：阿里云服务Spring Boot Starter。
-* [Springwolf](https://github.com/springwolf/springwolf-core)：使用Spring Boot构建的异步API的自动化文档。
-* [Apache Camel Spring Boot](https://github.com/apache/camel-spring-boot)：Camel Spring Boot支持。
-* [Wicket Spring Boot](https://github.com/MarcGiffing/wicket-spring-boot)：Wicket的Spring Boot Starter。
-* [Bitcoin Spring Boot](https://github.com/theborakompanioni/bitcoin-spring-boot-starter)：使用Spring Boot编写企业比特币应用程序的工具。
-* [Spring Boot Bucket4j](https://github.com/MarcGiffing/bucket4j-spring-boot-starter)：Bucket4j的Spring Boot Starter。
-* [Camunda Spring Boot](https://github.com/camunda/camunda-bpm-spring-boot-starter)：Camunda的Spring Boot Starter。
-* [Charon Spring Boot](https://github.com/mkopylec/charon-spring-boot-starter)：以Spring Boot Starter形式的反向代理实现。
-* [Desensitization Spring Boot](https://github.com/allurx/desensitization-spring-boot)：脱敏库与Spring Boot集成。
-* [Errors Spring Boot](https://github.com/alimate/errors-spring-boot-starter)：Spring Boot的优雅错误处理。
-* [reCAPTCHA Spring Boot](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
-* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：该项目旨在帮助开发者快速将RocketMQ与Spring Boot集成。
-* [PageHelper Spring Boot](https://github.com/pagehelper/pagehelper-spring-boot)：Mybatis分页插件与Spring Boot的集成。
-* [Pug4j Spring Boot](https://github.com/domix/jade4j-spring-boot-starter)：Spring Boot Jade4j Starter。
-* [RESTEasy Spring Boot](https://github.com/resteasy/resteasy-spring-boot)：RESTEasy Spring Boot Starter。
-* [Apache CXF Spring Boot](https://github.com/codecentric/cxf-spring-boot-starter)：由Spring Boot和CXF提供支持的企业和生产就绪SOAP Web Service。
-* [Spring Boot Batch Web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
-* [Problem Spring Web](https://github.com/zalando/problem-spring-web)：用于处理Spring Web MVC中问题的库，由Zalando开源。
 
 ## Raft算法
 
@@ -4783,3 +4695,91 @@
 * [Gradle AWS](https://github.com/classmethod/gradle-aws-plugin)：用于管理Amazon Web Services的Gradle插件。
 * [Gradle Modules](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
 * [Android SVG Drawable](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
+
+## Spring生态
+
+* [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)：用于管理Spring Boot应用程序的管理UI。
+* [MyBatis Spring Boot](https://github.com/mybatis/spring-boot-starter)：MyBatis与Spring Boot集成。
+* [Spring Initializr](https://github.com/spring-io/initializr)：Spring项目的快速生成器。
+* [gRPC Spring Boot](https://github.com/yidongnan/grpc-spring-boot-starter)：gRPC框架的Spring Boot Starter模块。
+* [gRPC Spring Boot](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
+* [Retrofit Spring Boot](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强。
+* [Spring Boot DataSource Decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
+* [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
+* [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
+* [Spring Boot Dubbo](https://github.com/apache/dubbo-spring-boot-project)：Dubbo Spring Boot项目可以轻松使用Dubbo作为RPC框架创建Spring Boot应用程序。
+* [Spring Boot Jasypt](https://github.com/ulisesbocchio/jasypt-spring-boot)：Jasypt Spring Boot为Spring Boot应用程序中的属性源提供加密支持。
+* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
+* [Error Handling Spring Boot](https://github.com/wimdeblauwe/error-handling-spring-boot-starter)：可配置的REST API错误处理。
+* [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
+* [Chaos Monkey Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot)：该项目为Spring Boot应用程序提供了Chaos Monkey，并将尝试攻击你正在运行的Spring Boot应用程序。
+* [Spring Content](https://github.com/paulcwarren/spring-content)：Spring的云原生存储和企业内容服务(ECMS)。
+* [Spring Boot Logging](https://github.com/piomin/spring-boot-logging)：用于记录Spring Boot应用程序的HTTP请求/响应以及与Elastic Stack集成的库。
+* [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
+* [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
+* [WireMock Spring Boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
+* [DJL Spring Boot](https://github.com/deepjavalibrary/djl-spring-boot-starter)：DJL Spring Boot Starter。
+* [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
+* [Narayana Spring Boot](https://github.com/snowdrop/narayana-spring-boot)：Narayana Spring Boot自动配置和Starter。
+* [Spring DBUnit](https://github.com/springtestdbunit/spring-test-dbunit)：Spring测试框架和DBUnit之间的集成。
+* [Alibaba Spring Boot](https://github.com/alibaba/aliyun-spring-boot)：阿里云服务Spring Boot Starter。
+* [Springwolf](https://github.com/springwolf/springwolf-core)：使用Spring Boot构建的异步API的自动化文档。
+* [Apache Camel Spring Boot](https://github.com/apache/camel-spring-boot)：Camel Spring Boot支持。
+* [Wicket Spring Boot](https://github.com/MarcGiffing/wicket-spring-boot)：Wicket的Spring Boot Starter。
+* [Bitcoin Spring Boot](https://github.com/theborakompanioni/bitcoin-spring-boot-starter)：使用Spring Boot编写企业比特币应用程序的工具。
+* [Spring Boot Bucket4j](https://github.com/MarcGiffing/bucket4j-spring-boot-starter)：Bucket4j的Spring Boot Starter。
+* [Camunda Spring Boot](https://github.com/camunda/camunda-bpm-spring-boot-starter)：Camunda的Spring Boot Starter。
+* [Charon Spring Boot](https://github.com/mkopylec/charon-spring-boot-starter)：以Spring Boot Starter形式的反向代理实现。
+* [Desensitization Spring Boot](https://github.com/allurx/desensitization-spring-boot)：脱敏库与Spring Boot集成。
+* [Errors Spring Boot](https://github.com/alimate/errors-spring-boot-starter)：Spring Boot的优雅错误处理。
+* [reCAPTCHA Spring Boot](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
+* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：该项目旨在帮助开发者快速将RocketMQ与Spring Boot集成。
+* [PageHelper Spring Boot](https://github.com/pagehelper/pagehelper-spring-boot)：Mybatis分页插件与Spring Boot的集成。
+* [Pug4j Spring Boot](https://github.com/domix/jade4j-spring-boot-starter)：Spring Boot Jade4j Starter。
+* [RESTEasy Spring Boot](https://github.com/resteasy/resteasy-spring-boot)：RESTEasy Spring Boot Starter。
+* [Apache CXF Spring Boot](https://github.com/codecentric/cxf-spring-boot-starter)：由Spring Boot和CXF提供支持的企业和生产就绪SOAP Web Service。
+* [Spring Boot Batch Web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
+* [Problem Spring Web](https://github.com/zalando/problem-spring-web)：用于处理Spring Web MVC中问题的库，由Zalando开源。
+
+## 杂项
+
+* [GWT-Bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap)：提供了简单灵活的组件来表示Bootstrap组件、样式和插件，由Twitter开源。
+* [CSSEmbed](https://github.com/nzakas/cssembed)：用于在CSS文件中嵌入数据URI的工具。
+* [J2ObjC](https://github.com/google/j2objc)：Java到iOS Objective-C的转换工具和运行时，由谷歌开源。
+* [Jabba](https://github.com/shyiko/jabba)：Java版本管理工具。
+* [ELK](https://github.com/eclipse/elk)：Eclipse布局内核提供了许多布局算法以及基于Eclipse的基础架构。
+* [Eclipse Xtext](https://github.com/eclipse/xtext)：一个用于开发编程语言和特定领域语言的框架。它涵盖了完整语言基础设施的所有方面，从解析器、链接器、编译器或解释器到针对Eclipse和基于Web的IDE的成熟的顶级IDE集成。
+* [RED](https://github.com/nokia/RED)：RED是基于Eclipse IDE的现代编辑器，可与RobotFramework测试件一起提供高效、舒适的工作，由Nokia开源。
+* [AWS CloudFormation Template](https://github.com/widdix/aws-cf-templates)：AWS CloudFormation的免费模板。
+* [iQuantum](https://github.com/Cloudslab/iQuantum)：用于量子计算环境建模和仿真的工具包。
+* [SecurityShepherd](https://github.com/OWASP/SecurityShepherd)：SecurityShepherd是一个Web和移动应用的安全培训平台，用于促进和提高人员的安全意识，由OWASP开源。
+* [Connector](https://github.com/eclipse-edc/Connector)：EDC核心服务包括数据平面和控制平面。
+* [Autopsy](https://github.com/sleuthkit/autopsy)：一个数字取证平台以及The Sleuth Kit和其他数字取证工具的图形界面。
+* [DCEVM](https://github.com/dcevm/dcevm)：Java 7/8的动态代码演化VM。
+* [OpenTracing](https://github.com/opentracing/opentracing-java)：OpenTracing的Java平台API。
+* [Cling](https://github.com/4thline/cling)：适用于Java和Android的UPnP/DLNA库。
+* [CodenameOne](https://github.com/codenameone/CodenameOne)：用于使用Java或Kotlin构建真正的本机移动应用程序的跨平台框架。
+* [IJava](https://github.com/SpencerPark/IJava)：用于执行Java代码的Jupyter内核。
+* [RackShift](https://github.com/fit2cloud/rackshift)：开源的裸金属服务器管理平台，功能覆盖裸金属服务器的发现、带外管理、RAID配置、固件更新、操作系统安装等。
+* [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei)：WSO2 Enterprise Integrator是一个开源、快速、云原生且可扩展的集成解决方案，是WSO2集成敏捷平台的核心。
+* [Rundeck](https://github.com/rundeck/rundeck)：一种开源自动化服务，具有Web控制台、命令行工具和Web API。
+* [Apache Hop](https://github.com/apache/hop)：旨在促进数据和元数据编排的各个方面，也是Kettle的前身。
+* [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)：开源多式联运旅行规划器。
+* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
+* [Eclipse Scout](https://github.com/eclipse-scout/scout.rt)：一站式框架，具有简单的概念、强大的应用程序模型和多功能的UI，它使你能够使用Java或TypeScript开发专业软件。
+* [Eclipse Titan](https://gitlab.eclipse.org/eclipse/titan)：一个TTCN-3编译和执行环境，具有基于Eclipse的IDE。该工具的用户可以开发测试用例、测试执行逻辑并为多个平台构建可执行测试套件。
+* [Eclipse Transformer](https://github.com/eclipse/transformer)：提供了转换Java二进制文件(例如单个class文件和完整的JAR和WAR)的工具和运行时组件，将更改映射到Java包、类型名称和相关资源名称。
+* [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：AA4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
+* [Guacamole Client](https://github.com/glyptodon/guacamole-client)：HTML5/JavaScript Guacamole客户端，其包含Web应用程序和相关组件。
+* [Apache Jackrabbit](https://github.com/apache/jackrabbit)：Java技术API(JCR)内容仓库的完全一致的实现。
+* [Apache JSPWiki](https://github.com/apache/jspwiki)：领先的开源WikiWiki引擎，功能丰富且围绕标准JEE组件(Java、Servlet、JSP)构建。
+* [Bateman](https://github.com/fearofcode/bateman)：简单的股票交易系统，通过粒子群优化来优化其参数。
+* [Java REPL](https://github.com/albertlatacz/java-repl)：Java语言的简单Read-Eval-Print-Loop。
+* [Seyren](https://github.com/scobal/seyren)：Graphite的警报仪表板。
+* [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。
+* [LanguageTool](https://github.com/languagetool-org/languagetool)：一款开源校对软件，适用于英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语和其他20多种语言，可以发现许多简单的拼写检查器无法检测到的错误。
+* [Apache OpenMeetings](https://openmeetings.apache.org/)：视频会议、即时消息、白板和协作文档编辑应用程序。
+* [TEAMMATES](https://github.com/TEAMMATES/teammates)：一个免费的在线工具，用于管理学生的同行评估和其他反馈路径。它作为基于云的服务提供给教育工作者/学生，目前已被全球数百所大学使用。
+* [WebJars](https://github.com/webjars/webjars)：打包到JAR中的客户端Web库。
+* [PowSyBl](https://github.com/powsybl/powsybl-core)：一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
+* [Py4J](https://github.com/py4j/py4j)：Py4J使Python程序能够动态访问任意Java对象。
