@@ -2014,16 +2014,16 @@
 
 ## 规则引擎
 
-* [Drools](https://github.com/kiegroup/drools)：Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
+* [Drools](https://github.com/apache/incubator-kie-drools)：Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎。
 * [Easy Rules](https://github.com/j-easy/easy-rules)：简单的Java规则引擎。
 * [Liteflow](https://github.com/dromara/liteflow)：dromara开源的轻量级、快速、稳定、可编程的基于组件的规则引擎/流程引擎。
-* [Radar](https://github.com/wfh45678/radar)：一款基于Java语言，使用Spring Boot + MongoDB + Groovy + ES等框架搭建的轻量级实时风控引擎。
+* [Radar](https://github.com/wfh45678/radar)：使用Spring Boot + MongoDB + Groovy + ES等框架搭建的轻量级实时风控引擎。
 * [RuleBook](https://github.com/deliveredtechnologies/rulebook)：纯Java、支持Lambda的轻量级规则引擎，具有简单直观的DSL。
 * [RuleEngine](https://github.com/Hale-Lee/RuleEngine)：非常好用的规则引擎，可以直接使用SQL语句定义规则，简化了编码的负荷，也可以使用XML、drl文件配置规则，还支持drools文件导入。
 * [Evrete](https://github.com/evrete/evrete)：Evrete是一个轻量级且直观的Java规则引擎。
 * [OpenL Tablets](https://github.com/openl-tablets/openl-tablets)：业务规则管理系统。
 * [Jess](http://alvarestech.com/temp/fuzzyjess/Jess60/Jess70b7/docs/index.html)：Jess是最早能够轻松与Java集成的规则引擎之一。
-* [dataframe-rules-engine](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
+* [DataFrames](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
 
 ## 低代码平台
 
@@ -2764,6 +2764,7 @@
 * [Password4j](https://github.com/Password4j/password4j)：一个Java用户友好的加密库，用于使用不同的密钥派生函数和加密哈希函数来加密和验证密码。
 * [Kalium](https://github.com/abstractj/kalium)：网络和密码学(NaCl)库的Java绑定。
 * [GM JSSE](https://github.com/aliyun/gm-jsse)：开源国密通信纯Java JSSE实现，由阿里开源。
+* [Dilithium](https://github.com/mthiim/dilithium-java)：后量子加密算法Dilithium的实验性Java实现。
 
 ## 模板引擎
 
