@@ -258,24 +258,24 @@
 ## REST框架
 
 * [Jersey](https://github.com/eclipse-ee4j/jersey)：Eclipse基金会下的REST框架，提供JAX-RS等参考实现。
-* [Dropwizard](https://github.com/dropwizard/dropwizard)：一个非常简单的库，用于构建生产就绪的RESTful Web服务。
-* [RESTEasy](https://github.com/resteasy/resteasy)：Jakarta RESTful Web服务规范的实现。
+* [Dropwizard](https://github.com/dropwizard/dropwizard)：一个非常简单的库，用于构建生产就绪的REST Web服务。
+* [RESTEasy](https://github.com/resteasy/resteasy)：Jakarta REST Web服务规范的实现。
 * [Bootique](https://github.com/bootique/bootique)：一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序。
 * [Restx](https://github.com/restx/restx)：轻量级REST框架。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Java REST API框架。
-* [Rest.li](https://github.com/linkedin/rest.li)：LinkedIn开源的REST+JSON框架，用于使用动态发现和简单的异步API构建健壮、可扩展的服务架构。
+* [Rest.li](https://github.com/linkedin/rest.li)：LinkedIn开源的REST框架，用于使用动态发现和简单的异步API构建健壮、可扩展的服务架构。
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：没有注解/DI/响应式的Java REST框架。
 * [Resty](https://github.com/Dreampie/Resty)：极简的REST框架。
 * [Airlift](https://github.com/airlift/airlift)：一个用Java构建REST服务的框架。
 * [Apache Juneau](https://github.com/apache/juneau)：一个使用通用框架将POJO编组到各种内容类型的工具包，并可以使用非常少的代码创建复杂的自记录REST接口和微服务。
 * [Kanary](https://github.com/SeunAdelekan/Kanary)：用于在Kotlin/Java中构建REST API的简约Web框架。
 * [RestExpress](https://github.com/RestExpress/RestExpress)：用于快速创建可扩展、Containerless、RESTful微服务的极简Java框架。
-* [Moqui Framework](https://github.com/moqui/moqui-framework)：Moqui开发框架是一个全功能的，企业级应用开发框架，基于Groovy和Java语言。
-* [Apache CXF](https://github.com/apache/cxf)： CXF是一个开源框架，提供了用于方便地构建和开发Web Service的可靠基础架构。
-* [Kilo](https://github.com/HTTP-RPC/Kilo)：Kilo是一个开源框架，用于在Java中创建和使用RESTful和类REST Web服务。
+* [Moqui Framework](https://github.com/moqui/moqui-framework)：Moqui是一个全功能、企业级应用开发框架，基于Groovy和Java语言。
+* [Apache CXF](https://github.com/apache/cxf)： CXF提供了用于方便地构建和开发Web Service的可靠基础架构。
+* [Kilo](https://github.com/HTTP-RPC/Kilo)：用于在Java中创建和使用RESTful和类REST Web服务。
 * [Crnk](https://github.com/crnk-project/crnk-framework)：Crnk是JSON API规范和建议的Java实现，旨在促进构建RESTful应用程序。
-* [Hammock](https://github.com/hammock-project/hammock)：Hammock是一个简单易用的框架，用于引导CDI、启动Web服务器并能够部署REST API。
-* [Apache Sling](https://sling.apache.org/)：基于可扩展内容树的RESTful Web应用程序框架。
+* [Hammock](https://github.com/hammock-project/hammock)：用于引导CDI、启动Web服务器并能够部署REST API的框架。
+* [Apache Sling](https://sling.apache.org/)：基于可扩展内容树的RESTful Web应用框架。
 * [Apache Wink](https://wink.apache.org/)：一个简单可靠的框架，用于构建RESTful Web服务。
 * [Rocket API](https://gitee.com/alenfive/rocket-api)：API敏捷开发框架，用于API接口功能的快速开发。
 * [Proteus](https://github.com/noboomu/proteus)：Proteus是一个极快的Java API服务器框架，构建于Undertow之上。
@@ -284,12 +284,12 @@
 
 * [PrimeFaces](https://github.com/primefaces/primefaces)：JavaServer Faces的终极组件套件。
 * [JoinFaces](https://github.com/joinfaces/joinfaces)：旨在解决JSF和Spring Boot集成功能。
-* [PrimeFaces-Extensions](https://github.com/primefaces-extensions/primefaces-extensions)：PrimeFaces扩展。
+* [PrimeFaces Extensions](https://github.com/primefaces-extensions/primefaces-extensions)：PrimeFaces扩展。
 * [Omnifaces](https://github.com/omnifaces/omnifaces)：让JSF开发更轻松。
-* [Adminfaces](https://github.com/adminfaces/admin-template)：AdminFaces是一个开源项目，它集成了Primefaces、Bootstrap和Admin LTE，以创建完全响应且适合移动设备的JSF应用程序。
+* [Adminfaces](https://github.com/adminfaces/admin-template)：集成了Primefaces、Bootstrap和Admin LTE，以创建完全响应且适合移动设备的JSF应用程序。
 * [Mojarra](https://github.com/eclipse-ee4j/mojarra)：Eclipse基金会下的Jakarta Faces实现。
 * [Apache MyFaces](https://github.com/apache/myfaces)：Apache基金会下的Jakarta Faces实现。
-* [ButterFaces](https://github.com/butterfaces/butterfaces)：一个轻量级、响应式的JSF框架，结合了Bootstrap、jQuery和HTML 5的优点，使用JSF 2开发快速、简单和现代的Web应用程序。
+* [ButterFaces](https://github.com/butterfaces/butterfaces)：一个轻量级、响应式的JSF框架，结合了Bootstrap、jQuery和HTML 5的优点。
 * [RichFaces](https://github.com/richfaces/richfaces)：RedHat JBoss的JSF组件框架。
 * [ChartistJSF](https://github.com/hatemalimam/ChartistJSF)：JavaServer Faces的高度可定制响应式图表。
 * [Springfaces](https://github.com/philwebb/springfaces)：Spring JSF集成。
