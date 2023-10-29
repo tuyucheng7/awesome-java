@@ -632,7 +632,8 @@
 * [Geb](https://github.com/geb/geb)：一种浏览器自动化解决方案，它汇集了WebDriver的强大功能、jQuery内容选择的优雅性、页面对象建模的稳健性以及Groovy语言的表现力。
 * [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
 * [HBrowser](https://github.com/Osiris-Team/HBrowser)：无头/完整的Java浏览器，支持下载文件、使用Cookie、检索HTML和模拟真实用户输入。
-* [Appium-Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
+* [Appium Client](https://github.com/appium/java-client)：用于编写符合WebDriver协议的Appium测试的Java语言绑定。
+* [Boyka](https://github.com/BoykaFramework/boyka-framework)：测试自动化框架，可在任何平台上自动化任何应用程序。
 
 #### 自动化工具
 
@@ -1290,7 +1291,6 @@
 * [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
 * [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
 * [Ptubes](https://github.com/meituan/ptubes)：一款基于PITR的数据库容灾产品，可以用来将整个数据库恢复到特定时间点，美团开源。
-* [esProc](https://github.com/SPLWare/esProc)：esProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
 
 ## 数据湖框架
 
@@ -1904,6 +1904,7 @@
 * [LogUtils](https://github.com/pengwei1024/LogUtils)：更方便易用的Android日志管理器。
 * [Singer](https://github.com/pinterest/singer)：高性能、可靠且可扩展的日志代理，用于将数据上传到Kafka、Pulsar等，由Pinterest开源。
 * [Log-Record](https://github.com/qqxx6661/log-record)：通过Java注解优雅的记录操作日志，并支持SpEL表达式、自定义上下文、自定义函数、实体类DIFF等功能。
+* [Elf4j Engine](https://github.com/elf4j/elf4j-engine)：异步Java日志引擎。
 
 ## GraphQL
 
@@ -1967,7 +1968,7 @@
 * [BRCC](https://github.com/baidu/brcc)：百度开源的分布式配置中心，用于统一管理应用服务的配置信息。
 * [Apollo](https://github.com/apolloconfig/apollo)：可靠的配置管理系统，适用于微服务配置管理场景，由携程开源。
 * [Disconf](https://github.com/knightliao/disconf)：专注于各种分布式系统配置管理的通用组件和通用平台，提供统一的配置管理服务。
-* [CentralDogma](https://github.com/line/centraldogma)：Central Dogma是一个基于Git、ZooKeeper和HTTP/2的开源、高可用、版本控制的服务配置存储库，由Line开源。
+* [CentralDogma](https://github.com/line/centraldogma)：一个基于Git、ZooKeeper和HTTP/2的开源、高可用、版本控制的服务配置存储库，由Line开源。
 * [XXL-Conf](https://github.com/xuxueli/xxl-conf)：轻量级分布式配置管理平台。
 * [QConfig](https://github.com/qunarcorp/qconfig)：去哪儿开发的配置中心，提供高可用的配置托管/动态热更新服务，具备丰富的格式支持和简单易用的API。
 * [Apache Commons Configuration](https://github.com/apache/commons-configuration)：协助读取各种格式的配置/首选项文件的工具。
@@ -2562,6 +2563,7 @@
 * [Bio-Formats](https://github.com/ome/bioformats)：用于读取和写入生命科学图像文件格式数据的Java库。
 * [Bio4j](https://github.com/bio4j/bio4j)：一个生物信息学图形数据平台，集成了Uniprot KB(SwissProt+Trembl)、Gene Ontology(GO)、UniRef(50,90,100)、NCBI Taxonomy和Expasy Enzyme DB中的大部分可用数据。
 * [libSBOLj](https://github.com/SynBioDex/libSBOLj)：合成生物学开放语言Java库。
+* [GBIF Integrated Publishing Toolkit](https://github.com/gbif/ipt)：由全球生物多样性信息设施提供的免费开源软件工具，用于通过GBIF网络发布和共享生物多样性数据集。
 
 ## 基因组学
 
@@ -2600,7 +2602,7 @@
 * [ZIO](https://github.com/zio/zio)：一个类型安全、可组合的库，用于Scala中的异步和并发编程。
 * [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：提供一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
 * [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：Java的ConcurrentLinkedHashMap库。
-* [Trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotity开源。
+* [Trickle](https://github.com/spotify/trickle)：用于编写异步代码的小型库，由Spotify开源。
 * [Loom](https://github.com/openjdk/loom)：JDK实现的虚拟线程、结构化并发项目。
 * [JDeferred](https://github.com/jdeferred/jdeferred)：JDeferred是一个小型Java库，用于实现异步拓扑，而无需编写样板代码。
 * [Coroutines](https://github.com/esoco/coroutines)：协作并发的纯Java实现，又名协程。
@@ -3225,6 +3227,7 @@
 * [OpenGrok](https://github.com/oracle/opengrok)：OpenGrok是一个快速且可用的源代码搜索和交叉引用引擎，可以帮助你搜索、交叉引用和导航源树，由Oracle开源。
 * [Forbidden API](https://github.com/policeman-tools/forbidden-apis)：允许解析Java字节码以查找方法/类/字段签名的调用并失败构建(Ant、Maven或Gradle)。
 * [WALA](https://github.com/wala/WALA)：为Java字节码和相关语言以及JavaScript提供静态分析功能。
+* [Ultimate](https://github.com/ultimate-pa/ultimate)：Ultimate是一个程序分析框架。
 
 ## 依赖分析
 
@@ -3523,6 +3526,7 @@
 * [Windup](https://github.com/windup/windup)：支持跨广泛转换和用例的大规模Java应用程序现代化和迁移项目。
 * [Jakarta Migration](https://github.com/apache/tomcat-jakartaee-migration)：该工具的目的是自动对为Java EE 8编写并在Tomcat 9上运行的Web应用程序进行转换，以便可以在实现Jakarta EE 9的Tomcat 10上运行。
 * [Scientist4J](https://github.com/rawls238/Scientist4J)：Github重构工具Scientist的Java移植。
+* [RefactoringMiner](https://github.com/tsantalis/RefactoringMiner)：一个用Java编写的库，可以检测Java项目历史中应用的重构。
 
 ## 机器人
 
@@ -3557,6 +3561,7 @@
 * [WeChatBotEngine](https://github.com/moontide/WeChatBotEngine)：基于微信网页版HTTP协议的机器人引擎。
 * [FeishuBot](https://github.com/rawchen/FeishuBot)：飞书群聊/私聊ChatGPT机器人。
 * [PokuBot](https://github.com/norecha/pokubot)：部落冲突机器人。
+* [BowlerStudio](https://github.com/CommonWealthRobotics/BowlerStudio)：全栈机器人开发环境。
 
 ## 安卓库
 
@@ -4319,6 +4324,7 @@
 * [Sedona](https://github.com/apache/sedona)：处理大规模地理空间数据的集群计算框架。
 * [H3-Java](https://github.com/uber/h3-java)：H3的Java绑定，分层六边形地理空间索引系统，由Uber开源。
 * [Planetiler](https://github.com/onthegomap/planetiler)：一种从OpenStreetMap等地理数据源生成矢量切片的工具。
+* [Openrouteservice](https://github.com/GIScience/openrouteservice)：具有大量功能的开源路线规划器API。
 
 ## 几何学
 
