@@ -1291,6 +1291,8 @@
 * [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
 * [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
 * [Ptubes](https://github.com/meituan/ptubes)：一款基于PITR的数据库容灾产品，可以用来将整个数据库恢复到特定时间点，美团开源。
+* [RRD4J](https://github.com/rrd4j/rrd4j)：用于时序数据的高性能数据记录和图形系统。
+* [Tapdata](https://github.com/tapdata/tapdata)：Tapdata是一个实时数据集成平台，可以实现数据库、SaaS服务、应用程序、文件等各种系统之间的数据实时同步，由钛铂数据开源。
 
 ## 数据湖框架
 
@@ -1522,6 +1524,7 @@
 * [Sensei](https://github.com/LinkedInAttic/sensei)：一个分布式、弹性的实时可搜索数据库，由LinkedIn开源。
 * [Heroic](https://github.com/spotify/heroic)：基于Bigtable、Cassandra和Elasticsearch的可扩展时序数据库，由Spotify开源。
 * [StarRocks](https://github.com/StarRocks/starrocks)：StarRocks是Linux基金会的一个项目，是下一代数据平台，旨在使数据密集型实时分析变得快速、轻松，由百度Doris团队成员开源。
+* [TimeBase](https://github.com/finos/TimeBase-CE)：高性能时序数据库，Fintech开源。
 * [KairosDB](https://github.com/kairosdb/kairosdb)：一个基于Cassandra编写的快速分布式可扩展时序数据库。
 * [ToroDB](https://github.com/torodb/stampede)：在RDBMS之上运行的开源NoSQL数据库，与MongoDB协议和API兼容，但支持原生SQL、原子操作以及PostgreSQL等可靠耐用的后端。
 * [LevelDB](https://github.com/dain/leveldb)：Java中LevelDB的重写，此目标是拥有一个功能完整的实现，其性能与C++原始版本的性能相差不超过10%，并生成C++代码的逐字节精确副本。
@@ -1889,7 +1892,7 @@
 * [JLog](https://gitee.com/jd-platform-opensource/jlog)：京东开源的海量日志搜集、传输、存储解决方案。
 * [P6Spy](https://github.com/p6spy/p6spy)：P6Spy是一个框架，无需对应用程序进行任何代码更改即可无缝拦截和记录数据库数据。
 * [Aliyun Log](https://github.com/aliyun/aliyun-log-java-sdk)：可以调用所有阿里云日志服务API的Java SDK。
-* [Fluent Logger Java](https://github.com/fluent/fluent-logger-java)：用于通过Fluentd从Java应用程序记录事件的Java库。
+* [Fluent Logger](https://github.com/fluent/fluent-logger-java)：用于通过Fluentd从Java应用程序记录事件的Java库。
 * [Chronicle Logger](https://github.com/OpenHFT/Chronicle-Logger)：亚微秒Java记录器，支持标准日志记录API，例如SLF4j和Log4J。
 * [Jcabi Log](https://github.com/jcabi/jcabi-log)：SLF4J的静态包装器，无需在每个Java类中创建静态LOGGER实例。
 * [PLog](https://github.com/JumeiRdGroup/Android-PLog)：一个纯粹、漂亮、强大的Android日志库，由聚美优品开源。
@@ -1905,6 +1908,8 @@
 * [Singer](https://github.com/pinterest/singer)：高性能、可靠且可扩展的日志代理，用于将数据上传到Kafka、Pulsar等，由Pinterest开源。
 * [Log-Record](https://github.com/qqxx6661/log-record)：通过Java注解优雅的记录操作日志，并支持SpEL表达式、自定义上下文、自定义函数、实体类DIFF等功能。
 * [Elf4j Engine](https://github.com/elf4j/elf4j-engine)：异步Java日志引擎。
+* [Zerolog](https://github.com/obsidiandynamics/zerolog)：适用于性能敏感应用程序的低开销日志记录门面。
+* [Penna](https://github.com/hkupty/penna)：以JSON格式将结构化日志记录到控制台。
 
 ## GraphQL
 
@@ -2258,6 +2263,7 @@
 * [Jollyday](https://github.com/svendiedrichsen/jollyday)：确定给定年份、国家/名称以及最终州/地区的假期。
 * [iCal4j](https://github.com/ical4j/ical4j)：用于解析和构建iCalendar数据模型的Java库。
 * [TimeAgo](https://github.com/marlonlom/timeago)：一个简单的Java库，用于将日期显示为相对时间之前的语言。
+* [Biweekly](https://github.com/mangstadt/biweekly)：Biweekly是一个用Java编写的iCalendar库。
 
 ## 反射
 
@@ -2290,6 +2296,7 @@
 * [AllData](https://github.com/alldatacenter/alldata)：AllData大数据产品是可定义数据中台，以数据平台为底座、数据中台为桥梁，以机器学习平台、GPT平台为框架，提供全链路数字化解决方案。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
 * [Malmo](https://github.com/microsoft/malmo)：建立在Minecraft之上的人工智能实验和研究平台。
+* [Xef](https://github.com/xebia-functional/xef)：Xef是一站式库，以LLM、图像生成等形式将现代AI的力量带入你的应用程序或服务。
 
 #### 机器学习
 
@@ -2334,6 +2341,7 @@
 * [Encog](https://github.com/jeffheaton/encog-java-core)：一个先进的机器学习框架，支持支持向量机、人工神经网络、遗传编程、贝叶斯网络、隐马尔可夫模型、遗传编程和遗传算法。
 * [Neuroph](https://github.com/neuroph/neuroph)：一个轻量级的Java神经网络框架。
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
+* [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流程，只需最少的手动调整。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：Java统计分析工具，用于机器学习的Java库。
 * [Java-ML](https://github.com/charliermarsh/java-ml)：多种机器学习分类算法的Java实现。
@@ -2491,6 +2499,7 @@
 * [LIBLINEAR](https://github.com/bwaldvogel/liblinear-java)：LIBLINEAR的Java版本。
 * [JTransforms](https://github.com/wendykierp/JTransforms)：第一个用纯Java编写的开源多线程FFT库。
 * [Jblas](https://github.com/jblas-project/jblas)：一个Java矩阵库，它使用现有的高性能BLAS和LAPACK库(如ATLAS)。
+* [jOOU](https://github.com/jOOQ/jOOU)： jOOU为四种Java整数类型byte、short、int和long提供无符号整数版本。
 
 ## 本体
 
