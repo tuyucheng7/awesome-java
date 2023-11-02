@@ -992,7 +992,7 @@
 ## 分布式追踪
 
 * [SkyWalking](https://github.com/apache/skywalking)：Apache基金会下的应用程序性能监控系统，国产开源(华为吴晟)。
-* [Zipkin](https://github.com/openzipkin/zipkin)：分布式追踪系统，由Twitter开源。
+* [Zipkin](https://github.com/openzipkin/zipkin)：分布式追踪系统，由推特开源。
 * [MTrace](https://tech.meituan.com/2016/10/14/mt-mtrace.html)：美团点评内部的分布式会话跟踪系统，参考了Twitter的Zipkin以及阿里的鹰眼实现。
 * [Watchman](https://www.infoq.cn/article/weibo-watchman/)：微博平台的链路追踪及服务质量保障系统。
 * [EagleEye](https://www.infoq.cn/article/jgzbemozgmbsukewff6j)：鹰眼是谷歌的分布式调用跟踪系统Dapper在淘宝的Java实现。
