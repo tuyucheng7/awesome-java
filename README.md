@@ -2333,6 +2333,7 @@
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow的Java绑定。
 * [Mallet](https://github.com/mimno/Mallet)：一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [Primus](https://github.com/bytedance/primus)：用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
+* [AMIDST](https://github.com/amidst/toolbox)：用于可扩展概率机器学习的Java工具包。
 * [oj!Algorithms](https://github.com/optimatika/ojAlgo)：与数学、线性代数和优化有关的开源Java代码。
 * [Metarank](https://github.com/metarank/metarank)：一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [ModelMesh](https://github.com/kserve/modelmesh)：一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
@@ -4247,7 +4248,7 @@
 * [XtreemFS](https://github.com/xtreemfs/xtreemfs)：用于联合IT基础设施的分布式、可复制和容错的文件系统。
 * [Memory File System](https://github.com/marschall/memoryfilesystem)：JSR-203文件系统的内存实现。
 * [RubiX](https://github.com/qubole/rubix)：针对列格式和对象存储优化的缓存文件系统。
-* [ADFS](https://github.com/taobao/ADFS)：ADFS是Hadoop的演进版本，提供高可用性、自动重启等特性，由阿里可以。
+* [ADFS](https://github.com/taobao/ADFS)：ADFS是Hadoop的演进版本，提供高可用性、自动重启等特性，由阿里开源。
 * [TngouFS](https://gitee.com/397713572/tngouFS)：天狗文件系统，主要用于图片、视频、文档等相关文件的管理。
 * [Apache Commons VFS](https://github.com/apache/commons-vfs)：Commons VFS是一个虚拟文件系统库。
 * [FastDFS Client](https://github.com/happyfish100/fastdfs-client-java)：FastDFS Java客户端SDK。
