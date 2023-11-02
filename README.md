@@ -329,7 +329,7 @@
 * [Flower](https://github.com/zhihuili/flower)：构建在Akka上的响应式微服务框架。
 * [Redkale](https://github.com/redkale/redkale)：基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
-* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
+* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由推特开源。
 * [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
 * [Fusion](https://github.com/yupiik/fusion)：Fusion框架旨在提供一个非常轻量级的Java框架和Graal Native。
 
@@ -4761,7 +4761,7 @@
 
 ## 杂项
 
-* [GWT-Bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap)：提供了简单灵活的组件来表示Bootstrap组件、样式和插件，由Twitter开源。
+* [GWT-Bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap)：提供了简单灵活的组件来表示Bootstrap组件、样式和插件，由推特开源。
 * [CSSEmbed](https://github.com/nzakas/cssembed)：用于在CSS文件中嵌入数据URI的工具。
 * [J2ObjC](https://github.com/google/j2objc)：Java到iOS Objective-C的转换工具和运行时，由谷歌开源。
 * [Jabba](https://github.com/shyiko/jabba)：Java版本管理工具。
