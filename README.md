@@ -1,11 +1,3 @@
----
-layout: post
-title:  Java生态库
-category: java-jeps
-copyright: java-jeps
-excerpt: Java生态
----
-
 # Java生态资源大全
 
 该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android、生物学等领域。
