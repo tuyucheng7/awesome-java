@@ -4,6 +4,8 @@
 
 所有框架和库都是基于Java语言实现的，只有极少数是由Kotlin、Scala、Groovy等JVM系语言混合开发，并且也可以在Java中兼容使用。
 
+> 注意：由于Github内容有字数限制，在浏览器阅读README文件时显示不全。
+
 ## 目录
 
 - [Web框架](#Web框架)
@@ -182,6 +184,7 @@
 - [DDD框架](#DDD框架)
 - [软件工程](#软件工程)
 - [设计模式](#设计模式)
+- [幂等处理](#幂等处理)
 - [迁移&重构](#迁移重构)
 - [机器人](#机器人)
 - [安卓库](#安卓库)
@@ -209,6 +212,7 @@
 - [算法库](#算法库)
 - [原生开发](#原生开发)
 - [硬件操作](#硬件操作)
+- [操作系统](#操作系统)
 - [逆向工程](#逆向工程)
 - [CMS系统](#CMS系统)
 - [DMS系统](#DMS系统)
@@ -363,6 +367,7 @@
 * [Confluent REST Utils](https://github.com/confluentinc/rest-utils)：Confluence REST Utils提供了一个小型框架和实用程序，用于使用Jersey、Jackson、Jetty和Hibernate Validator编写Java REST API。
 * [EverRest](https://github.com/codenvy/everrest)：EverRest是RESTful应用程序框架以及完整的JAX-RS实现。
 * [Agrest](https://github.com/agrestio/agrest)：Agrest是一个灵活的模型驱动的REST数据服务框架。
+* [Lambada Framework](https://github.com/cagataygurturk/lambadaframework)：Lambada Framework是一个实现JAX-RS API的REST框架，可让你以Serverless方式将应用程序部署到AWS Lambda和API Gateway。
 
 ## ORM框架
 
@@ -433,6 +438,7 @@
 * [JPA-Streamer](https://github.com/speedment/jpa-streamer)：JPA Streamer是一个轻量级库，用于将JPA查询表达为Java Stream。
 * [Jcabi-JDBC](https://github.com/jcabi/jcabi-jdbc)：流式的面向对象的JDBC包装器。
 * [Mongo Plus](https://gitee.com/anwena/mongo-plus)：使用MyBatis Plus的方式，优雅的操作MongoDB。
+* [ActiveJPA](https://github.com/ActiveJpa/activejpa)：ActiveJPA是一个试图在JPA之上实现活动记录模式的Java库，该库的目标是消除创建DAO或Repository类的需要，并使DAL编程更加简单。
 
 ## 应用框架
 
@@ -1004,6 +1010,7 @@
 * [Hudson](https://github.com/hudson/hudson-2.x)：持续集成服务器，Jenkins的前身。
 * [Apache Continuum](https://continuum.apache.org/)：一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统集成等功能。
 * [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
+* [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一种持续集成工具，旨在与GitHub和Singularity集成，由HubSpot开源。
 
 ## Java环境管理
 
@@ -1281,6 +1288,7 @@
 * [Simple-Failover](https://github.com/PhantomThief/simple-failover-java)：一个简单的Java故障转移库。
 * [Atomix](https://atomix.io/)：用于构建容错分布式系统的多语言框架。
 * [Akali](https://gitee.com/dromara/Akali)：Akali是一个轻量级本地化热点检测/降级框架，适用于大流量场景，可轻松解决业务中超高流量的并发查询等场景，由dromara社区开源。
+* [Baragon](https://github.com/HubSpot/Baragon)：Baragon是一个用于自动更新负载均衡器配置的系统，由HubSpot开源。
 
 ## API网关
 
@@ -1576,6 +1584,7 @@
 * [DataLink](https://github.com/ucarGroup/DataLink)：DataLink是一个满足各种异构数据源之间的实时增量同步、离线全量同步，分布式、可扩展的数据交换平台，由神州优车开源。
 * [DBSyncer](https://gitee.com/ghi/dbsyncer)：DBSyncer是一款开源的数据同步中间件，提供MySQL、Oracle、SqlServer、PostgreSQL、Elasticsearch(ES)、Kafka、File、SQL等同步场景。
 * [DBSwitch](https://gitee.com/dromara/dbswitch)：DBSwitch工具提供源端数据库向目的端数据库的批量迁移同步功能，支持数据的全量和增量方式同步，由dromara社区开源。
+* [Mongeez](https://github.com/mongeez/mongeez)：Mongeez允许你管理Mongo文档的更改，并在执行部署时与代码更改同步传播这些更改。
 
 ## 数据湖框架
 
@@ -4277,6 +4286,9 @@
 * [JWiki](https://github.com/fastily/jwiki)：用于轻松与Wikipedia/MediaWiki交互的库。
 * [Jenkins Java Client](https://github.com/jenkinsci/java-client-api)：适用于Java的Jenkins API客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：Spotify Web API的Java包装器。
+* [Slack-Client](https://github.com/HubSpot/slack-client)：Slack Web API的异步HTTP客户端，由HubSpot开源。
+* [Spring Social Google](https://github.com/spring-social/spring-social-google)：Spring Social扩展，具有连接支持和Google API绑定。
+* [Java Youtube Downloader](https://github.com/sealedtx/java-youtube-downloader)：用于检索Youtube视频元数据的简单Java解析器。
 
 ## 区块链
 
@@ -4552,6 +4564,14 @@
 * [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
 * [Decorator](https://github.com/eyeem/decorator)：动态继承库，装饰器模式的实现。
 * [AutoProxy](https://github.com/OleksandrKucherenko/autoproxy)：在接口/抽象类之上生成代理类，允许拦截调用。
+
+## 幂等处理
+
+* [Idempotent](https://github.com/it4alla/idempotent)：幂等处理方案。
+* [Idempotent Spring Boot Starter](https://github.com/pig-mesh/idempotent-spring-boot-starter)：对原有idempotent代码重构和功能增强。
+* [Jdempotent](https://github.com/Trendyol/Jdempotent)：轻松使你的端点幂等。
+* [Idempotence4j](https://github.com/transferwise/idempotence4j)：Idempotence4j是一个轻量级库，为处理幂等操作提供支持。
+* [Quidem](https://github.com/julianhyde/quidem)：Quidem是一个幂等查询执行器。
 
 ## 迁移&重构
 
@@ -5328,6 +5348,13 @@
 * [Cups4j](https://github.com/harwey/cups4j)：CUPS的Java打印库。
 * [JavaDoesUSB](https://github.com/manuelbl/JavaDoesUSB)：Java does USB是一个用于处理USB设备的Java库，它允许查询有关所有连接的USB设备的信息，并使用自定义/供应商特定协议与USB设备进行通信。
 
+## 操作系统
+
+* [JOS](https://sourceforge.net/projects/jos/)：一个免费且开源的基于Java的操作系统。
+* [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
+* [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构。
+* [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
+
 ## 逆向工程
 
 * [Ghidra](https://github.com/NationalSecurityAgency/ghidra)：由美国国家安全局研究局创建和维护的SRE框架。
@@ -5386,6 +5413,8 @@
 * [My Blog](https://github.com/ZHENFENG13/My-Blog)：由SpringBoot + Mybatis + Thymeleaf等技术实现的Java博客系统。
 * [Magnolia CMS](https://www.magnolia-cms.com/)：Magnolia是一个开源CMS，由总部位于瑞士巴塞尔的Magnolia International Ltd开发。
 * [瀑布CMS](https://gitee.com/LinZhaoguan/pb-cms)：采用Spring Boot + Apache Shiro + Mybatis Plus + Thymeleaf实现的CMS(附带权限管理)。
+* [Znai](https://github.com/testingisdocumenting/znai)：使用Znai可构建实用、可维护、美观的用户指南。
+* [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 * [Jspxcms](https://gitee.com/jspxcms/Jspxcms)：Jspxcms是灵活的、易扩展的开源网站CMS，支持多组织、多站点、独立管理的网站群。
 * [UJCMS](https://gitee.com/ujcms/ujcms)：Java开源内容管理系统，使用Spring Boot、MyBatis、Spring Security、Lucene、FreeMarker、TypeScript、Vue3、ElementPlus等技术开发。
 * [TMS](https://gitee.com/xiweicheng/tms)：TMS是基于频道模式的团队沟通协作+轻量级任务看板，支持Markdown、富文本、在线表格和思维导图的团队博文wiki，i18n国际化翻译管理的响应式Web开源团队协作系统。
@@ -5570,6 +5599,7 @@
 * [Badass](https://github.com/beryx/badass-runtime-plugin)：创建非模块化应用程序的自定义运行时镜像。
 * [Layrry](https://github.com/moditect/layrry)：Layrry是一个启动器和Java API，用于执行模块化Java应用程序。
 * [Nailgun](https://github.com/facebookarchive/nailgun)：Nailgun是一个客户端、协议和服务器，用于从命令行运行Java程序，而不会产生JVM启动开销，由Facebook开源。
+* [SlimFast](https://github.com/HubSpot/SlimFast)：SlimFast是Java应用程序的一个工具，可帮助它们停止构建用于部署的fat jar，由HubSpot开源。
 
 ## 地理空间
 
@@ -6183,6 +6213,7 @@
 * [Elemental](https://github.com/google/elemental2)：Elemental2为Java代码提供对所有浏览器API的类型检查访问。
 * [Boilerplate](https://github.com/kohlschutter/boilerpipe)：Boilerplate库提供了算法来检测和删除网页主要文本内容周围多余的“混乱”(样板、模板)。
 * [Nu Html Checker](https://github.com/validator/validator)：Nu Html Checker可帮助你发现HTML、CSS和SVG中的意外错误。
+* [Yoga](https://github.com/skyscreamer/yoga)：Yoga扩展了JAX-RS和Spring MVC RESTful服务器，以提供GData和LinkedIn风格的字段选择器。
 
 ## 手机号解析
 
@@ -6224,6 +6255,7 @@
 * [Spring Data REST](https://github.com/spring-projects/spring-data-rest)：简化在Spring Data Repository之上构建超媒体驱动的REST Web服务。
 * [Spring HATEOAS JSON API](https://github.com/toedter/spring-hateoas-jsonapi)：这是与Spring HATEOAS集成的媒体类型application/vnd.api+json(JSON:API)的实现。
 * [Edison HAL](https://github.com/otto-de/edison-hal)：使用Jackson生成和使用REST资源的application/hal+json表示的库。
+* [REST-Shell](https://github.com/spring-attic/rest-shell)：用于与Spring HATEOAS兼容的REST资源交互的命令行shell。
 
 ## 解析&转换
 
@@ -6403,6 +6435,8 @@
 * [SnapAdmin](https://github.com/aileftech/snap-admin)：Spring Boot数据库管理面板。
 * [Ostara](https://github.com/krud-dev/ostara)：Ostara是一款开源桌面应用程序，旨在简化Spring Boot应用程序的管理和监控。
 * [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
+* [Specification Arg Resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)：用于使用Spring MVC和Spring Data JPA过滤数据的替代API。
+* [Spring-Dotenv](https://github.com/paulschwarz/spring-dotenv)：为Spring提供Dotenv属性源。
 
 ## 杂项
 
