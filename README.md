@@ -1,6 +1,6 @@
 # Java生态资源大全
 
-该项目汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android、生物学等领域。
+这里汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android等领域。
 
 所有框架和库都是基于Java语言实现的，只有极少数是由Kotlin、Scala、Groovy等JVM系语言混合开发，并且也可以在Java中兼容使用。
 
@@ -44,13 +44,13 @@
 - [代码覆盖率](#代码覆盖率)
 - [构建工具](#构建工具)
 - [包管理器](#包管理器)
+- [CI/CD](#CICD)
+- [发布工具](#发布工具)
+- [Java环境管理](#Java环境管理)
 - [开源JDK](#开源JDK)
 - [JVM语言](#JVM语言)
 - [JVM实现](#JVM实现)
 - [IDE](#IDE)
-- [CI/CD](#CICD)
-- [Java环境管理](#Java环境管理)
-- [发布工具](#发布工具)
 - [项目管理](#项目管理)
 - [云原生](#云原生)
 - [Serverless](#Serverless)
@@ -132,6 +132,7 @@
 - [PDF库](#PDF库)
 - [Excel库](#Excel库)
 - [CSV库](#CSV库)
+- [Word库](#Word库)
 - [XML库](#XML库)
 - [License库](#License库)
 - [Markdown库](#Markdown库)
@@ -152,6 +153,7 @@
 - [数学库](#数学库)
 - [本体库](#本体库)
 - [语义Web](#语义Web)
+- [知识图谱](#知识图谱)
 - [生物信息学](#生物信息学)
 - [基因组学](#基因组学)
 - [医疗平台](#医疗平台)
@@ -160,7 +162,7 @@
 - [身份认证](#身份认证)
 - [JWT库](#JWT库)
 - [OAuth库](#OAuth库)
-- [跨于身份管理](#跨于身份管理)
+- [跨域身份管理](#跨域身份管理)
 - [加密库](#加密库)
 - [加密算法](#加密算法)
 - [安全培训](#安全培训)
@@ -208,10 +210,11 @@
 - [迁移&重构](#迁移重构)
 - [Bot](#Bot)
 - [安卓库](#安卓库)
+- [GUI框架](#GUI框架)
 - [Swing](#Swing)
 - [JavaFX](#JavaFX)
-- [JavaFX样式](#JavaFX样式)
-- [JavaFX图表](#JavaFX图表)
+- [样式库](#样式库)
+- [图表库](#图表库)
 - [JavaFX小工具](#JavaFX小工具)
 - [GUI程序](#GUI程序)
 - [数据库工具](#数据库工具)
@@ -246,6 +249,7 @@
 - [地理空间](#地理空间)
 - [几何学](#几何学)
 - [天文学](#天文学)
+- [AIS库](#AIS库)
 - [跨语言](#跨语言)
 - [序列化](#序列化)
 - [IO操作](#IO操作)
@@ -277,9 +281,10 @@
 - [Expect库](#Expect库)
 - [JavaCard](#JavaCard)
 - [WebService](#WebService)
-- [语义发布工具](#语义发布工具)
-- [企业集成模式](#企业集成模式)
 - [银行账号操作](#银行账号操作)
+- [语义发布工具](#语义发布工具)
+- [数字信号处理](#数字信号处理)
+- [企业集成模式](#企业集成模式)
 - [外部进程执行](#外部进程执行)
 - [苹果推送通知](#苹果推送通知)
 - [守护进程](#守护进程)
@@ -1055,6 +1060,43 @@
 * [Nix](https://github.com/fzakaria/mvn2nix)：Nix包管理器用于轻松打包Maven Java应用程序。
 * [JPM4j](https://github.com/jpm4j)：JPM是Java包管理器，可以在JPM的帮助下轻松安装应用程序和库。
 
+## CI/CD
+
+* [Jenkins](https://github.com/jenkinsci/jenkins)：Jenkins是领先的开源自动化服务器，使用Java构建，提供超过2000个插件来支持几乎所有事情的自动化。
+* [TeamCity](https://www.jetbrains.com/teamcity/)：JetBrain的持续集成解决方案，提供免费版本。
+* [Bamboo](https://www.atlassian.com/software/bamboo)：一款持续集成构建服务器软件，Atlassian提供的商业软件，也有免费版本。
+* [Go](https://github.com/gocd/gocd)：持续交付服务器，由ThoughtWork开源。
+* [OneDev](https://github.com/theonedev/onedev)：具有CI/CD和看板的自托管Git服务器。
+* [FlowCI](https://github.com/FlowCI/flow-core-x)：功能强大且用户友好的CI/CD服务器，具有高可用性、并行构建、代理扩展特点。
+* [BlueKing](https://github.com/TencentBlueKing/bk-ci)：一个免费并开源的CI服务，可助你自动化构建-测试-发布工作流，持续、快速、高质量地交付你的产品，由腾讯开源。
+* [Hudson](https://github.com/hudson/hudson-2.x)：持续集成服务器，Jenkins的前身。
+* [Apache Continuum](https://continuum.apache.org/)：一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统集成等功能。
+* [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
+* [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一种持续集成工具，旨在与GitHub和Singularity集成，由HubSpot开源。
+
+## 发布工具
+
+* [JitPack](https://github.com/jitpack/jitpack.io)：打包GitHub仓库的便捷工具，可根据需要构建Maven、Gradle项目，发布可立即使用的组件。
+* [IzPack](https://github.com/izpack/izpack)：可用于将Java平台上的应用程序打包为跨平台安装程序。
+* [Launch4j](https://launch4j.sourceforge.net/)：Launch4j是一个跨平台工具，用于将作为jar分发的Java应用程序包装在轻量级Windows本机可执行文件中。
+* [Packr](https://github.com/libgdx/packr/)：用于打包JAR、资源和JVM，以便在Windows、Linux和Mac OS X上分发。
+* [Nexus](https://github.com/sonatype/nexus-public)：支持代理和缓存功能的二进制管理工具。
+* [Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)：发布二进制文件版本控制工具，可以于Maven或Gradle一起配合使用，提供开源免费版本和几种商业收费版本。
+* [Indy](https://github.com/Commonjava/indy)：Indy是一个简单的仓库管理器，适用于Apache Maven和其他使用Maven仓库格式的构建工具。
+* [Maven Central](https://central.sonatype.com/)：最大的二进制组件仓库，面向开源社区提供免费服务。
+* [Cloudsmith](https://cloudsmith.io/)：完全托管的包管理SaaS，支持Maven/Gradle/SBT，并提供免费套餐。
+* [Apache Archiva](https://github.com/apache/archiva)：可扩展的仓库管理软件，可帮助管理你自己的个人或企业范围的构建工件仓库。
+* [Apache Rat](https://github.com/apache/creadur-rat)：Rat是一个在检查发布时提高准确性和效率的工具。
+
+## Java环境管理
+
+* [SDKMAN](https://github.com/sdkman/sdkman-cli)：用于在任何基于Unix的系统上管理多个软件开发套件的并行版本的工具。
+* [jEnv](https://github.com/jenv/jenv)：Java环境管理器。
+* [jEnv](https://github.com/linux-china/jenv)：Java环境管理器。
+* [JC jEnv](https://github.com/chroblert/JC-jEnv)：Java版本切换工具，可以很方便的在Java的多个版本之间切换。
+* [JEnv Windows](https://github.com/FelixSelter/JEnv-for-Windows)：只需一行命令即可更改当前的Java版本。
+* [Jabba](https://github.com/shyiko/jabba)：Java版本管理工具，由Go语言开发。
+
 ## 开源JDK
 
 * [Open JDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
@@ -1150,43 +1192,6 @@
 * [Cosmic IDE](https://github.com/Cosmic-Ide/Cosmic-IDE)：Cosmic IDE是一款功能丰富的IDE，适用于Android上的JVM开发。
 * [Arduino](https://github.com/arduino/Arduino)：Arduino是一个开源嵌入式硬件平台，用来供用户制作可交互式的嵌入式项目。
 * [SnapCode](https://github.com/reportmill/SnapCode)：在浏览器中运行的现代Java IDE，用于教育目的。
-
-## CI/CD
-
-* [Jenkins](https://github.com/jenkinsci/jenkins)：Jenkins是领先的开源自动化服务器，使用Java构建，提供超过2000个插件来支持几乎所有事情的自动化。
-* [TeamCity](https://www.jetbrains.com/teamcity/)：JetBrain的持续集成解决方案，提供免费版本。
-* [Bamboo](https://www.atlassian.com/software/bamboo)：一款持续集成构建服务器软件，Atlassian提供的商业软件，也有免费版本。
-* [Go](https://github.com/gocd/gocd)：持续交付服务器，由ThoughtWork开源。
-* [OneDev](https://github.com/theonedev/onedev)：具有CI/CD和看板的自托管Git服务器。
-* [FlowCI](https://github.com/FlowCI/flow-core-x)：功能强大且用户友好的CI/CD服务器，具有高可用性、并行构建、代理扩展特点。
-* [BlueKing](https://github.com/TencentBlueKing/bk-ci)：一个免费并开源的CI服务，可助你自动化构建-测试-发布工作流，持续、快速、高质量地交付你的产品，由腾讯开源。
-* [Hudson](https://github.com/hudson/hudson-2.x)：持续集成服务器，Jenkins的前身。
-* [Apache Continuum](https://continuum.apache.org/)：一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统集成等功能。
-* [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
-* [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一种持续集成工具，旨在与GitHub和Singularity集成，由HubSpot开源。
-
-## Java环境管理
-
-* [SDKMAN](https://github.com/sdkman/sdkman-cli)：用于在任何基于Unix的系统上管理多个软件开发套件的并行版本的工具。
-* [jEnv](https://github.com/jenv/jenv)：Java环境管理器。
-* [jEnv](https://github.com/linux-china/jenv)：Java环境管理器。
-* [JC jEnv](https://github.com/chroblert/JC-jEnv)：Java版本切换工具，可以很方便的在Java的多个版本之间切换。
-* [JEnv Windows](https://github.com/FelixSelter/JEnv-for-Windows)：只需一行命令即可更改当前的Java版本。
-* [Jabba](https://github.com/shyiko/jabba)：Java版本管理工具，由Go语言开发。
-
-## 发布工具
-
-* [JitPack](https://github.com/jitpack/jitpack.io)：打包GitHub仓库的便捷工具，可根据需要构建Maven、Gradle项目，发布可立即使用的组件。
-* [IzPack](https://github.com/izpack/izpack)：可用于将Java平台上的应用程序打包为跨平台安装程序。
-* [Launch4j](https://launch4j.sourceforge.net/)：Launch4j是一个跨平台工具，用于将作为jar分发的Java应用程序包装在轻量级Windows本机可执行文件中。
-* [Packr](https://github.com/libgdx/packr/)：用于打包JAR、资源和JVM，以便在Windows、Linux和Mac OS X上分发。
-* [Nexus](https://github.com/sonatype/nexus-public)：支持代理和缓存功能的二进制管理工具。
-* [Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)：发布二进制文件版本控制工具，可以于Maven或Gradle一起配合使用，提供开源免费版本和几种商业收费版本。
-* [Indy](https://github.com/Commonjava/indy)：Indy是一个简单的仓库管理器，适用于Apache Maven和其他使用Maven仓库格式的构建工具。
-* [Maven Central](https://central.sonatype.com/)：最大的二进制组件仓库，面向开源社区提供免费服务。
-* [Cloudsmith](https://cloudsmith.io/)：完全托管的包管理SaaS，支持Maven/Gradle/SBT，并提供免费套餐。
-* [Apache Archiva](https://github.com/apache/archiva)：可扩展的仓库管理软件，可帮助管理你自己的个人或企业范围的构建工件仓库。
-* [Apache Rat](https://github.com/apache/creadur-rat)：Rat是一个在检查发布时提高准确性和效率的工具。
 
 ## 项目管理
 
@@ -2460,6 +2465,7 @@
 * [Procrastination](https://github.com/gdejohn/procrastination)：一个小型、简单的库，将函数式编程的优势引入Java 11。
 * [Java REPL](https://github.com/albertlatacz/java-repl)：Java语言的简单REPL，考虑到Java 9已经包含，因此不再维护。
 * [InvokeBinder](https://github.com/headius/invokebinder)：用于绑定方法处理的Java DSL向前移植。
+* [Virtual Thread Bridge](https://github.com/thunkware/virtual-threads-bridge)：该库允许你在Java 8+中使用Java 21的虚拟线程API。
 
 ## 依赖注入
 
@@ -3552,7 +3558,6 @@
 * [LogicNG](https://github.com/logic-ng/LogicNG)：用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
 * [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
 * [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Apache Commons Statistics提供用于统计应用程序的工具，为常用的连续和离散分布提供支持。
-* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit是一组用于科学和工程的Java包和原生软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形。
 * [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
 * [SimpleNLG](https://github.com/simplenlg/simplenlg)：一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
 * [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
@@ -3933,7 +3938,7 @@
 * [CredentialManager](https://github.com/PhilippHeuer/credential-manager)：一个简单的OAuth客户端和CredentialManager库，支持多个存储后端。
 * [Apache Oltu](https://github.com/apache/oltu)：Apache Oltu是OAuth协议的Java语言实现。
 
-#### 跨于身份管理
+#### 跨域身份管理
 
 * [OSIAM](https://github.com/osiam/osiam)：OSIAM是一种安全身份管理解决方案，提供基于REST的身份验证和授权服务。
 * [UnboundID SCIM 2 SDK](https://github.com/pingidentity/scim2)：适用于Java的UnboundID SCIM 2.0 SDK。
@@ -4752,6 +4757,7 @@
 * [Eclipse MOSAIC](https://github.com/eclipse/mosaic)：用于自动化和互联移动场景的多域和多尺度仿真框架。
 * [Sentilo](https://github.com/sentilo/sentilo)：Sentilo是一个架构，它隔离了为利用“城市生成”的信息而开发的应用程序和部署在城市各处以收集和广播该信息的传感器层。
 * [WSO2 IoT Server](https://github.com/wso2/product-iots)：WSO2 IoT Server是一个完整的解决方案，使设备制造商和企业能够连接和管理其设备、构建应用程序、管理事件、保护设备和数据以及以可扩展的方式可视化传感器数据。
+* [MyController](https://github.com/mycontroller-org/mycontroller-v1-legacy)：MyController是一个适用于家庭、办公室或任何地方的物联网自动化控制器。
 * [IoT-Ucy](https://gitee.com/iteaj/iot)：IoT-Ucy是使用Java开发的物联网网络中间件，支持udp、tcp、串口通讯等底层协议和http、mqtt、websocket、modbus(tcp,rtu)、plc、dtu等上层协议。
 
 ## MQTT
@@ -5126,7 +5132,7 @@
 * [EasyFXML](https://github.com/Tristan971/EasyFXML)：EasyFXML是一组固执己见的工具，旨在简化健壮且模块化的JavaFX应用程序的开发。
 * [JRebirth](https://github.com/JRebirth/JRebirth)：JRebirth是一个JavaFX应用程序框架。
 
-#### JavaFX样式
+#### 样式库
 
 * [ControlsFX](https://github.com/controlsfx/controlsfx)：ControlsFX是JavaFX的一个开源项目，旨在提供真正高质量的UI控件和其他工具来补充核心JavaFX发行版。
 * [BootstrapFX](https://github.com/kordamp/bootstrapfx)：Twitter Bootstrap的部分移植。
@@ -5147,7 +5153,7 @@
 * [Actlist](https://github.com/actlist/actlist)：Actlist是一个实用平台，可以轻松简单地执行你自己的行为列表。
 * [Tornado FXControls](https://github.com/edvin/tornadofx-controls)：JavaFX的CSS样式控件库。
 
-#### JavaFX图表
+#### 样式库
 
 * [TilesFX](https://github.com/HanSolo/tilesfx)：包含可用于仪表板的图块的JavaFX库。
 * [Medusa](https://github.com/HanSolo/medusa)：用于仪表的JavaFX库。
@@ -5164,7 +5170,8 @@
 * [Animated](https://github.com/iAmGio/animated)：JavaFX的现代动画库。
 * [Jzy3d](https://github.com/jzy3d/jzy3d-api)：Jzy3d是一个用Java轻松绘制3D和2D图表的框架，使用快速原生GPU渲染或基于CPU的渲染来增强跨OS/JVM/GPU组合的可移植性。
 * [Graph Editor](https://github.com/eckig/graph-editor)：用于在JavaFX中创建和编辑类似图形的图表的库。
-* [Eclipse SWTChart](https://github.com/eclipse/swtchart)：Eclipse SWTChart允许创建不同类型的图表。
+* [Eclipse SWTChart](https://github.com/eclipse/swtchart)：Eclipse SWTChart允许创｜建不同类型的图表。
+* [Marlin](https://github.com/bourgesl/marlin-renderer)：Marlin是一个开源Java 2D渲染引擎，基于OpenJDK的Pisces实现，针对性能进行了优化(改进了内存使用和占用空间、更好的多线程)和更好的视觉质量。
 
 #### JavaFX小工具
 
@@ -6040,6 +6047,7 @@
 * [Apache Baremaps](https://github.com/apache/incubator-baremaps)：Apache Baremaps是一个工具包和一组用于创建、发布和操作在线地图的基础设施组件。
 * [Wilayah Indonesia](https://github.com/yusufsyaifudin/wilayah-indonesia)：印度尼西亚行政地图。
 * [SimpleLatLng](https://github.com/JavadocMD/simplelatlng)：SimpleLatLng提供了一个简单、轻量级的库，可满足Java中常见的纬度和经度计算需求。
+* [CityGML4j](https://github.com/citygml4j/citygml4j)：CityGML4j是OGC CityGML的开源Java库和API。
 
 ## 几何学
 
@@ -6085,6 +6093,12 @@
 * [Aerie](https://github.com/NASA-AMMOS/aerie)：Aerie是一个用于航天器建模的软件框架，NASA开源。
 * [Geocalc](https://github.com/grumlimited/geocalc)：Geocalc是一个简单的Java库，旨在使用地球坐标进行算术运算。
 * [Orbdetpy](https://github.com/ut-astria/orbdetpy)：Orbdetpy是一个Python轨道确定库，航天先进科学技术研究(ASTRIA)开源。
+
+## AIS库
+
+* [AISmessages](https://github.com/tbsalling/aismessages)：AISmessages是一种基于Java的轻量级、零依赖、超高效消息解码器，用于符合ITU 1371(NMEA装甲AIS消息)的海上导航和安全消息。
+* [AisLib](https://github.com/dma-ais/AisLib)：AisLib是一个用于处理AIS消息的Java库，由丹麦海事局开源。
+* [Java Marine API](https://github.com/ktuukkan/marine-api)：Java Marine API是一个NMEA 0183解析器库，用于对各种电子海洋设备(例如GPS、回声测深仪和气象仪器)提供的数据进行解码和编码。
 
 ## 跨语言
 
@@ -6532,6 +6546,13 @@
 * [Nyx](https://github.com/mooltiverse/nyx)：Nyx是一个强大、灵活且可配置性极高的语义发布工具。
 * [Semantic Versioning](https://github.com/jeluard/semantic-versioning)：Semantic Versioning是一个Java库，允许验证(使用字节码检查)库版本号是否遵循语义版本控制定义的语义版本控制原则。
 
+## 数字信号处理
+
+* [JDSP](https://github.com/psambit9791/jdsp)：JDSP是一个信号处理工具库，旨在提供MATLAB或Python的scipy-signal包中可用的功能。
+* [IIRJ](https://github.com/berndporr/iirj)：用Java编写的高效IIR滤波器库。
+* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit是一组用于科学和工程的Java包和原生软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形。
+* [JRadio](https://github.com/dernasherbrezon/jradio)：用Java编写的软件无线电解码，这个项目的想法是从gnuradio获取块并用Java实现它们。
+
 ## 企业集成模式
 
 * [Mule](https://github.com/mulesoft/mule)：一个轻量级集成平台，这是Mule的社区版。
@@ -6937,8 +6958,6 @@
 * [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [SealUtil](https://github.com/localhost02/SealUtil)：印章生成工具，使用Java Graphics2D生成各类圆形/椭圆公章、私章图片。
 * [Artemis](https://github.com/ls1intum/Artemis)：具有自动反馈的交互式学习，由慕尼黑工业大学开源。
-* [AisLib](https://github.com/dma-ais/AisLib)：用于处理AIS消息的Java库，丹麦海事局开源。
-* [IIRJ](https://github.com/berndporr/iirj)：用Java编写的高效IIR滤波器库。
 * [Redline](https://github.com/craigwblake/redline)：Redline是一个纯Java库，用于操作RPM包。
 * [Jpostal](https://github.com/openvenues/jpostal)：libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [Picnic Tables](https://github.com/JakeWharton/picnic)：Kotlin DSL和Java/Kotlin构建器API，用于构建可呈现为文本的类似HTML的表格。
