@@ -220,6 +220,7 @@
 - [JavaFX](#JavaFX)
 - [样式库](#样式库)
 - [图表库](#图表库)
+- [浏览器](#浏览器)
 - [JavaFX小工具](#JavaFX小工具)
 - [GUI程序](#GUI程序)
 - [数据库工具](#数据库工具)
@@ -611,6 +612,7 @@
 * [Flow](https://github.com/Mastercard/flow)：Mastercard开源的测试框架。
 * [MUnit](https://github.com/scalameta/munit)：具有可操作错误和可扩展API的Scala测试库。
 * [Unitils](http://www.unitils.org/summary.html)：Unitils是一个开源库，旨在使单元和集成测试变得简单且可维护。
+* [Eclipse Xpect](https://github.com/eclipse/Xpect)：Xpect是一个单元测试和集成测试框架，可将测试数据存储在任何类型的文本文件中，并且基于JUnit。
 
 #### 集成测试
 
@@ -1036,10 +1038,12 @@
 * [Java TestNG](https://github.com/reportportal/agent-java-testNG)：将结果上传到ReportPortal服务器的TestNG报告器。
 * [Karibu-Testing](https://github.com/mvysny/karibu-testing)：Vaadin服务器端无浏览器无容器单元测试。
 * [SocketTest](https://github.com/akshath/SocketTest)：一个用于套接字测试的Java工具，它可用于测试任何使用TCP或UDP协议进行通信的服务器或客户端。
+* [Selfie](https://github.com/diffplug/selfie)：快照测试是记录和指定系统及其组件行为的最快且最精确的机制。
 
 ## 代码覆盖率
 
 * [JaCoCo](https://github.com/jacoco/jacoco)：Java中使用最广泛的代码覆盖率库。
+* [Eclipse EclEmma](https://github.com/eclipse-eclemma/eclemma)：Eclipse EclEmma是Eclipse IDE的Java代码覆盖率工具。
 * [Super JaCoCo](https://github.com/didi/super-jacoco)：基于JaCoCo、Git二次开发打造的一站式Java代码全量/diff覆盖率收集平台，能够低成本、无侵入的收集代码覆盖率数据，由滴滴开源。
 * [Clover](https://bitbucket.org/atlassian/clover)：Atlassian开源的Java和Groovy代码覆盖率工具。
 * [Cobertura](https://github.com/cobertura/cobertura)：一个免费的Java代码覆盖率报告工具。
@@ -1067,6 +1071,7 @@
 * [BLD](https://github.com/rife2/bld)：BLD是一个新的构建系统，允许你用纯Java编写构建逻辑。
 * [Fury](https://github.com/propensive/fury-old)：Fury是下一代构建工具，以解决在不断变化的环境中构建软件的最大挑战，同时保持构建的可预测性、可靠性和简单性。
 * [Pants](https://github.com/pantsbuild/pants)：Pants是一个快速、可扩展、用户友好的构建系统，适用于各种规模的代码库，由Twitter开源。
+* [Eclipse Tycho](https://github.com/eclipse-tycho/tycho)：Eclipse Tycho是使用Maven构建Eclipse平台插件/OSGi捆绑包、功能、更新站点/p2仓库和Eclipse RCP应用程序的清单优先方式。
 
 ## 包管理器
 
@@ -1091,10 +1096,8 @@
 
 ## 发布工具
 
-* [JitPack](https://github.com/jitpack/jitpack.io)：打包GitHub仓库的便捷工具，可根据需要构建Maven、Gradle项目，发布可立即使用的组件。
-* [IzPack](https://github.com/izpack/izpack)：可用于将Java平台上的应用程序打包为跨平台安装程序。
-* [Packr](https://github.com/libgdx/packr/)：用于打包JAR、资源和JVM，以便在Windows、Linux和Mac OS X上分发。
-* [Nexus](https://github.com/sonatype/nexus-public)：支持代理和缓存功能的二进制管理工具。
+* [JitPack](https://github.com/jitpack/jitpack.io)：JitPack是一个新颖的JVM和Android项目包仓库，它按需构建Git项目并为你提供即用型工件(jar、aar)。
+* [Sonatype Nexus](https://github.com/sonatype/nexus-public)：支持代理和缓存功能的二进制管理工具。
 * [Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)：发布二进制文件版本控制工具，可以于Maven或Gradle一起配合使用，提供开源免费版本和几种商业收费版本。
 * [Indy](https://github.com/Commonjava/indy)：Indy是一个简单的仓库管理器，适用于Apache Maven和其他使用Maven仓库格式的构建工具。
 * [Maven Central](https://central.sonatype.com/)：最大的二进制组件仓库，面向开源社区提供免费服务。
@@ -1558,6 +1561,7 @@
 * [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、ping和跟踪。
 * [KoTime](https://github.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
 * [Djigger](https://github.com/exense/djigger)：Djigger是一个用于Java应用程序的生产就绪性能分析和监控解决方案，主要依赖于先进的全天候采样器和仪器代理模式。
+* [Eclipse Trace Compass](https://git.eclipse.org/r/plugins/gitiles/tracecompass/org.eclipse.tracecompass)：Eclipse Trace Compass是一个开源应用程序，通过读取和分析系统的日志或跟踪来解决性能和可靠性问题。
 
 ## GC日志分析
 
@@ -1576,6 +1580,7 @@
 
 * [Heap Dump Tool](https://github.com/paypal/heap-dump-tool)：Heap Dump Tool可以捕获，更重要的是，可以清理Java堆转储中的敏感数据，由Paypal开源。
 * [JDumpSpider](https://github.com/whwlsfb/JDumpSpider)：HeapDump敏感信息提取工具。
+* [Eclipse Memory Analyzer](https://git.eclipse.org/r/plugins/gitiles/mat/org.eclipse.mat)：Eclipse Memory Analyzer提供了一个通用工具包来分析Java堆转储。
 
 ## 火焰图
 
@@ -1828,6 +1833,8 @@
 * [DBSyncer](https://gitee.com/ghi/dbsyncer)：DBSyncer是一款开源的数据同步中间件，提供MySQL、Oracle、SqlServer、PostgreSQL、Elasticsearch(ES)、Kafka、File、SQL等同步场景。
 * [DBSwitch](https://gitee.com/dromara/dbswitch)：DBSwitch工具提供源端数据库向目的端数据库的批量迁移同步功能，支持数据的全量和增量方式同步，由dromara社区开源。
 * [Mongeez](https://github.com/mongeez/mongeez)：Mongeez允许你管理Mongo文档的更改，并在执行部署时与代码更改同步传播这些更改。
+* [Raigad](https://github.com/Netflix/Raigad)：用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
+* [Morf](https://github.com/alfasoftware/morf)：Morf是一个用于跨平台演化关系型数据库机制、数据库访问和数据库成像/克隆的库。
 
 ## 数据湖框架
 
@@ -1874,6 +1881,7 @@
 * [Deezpatch](https://github.com/joel-jeremy/deezpatch)：简单、轻量级且高性能的调度库，用于解耦消息(请求和事件)和消息处理程序。
 * [Ytk-mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习。
 * [eBus](https://sourceforge.net/projects/ebus/)：一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
+* [Hub](https://github.com/flightstats/hub)：Hub是一个容错、高可用的HTTP API，用于数据分发和存储。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持“快照持久化”和“Broker集群模式”。
 
 ## Kafka生态
@@ -1921,6 +1929,7 @@
 * [Dempsy](https://github.com/Dempsy/dempsy)：分布式弹性消息处理系统。
 * [Redis Session Manager](https://github.com/chexagon/redis-session-manager)：Tomcat 8会话管理器通过持久化到Redis提供会话复制。
 * [Apache HTrace](https://github.com/apache/incubator-retired-htrace)：HTrace是一个用于分布式系统的跟踪框架，由Cloudera开源。
+* [DSLabs](https://github.com/emichael/dslabs)：DSLabs是一个用于创建、测试、模型检查、可视化和调试分布式系统实验室作业的新框架，由华盛顿大学开发。
 
 ## 分布式锁
 
@@ -2139,6 +2148,7 @@
 * [OpenLineage](https://github.com/OpenLineage/openlineage)：OpenLineage是元数据和沿袭收集的开放标准，旨在在作业运行时对其进行检测。
 * [KSqlDB](https://github.com/confluentinc/ksql)：KSqlDB是一个用于在Kafka之上构建流处理应用程序的数据库，由Confluent开源。
 * [Polypheny-DB](https://github.com/polypheny/Polypheny-DB)：Polypheny-DB是一种自适应Polystore，可提供对异构数据的成本和工作负载感知访问。
+* [EmoDB](https://github.com/bazaarvoice/emodb)：EmoDB是一个RESTful HTTP服务器，用于存储JSON对象并监视这些事件的更改，由Bazaarvoice开源。
 
 ## 存储引擎
 
@@ -2690,7 +2700,7 @@
 * [SIMDJson-Java](https://github.com/simdjson/simdjson-java)：simdjson的Java版本-使用SIMD指令的JSON解析器，基于Geoff Langdale和Daniel Lemire撰写的每秒解析千兆字节的JSON论文。
 * [JSON Schema Validator](https://github.com/java-json-tools/json-schema-validator)：Java中的纯JSON模式验证实现，具有可靠的正确性和性能。
 * [JsonSurfer](https://github.com/wanglingsong/JsonSurfer)：Java中的流式JsonPath处理器。
-* [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库。
+* [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库，由Bazaarvoice开源。
 * [Boon](https://github.com/boonproject/boon)：Boon是一个简单的基于Java的JSON工具包，你可以使用Boon JSON以高效且快速的方式对JSON数据进行编码或解码。
 * [Hjson Java](https://github.com/hjson/hjson-java)：人类的配置文件格式，宽松的语法，更少的错误，更多的注释。
 * [Avaje JsonB](https://github.com/avaje/avaje-jsonb)：通过APT源代码生成进行快速、无反射的JSON绑定的Java库。
@@ -4323,6 +4333,7 @@
 * [Open Imaging](https://github.com/DhyanB/Open-Imaging)：Open Imaging是用于图像创建和处理的工具和库。
 * [ImageIO-Ext](https://github.com/geosolutions-it/imageio-ext)：ImageIO-Ext是一个开源项目，为标准Oracle Java Image I/O项目提供扩展、修复和改进。
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
+* [Grid](https://github.com/guardian/grid)：Grid是卫报的图像管理系统，它提供了访问组织的媒体的通用且快速的体验，并以经济实惠的方式使用它来生成高质量的内容。
 
 ## 计算机视觉
 
@@ -4496,6 +4507,7 @@
 * [Jilt](https://github.com/skinny85/jilt)：Jilt是一个Java注解处理器，用于自动生成实现Builder设计模式的类。
 * [Deoplice](https://github.com/chriskiehl/Deoplice)：Deoplice是一个Java库，它会自动生成用于转换不可变POJO的API。
 * [Kotlin Compile Testing](https://github.com/tschuchortdev/kotlin-compile-testing)：用于测试Kotlin和Java注解处理器、编译器插件和代码生成的库。
+* [DistributeMe](https://github.com/anotheria/distributeme)：DistributeMe是一个自动分发Java代码的框架，DistributeMe直接操作你的Java代码，带注解的接口由DistributeMe apt预处理器处理，生成分发相关代码。
 
 ## 事件总线
 
@@ -4843,6 +4855,8 @@
 * [MyController](https://github.com/mycontroller-org/mycontroller-v1-legacy)：MyController是一个适用于家庭、办公室或任何地方的物联网自动化控制器。
 * [IoT-Ucy](https://gitee.com/iteaj/iot)：IoT-Ucy是使用Java开发的物联网网络中间件，支持udp、tcp、串口通讯等底层协议和http、mqtt、websocket、modbus(tcp,rtu)、plc、dtu等上层协议。
 * [ESPlorer](https://github.com/4refr0nt/ESPlorer)：面向ESP8266开发人员的集成开发环境。
+* [Eclipse BaSyx](https://github.com/eclipse-basyx)：Eclipse BaSyx是下一代自动化的开源平台，它实现了工业4.0平台定义的关键概念，例如作为标准化数字孪生的资产管理shell。
+* [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：Eclipse AAS4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
 
 ## 嵌入式
 
@@ -5025,6 +5039,7 @@
 * [Eclipse Transformer](https://github.com/eclipse/transformer)：提供了转换Java二进制文件(例如单个class文件和完整的JAR和WAR)的工具和运行时组件，将更改映射到Java包、类型名称和相关资源名称。
 * [Butterfly](https://github.com/paypal/butterfly)：Butterfly是一种应用程序代码转换工具，通常用于执行自动化应用程序迁移、升级以及源代码和配置更改，由Paypal开源。
 * [MigrationMiner](https://github.com/hussien89aa/MigrationMiner)：检测两个Java第三方库之间迁移代码的工具。
+* [Astra](https://github.com/alfasoftware/astra)：Astra是一个用于分析和重构Java源代码的Java工具。
 
 ## Bot
 
@@ -5172,7 +5187,6 @@
 * [Spring RCP](https://github.com/springrichclient/springrcp)：Spring RCP的使命是提供一种优雅的方式来构建高度可配置的、GUI标准-利用Spring更快地遵循富客户端应用程序框架以及丰富的UI工厂和支持类库。
 * [VTerminal](https://github.com/Valkryst/VTerminal)：用于Java的新LaF，允许基于网格显示具有自定义前景色/背景色、字体大小和伪着色器的Unicode字符。
 * [FEST-Swing](https://github.com/alexruiz/fest-swing-1.x)：该项目为Swing用户界面的功能测试提供了一个简单直观的API，从而使测试变得紧凑、易于编写和阅读，就像规范一样。
-* [Lobo Evolution](https://github.com/LoboEvolution/LoboEvolution)：Lobo Evolution是一个可扩展的全Java Web浏览器和RIA平台。
 * [TeaVM-Flavour](https://github.com/konsoletyper/teavm-flavour)：使用TeaVM编写客户端应用程序的框架。
 * [UISpec4J](https://github.com/UISpec4J/UISpec4J)：UISpec4J是一个开源功能和/或单元测试库，用于基于Swing的Java应用程序。
 
@@ -5245,7 +5259,7 @@
 * [Actlist](https://github.com/actlist/actlist)：Actlist是一个实用平台，可以轻松简单地执行你自己的行为列表。
 * [Tornado FXControls](https://github.com/edvin/tornadofx-controls)：JavaFX的CSS样式控件库。
 
-#### 样式库
+#### 图表库
 
 * [TilesFX](https://github.com/HanSolo/tilesfx)：包含可用于仪表板的图块的JavaFX库。
 * [Medusa](https://github.com/HanSolo/medusa)：用于仪表的JavaFX库。
@@ -5262,6 +5276,13 @@
 * [Animated](https://github.com/iAmGio/animated)：JavaFX的现代动画库。
 * [Graph Editor](https://github.com/eckig/graph-editor)：用于在JavaFX中创建和编辑类似图形的图表的库。
 * [Eclipse SWTChart](https://github.com/eclipse/swtchart)：Eclipse SWTChart允许创｜建不同类型的图表。
+
+#### 浏览器
+
+* [JCEF](https://github.com/chromiumembedded/java-cef)：JCEF是一个简单的框架，用于使用Java编程语言将基于Chromium的浏览器嵌入到其他应用程序中。
+* [GNGR](https://github.com/gngrOrg/gngr)：这是一款支持隐私的新型跨平台浏览器，GNGR是纯Java的Web标准的独立实现。
+* [Gophie](https://github.com/jankammerath/gophie)：Gophie是“The Internet Gopher”的现代图形跨平台客户端或浏览器。
+* [Lobo Evolution](https://github.com/LoboEvolution/LoboEvolution)：Lobo Evolution是一个可扩展的全Java Web浏览器和RIA平台。
 
 #### JavaFX小工具
 
@@ -5435,6 +5456,7 @@
 * [JObfuscator](https://www.pelock.com/products/jobfuscator)：源代码混淆器。
 * [Simplify](https://github.com/CalebFenton/simplify)：Android虚拟机和反混淆器。
 * [ClassFinal](https://gitee.com/roseboy/classfinal)：ClassFinal是一款Java class文件安全加密工具，支持直接加密jar包或war包，无需修改任何项目代码，兼容Spring框架；可避免源码泄漏或字节码被反编译。
+* [Threadtear](https://github.com/GraxCode/threadtear)：Threadtear是一个多功能的Java反混淆工具。
 
 #### 游戏开发
 
@@ -5527,6 +5549,7 @@
 
 ## 类加载
 
+* [SOFAArk](https://github.com/sofastack/sofa-ark)：SOFAArk是一款基于Java实现的动态热部署和轻量级类隔离框架，由蚂蚁集团开源贡献，主要提供应用模块的动态热部署和类隔离能力。
 * [JCL](https://github.com/kamranzafar/JCL)：JCL是一个可配置、动态且可扩展的自定义类加载器，可以直接从Jar文件和其他源加载Java类。
 * [Java Dynamic Load Jar](https://github.com/Trinea/java-dynamic-load-jar)：解决在不同JAR中加载相同类时的类加载器隔离问题。
 * [ModRun](https://github.com/nanosai/modrun)：ModRun可以直接从Maven仓库加载和运行类，并在运行时解决依赖关系。
@@ -5819,16 +5842,16 @@
 * [JNA](https://github.com/java-native-access/jna)：JNA使Java程序可以轻松访问原生共享库，而无需编写Java代码之外的任何内容-不需要JNI或原生代码。
 * [JavaCPP](https://github.com/bytedeco/javacpp)：JavaCPP提供了对Java内部原生C++的高效访问。
 * [JNR-FFI](https://github.com/jnr/jnr-ffi)：JNR-FFI是一个Java库，用于加载本机库，无需手动编写JNI代码或使用SWIG等工具。
-* [OSHI](https://github.com/oshi/oshi)：一个免费的基于JNA的Java操作系统和硬件信息库，提供跨平台实现来检索系统信息，例如操作系统版本、进程、内存和CPU使用情况、磁盘和分区、设备、传感器等。
+* [OSHI](https://github.com/oshi/oshi)：OSHI是一个免费的基于JNA的Java操作系统和硬件信息库，提供跨平台实现来检索系统信息，例如操作系统版本、进程、内存和CPU使用情况、磁盘和分区、设备、传感器等。
 * [ReLinker](https://github.com/KeepSafe/ReLinker)：适用于Android的强大原生库加载器。
-* [Spring Native](https://github.com/spring-attic/spring-native)：提供了使用GraalVM本机镜像编译器将Spring应用程序编译为本机可执行文件的beta支持。
-* [JavaCPP-Presets](https://github.com/bytedeco/javacpp-presets)：包含广泛使用的C/C++库的Java配置和接口类。
-* [JNAerator](https://github.com/nativelibs4java/JNAerator)：为C、C++和Objective-C库生成完整的本机绑定，针对BridJ、JNA或Node.js运行时。
-* [Jacob](https://github.com/freemansoft/jacob-project)：允许Java应用程序与Microsoft Windows DLL或COM库进行通信。
-* [Nalim](https://github.com/apangin/nalim)：一个使用JVMCI将Java方法链接到本机函数的库。
+* [Spring Native](https://github.com/spring-attic/spring-native)：Spring Native提供了使用GraalVM本机镜像编译器将Spring应用程序编译为本机可执行文件的beta支持。
+* [JavaCPP-Presets](https://github.com/bytedeco/javacpp-presets)：JavaCPP Presets包含广泛使用的C/C++库的Java配置和接口类。
+* [JNAerator](https://github.com/nativelibs4java/JNAerator)：JNAerator为C、C++和Objective-C库生成完整的本机绑定，针对BridJ、JNA或Node.js运行时。
+* [Jacob](https://github.com/freemansoft/jacob-project)：Jacob是一个Java库，允许Java应用程序与Microsoft Windows DLL或COM库进行通信。
+* [Nalim](https://github.com/apangin/nalim)：Nalim是一个使用JVMCI(JVM编译器接口)将Java方法链接到本机函数的库。
 * [Native-Utils](https://github.com/adamheinrich/native-utils)：一个简单的工具库，用于加载存储在JAR存档中的动态库。
 * [Jextract](https://github.com/openjdk/jextract)：Jextract是一个从本机库头自动生成Java绑定的工具，Oracle开发。
-* [BridJ](https://github.com/nativelibs4java/BridJ)：一个Java/原生互操作性库，专注于速度和易用性。
+* [BridJ](https://github.com/nativelibs4java/BridJ)：BridJ是一个Java/原生互操作性库，专注于速度和易用性。
 * [HawtJNI](https://github.com/fusesource/hawtjni)：基于Eclipse SWT中使用的JNI生成器的JNI代码生成器。
 * [FastFFI](https://github.com/alibaba/fastFFI)：适用于Java和C++的现代高效FFI，由阿里开源。
 * [Native-Library-Loader](https://github.com/scijava/native-lib-loader)：用于从Java中提取和加载本机库的本机库加载器。
@@ -6114,37 +6137,34 @@
 
 ## 打包部署运行
 
-* [OneinStack](https://github.com/oneinstack/oneinstack)：PHP/Java部署工具。
-* [SOFAArk](https://github.com/sofastack/sofa-ark)：一款基于Java实现的动态热部署和轻量级类隔离框架，由蚂蚁集团开源贡献，主要提供应用模块的动态热部署和类隔离能力。
-* [Capsule](https://github.com/puniverse/capsule)：JVM应用程序的打包和部署工具。
+* [OneinStack](https://github.com/oneinstack/oneinstack)：OneinStack是一个PHP/Java部署工具。
+* [Capsule](https://github.com/puniverse/capsule)：Capsule是JVM应用程序的打包和部署工具。
 * [ShinyProxy](https://github.com/openanalytics/shinyproxy)：用于Shiny和数据科学应用程序的开源企业部署。
-* [Rultor](https://github.com/yegor256/rultor)：一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
-* [Storm-yarn](https://github.com/yahoo/storm-yarn)：Storm-yarn使Storm集群能够部署到Hadoop YARN管理的机器中。
-* [Raigad](https://github.com/Netflix/Raigad)：用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程。
-* [jDeploy](https://github.com/shannah/jdeploy)：允许你在Github工作流中为Java项目生成本机桌面安装程序。
+* [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
+* [jDeploy](https://github.com/shannah/jdeploy)：jDeploy Github Action允许你在Github工作流中为Java项目生成本机桌面安装程序。
 * [Stork](https://github.com/fizzed/stork)：Stork是一个轻量级实用程序的集合，用于通过填补Java构建系统和执行之间的空白来优化“构建后”工作流程。
 * [Linux Deploy](https://github.com/meefik/linuxdeploy)：可在Android设备上快速轻松地安装操作系统GNU/Linux。
-* [Artipie](https://github.com/artipie/artipie)：二进制工件管理工具，类似于Artifactory、Nexus、Archiva、ProGet等。
+* [Artipie](https://github.com/artipie/artipie)：Artipie是一个二进制工件管理工具，类似于Artifactory、Nexus、Archiva、ProGet等。
 * [CloudCaptain](https://cloudcaptain.sh/)：使用不可变基础设施的原则将JVM应用程序部署到AWS。
-* [Getdown](https://github.com/threerings/getdown)：一个用于将Java应用程序部署到最终用户计算机并保持这些应用程序最新的系统。
-* [JavaPackager](https://github.com/fvarrui/JavaPackager)：Maven和Gradle的混合插件，它提供了一种在本机Windows、MacOS或GNU/Linux可执行文件中打包Java应用程序并为其生成安装程序的简单方法。
-* [JPackage](https://github.com/Akman/jpackage-maven-plugin)：该插件允许你使用Java 14中引入的jpackage工具创建自定义运行时镜像/安装程序。
-* [JVMKill](https://github.com/airlift/jvmkill)：当JVM无法分配内存或创建线程时，强制终止JVM的代理。
-* [Drip](https://github.com/ninjudd/drip)：快速JVM启动，无需持久JVM的麻烦。
-* [Nailgun](https://martiansoftware.com/nailgun/)：Nailgun是一个客户端、协议和服务器，用于从命令行运行Java程序，而不会产生JVM启动开销。
-* [Update4j](https://github.com/update4j/update4j)：Update4j是第一个专为Java 9+设计的自动更新和启动器库。
+* [Getdown](https://github.com/threerings/getdown)：Getdown是一个用于将Java应用程序部署到最终用户计算机并保持这些应用程序最新的系统。
+* [JavaPackager](https://github.com/fvarrui/JavaPackager)：JavaPackager是Maven和Gradle的混合插件，它提供了一种在本机Windows、MacOS或GNU/Linux可执行文件中打包Java应用程序并为其生成安装程序的简单方法。
+* [JPackage](https://github.com/Akman/jpackage-maven-plugin)：JPackage插件允许你使用Java 14中引入的jpackage工具创建自定义运行时镜像/安装程序。
+* [JVMKill](https://github.com/airlift/jvmkill)：JVMKill是一个简单的JVMTI代理，当JVM无法分配内存或创建线程时，它会强制终止JVM。
+* [Drip](https://github.com/ninjudd/drip)：Drip是Java虚拟机的启动器，它提供比java命令更快的启动时间。
 * [Teletraan](https://github.com/pinterest/teletraan)：Teletraan是Pinterest的部署系统。
 * [Kayenta](https://github.com/spinnaker/kayenta)：Kayenta是一个自动金丝雀分析(ACA)平台。
 * [Spring Boot Thin Launcher](https://github.com/spring-projects-experimental/spring-boot-thin-launcher)：用于Java应用程序的瘦JAR启动器。
 * [JApp](https://github.com/Glavo/japp)：Java程序的新打包格式。
 * [JLink.Online](https://github.com/AdoptOpenJDK/jlink.online)：JLink.Online是一个HTTP微服务，可动态构建优化/最小化的Java运行时。
-* [Boxfuse](https://boxfuse.com/)：使用不可变基础设施的原则将JVM应用程序部署到AWS。
 * [Badass](https://github.com/beryx/badass-runtime-plugin)：创建非模块化应用程序的自定义运行时镜像。
 * [Layrry](https://github.com/moditect/layrry)：Layrry是一个启动器和Java API，用于执行模块化Java应用程序。
 * [Nailgun](https://github.com/facebookarchive/nailgun)：Nailgun是一个客户端、协议和服务器，用于从命令行运行Java程序，而不会产生JVM启动开销，由Facebook开源。
 * [SlimFast](https://github.com/HubSpot/SlimFast)：SlimFast是Java应用程序的一个工具，可帮助它们停止构建用于部署的fat jar，由HubSpot开源。
 * [Jar Jar Links](https://github.com/google/jarjar)：Jar Jar Links是一个实用程序，可以轻松地重新打包Java库并将它们嵌入到你自己的发行版中。
 * [ExeBuilder](https://gitee.com/qsyan/ExeBuilder)：ExeBuilder是一款利用JDK模块化的特性帮你把jar打包成独立exe的工具，它支持GUI和控制台应用程序的创建。
+* [IzPack](https://github.com/izpack/izpack)：IzPack是一种广泛使用的工具，用于将Java平台上的应用程序打包为跨平台安装程序。
+* [Packr](https://github.com/libgdx/packr)：用于打包JAR、资源和JVM，以便在Windows、Linux和Mac OS X上分发。
+* [Update4j](https://github.com/update4j/update4j)：Update4j是第一个专为Java 9+设计的自动更新和启动器库。
 
 ## 地理空间
 
@@ -6392,6 +6412,7 @@
 * [Apache Felix](https://felix.apache.org/documentation/index.html)：OSGi框架实现及相关技术。
 * [Eclipse Equinox](https://eclipse.dev/equinox/)：OSGi核心框架规范的实现，这是一组实现各种可选OSGi服务和其他用于运行基于OSGi的系统的基础设施的捆绑包。
 * [Eclipse Virgo](https://projects.eclipse.org/projects/rt.virgo)：基于OSGI的服务器，旨在运行企业Java应用程序和Spring支持的应用程序。
+* [OSGi Testing](https://github.com/osgi/osgi-test)：该项目提供了一组捆绑包，其中包含用于测试OSGi API的有用类。
 
 ## 数控
 
@@ -6867,6 +6888,7 @@
 * [Parsington](https://github.com/scijava/parsington)：Parsington是一个中缀到后缀和中缀到语法树表达式解析器，用于用Java编写的数学表达式。
 * [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
 * [CEL-Java](https://github.com/projectnessie/cel-java)：通用表达式语言的Java实现。
+* [Eclipse Expressly](https://github.com/eclipse-ee4j/expressly)：Eclipse Expressly实现了Jakarta Expression Language，这是一种用于Java应用程序的表达式语言。
 
 ## 对象图导航
 
