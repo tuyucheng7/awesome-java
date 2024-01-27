@@ -135,7 +135,9 @@
 - [Excel库](#Excel库)
 - [CSV库](#CSV库)
 - [Word库](#Word库)
+- [Toml库](#Toml库)
 - [XML库](#XML库)
+- [YML库](#YML库)
 - [License库](#License库)
 - [Markdown库](#Markdown库)
 - [文件库](#文件库)
@@ -266,12 +268,14 @@
 - [邮件操作](#邮件操作)
 - [RSS](#RSS)
 - [SSE](#SSE)
+- [RPM](#RPM)
 - [OSGI](#OSGI)
 - [蓝牙](#蓝牙)
 - [数控](#数控)
 - [校验](#校验)
 - [元编程](#元编程)
 - [分词器](#分词器)
+- [文本表](#文本表)
 - [语言库](#语言库)
 - [泛型库](#泛型库)
 - [国际化](#国际化)
@@ -501,6 +505,7 @@
 * [OData](https://github.com/RWS/odata)：这是基于OData标准的Tridion开放数据框架，完全用Java实现。
 * [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
 * [Apache JDO](https://github.com/apache/db-jdo)：JDO是访问数据库中持久数据的标准方法，使用普通旧式Java对象(POJO)来表示持久数据。
+* [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
 
 ## 应用框架
 
@@ -1095,6 +1100,7 @@
 * [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
 * [CruiseControl](https://cruisecontrol.sourceforge.net/)：CruiseControl既是一个持续集成工具，也是一个用于创建自定义持续构建流程的可扩展框架。
 * [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一种持续集成工具，旨在与GitHub和Singularity集成，由HubSpot开源。
+* [Conan](https://github.com/tal-tech/conan)：柯南平台开源版本，为用户提供流量回放全流程解决方案，由好未来开源。
 
 ## 发布工具
 
@@ -1106,6 +1112,7 @@
 * [Cloudsmith](https://cloudsmith.io/)：完全托管的包管理SaaS，支持Maven/Gradle/SBT，并提供免费套餐。
 * [Apache Archiva](https://github.com/apache/archiva)：可扩展的仓库管理软件，可帮助管理你自己的个人或企业范围的构建工件仓库。
 * [Apache Rat](https://github.com/apache/creadur-rat)：Rat是一个在检查发布时提高准确性和效率的工具。
+* [Strongbox](https://github.com/strongbox/strongbox)：Strongbox是一个现代OSS工件仓库管理器。
 
 ## Java环境管理
 
@@ -1333,7 +1340,6 @@
 * [Phoenix](https://gitee.com/monitoring-platform/phoenix)：Phoenix是一个灵活可配置的开源监控平台，主要用于监控应用程序、服务器、Docker、数据库、网络、TCP端口和HTTP接口。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
 * [Cubic](https://github.com/dromara/cubic)：一站式问题定位平台，分布式实例监控、线程栈监控、线程池监控、动态Arthas命令集、依赖分析等等，由dromara社区开源。
-* [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [oVirt](https://github.com/oVirt/ovirt-engine)：Ovirt是一个开源的虚拟化管理平台，RedHat虚拟化管理平台RHEV的开源版本。
 * [CloudUnit](https://github.com/end-of-game/cloudunit)：Turnkey DevOps平台。
@@ -1451,23 +1457,23 @@
 
 ## 容错组件
 
-* [Sentinel](https://github.com/alibaba/Sentinel)：面向云原生微服务的高可用流控防护组件，由阿里开源。
-* [Hystrix](https://github.com/Netflix/Hystrix)：一个延迟和容错库，可以防止级联故障，由Netflix开源。
-* [Resilience4j](https://github.com/resilience4j/resilience4j)：专为Java 8和函数式编程设计的容错库。
-* [Bucket4j](https://github.com/bucket4j/bucket4j)：基于令牌桶算法的Java限流库。
-* [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：Java限流库/框架。
+* [Sentinel](https://github.com/alibaba/Sentinel)：Sentinel是面向分布式、多语言异构化服务架构的流量治理组件，由阿里开源。
+* [Hystrix](https://github.com/Netflix/Hystrix)：Hystrix是一个延迟和容错库，旨在隔离对远程系统、服务和第3方库的访问点，阻止级联故障，并在故障不可避免的复杂分布式系统中实现恢复能力，由Netflix开源。
+* [Resilience4j](https://github.com/resilience4j/resilience4j)：Resilience4j是一个专为Java 8和函数式编程设计的容错库。
+* [Bucket4j](https://github.com/bucket4j/bucket4j)：基于令牌桶算法的Java限速库。
+* [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：RateLimiter是一个高度容错、低延迟、高性能的限流开发库/框架，提供了对HTTP接口的访问限流功能。
 * [Concurrency Limits](https://github.com/Netflix/concurrency-limits)：实现并集成了从TCP拥塞控制到自动检测服务并发限制概念的Java库，可以以最佳延迟实现最佳吞吐量，由Netflix开源。
 * [RateLimitJ](https://github.com/mokies/ratelimitj)：用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器，该项目不再活跃。
-* [SDS](https://github.com/didi/sds)：一个轻量级、简单、易用的限流、熔断、降级系统，由滴滴开源。
-* [Fastbreak](https://github.com/Nike-Inc/fastbreak)：简单但功能强大的断路器，本身支持Java 8 CompletableFuture，由Nike开源。
+* [SDS](https://github.com/didi/sds)：SDS是一个基于Java开发的简单、易用、高性能的服务降级系统，支持限流、熔断和降级等功能，由滴滴开源。
+* [Fastbreak](https://github.com/Nike-Inc/fastbreak)：Fastbreak是一个简单的Java 8原生断路器，支持异步future、阻塞和回调/手动模式，由Nike开源。
 * [Token-Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
-* [Neural](https://gitee.com/yu120/neural)：提供分布式限流、降级、熔断、重试和隔离的容错特性。
+* [Neural](https://gitee.com/yu120/neural)：微服务架构中高并发和高可用的神经组织利刃，提供了分布式限流、降级、熔断、重试和隔离的容错特性。
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
-* [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架。
+* [SnowJena](https://github.com/onblog/SnowJena)：基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
 * [Easy Retry](https://github.com/alibaba/easy-retry)：一种存储介质可扩展的持久化重试方案，由阿里开源。
 * [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance)：MicroProfile中提供的容错组件。
 * [Spring Retry](https://github.com/spring-projects/spring-retry)：该项目为Spring应用程序提供声明式重试支持。
-* [Failsafe](https://github.com/failsafe-lib/failsafe)：一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
+* [Failsafe](https://github.com/failsafe-lib/failsafe)：Failsafe是一个轻量级、零依赖库，用于处理Java 8+中的故障，具有用于处理日常用例的简洁API和处理其他所有内容的灵活性。
 * [Guava Retry](https://github.com/rholder/guava-retrying)：这是Google Guava库的一个小扩展，允许为任意函数调用创建可配置的重试策略。
 * [Async Retry](https://github.com/nurkiewicz/async-retry)：用于Java 7/8的异步重试库。
 * [Retry4j](https://github.com/elennick/retry4j)：简单的Java库，可帮助重试瞬时故障情况或不可靠的代码。
@@ -1476,7 +1482,7 @@
 * [Vert.x Circuit Breaker](https://github.com/vert-x3/vertx-circuit-breaker)：Vert.x的断路器模式实现。
 * [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker)：Dropwizard的断路器库。
 * [Retrieval](https://gitee.com/spjich/retrieval)：一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
-* [Ribbon](https://github.com/Netflix/ribbon)：一个进程间通信库，具有内置的软件负载均衡器，由Netflix开源。
+* [Ribbon](https://github.com/Netflix/ribbon)：Ribbon是一个进程间通信库，具有内置的软件负载均衡器，由Netflix开源。
 * [SmallRye Stork](https://github.com/smallrye/smallrye-stork)：服务发现和客户端负载均衡框架。
 * [Neutrino](https://github.com/eBay/Neutrino)：基于Scala的软件负载均衡器，由eBay开发。
 * [Appactive](https://github.com/alibaba/Appactive)：阿里巴巴开源的一款标准、通用且功能强大的，致力于构建应用多活架构的开源中间件。
@@ -1633,6 +1639,7 @@
 * [Airbyte](https://github.com/airbytehq/airbyte)：领先的数据集成平台，适用于从API、数据库和文件到数据仓库、数据湖和数据湖屋的ETL/ELT数据管道。
 * [Fire](https://gitee.com/fire-framework/fire)：Fire框架是由中通大数据自主研发并开源的、专门用于进行Spark和Flink任务开发的大数据框架。
 * [Apache OODT](https://github.com/apache/oodt)：Apache OODT可以实现数据库链接、工作流处理以及硬件/文件管理等功能，由NASA的喷气机推力研究室开源。
+* [Apache Sedona](https://github.com/apache/sedona)：Apache Sedona是一种空间计算引擎，使开发人员能够在Apache Spark和Apache Flink等现代集群计算系统中轻松处理任何规模的空间数据，由亚利桑那州立大学开源。
 
 ## 大数据工具
 
@@ -3302,6 +3309,17 @@
 * [Docx Stamper](https://github.com/thombergs/docx-stamper)：一个用于docx文档的Java模板引擎。
 * [POI-TL](https://github.com/Sayi/poi-tl)：一种更好的模板生成word的方法，基于POI。
 
+#### Toml库
+
+* [TomlJ](https://github.com/tomlj/tomlj)：TOML的Java解析器。
+* [Toml4j](https://github.com/mwanji/toml4j)：Java TOML解析库。
+
+#### YML库
+
+* [SnakeYAML](https://bitbucket.org/asomov/snakeyaml/overview)：YAML解析库。
+* [EO-YAML](https://github.com/decorators-squad/eo-yaml)：适用于Java 8及更高版本的YAML库。
+* [BoostedYAML](https://github.com/dejvokep/boosted-yaml)：一个简单易用的独立Java库，在处理YAML文档时提供增强的体验。
+
 #### XML库
 
 * [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：一个用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)的纯Java库。
@@ -3365,7 +3383,6 @@
 
 #### 文件库
 
-* [SnakeYAML](https://bitbucket.org/asomov/snakeyaml/overview)：YAML解析库。
 * [ini4j](https://github.com/facebookarchive/ini4j)：简单的Java API Windows风格.ini文件处理。
 * [Epublib](https://github.com/psiegman/epublib)：用于读写操作epub文件的Java库。
 * [LibPST](https://github.com/rjohnsondev/java-libpst)：用Java读取PST文件的库。
@@ -3376,16 +3393,13 @@
 * [PPTShow](https://github.com/qrpcode/pptshow)：Java生成PPT文档工具包，支持2010版PPTX新功能。
 * [DotEnv](https://github.com/cdimascio/dotenv-java)：Ruby DotEnv项目的无依赖、纯Java端口，用于从.env文件加载环境变量。
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
-* [EO-YAML](https://github.com/decorators-squad/eo-yaml)：适用于Java 8及更高版本的YAML库。
 * [MPXJ](https://github.com/joniles/mpxj)：该库使您能够从各种文件格式和数据库中读取项目计划(有时称为进度表或项目集)，还可以将该信息写入各种文件格式。
-* [Toml4j](https://github.com/mwanji/toml4j)：Java TOML解析库。
 * [JavaDBF](https://github.com/albfernandez/javadbf)：用于读写Xbase(dBase/DBF)文件的Java库。
 * [WaveAccess](https://github.com/sintrb/WaveAccess)：波形文件(.wav)的Java读写操作库。
 * [JPMML-Evaluator](https://github.com/jpmml/jpmml-evaluator)：用于生成和使用PMML文档的Java库。
 * [Org-Java](https://github.com/orgzly/org-java)：Org模式文件Java解析器。
 * [Apache Tika](https://github.com/apache/tika)：Apache Tika是一个工具包，用于使用现有解析器库从各种文档中检测和提取元数据和结构化文本内容。
 * [JElf](https://github.com/fornwall/jelf)：用于解析ELF文件的Java库。
-* [TomlJ](https://github.com/tomlj/tomlj)：TOML的Java解析器。
 * [JDBF](https://github.com/iryndin/jdbf)：用于读写DBF文件的Java实用程序。
 * [OST2PST](https://github.com/mkorthof/ost2pst)：将Outlook OST文件转换为PST格式。
 * [ODF Toolkit](https://github.com/tdf/odftoolkit)：ODF Toolkit是一组Java模块，允许以编程方式创建、扫描和操作ODF文档。
@@ -3698,6 +3712,7 @@
 * [FTCLib](https://github.com/FTCLib/FTCLib)：FTCLib是一个旨在成为FTC编程所需的唯一库的库。
 * [MuJoCo-Java](https://github.com/CommonWealthRobotics/mujoco-java)：MuJoCo物理系统的Java JNI绑定。
 * [Road Runner](https://github.com/acmerobotics/road-runner)：一个简单的Kotlin库，用于规划专为FTC设计的2D移动机器人路径和轨迹。
+* [FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)：该仓库包含用于构建Android应用程序以控制FIRST Tech Challenge竞赛机器人的源代码。
 
 ## 数学库
 
@@ -4875,6 +4890,8 @@
 * [ESPlorer](https://github.com/4refr0nt/ESPlorer)：面向ESP8266开发人员的集成开发环境。
 * [Eclipse BaSyx](https://github.com/eclipse-basyx)：Eclipse BaSyx是下一代自动化的开源平台，它实现了工业4.0平台定义的关键概念，例如作为标准化数字孪生的资产管理shell。
 * [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：Eclipse AAS4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
+* [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全，由美国国家安全局网络安全局开源。
+* [Scada-LTS](https://github.com/SCADA-LTS/Scada-LTS)：Scada-LTS是一个基于Web的开源多平台解决方案，用于构建你自己的SCADA(监控和数据采集)系统。
 
 ## 嵌入式
 
@@ -4936,6 +4953,7 @@
 * [Accounting](https://github.com/Nick-Triller/accounting)：Accounting是一个用Java编写的内存中复式记账组件。
 * [JBanking](https://github.com/marcwrobel/jbanking)：JBanking是一个帮助开发银行功能的实用程序库，专注但不限于欧洲银行业。
 * [Alpaca Java](https://github.com/Petersoj/alpaca-java)：这是Alpaca API的Java实现，Alpaca让你可以使用算法进行交易、与应用程序连接并通过免佣金的股票交易API构建服务。
+* [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
 
 ## 短信
 
@@ -5299,6 +5317,7 @@
 
 #### 浏览器
 
+* [Wolvic XR Browser](https://github.com/Igalia/wolvic)：Wolvic是一个开源浏览器，包括XR构建的沉浸式游戏、视频和环境。
 * [JCEF](https://github.com/chromiumembedded/java-cef)：JCEF是一个简单的框架，用于使用Java编程语言将基于Chromium的浏览器嵌入到其他应用程序中。
 * [GNGR](https://github.com/gngrOrg/gngr)：这是一款支持隐私的新型跨平台浏览器，GNGR是纯Java的Web标准的独立实现。
 * [Gophie](https://github.com/jankammerath/gophie)：Gophie是“The Internet Gopher”的现代图形跨平台客户端或浏览器。
@@ -5398,6 +5417,7 @@
 * [Autopsy](https://github.com/sleuthkit/autopsy)：Autopsy是Sleuth Kit和其他开源数字取证工具的图形界面。
 * [Rachota](https://rachota.sourceforge.net/en/index.html)：Rachota是一款用于跟踪不同项目时间的便携式应用程序。
 * [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个“通用”JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
+* [VUE](https://github.com/VUE/VUE)：VUE是一个用Java编写的免费开源概念图应用程序，由塔夫茨大学学术技术小组开发。
 
 #### 数据库工具
 
@@ -6424,6 +6444,11 @@
 * [Turbine](https://github.com/Netflix/Turbine)：Turbine是一种用于将SSE JSON数据流聚合到单个流中的工具，由Netflix开源。
 * [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
 
+## RPM
+
+* [Redline](https://github.com/craigwblake/redline)：Redline是一个纯Java库，用于操作RPM包。
+* [Eclipse Packager](https://github.com/eclipse/packager)：Eclipse Packager项目提供了一组核心功能，可在纯Java中使用RPM和Debian包文件。
+
 ## OSGI
 
 * [Distributed Data Framework](https://github.com/codice/ddf)：一个开源、模块化的集成框架。
@@ -6497,6 +6522,15 @@
 * [THULAC](https://github.com/thunlp/THULAC-Java)：THULAC是由清华大学自然语言处理与社会人文计算实验室研制推出的一套中文词法分析工具包，具有中文分词和词性标注功能。
 * [ElasticSearch BosonNLP Analysis](https://github.com/bosondata/elasticsearch-analysis-bosonnlp)：玻森数据开发的一款基于玻森中文分词的ElasticSearch插件。
 
+## 文本表
+
+* [Picnic Tables](https://github.com/JakeWharton/picnic)：Kotlin DSL和Java/Kotlin构建器API，用于构建可呈现为文本的类似HTML的表格。
+* [Flip Tables](https://github.com/JakeWharton/flip-tables)：用于在Java中打印漂亮的文本表。
+* [ASCII Table](https://github.com/vdmeer/asciitable)：ASCII Table是一个简单的工具，用于格式化表格，具有缩进、缩进字符、对齐、填充、填充字符和行内空白字符的各种行/列选项。
+* [ASCII-Data](https://github.com/MitchTalmadge/ASCII-Data)：一个小型Java库，用于生成漂亮的基于文本的线图和表格。
+* [Ascii-Art-Table](https://github.com/klaus31/ascii-art-table)：通过Java将数据打印到Ascii表的简单库。
+* [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
+
 ## 语言库
 
 * [TinyPinyin](https://github.com/promeG/TinyPinyin)：适用于Java和Android的快速、低内存占用的汉字转拼音库。
@@ -6544,7 +6578,7 @@
 * [Gumtree Spoon AST Diff](https://github.com/SpoonLabs/gumtree-spoon-ast-diff)：使用Gumtree算法计算两个Spoon抽象语法树之间的AST差异。
 * [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser解析SQL语句并将其转换为Java类的层次结构，可以使用访问者模式来导航生成的层次结构。
 * [JavaCC](https://github.com/javacc/javacc)：用于Java应用程序的最流行的解析器生成器。
-* [JFlex](https://github.com/jflex-de/jflex)：Java的词法分析器生成器。
+* [JFlex](https://github.com/jflex-de/jflex)：JFlex是Java的词法分析器生成器。
 * [RSQL Parser](https://github.com/jirutka/rsql-parser)：用于对RESTful API中的条目进行参数化过滤的查询语言。
 * [Parboiled](https://github.com/sirthias/parboiled)：Java和Scala中的优雅解析-轻量级、易于使用、功能强大。
 * [Parrot](https://github.com/daniellansun/groovy-parser)：Parrot可以解析Groovy源代码并构造相关的AST，与旧解析器生成的AST几乎相同。
@@ -6675,15 +6709,11 @@
 
 ## ASCII艺术
 
-* [JUnidecode](https://github.com/gcardone/junidecode)：Unicode转换到ASCII的Java库。
 * [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
-* [ASCII Table](https://github.com/vdmeer/asciitable)：文本表的几种实现，最初使用ASCII和UTF-8字符作为边框。
-* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖。
+* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖，支持图形基元/元素、图层、上下文、画布。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
-* [Jfiglet](https://github.com/lalyos/jfiglet)：Figfonts的Java实现，用于创建Ascii横幅。
-* [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
+* [Jfiglet](https://github.com/lalyos/jfiglet)：FIGfonts的Java实现，用于创建Ascii横幅。
 * [Java-Ascii-Table](https://github.com/nedtwigg/asciitable)：Java中用于ASCII表的简单库。
-* [Ascii-Art-Table](https://github.com/klaus31/ascii-art-table)：通过Java将数据打印到Ascii表的简单库。
 * [JColor](https://github.com/dialex/JColor)：JColor提供了一种简单的语法，可以在终端上以彩色字体或背景打印消息。
 * [Colorized Java](https://github.com/vieitesss/colorize-Java)：在Java控制台中打印彩色文本的小型库。
 
@@ -6699,6 +6729,7 @@
 * [JURL](https://github.com/anthonynsimon/jurl)：快速简单的Java URL解析库，支持UTF-8和路径解析。
 * [Handy URI Templates](https://github.com/damnhandy/Handy-URI-Templates)：实现RFC6570的Java URI模板处理器。
 * [UrlRewriteFilter](https://github.com/paultuckey/urlrewritefilter)：具有类似于Apache的mod_rewrite功能的Java Web过滤器。
+* [URLShorter](https://gitee.com/tinyframework/urlshorter)：满足多种场景下的短链接生成需求。
 
 ## WebRTC
 
@@ -7200,9 +7231,7 @@
 * [Event Ruler](https://github.com/aws/event-ruler)：Event Ruler是一个Java库，允许每秒将数千个事件与任意数量的富有表现力和复杂的规则相匹配，由亚马逊开源。
 * [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [Artemis](https://github.com/ls1intum/Artemis)：具有自动反馈的交互式学习，由慕尼黑工业大学开源。
-* [Redline](https://github.com/craigwblake/redline)：Redline是一个纯Java库，用于操作RPM包。
 * [Jpostal](https://github.com/openvenues/jpostal)：libpostal的Java绑定，用于快速国际街道地址解析/规范化。
-* [Picnic Tables](https://github.com/JakeWharton/picnic)：Kotlin DSL和Java/Kotlin构建器API，用于构建可呈现为文本的类似HTML的表格。
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Gurux.DLMS](https://github.com/Gurux/gurux.dlms.java)：Gurux.DLMS库是一个高性能Java组件，可帮助你读取DLMS/COSEM兼容的电表、燃气表或水表。
 * [Grouper](https://github.com/Internet2/grouper)：Grouper是针对大学普遍存在的高度分布式管理环境和异构信息技术环境而设计的企业访问管理系统。
@@ -7214,11 +7243,10 @@
 * [OpenMAINT](https://www.openmaint.org/en)：OpenMAINT是用于管理移动资产、工厂和技术设备、家具等以及相关的物流、经济和维护活动、计划活动和故障活动的应用程序。
 * [RepRap](https://sourceforge.net/projects/reprap/)：RepRap是一种三维打印机原型机，它具有一定程度的自我复制能力，能够打印出大部分其自身的塑料组件，由英国巴斯大学开发。
 * [YAGSL](https://github.com/BroncBotz3481/YAGSL)：该库旨在简化Swerve Drive实现，同时不牺牲速度或处理能力。
-* [URLShorter](https://gitee.com/tinyframework/urlshorter)：满足多种场景下的短链接生成需求。
 * [OpenLCA](https://github.com/GreenDelta/olca-app)：OpenLCA是一款用于可持续性和生命周期评估的开源免费软件。
 * [LinkWeChat](https://github.com/qwdigital/LinkWechat-Scrm)：LinkWeChat是基于企业微信的开源SCRM系统，是企业私域流量管理与营销的综合解决方案。
 * [Portico](https://github.com/openlvc/portico)：Portico是一个开源HLA运行时基础设施(RTI)实现，它旨在确保开源和免费访问驱动HLA联盟所需的必要基础设施。
 * [PRISM](https://github.com/prismmodelchecker/prism)：PRISM是一种概率模型检查器，是一种对表现出随机或概率行为的系统进行形式建模和分析的工具。
 * [Fedora](https://github.com/fcrepo/fcrepo)：Fedora是一个强大、模块化、开源存储库系统，用于管理和传播数字内容，它特别适合数字图书馆和档案馆的访问和保存。
 * [K Framework](https://github.com/runtimeverification/k)：K Framework是一种用于设计和建模编程语言和软件/硬件系统的工具。
-* [](https://github.com/iipc/openwayback)：OpenWayback是全球网络档案馆用来在用户浏览器中“回放”存档网站的关键软件。
+* [OpenWayback](https://github.com/iipc/openwayback)：OpenWayback是全球网络档案馆用来在用户浏览器中“回放”存档网站的关键软件。
