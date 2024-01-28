@@ -839,6 +839,7 @@
 * [Mock-OAuth2-Server](https://github.com/navikt/mock-oauth2-server)：可编写脚本/可自定义的Web服务器，用于使用OAuth2/OpenID Connect测试HTTP客户端或依赖于正在运行的OAuth2服务器的应用程序。
 * [Thrift-Mock](https://github.com/didi/thrift-mock)：用于Mock Thrift服务的轻量级Java单元测试库，由滴滴开源。
 * [Spring Data Mock](https://github.com/mmnaseri/spring-data-mock)：Spring Data Repository的Mock工具。
+* [ZeroMock](https://github.com/tonivade/zeromock)：零依赖的模拟HTTP Server。
 
 #### 测试数据生成器
 
@@ -980,6 +981,8 @@
 * [Neodymium](https://github.com/Xceptance/neodymium-library)：Neodymium尝试通过结合JUnit、WebDriver、BDD/Cucumber和适当的报告来解决典型且最紧迫的UI测试自动化问题。
 * [Video Recorder](https://github.com/SergeyPirogov/video-recorder-java)：该库只需添加一些注解即可轻松录制UI测试的视频。
 * [Step](https://github.com/exense/step)：Step是一个统一的软件自动化平台，可让你充分利用自动化工件，同时摆脱特定工具。
+* [Testerra](https://github.com/telekom/testerra)：Testerra是一个用于自动测试(Web)应用程序的集成框架，由德国电信开源。
+* [ReVoman](https://github.com/salesforce-misc/ReVoman)：ReṼoman是一个JVM API自动化工具，它通过让你在JVM程序/测试中执行Postman集合来重新构想API自动化，由Salesforce开源。
 
 #### 多线程测试
 
@@ -1227,6 +1230,7 @@
 * [Cosmic IDE](https://github.com/Cosmic-Ide/Cosmic-IDE)：Cosmic IDE是一款功能丰富的IDE，适用于Android上的JVM开发。
 * [SnapCode](https://github.com/reportmill/SnapCode)：在浏览器中运行的现代Java IDE，用于教育目的。
 * [JCreator](https://jcreator.en.softonic.com/)：JCreator是另一个简单的Java IDE，非常适合想要学习Java的初学者。
+* [PraxisLIVE](https://github.com/praxis-live/praxis-live)：PraxisLIVE是一种混合视觉实时编程IDE。
 
 ## 项目管理
 
@@ -1572,6 +1576,7 @@
 * [KoTime](https://github.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
 * [Djigger](https://github.com/exense/djigger)：Djigger是一个用于Java应用程序的生产就绪性能分析和监控解决方案，主要依赖于先进的全天候采样器和仪器代理模式。
 * [Eclipse Trace Compass](https://git.eclipse.org/r/plugins/gitiles/tracecompass/org.eclipse.tracecompass)：Eclipse Trace Compass是一个开源应用程序，通过读取和分析系统的日志或跟踪来解决性能和可靠性问题。
+* [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
 
 ## GC日志分析
 
@@ -1742,6 +1747,7 @@
 * [LarkMidTable](https://gitee.com/LarkMidTable/LarkMidTable)：LarkMidTable是一站式开源的数据中台，实现元数据管理，数据仓库开发，数据质量管理，数据的可视化，实现高效赋能数据前台并提供数据服务的产品。
 * [云雀](https://gitee.com/LarkMidTable/yunque)：云雀是一款数据集成工具，实现异构数据源的整合，帮助企业构建数据仓库、数据湖等应用架构。
 * [DeltaFi](https://gitlab.com/deltafi/deltafi)：DeltaFi是一个灵活、轻量代码的数据转换和标准化平台。
+* [Datacube](https://github.com/urbanairship/datacube)：具有数值数据汇总的多维数据存储，由Airship开源。
 
 ## 数据可视化
 
@@ -2347,37 +2353,37 @@
 
 ## WebServer
 
-* [Netty](https://github.com/netty/netty)：事件驱动的异步网络应用框架。
-* [Apache Tomcat](https://github.com/apache/tomcat)：Java Servlet、JSP、Java EL和Java WebSocket技术的开源实现。
-* [Apache TomEE](https://github.com/apache/tomee)：一个轻量级但功能强大的Java EE应用服务器，具有功能丰富的工具。
-* [Helidon Nima](https://github.com/helidon-io/helidon/tree/helidon-3.x/webserver)：基于JDK虚拟线程的轻量级Web服务器，Oracle开源。
-* [Undertow](https://github.com/undertow-io/undertow)：高性能非阻塞Web服务器。
-* [Wildfly](https://github.com/wildfly/wildfly)：WildFly应用服务器。
-* [Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle的商业应用服务器。
+* [Netty](https://github.com/netty/netty)：Netty是一个异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。
+* [Apache Tomcat](https://github.com/apache/tomcat)：Apache Tomcat是Java Servlet、JavaServer Pages、Jav EL和Java WebSocket技术的开源实现。
+* [Apache TomEE](https://github.com/apache/tomee)：Apache TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
+* [Helidon Nima](https://github.com/helidon-io/helidon/tree/helidon-3.x/webserver)：Helidon Níma是一个基于JDK虚拟线程的轻量级Web服务器，由Oracle开源。
+* [Undertow](https://github.com/undertow-io/undertow)：Undertow是一个基于非阻塞IO的Java Web服务器。
+* [Wildfly](https://github.com/wildfly/wildfly)：WildFly是一个功能强大、模块化且轻量级的应用程序服务器。
+* [Oracle Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle WebLogic Server是一个统一且可扩展的平台，用于在本地和云中开发、部署和运行Java等企业应用程序。
 * [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
-* [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
-* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：Eclipse基金会下开源的Jakarta服务器。
+* [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Eclipse Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
+* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：Eclipse GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
 * [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
-* [Apache MINA](https://github.com/apache/mina)：MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
-* [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，是一个非常流行的支持Servlet和JSP的服务器。
+* [Apache MINA](https://github.com/apache/mina)：Apache MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
+* [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，并提供扩展框架组件。
 * [Reactor Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
 * [Nettosphere](https://github.com/Atmosphere/nettosphere)：由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
 * [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
 * [Java NIO Server](https://github.com/jjenkov/java-nio-server)：一个始终使用非阻塞IO的Java NIO服务器。
-* [AndServer](https://github.com/yanzhenjie/AndServer)：Android平台的Web服务器和Web框架。
+* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是一个HTTP和反向代理服务器。
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Quixote](https://github.com/io7m/quixote)：用于单元测试的小型嵌入式HTTP服务器。
-* [Nginx-Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是基于Ring的处理程序。
+* [Nginx-Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx-Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
 * [Jibble](http://www.jibble.org/miniwebserver/)：用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
 * [Acteur](https://github.com/timboudreau/acteur)：Acteur是一个使用Netty编写Web服务器应用程序的框架。
 * [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
 * [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java SE编写的小型但功能强大的多线程Web服务器。
 * [MuServer](https://github.com/3redronin/mu-server)：一个基于Netty的现代Java Web服务器。
-* [Fluent-HTTP](https://github.com/CodeStory/fluent-http)：Fluent-HTTP是一个简单、快速、成熟Web服务器。
+* [Fluent-HTTP](https://github.com/CodeStory/fluent-http)：Fluent-HTTP是一个简单、快速、成熟的Web服务器。
 * [Webpieces](https://github.com/deanhiller/webpieces)：包含用于创建Web服务器的所有Web部分的项目。
 
 ## WebSocket
@@ -2483,14 +2489,14 @@
 
 ## 工具库
 
-* [Guava](https://github.com/google/guava)：Google开源的Java工具库。
-* [Apache Commons](https://github.com/apache/commons-lang)：Apache下的Java工具库。
-* [Hutool](https://github.com/dromara/hutool)：功能极其丰富的Java工具库，由dromara社区开源。
+* [Guava](https://github.com/google/guava)：Guava是Google的一组核心Java库，其中包括新的集合类型、不可变集合、图库以及用于并发、I/O、哈希、原始类型、字符串等的实用程序。
+* [Apache Commons](https://github.com/apache/commons-lang)：Apache Commons Lang是一个Java实用程序类包，用于java.lang层次结构中的类。
+* [Hutool](https://github.com/dromara/hutool)：Hutool是一个功能丰富且易用的Java工具库，涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作，由dromara社区开源。
 * [Cactoos](https://github.com/yegor256/cactoos)：面向对象的Java原始类型，作为Google Guava和Apache Commons的替代品。
 * [JCommon](https://github.com/facebookarchive/jcommon)：Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
-* [Jodd](https://github.com/oblac/jodd)：零依赖的Java工具库。
-* [Ph-Commons](https://github.com/phax/ph-commons)：Java 11库，包含所有项目所需的大量工具类。
-* [X-Core](https://github.com/TGX-Android/X-Core)：一组可在任何项目中使用的通用Java工具和接口，Telegram开源。
+* [Jodd](https://github.com/oblac/jodd)：轻量级、零依赖的Java工具库。
+* [Ph-Commons](https://github.com/phax/ph-commons)：包含所有项目所需的大量工具类的Java 11库。
+* [X-Core](https://github.com/TGX-Android/X-Core)：一组可在任何项目中使用的通用Java工具和接口，由Telegram开源。
 * [Essentials](https://github.com/greenrobot/essentials)：适用于Android和Java的通用工具和哈希函数。
 * [Twitter Commons](https://github.com/twitter-archive/commons)：Twitter的JVM公共库，已弃用。
 * [RxTool](https://github.com/Tamsiree/RxTool)：RxTool是用于Android开发各式各样的工具类集合。
@@ -2857,6 +2863,7 @@
 * [ReActed](https://github.com/reacted-io/reacted)：基于Actor的响应式Java框架，用于本地和分布式环境中的微服务。
 * [Orbit](https://github.com/orbit/orbit)：用于构建分布式系统的虚拟Actor框架。
 * [Apache Pekko](https://github.com/apache/incubator-pekko)：Apache Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
+* [PraxisCORE](https://github.com/praxis-live/praxiscore)：PraxisCORE是用于网络物理编程的模块化JVM运行时，支持实时系统的实时编码。
 
 ## GraphQL
 
@@ -4984,7 +4991,7 @@
 
 * [WPaxos](https://github.com/wuba/WPaxos)：Paxos共识算法的生产级Java实现，由58同城开源。
 * [WLock](https://github.com/wuba/WLock)：基于共识算法组件WPaxos的高可靠、高吞吐量的分布式锁服务，由58同城开源。
-* [Klein](https://github.com/shihuili1218/klein)：基于Paxos的分布式集合工具库，包括分布式ArrayList、分布式HashMap、分布式Cache、分布式锁等。
+* [Klein](https://github.com/shihuili1218/klein)：Klein是一个基于Paxos的分布式集合工具库，包括分布式Cache、分布式消息队列、分布式List、分布式Map、分布式Lock等。
 * [Paxos](https://github.com/jaksa76/paxos)：Paxos算法的Java实现。
 * [URingPaxos](https://github.com/sambenz/URingPaxos)：高吞吐量原子多播协议。
 * [PaxosImpl](https://github.com/hellolinjx/PaxosImpl)：Paxos算法的多线程实现。
@@ -5066,7 +5073,7 @@
 
 ## 迁移&重构
 
-* [EMT4J](https://github.com/adoptium/emt4j)：旨在简化Java版本迁移的项目，目前，该项目专注于三个LTS版本：8、11和17。
+* [EMT4J](https://github.com/adoptium/emt4j)：旨在简化Java版本迁移的项目，目前，该项目专注于三个LTS版本：8、11和17，由阿里开源。
 * [Rewrite](https://github.com/openrewrite/rewrite)：一个海量源代码重构生态系统，由Netflix开源。
 * [Spring Boot Migrator](https://github.com/spring-projects-experimental/spring-boot-migrator)：Spring Boot Migrator旨在通过提供自动迁移的方法来帮助开发人员升级或迁移到Spring Boot。
 * [Windup](https://github.com/windup/windup)：Windup是一个工具集，支持跨广泛转换和用例的大规模Java应用程序现代化和迁移项目。
@@ -5655,6 +5662,7 @@
 * [Groovy Language Server](https://github.com/GroovyLanguageServer/groovy-language-server)：Groovy的语言服务器。
 * [Lsp4IntelliJ](https://github.com/ballerina-platform/lsp4intellij)：Lsp4IntelliJ是一个客户端库，为IntelliJ IDEA和其他Jetbrains IDE提供语言服务器支持。
 * [Build Server Protocol](https://github.com/build-server-protocol/build-server-protocol)：该项目致力于改进语言服务器/编辑器和构建工具之间的集成，由Scala中心和JetBrains领导。
+* [BSL Language Server](https://github.com/1c-syntax/bsl-language-server)：BSL语言服务器协议的实现。
 
 ## 数据库驱动
 
@@ -6582,6 +6590,7 @@
 * [RSQL Parser](https://github.com/jirutka/rsql-parser)：用于对RESTful API中的条目进行参数化过滤的查询语言。
 * [Parboiled](https://github.com/sirthias/parboiled)：Java和Scala中的优雅解析-轻量级、易于使用、功能强大。
 * [Parrot](https://github.com/daniellansun/groovy-parser)：Parrot可以解析Groovy源代码并构造相关的AST，与旧解析器生成的AST几乎相同。
+* [Java Tree Sitter](https://github.com/serenadeai/java-tree-sitter)：Tree-Sitter是一个解析器生成工具和增量解析库。
 
 ## 形式验证
 
