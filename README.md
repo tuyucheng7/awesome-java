@@ -275,6 +275,7 @@
 - [RSS](#RSS)
 - [SSE](#SSE)
 - [RPM](#RPM)
+- [EMF](#EMF)
 - [OSGI](#OSGI)
 - [蓝牙](#蓝牙)
 - [数控](#数控)
@@ -517,6 +518,7 @@
 * [Apache JDO](https://github.com/apache/db-jdo)：JDO是访问数据库中持久数据的标准方法，使用普通旧式Java对象(POJO)来表示持久数据。
 * [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
 * [EsearchX](https://gitee.com/noear/esearchx)：基于Okhttp + Snack3开发，是一个代码直白和简单的Elasticsearch ORM框架。
+* [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
 
 ## 应用框架
 
@@ -621,7 +623,7 @@
 
 * [JUnit 4](https://github.com/junit-team/junit4)：JUnit是一个用于编写可重复测试的简单框架。
 * [JUnit 5](https://github.com/junit-team/junit5)：用于Java和JVM的测试框架的第五个主要版本。
-* [TestNG](https://github.com/testng-team/testng)：TestNG测试框架。
+* [TestNG](https://github.com/testng-team/testng)：TestNG是一个受JUnit启发的测试框架，但引入了一些新功能，使其更强大且更易于使用。
 * [Spock](https://github.com/spockframework/spock)：Spock是一个用于Java和Groovy应用程序的BDD风格的开发人员测试和规范框架。
 * [Robolectric](https://github.com/robolectric/robolectric)：Robolectric是Android的行业标准单元测试框架。
 * [Kotest](https://github.com/kotest/kotest)：Kotest是一个灵活且全面的Kotlin测试工具，具有多平台支持。
@@ -748,6 +750,7 @@
 * [Simple-DSL](https://github.com/LMAX-Exchange/Simple-DSL)：Simple-DSL是LMAX Exchange使用的一种编写验收测试的风格，旨在平衡人类和机器的可读性。
 * [RestFixture](https://github.com/smartrics/RestFixture)：RestFixture是一个FitNesse测试夹具，允许开发人员和/或产品所有者以简单的方式为REST服务编写测试夹具。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：JWebUnit是一个Java框架，有助于为Web应用程序创建验收测试。
+* [Kensa](https://github.com/kensa-dev/kensa)：Kensa是一个验收测试工具，支持Java、Kotlin和JUnit 5。
 
 #### 回归测试
 
@@ -1076,20 +1079,21 @@
 * [Codecov](https://about.codecov.io/)：Codecov与OpenClover、JaCoCo和JCov兼容，但它也支持其他语言的多种工具。
 * [JCov](https://github.com/openjdk/jcov)：JCov开源项目用于收集与测试套件的生产相关的质量指标，Oracle开源。
 * [Parasoft JTest](https://www.parasoft.com/)：包括多种现代QA工具，允许测量代码覆盖率，并对其进行静态和动态分析，这是一款商业工具。
+* [IntelliJ IDEA Coverage](https://github.com/JetBrains/intellij-coverage)：JVM代码覆盖率引擎，支持分支覆盖率和每次测试覆盖率跟踪。
 
 ## 构建工具
 
-* [Apache Maven](https://github.com/apache/maven)：使用最广泛的Java构建工具。
-* [Apache Mvnd](https://github.com/apache/maven-mvnd)：提供更快的Maven构建。
-* [Gradle](https://github.com/gradle/gradle)：灵活，快速的Java、Android构建工具。
-* [Bazel](https://github.com/bazelbuild/bazel)：快速、多语言且可扩展的构建系统，由Google开发。
-* [Apache Ant](https://github.com/apache/ant)：一个基于Java的古老构建工具。
+* [Apache Maven](https://github.com/apache/maven)：Apache Maven是一个软件项目管理和理解工具。
+* [Apache Mvnd](https://github.com/apache/maven-mvnd)：该项目旨在使用Gradle和Takari已知的技术提供更快的Maven构建。
+* [Gradle](https://github.com/gradle/gradle)：Gradle是一个构建工具，专注于构建自动化并支持多语言开发。
+* [Bazel](https://github.com/bazelbuild/bazel)：Bazel是一个快速、多语言且可扩展的构建系统，由Google开发。
+* [Apache Ant](https://github.com/apache/ant)：Apache Ant是一个基于Java的构建工具。
 * [Buck](https://github.com/facebook/buck)：一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
-* [SBT](https://github.com/sbt/sbt)：适用于Scala、Java的构建工具。
-* [Mill](https://github.com/com-lihaoyi/mill)：一个现代化的构建工具，支持Scala和Java项目的构建和管理。
-* [Apache Ivy](https://github.com/apache/ant-ivy)：用于管理项目依赖关系的工具，具有很高的灵活性和可配置性，并且与Ant紧密集成。
+* [SBT](https://github.com/sbt/sbt)：SBT是一个适用于Scala、Java的构建工具。
+* [Mill](https://github.com/com-lihaoyi/mill)：Mill是一个现代化的构建工具，支持Scala和Java项目的构建和管理。
+* [Apache Ivy](https://github.com/apache/ant-ivy)：Apache Ivy是一个用于管理(记录、跟踪、解决和报告)项目依赖关系的工具，具有很高的灵活性和可配置性，并且与Ant紧密集成。
 * [Leiningen](https://github.com/technomancy/leiningen)：一种构建自动化和依赖管理工具，用于以Clojure编程语言编写的软件项目的简单配置。
-* [Polyglot Maven](https://github.com/takari/polyglot-maven)：允许使用XML以外的方言编写POM模型。
+* [Polyglot Maven](https://github.com/takari/polyglot-maven)：Polyglot Maven是Maven 3.3.1+的一组扩展，允许使用XML以外的方言编写POM模型。
 * [Maven Wrapper](https://github.com/takari/maven-wrapper)：Gradle Wrapper的Maven类似物，允许在不安装Maven的情况下构建项目。
 * [Pro](https://github.com/forax/pro)：与Java 9模块无缝协作的Java构建工具。
 * [BLD](https://github.com/rife2/bld)：BLD是一个新的构建系统，允许你用纯Java编写构建逻辑。
@@ -1294,6 +1298,7 @@
 * [Autotune](https://github.com/kruize/autotune)：Kruize Autotune是Kubernetes的自主性能调优工具。
 * [AlterShield](https://github.com/traas-stack/altershield)：AlterShield是一款能够有效进行变更风险防控，预防变更引发生产环境故障的变更管控解决方案，这是蚂蚁集团内部变更管控平台OpsCloud的开源版本。
 * [OpenSergo](https://github.com/opensergo)：OpenSergo是一个开源、与语言无关、接近业务语义的云原生服务治理规范，在异构微服务系统场景下，企业可以通过这个统一的规范来管理不同语言、不同协议的服务，这是阿里联合B站、字节发起的项目。
+* [Linkerd](https://github.com/linkerd/linkerd)：Linkerd充当透明的HTTP/gRPC/thrift/etc代理，通常可以通过最少的配置放入现有应用程序中，无论它们是用什么语言编写的。
 
 ## Serverless
 
@@ -1790,6 +1795,7 @@
 * [Dex](https://github.com/PatMartin/Dex)：Dex是数据科学的强大工具，它是在JavaFX之上用Groovy和Java编写的数据可视化工具，能够进行强大的ETL和发布Web可视化。
 * [Sigbla](https://github.com/sigbla/sigbla-app)：Sigbla是一个使用Kotlin编程语言处理表中数据的框架，它支持各种数据类型、响应式编程和事件、用户输入、图表等。
 * [Moonbox](https://github.com/running-elephant/moonbox)：Moonbox基于“数据虚拟化”概念设计，旨在提供批量和交互式计算服务。
+* [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由携程开源。
 
 ## 流处理平台
 
@@ -1959,7 +1965,8 @@
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
 * [DoctorK](https://github.com/pinterest/DoctorK)：用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
 * [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是管理Apache Kafka集群的工具，Yahoo开源。
+* [CMAK](https://github.com/yahoo/CMAK)：CMAK是管理Apache Kafka集群的工具，由Yahoo开源。
+* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 
 ## 分布式组件
 
@@ -2004,23 +2011,23 @@
 
 ## 分布式事务
 
-* [Seata](https://github.com/seata/seata)：一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
-* [ByteTCC](https://github.com/liuyangming/ByteTCC)：基于TCC机制的分布式事务管理器，它与JTA规范兼容。
+* [Seata](https://github.com/seata/seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
+* [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于尝试-确认-取消(TCC)机制。
 * [Atomikos](https://github.com/atomikos/transactions-essentials)：Java的分布式事务管理库。
-* [Narayana](https://github.com/jbosstm/narayana)：一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
-* [Bitronix](https://github.com/bitronix/btm)：JTA 1.1 API的简单但完整的实现。
-* [AtlasDB](https://github.com/palantir/atlasdb)：事务分布式数据库层。
-* [Hmily](https://github.com/dromara/hmily)：分布式事务解决方案，由dromara社区开源。
-* [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：开源的微服务架构下的TCC型分布式事务解决方案。
+* [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
+* [Bitronix](https://github.com/bitronix/btm)：Bitronix是Java Transaction API(JTA) 1.1的简单但完整的实现。
+* [AtlasDB](https://github.com/palantir/atlasdb)：AtlasDB是一个构建在任何通用键值存储之上的事务层，由Palantir开源。
+* [Hmily](https://github.com/dromara/hmily)：金融级分布式事务解决方案，由dromara社区开源。
+* [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC-Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：JVM的软件事务内存实现。
 * [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
 * [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
 * [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
-* [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理。
+* [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：Apache ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
 * [Raincat](https://github.com/dromara/raincat)：强一致分布式事务框架，由dromara社区开源。
 * [Scalardb](https://github.com/scalar-labs/scalardb)：ScalarDB是一个通用事务管理器。
 * [Transaction Outbox](https://github.com/gruelbox/transaction-outbox)：Java Transaction Outbox模式的灵活实现，具有干净、可扩展的API，依赖极少，并且可以与各种数据库平台、事务管理方法和应用程序框架很好地配合。
-* [ByteJTA](https://github.com/liuyangming/ByteJTA)：基于XA/2PC机制的分布式事务管理器，它与JTA规范兼容。
+* [ByteJTA](https://github.com/liuyangming/ByteJTA)：ByteJTA是分布式事务管理器的实现，基于XA/2PC机制。
 * [Myth](https://github.com/dromara/myth)：采用消息队列解决分布式事务的开源框架，由dromara社区开源。
 * [Eventuate Tram Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
 * [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
@@ -2108,6 +2115,7 @@
 * [Aerospike Graph](https://aerospike.com/products/graph-database/)：用于实时数据的可扩展图数据库，商业软件。
 * [AutomataLib](https://github.com/LearnLib/automatalib)：AutomataLib是一个免费的开源Java库，用于对自动机、图形和转换系统进行建模，由德国多特蒙德工业大学开发。
 * [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
+* [HGraphDB](https://github.com/rayokota/hgraphdb)：HGraphDB是使用HBase作为图数据库的客户端层。
 
 #### 时序数据库
 
@@ -3028,6 +3036,7 @@
 * [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架。
 * [MicroProfile Config](https://github.com/eclipse/microprofile-config)：MicroProfile配置功能。
 * [Jeesuite Config](https://gitee.com/vakinge/jeesuite-config)：功能齐全、适合二开的配置中心，由dromara社区开源。
+* [Pkl](https://github.com/apple/pkl)：Pkl是一种用于生成配置的编程语言，由苹果开源。
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：基于Spring Boot和Spring Cloud开发的配置中心，由随行付开源。
 
 ## 业务流
@@ -3406,6 +3415,7 @@
 * [XMLBeam](https://github.com/SvenEwald/xmlbeam)：通过在代码中使用注解或XPath来处理XML。
 * [Jcabi-XML](https://github.com/jcabi/jcabi-xml)：Java XML解析、转换、打印和校验库。
 * [Java-XMLBuilder](https://github.com/jmurty/java-xmlbuilder)：XML Builder是一个实用程序，允许使用相对稀疏的Java代码构建简单的XML文档。
+* [XMLResolver](https://github.com/xmlresolver/xmlresolver)：XMLResolver项目提供了SAX EntityResolver、Transformer URIResolver和新的NamespaceResolver的高级实现。
 
 #### License库
 
@@ -4070,16 +4080,17 @@
 * [AuthX](https://gitee.com/devlive-community/authx)：AuthX是一个简单、易用的开源权限管理平台，旨在帮助开发者轻松地实现基于角色的访问控制(RBAC)和权限管理。
 * [PowerAuth Server](https://github.com/wultra/powerauth-server)：PowerAuth Server是实现PowerAuth协议加密的核心后端应用程序，它负责设备注册、激活生命周期、应用程序管理和集成安全。
 * [LoopAuth](https://gitee.com/lucky-color/loop-auth)：一款Java Web鉴权框架，同时支持RBAC、ABAC，并提供会话管理等功能。
+* [Authsaur](https://github.com/authsaur/authsaur)：Authsaur帮助更多企业统一和构建标准化的用户身份体系，以数十年优秀开源产品CAS为内核，打造开箱即用的企业级单点登录系统。
 
 #### JWT库
 
-* [JJWT](https://github.com/jwtk/jjwt)：适用于Java和Android的JWT库。
+* [JJWT](https://github.com/jwtk/jjwt)：JJWT旨在成为最易于使用和理解的库，用于在JVM和Android上创建和验证JWT和JWK。
 * [Java-JWT](https://github.com/auth0/java-jwt)：JWT的Java实现。
-* [Pac4j](https://github.com/pac4j/pac4j)：简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
+* [Pac4j](https://github.com/pac4j/pac4j)：Pac4j是一个简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
 * [JWT-Starter](https://github.com/bfwg/springboot-jwt-starter)：适用于无状态和基于令牌的身份验证应用程序的Spring Boot JWT Starter套件。
-* [Jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：一个健壮且易于使用的JWT和JOSE规范套件的开源实现。
+* [Jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：Jose4j库是IETF JOSE工作组的JWS、JWE、JWA和JWK的开源实现，它是用Java编写的，并且仅依赖于JCA API进行加密。
 * [Nimbus-JOSE-JWT](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
-* [FusionAuth-JWT](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库。
+* [FusionAuth JWT](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库，全天验证、签名、编码、解码。
 * [Vert.x Auth](https://github.com/vert-x3/vertx-auth)：Vertx框架提供JWT集成的库。
 * [Inverno](https://github.com/inverno-io/inverno-mods/tree/master/inverno-security-jose)：Inverno框架提供JWT库，提供JSON对象签名和加密RFC规范的完整实现。
 * [JWT](https://github.com/PhilJay/JWT)：轻量级Kotlin JWT实现。
@@ -4091,7 +4102,7 @@
 * [SuperTokens](https://github.com/supertokens/supertokens-core)：Auth0/Firebase Auth/AWS Cognito的开源替代品。
 * [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
 * [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server)：Spring生态中提供的OAuth 2.1授权服务器支持。
-* [Pac4j](https://github.com/pac4j/pac4j)：简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
+* [Pac4j](https://github.com/pac4j/pac4j)：Pac4j是一个简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
 * [UAA](https://github.com/cloudfoundry/uaa)：CloudFoundry用户帐户和身份验证服务器。
 * [MaxKey](https://github.com/dromara/MaxKey)：业界领先的IAM-IDaas身份管理和认证产品，支持OAuth 2.x、OIDC、SAML 2.0、JWT、CAS、SCIM等SSO标准协议，由dromara社区开源。
 * [Play Authenticate](https://github.com/joscha/play-authenticate)：Play框架2.x的身份验证插件。
@@ -4616,6 +4627,7 @@
 * [Deoplice](https://github.com/chriskiehl/Deoplice)：Deoplice是一个Java库，它会自动生成用于转换不可变POJO的API。
 * [Kotlin Compile Testing](https://github.com/tschuchortdev/kotlin-compile-testing)：用于测试Kotlin和Java注解处理器、编译器插件和代码生成的库。
 * [DistributeMe](https://github.com/anotheria/distributeme)：DistributeMe是一个自动分发Java代码的框架，DistributeMe直接操作你的Java代码，带注解的接口由DistributeMe apt预处理器处理，生成分发相关代码。
+* [Cute](https://github.com/toolisticon/cute)：Java编译测试库，允许你测试注解处理器。
 
 ## 事件总线
 
@@ -6559,6 +6571,11 @@
 * [Redline](https://github.com/craigwblake/redline)：Redline是一个纯Java库，用于操作RPM包。
 * [Eclipse Packager](https://github.com/eclipse/packager)：Eclipse Packager项目提供了一组核心功能，可在纯Java中使用RPM和Debian包文件。
 
+## EMF
+
+* [Eclipse EMF Client Platform](https://git.eclipse.org/r/plugins/gitiles/emfclient/org.eclipse.emf.ecp.core)：Eclipse EMF Client Platform是用于构建基于EMF的客户端应用程序的框架。
+* [NeoEMF](https://github.com/atlanmod/NeoEMF)：NeoEMF是Eclipse建模框架(EMF)的持久层，支持不同的NoSQL数据库Neo4j、BerkeleyDB、MongoDB等。
+
 ## OSGI
 
 * [Distributed Data Framework](https://github.com/codice/ddf)：一个开源、模块化的集成框架。
@@ -7337,9 +7354,9 @@
 * [Apache Commons Digester](https://github.com/apache/commons-digester)：Apache Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
 * [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)：FizzBuzz是一款作为编程作业而广受欢迎的游戏，用于在工作面试期间淘汰非程序员。
 * [JPad](http://jpad.io/)：立即编写Java片段并查看格式良好的结果。
-* [Graphviz Java](https://github.com/nidi3/graphviz-java)：graphviz Java操作库。
+* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将graphviz与纯Java一起使用，使用Java代码创建graphviz模型并将其转换为漂亮的图形。
 * [Apache OpenMeetings](https://github.com/apache/openmeetings)：OpenMeetings是一个多语言可定制的视频会议和协作系统。
-* [Opencast](https://github.com/opencast/opencast)：用于大规模自动视频捕获和分发的免费开源解决方案。
+* [Opencast](https://github.com/opencast/opencast)：Opencast是一个免费的开源平台，支持教育音频和视频内容的管理，机构可以使用Opencast制作讲座录音、管理现有视频、为指定的分发渠道提供服务，并提供用户界面以吸引学生观看教育视频。
 * [PowSyBl](https://github.com/powsybl/powsybl-core)：PowSyBl是一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
 * [BIMserver](https://github.com/opensourceBIM/BIMserver)：BIMserver使你能够存储和管理建筑(或其他建筑相关)项目的信息。
 * [LightAdmin](https://github.com/la-team/light-admin)：通过为基于JPA的应用程序引入可插拔的完全可操作的数据管理后端来加速应用程序开发。
