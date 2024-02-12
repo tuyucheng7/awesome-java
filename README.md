@@ -76,6 +76,7 @@
 - [流处理平台](#流处理平台)
 - [ETL工具](#ETL工具)
 - [CDC组件](#CDC组件)
+- [大数据连接器](#大数据连接器)
 - [数据库中间件](#数据库中间件)
 - [数据湖框架](#数据湖框架)
 - [消息传递](#消息传递)
@@ -109,7 +110,7 @@
 - [JakartaEE产品](#JakartaEE产品)
 - [工具库](#工具库)
 - [Java 9-21](#9-21特性)
-- [依赖注入](#依赖注入)
+- [IoC](#IoC)
 - [AOP](#AOP)
 - [DSL](#DSL)
 - [JMX](#JMX)
@@ -443,24 +444,23 @@
 ## ORM框架
 
 * [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate ORM是一个强大的Java对象/关系映射解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑。
-* [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring中用于简化JPA开发的项目。
-* [Mybatis](https://github.com/mybatis/mybatis-3)：Java的MyBatis SQL 映射框架。
-* [Mybatis-Plus](https://github.com/baomidou/mybatis-plus)：MyBatis强大的增强工具包，简化开发。
-* [MyBatis-Plus-Join](https://github.com/yulichang/mybatis-plus-join)：对MyBatis-Plus多表查询的扩展。
+* [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
+* [Mybatis](https://github.com/mybatis/mybatis-3)：MyBatis SQL映射器框架使得在面向对象的应用程序中使用关系数据库变得更加容易。
+* [Mybatis-Plus](https://github.com/baomidou/mybatis-plus)：MyBatis-Plus是MyBatis的一个强大的增强工具包，用于简化开发。
 * [Mybatis-Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis-Flex是一个优雅的Mybatis增强框架。
 * [Fluent-Mybatis](https://github.com/atool/fluent-mybatis)：Fluent-MyBatis是一个MyBatis增强工具。
-* [APIJSON](https://github.com/Tencent/APIJSON)：腾讯开源的零代码、全功能、强安全ORM库。
-* [EclipseLink](https://github.com/eclipse-ee4j/eclipselink)：Eclipse基金会下的JPA实现。
+* [APIJSON](https://github.com/Tencent/APIJSON)：APIJSON是一种专为API而生的JSON网络传输协议以及基于这套协议实现的ORM库，由腾讯开源。
+* [EclipseLink](https://github.com/eclipse-ee4j/eclipselink)：EclipseLink项目的目标是提供一个全面且通用的完整持久层框架。
 * [greenDAO](https://github.com/greenrobot/greenDAO)：greenDAO是一个轻量且快速的Android ORM，可将对象映射到SQLite数据库。
-* [Apache OpenJPA](https://github.com/apache/openjpa)：Apache基金会下的JPA实现。
+* [Apache OpenJPA](https://github.com/apache/openjpa)：Apache OpenJPA是Jakarta Persistence API 3.0规范的实现。
 * [QueryDSL](https://github.com/querydsl/querydsl)：Querydsl是一个可以为多个后端(包括JPA、MongoDB和Java中的SQL)构建类型安全的类SQL查询的框架。
 * [JOOQ](https://github.com/jOOQ/jOOQ)：jOOQ是一个内部DSL和源代码生成器，将SQL语言建模为类型安全的Java API，以帮助你编写更好的SQL。
 * [Ebean](https://github.com/ebean-orm/ebean)：Ebean是一个纯Java实现的开源ORM框架，它被设计成比JPA更简单、容易理解和使用。
 * [ObjectiveSql](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的ORM框架，它鼓励快速开发和整洁，最少的代码，以及约定优于配置。
-* [ORMLite](https://github.com/j256/ormlite-core)：精简版Java ORM。
+* [ORMLite](https://github.com/j256/ormlite-core)：ORMLite提供了一些简单、轻量级的功能，用于将Java对象持久保存到SQL数据库，同时避免更标准ORM包的复杂性和开销。
 * [Reladomo](https://github.com/goldmansachs/reladomo)：Reladomo是Java的企业级ORM框架。
 * [Apache Cayenne](https://github.com/apache/cayenne)：Apache Cayenne是一个开源持久层框架，提供对象关系映射(ORM)和远程处理服务。
-* [Jimmer](https://github.com/babyfish-ct/jimmer)：针对Java和Kotlin的革命性ORM。
+* [Jimmer](https://github.com/babyfish-ct/jimmer)：Jimmer是一个针对Java和Kotlin的革命性ORM，以及一套基于它的完整的集成方案。
 * [JFinal](https://github.com/jfinal/jfinal)：JFinal是基于Java语言的极速WEB、ORM框架。
 * [AnyLine](https://gitee.com/anyline/anyline)：基于Spring生态的D-ORM，兼容各种数据库、动态注册切换数据源、生成或执行DDL/DML。
 * [HsWeb-ORM](https://github.com/hs-web/hsweb-easy-orm)：简单的ORM工具，为动态表单而生。
@@ -472,7 +472,7 @@
 * [BeetlSQL](https://gitee.com/xiandafu/beetlsql)：BeetlSQL的目标是提供开发高效、维护高效、运行高效的数据库访问框架，在一个系统多个库的情况下，提供一致的编写代码方式。
 * [Mars](https://github.com/whaleal/mars)：用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
 * [Modality](https://github.com/arkanovicz/modality)：Modality是一个轻量级但高度可配置的Java ORM，带有一组配套工具。
-* [AFinal](https://github.com/yangfuhai/afinal)：AFinal是一个Android的SQLite ORM和IOC框架。
+* [AFinal](https://github.com/yangfuhai/afinal)：AFinal是一个Android的SQLite ORM和IoC框架。
 * [Sqli](https://github.com/x-ream/sqli)：ORM SQL查询构建器。
 * [SQL-Toy](https://github.com/sagframe/sagacity-sqltoy)：SQLToy是基于Java语言开发的，兼有Hibernate面向对象操作和MyBatis灵活查询的优点，同时更贴切项目、更贴切开发者的一个关系型数据库ORM框架。
 * [Android Orma](https://github.com/maskarade/Android-Orma)：Orma是一个适用于Android SQLite数据库的ORM框架。
@@ -506,6 +506,7 @@
 * [Apache Commons DbUtils](https://github.com/apache/commons-dbutils)：Commons DbUtils包是一组用于简化JDBC开发的Java工具类。
 * [FluentJPA](https://github.com/streamx-co/FluentJPA)：用于在Java中为JPA编写类型安全SQL查询的流式API。
 * [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：面向JPA提供程序的丰富Criteria API。
+* [MyBatis-Plus-Join](https://github.com/yulichang/mybatis-plus-join)：对MyBatis-Plus多表查询的扩展。
 * [JPA-Streamer](https://github.com/speedment/jpa-streamer)：JPA Streamer是一个轻量级库，用于将JPA查询表达为Java Stream。
 * [Jcabi-JDBC](https://github.com/jcabi/jcabi-jdbc)：流式的面向对象的JDBC包装器。
 * [Mongo Plus](https://gitee.com/anwena/mongo-plus)：使用MyBatis Plus的方式，优雅的操作MongoDB。
@@ -545,8 +546,8 @@
 
 ## 微服务框架
 
-* [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring生态中的微服务框架。
-* [Apache Dubbo](https://github.com/apache/dubbo)：阿里开源的RPC和微服务框架。
+* [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具(例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短命微服务和契约测试)。
+* [Apache Dubbo](https://github.com/apache/dubbo)：Apache Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
 * [Jakarta EE](https://jakarta.ee/)：Jakarta EE为开发人员提供了一套全面的供应商中立的开放规范，用于从头开始开发现代云原生Java应用程序。
 * [Micronaut](https://github.com/micronaut-projects/micronaut-core)：JVM平台上的微服务框架，由GraalVM项目组维护。
 * [Quarkus](https://github.com/quarkusio/quarkus)：云原生时代的Java微服务框架，由RedHat开发。
@@ -1145,9 +1146,9 @@
 
 ## 开源JDK
 
-* [Open JDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
+* [Oracle OpenJDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
 * [AWS Corretto](https://github.com/corretto/corretto-8)：亚马逊开源的JDK版本。
-* [Temurin](https://github.com/adoptium/temurin-build)：Eclipse基金会下的JDK版本。
+* [Eclipse Temurin](https://github.com/adoptium/temurin-build)：Eclipse基金会下的JDK版本。
 * [Bellsoft Liberica](https://github.com/bell-sw/Liberica)：BellSoft开源的JDK版本。
 * [GraalVM](https://github.com/oracle/graal)：Oracle开源的一个高性能JDK发行版，旨在加速用Java和其他JVM语言编写的应用程序的执行，并支持JavaScript、Ruby、Python和许多其他流行语言。
 * [Mandrel](https://github.com/graalvm/mandrel)：Mandrel是GraalVM社区版的下游发行版，由Redhat提供，Mandrel的主要目标是提供专门支持Quarkus的原生镜像版本。
@@ -1847,9 +1848,23 @@
 * [Flink CDC Connectors](https://github.com/ververica/flink-cdc-connectors)：CDC Connectors是Flink的一组源连接器，使用CDC从不同数据库中获取变更。
 * [Oracdc](https://github.com/averemee-si/oracdc)：Oracdc是一个用于异构IT环境中近实时数据集成和复制的软件包。
 * [TiBigData](https://github.com/tidb-incubator/TiBigData)：适用于TiDB、Presto、Flink和MapReduce连接器的其他大数据组件。
-* [MongoDB Kafka Connector](https://github.com/mongodb/mongo-kafka)：官方MongoDB Kafka连接器。
 * [Hoptimator](https://github.com/linkedin/Hoptimator)：Hoptimator是一个基于SQL的复杂数据管道控制平面，由LinkedIn开源。
 * [SpinalTap](https://github.com/airbnb/SpinalTap)：SpinalTap是一种通用的CDC服务，能够跨不同数据源低延迟地检测数据突变，并将其作为标准化事件传播给下游消费者，由Airbnb开源。
+
+## 大数据连接器
+
+* [MongoDB Spark Connector](https://github.com/mongodb/mongo-spark)：官方MongoDB Spark连接器。
+* [Flink Doris Connector](https://github.com/apache/doris-flink-connector)：适用于Apache Doris的Flink连接器。
+* [MongoDB Kafka Connector](https://github.com/mongodb/mongo-kafka)：官方MongoDB Kafka连接器。
+* [Kafka Connect MongoDB](https://github.com/hpgrahsl/kafka-connect-mongodb)：MongoDB的基本Apache Kafka Connect SinkConnector。
+* [Kafka Connect HTTP Connector](https://github.com/castorm/kafka-connect-http)：Kafka Connect连接器，支持将数据从JSON/HTTP API捕获到Kafka。
+* [Apache Flink Kafka Connector](https://github.com/apache/flink-connector-kafka)：该仓库包含官方Apache Flink Kafka连接器。
+* [Apache Flink JDBC Connector](https://github.com/apache/flink-connector-jdbc)：该仓库包含官方Apache Flink JDBC连接器。
+* [Apache Doris Spark Connector](https://github.com/apache/doris-spark-connector)：Apache Doris的Spark连接器。
+* [Apache Flink Elasticsearch Connector](https://github.com/apache/flink-connector-elasticsearch)：该仓库包含官方Apache Flink Elasticsearch连接器。
+* [Apache Kafka Lenses Connectors](https://github.com/lensesio/stream-reactor)：由Lenses.io维护的开源Kafka连接器的集合。
+* [MongoDB Hadoop Connector](https://github.com/mongodb/mongo-hadoop)：MongoDB Hadoop Connector是一个库，允许将MongoDB(或其数据格式BSON的备份文件)用作Hadoop MapReduce任务的输入源或输出目标。
+* [Flink ClickHouse Connector](https://github.com/itinycheng/flink-connector-clickhouse)：用于ClickHouse数据库的Flink SQL连接器，该项目由ClickHouse JDBC提供支持。
 
 ## 数据库中间件
 
@@ -2344,7 +2359,7 @@
 
 ## RPC框架
 
-* [Apache Dubbo](https://github.com/apache/dubbo)：阿里开源的RPC和微服务框架。
+* [Apache Dubbo](https://github.com/apache/dubbo)：Apache Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
 * [gRPC](https://github.com/grpc/grpc-java)：Google RPC的Java实现，基于HTTP/2的RPC。
 * [Finagle](https://github.com/twitter/finagle)：容错、协议无关的RPC系统，由Twitter开源并广泛使用。
 * [Motan](https://github.com/weibocom/motan)：Motan是一个跨语言RPC框架，用于快速开发高性能分布式服务，由微博开源。
@@ -2585,46 +2600,45 @@
 * [InvokeBinder](https://github.com/headius/invokebinder)：用于绑定方法处理的Java DSL向前移植。
 * [Virtual Thread Bridge](https://github.com/thunkware/virtual-threads-bridge)：该库允许你在Java 8+中使用Java 21的虚拟线程API。
 
-## 依赖注入
+## IoC
 
-* [Spring](https://github.com/spring-projects/spring-framework)：Spring生态中的依赖注入框架。
-* [Guice](https://github.com/google/guice)：适用于Java 8及更高版本的轻量级依赖注入框架，由Google提供。
-* [Dagger](https://github.com/google/dagger)：适用于Android和Java的快速依赖注入器，由Google开源。
-* [Koin](https://github.com/InsertKoinIO/koin)：适用于Kotlin和Kotlin多平台的实用轻量级依赖注入框架。
-* [PicoContainer](https://github.com/picocontainer/picocontainer)：古老的Java依赖注入库。
-* [Avaje-Inject](https://github.com/avaje/avaje-inject)：面向服务端开发人员的基于APT的依赖注入。
-* [Eclipse HK2](https://github.com/eclipse-ee4j/glassfish-hk2)：轻量级动态依赖注入框架。
-* [Apache DeltaSpike](https://github.com/apache/deltaspike)：DeltaSpike是一套可移植的CDI扩展。
+* [Spring](https://github.com/spring-projects/spring-framework)：Spring框架是Java平台的一个开源的全栈应用程序框架和控制反转容器实现。
+* [Guice](https://github.com/google/guice)：Guice是一个适用于Java 8及更高版本的轻量级依赖注入框架，由Google提供。
+* [Dagger](https://github.com/google/dagger)：Dagger是一个用于依赖注入的编译时框架，它不使用反射或运行时字节码生成，在编译时进行所有分析，并生成纯Java源代码，由Google开源。
+* [Koin](https://github.com/InsertKoinIO/koin)：Koin是一个面向Kotlin开发人员的实用轻量级依赖注入框架。
+* [PicoContainer](https://github.com/picocontainer/picocontainer)：PicoContainer是非常轻量级的IoC容器，提供依赖注入和对象生命周期管理的功能。
+* [Avaje-Inject](https://github.com/avaje/avaje-inject)：面向Java和Kotlin开发人员的快速、轻型依赖注入库。
+* [GlassFish HK2](https://github.com/eclipse-ee4j/glassfish-hk2)：Eclipse GlassFish HK2是Jakarta依赖注入的实现。
+* [Apache DeltaSpike](https://github.com/apache/deltaspike)：Apache DeltaSpike是一套可移植的CDI扩展，旨在使使用CDI和Java EE时的应用程序开发变得更加容易。
 * [Javax-Inject](https://github.com/javax-inject/javax-inject)：JSR-330依赖注入标准。
 * [CDI](https://www.cdi-spec.org/)：CDI规范，定义了一组强大的补充服务。
-* [Apache OpenWebBeans](https://github.com/apache/openwebbeans)：CDI 2.0规范的实现。
-* [Eclipse Sisu](https://github.com/eclipse/sisu.inject)：基于JSR 330的模块化容器，支持类路径扫描、自动绑定和动态自动装配。
+* [Apache OpenWebBeans](https://github.com/apache/openwebbeans)：Apache OpenWebBeans是CDI 2.0规范的实现。
+* [Eclipse Sisu](https://github.com/eclipse/sisu.inject)：Sisu是一个基于JSR330的模块化容器，支持类路径扫描、自动绑定和动态自动装配。
 * [Weld](https://github.com/weld/core)：Weld是CDI的参考实现。
-* [Coody](https://gitee.com/coodyer/Coody-Framework)：国产IOC框架，轻量级、简单快速。
-* [Scaldi](https://github.com/scaldi/scaldi)：轻量级Scala依赖注入库。
-* [Kodein](https://github.com/kosi-libs/Kodein)：Kotlin依赖注入。
-* [Transfuse](https://github.com/johncarl81/transfuse)：谷歌Android的依赖注入和集成框架。
-* [Governator](https://github.com/Netflix/governator)：Governator是一个扩展和工具类库，可增强Google Guice的功能，提供类路径扫描和自动绑定、生命周期管理、字段映射配置、字段验证和并行对象预热等功能，由Netflix开源。
-* [Toothpick](https://github.com/stephanenicolas/toothpick)：适用于Java/Android的基于作用域树的依赖注入库。
+* [Coody](https://gitee.com/coodyer/Coody-Framework)：Coody是一个国产IoC框架，轻量级、简单快速。
+* [Scaldi](https://github.com/scaldi/scaldi)：Scaldi提供了一种简单而优雅的方式在Scala中进行依赖注入。
+* [Kodein](https://github.com/kosi-libs/Kodein)：Kodein是一个简单但非常有用的依赖项检索容器，使用和配置都很轻松。
+* [Transfuse](https://github.com/johncarl81/transfuse)：Transfuse是一个专门针对Google Android API的Java依赖注入和集成库。
+* [Governator](https://github.com/Netflix/governator)：Governator是一个扩展和工具库，可增强Google Guice以提供注入器生命周期，并通过@PostConstruct和@PreDestroy支持对象生命周期，由Netflix开源。
+* [Toothpick](https://github.com/stephanenicolas/toothpick)：Toothpick是一个基于作用域树的Java依赖注入库。
 * [Feather](https://github.com/zsoltherpai/feather)：Feather是一个适用于Java和Android的超轻量级依赖注入(JSR-330)库。
-* [JayWire](https://github.com/vanillasource/jaywire)：轻量级依赖注入框架。
+* [JayWire](https://github.com/vanillasource/jaywire)：JayWire是一个非常小、轻量级的Java 8依赖注入框架。
 * [Tiny-Spring](https://github.com/code4craft/tiny-spring)：Tiny-Spring是为了学习Spring的而开发的，可以认为是一个Spring的精简版。
 * [OfficeFloor](https://github.com/officefloor/OfficeFloor)：OfficeFloor是一个IoC库，可以通过一流的程序构建应用程序。
 * [Inverno](https://github.com/inverno-io/inverno-core)：Inverno项目为Java平台提供了控制反转和依赖注入框架，它的特殊之处在于不使用反射进行对象实例化和依赖项注入，所有内容都在编译期间静态验证和完成。
+* [Mikron](https://github.com/reevik/mikron)：用于依赖注入和外部化配置管理的简约IoC容器。
 
 ## AOP
 
-* [AspectJ](https://eclipse.dev/aspectj/)：一个易用的功能强大的AOP框架。
-* [JVM-SandBox](https://github.com/alibaba/jvm-sandbox)：基于JVM的实时非侵入式AOP框架容器，阿里开源。
+* [AspectJ](https://github.com/eclipse-aspectj/aspectj)：AspectJ是一个面向切面的框架，它扩展了Java语言。
+* [JVM-SandBox](https://github.com/alibaba/jvm-sandbox)：JVM SandBox是一种JVM的非侵入式运行期AOP解决方案，由阿里开源。
 * [JBossAop](https://jbossaop.jboss.org/)：JBoss AOP是一个100%纯Java面向切面的框架，可在任何编程环境中使用或与我们的应用程序服务器紧密集成。
 * [Apache Commons Weaver](https://github.com/apache/commons-weaver)：Apache Commons Weaver提供了一种通过生成(“织入”)字节码到这些类中来增强已编译Java类的简单方法。
-* [FastAop](https://github.com/fast-light/fastaop)：基于Java注解处理的轻量级高性能AOP框架，类似于Lombok。
+* [FastAOP](https://github.com/fast-light/fastaop)：FastAOP是一款基于Java注解处理器的轻量级高性能AOP框架，类似于Lombok。
 * [Alliance](https://aopalliance.sourceforge.net/)：Alliance项目是几个对AOP和Java感兴趣的软件工程人员联合发起的开源项目。
-* [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架，饿了么开源。
+* [Lancet](https://github.com/eleme/lancet)：Lancet是一个轻量级的Android AOP框架，由饿了么开源。
 * [Jcabi Aspects](https://github.com/jcabi/jcabi-aspects)：AspectJ Java切面的集合，促进面向切面的编程模式：日志记录、缓存、验证等。
 * [AspectwerkZ](https://github.com/jboner/aspectwerkz)：简单、动态、轻量级、高性能的Java AOP框架。
-* [Eclipse AspectJ](https://github.com/eclipse-aspectj/aspectj)：Java编程语言的无缝面向切面扩展。
-* [Lancet](https://github.com/eleme/lancet)：面向Android App和SDK开发人员的轻量级快速AOP框架，饿了么开源。
 * [AspectJX](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)：一个基于AspectJ并在此基础上扩展出来可应用于Android开发平台的AOP框架，可作用于Java源码，class文件及jar包，同时支持Kotlin应用，由沪江科技开源。
 
 ## DSL
@@ -2960,6 +2974,7 @@
 * [GraphQL Java Extended Scalars](https://github.com/graphql-java/graphql-java-extended-scalars)：Graphql-Java的扩展标量库。
 * [GraphQL Java DateTime](https://github.com/tailrocks/graphql-java-datetime)：一组与Graphql-Java一起使用的符合RFC 3339的日期/时间标量类型。
 * [Nadel](https://github.com/atlassian-labs/nadel)：Nadel是一个将多个GraphQL服务组合在一起的Kotlin库，由Atlassian开源。
+* [Multipart Spring GraphQL](https://github.com/nkonev/multipart-spring-graphql)：Spring GraphQL的Multipart支持库。
 
 ## 任务调度
 
@@ -3147,6 +3162,7 @@
 * [LikeAdmin](https://gitee.com/likeadmin/likeadmin_java)：LikeAdmin是一套快速开发管理后台，使用Spring Boot 2.5、MyBatis Plus、TypeScript、Vue 3、Vite 2、Element Plus 1.2。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
 * [Pear Admin Boot](https://gitee.com/pear-admin/Pear-Admin-Boot)：基于Spring Boot生态、权限、工作流的开发平台。
+* [金合技术中台](https://gitee.com/ikingtech/iking-platform)：现代化的下一代企业级技术中台，简洁、高效、稳定、开源。
 
 ## 低代码
 
@@ -3344,6 +3360,7 @@
 * [Xcelite](https://github.com/eBay/xcelite)：Xcelite是一个类似ORM的Java库，它允许你轻松地将Javabean序列化到Excel电子表格或从Excel电子表格反序列化Java bean，由eBay开源。
 * [Java Excel API](https://jexcelapi.sourceforge.net/)：Java Excel API是一个成熟的开源Java API，使开发人员能够动态读取、写入和修改Excel电子表格。
 * [HY Common Report](https://github.com/HY-Org/hy.common.report)：报表、Excel操作类库。
+* [DsExcel Java](https://github.com/GrapeCity/DsExcel-Java)：在Java应用程序中轻松以编程方式生成、加载、修改和转换Excel .xlsx电子表格。
 
 #### CSV库
 
@@ -3472,6 +3489,7 @@
 * [jHDF](https://github.com/jamesmudd/jhdf)：该项目是用于访问HDF5文件的纯Java实现。
 * [extJWNL](https://github.com/extjwnl/extjwnl)：extJWNL是一个用于创建、读取和更新WordNet格式词典的Java API。
 * [MSLinks](https://github.com/DmitriiShamrikov/mslinks)：用于解析和创建Windows快捷方式文件(.lnk)的库。
+* [HCL4j](https://github.com/bertramdev/hcl4j)：HCL4j是JVM上Hashicorp配置语言的解析器。
 
 ## 反射库
 
@@ -4081,6 +4099,7 @@
 * [PowerAuth Server](https://github.com/wultra/powerauth-server)：PowerAuth Server是实现PowerAuth协议加密的核心后端应用程序，它负责设备注册、激活生命周期、应用程序管理和集成安全。
 * [LoopAuth](https://gitee.com/lucky-color/loop-auth)：一款Java Web鉴权框架，同时支持RBAC、ABAC，并提供会话管理等功能。
 * [Authsaur](https://github.com/authsaur/authsaur)：Authsaur帮助更多企业统一和构建标准化的用户身份体系，以数十年优秀开源产品CAS为内核，打造开箱即用的企业级单点登录系统。
+* [Biscuit Java](https://github.com/biscuit-auth/biscuit-java)：Biscuit的Java库实现。
 
 #### JWT库
 
@@ -4751,6 +4770,7 @@
 * [PySonar2](https://github.com/yinwang0/pysonar2)：PySonar2是Python的语义索引器库，专为大型代码库的批处理而设计，生成的索引可用于构建代码浏览器和代码搜索引擎。
 * [Codemodder](https://github.com/pixee/codemodder-java)：Codemodder是一个用于构建富有表现力的codemod的可插拔框架。
 * [CoraxJava](https://github.com/Feysh-Group/corax-community)：CoraxJava是一款针对Java项目的静态代码安全分析工具，其核心分析引擎来自于Corax商业版，具备与Corax商业版一致的底层代码分析能力，并在此基础上配套了专用的开源规则检查器与规则。
+* [SootUp](https://github.com/soot-oss/SootUp)：SootUp是对优秀的旧静态分析框架Soot的彻底改造。
 
 ## 编码规范
 
@@ -5923,6 +5943,7 @@
 * [Hawk](https://github.com/orhanobut/hawk)：适用于Android的安全、简单的键值存储。
 * [Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)：一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
 * [KVStore](https://github.com/ggrandes/kvstore)：基于B+Tree的Java内存和磁盘键值存储。
+* [FireflyDB](https://github.com/godcrampy/fireflydb)：FireflyDB是一种快速、线程安全、基于JVM的键值存储引擎，具有微秒级延迟。
 
 ## 堆外内存管理
 
@@ -6024,6 +6045,7 @@
 * [Native-Library-Loader](https://github.com/scijava/native-lib-loader)：用于从Java中提取和加载本机库的本机库加载器。
 * [Jssembly](https://github.com/dvx/jssembly)：Jssembly是一个库，允许你通过JNI桥从Java执行本机汇编。
 * [Facebook JNI](https://github.com/facebookincubator/fbjni)：Facebook JNI工具库旨在简化Java JNI的使用。
+* [JFFI](https://github.com/jnr/jffi)：libffi的Java绑定。
 
 ## GPU编程
 
@@ -6965,6 +6987,7 @@
 * [ZT-Process-Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
 * [MediaLib](https://github.com/hdsdi3g/medialib)：另一个在Java中启动进程的库。
 * [Winrm4j](https://github.com/cloudsoft/winrm4j)：Winrm4j是一个使Java应用程序能够使用WinRM在远程Windows服务器上执行批处理或PowerShell命令的项目。
+* [JNR Process](https://github.com/jnr/jnr-process)：JNR Process库提供了JDK ProcessBuilder API的直接替代品，但它不是线程泵填充程序，而是围绕posix_spawn C API的直接抽象，并提供可选择的in、out和err通道。
 
 ## 苹果推送通知
 
@@ -7053,12 +7076,12 @@
 * [HAR Reader](https://github.com/sdstoehr/har-reader)：用于使用Java访问HTTP存档(HAR)的库。
 * [WebMVC](https://github.com/beangle/webmvc)：Web模型-视图-控制器库。
 * [AutoREST](https://github.com/intendia-oss/autorest)：GWT自动RESTful服务代理生成器。
-* [JBossWS-CXF](https://github.com/jbossws/jbossws-cxf)：JBossWS-CXF堆栈，与Apache CXF集成。
 * [Wicket Stuff](https://github.com/wicketstuff/core)：Wicket Stuff是由Wicket社区创建和维护的Apache Wicket Web框架的开源项目集合。
 * [JBossWS-CXF](https://github.com/jbossws/jbossws-cxf)：JBossWS-CXF堆栈，与Apache CXF集成。
 * [Domino-UI](https://github.com/DominoKit/domino-ui)：类型安全且功能丰富的UI组件库，供Java开发人员使用流式API，并且不依赖于外部JavaScript。
 * [J4TS](https://github.com/j4ts/j4ts)：J4TS基于GWT的JRE模拟库的一个分支，用Java编写，并使用JSweet转译器转译为TypeScript/JavaScript。
 * [Mateu](https://github.com/miguelperezcolom/mateu)：Mateu是一个用于以光速从Java创建出色的响应式Web应用程序的框架。
+* [PatternFly Java](https://github.com/patternfly-java/patternfly-java)：PatternFly Java是基于GWT/J2CL和Elemento的PatternFly 5的Java实现。
 
 ## 手机号解析
 
