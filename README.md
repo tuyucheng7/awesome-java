@@ -287,6 +287,7 @@
 - [语言库](#语言库)
 - [泛型库](#泛型库)
 - [国际化](#国际化)
+- [短链接](#短链接)
 - [词法解析](#词法解析)
 - [形式验证](#形式验证)
 - [项目模板](#项目模板)
@@ -644,6 +645,7 @@
 * [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
 * [Embedded MySQL](https://github.com/wix-incubator/wix-embedded-mysql)：嵌入式MySQL。
 * [Embedded MongoDB](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)：Embedded MongoDB提供一种平台中立的方式在单元测试中运行MongoDB。
+* [Embedded Postgres Binaries](https://github.com/zonkyio/embedded-postgres-binaries)：该项目提供了PostgreSQL二进制文件的轻量级捆绑包，大小更小，旨在用于测试目的。
 * [Embedded Database](https://github.com/zonkyio/embedded-database-spring-test)：用于为Spring支持的集成测试创建隔离的嵌入式数据库的库。
 * [Embedded ElasticSearch](https://github.com/allegro/embedded-elasticsearch)：简化使用Elasticsearch创建集成测试的工具，由Allegro开源。
 * [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：提供了在集成测试中运行Consul的简单方法。
@@ -1473,7 +1475,7 @@
 ## 注册中心
 
 * [Nacos](https://github.com/alibaba/nacos)：一个易于使用的动态服务发现、配置和服务管理平台，用于构建云原生应用程序，由阿里开源。
-* [Apache Zookeeper](https://github.com/apache/zookeeper)：一个集中式服务，用于维护配置信息、命名、提供分布式同步、提供组服务。
+* [Apache Zookeeper](https://github.com/apache/zookeeper)：Apache Zookeeper是一个集中式服务，用于维护配置信息、命名、提供分布式同步、提供组服务。
 * [Eureka](https://github.com/Netflix/eureka)：用于弹性中间层负载均衡和故障转移的AWS服务注册中心，Netflix开源。
 * [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：分布式微服务注册中心。
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是蚂蚁金服开源的一个生产级、高时效、高可用的服务注册中心。
@@ -1660,6 +1662,7 @@
 * [Apache Celeborn](https://github.com/apache/incubator-celeborn)：Apache Celeborn是一种弹性且高性能的服务，用于洗牌和溢出数据，由阿里云开源。
 * [Apache CarbonData](https://github.com/apache/carbondata)：Apache CarbonData是一种索引列式数据存储解决方案，用于在大数据平台上进行快速分析，例如Apache Hadoop、Apache Spark等，由华为开源。
 * [Apache Kyuubi](https://github.com/apache/kyuubi)：Kyuubi是一个分布式多租户网关，用于在数据仓库和Lakehouse上提供Serverless SQL，由网易开源。
+* [Snowplow](https://github.com/snowplow/snowplow)：Snowplow是一个开发者优先的收集行为数据的引擎。
 * [Piflow](https://github.com/cas-bigdatalab/piflow)：Piflow是一个易于使用、功能强大的大数据管道系统，由科学大数据社区开源。
 * [Scio](https://github.com/spotify/scio)：Scio是一个适用于Beam和Google Cloud Dataflow的Scala API，由Spotify开源。
 * [Batch Processing Gateway](https://github.com/apple/batch-processing-gateway)：批处理网关使在Kubernetes上运行Spark服务变得容易，它允许用户通过直观的API调用在Kubernetes上提交、检查和删除Spark应用程序，由苹果开源。
@@ -1718,6 +1721,7 @@
 * [WInte.r](https://github.com/olehmberg/winter)：WInte.r框架提供了端到端数据集成的方法，该框架实现了众所周知的数据预处理、模式匹配、身份解析、数据融合和结果评估方法。
 * [Inviso](https://github.com/Netflix/inviso)：Inviso是一个轻量级工具，提供搜索Hadoop作业、可视化性能和查看集群利用率的功能，由Netflix开源。
 * [ES-Fastloader](https://github.com/didi/ES-Fastloader)：ES-Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
+* [Apache Livy](https://github.com/apache/incubator-livy)：Apache Livy是一个开源REST接口，用于从任何地方与Apache Spark交互，由Cloudera开源。
 
 ## 大数据组件
 
@@ -1770,6 +1774,7 @@
 * [Teiid](https://github.com/teiid/teiid)：Teiid是一个数据虚拟化系统，允许应用程序使用来自多个异构数据存储的数据，由RedHat主导。
 * [XAP](https://github.com/xap/xap)：分布式、高度可扩展的内存数据网格，由GigaSpaces开源。
 * [GridGain Community Edition](https://github.com/gridgain/gridgain)：GridGain是一个强化的高性能开源内存计算平台。
+* [Apache Griffin](https://github.com/apache/griffin)：Griffin是一个开源的大数据数据质量解决方案，由eBay开源，它支持批处理和流模式两种数据质量检测方式，是一个基于Hadoop和Spark建立的数据质量服务平台。
 * [Apache Ranger](https://github.com/apache/ranger)：Apache Ranger是一个用在Hadoop平台上并提供操作、监控、管理综合数据安全的框架，由Hortonworks开源。
 * [Beekeeper](https://github.com/ExpediaGroup/beekeeper)：Beekeeper是一个安排删除孤立路径和过期元数据的服务，由Expedia开源。
 * [Apache Mnemonic](https://github.com/apache/mnemonic)：Apache Mnemonic是一个面向非易失性混合内存存储的库，它提出了非易失性/持久性Java对象模型和持久性计算服务，为显著提高海量实时数据处理/分析的性能带来了多种优势。
@@ -1865,6 +1870,7 @@
 * [Apache Kafka Lenses Connectors](https://github.com/lensesio/stream-reactor)：由Lenses.io维护的开源Kafka连接器的集合。
 * [MongoDB Hadoop Connector](https://github.com/mongodb/mongo-hadoop)：MongoDB Hadoop Connector是一个库，允许将MongoDB(或其数据格式BSON的备份文件)用作Hadoop MapReduce任务的输入源或输出目标。
 * [Flink ClickHouse Connector](https://github.com/itinycheng/flink-connector-clickhouse)：用于ClickHouse数据库的Flink SQL连接器，该项目由ClickHouse JDBC提供支持。
+* [Apache HBase Connectors](https://github.com/apache/hbase-connectors)：Apache HBase连接器。
 
 ## 数据库中间件
 
@@ -2100,6 +2106,7 @@
 * [Lemur Project](https://www.lemurproject.org/)：Lemur项目开发搜索引擎、浏览器工具栏、文本分析工具和数据资源，以支持信息检索和文本挖掘软件的研究和开发，由马萨诸塞大学阿默斯特分校智能信息检索中心(CIIR)和卡内基梅隆大学语言技术研究所(LTI)发起。
 * [Search Framework](https://gitee.com/oschina/search-framework)：这是OSChina网站的全文搜索框架源码。
 * [TngouDB](https://gitee.com/397713572/TngouDB)：TngouDB是天狗网开发的中文搜索引擎数据库，用于天狗农业网的农业搜索引擎。
+* [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
 
 #### 图数据库
 
@@ -2131,6 +2138,7 @@
 * [AutomataLib](https://github.com/LearnLib/automatalib)：AutomataLib是一个免费的开源Java库，用于对自动机、图形和转换系统进行建模，由德国多特蒙德工业大学开发。
 * [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
 * [HGraphDB](https://github.com/rayokota/hgraphdb)：HGraphDB是使用HBase作为图数据库的客户端层。
+* [Apache S2Graph](https://github.com/apache/incubator-s2graph)：S2Graph是一个基于Apache HBase构建的分布式、可扩展的OLTP图数据库，支持超大图的快速遍历。
 
 #### 时序数据库
 
@@ -2255,6 +2263,7 @@
 * [MongoBee](https://github.com/mongobee/mongobee)：Java版MongoDB数据迁移工具。
 * [Mongock](https://github.com/mongock/mongock)：Mongock是一个基于Java的迁移工具，作为应用程序代码的一部分。
 * [Solidbase](https://github.com/gitbucket/solidbase)：基于Liquibase的RDBMS和其他资源的通用迁移工具。
+* [R2DBC Migration](https://github.com/nkonev/r2dbc-migrate)：R2DBC数据库迁移库。
 
 ## 数据源增强
 
@@ -3016,42 +3025,43 @@
 
 ## 配置管理
 
-* [Nacos](https://github.com/alibaba/nacos)：一个易于使用的动态服务发现、配置和服务管理平台，由阿里开源。
-* [Apache Zookeeper](https://github.com/apache/zookeeper)：一个集中式服务，用于维护配置信息、命名、提供分布式同步、提供组服务。
-* [Config](https://github.com/lightbend/config)：使用HOCON文件的JVM语言的配置库，由Lightbend开源。
-* [Microconfig](https://github.com/microconfig/microconfig)：用于微服务配置管理的现代工具。
+* [Pkl](https://github.com/apple/pkl)：Pkl是一种用于生成配置的编程语言，由苹果开源。
+* [Nacos](https://github.com/alibaba/nacos)：Nacos是一个易于使用的平台，专为动态服务发现、配置和服务管理而设计，由阿里开源。
+* [Apache Zookeeper](https://github.com/apache/zookeeper)：Apache Zookeeper是一个集中式服务，用于维护配置信息、命名、提供分布式同步、提供组服务。
+* [Typesafe Config](https://github.com/lightbend/config)：使用HOCON文件的JVM语言的配置库，由Lightbend开源。
+* [Microconfig](https://github.com/microconfig/microconfig)：Microconfig的目的是让管理微服务的配置变得简单、方便，并重用公共部分。
 * [Spring Cloud Config](https://github.com/spring-cloud/spring-cloud-config)：Spring Cloud Config为分布式系统中的外部化配置提供服务器端和客户端支持。
 * [Apollo](https://github.com/apolloconfig/apollo)：Apollo是一个可靠的配置管理系统，适用于微服务配置管理场景，由携程开源。
 * [Disconf](https://github.com/knightliao/disconf)：专注于各种分布式系统配置管理的通用组件和通用平台，提供统一的配置管理服务。
-* [BRCC](https://github.com/baidu/brcc)：百度开源的分布式配置中心，用于统一管理应用服务的配置信息。
+* [BRCC](https://github.com/baidu/brcc)：BRCC是一个分布式配置中心，用于统一管理应用服务的配置信息，简化资源配置的维护成本，由百度开源。
+* [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
 * [Central Dogma](https://github.com/line/centraldogma)：Central Dogma是一个基于Git、ZooKeeper和HTTP/2的开源、高可用、版本控制的服务配置仓库，由Line开源。
-* [XXL-Conf](https://github.com/xuxueli/xxl-conf)：XXL-Conf是一个轻量级分布式配置管理平台。
-* [Apache Commons Configuration](https://github.com/apache/commons-configuration)：协助读取各种格式的配置/首选项文件的工具。
-* [QConfig](https://github.com/qunarcorp/qconfig)：去哪儿开发的配置中心，提供高可用的配置托管/动态热更新服务，具备丰富的格式支持和简单易用的API。
+* [XXL-Conf](https://gitee.com/xuxueli0323/xxl-conf)：XXL-CONF是一个轻量级分布式配置管理平台，拥有轻量级、秒级动态推送、多环境、跨语言、跨机房、配置监听、权限控制、版本回滚等特性。
+* [Apache Commons Configuration](https://github.com/apache/commons-configuration)：Apache Commons Configuration库提供了一个通用配置接口，使Java应用程序能够从各种源读取配置数据。
+* [QConfig](https://github.com/qunarcorp/qconfig)：QConfig中心式配置中心，提供高可用的配置托管/动态热更新服务，由去哪儿开源。
 * [NightConfig](https://github.com/TheElectronWill/night-config)：NightConfig是一个功能强大且易于使用的Java配置库，用Java 8编写。
-* [CFG4J](https://github.com/cfg4j/cfg4j)：用Java编写的分布式应用程序的现代配置库。
+* [CFG4J](https://github.com/cfg4j/cfg4j)：CFG4J是用Java编写的分布式应用程序的现代配置库。
 * [Archaius](https://github.com/Netflix/archaius)：Archaius是一个配置库，用于将静态和动态配置的混合作为单个配置单元进行访问，由Netflix开源。
-* [ConfigMe](https://github.com/AuthMe/ConfigMe)：适用于任何Java项目的简单配置管理库。
+* [ConfigMe](https://github.com/AuthMe/ConfigMe)：ConfigMe是一个开箱即用的配置管理库，支持YAML。
 * [Configurate](https://github.com/SpongePowered/Configurate)：Configurate是一个用于Java应用程序的简单配置库，它提供基于节点的数据表示，能够处理各种配置格式。
 * [Easy Props](https://github.com/j-easy/easy-props)：Easy Props是一个使用注解以声明方式在Java对象中注入配置属性的库。
-* [Avaje Config](https://github.com/avaje/avaje-config)：JVM应用程序的应用程序配置/属性加载库。
-* [Shepher](https://github.com/XiaoMi/shepher)：ZooKeeper管理工具，在小米作为配置管理中心使用。
+* [Avaje Config](https://github.com/avaje/avaje-config)：Avaje Config为JVM应用程序提供外部配置，可以通过yaml或properties文件提供配置，并使用命令行参数和资源指定要加载的文件。
+* [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
 * [Directories](https://github.com/dirs-dev/directories-jvm)：一个提供配置/缓存/数据路径的小型库，遵循Linux、MacOS、BSD和Windows上的相应约定。
-* [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的JVM配置库，由Accenture开源。
+* [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的Java配置库，很大程度上基于Typesafe Config，并具有一些附加的固执己见的功能，由Accenture开源。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
-* [OWNER](https://github.com/matteobaccan/owner)：一个用于简化Java属性文件使用的API。
+* [OWNER](https://github.com/matteobaccan/owner)：OWNER是一个Java库，其目标是最大限度地减少通过Java properties处理应用程序配置所需的代码。
 * [Konf](https://github.com/uchuhimo/konf)：一个适用于Kotlin/Java/Android的类型安全的级联配置库，支持大多数配置格式。
 * [Gestalt](https://github.com/gestalt-config/gestalt)：Gestalt是一个功能强大的Java配置库，旨在简化你在软件项目中处理和管理配置的方式。
 * [Externalized Properties](https://github.com/joel-jeremy/externalized-properties)：一个轻量级且可扩展的库，用于解析来自各种外部源的应用程序属性。
 * [KAConf](https://github.com/mariomac/kaconf)：用于Java和Kotlin的基于注解的配置系统。
-* [Simple YAML](https://github.com/Carleslc/Simple-YAML)：此Java API提供了一种易于使用的方式来存储数据并使用YAML格式提供配置。
+* [Simple YAML](https://github.com/Carleslc/Simple-YAML)：Simple-YAML是一个旨在为你的程序、工具和插件创建配置文件的库。
 * [Spring Fu](https://github.com/spring-projects-experimental/spring-fu)：Spring Fu是JaFu(Java DSL)和KoFu(Kotlin DSL)的孵化器，旨在以声明式方式使用代码显式配置Spring Boot，并得益于自动完成功能而具有出色的可发现性。
 * [Config-Magic](https://github.com/brianm/config-magic)：Java的便捷配置库。
 * [Depeng-Config](https://github.com/dapeng-soa/dapeng-config-server)：大鹏开源的配置中心。
-* [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架。
+* [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架，它允许你标记配置值，以便Constretto可以在运行时选择正确的值。
 * [MicroProfile Config](https://github.com/eclipse/microprofile-config)：MicroProfile配置功能。
 * [Jeesuite Config](https://gitee.com/vakinge/jeesuite-config)：功能齐全、适合二开的配置中心，由dromara社区开源。
-* [Pkl](https://github.com/apple/pkl)：Pkl是一种用于生成配置的编程语言，由苹果开源。
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：基于Spring Boot和Spring Cloud开发的配置中心，由随行付开源。
 
 ## 业务流
@@ -3563,7 +3573,8 @@
 
 #### ChatGPT
 
-* [OpenAI-Java](https://github.com/TheoKanning/openai-java)：用于使用OpenAI的GPT API的Java库，支持GPT-3、ChatGPT和GPT-4。
+* [OpenAI Java](https://github.com/TheoKanning/openai-java)：用于使用OpenAI的GPT API的Java库，支持GPT-3、ChatGPT和GPT-4。
+* [OpenAI Kotlin](https://github.com/Aallam/openai-kotlin)：OpenAI API的Kotlin客户端，具有多平台和协程功能。
 * [ChatGPT Java](https://github.com/PlexPt/chatgpt-java)：ChatGPT Java SDK，支持GPT3.5、GPT4 API。
 * [ChatGPT Java](https://github.com/Grt1228/chatgpt-java)：ChatGPT的Java客户端。
 * [ChatGPT-Java](https://github.com/AcaiSoftware/chatgpt-java)：非官方逆向工程ChatGPT API的Java包装器。
@@ -3913,6 +3924,7 @@
 * [Apache Rya](https://github.com/apache/rya)：Apache Rya是一个可扩展的RDF存储，它构建在列式索引存储(例如Accumulo)之上，它作为RDF4J的扩展来实现，以提供简单的查询机制(SPARQL、SERQL等)和RDF数据存储(RDF/XML、NTriples等)。
 * [ESMF SDK](https://github.com/eclipse-esmf/esmf-sdk)：ESMF SDK包含旨在使用、扩展语义切面元模型(SAMM)或与语义切面元模型集成的所有各方(例如解决方案开发人员、领域专家或OEM)的工件和资源。
 * [Pinto](https://github.com/stardog-union/pinto)：Pinto是一个Java框架，用于将JavaBean转换为RDF。
+* [Asquare](https://github.com/cognizone/asquare)：语义开发库。
 
 ## 知识图谱
 
@@ -4545,6 +4557,7 @@
 * [AirCompressor](https://github.com/airlift/aircompressor)：该库包含用纯Java编写的Zstandard(Zstd)、LZ4、Snappy和LZO的实现，它们通常比原生库的JNI包装器快10-40%。
 * [Junrar](https://github.com/junrar/junrar)：纯Java解压缩库。
 * [Brotli4j](https://github.com/hyperxpro/Brotli4j)：Brotli4j为Java提供Brotli压缩和解压缩。
+* [Bit-Lib4j](https://github.com/devnied/Bit-lib4j)：Bit-Lib4j是一个用于在Java中处理字节或位的库。
 
 ## 爬虫框架
 
@@ -5389,6 +5402,7 @@
 * [EasyFXML](https://github.com/Tristan971/EasyFXML)：EasyFXML是一组固执己见的工具，旨在简化健壮且模块化的JavaFX应用程序的开发。
 * [JRebirth](https://github.com/JRebirth/JRebirth)：JRebirth是一个JavaFX应用程序框架。
 * [JPro](https://www.jpro.one/)：用于在浏览器中运行Java的工具平台。
+* [Monocle](https://github.com/TestFX/Monocle)：Monocle是针对嵌入式系统的JavaFX Glass窗口组件的实现。
 
 #### 样式库
 
@@ -6457,6 +6471,7 @@
 * [Geocalc](https://github.com/grumlimited/geocalc)：Geocalc是一个简单的Java库，旨在使用地球坐标进行算术运算。
 * [Orbdetpy](https://github.com/ut-astria/orbdetpy)：Orbdetpy是一个Python轨道确定库，航天先进科学技术研究(ASTRIA)开源。
 * [Yamcs](https://github.com/yamcs/yamcs)：Yamcs是一个用Java开发的任务控制框架。
+* [CCSDS](https://github.com/dariol83/ccsds)：基于Java 11的CCSDS协议和格式的开源实现。
 
 ## AIS库
 
@@ -6692,6 +6707,7 @@
 * [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
 * [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
+* [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：这是一个检查和处理脏话的库。
 
 ## 泛型库
 
@@ -6702,6 +6718,7 @@
 
 ## 国际化
 
+* [Unicode CLDR](https://github.com/unicode-org/cldr)：Unicode CLDR为支持世界语言的软件提供了关键构建块，并拥有最大、最广泛的可用语言环境数据标准存储库。
 * [L10nMessages](https://github.com/pinterest/l10nmessages)：L10nMessages是一个使Java应用程序的国际化(i18n)和本地化(l10n)变得简单且安全的库，由Pinterest开源。
 * [NV-1i8n](https://github.com/TakahikoKawasaki/nv-i18n)：支持国际化的包，包含ISO 3166-1国家代码枚举、ISO 639-1语言代码枚举、ISO 15924脚本代码枚举等。
 * [Mojito](https://github.com/box/mojito)：Mojito是一个持续本地化平台，依靠持续集成将所有软件字符串收集到一处，实时查看哪些产品需要本地化。
@@ -6718,6 +6735,11 @@
 * [Lokalized](https://github.com/lokalized/lokalized-java)：Lokalized有助于在JVM上进行听起来自然的软件翻译。
 * [OmegaT](https://github.com/omegat-org/omegat)：OmegaT是一款免费开源多平台计算机辅助翻译工具，具有模糊匹配、翻译记忆库、关键字搜索、术语表以及翻译到更新项目中的功能。
 * [Singleton](https://github.com/vmware/singleton)：Singleton是一个用于简化软件全球化的开源应用程序，由VMWare开源。
+
+## 短链接
+
+* [ShortLink](https://github.com/Enndfp/short-link)：SaaS短链接系统，为企业和个人用户提供了一个高效、安全和可靠的短链接管理平台。
+* [URLShorter](https://gitee.com/tinyframework/urlshorter)：满足多种场景下的短链接生成需求。
 
 ## 词法解析
 
@@ -6749,6 +6771,7 @@
 
 ## 项目模板
 
+* [JBoss Forge](https://github.com/forge/core)：JBoss Forge是一款软件开发工具，可扩展你的Java IDE，为不同的技术和解决方案提供向导和扩展。
 * [PLMCodeTemplate](https://github.com/xwjie/PLMCodeTemplate)：Spring开发代码模板。
 * [AWS CloudFormation Template](https://github.com/widdix/aws-cf-templates)：AWS CloudFormation的免费模板。
 * [React Native Template TypeScript](https://github.com/react-native-community/react-native-template-typescript)：干净且简约的React Native模板，可快速开始使用TypeScript。
@@ -6840,6 +6863,8 @@
 * [Either](https://github.com/jbock-java/either)：Java的函数式错误处理库。
 * [Catch-Exception](https://github.com/Codearte/catch-exception)：该库在单行代码中捕获异常，并使它们可用于进一步分析。
 * [Graceful Response](https://github.com/feiniaojin/graceful-response)：Graceful Response是一个Spring Boot技术栈下的优雅响应处理器，提供一站式统一返回值封装、全局异常处理、自定义异常错误码等功能。
+* [Maybe](https://github.com/JoseLion/maybe)：Maybe是一个类似于java.util.Optional的单子包装器，但意图不同。
+* [Result](https://github.com/leakyabstractions/result)：该库的目的是为可能成功或失败的操作结果提供类型安全的封装，而不是抛出异常。
 
 ## 功能切换
 
@@ -6881,7 +6906,6 @@
 * [JURL](https://github.com/anthonynsimon/jurl)：快速简单的Java URL解析库，支持UTF-8和路径解析。
 * [Handy URI Templates](https://github.com/damnhandy/Handy-URI-Templates)：实现RFC6570的Java URI模板处理器。
 * [UrlRewriteFilter](https://github.com/paultuckey/urlrewritefilter)：具有类似于Apache的mod_rewrite功能的Java Web过滤器。
-* [URLShorter](https://gitee.com/tinyframework/urlshorter)：满足多种场景下的短链接生成需求。
 
 ## WebRTC
 
@@ -7082,6 +7106,7 @@
 * [J4TS](https://github.com/j4ts/j4ts)：J4TS基于GWT的JRE模拟库的一个分支，用Java编写，并使用JSweet转译器转译为TypeScript/JavaScript。
 * [Mateu](https://github.com/miguelperezcolom/mateu)：Mateu是一个用于以光速从Java创建出色的响应式Web应用程序的框架。
 * [PatternFly Java](https://github.com/patternfly-java/patternfly-java)：PatternFly Java是基于GWT/J2CL和Elemento的PatternFly 5的Java实现。
+* [AngularBeans](https://github.com/bessemHmidi/AngularBeans)：AngularBeans是一个框架，其目的是将Java EE 7(更准确地说是CDI规范)与AngularJS结合使用。
 
 ## 手机号解析
 
