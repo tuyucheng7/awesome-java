@@ -271,6 +271,7 @@
 - [地理空间](#地理空间)
 - [几何学](#几何学)
 - [天文学](#天文学)
+- [水文学](#水文学)
 - [AIS库](#AIS库)
 - [跨语言](#跨语言)
 - [序列化](#序列化)
@@ -1161,6 +1162,11 @@
 * [Apache Rat](https://github.com/apache/creadur-rat)：Rat是一个在检查发布时提高准确性和效率的工具。
 * [Strongbox](https://github.com/strongbox/strongbox)：Strongbox是一个现代OSS工件仓库管理器。
 * [Reposilite](https://github.com/dzikoysk/reposilite)：轻量级且易于使用的存储库管理器，用于JVM生态系统中基于Maven的工件。
+* [CloudRepo](https://cloudrepo.io/)：基于云的私有和公共、Maven和PyPi仓库，对于开源项目免费。
+* [Cloudsmith](https://cloudsmith.io/user/login/)：适用于Java/Maven、RedHat、Debian、Python、Ruby、Vagrant等的简单、安全且集中的仓库服务，免费开源。
+* [PackageCloud](https://packagecloud.io/users/new?plan=free_usage_plan)：易于使用的Maven、RPM、DEB、PyPi、NPM和RubyGem包的仓库托管。
+* [Repsy](https://repsy.io/)：1GB免费的私有/公共Maven仓库。
+* [Gemfury](https://gemfury.com/)：Maven、PyPi、NPM、Go Module、Nuget、APT和RPM仓库的私有和公共工件仓库，免费用于公共项目。
 
 ## Java环境管理
 
@@ -1272,7 +1278,7 @@
 * [Codenvy](https://github.com/codenvy/codenvy)：一个云IDE引擎，为开发者提供了一种方法让其能够开发、测试、运行工具插件和应用程序。
 * [RStudio](https://github.com/rstudio/rstudio)：RStudio是R编程语言的集成开发环境。
 * [Aptana Studio 3](https://github.com/aptana/studio3)：Aptana Studio 3是一个开源Web开发IDE。
-* [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE)：用于在Android设备上开发真实的、基于Gradle的Android应用程序的IDE。
+* [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE)：AndroidIDE是一款适用于Android的IDE，用于开发功能齐全的Android应用程序。
 * [Cosmic IDE](https://github.com/Cosmic-Ide/Cosmic-IDE)：Cosmic IDE是一款功能丰富的IDE，适用于Android上的JVM开发。
 * [SnapCode](https://github.com/reportmill/SnapCode)：在浏览器中运行的现代Java IDE，用于教育目的。
 * [JCreator](https://jcreator.en.softonic.com/)：JCreator是另一个简单的Java IDE，非常适合想要学习Java的初学者。
@@ -1319,6 +1325,7 @@
 * [Mendmix](https://github.com/dromara/mendmix)：一站式分布式开发架构开源解决方案及云原生架构技术底座，由dromara社区开源。
 * [DataSophon](https://github.com/datavane/datasophon)：致力于快速实现大数据云原生平台的部署、管理、监控和自动化运维，帮助你快速构建稳定、高效、弹性、可扩展的大数据云原生平台。
 * [Kogito](https://github.com/kiegroup/kogito-runtimes)：Kogito是专注于云原生开发、部署和执行的下一代业务自动化平台。
+* [JEAF](https://anaptecs.atlassian.net/wiki/spaces/JEAF/overview)：JEAF是一组框架、库和工具，支持开发基于Java的轻量级云原生企业应用程序。
 * [Micro Integrator](https://github.com/wso2/micro-integrator)：云原生配置驱动的运行时，可帮助开发人员实现组合微服务，由WSO2开源。
 * [Mercury](https://github.com/Accenture/mercury)：用于构建“可组合架构和应用程序”的参考引擎，由Accenture开源。
 * [Chaos](https://github.com/openmessaging/openchaos)：Chaos为供应商提出了一个统一的API，为在云原生环境中执行混沌工程原理的各个方面提供解决方案。
@@ -2414,6 +2421,7 @@
 * [HTTPBuilder](https://github.com/jgritman/httpbuilder)：Groovy的简单HTTP客户端。
 * [HttpBuilder-NG](https://github.com/http-builder-ng/http-builder-ng)：适用于Groovy(和Java)的简单HTTP客户端。
 * [RestVolley](https://github.com/HujiangTechnology/RestVolley)：一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
+* [King HttpClient](https://github.com/king/king-http-client)：支持SSE的异步HTTP客户端。
 
 ## RPC框架
 
@@ -3356,6 +3364,7 @@
 * [Easy-Pay](https://github.com/easy-pay/easy-pay)：一行代码解决支付宝和微信的二维码生成，支付回调、退款、H5支付等功能。
 * [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
 * [Razorpay Java SDK](https://github.com/razorpay/razorpay-java)：Razorpay API的官方Java绑定。
+* [DaxPay](https://gitee.com/bootx/dax-pay)：DaxPay是一套基于Bootx-Platform脚手架构建的一套开源支付网关系统，已经对接支付宝、微信支付相关的接口，以及扩展了钱包支付、储值卡支付、现金支付等新的支付方式。
 
 ## API管理
 
@@ -3450,6 +3459,7 @@
 * [Java CSV](http://sourceforge.net/projects/javacsv)：一个小型快速开源Java库，用于读写CSV和纯分隔文本文件。
 * [DeCS](https://github.com/diergo/decs)：一个简单的Java 8 CSV解析器和生成器。
 * [CSV Utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV文本文件的工具类。
+* [CsvJdbc](https://github.com/simoc/csvjdbc)：CsvJdbc是一个只读JDBC驱动程序，它使用CSV文件或DBF文件作为数据库表，非常适合编写数据导入程序或分析日志文件。
 
 #### Word库
 
@@ -3593,17 +3603,15 @@
 
 ## 日期时间
 
-* [Joda-Time](https://github.com/JodaOrg/joda-time)：Java 8之前广泛使用的Java日期和时间类的替代品。
+* [Joda-Time](https://github.com/JodaOrg/joda-time)：Joda-Time提供了Java日期和时间类的优质替代品。
 * [Prettytime](https://github.com/ocpsoft/prettytime)：Java的社交风格日期和时间格式。
-* [Time4J](https://github.com/MenoData/Time4J)：Java的高级日期、时间和间隔库。
-* [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra)：提供了额外的日期时间类来补充JDK 8中的类。
+* [Time4J](https://github.com/MenoData/Time4J)：Time4J是围绕Date、Calendar和SimpleDateFormat的旧Java类的完整且高端的替代品。
+* [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra)：ThreeTen-Extra提供了额外的日期时间类来补充JDK 8中的类。
 * [XK-Time](https://gitee.com/xkzhangsan/xk-time)：XK-Time包含时间转换、时间计算、时间格式化、时间解析、日历、时间Cron表达式和时间NLP等工具。
-* [ThreeTen](https://github.com/ThreeTen/threeten.github.io)：JSR 310实现，为JDK提供更具特点的时间和日期API。
-* [Date4j](http://www.date4j.net)：小型、简单、实用的Java日期API。
-* [Chronicle](https://github.com/peter-lawrey/Java-Chronicle)：Java索引记录编年史。
-* [ThreeTen](https://github.com/ThreeTen/threetenbp)：该项目是Java SE 6和7的向后移植。
+* [Date4j](https://github.com/IanDarwin/date4j)：Date4j是Java内置日期类的轻量级替代品。
+* [ThreeTen](https://github.com/ThreeTen/threetenbp)：ThreeTen-Backport提供Java 8日期时间类到Java 6和7的向后移植。
 * [Jollyday](https://github.com/svendiedrichsen/jollyday)：确定给定年份、国家/名称以及最终州/地区的假期。
-* [iCal4j](https://github.com/ical4j/ical4j)：用于解析和构建iCalendar数据模型的Java库。
+* [iCal4j](https://github.com/ical4j/ical4j)：iCal4j是一个Java库，用于读取和写入RFC2445中定义的iCalendar数据流。
 * [TimeAgo](https://github.com/marlonlom/timeago)：一个简单的Java库，用于将日期显示为相对时间之前的语言。
 * [Biweekly](https://github.com/mangstadt/biweekly)：Biweekly是一个用Java编写的iCalendar库。
 * [Clocks](https://github.com/tim-group/clocks)：用于测试和Joda-Time集成的java.time.Clock实现。
@@ -3614,6 +3622,7 @@
 * [Internet Time Utility](https://github.com/ethlo/itu)：ISO格式日期时间的极快解析器和格式化程序。
 * [Chronos](https://github.com/XiaoMi/chronos)：提供全局严格单调递增时间戳的网络服务，由小米开源。
 * [Lib-Recur](https://github.com/dmfs/lib-recur)：该库解析RFC 5545和RFC 2445中定义的重复字符串并迭代实例，此外，它还可以用来以方便的方式构建有效的重复字符串。
+* [BusinessCalendar4J](https://github.com/yusuke/businessCalendar4J)：BusinessCalendar4J是一个100%纯Java业务日历库，没有额外的依赖项。
 
 ## 人工智能
 
@@ -3645,6 +3654,7 @@
 * [Agents-Flex](https://gitee.com/agents-flex/agents-flex)：一个优雅的LLM应用开发框架，使用Java开发。
 * [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
+* [SuperSonic](https://github.com/tencentmusic/supersonic)：SuperSonic是下一代LLM支持的数据分析平台，集成了ChatBI和HeadlessBI，由腾讯音乐娱乐开源。
 
 #### ChatGPT
 
@@ -3944,24 +3954,24 @@
 ## 本体库
 
 * [WebProtégé](https://github.com/protegeproject/webprotege)：WebProtégé是一个免费、开源的协作本体开发环境，由斯坦福开发。
-* [OWL API](https://github.com/owlcs/owlapi)：OWL API是用于创建、操作和序列化OWL本体的Java API。
-* [Apache Jena](https://github.com/apache/jena)：Apache Jena是一个免费的开源Java框架，用于构建语义Web和链接数据应用程序。
+* [OWL API](https://github.com/owlcs/owlapi)：OWL API是用于创建、操作和序列化OWL本体的Java API，由曼彻斯特大学开源。
+* [Apache Jena](https://github.com/apache/jena)：Apache Jena是一个免费的开源Java框架，用于构建语义Web和链接数据应用程序，最初是由惠普实验室开发。
 * [Karma](https://github.com/usc-isi-i2/Web-Karma)：Karma是一种信息集成工具，使用户能够快速轻松地集成来自各种数据源的数据，包括数据库、电子表格、分隔文本文件、XML、JSON、KML和Web API，由南加州大学信息科学研究所开源。
 * [Widoco](https://github.com/dgarijo/Widoco)：WIDOCO是一个带有本体文档的HTML模板逐步生成器，它使用LODE环境来创建部分模板，由芬欧汇川大学本体工程组开发。
-* [Ontop](https://github.com/ontop/ontop)：Ontop是一个虚拟知识图谱系统，它将任意关系数据库的内容公开为知识图。
+* [Ontop](https://github.com/ontop/ontop)：Ontop是一个虚拟知识图谱系统，它将任意关系数据库的内容公开为知识图，由博尔扎诺自由大学开源。
 * [Scowl](https://github.com/phenoscape/scowl)：Scowl提供了Scala DSL，允许使用OWL API以声明式方法编写OWL表达式和公理。
-* [DL-Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL-Learner是一个用于执行丰富语义背景知识的机器学习框架。
+* [DL-Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL-Learner是一个用于执行丰富语义背景知识的机器学习框架，由德累斯顿工业大学开源。
 * [ROBOT](https://github.com/ontodev/robot)：ROBOT是一个用于自动化本体开发任务的命令行工具和库，重点是开放生物和生物医学本体。
 * [SciGraph](https://github.com/SciGraph/SciGraph)：SciGraph旨在将本体和使用本体描述的数据表示为Neo4j图。
 * [OWL2VOWL](https://github.com/VisualDataWeb/OWL2VOWL)：转换WebVOWL的本体。
 * [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher)：LogMap是一个高度可扩展的本体匹配系统，具有“内置”推理和不一致修复功能，由伦敦大学城市学院开源。
-* [Openllet](https://github.com/Galigator/openllet)：Openllet是Java中的OWL 2推理器，构建在Pellet之上，由巴黎第十一大学开源。
-* [ELK](https://github.com/liveontologies/elk-reasoner)：ELK是一个基于Java的OWL 2 EL推理器。
+* [Openllet](https://github.com/Galigator/openllet)：Openllet提供了检查本体一致性、计算分类层次结构、解释推论以及回答SPARQL查询的功能，由巴黎第十一大学开源。
+* [ELK](https://github.com/liveontologies/elk-reasoner)：ELK是一个本体推理器，旨在支持OWL 2 EL配置文件，由乌尔姆大学人工智能研究所和牛津大学计算机科学系知识表示和推理小组开发。
 * [OWLTools](https://github.com/owlcollab/owltools)：OWLTools是OWL API之上的便捷Java API。
 * [Slib](https://github.com/sharispe/slib)：Slib是一个致力于基于文本和/或本体处理的语义数据挖掘的Java库。
-* [OBOGraphs](https://github.com/geneontology/obographs)：包含用于本体交换的JSON/YAML格式规范，以及Java对象模型和OWL转换器参考。
+* [OBOGraphs](https://github.com/geneontology/obographs)：该仓库包含用于本体交换的JSON/YAML格式规范，以及参考Java对象模型和OWL转换器。
 * [Ontmalizer](https://github.com/srdc/ontmalizer)：Ontmalizer自动执行XML模式(XSD)和XML数据到RDF/OWL的全面转换。
-* [O'FAIRe](https://github.com/agroportal/fairness)：该项目是本体、词汇和语义资源的FAIRness评估工具。
+* [O'FAIRe](https://github.com/agroportal/fairness)：O'FAIRe是一种开源公平性评估方法和工具，适用于D2KAB和FooSIN项目中开发的本体、词汇和语义资源，由蒙彼利埃大学开源。
 * [LODE](https://github.com/essepuntato/LODE)：实时OWL文档环境，用于将OWL本体转换为HTML人类可读页面，由博洛尼亚大学开源。
 * [OWL-CLI](https://github.com/atextor/owl-cli)：用于本体工程的命令行工具(图表生成、读/写各种格式的文档和OWL DL推理)。
 * [CEL](https://github.com/julianmendez/cel)：CEL是一种用于大规模生物医学本体的轻量级描述逻辑推理器。
@@ -3974,7 +3984,7 @@
 * [OntoBrowser](https://github.com/Novartis/ontobrowser)：OntoBrowser是一个基于Web的应用程序，用于管理本体。
 * [OntoGraph](https://github.com/NinePts/OntoGraph)：OWL本体绘图程序。
 * [Ontology Modeling Language](https://github.com/opencaesar/oml)：该仓库用于OML抽象语法、文本语法、图形语法、API和规范。
-* [ONT-API](https://github.com/owlcs/ont-api)：ONT-API是一个以RDF为中心的Java库，可与OWL2配合使用。
+* [ONT-API](https://github.com/owlcs/ont-api)：ONT-API是一个以RDF为中心的Java库，可与OWL2配合使用，由曼彻斯特大学开源。
 * [Phenol](https://github.com/monarch-initiative/phenol)：表型组学和基因组学本体库。
 
 ## 语义Web
@@ -4003,6 +4013,7 @@
 * [Pinto](https://github.com/stardog-union/pinto)：Pinto是一个Java框架，用于将JavaBean转换为RDF。
 * [Asquare](https://github.com/cognizone/asquare)：语义开发库。
 * [FOX](https://github.com/dice-group/FOX)：FOX是一个集成Linked Data Cloud的框架，利用NLP算法的多样性从NL中提取高精度的RDF三元组。
+* [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三重存储，具有全文和GeoSPARQL支持。
 
 ## 知识图谱
 
@@ -5809,6 +5820,7 @@
 * [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz提供了自动查找和简化图形驱动程序中的错误的工具，由Google开源。
 * [ModernUI](https://github.com/BloCamLimb/ModernUI)：从低级3D图形API到高级视图模型的现代桌面框架，用于开发2D/3D渲染软件或游戏引擎，具有国际化支持和许多新技术。
 * [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
+* [Scenery](https://github.com/scenerygraphics/scenery)：由Kotlin和Vulkan提供支持的JVM上体积和几何数据的灵活VR可视化。
 
 ## 移动开发框架
 
@@ -6059,6 +6071,7 @@
 * [TinSpin Indexes](https://github.com/tzaeschke/tinspin-indexes)：TinSpin Indexes是一个内存索引库。
 * [TinyMap](https://github.com/intelie/tinymap)：内存高效的不可变HashMap/HashSet。
 * [TomP2P](https://github.com/tomp2p/TomP2P)：一种基于P2P的高性能键值对存储库。
+* [Chronicle](https://github.com/peter-lawrey/Java-Chronicle)：Chronicle是一个超低延迟、高吞吐量、持久化、消息传递和事件驱动的内存数据库。
 
 ## 键值存储
 
@@ -6594,6 +6607,11 @@
 * [Orbdetpy](https://github.com/ut-astria/orbdetpy)：Orbdetpy是一个Python轨道确定库，航天先进科学技术研究(ASTRIA)开源。
 * [Yamcs](https://github.com/yamcs/yamcs)：Yamcs是一个用Java开发的任务控制框架。
 * [CCSDS](https://github.com/dariol83/ccsds)：基于Java 11的CCSDS协议和格式的开源实现。
+
+## 水文学
+
+* [SOS](https://github.com/52North/SOS)：SOS提供了一个可互操作的基于Web的界面，用于插入和查询传感器数据和传感器描述。
+* [OpenDCS](https://github.com/opendcs/opendcs)：水文/气象数据开放数据采集系统。
 
 ## AIS库
 
@@ -7313,6 +7331,7 @@
 * [JODConverter](https://github.com/jodconverter/jodconverter)：JODConverter使用LibreOffice或Apache OpenOffice自动执行文档转换。
 * [Evo Inflector](https://github.com/atteo/evo-inflector)：单复数英语单词转换器。
 * [JUnidecode](https://github.com/gcardone/junidecode)：Unicode转换到ASCII的Java库。
+* [QUDTLib](https://github.com/qudtlib/qudtlib-java)：为Java提供单位转换及相关功能。
 
 ## Minecraft
 
