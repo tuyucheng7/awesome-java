@@ -917,22 +917,21 @@
 
 #### BDD框架
 
-* [Cucumber](https://github.com/cucumber/cucumber-jvm)：JVM上的Cucumber实现。
-* [Karate](https://github.com/karatelabs/karate)：一个BDD框架，支持API测试、UI测试、Mock等。
-* [Serenity](https://github.com/serenity-bdd/serenity-core)：一个测试自动化库，旨在使编写自动化验收测试变得更容易、更有趣。
-* [Concordion](https://github.com/concordion/concordion)：一个Java开源框架，可让你将需求的简单英语描述转变为自动化测试。它通常与示例需求说明和行为驱动开发流程一起使用。
-* [YAKS](https://github.com/citrusframework/yaks)：一个在Kubernetes上启用云原生BDD测试的平台。
-* [JBehave](https://github.com/jbehave/jbehave-core)：适用于Java和所有JVM语言的BDD框架。
-* [JGiven](https://github.com/TNG/JGiven)：用纯Java进行行为驱动开发的框架。
-* [Chorus](https://github.com/Chorus-bdd/Chorus)：分布式系统的可执行规范。
+* [Cucumber](https://github.com/cucumber/cucumber-jvm)：JVM上的Cucumber实现，Cucumber是一个支持行为驱动开发(BDD)的工具。
+* [Karate](https://github.com/karatelabs/karate)：Karate是将API测试自动化、Mock、性能测试甚至UI自动化整合到一个统一框架中的开源工具。
+* [SerenityBDD](https://github.com/serenity-bdd/serenity-core)：Serenity BDD是一个旨在使编写自动化验收测试变得更容易、更有趣的库。
+* [Concordion](https://github.com/concordion/concordion)：Concordion是一个可执行规范的开源运行程序，可创建丰富的实时文档。
+* [YAKS](https://github.com/citrusframework/yaks)：YAKS是一个在Kubernetes上启用云原生BDD测试的框架。
+* [JBehave](https://github.com/jbehave/jbehave-core)：JBehave是一个适用于Java和所有JVM语言的BDD框架。
+* [JGiven](https://github.com/TNG/JGiven)：JGiven是一个开发人员友好且实用的Java BDD工具。
+* [Chorus](https://github.com/Chorus-bdd/Chorus)：Chorus是一个BDD测试解释器，具有用于测试分布式架构的额外功能。
 * [Lambda Behave](https://github.com/RichardWarburton/lambda-behave)：Java 8的现代测试和行为规范框架。
-* [Spectrum](https://github.com/greghaskins/spectrum)：适用于Java 8的BDD风格测试运行器，受Jasmine、RSpec和Cucumber启发。
-* [Specs2](https://github.com/etorreborre/specs2)：用于在Scala中编写可执行软件规范的库。
-* [YatSpec](https://github.com/bodar/yatspec)：一个BDD测试框架，可以运行JUnit测试并生成人类可读的HTML报告。
+* [Spectrum](https://github.com/greghaskins/spectrum)：Spectrum受到BDD框架Jasmine和RSpec的启发，将它们的表达语法和功能风格引入Java测试。
+* [Specs2](https://github.com/etorreborre/specs2)：Specs2是一个用于在Scala中编写可执行软件规范的库。
+* [YatSpec](https://github.com/bodar/yatspec)：YatSpec是一个BDD测试框架，可以运行你的JUnit测试并生成人类可读的HTML报告。
 * [SmartBDD](https://github.com/bit-smart-io/smart-bdd)：从Java代码创建交互式HTML文档/功能文件的BDD框架。
 * [BDD-Security](https://github.com/iriusrisk/bdd-security)：BDD-Security是一个安全测试框架，它使用行为驱动开发概念来创建自我验证的安全规范。
 * [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
-* [BDD For All](https://github.com/Accenture/bdd-for-all)：灵活且易于使用的库，可以让BDD团队能够轻松协作，同时促进自动化、透明度和报告，由Accenture开源。
 * [Spek](https://github.com/spekframework/spek)：Kotlin的规范框架。
 * [J8Spec](https://github.com/j8spec/j8spec)：J8Spec是一个库，允许用Java编写的测试遵循RSpec和Jasmine引入的BDD风格。
 * [Narrative](https://github.com/tim-group/narrative)：用于使用流式Java构建行为驱动测试的框架。
