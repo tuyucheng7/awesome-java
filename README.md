@@ -463,6 +463,7 @@
 * [Agrest](https://github.com/agrestio/agrest)：Agrest是一个灵活的模型驱动的REST数据服务框架。
 * [Lambada Framework](https://github.com/cagataygurturk/lambadaframework)：Lambada Framework是一个实现JAX-RS API的REST框架，可让你以Serverless方式将应用程序部署到AWS Lambda和API Gateway。
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
+* [ResCU](https://github.com/mmazi/rescu)：ResCU使用户能够在运行时直接从JAX-RS带注解的接口创建代理REST客户端。
 
 ## ORM框架
 
@@ -1004,6 +1005,7 @@
 * [Selcukes Java](https://github.com/selcukes/selcukes-java)：Selcukes是一个强大的开源测试库，适用于Web、移动、桌面应用程序和API端点，旨在创建可扩展的高质量自动化测试。
 * [Smart Test Framework](https://github.com/HPInc/smart-test-framework)：Smart Test Framework是一个多用途测试框架，能够为网页、Web服务、桌面应用程序和移动应用程序创建自动化测试，由惠普开源。
 * [Open Test Reporting](https://github.com/ota4j-team/open-test-reporting)：与语言无关的测试报告格式和工具。
+* [Teswiz](https://github.com/znsio/teswiz)：使用Cucumber-JVM、Appium、Selenium WebDriver、Applitools和ReportPortal实现原生和Web自动化的端到端框架。
 
 #### QA自动化
 
@@ -1661,6 +1663,7 @@
 * [Eclipse Trace Compass](https://git.eclipse.org/r/plugins/gitiles/tracecompass/org.eclipse.tracecompass)：Eclipse Trace Compass是一个开源应用程序，通过读取和分析系统的日志或跟踪来解决性能和可靠性问题。
 * [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
 * [RemoraJ](https://github.com/Nastel/remoraj)：RemoraJ是一个可扩展的Java分析代理，它使用字节码检测以最小的开销拦截Java IPC调用。
+* [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供补充的动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现。
 
 ## GC日志分析
 
@@ -2000,6 +2003,7 @@
 * [Dremio](https://github.com/dremio/dremio-oss)：新一代的数据湖引擎，它通过直接在云数据湖存储中进行实时的、交互式的查询来释放数据价值。
 * [OneTable](https://github.com/onetable-io/onetable)：OneTable是一种表格式的全方位转换器，可促进数据处理系统和查询引擎之间的互操作性，由Onehouse开源。
 * [Gravitino](https://github.com/datastrato/gravitino)：Gravitino是一个高性能、地理分布式、联合元数据湖。
+* [Pixels](https://github.com/pixelsdb/pixels)：Pixels的核心是专为数据湖和数据仓库设计的列式存储引擎。
 
 ## 消息传递
 
@@ -2676,6 +2680,7 @@
 * [IU Java Util](https://github.com/indiana-university/iu-java-util)：印第安纳大学开源的Java项目工具库。
 * [JTOpen](https://github.com/IBM/JTOpen)：JTOpen提供了一组Java类，使应用程序能够与IBM集成。
 * [Scar](https://github.com/EsotericSoftware/scar)：Scar是一个实用程序集合，可让你更轻松地使用Java代码执行构建相关任务。
+* [JDevKit](https://github.com/CodeCraftersCN/JDevKit)：JDevKit是一个Java开发工具包，它提供了一组用于高效编写代码的便捷工具。
 
 ## 9-21特性
 
@@ -2688,6 +2693,7 @@
 * [Java REPL](https://github.com/albertlatacz/java-repl)：Java语言的简单REPL，考虑到Java 9已经包含，因此不再维护。
 * [InvokeBinder](https://github.com/headius/invokebinder)：用于绑定方法处理的Java DSL向前移植。
 * [Virtual Thread Bridge](https://github.com/thunkware/virtual-threads-bridge)：该库允许你在Java 8+中使用Java 21的虚拟线程API。
+* [JavaDowngrader](https://github.com/RaphiMC/JavaDowngrader)：独立程序和库，可以将Java类/程序降级到Java 8。
 
 ## IoC
 
@@ -3770,6 +3776,7 @@
 * [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源ML-Ops平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
 * [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Apache Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
+* [Rapaio](https://github.com/padreati/rapaio)：Rapaio是一个完全用Java编写的丰富的数据挖掘、统计和机器学习工具集合。
 
 #### 自然语言处理
 
@@ -3892,6 +3899,7 @@
 * [TMD](https://github.com/techascent/tech.ml.dataset)：tech.ml.dataset(TMD)是一个用于表格数据处理的Clojure库，类似于Python的Pandas或R的data.table。
 * [IDV](https://github.com/Unidata/IDV)：IDV是一个用于分析和显示地球科学数据的框架，由美国国家科学基金会Unidata开源。
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
+* [ERDDAP](https://github.com/ERDDAP/erddap)：ERDDAP是一个科学数据服务器，为用户提供了一种简单、一致的方式来下载常见文件格式的网格和表格科学数据集的子集并制作图表和地图。
 
 ## 指纹识别
 
@@ -3996,6 +4004,7 @@
 * [Jape](https://github.com/RBornat/jape)：Jape是一个可配置的证明计算器，支持推理系统中形式证明的交互式发现。
 * [Keval](https://github.com/notKamui/Keval)：用于数学表达式字符串求值的Kotlin迷你库。
 * [Math](https://github.com/SpongePowered/math)：用于Java的不可变数学库，提供数学类型、快速三角函数、向量、矩阵、复数、四元数和操作链之间的轻松转换，重点关注游戏和计算机图形。
+* [NdArray Java](https://github.com/tensorflow/java-ndarray)：NdArray是一个库，公开了用于在Java中操作N维空间中的数据的实用程序。
 
 ## 本体库
 
@@ -4062,6 +4071,7 @@
 * [FOX](https://github.com/dice-group/FOX)：FOX是一个集成Linked Data Cloud的框架，利用NLP算法的多样性从NL中提取高精度的RDF三元组。
 * [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三重存储，具有全文和GeoSPARQL支持。
 * [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三重存储和推理器。
+* [RDF Delta](https://github.com/afs/rdf-delta)：RDF Delta提供了一个用于记录和发布RDF数据集更改的系统。
 
 ## 知识图谱
 
@@ -4115,6 +4125,8 @@
 * [JTreeview](https://jtreeview.sourceforge.net/)：PCL或CDT格式的微阵列数据的开源、可扩展查看器。
 * [Biogenesis](https://biogenesis.sourceforge.net/)：Biogenesis是一个人工生命程序，模拟生物体进化过程，它显示了在2D环境中突变和进化的基于彩色片段的生物体。
 * [BioFormats2Raw](https://github.com/glencoesoftware/bioformats2raw)：Bio-Formats图像文件格式到原始格式转换器。
+* [Mastodon](https://github.com/mastodon-sc/mastodon)：Mastodon是一个用于大型多视图图像的大规模跟踪和轨迹编辑框架。
+* [VCell](https://github.com/virtualcell/vcell)：VCell是一个全面的框架，用于建模和模拟从生物途径到细胞生物物理学的细胞生物学。
 
 ## 基因组学
 
@@ -4260,6 +4272,7 @@
 * [Authsaur](https://github.com/authsaur/authsaur)：Authsaur帮助更多企业统一和构建标准化的用户身份体系，以数十年优秀开源产品CAS为内核，打造开箱即用的企业级单点登录系统。
 * [Biscuit Java](https://github.com/biscuit-auth/biscuit-java)：Biscuit的Java库实现。
 * [OpenUnison](https://github.com/TremoloSecurity/OpenUnison)：OpenUnison是一个统一身份管理平台。
+* [Perun](https://github.com/CESNET/perun)：Perun是一个主要针对学术界环境的身份和访问管理系统。
 
 #### JWT库
 
@@ -4638,6 +4651,7 @@
 * [ImageIO-Ext](https://github.com/geosolutions-it/imageio-ext)：ImageIO-Ext是一个开源项目，为标准Oracle Java Image I/O项目提供扩展、修复和改进。
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
 * [Grid](https://github.com/guardian/grid)：Grid是卫报的图像管理系统，它提供了访问组织的媒体的通用且快速的体验，并以经济实惠的方式使用它来生成高质量的内容。
+* [Mpicbg](https://github.com/axtimwalde/mpicbg)：Fiji图像变换模块及相关算法。
 
 ## 计算机视觉
 
@@ -5252,6 +5266,7 @@
 * [JBanking](https://github.com/marcwrobel/jbanking)：JBanking是一个帮助开发银行功能的实用程序库，专注但不限于欧洲银行业。
 * [Alpaca Java](https://github.com/Petersoj/alpaca-java)：这是Alpaca API的Java实现，Alpaca让你可以使用算法进行交易、与应用程序连接并通过免佣金的股票交易API构建服务。
 * [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
+* [ObjectLab Kit](https://github.com/Appendium/objectlabkit)：商业/外汇日期计算器、外汇汇率计算器和实用程序。
 
 ## 短信
 
@@ -5827,6 +5842,7 @@
 * [Threadtear](https://github.com/GraxCode/threadtear)：Threadtear是一个多功能的Java反混淆工具。
 * [Enigma](https://github.com/FabricMC/Enigma)：用于Java字节码反混淆的工具。
 * [Jar Protect](https://gitee.com/chejiangyi/jar-protect)：jar加密加壳工具，对class文件进行加密防护，对properties、yml等配置文件进行加密，避免反编译破解。
+* [Matcher](https://github.com/sfPlayer1/Matcher)：用于跨版本跟踪混淆的Java存档中的元素的工具。
 
 #### 游戏开发
 
@@ -6099,6 +6115,7 @@
 * [LibSDL4J](https://github.com/libsdl4j/libsdl4j)：LibSDL4J是SDL2 API到Java的映射。
 * [GStreamer 1.x Java Core](https://github.com/gstreamer-java/gst1-java-core)：这是GStreamer 1.x的一组Java绑定，GStreamer是一个用C语言编写的开源、基于管道的多媒体框架。
 * [Video4j](https://github.com/metaloom/video4j)：Video4j是org.openpnp:opencv之上的高级库，它提供API在Java中处理视频媒体。
+* [JVoiceXML](https://github.com/JVoiceXML/JVoiceXML)：用于Java的免费VoiceXML解释器，具有用于自定义扩展的开放架构。
 
 ## 数据结构
 
@@ -6313,6 +6330,7 @@
 * [JKeyMaster](https://github.com/tulskiy/jkeymaster)：用于使用JNA在Java中注册全局热键的库，目标是支持基于X11的平台、Windows和MacOSX。
 * [XBee Java](https://github.com/digidotcom/xbee-java)：这是一个用Java开发的易于使用的API，允许你与Digi International的XBee射频(RF)模块进行交互。
 * [ZSmartSystems](https://github.com/zsmartsystems/com.zsmartsystems.zigbee)：该项目旨在提供一个用Java编写并与Android兼容的ZigBee兼容框架。
+* [Hue API](https://github.com/ZeroOne3010/yetanotherhueapi)：这是用于Philips Hue灯的Java 8 API。
 
 ## 操作系统
 
@@ -6398,6 +6416,7 @@
 * [Symphony](https://gitee.com/dl88250/symphony)：一款用Java实现的现代化社区(论坛/问答/BBS/社交网络/博客)系统平台。
 * [MBlog](https://gitee.com/mtons/mblog)：开源免费的博客系统，支持MySQL/H2数据库，采用Spring Boot、JPA、Shiro、Bootstrap等流行框架开发。
 * [NemakiWare](https://github.com/aegif/NemakiWare)：NemakiWare是一个开源企业内容管理系统。
+* [Lutece](https://github.com/lutece-platform/lutece-core)：Lutece是一个开放平台，使城市政府能够共享、重复使用和改编其他城市创建的数字服务。
 
 ## DMS系统
 
@@ -6459,6 +6478,7 @@
 * [Discourse Network Analyzer](https://github.com/leifeld/dna)：Discourse Network Analyzer是一种具有网络导出功能的定性内容分析工具。
 * [Socket.D](https://gitee.com/noear/socket.d)：基于事件和语义消息流的网络应用协议。
 * [Drift](https://github.com/airlift/drift)：Drift是一个易于使用、基于注解的Java库，用于创建Thrift客户端和可序列化类型。
+* [jNetPcap Wrapper](https://github.com/slytechs-repos/jnetpcap-wrapper)：jNetPcap Wrapper是一个libpcap Java库。
 
 ## 状态机
 
@@ -6647,6 +6667,7 @@
 * [SimpleLatLng](https://github.com/JavadocMD/simplelatlng)：SimpleLatLng提供了一个简单、轻量级的库，可满足Java中常见的纬度和经度计算需求。
 * [CityGML4j](https://github.com/citygml4j/citygml4j)：CityGML4j是OGC CityGML的开源Java库和API。
 * [GeoAPI](https://github.com/opengeospatial/geoapi)：GeoAPI为地理空间应用程序提供了一组Java和Python语言编程接口。
+* [Mago 3DTiler](https://github.com/Gaia3D/mago-3d-tiler)：这款强大的多功能工具旨在以前所未有的轻松方式将你的3D数据提升到OGC 3D Tiles领域。
 
 ## 几何学
 
@@ -7275,6 +7296,7 @@
 * [MediaLib](https://github.com/hdsdi3g/medialib)：另一个在Java中启动进程的库。
 * [Winrm4j](https://github.com/cloudsoft/winrm4j)：Winrm4j是一个使Java应用程序能够使用WinRM在远程Windows服务器上执行批处理或PowerShell命令的项目。
 * [JNR Process](https://github.com/jnr/jnr-process)：JNR Process库提供了JDK ProcessBuilder API的直接替代品，但它不是线程泵填充程序，而是围绕posix_spawn C API的直接抽象，并提供可选择的in、out和err通道。
+* [WinP](https://github.com/jenkinsci/winp)：该项目可以让你更好地控制Windows进程，超越JDK中的可用功能。
 
 ## 苹果推送通知
 
@@ -7327,6 +7349,7 @@
 * [HAP-Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
 * [Calimero-Core](https://github.com/calimero-project/calimero-core)：Calimero-Core提供(安全)KNX通信协议、KNX数据点和属性访问以及管理功能。
 * [Bacnet4J Wrapper](https://github.com/Code-House/bacnet4j-wrapper)：Bacnet4j是bacnet协议的Java实现，这是Bacnet4j API的简单门面。
+* [SCIP Java](https://github.com/sourcegraph/scip-java)：适用于Java的SCIP代码智能协议生成器。
 
 ## 编解码
 
@@ -7455,6 +7478,7 @@
 * [QUDTLib](https://github.com/qudtlib/qudtlib-java)：为Java提供单位转换及相关功能。
 * [Silencio](https://github.com/damianszczepanik/silencio)：Silencio是一个用于转换XML、JSON、YAML、Properties和其他格式的Java库。
 * [Json2Xml](https://github.com/lukas-krecan/json2xml)：Json2Xml项目是JSON到XML转换的简单实现。
+* [Gozer](https://github.com/walmartlabs/gozer)：这个开源库可以将各种X12文件格式解析为代表性的Java对象模型，由沃尔玛开源。
 
 ## Minecraft
 
