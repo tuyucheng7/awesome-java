@@ -1375,6 +1375,7 @@
 * [SwimOS](https://github.com/swimos/swim)：用于构建有状态微服务、流API和实时UI的全栈应用程序平台。
 * [Apache EventMesh](https://github.com/apache/eventmesh)：新一代Serverless事件中间件，用于构建分布式事件驱动应用程序，由微众银行开源。
 * [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式。
+* [Blox](https://github.com/blox/blox)：Blox提供针对在Amazon ECS上运行应用程序进行优化的开源调度程序，由Amazon开源。
 
 ## 容器化工具
 
@@ -1949,6 +1950,7 @@
 * [Flink ClickHouse Connector](https://github.com/itinycheng/flink-connector-clickhouse)：用于ClickHouse数据库的Flink SQL连接器，该项目由ClickHouse JDBC提供支持。
 * [Apache HBase Connectors](https://github.com/apache/hbase-connectors)：Apache HBase连接器。
 * [DataStax Cassandra Connector](https://github.com/datastax/spark-cassandra-connector)：用于Apache Spark到Apache Cassandra的DataStax连接器。
+* [Pulsar Flink Connector](https://github.com/streamnative/pulsar-flink)：Pulsar Flink连接器使用Apache Pulsar和Apache Flink实现弹性数据处理。
 
 ## 数据库中间件
 
@@ -2010,6 +2012,7 @@
 * [Dremio](https://github.com/dremio/dremio-oss)：新一代的数据湖引擎，它通过直接在云数据湖存储中进行实时的、交互式的查询来释放数据价值。
 * [OneTable](https://github.com/onetable-io/onetable)：OneTable是一种表格式的全方位转换器，可促进数据处理系统和查询引擎之间的互操作性，由Onehouse开源。
 * [Gravitino](https://github.com/datastrato/gravitino)：Gravitino是一个高性能、地理分布式、联合元数据湖。
+* [OpenHouse](https://github.com/linkedin/openhouse)：OpenHouse是一个开源控制平面，旨在高效管理开放数据Lakehouse部署中的表，由LinkedIn开源。
 
 ## 消息传递
 
@@ -3018,6 +3021,7 @@
 * [Java Async-Await](https://github.com/AugustNagro/java-async-await)：Java的Async-Await支持。
 * [TwTasks](https://github.com/transferwise/tw-tasks-executor)：一个以分布式方式执行任意异步代码并具有完全一致性保证的框架。
 * [ConcurrencyFreaks](https://github.com/pramalhe/ConcurrencyFreaks)：并发数据结构和同步机制的库。
+* [Dexecutor](https://github.com/dexecutor/dexecutor-core)：Dexecutor是一个非常轻量级的框架，可以以可靠的方式执行依赖/独立任务，为此它提供了最少的API。
 
 ## Actor模型
 
@@ -3636,6 +3640,7 @@
 * [JglTF](https://github.com/javagl/JglTF)：与glTF相关的Java库。
 * [LASzip4j](https://github.com/mreutegg/laszip4j)：LASzip库的Java移植。
 * [Java netCDF](https://github.com/Unidata/netcdf-java)：netCDF Java库提供了科学数据访问的接口，它可用于从各种文件格式读取科学数据，包括netCDF、HDF、GRIB、BUFR等，由美国国家科学基金会开源。
+* [DD PList](https://github.com/3breadt/dd-plist)：一个Java库，提供对ASCII、XML和二进制属性列表的支持。
 
 ## 反射库
 
@@ -3831,6 +3836,7 @@
 * [Twitter Text](https://github.com/twitter/twitter-text)：Twitter文本库，Twitter使用此代码对文本进行标记和解析，以满足平台上可用内容的期望。
 * [MetaMapLite](https://github.com/lhncbc/metamaplite)：MetaMapLite的主要目标是提供近乎实时的命名实体识别器，它不像MetaMap那样严格，但速度更快，同时允许用户针对特定目的自定义和增强其行为，由利斯特山国家生物医学通讯中心开源。
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)：VnCoreNLP是一个快速、准确的越南语NLP标注管道，通过分词、词性标注、命名实体识别(NER)和依存句法分析等关键NLP组件提供丰富的语言标注。
+* [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek-NLP提供土耳其语自然语言处理工具。
 
 #### 深度学习
 
@@ -4799,11 +4805,11 @@
 
 ## 批处理框架
 
-* [Spring Batch](https://github.com/spring-projects/spring-batch)：使用Java和Spring编写批处理应用程序的框架。
-* [Spring Cloud Data Flow](https://github.com/spring-cloud/spring-cloud-dataflow)：基于微服务的工具包，用于在Cloud Foundry和Kubernetes中构建流式和批量数据处理管道。
+* [Spring Batch](https://github.com/spring-projects/spring-batch)：Spring Batch是一个轻量级、全面的批处理框架，旨在支持开发对企业系统日常运营至关重要的健壮批处理应用程序。
+* [Spring Cloud Data Flow](https://github.com/spring-cloud/spring-cloud-dataflow)：Spring Cloud Data Flow是一个基于微服务的工具包，用于在Cloud Foundry和Kubernetes中构建流式和批量数据处理管道。
 * [Asakusa](https://github.com/asakusafw/asakusafw)：Asakusa是一个面向分布式/并行计算的全栈框架，提供了支持各种分布式/并行计算环境的开发平台和运行时库，例如Hadoop、Spark、用于批处理的M3等。
 * [Spring Cloud Task](https://github.com/spring-cloud/spring-cloud-task)：Spring Cloud Task允许用户使用Spring Cloud开发和运行短期微服务，并在本地、云中甚至在Spring Cloud Data Flow上运行它们。
-* [JBeret](https://github.com/jberet/jsr352)：JBeret是Jakarta Batch的实现。
+* [JBeret](https://github.com/jberet/jsr352)：JBeret是Jakarta Batch的实现，它还包含在WildFly中，以在Jakarta EE环境中提供便携式批处理支持。
 * [Easy Batch](https://github.com/j-easy/easy-batch)：Easy Batch是一个旨在简化Java批处理的框架，它专为简单的单任务ETL作业而设计。
 
 ## 注解处理器
@@ -5764,6 +5770,7 @@
 * [VUE](https://github.com/VUE/VUE)：VUE是一个用Java编写的免费开源概念图应用程序，由塔夫茨大学学术技术小组开发。
 * [MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE)：这个应用程序给MS Paint带来了提升，可以让MS Paint突出显示、编译和执行代码。
 * [JDiskReport](https://www.jgoodies.com/freeware/jdiskreport/)：JDiskReport使你能够了解文件和目录在磁盘驱动器上占用了多少空间，并帮助你找到过时的文件和文件夹。
+* [Freerouting](https://github.com/freerouting/freerouting)：Freerouting是一款先进的自动布线器，适用于所有支持标准Specctra或Electra DSN接口的PCB程序。
 
 #### 数据库工具
 
@@ -6439,6 +6446,7 @@
 * [Symphony](https://gitee.com/dl88250/symphony)：一款用Java实现的现代化社区(论坛/问答/BBS/社交网络/博客)系统平台。
 * [MBlog](https://gitee.com/mtons/mblog)：开源免费的博客系统，支持MySQL/H2数据库，采用Spring Boot、JPA、Shiro、Bootstrap等流行框架开发。
 * [NemakiWare](https://github.com/aegif/NemakiWare)：NemakiWare是一个开源企业内容管理系统。
+* [Grain](https://github.com/sysgears/grain)：Grain是一个轻量级框架和一个非常强大的静态网站生成器，用Groovy编写，可帮助使网站创建直观且愉快。
 
 ## DMS系统
 
@@ -6500,6 +6508,7 @@
 * [Discourse Network Analyzer](https://github.com/leifeld/dna)：Discourse Network Analyzer是一种具有网络导出功能的定性内容分析工具。
 * [Socket.D](https://gitee.com/noear/socket.d)：基于事件和语义消息流的网络应用协议。
 * [Drift](https://github.com/airlift/drift)：Drift是一个易于使用、基于注解的Java库，用于创建Thrift客户端和可序列化类型。
+* [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
 
 ## 状态机
 
