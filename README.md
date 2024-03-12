@@ -551,6 +551,7 @@
 * [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
 * [Spring Filter](https://github.com/turkraft/springfilter)：使用用户友好的查询语法动态过滤JPA实体和Mongo集合。
 * [Fenix](https://github.com/blinkfox/fenix)：Fenix是一个为了解决复杂动态SQL(JPQL)而生的Spring Data JPA扩展库。
+* [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
 * [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
 
 ## 应用框架
@@ -1857,6 +1858,7 @@
 * [Datacube](https://github.com/urbanairship/datacube)：具有数值数据汇总的多维数据存储，由Airship开源。
 * [OpenMetadata](https://github.com/open-metadata/OpenMetadata)：OpenMetadata是一个统一的发现、可观察和治理平台，由中央元数据存储库、深入的沿袭和无缝团队协作提供支持。
 * [Apache Eagle](https://github.com/apache/eagle)：Apache Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
+* [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
 
 ## 数据可视化
 
@@ -1908,6 +1910,7 @@
 * [Apache Nemo](https://github.com/apache/incubator-nemo)：Apache Nemo是一个用于分布式数据流处理的优化框架，它为高性能提供了精细的控制，同时也确保了正确性，由首尔大学开源。
 * [Streamis](https://github.com/WeBankFinTech/Streamis)：Streamis是微众银行联合天翼云、仙翁科技和萨摩耶云联合共建的流式应用开发管理系统。
 * [Wormhole](https://github.com/edp963/wormhole)：Wormhole面向大数据流式处理项目的开发管理运维人员，致力于提供统一抽象的概念体系，直观可视化的操作界面，简单流畅的配置管理流程，由宜信开源。
+* [Stream Registry](https://github.com/ExpediaGroup/stream-registry)：流发现和流编排服务，由Expedia开源。
 
 ## ETL工具
 
@@ -2098,6 +2101,7 @@
 * [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象(存储为简单的字节数组)分布在集群节点之间进行分布式处理。
 * [Distributor](https://gitee.com/HappyChicken/Distributor)：Distributor基于Redis实现常用的分布式组件，简单、可靠、开箱即用。
 * [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis + Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
+* [COMP Superscalar](https://github.com/bsc-wdc/compss)：COMP Superscalar(COMPS)是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
 
 ## 分布式锁
 
@@ -2693,6 +2697,7 @@
 * [IU Java Util](https://github.com/indiana-university/iu-java-util)：印第安纳大学开源的Java项目工具库。
 * [JTOpen](https://github.com/IBM/JTOpen)：JTOpen提供了一组Java类，使应用程序能够与IBM集成。
 * [Scar](https://github.com/EsotericSoftware/scar)：Scar是一个实用程序集合，可让你更轻松地使用Java代码执行构建相关任务。
+* [Nrich](https://github.com/croz-ltd/nrich)：Nrich是CROZ开发的一个Java库，其目的是使JVM上的应用程序开发更加容易。
 
 ## 9-21特性
 
@@ -2733,6 +2738,7 @@
 * [OfficeFloor](https://github.com/officefloor/OfficeFloor)：OfficeFloor是一个IoC库，可以通过一流的程序构建应用程序。
 * [Inverno](https://github.com/inverno-io/inverno-core)：Inverno项目为Java平台提供了控制反转和依赖注入框架，它的特殊之处在于不使用反射进行对象实例化和依赖项注入，所有内容都在编译期间静态验证和完成。
 * [Mikron](https://github.com/reevik/mikron)：用于依赖注入和外部化配置管理的简约IoC容器。
+* [JBoss MSC](https://github.com/jboss-msc/jboss-msc)：JBoss MSC是Java的轻量级高并发依赖注入容器。
 
 ## AOP
 
@@ -3509,6 +3515,7 @@
 * [DeCS](https://github.com/diergo/decs)：一个简单的Java 8 CSV解析器和生成器。
 * [CSV Utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV文本文件的工具类。
 * [CsvJdbc](https://github.com/simoc/csvjdbc)：CsvJdbc是一个只读JDBC驱动程序，它使用CSV文件或DBF文件作为数据库表，非常适合编写数据导入程序或分析日志文件。
+* [Deephaven CSV](https://github.com/deephaven/deephaven-csv)：Deephaven CSV库是一个高性能、面向列、类型推断的CSV解析器。
 
 #### Word库
 
@@ -3873,6 +3880,7 @@
 * [MergeLife](https://github.com/jeffheaton/mergelife)：使用遗传算法演化复杂的元胞自动机。
 * [jMetal](https://github.com/jMetal/jMetal)：jMetal是一个基于Java的框架，用于使用元启发式进行多目标优化。
 * [JGEA](https://github.com/ericmedvet/jgea)：JGEA是一个用于实验进化计算的模块化Java框架。
+* [Gin](https://github.com/gintool/gin)：Gin是一种基因改良(GI)工具。
 
 #### 专家系统
 
@@ -4072,6 +4080,7 @@
 * [Phenol](https://github.com/monarch-initiative/phenol)：表型组学和基因组学本体库。
 * [Sigma](https://github.com/ontologyportal/sigmakee)：Sigma是逻辑理论的集成开发环境，扩展了建议的上层合并本体(SUMO)。
 * [IFCtoLBD](https://github.com/jyrkioraskari/IFCtoLBD)：IFCtoLBD将IFC STEP格式的文件转换为链接建筑数据本体。
+* [MELT](https://github.com/dwslab/melt)：MELT是一个强大的Maven框架，用于开发、调整、评估和打包本体匹配系统，由德国曼海姆大学开源。
 
 ## 语义Web
 
@@ -4101,6 +4110,8 @@
 * [FOX](https://github.com/dice-group/FOX)：FOX是一个集成Linked Data Cloud的框架，利用NLP算法的多样性从NL中提取高精度的RDF三元组，由帕德博恩大学开源。
 * [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三重存储，具有全文和GeoSPARQL支持。
 * [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三重存储和推理器。
+* [jRDF2Vec](https://github.com/dwslab/jRDF2Vec)：jRDF2Vec是RDF2Vec的Java实现，它支持多线程、内存中(或基于磁盘访问)的步行生成和训练，由德国曼海姆大学开源。
+* [Mobi](https://github.com/inovexcorp/mobi)：Mobi是一个协作知识图谱平台，供团队和社区开发和发布语义数据和模型。
 
 ## 知识图谱
 
@@ -4178,7 +4189,9 @@
 * [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序。
 * [BRIG](https://github.com/happykhan/BRIG)：BRIG是一个跨平台应用程序，可以显示大量基因组之间的循环比较，重点是处理基因组组装数据。
 * [FragPipe](https://github.com/Nesvilab/FragPipe)：FragPipe是一个Java GUI，用于一套计算工具，可对基于质谱的蛋白质组数据进行全面分析，由密歇根大学开源。
+* [NGSEP](https://github.com/NGSEP/NGSEPcore)：NGSEP提供了一个对象模型来支持不同类型的DNA高通量测序(HTS)数据分析。
 * [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现。
+* [GeneMANIA](https://github.com/GeneMANIA/genemania)：GeneMANIA可以帮助你预测你最喜欢的基因和基因组的功能，由多伦多大学开源。
 
 ## 医疗平台
 
@@ -4194,6 +4207,7 @@
 * [OpenICE](https://github.com/mdpnp/mdpnp)：OpenICE是一项旨在创建集成临床环境的社区实施的倡议，该计划不仅包括软件实现，还包括更广泛的临床生态系统的架构，以实现临床研究的新途径。
 * [Dicoogle](https://github.com/bioinformatics-ua/dicoogle)：Dicoogle是一款可扩展、独立于平台的开源PACS归档软件，它以更敏捷的索引和检索机制取代了传统的集中式数据库。
 * [Phoenix CTMS](https://github.com/phoenixctms/ctsms)：Phoenix CTMS是一款大型Web应用程序，将临床研究中使用的数据库软件的功能结合在一个模块化系统中。
+* [OpenELIS Global 2](https://github.com/I-TECH-UW/OpenELIS-Global-2)：OpenELIS Global是专为公共卫生实验室量身定制的开放式企业级实验室信息系统软件，由华盛顿大学开源。
 
 ## 化学领域
 
@@ -5243,6 +5257,7 @@
 * [Arduino](https://github.com/arduino/Arduino)：Arduino是一个开源嵌入式硬件平台，用来供用户制作可交互式的嵌入式项目。
 * [CocktailPi](https://github.com/alex9849/CocktailPi)：基于树莓派的DIY鸡尾酒制作机的Web界面和控制软件。
 * [Pi4J](https://github.com/Pi4J/pi4j-v1)：适用于Raspberry Pi的Java I/O库。
+* [Ardulink 2](https://github.com/Ardulink/Ardulink-2)：Ardulink 2是一个完整的开源Java解决方案，用于控制和协调Arduino板。
 * [Diozero](https://github.com/mattjlewis/diozero)：用Java编写的设备I/O库，为连接到单板计算机(如Raspberry Pi)的一系列GPIO/I2C/SPI设备(LED、按钮、传感器、电机、显示器等)提供面向对象的接口。
 
 ## MQTT
@@ -5813,7 +5828,9 @@
 * [Databench-T](https://gitee.com/caict-bigdata/databench-t)：Databench-T是面向金融核心业务系统场景的事务型数据库性能测试工具，2018年由中国信通院云计算与大数据研究所联合北京银行、建设银行等企业共同设计开发。
 * [CloudBeaver](https://github.com/dbeaver/cloudbeaver)：CloudBeaver是一个云数据库管理器，提供丰富的Web界面。
 * [PGCodeKeeper](https://github.com/pgcodekeeper/pgcodekeeper)：PGCodeKeeper是一个PostgreSQL模式管理工具。
+* [EXperDB-Management](https://github.com/experdb/eXperDB-Management)：EXperDB-Management是一款PostgreSQL管理工具。
 * [Rel](https://reldb.org/c/)：Rel是用于创建和管理数据库的软件。
+* [qStudio](https://github.com/timeseries/qstudio)：qStudio是一个免费的SQL GUI，它允许运行SQL脚本、轻松浏览表格、绘制图表和导出结果。
 
 #### 数据库建模
 
@@ -5875,7 +5892,7 @@
 * [Simplify](https://github.com/CalebFenton/simplify)：Android虚拟机和反混淆器。
 * [ClassFinal](https://gitee.com/roseboy/classfinal)：ClassFinal是一款Java class文件安全加密工具，支持直接加密jar包或war包，无需修改任何项目代码，兼容Spring框架；可避免源码泄漏或字节码被反编译。
 * [Threadtear](https://github.com/GraxCode/threadtear)：Threadtear是一个多功能的Java反混淆工具。
-* [Enigma](https://github.com/FabricMC/Enigma)：用于Java字节码反混淆的工具。
+* [Enigma](https://github.com/FabricMC/Enigma)：Enigma是用于Java字节码反混淆的工具。
 * [Jar Protect](https://gitee.com/chejiangyi/jar-protect)：jar加密加壳工具，对class文件进行加密防护，对properties、yml等配置文件进行加密，避免反编译破解。
 
 #### 游戏开发
@@ -6330,6 +6347,7 @@
 * [JOCL](https://github.com/gpu/JOCL)：OpenCL的Java绑定。
 * [JOAL](https://github.com/sgothel/joal)：JOAL项目托管OpenAL API的Java绑定的参考实现，旨在为用Java编写的应用程序提供硬件支持的3D空间化音频。
 * [grCUDA](https://github.com/NVIDIA/grcuda)：GraalVM的多语言CUDA集成，由英伟达开源。
+* [CLIJ2](https://github.com/clij/clij2)：CLIJ2是一个适用于ImageJ/Fiji、Icy、Matlab和Java的GPU加速图像处理库，由萨塞克斯大学、荷兰癌症研究所、剑桥大学、牛津大学、悉尼大学等组织共同开发。
 
 ## 硬件操作
 
@@ -7409,6 +7427,7 @@
 * [HAP-Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
 * [Calimero-Core](https://github.com/calimero-project/calimero-core)：Calimero-Core提供(安全)KNX通信协议、KNX数据点和属性访问以及管理功能。
 * [Bacnet4J Wrapper](https://github.com/Code-House/bacnet4j-wrapper)：Bacnet4j是bacnet协议的Java实现，这是Bacnet4j API的简单门面。
+* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
 
 ## 编解码
 
