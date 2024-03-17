@@ -291,6 +291,7 @@
 - [OSGI](#OSGI)
 - [数控](#数控)
 - [数电](#数电)
+- [工业](#工业)
 - [蓝牙](#蓝牙)
 - [校验](#校验)
 - [元编程](#元编程)
@@ -334,6 +335,7 @@
 - [Web开发库](#Web开发库)
 - [手机号解析](#手机号解析)
 - [表达式引擎](#表达式引擎)
+- [数学表达式](#数学表达式)
 - [对象图导航](#对象图导航)
 - [超媒体类型](#超媒体类型)
 - [术语服务器](#术语服务器)
@@ -2412,6 +2414,7 @@
 * [Docker Java](https://github.com/docker-java/docker-java)：Java Docker官方客户端。
 * [Spotify Docker Client](https://github.com/spotify/docker-client)：这是一个用Java编写的Docker客户端，之前被用于Spotify的许多关键生产系统。
 * [Docker Client](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Docker客户端库。
+* [Docker Client](https://github.com/gesellix/docker-client)：用Groovy编写的JVM的Docker HTTP客户端。
 * [Kubernetes Java](https://github.com/kubernetes-client/java)：kubernetes的官方Java客户端库。
 * [Kubernetes & OpenShift Client](https://github.com/fabric8io/kubernetes-client)：适用于Kubernetes和OpenShift的Java客户端。
 * [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：基于Kubernetes的OpenShift版本3架构的Java REST客户端。
@@ -2835,7 +2838,7 @@
 * [Elf4j Engine](https://github.com/elf4j/elf4j-engine)：异步Java日志引擎。
 * [Zerolog](https://github.com/obsidiandynamics/zerolog)：适用于性能敏感应用程序的低开销日志记录门面。
 * [Penna](https://github.com/hkupty/penna)：以JSON格式将结构化日志记录到控制台。
-* [BizLog](https://github.com/mouzt/mzt-biz-log)：Spring Boot注解通用操作日志组件。
+* [BizLog](https://github.com/mouzt/mzt-biz-log)：Spring Boot注解通用操作日志组件，美团员工开源。
 * [Yolo](https://github.com/ustream/yolo)：Java中的日志尾随和解析框架，Ustream开源。
 * [Klogging](https://github.com/klogging/klogging)：Klogging是一个纯Kotlin日志库，它使用Kotlin习惯用法来创建记录器和发送日志事件。
 * [Echopraxia](https://github.com/tersesystems/echopraxia)：Echopraxia是一个围绕结构化日志记录设计的Java日志记录API。
@@ -3178,41 +3181,40 @@
 ## 业务流
 
 * [Conductor](https://github.com/Netflix/conductor)：Conductor是Netflix创建的一个平台，用于编排跨微服务的工作流程。
-* [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和BPM平台，面向业务人员、开发人员和系统管理员。
-* [Flowable](https://github.com/flowable/flowable-engine)：为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和BPM平台。
-* [Camunda](https://github.com/camunda/camunda-bpm-platform)：使用BPMN和DMN实现工作流程和决策自动化的灵活框架，与Quarkus、Spring、Spring Boot、CDI集成。
-* [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)：DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程，由易观开源。
-* [jBPM](https://github.com/kiegroup/jbpm)：jBPM是一个用于构建业务应用程序以帮助自动化业务流程和决策的工具包。
+* [Activiti](https://github.com/Activiti/Activiti)：Activiti是一个轻量级工作流程和BPM平台，面向业务人员、开发人员和系统管理员，由Alfresco开源。
+* [Flowable](https://github.com/flowable/flowable-engine)：Flowable为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和BPM平台。
+* [Camunda](https://github.com/camunda/camunda-bpm-platform)：Camunda Platform是一个灵活的工作流程和流程自动化框架，其核心是在JVM内运行的原生BPMN 2.0流程引擎。
+* [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)：Apache DolphinScheduler是现代数据编排平台，以低代码敏捷创建高性能工作流程，由易观开源。
+* [jBPM](https://github.com/kiegroup/jbpm)：jBPM是一个用于构建业务应用程序以帮助自动化业务流程和决策的工具包，JBoss社区开源。
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
-* [Turbo](https://github.com/didi/turbo)：一款轻量级流程引擎服务框架，可作为底层服务支持各类流程设计、低代码设计、工作流、服务编排等场景，由滴滴开源。
+* [Turbo](https://github.com/didi/turbo)：Turbo是一款轻量级流程引擎服务框架，可作为底层服务支持各类流程设计、低代码设计、工作流、服务编排等场景，由滴滴开源。
 * [Zeebe](https://github.com/camunda/zeebe)：Zeebe提供对跨多个微服务的业务流程的可见性和控制。
 * [Compileflow](https://github.com/alibaba/compileflow)：Compileflow是一个非常轻量级、高性能、可集成和可扩展的流程引擎，由阿里开源。
-* [Bulbasaur](https://github.com/alibaba/bulbasaur)：阿里开源的可插拔精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
-* [SmartEngine](https://github.com/alibaba/SmartEngine)：SmartEngine是一个轻量级的业务编排引擎，在阿里巴巴集团被广泛使用。
+* [Bulbasaur](https://github.com/alibaba/bulbasaur)：由阿里开源的可插拔精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
+* [SmartEngine](https://github.com/alibaba/SmartEngine)：SmartEngine是一个轻量级的业务编排引擎，在阿里内部广泛使用，可以用于在微服务架构中编排多个服务，也可以用于传统的流程审批场景。
 * [Kestra](https://github.com/kestra-io/kestra)：Kestra是一个通用的开源编排器，可以简化计划和事件驱动的工作流程。
-* [Azkaban](https://github.com/azkaban/azkaban)：LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
+* [Azkaban](https://github.com/azkaban/azkaban)：Azkaban是LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
 * [Imixs-Workflow](https://github.com/imixs/imixs-workflow)：Imixs-Workflow是一个开源工作流引擎，用于在灵活而强大的框架上构建以人为中心的工作流应用程序。
 * [Bonita](https://github.com/bonitasoft/bonita-engine)：部署、执行、管理使用Bonita Studio或通过Engine API制作的基于流程的应用程序。
 * [JFlow](https://gitee.com/opencc/JFlow)：Java版驰骋BPM系统。
-* [TFlow](https://gitee.com/bestfeng/oa_git_free)：TFlow源自云网OA，自2006年起，历经16年，服务过上千家客户。
+* [行云流程引擎](https://gitee.com/bestfeng/oa_git_free)：行云流程引擎具备Activiti的常用功能，上手更容易。
 * [Emissary](https://github.com/NationalSecurityAgency/emissary)：Emissary是一种基于P2P的数据驱动工作流引擎，运行在异构的、可能广泛分散的多层P2P计算资源网络中，由美国国家安全局开源。
 * [Digdag](https://github.com/treasure-data/digdag)：简单、开源、多云工作流程引擎。
-* [Cadence](https://github.com/uber/cadence-java-client)：Cadence工作流服务的Java框架，由Uber开发。
-* [Temporal](https://temporal.io/)：微服务编排平台，源自Cadence，但基于gRPC。
+* [Cadence](https://github.com/uber/cadence-java-client)：Cadence是分布式、可扩展、持久且高度可用的编排引擎，用于以可扩展和弹性的方式执行异步长时间运行的业务逻辑，由Uber开发。
 * [AgileBPM](https://gitee.com/agile-bpm/agile-bpm-basic)：快速、简洁且强大的低代码流程开发平台，国产开源。
-* [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统。
+* [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。
 * [UFLO2](https://github.com/youseries/uflo)：UFLO是一款基于Spring的纯Java流程引擎，支持并行、动态并行、串行、会签等各种流转方式。
-* [nFlow](https://github.com/NitorCreations/nflow)：一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
-* [Flowret](https://github.com/americanexpress/unify-flowret)：一个基于Java的轻量级编排引擎，由美国运通开源。
-* [TestHub](https://gitee.com/dromara/TestHub)：一款基于流程编排的自动化测试工具，由dromara社区开源。
-* [FlowLong](https://gitee.com/aizuda/flowlong)：国产开源的工作流引擎，爱组搭开源。
+* [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
+* [Flowret](https://github.com/americanexpress/unify-flowret)：Flowret是一个基于Java的轻量级编排引擎，由美国运通开源。
+* [TestHub](https://gitee.com/dromara/TestHub)：TestHub是一款基于流程编排的自动化测试工具，由dromara社区开源。
+* [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎。
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎，由沃尔玛开源。
 * [RuoYi Activiti](https://gitee.com/shenzhanwang/RuoYi-activiti)：基于Activiti 6.0，集流程设计、流程部署、流程执行、任务办理、流程监控于一体的开源工作流开发平台。
 * [盘古BPM](https://gitee.com/pangu-dm/pangubpm-dmn)：盘古BPM工作流平台是国内首款开源的互联网决策引擎系统，拥有独立的DMN1.3标准设计器、解析器、决策引擎、支持决策表、DRD、DRG。
 * [JsonFlow](https://gitee.com/jackrolling/jsonflow-ui)：简单但强大易用易扩展且适应复杂场景的中国式审批的工作流引擎系统。
 * [SmartFlow](https://gitee.com/smartboot/smart-flow)：SmartFlow是一个轻量、灵活的业务流程编排框架，支持业务流程中常见的条件分支控制、子流程、业务组件异步和降级等功能。
-* [COPPER](https://github.com/copper-engine/copper-engine)：COPPER是一个开源、强大、轻量且易于配置的工作流引擎。
+* [COPPER](https://github.com/copper-engine/copper-engine)：COPPER是一个开源、强大、轻量且易于配置的工作流引擎，它使用Java作为工作流的描述语言。
 * [JDEasyFlow](https://github.com/JDEasyFlow/jd-easyflow)：JDEasyFlow是京东开源的一个通用流程编排组件，适用于服务编排、工作流、审计等，具有易用、灵活、易扩展的特点。
 * [Easy Flows](https://github.com/j-easy/easy-flows)：Easy Flows是Java的工作流引擎，它提供简单的API和构建块，使创建和运行可组合工作流程变得轻松。
 * [FoxBPM](https://github.com/FoxBPM/FoxBPM)：FoxBPM是一款开源的基于BPMN 2.0标准的工作流引擎，引擎底层直接支持BPMN 2.0国际标准。
@@ -3614,6 +3616,7 @@
 * [MarkdownPapers](https://github.com/lruiz/MarkdownPapers)：用Java实现的Markdown解析器和转换器。
 * [Markdown To AsciiDoc](https://github.com/markdown-asciidoc/markdown-to-asciidoc)：一个小型、轻量级的Markdown到AsciiDoc转换器，用Java编写，基于Pegdown。
 * [MDTool](https://github.com/cevin15/MDTool)：一个可以将Markdown转换为HTML的工具。
+* [KeenWrite](https://gitlab.com/DaveJarvis/KeenWrite)：免费、开源、跨平台桌面Markdown文本编辑器，具有实时预览、字符串插值和数学功能。
 
 #### 文件库
 
@@ -3746,6 +3749,7 @@
 * [Flink ML](https://github.com/apache/flink-ml)：Flink ML是一个提供机器学习API和基础设施的库，可简化ML管道的构建。
 * [Apache Mahout](https://github.com/apache/mahout)：Apache Mahout项目的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/)：Weka是用于数据挖掘任务的机器学习算法的集合，它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具，由新西兰怀卡托大学开发。
+* [Breeze](https://github.com/scalanlp/breeze)：Breeze是一组用于机器学习和数值计算的库。
 * [TorchServe](https://github.com/pytorch/serve)：TorchServe是一种灵活且易于使用的工具，用于在生产中提供和扩展PyTorch模型。
 * [Apache Samoa](https://github.com/apache/incubator-samoa)：Apache SAMOA是一个用于挖掘大数据流的平台，它是一个分布式流式机器学习框架，包含分布式流式机器学习算法的编程抽象，由Yahoo开源。
 * [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台PAI团队开发。
@@ -3772,7 +3776,6 @@
 * [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
 * [AMIDST](https://github.com/amidst/toolbox)：用于可扩展概率机器学习的Java工具包。
-* [oj!Algorithms](https://github.com/optimatika/ojAlgo)：ojAlgo是用于数学、线性代数和优化的开源Java代码。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [ModelMesh](https://github.com/kserve/modelmesh)：ModelMesh框架是一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
 * [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
@@ -3799,6 +3802,7 @@
 * [StackNet](https://github.com/kaz-Anova/StackNet)：StackNet是一个计算、可扩展和分析框架，类似于前馈神经网络，并在多个级别使用Wolpert的堆栈泛化来提高机器学习问题的准确性，由伦敦大学开源。
 * [ML4AI](https://gitee.com/sleechengn/ml4ai)：机器学习、人工智能、张量库。
 * [Eggroll](https://gitee.com/WeBank/eggroll)：用于机器学习的简单高性能计算框架，由微众开源。
+* [9nFL](https://github.com/jd-opensource/9n-mpc)：九数联邦学习整体解决方案，由京东开源。
 * [WeFe](https://gitee.com/tianmiantech/WeFe)：WeFe是Welab汇立集团子公司天冕科技发起的开源项目，为联邦学习生态系统提供了一套好用的可靠的安全计算框架。
 * [MacroBase](https://github.com/stanford-futuredata/macrobase)：MacroBase是一种数据分析工具，它使用机器学习优先考虑大型数据集中的注意力，由斯坦福开源。
 * [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源ML-Ops平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
@@ -3907,6 +3911,8 @@
 * [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
 * [JGraphX](https://github.com/jgraph/jgraphx)：一个Java Swing图表库。
 * [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
+* [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
+* [Eclipse ICE](https://github.com/eclipse/ice)：Eclipse ICE是一个科学工作台和工作流程环境，旨在改善计算科学家的用户体验。
 * [GraphStream](https://github.com/graphstream/gs-core)：提供API来建模、分析和可视化图和动态图。
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在JVM上进行离线和实时分析。
 * [LogicNG](https://github.com/logic-ng/LogicNG)：用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
@@ -3995,53 +4001,54 @@
 
 ## 数学库
 
-* [SuanShu](https://github.com/aaiyer/SuanShu)：一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
-* [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Java中用于高性能科学计算的库，它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法。
-* [Apache Commons Math](https://github.com/apache/commons-math)：一个轻量级、独立的数学和统计组件库，可解决Java编程语言或Commons Lang中无法解决的最常见问题。
-* [Apache Commons Numbers](https://github.com/apache/commons-numbers)：提供数字类型和实用程序。
-* [Eclipse January](https://github.com/eclipse/january)：这是一个用Java处理数据的库，它部分受到NumPy的启发，旨在提供类似的功能。
-* [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库。
-* [JNT](https://math.nist.gov/jnt/)：包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作。
-* [JUMP](https://sourceforge.net/projects/jump-math/)：基于Java的可扩展高精度数学包，包括对基于分数的计算的支持，支持转换为浮点数和BigDecimal。
-* [JSci](https://jsci.sourceforge.net/)：这是一组免费的Java包，目的是以最自然的方式概括科学方法/原理。
-* [Jampack](https://math.nist.gov/pub/Jampack/Jampack/AboutJampack.html)：一个协作类的集合，旨在在Java应用程序中执行矩阵计算。
-* [JAMA](https://math.nist.gov/javanumerics/jama/)：Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类。
-* [KeenWrite](https://github.com/DaveJarvis/KeenWrite)：免费、开源、跨平台桌面Markdown文本编辑器，具有实时预览、字符串插值和数学功能。
-* [Symja](https://github.com/axkr/symja_android_library)：计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
-* [Apfloat](https://github.com/mtommila/apfloat)：Apfloat是一个高性能任意精度算术库。
+* [SuanShu](https://github.com/aaiyer/SuanShu)：SuanShu是一个Java数学库，用于数值分析、统计、求根、线性代数、优化等。
+* [Colt](https://dst.lbl.gov/ACSSoftware/colt/)：Java中用于高性能科学计算的库，它包含用于数据分析、线性代数、多维数组、傅里叶变换、统计和直方图的有效算法，由欧洲核子研究中心开发。
+* [Apache Commons Math](https://github.com/apache/commons-math)：Apache Commons Math是一个开源的数学库，提供了一系列基础数学算法和高级数学功能。
+* [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Apache Commons Numbers提供数字类型和实用程序的实现。
+* [Eclipse January](https://github.com/eclipse/january)：Eclipse January是一组用于在Java中处理数值数据的库，它部分受到NumPy的启发，旨在提供类似的功能。
+* [ELEFUNT](http://www.math.utah.edu/~beebe/software/java/)：ELEFUNT附带了一个扩展了java.lang.Math的新类库，以及用于数字输出格式化的新类库，由犹他大学开源。
+* [JNT](https://math.nist.gov/jnt/)：JNT包含计算内核的坚实基础，可以帮助引导开发Java中复杂数值应用程序的工作，由美国国家标准与技术研究院开源。
+* [JUMP](https://sourceforge.net/projects/jump-math/)：JUMP是一个基于Java的可扩展高精度数学包，包括对基于分数的计算的支持，支持转换为浮点数和BigDecimal。
+* [JSci](https://jsci.sourceforge.net/)：JSci是一组免费的Java包，目的是以最自然的方式概括科学方法/原理，由杜伦大学开源。
+* [Jampack](https://math.nist.gov/pub/Jampack/Jampack/AboutJampack.html)：Jampack是一个协作类的集合，旨在在Java应用程序中执行矩阵计算，由马里兰大学和美国国家标准与技术研究院开发。
+* [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类，由马里兰大学和美国国家标准与技术研究院开发。
+* [Symja](https://github.com/axkr/symja_android_library)：Symja是计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
+* [Ojalgo](https://github.com/optimatika/ojAlgo)：ojAlgo是用于数学、线性代数和优化的开源Java代码。
+* [Apfloat](https://github.com/mtommila/apfloat)：Apfloat是一个高性能任意精度算术库，你可以用它进行数百万位精度的计算。
 * [BigDecimalMath](https://github.com/eobermuhlner/big-math)：使用任意精度的高级Java BigDecimal数学函数库。
 * [UnCommons-Maths](https://github.com/dwdyer/uncommons-maths)：Java的随机数生成器、概率分布、组合学和统计库。
-* [NM Dev](https://nm.dev/)：NM Dev是一个面向对象、高性能、经过广泛测试且有专业文档记录的数学编程库。
-* [EJML](https://github.com/lessthanoptimal/ejml)：一个用Java编写的快速且易于使用的线性代数库，适用于稠密、稀疏、实数和复杂矩阵。
-* [La4j](https://github.com/vkostyukov/la4j)：一个开源的纯Java库，提供线性代数基元和算法。
+* [NM Dev](https://nm.dev/)：NM Dev是一个数值库，涵盖了广泛的算法，例如线性代数、微积分、微分方程、无约束和约束优化、统计学和极值理论。
+* [EJML](https://github.com/lessthanoptimal/ejml)：EJML是一个用Java编写的快速且易于使用的线性代数库，适用于稠密、稀疏、实数和复杂矩阵。
+* [La4j](https://github.com/vkostyukov/la4j)：La4j是一个开源的100% Java库，提供线性代数基元(矩阵和向量)和算法。
 * [Neanderthal](https://github.com/uncomplicate/neanderthal)：Neanderthal是一个用于快速矩阵和线性代数计算的Clojure库，基于针对CPU和GPU的高度优化的BLAS和LAPACK计算例程的原生库。
 * [CombinatoricsLib 3](https://github.com/dpaukov/combinatoricslib3)：适用于Java 8+的组合对象流生成器。
-* [Exp4j](https://github.com/fasseg/exp4j)：用于Java编程语言的小型数学表达式计算器。
-* [Javaluator](https://github.com/fathzer/javaluator)：一个基于Shunting Yard算法的Java中缀评估器。
 * [Hacktoberfest-Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
-* [Decimal4j](https://github.com/tools4j/decimal4j)：用于基于Long型的快速定点算术的Java库，支持最多18位小数。
+* [Decimal4j](https://github.com/tools4j/decimal4j)：用于基于长整型的快速定点算术的Java库，支持最多18位小数。
 * [DSI Utils](https://github.com/vigna/dsiutils)：DSI Utils是过去20年在米兰大学信息科学系开发的项目中积累的类的混杂。
 * [KMath](https://github.com/SciProgCentre/kmath)：Kotlin数学扩展库。
-* [ParallelColt](https://github.com/rwl/ParallelColt)：Colt的多线程版本。
-* [LIBLINEAR](https://github.com/bwaldvogel/liblinear-java)：LIBLINEAR的Java版本。
-* [JTransforms](https://github.com/wendykierp/JTransforms)：第一个用纯Java编写的开源多线程FFT库。
-* [Jblas](https://github.com/jblas-project/jblas)：一个Java矩阵库，它使用现有的高性能BLAS和LAPACK库(如ATLAS)。
+* [ParallelColt](https://github.com/rwl/ParallelColt)：Parallel Colt是Colt的多线程版本，由欧洲核子研究组织开源。
+* [LIBLINEAR](https://github.com/bwaldvogel/liblinear-java)：LIBLINEAR的Java版本，LIBLINEAR是一个用于解决大规模正则化线性问题分类、回归和异常值检测的简单包。
+* [JTransforms](https://github.com/wendykierp/JTransforms)：JTransforms是第一个用纯Java编写的开源多线程FFT库。
+* [Jblas](https://github.com/jblas-project/jblas)：Jblas是一个Java矩阵库，它使用现有的高性能BLAS和LAPACK库(如ATLAS)，由柏林工业大学开源。
 * [jOOU](https://github.com/jOOQ/jOOU)： jOOU为四种Java整数类型byte、short、int和long提供无符号整数版本。
-* [EvalEx](https://github.com/ezylang/EvalEx)：EvalEx是一个方便的Java表达式计算器，它允许评估简单的数学和布尔表达式。
-* [Hipparchus](https://github.com/Hipparchus-Math/hipparchus)：Java编程语言中的高效通用数学组件库。
-* [Universal Java Matrix Package](https://github.com/ujmp/universal-java-matrix-package)：用于稀疏和稠密矩阵、线性代数、可视化和大数据的Java库。
-* [SSJ](https://github.com/umontreal-simul/ssj)：SSJ是一个用于随机模拟的Java库，在蒙特利尔大学计算机科学与运筹研究系模拟与优化实验室的Pierre L'Ecuyer的监督下开发。
+* [Hipparchus](https://github.com/Hipparchus-Math/hipparchus)：Hiparchus项目是一个轻量级、独立的数学和统计组件库，可解决Java编程语言中无法解决的最常见问题。
+* [Universal Java Matrix Package](https://github.com/ujmp/universal-java-matrix-package)：UJMP是一个开源库，用于Java中的密集和稀疏矩阵计算以及线性代数。
+* [SSJ](https://github.com/umontreal-simul/ssj)：SSJ是一个用于随机模拟的Java库，由蒙特利尔大学开发。
 * [Matrix-Toolkits-Java](https://github.com/fommil/matrix-toolkits-java)：MTJ是一个用于开发线性代数应用程序的高性能库。
-* [NetLib-Java](https://github.com/fommil/netlib-java)：高性能线性代数库。
+* [NetLib-Java](https://github.com/fommil/netlib-java)：NetLib-Java是低级BLAS、LAPACK和ARPACK的包装器，其执行速度与带有纯JVM回退的C/Fortran接口一样快。
 * [BigInt](https://github.com/tbuktu/bigint)：这是java.math.BigInteger的改进版本，它使用快速算法来乘除大数。
 * [Vectorz](https://github.com/mikera/vectorz)：用于Java的快速双精度向量和矩阵数学库，基于N维数组的概念。
-* [BigDecimal Utils](https://github.com/mortezaadi/bigdecimal-utils)：比较BigDecimal的工具库。
+* [BigDecimal Utils](https://github.com/mortezaadi/bigdecimal-utils)：用于比较BigDecimal的工具库。
 * [FastDoubleParser](https://github.com/wrandelshofer/FastDoubleParser)：该项目提供了double、float、BigDecimal和BigInteger值的解析器，double和float解析器针对最常见输入的速度进行了优化。
-* [Tensorics](https://github.com/tensorics/tensorics-core)：Tensorics是一个使用张量作为中心对象的Java框架。
+* [Tensorics](https://github.com/tensorics/tensorics-core)：Tensorics是一个用于多维数据处理的Java框架。
 * [GLPK](https://winglpk.sourceforge.net/)：GLPK软件包提供了用于大规模线性规划(LP)和混合整数规划(MIP)的求解器。
 * [Jape](https://github.com/RBornat/jape)：Jape是一个可配置的证明计算器，支持推理系统中形式证明的交互式发现。
-* [Keval](https://github.com/notKamui/Keval)：用于数学表达式字符串求值的Kotlin迷你库。
 * [Math](https://github.com/SpongePowered/math)：用于Java的不可变数学库，提供数学类型、快速三角函数、向量、矩阵、复数、四元数和操作链之间的轻松转换，重点关注游戏和计算机图形。
+* [F2J](https://sourceforge.net/projects/f2j)：F2J项目的目标是为最初用Fortran编写的数值库(特别是BLAS和LAPACK)提供Java API，由田纳西大学开源。
+* [Netlib](https://github.com/luhenry/netlib)：该项目提供了BLAS、LAPACK和ARPACK子例程的多个Java实现，支持Java 8+，它通过OpenBLAS和Intel MKL等本机实现提供BLAS、LAPACK和ARPACK的硬件加速。
+* [DDoggeg](https://github.com/lessthanoptimal/ddogleg)：DDoggeg是一个高性能Java库，用于非线性优化、稳健模型拟合、多项式求根、排序等。
+* [Catalano](https://github.com/DiegoCatalano/Catalano-Framework)：Catalano框架是一个用于Java和Android的科学计算框架。
+* [Shared Scientific Toolbox](https://carsomyr.github.io/shared/)：SST是基础科学库的集合，其主要目的是充当所涉及的科学计算的高度特定需求与Java编程语言的更传统方面之间的桥梁。
 
 ## 本体库
 
@@ -4081,6 +4088,7 @@
 * [Sigma](https://github.com/ontologyportal/sigmakee)：Sigma是逻辑理论的集成开发环境，扩展了建议的上层合并本体(SUMO)。
 * [IFCtoLBD](https://github.com/jyrkioraskari/IFCtoLBD)：IFCtoLBD将IFC STEP格式的文件转换为链接建筑数据本体。
 * [MELT](https://github.com/dwslab/melt)：MELT是一个强大的Maven框架，用于开发、调整、评估和打包本体匹配系统，由德国曼海姆大学开源。
+* [JOPA](https://github.com/kbss-cvut/jopa)：JOPA是一个Java OWL持久层框架，旨在以Java方式高效地以编程方式访问OWL2本体和RDF图，由布拉格捷克技术大学开源。
 
 ## 语义Web
 
@@ -4188,6 +4196,7 @@
 * [VarSim](https://github.com/bioinform/varsim)：用于癌症应用的高通量基因组测序的高保真模拟验证框架。
 * [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序。
 * [BRIG](https://github.com/happykhan/BRIG)：BRIG是一个跨平台应用程序，可以显示大量基因组之间的循环比较，重点是处理基因组组装数据。
+* [Osprey](https://github.com/donaldlab/OSPREY3)：OSPREY软件包提供了蛋白质设计工具，这是连续灵活性建模、集成建模和具有可证明保证的算法的独特组合，由杜克大学开源。
 * [FragPipe](https://github.com/Nesvilab/FragPipe)：FragPipe是一个Java GUI，用于一套计算工具，可对基于质谱的蛋白质组数据进行全面分析，由密歇根大学开源。
 * [NGSEP](https://github.com/NGSEP/NGSEPcore)：NGSEP提供了一个对象模型来支持不同类型的DNA高通量测序(HTS)数据分析。
 * [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现。
@@ -4550,6 +4559,7 @@
 
 * [DNS66](https://github.com/julian-klode/dns66)：适用于Android的基于DNS的主机拦截器。
 * [DNSJava](https://github.com/dnsjava/dnsjava)：DNS协议的Java实现。
+* [BrowserUp Proxy](https://github.com/lightbody/browsermob-proxy)：BrowserMob Proxy基于Selenium开源项目和商业负载测试和监控服务中开发的技术，该服务最初称为BrowserMob，现在是Neustar的一部分。
 * [DNS Proxy](https://github.com/mageddo/dns-proxy-server)：用于从Docker容器、本地配置、互联网中解析DNS主机。
 * [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植，由阿里开源。
 * [Denominator](https://github.com/Netflix/denominator)：用于操作DNS云的可移植Java库，由Netflix开源。
@@ -4695,6 +4705,7 @@
 * [ImageIO-Ext](https://github.com/geosolutions-it/imageio-ext)：ImageIO-Ext是一个开源项目，为标准Oracle Java Image I/O项目提供扩展、修复和改进。
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
 * [Grid](https://github.com/guardian/grid)：Grid是卫报的图像管理系统，它提供了访问组织的媒体的通用且快速的体验，并以经济实惠的方式使用它来生成高质量的内容。
+* [Java Image Filters](http://www.jhlabs.com/ip/filters/index.html)：Java Image Filters是由Jhlabs开发的一组用来处理Java图像的类库，提供各种常用的图像处理效果，例如反转色、扭曲、水波纹、凹凸、黑白效果等等数十种效果。
 
 ## 计算机视觉
 
@@ -4769,6 +4780,7 @@
 * [Junrar](https://github.com/junrar/junrar)：纯Java解压缩库。
 * [Brotli4j](https://github.com/hyperxpro/Brotli4j)：Brotli4j为Java提供Brotli压缩和解压缩。
 * [Bit-Lib4j](https://github.com/devnied/Bit-lib4j)：Bit-Lib4j是一个用于在Java中处理字节或位的库。
+* [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法。
 * [Qat-Java](https://github.com/intel/qat-java)：Qat-Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
 
 ## 爬虫框架
@@ -5447,6 +5459,7 @@
 
 * [JMusicBot](https://github.com/jagrosh/MusicBot)：一个可以轻松设置和运行的Discord音乐机器人。
 * [Mirai](https://github.com/mamoe/mirai)：高效率QQ机器人支持库。
+* [OpenShamrock](https://github.com/whitechi73/OpenShamrock)：基于Lspose和OneBot11的Bot框架。
 * [TelegramBots](https://github.com/rubenlagus/TelegramBots)：使用Telegram Bots API创建机器人的Java库。
 * [JDA](https://github.com/discord-jda/JDA)：流行的聊天和VOIP服务的Java包装器。
 * [Discord4J](https://github.com/Discord4J/Discord4J)：一个快速、强大、无偏见的响应式库，可使用官方Discord Bot API快速轻松地开发适用于Java、Kotlin和其他JVM语言的Discord机器人。
@@ -6294,7 +6307,6 @@
 * [FastFilter](https://github.com/FastFilter/fastfilter_java)：Java中的快速近似成员资格过滤器。
 * [LensKit](https://github.com/lenskit/lenskit)：LensKit是协作过滤算法的实现以及一组用于对其进行基准测试的工具。
 * [Compression](https://github.com/lichess-org/compression)：lichess.org的国际象棋时钟和着法压缩算法。
-* [Campskeleton](https://github.com/twak/campskeleton)：Java中的加权直骨架实现。
 * [Timeseries-Forecast](https://github.com/Workday/timeseries-forecast)：这是一个Java开源库，提供时序预测功能。
 * [Graphulo](https://github.com/Accla/graphulo)：Graphulo是一个用于Apache Accumulo数据库的Java库，提供服务器端稀疏矩阵数学原语，支持更高级别的图形算法和分析，MIT开源。
 * [Delaunay Triangulation](https://github.com/jdiemke/delaunay-triangulator)：增量2D Delaunay三角剖分算法的简单Java实现。
@@ -6364,20 +6376,16 @@
 * [R2Cloud](https://github.com/dernasherbrezon/r2cloud)：R2Cloud可以跟踪和解码来自卫星的各种无线电信号。
 * [S-Tools](https://github.com/naman14/S-Tools)：跟踪CPU和传感器以及拾色器、指南针和设备信息等有用功能。
 * [Stream-Pi Client](https://github.com/stream-pi/client)：免费、开源、模块化、跨平台和可编程宏垫。
-* [PureJavaComm](https://github.com/nyholku/purejavacomm)：用于从Java访问串行端口的API。
 * [JIntellitype](https://github.com/melloware/jintellitype)：JIntellitype是一个Java API，用于与Microsoft Intellitype命令交互以及在Java应用程序中注册全局热键。
 * [Zebra-zpl](https://github.com/w3blogfr/zebra-zpl)：用于生成通用ZPL命令以使用Java在Zebra打印机上打印标签的库。
 * [Java HID-API](https://github.com/nyholku/purejavahidapi)：HID-API是一个跨平台API，用于从Java访问USB HID设备。
 * [Cups4j](https://github.com/harwey/cups4j)：CUPS的Java打印库。
 * [JavaDoesUSB](https://github.com/manuelbl/JavaDoesUSB)：Java does USB是一个用于处理USB设备的Java库，它允许查询有关所有连接的USB设备的信息，并使用自定义/供应商特定协议与USB设备进行通信。
 * [EDSDK4J](https://github.com/kritzikratzi/edsdk4j)：这是Canon EOS数字软件开发套件EDSDK的Java包装器，可让你在Windows上完全访问Canon SLR相机。
-* [jRxTx](https://github.com/openmuc/jrxtx)：jRxTx是一个Java串行通信库，它可用于使用众所周知的基于UART的串行协议进行通信。
 * [ModbusPal](https://github.com/zeelos/ModbusPal)：ModbusPal是MODBUS从站模拟器，其目的是提供一个易于使用的界面，能够重现复杂且真实的MODBUS环境。
 * [ProviewR](http://www.proview.se/v3/)：ProviewR可能是世界上第一个用于过程控制和自动化的开源系统。
 * [KWSwitch](https://gitee.com/kerwincui/kwswitch)：智能开关平台，包含服务端、硬件端、安卓端和前端。
 * [Mixly](https://gitee.com/mixlyplus/Mixly)：Mixly是一款面向初学者、硬件编程爱好者的图形化编程工具。
-* [NRJavaSerial](https://github.com/NeuronRobotics/nrjavaserial)：Java串行端口系统，这是RXTX项目的一个分支，用于本地代码的jar加载。
-* [jSerialComm](https://github.com/Fazecast/jSerialComm)：一个独立于平台的Java串行端口访问库。
 * [Hid4Java](https://github.com/gary-rowe/hid4java)：libusb/hidapi库的跨平台JNA包装器，在Windows/Mac/Linux上开箱即用。
 * [Java Grinder](https://github.com/mikeakohn/java_grinder)：将Java字节码编译为微控制器程序集。
 * [JKeyMaster](https://github.com/tulskiy/jkeymaster)：用于使用JNA在Java中注册全局热键的库，目标是支持基于X11的平台、Windows和MacOSX。
@@ -6682,6 +6690,7 @@
 * [Deegree](https://github.com/deegree/deegree3)：Deegree是用于空间数据基础设施和地理空间网络的开源软件，Deegree包含地理空间数据管理组件，包括数据访问、可视化、发现和安全性，由德国波恩大学地理系开发。
 * [Mapsforge](https://github.com/mapsforge/mapsforge)：Mapsforge是一个Android、Java平台可用的地图库，支持OpenStreetMap地图数据的离线呈现。
 * [SeaRoute](https://github.com/eurostat/searoute)：SeaRoute可以计算两个地点之间的最短海上路线，由欧盟统计局开源。
+* [GAMA](https://github.com/gama-platform/gama.old)：GAMA是一个易于使用的开源建模和仿真环境，用于创建基于代理的空间显式仿真。
 * [Tinfour](https://github.com/gwlucastrig/Tinfour)：Tinfour是一个用Java编写的软件库，提供了用于构建和应用符合Delaunay准则的不规则三角网络(TIN)的工具。
 * [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)：NoiseModelling是一个能够生成噪声图的库，由古斯塔夫埃菲尔大学开源。
 * [Spatial4j](https://github.com/locationtech/spatial4j)：Spatial4j是一个通用空间/地理空间开源Java库，其核心功能有三重：提供常见的地理空间感知形状，提供距离计算和其他数学运算，以及读取形状并将其写入字符串。
@@ -6744,7 +6753,10 @@
 * [JTS](https://github.com/locationtech/jts)：用于创建和操作向量几何的Java库。
 * [Geometry API](https://github.com/Esri/geometry-api-java)：可用于在第三方数据处理解决方案中启用空间数据处理。
 * [Geolatte Geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [JCSG](https://github.com/miho/JCSG)：基于BSP的CSG(构造实体几何)的Java实现。
+* [Campskeleton](https://github.com/twak/campskeleton)：Java中的加权直骨架实现。
 * [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Commons Geometry项目提供几何类型和实用程序。
+* [GeoRegression](https://github.com/lessthanoptimal/GeoRegression)：GeoRegression是一个基于Java的免费几何库，用于机器人和计算机视觉等领域的科学计算，重点关注2D/3D空间。
 
 ## 天文学
 
@@ -6974,6 +6986,15 @@
 * [Cello](https://github.com/CIDARLAB/cello)：遗传电路设计自动化，由CIDAR实验室开发。
 * [Logisim](https://github.com/Logisim-Ita/Logisim)：Logisim是一个数字电路模拟器。
 * [CircuitJS1](https://github.com/sharpie7/circuitjs1)：CircuitJS1是一个在浏览器中运行的电子电路模拟器。
+
+## 工业
+
+* [JLibModbus](https://github.com/kochedykov/jlibmodbus)：JLibModbus是Modbus协议的Java语言实现。
+* [jSSC](https://github.com/scream3r/java-simple-serial-connector)：Java中用于使用串行端口的库。
+* [PureJavaComm](https://github.com/nyholku/purejavacomm)：用于从Java访问串行端口的API。
+* [jSerialComm](https://github.com/Fazecast/jSerialComm)：一个独立于平台的Java串行端口访问库。
+* [NRJavaSerial](https://github.com/NeuronRobotics/nrjavaserial)：Java串行端口系统，这是RXTX项目的一个分支，用于本地代码的jar加载。
+* [jRxTx](https://github.com/openmuc/jrxtx)：jRxTx是一个Java串行通信库，它可用于使用众所周知的基于UART的串行协议进行通信。
 
 ## 蓝牙
 
@@ -7511,13 +7532,20 @@
 * [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Apache Commons JEXL库是Java共生表达式语言的实现。
 * [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
-* [Parsington](https://github.com/scijava/parsington)：Parsington是一个中缀到后缀和中缀到语法树表达式解析器，用于用Java编写的数学表达式。
 * [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
 * [CEL-Java](https://github.com/projectnessie/cel-java)：通用表达式语言的Java实现。
 * [Eclipse Expressly](https://github.com/eclipse-ee4j/expressly)：Eclipse Expressly实现了Jakarta Expression Language，这是一种用于Java应用程序的表达式语言。
 * [JFireEL](https://gitee.com/eric_ds/jfireEL)：快速的EL表达式解析器，支持丰富的EL表达式。
-* [MathParser](https://github.com/mariuszgromada/MathParser.org-mXparser)：MathParser是一个超级简单、丰富且高度灵活的数学表达式解析器库，适用于Java、Android、.NET、TypeScript和JavaScript。
 * [Crunch](https://github.com/boxbeam/Crunch)：快速的Java表达式编译器/评估器。
+
+## 数学表达式
+
+* [Exp4j](https://github.com/fasseg/exp4j)：Exp4j是用于Java编程语言的小型数学表达式计算器。
+* [Keval](https://github.com/notKamui/Keval)：用于数学表达式字符串求值的Kotlin迷你库。
+* [EvalEx](https://github.com/ezylang/EvalEx)：EvalEx是一个方便的Java表达式计算器，它允许评估简单的数学和布尔表达式。
+* [Javaluator](https://github.com/fathzer/javaluator)：一个基于Shunting Yard算法的Java中缀评估器。
+* [Parsington](https://github.com/scijava/parsington)：Parsington是一个中缀到后缀和中缀到语法树表达式解析器，用于用Java编写的数学表达式。
+* [MathParser](https://github.com/mariuszgromada/MathParser.org-mXparser)：MathParser是一个超级简单、丰富且高度灵活的数学表达式解析器库，适用于Java、Android、.NET、TypeScript和JavaScript。
 
 ## 对象图导航
 
