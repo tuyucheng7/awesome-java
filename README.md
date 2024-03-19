@@ -4118,23 +4118,23 @@
 
 ## 语义Web
 
-* [VIVO](https://github.com/vivo-project/VIVO)：开源语义Web工具，用于研究发现、寻找人和他们所做的研究。
-* [SPARQL](https://github.com/SPARQL-Anything/sparql.anything)：用于语义Web重新设计的系统，允许用户使用SPARQL查询任何内容。
-* [LinkedGeoData](https://github.com/GeoKnow/LinkedGeoData)：LinkedGeoData致力于向数据网/语义网添加空间维度，LinkedGeoData使用OpenStreetMap项目收集的信息，并根据关联数据原则将其作为RDF知识库提供。
-* [Ripple](https://github.com/joshsh/ripple)：基于堆栈的函数式查询语言，适用于关联数据和其他RDF数据源。
-* [Vitro](https://github.com/vivo-project/Vitro)：通用的基于Web的本体和实例编辑器，具有可定制的公共浏览功能。
-* [Apache Commons RDF](https://github.com/apache/commons-rdf)：RDF旨在为RDF 1.1提供一个通用库，并实现常见Java RDF框架(如RDF4J、Jena)以及其他库(如OWLAPI、Clerezza和其他JVM语言)的实现。
-* [Corese](https://github.com/Wimmics/corese)：一个实现和扩展语义网标准的软件平台，它允许创建、操作、解析、序列化、查询、推理和验证RDF数据。
-* [NeoSemantics](https://github.com/neo4j-labs/neosemantics)：允许在Neo4j中使用RDF的插件。
-* [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit)：用于访问Wikidata和其他Wikibase安装的Java库。它可用于创建机器人、执行数据提取任务以及进行对于使用简单的SPARQL查询服务来说过于复杂的大规模分析。
-* [Eclipse RDF4J](https://github.com/eclipse-rdf4j/rdf4j)：一个强大的Java框架，用于处理和处理RDF数据，这包括使用RDF和链接数据创建、解析、可扩展存储、推理和查询。
-* [D2RQ](https://github.com/d2rq/d2rq)：一个数据库到RDF映射引擎和SPARQL服务器。
-* [RDFUnit](https://github.com/AKSW/RDFUnit)：RDFUnit在测试驱动数据验证本体之上实现，旨在读取和生成仅符合该本体的RDF。
-* [Rdf-File](https://github.com/alipay/rdf-file)：处理结构化文本文件的工具组件，由支付宝开源。
-* [LodView](https://github.com/LodLive/LodView)：基于Spring和Jena的Web应用程序，它是一个能够提供符合W3C标准的IRI解引用的工具。
+* [Eclipse RDF4J](https://github.com/eclipse-rdf4j/rdf4j)：Eclipse RDF4J是一个强大的Java框架，用于处理RDF数据，这包括使用RDF和链接数据创建、解析、可扩展存储、推理和查询。
+* [VIVO](https://github.com/vivo-project/VIVO)：VIVO是一个可扩展的语义Web应用程序，用于研究发现和展示学术工作。
+* [SPARQL](https://github.com/SPARQL-Anything/sparql.anything)：SPARQL Anything是一个用于语义Web重新设计的系统，允许用户使用SPARQL查询任何内容。
+* [LinkedGeoData](https://github.com/GeoKnow/LinkedGeoData)：LinkedGeoData致力于向数据网/语义网添加空间维度，LinkedGeoData使用OpenStreetMap项目收集的信息，并根据关联数据原则将其作为RDF知识库提供，由莱比锡大学开源。
+* [Ripple](https://github.com/joshsh/ripple)：Ripple是一种基于堆栈的函数式查询语言，适用于关联数据和其他RDF数据源。
+* [Vitro](https://github.com/vivo-project/Vitro)：Vitro是一个通用的基于Web的本体和实例编辑器，具有可定制的公共浏览功能。
+* [Apache Commons RDF](https://github.com/apache/commons-rdf)：Commons RDF旨在为RDF 1.1提供一个通用库，并实现常见Java RDF框架(如RDF4J、Jena)以及其他库(如OWLAPI、Clerezza和其他JVM语言)的实现。
+* [Corese](https://github.com/Wimmics/corese)：Corese是一个实现和扩展语义网标准的软件平台，它允许创建、操作、解析、序列化、查询、推理和验证RDF数据。
+* [NeoSemantics](https://github.com/neo4j-labs/neosemantics)：NeoSemantics是一个允许在Neo4j中使用RDF的插件。
+* [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit)：Wikidata Toolkit是一个用于访问Wikidata和其他Wikibase安装的Java库。
+* [D2RQ](https://github.com/d2rq/d2rq)：D2RQ平台是一个用于以虚拟只读RDF图形式访问关系数据库的系统，由约翰开普勒林茨大学、HP实验室等组织开源。
+* [RDFUnit](https://github.com/AKSW/RDFUnit)：RDFUnit在测试驱动数据验证本体之上实现，旨在读取和生成仅符合该本体的RDF，由莱比锡大学开源。
+* [RDF-File](https://github.com/alipay/rdf-file)：RDF-File是一个处理结构化文本文件的工具组件，由支付宝开源。
+* [LodView](https://github.com/LodLive/LodView)：LodView是一个基于Spring和Jena的Java Web应用程序，它是一个能够提供符合W3C标准的IRI解引用的工具。
 * [Empire](https://github.com/mhgrove/Empire)：Empire使用SPARQL为RDF数据库提供标准JPA风格的接口。
-* [HDT](https://github.com/rdfhdt/hdt-java)：一个Java库，它实现了RDF HDT(标头-字典-三元组)二进制格式的W3C提交。
-* [CARML](https://github.com/carml/carml)：一个Java库，根据RML规范，将结构化源转换为RDF。
+* [HDT](https://github.com/rdfhdt/hdt-java)：HDT-lib是一个Java库，它实现了RDF HDT(标头-字典-三元组)二进制格式的W3C提交。
+* [CARML](https://github.com/carml/carml)：CARML是一个Java库，根据RML规范，将结构化源转换为RDF，如RML映射中声明的那样。
 * [JSON2RDF](https://github.com/AtomGraph/JSON2RDF)：流式的通用JSON到RDF转换器。
 * [Trellis](https://github.com/trellis-ldp/trellis)：Trellis是一个用于构建可扩展的关联数据应用程序的平台。
 * [Apache Rya](https://github.com/apache/rya)：Apache Rya是一个可扩展的RDF存储，它构建在列式索引存储(例如Accumulo)之上，它作为RDF4J的扩展来实现，以提供简单的查询机制(SPARQL、SERQL等)和RDF数据存储(RDF/XML、NTriples等)。
@@ -4157,75 +4157,71 @@
 ## 生物信息学
 
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
-* [Cromwell](https://github.com/broadinstitute/cromwell)：用于生物信息学的开源工作流程管理系统。
-* [GATK](https://github.com/broadinstitute/gatk)：包含下一代基因组分析工具包。
-* [BioJava](https://github.com/biojava/biojava)：致力于提供用于处理生物数据的Java库。
-* [ADAM](https://github.com/bigdatagenomics/adam)：ADAM是一个库和命令行工具，支持使用Apache Spark跨集群/云计算环境并行进行基因组数据分析。
-* [WDL](https://github.com/openwdl/wdl)：工作流描述语言的规范和实现。
-* [Jvarkit](https://github.com/lindenb/jvarkit)：用于生物信息学的Java工具类。
-* [Picard](https://github.com/broadinstitute/picard)：一组用于操作高通量测序(HTS)数据和格式的Java命令行工具。
+* [Cromwell](https://github.com/broadinstitute/cromwell)：Cromwell是一个用于生物信息学的开源工作流程管理系统，由麻省理工学院和哈佛大学布罗德研究所开源。
+* [GATK](https://github.com/broadinstitute/gatk)：由麻省理工学院和哈佛大学布罗德研究所开源的下一代基因组分析工具包。
+* [BioJava](https://github.com/biojava/biojava)：BioJava是一个开源项目，致力于提供处理生物数据的Java框架。
+* [ADAM](https://github.com/bigdatagenomics/adam)：ADAM是一个库和命令行工具，支持使用Apache Spark跨集群/云计算环境并行进行基因组数据分析，由加州大学伯克利分校、西奈山伊坎医学院、微软研究院等开源。
+* [WDL](https://github.com/openwdl/wdl)：WDL是一种开放标准，用于使用人类可读和可写的语法来描述数据处理工作流，最初由布罗德研究所开发。
+* [Jvarkit](https://github.com/lindenb/jvarkit)：用于生物信息学的Java实用程序。
+* [Picard](https://github.com/broadinstitute/picard)：一组用于操作高通量测序(HTS)数据和格式的Java命令行工具，由麻省理工学院和哈佛大学布罗德研究所开源。
 * [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
-* [biometrics](https://github.com/SelfLender/react-native-biometrics)：适用于iOS和Android生物识别的React Native模块。
-* [InterMine](https://github.com/intermine/intermine)：一个强大的开源数据仓库系统，允许用户以最少的努力集成不同的数据源，InterMine为生命科学领域一些最大的数据仓库提供支持。
+* [InterMine](https://github.com/intermine/intermine)：InterMine是一个强大的开源数据仓库系统，允许用户以最少的努力集成不同的数据源，InterMine为生命科学领域一些最大的数据仓库提供支持，由剑桥大学开源。
 * [BBMap](https://github.com/BioInfoTools/BBMap)：用于DNA/RNAseq的BBMap短读对齐器和其他生物信息学工具。
-* [Pegasus](https://github.com/pegasus-isi/pegasus)：一个可配置系统，用于在各种计算基础设施(包括笔记本电脑、校园集群、超级计算机、网格以及商业和学术云)上映射和执行科学工作流程，由南加州大学信息科学研究所、威斯康星大学麦迪逊分校开源。
-* [GloBI](https://github.com/globalbioticinteractions/globalbioticinteractions)：提供对现有物种相互作用数据集的访问。
-* [MOLGENIS](https://github.com/molgenis/molgenis)：一个协作开源项目，其目的是为生命科学研究生成出色的软件基础设施。
-* [Hadoop-BAM](https://github.com/HadoopGenomics/Hadoop-BAM)：用于使用Hadoop MapReduce框架操作常见生物信息学格式的文件。
-* [SIRIUS](https://github.com/boecker-lab/sirius)：基于Java的软件框架，用于分析代谢物和其他“具有生物意义的小分子”的LC-MS/MS数据。
+* [Pegasus](https://github.com/pegasus-isi/pegasus)：Pegasus是一个可配置系统，用于在各种计算基础设施上映射和执行科学工作流程，由南加州大学信息科学研究所、威斯康星大学麦迪逊分校开源。
+* [GloBI](https://github.com/globalbioticinteractions/globalbioticinteractions)：GloBI提供对现有物种相互作用数据集的访问。
+* [MOLGENIS](https://github.com/molgenis/molgenis)：MOLGENIS是一个协作开源项目，其目的是为生命科学研究生成出色的软件基础设施，由格罗宁根大学开源。
+* [SIRIUS](https://github.com/boecker-lab/sirius)：SIRIUS是一个基于Java的软件框架，用于分析代谢物和其他“具有生物意义的小分子”的LC-MS/MS数据，由耶拿大学开源。
 * [LibLevenshtein](https://github.com/universal-automata/liblevenshtein-java)：有关Levenshtein传感器的各种实用程序。
-* [Jannovar](https://github.com/charite/jannovar)：Java中的功能变体文件注释，Jannovar提供了一个用于VCF文件注释的程序，并通过库API公开其功能。
-* [SIRIUS](https://github.com/boecker-lab/sirius-libs)：用Java编写的用于小分子分子式识别的代谢组学质谱框架。
-* [PeptideShaker](https://github.com/compomics/peptide-shaker)：一个独立于搜索引擎的平台，用于解释来自多个搜索和de novo引擎的蛋白质组学鉴定结果，目前支持X! Tandem、MS-GF+、MS Amanda、OMSSA、MyriMatch、Comet、Tide、Mascot、Andromeda、MetaMorpheus、Sage、Novor、DirecTag和mzIdentML。
-* [OME](https://github.com/ome/openmicroscopy)：OME开发用于存储和操作生物光学显微镜数据的开源软件和数据格式标准，OME是欧洲和美国大学、研究机构和行业之间的联合项目。
-* [NSGA-II](https://github.com/onclave/NSGA-II)：NSGA-II的Java实现。
-* [SearchGUI](https://github.com/compomics/searchgui)：一个高度适应性的开源通用界面，用于配置和运行蛋白质组学搜索和de novo引擎，目前支持X! Tandem、MyriMatch、MS Amanda、MS-GF+、OMSSA、Comet、Tide、Andromeda、MetaMorpheus、Sage、Novor和DirecTag。
-* [Bio-Formats](https://github.com/ome/bioformats)：用于读取和写入生命科学图像文件格式数据的Java库。
-* [Bio4j](https://github.com/bio4j/bio4j)：一个生物信息学图数据平台，集成了Uniprot KB(SwissProt+Trembl)、Gene Ontology、UniRef(50,90,100)、NCBI Taxonomy和Expasy Enzyme DB中的大部分可用数据。
-* [libSBOLj](https://github.com/SynBioDex/libSBOLj)：合成生物学开放语言Java库。
-* [GBIF Integrated Publishing Toolkit](https://github.com/gbif/ipt)：由全球生物多样性信息设施提供的免费开源软件工具，用于通过GBIF网络发布和共享生物多样性数据集。
+* [Jannovar](https://github.com/charite/jannovar)：Java中的功能变体文件注释，Jannovar提供了一个用于VCF文件注释的程序，并通过库API公开其功能，由柏林计算生物学开源。
+* [SIRIUS](https://github.com/boecker-lab/sirius-libs)：用Java编写的用于小分子分子式识别的代谢组学质谱框架，由耶拿大学开源。
+* [PeptideShaker](https://github.com/compomics/peptide-shaker)：PeptideShaker是一个独立于搜索引擎的平台，用于解释来自多个搜索和de novo引擎的蛋白质组学鉴定结果，由根特大学开源。
+* [OME](https://github.com/ome/openmicroscopy)：OME开发用于存储和操作生物光学显微镜数据的开源软件和数据格式标准，是欧洲和美国大学、研究机构和行业之间的联合项目。
+* [SearchGUI](https://github.com/compomics/searchgui)：SearchGUI是一个高度适应性的开源通用界面，用于配置和运行蛋白质组学搜索和de novo引擎，由根特大学开源。
+* [Bio-Formats](https://github.com/ome/bioformats)：Bio-Formats是一个独立的Java库，用于读取和写入生命科学图像文件格式，由开放显微镜环境联盟开发，其中包括威斯康星大学麦迪逊分校、邓迪大学等开发团队。
+* [Bio4j](https://github.com/bio4j/bio4j)：Bio4j是一个生物信息学图数据平台，集成了Uniprot KB(SwissProt+Trembl)、Gene Ontology、UniRef(50,90,100)、NCBI Taxonomy和Expasy Enzyme DB中的大部分可用数据。
+* [LibSBOLj](https://github.com/SynBioDex/libSBOLj)：LibSBOLj为合成生物学开放语言(SBOL)提供核心Java接口及其实现。
+* [GBIF IPT](https://github.com/gbif/ipt)：IPT是由全球生物多样性信息设施(GBIF)提供的免费开源软件工具，用于通过GBIF网络发布和共享生物多样性数据集。
 * [Tetrad](https://github.com/cmu-phil/tetrad)：Tetrad是一款拥有30年历史的免费工具，用于分析因果系统，根据已知的数据和因果操作推断“什么导致什么”。由CMU大学哲学系开发，并在美国国立卫生研究院与匹兹堡大学生物信息学系的支持下进行了改进。
-* [BEAST](https://github.com/beast-dev/beast-mcmc)：BEAST是一个使用MCMC对分子序列进行贝叶斯分析的跨平台程序。
-* [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
-* [MZmine 3](https://github.com/mzmine/mzmine3)：MZmine是一款用于质谱数据处理的开源软件。
-* [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能。
-* [JNBIS](https://github.com/mhshams/jnbis)：NIST生物识别图像软件(NBIS)的Java实现。
+* [MZmine 3](https://github.com/mzmine/mzmine3)：MZmine是一款用于质谱数据处理的开源软件，由芬兰VTT技术研究中心、图尔库生物技术中心开源。
+* [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能，由Eclipse科学工作组开源。
+* [JNBIS](https://github.com/mhshams/jnbis)：JNBIS是一个用Java编写的库，用于提取和解码NIST(美国国家标准与技术研究所)压缩文件和WSQ(小波标量量化)图像。
 * [MesquiteCore](https://github.com/MesquiteProject/MesquiteCore)：Mesquite是一款模块化、可扩展的进化生物学软件，旨在帮助生物学家组织和分析有关生物体的比较数据。
 * [Bacting](https://github.com/egonw/bacting)：Bacting是一个基于Bioclipse的化学和生物信息学开源平台，它定义了许多公共领域对象并包装了公共功能，提供了一个独立于工具包的、可编写脚本的解决方案来处理来自生命科学的数据。
-* [BridgeDb](https://github.com/bridgedb/BridgeDb)：BridgeDb是一个在各种生物数据库和相关资源之间映射标识符的框架。
+* [BridgeDb](https://github.com/bridgedb/BridgeDb)：BridgeDb是一个在各种生物数据库和相关资源之间映射标识符的框架，由曼彻斯特大学、赫瑞瓦特大学、马斯特里赫特大学开源。
 * [Wildbook](https://github.com/WildMeOrg/Wildbook)：Wildbook是一个开源软件框架，支持标记重新捕获、分子生态学和社会生态学研究。
 * [JSBML](https://github.com/sbmlteam/jsbml)：JSBML是一个社区驱动的项目，旨在创建一个免费、开源、纯Java库，用于读取、写入和操作SBML文件和数据流。
 * [BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/)：BBTools是一套快速、多线程生物信息学工具，专为分析DNA和RNA序列数据而设计。
-* [JTreeview](https://jtreeview.sourceforge.net/)：PCL或CDT格式的微阵列数据的开源、可扩展查看器。
-* [Biogenesis](https://biogenesis.sourceforge.net/)：Biogenesis是一个人工生命程序，模拟生物体进化过程，它显示了在2D环境中突变和进化的基于彩色片段的生物体。
+* [Dockstore](https://github.com/dockstore/dockstore)：Dockstore是一个免费的开源平台，用于共享可重用且可扩展的分析工具和工作流程，由癌症基因组合作实验室开源
 * [BioFormats2Raw](https://github.com/glencoesoftware/bioformats2raw)：Bio-Formats图像文件格式到原始格式转换器。
+* [Icy](https://gitlab.pasteur.fr/bia/icy)：Icy是一款图像分析软件，主要面向生物图像的分析，由巴斯德研究所开源。
+* [OpenChrom](https://github.com/Openchrom/openchrom)：OpenChrom是Lablicate GmbH开发的一款用于分析和可视化质谱和色谱数据的开源工具。
+* [MOLGENIS](https://github.com/molgenis/systemsgenetics)：MOLGENIS是一个协作开源项目，其使命是为生命科学研究生成出色的软件基础设施，由格罗宁根大学开源。
 
 ## 基因组学
 
-* [cBioPortal](https://github.com/cBioPortal/cbioportal)：提供大规模癌症基因组学数据集的可视化、分析和下载。
-* [IGV](https://github.com/igvteam/igv)：综合基因组学查看器，快速、高效、可扩展的基因组数据和注释可视化工具。
-* [HTSJDK](https://github.com/samtools/htsjdk)：用于访问用于高通量测序数据的常见文件格式，例如SAM和VCF，还有许多有用的实用程序可用于操作HTS数据。
-* [GRIDSS](https://github.com/PapenfussLab/gridss)：一个模块软件套件，包含可用于检测基因组重排的工具。GRIDSS包括一个全基因组断裂末端组装程序，以及一个用于Illumina测序数据的结构变异调用程序。
-* [Artemis](https://github.com/sanger-pathogens/Artemis)：免费的基因组浏览器和注释工具，可实现序列特征、下一代数据和序列背景下的分析结果及其六帧翻译的可视化。
-* [MISO](https://github.com/miso-lims/miso-lims)：适用于小型到大型测序中心的开源LIMS。
-* [OpenCGA](https://github.com/opencb/opencga)：用于基因组学大数据处理和分析的开放计算基因组分析平台。
-* [GORpipe](https://github.com/gorpipe/gor)：基于基因组有序关系架构的工具，允许在并行执行引擎中使用声明性查询语言分析大量基因组和表型表格数据。
-* [Exomiser](https://github.com/exomiser/Exomiser)：可以从全外显子组或全基因组测序数据中查找潜在的致病变异的Java程序。
-* [HMFTools](https://github.com/hartwigmedical/hmftools)：用于分析基因组数据的各种算法。
-* [Cloud-Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台。
+* [cBioPortal](https://github.com/cBioPortal/cbioportal)：cBioPortal提供大规模癌症基因组学数据集的可视化、分析和下载，由纪念斯隆-凯特琳癌症中心、丹娜法伯癌症研究院、毕尔肯大学、多伦多玛格丽特公主癌症中心等组织开源。
 * [DNAnalyzer](https://github.com/VerisimilitudeX/DNAnalyzer)：致力于彻底改变DNA分析领域，目标是使DNA分析工具的使用更加民主化。
-* [IRIDA](https://github.com/phac-nml/irida)：加拿大基因组流行病学综合快速传染病分析平台。
+* [IGV](https://github.com/igvteam/igv)：用于Mac、Windows和Linux的桌面基因组可视化工具，由加州大学圣地亚哥分校、麻省理工学院和哈佛大学开源。
+* [HTSJDK](https://github.com/samtools/htsjdk)：HTSJDK是统一Java库的实现，用于访问用于高通量测序数据的常见文件格式，例如SAM和VCF，由哈佛医学院开源。
+* [GRIDSS](https://github.com/PapenfussLab/gridss)：GRIDSS是一个模块软件套件，包含可用于检测基因组重排的工具，由沃尔特和伊丽莎·霍尔医学研究所开源。
+* [Artemis](https://github.com/sanger-pathogens/Artemis)：Artemis软件是一套用于基因组浏览和注释的软件工具，由威康桑格研究所开源。
+* [MISO](https://github.com/miso-lims/miso-lims)：MISO是一个开源实验室信息管理系统(LIMS)，始于厄勒姆研究所，最近由安大略癌症研究所开发，专门用于跟踪下一代测序实验。
+* [OpenCGA](https://github.com/opencb/opencga)：OpenCGA是一个开源项目，旨在为数百TB甚至PB级的基因组规模数据分析提供大数据存储引擎和分析框架，由剑桥大学计算生物学开源。
+* [GORpipe](https://github.com/gorpipe/gor)：GORpipe是一种基于基因组有序关系架构的工具，允许在并行执行引擎中使用声明性查询语言分析大量基因组和表型表格数据，由Genuity Science开发。
+* [Exomiser](https://github.com/exomiser/Exomiser)：Exomiser是一个Java程序，可以从全外显子组或全基因组测序数据中查找潜在的致病变异，由柏林夏里特大学、桑格研究所开发。
+* [HMFTools](https://github.com/hartwigmedical/hmftools)：该存储库包含哈特维格医学基金会全基因组、靶向DNA和全转录组分析流程中使用的工具套件。
+* [Cloud-Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台。
+* [IRIDA](https://github.com/phac-nml/irida)：IRIDA是加拿大基因组流行病学综合快速传染病分析平台。
 * [SnpEff](https://github.com/pcingola/SnpEff)：基因组变异注释和功能效果预测工具包。
-* [PharmCAT](https://github.com/PharmGKB/PharmCAT)：一种从遗传数据集(以VCF文件表示)中提取所有CPIC指南基因变异、解释变异等位基因并生成报告的工具。
-* [NGB](https://github.com/epam/NGB)：一种基于Web的NGS数据查看器，具有独特的结构变异(SV)可视化功能、高性能、可扩展性和云数据支持。
-* [Cellbase](https://github.com/opencb/cellbase)：Cellbase是一个集中式数据库，集成了来自多个主要基因组和生物数据库的大量信息，用于基因组注释和临床变异优先级排序。
-* [VarSim](https://github.com/bioinform/varsim)：用于癌症应用的高通量基因组测序的高保真模拟验证框架。
-* [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序。
-* [BRIG](https://github.com/happykhan/BRIG)：BRIG是一个跨平台应用程序，可以显示大量基因组之间的循环比较，重点是处理基因组组装数据。
+* [PharmCAT](https://github.com/PharmGKB/PharmCAT)：一种从遗传数据集(以VCF文件表示)中提取所有CPIC指南基因变异、解释变异等位基因并生成报告的工具，由斯坦福大学和宾夕法尼亚大学维护。
+* [NGB](https://github.com/epam/NGB)：NGB是一种基于Web的NGS数据查看器，具有独特的结构变异(SV)可视化功能、高性能、可扩展性和云数据支持。
+* [Cellbase](https://github.com/opencb/cellbase)：Cellbase是一个集中式数据库，集成了来自多个主要基因组和生物数据库的大量信息，用于基因组注释和临床变异优先级排序，由剑桥大学计算生物学开源。
+* [VarSim](https://github.com/bioinform/varsim)：VarSim是用于癌症应用的高通量基因组测序的高保真模拟验证框架，由罗氏开源。
+* [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序，由巴布拉汉姆研究所生物信息学小组开源。
 * [Osprey](https://github.com/donaldlab/OSPREY3)：OSPREY软件包提供了蛋白质设计工具，这是连续灵活性建模、集成建模和具有可证明保证的算法的独特组合，由杜克大学开源。
 * [FragPipe](https://github.com/Nesvilab/FragPipe)：FragPipe是一个Java GUI，用于一套计算工具，可对基于质谱的蛋白质组数据进行全面分析，由密歇根大学开源。
 * [NGSEP](https://github.com/NGSEP/NGSEPcore)：NGSEP提供了一个对象模型来支持不同类型的DNA高通量测序(HTS)数据分析。
-* [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现。
+* [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现，由FamilySearch开源。
 * [GeneMANIA](https://github.com/GeneMANIA/genemania)：GeneMANIA可以帮助你预测你最喜欢的基因和基因组的功能，由多伦多大学开源。
 
 ## 医疗平台
@@ -4246,6 +4242,8 @@
 
 ## 化学领域
 
+* [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
+* [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能，由Eclipse科学工作组开源。
 * [JChemPaint](https://github.com/JChemPaint/jchempaint)：JChemPaint是使用CDK开发的2D化学结构编辑器和查看器。
 * [OpenChemLib](https://github.com/Actelion/openchemlib)：OpenChemLib是基于Java的框架，提供化学信息学核心功能和用户界面组件。
 * [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
