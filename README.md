@@ -95,6 +95,7 @@
 - [NoSQL数据库](#NoSQL数据库)
 - [OLAP数据库](#OLAP数据库)
 - [其他数据库](#其他数据库)
+- [Datalog数据库](#Datalog数据库)
 - [存储引擎](#存储引擎)
 - [数据库迁移](#数据库迁移)
 - [数据源增强](#数据源增强)
@@ -1235,6 +1236,7 @@
 * [Clojure](https://github.com/clojure/clojure)：Lisp编程语言在Java平台上的现代、动态及函数式方言。
 * [Jython](https://github.com/jython/jython)：用于Java平台的Python。
 * [JRuby](https://github.com/jruby/jruby)：Ruby语言在JVM上的实现。
+* [DDlog](https://github.com/vmware/differential-datalog)：DDlog是一种用于增量计算的编程语言，它非常适合编写不断更新输出以响应输入变化的程序，由VMware开源。
 * [Eta](https://github.com/typelead/eta)：Haskell的一种方言，运行在JVM上。
 * [Flix](https://github.com/flix/flix)：一种静态类型函数式、命令式和逻辑编程语言。
 * [Eclipse Golo](https://github.com/eclipse-archived/golo-lang)：JVM的轻量级动态语言。
@@ -2035,8 +2037,8 @@
 
 ## 消息传递
 
-* [Apache Kafka](https://github.com/apache/kafka)：Apache Kafka是一个开源分布式事件流平台，已被数千家公司用于高性能数据管道、流分析、数据集成和关键任务应用程序，由领英开源。
-* [Apache Pulsar](https://github.com/apache/pulsar)：Apache Pulsar是一个分布式Pub-Sub消息传递平台，具有非常灵活的消息传递模型和直观的客户端API，由雅虎开源。
+* [Apache Kafka](https://github.com/apache/kafka)：Apache Kafka是一个开源分布式事件流平台，已被数千家公司用于高性能数据管道、流分析、数据集成和关键任务应用程序，由LinkedIn开源。
+* [Apache Pulsar](https://github.com/apache/pulsar)：Apache Pulsar是一个分布式Pub-Sub消息传递平台，具有非常灵活的消息传递模型和直观的客户端API，由Yahoo开源。
 * [Apache ActiveMQ](https://github.com/apache/activemq)：Apache ActiveMQ是一个高性能的消息代理。
 * [Apache RocketMQ](https://github.com/apache/rocketmq)：Apache RocketMQ是一个分布式消息和流媒体平台，具有低延迟、高性能和可靠性、万亿级容量和灵活的可扩展性，由阿里开源。
 * [Apache ActiveMQ Artemis](https://github.com/apache/activemq-artemis)：ActiveMQ Artemis是Apache ActiveMQ的下一代消息代理。
@@ -2045,7 +2047,8 @@
 * [JeroMQ](https://github.com/zeromq/jeromq)：ZeroMQ的Java版本。
 * [AutoMQ](https://github.com/AutoMQ)：AutoMQ是基于云原生重新设计的新一代Kafka发行版，由阿里提供。
 * [DDMQ](https://github.com/didi/DDMQ)：DDMQ是滴滴基础设施团队基于Apache RocketMQ打造的分布式消息产品。
-* [JGroups](https://github.com/belaban/JGroups)：JGroups是一个用于可靠消息传递的工具包，它可用于创建节点可以相互发送消息的集群。
+* [JGroups](https://github.com/belaban/JGroups)：JGroups是一个用于可靠消息传递的工具包，它可用于创建节点可以相互发送消息的集群，由RedHat开源。
+* [Kestrel](https://github.com/twitter-archive/kestrel)：Kestrel是一个简单分布式消息队列，增加了Actor和JVM提供的可扩展性，由Twitter开源。
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架。
 * [JoyQueue](https://github.com/jd-opensource/joyqueue)：JoyQueue是一个性能卓越的云原生生产就绪消息平台，由京东开源。
 * [HornetQ](https://github.com/hornetq/hornetq)：HornetQ是一个开源项目，用于构建多协议、可嵌入、高性能、集群、异步消息传递系统，由JBoss社区开发。
@@ -2247,6 +2250,7 @@
 * [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
 * [HGraphDB](https://github.com/rayokota/hgraphdb)：HGraphDB是使用HBase作为图数据库的客户端层。
 * [Apache S2Graph](https://github.com/apache/incubator-s2graph)：S2Graph是一个基于Apache HBase构建的分布式、可扩展的OLTP图数据库，支持超大图的快速遍历。
+* [Fluree](https://github.com/fluree/db)：Fluree是一个不可变、时态、账本支持的语义图数据库，具有云原生架构。
 
 #### 键值存储
 
@@ -2265,6 +2269,7 @@
 * [PalDB](https://github.com/linkedin/PalDB)：PalDB是一个用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
 * [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
 * [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆，由LinkedIn开源。
+* [SwayDB](https://github.com/simerplaha/SwayDB)：用于JVM的持久内存键值存储引擎，旨在实现高性能和资源效率。
 
 #### 时序数据库
 
@@ -2356,6 +2361,7 @@
 
 #### 其他数据库
 
+* [XTDB](https://github.com/xtdb/xtdb)：XTDB是一个具有双时态索引的通用数据库。
 * [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
 * [JsonDB](https://github.com/Jsondb/jsondb-core)：JsonDB是一个纯Java数据库，它将数据存储为Json文件。
 * [SnappyData](https://github.com/TIBCOSoftware/snappydata)：SnappyData是一个分布式、内存优化分析数据库。
@@ -2366,6 +2372,11 @@
 * [EmoDB](https://github.com/bazaarvoice/emodb)：EmoDB是一个RESTful HTTP服务器，用于存储JSON对象并监视这些事件的更改，由Bazaarvoice开源。
 * [RSQLDB](https://github.com/alibaba/rsqldb)：RSQLDB是一个基于RocketMQ的流处理数据库，由阿里开源。
 * [Apollo Delphinius](https://github.com/salesforce/apollo)：Apollo Delphinius项目是一个实验性多租户分布式系统平台，由Salesforce开源。
+
+#### Datalog数据库
+
+* [Datalevin](https://github.com/juji-io/datalevin)：Datalevin是一个简单持久的Datalog数据库。
+* [Datahike](https://github.com/replikativ/datahike)：Datahike是一个持久的Datalog数据库，由高效的Datalog查询引擎提供支持。
 
 ## 存储引擎
 
@@ -2637,6 +2648,7 @@
 * [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云即时消息服务。
 * [CIM](https://github.com/crossoverJie/cim)：一款面向开发者的IM(即时通讯)系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
 * [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
+* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
 * [MPush](https://github.com/mpusher/mpush)：开源实时消息推送系统。
 * [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty + TCP + Protobuf实现的Android IM库。
 * [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
@@ -3071,7 +3083,6 @@
 * [Fibry](https://github.com/lucav76/Fibry)：第一个支持Project Loom协程的Java Actor系统。
 * [XOOM Actor](https://github.com/vlingo/xoom-actors)：用于类型安全Actor模型的VLINGO XOOM平台SDK，使用Java和其他JVM语言提供响应式并发、高可扩展性、高吞吐量和弹性。
 * [JActor](https://github.com/laforge49/JActor)：Java的Actor库。
-* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
 * [Kontraktor](https://github.com/RuedigerMoeller/kontraktor)：由分布式Actor模型提供支持的异步远程通信的无样板且一致的抽象。
 * [Actr](https://github.com/zakgof/actr)：简单、快速且类型安全的Java Actor模型实现。
 * [Ptolemy II](https://github.com/icyphy/ptII)：由一组支持异构并发建模和设计的Java包组成。
@@ -4843,6 +4854,7 @@
 * [Heritrix](https://github.com/internetarchive/heritrix3)：Heritrix是互联网档案馆的开源、可扩展、网络规模、档案质量的网络爬虫项目。
 * [Gecco](https://github.com/xtuhcy/gecco)：Gecco集成了Jsoup、HttpClient、FastJson、Spring、HtmlUnit、Redission框架，让你只需要配置一些JQuery风格的选择器就可以非常快速的编写一个爬虫。
 * [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：SeimiCrawler是一个敏捷、独立部署、支持分布式的Java爬虫框架。
+* [NewPipe Extractor](https://github.com/TeamNewPipe/NewPipeExtractor)：NewPipe Extractor是一个用于从流媒体站点中提取内容的库。
 * [Apache ManifoldCF](https://github.com/apache/manifoldcf)：Apache ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
 * [FS-Crawler](https://github.com/dadoonet/fscrawler)：该爬虫有助于索引二进制文档，例如PDF、Open Office、MS Office。
 * [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，它提供了一些简单的网络爬虫接口。
@@ -5879,6 +5891,7 @@
 
 * [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
 * [Chat2DB](https://github.com/chat2db/Chat2DB)：智能的通用数据库SQL客户端和报表工具，由阿里开源。
+* [MDUT](https://github.com/SafeGroceryStore/MDUT)：MDUT是一款集成了多种主流数据库类型的中文数据库跨平台利用工具。
 * [Jailer](https://github.com/Wisser/Jailer)：数据库子集和关系数据浏览工具。
 * [RedisClient](https://github.com/caoxinyu/RedisClient)：基于Java SWT和Jedis编写的Redis客户端GUI工具。
 * [Redis-Admin](https://github.com/mauersu/redis-admin)：基于Java EE和Jedis编写的Redis客户端Web工具。
@@ -5977,6 +5990,7 @@
 #### 游戏开发
 
 * [LibGDX](https://github.com/libgdx/libgdx)：LibGDX是一个基于OpenGL的跨平台Java游戏开发框架，专为Windows、Linux、macOS、Android、Web浏览器和iOS设计。
+* [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
 * [LWJGL](https://github.com/LWJGL/lwjgl3)：LWJGL是一个Java库，支持跨平台访问流行的原生API，可用于图形(OpenGL、Vulkan、bgfx)、音频(OpenAL、Opus)、并行计算(OpenCL、CUDA)和XR(OpenVR、LibOVR、OpenXR)应用程序。
 * [Grasscutter](https://github.com/Grasscutters/Grasscutter)：Grasscutter是一个实验性游戏服务器，旨在模拟玩某个动漫游戏的体验。
 * [FXGL](https://github.com/AlmasB/FXGL)：Java/JavaFX/Kotlin游戏引擎库。
